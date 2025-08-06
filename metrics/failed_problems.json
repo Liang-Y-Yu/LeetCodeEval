@@ -1,0 +1,30 @@
+[
+  {
+    "file": "maximum-subsequence-score.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 26,
+    "cyclomatic_complexity": 3,
+    "duplication_score": 0,
+    "problem_id": "2636",
+    "title": "Maximum Subsequence Score",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "total-cost-to-hire-k-workers.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 40,
+    "cyclomatic_complexity": 7,
+    "duplication_score": 0,
+    "problem_id": "2553",
+    "title": "Total Cost to Hire K Workers",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

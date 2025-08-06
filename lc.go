@@ -10,9 +10,9 @@ import (
 	"path"
 	"slices"
 	"strings"
+	"time"
 
 	cloudflarebp "github.com/DaRealFreak/cloudflare-bp-go"
-	browser "github.com/EDDYCJY/fake-useragent"
 	"github.com/browserutils/kooky"
 	_ "github.com/browserutils/kooky/browser/chrome"
 	_ "github.com/browserutils/kooky/browser/firefox"
@@ -250,9 +250,21 @@ func newHeader() http.Header {
 	}
 
 	return http.Header{
-		"Content-Type": {"application/json"},
-		"User-Agent":   {browser.Firefox()},
-		"X-Csrftoken":  {token},
+		"Content-Type":                 {"application/json"},
+		"User-Agent":                   {"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
+		"X-Csrftoken":                  {token},
+		"Accept":                       {"application/json, text/plain, */*"},
+		"Accept-Language":              {"en-US,en;q=0.9"},
+		"Accept-Encoding":              {"gzip, deflate, br"},
+		"Connection":                   {"keep-alive"},
+		"Sec-Fetch-Dest":              {"empty"},
+		"Sec-Fetch-Mode":              {"cors"},
+		"Sec-Fetch-Site":              {"same-origin"},
+		"Sec-Ch-Ua":                   {`"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"`},
+		"Sec-Ch-Ua-Mobile":            {"?0"},
+		"Sec-Ch-Ua-Platform":          {`"Linux"`},
+		"Cache-Control":               {"no-cache"},
+		"Pragma":                      {"no-cache"},
 	}
 }
 
@@ -260,6 +272,7 @@ func client() *http.Client {
 	client := http.DefaultClient
 	client.Transport = newTransport()
 	client.Jar = cookieJar()
+	client.Timeout = 30 * time.Second
 
 	return client
 }

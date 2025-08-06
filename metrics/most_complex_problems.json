@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Minimum Genetic Mutation",
+    "problem_id": "433",
+    "cyclomatic_complexity": 13,
+    "lines_of_code": 42,
+    "status": "Accepted"
+  },
+  {
+    "title": "Course Schedule II",
+    "problem_id": "210",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 40,
+    "status": "Accepted"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "problem_id": "4",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "3Sum",
+    "problem_id": "15",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Edit Distance",
+    "problem_id": "72",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 32,
+    "status": "Accepted"
+  },
+  {
+    "title": "Evaluate Division",
+    "problem_id": "399",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "Basic Calculator",
+    "problem_id": "224",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "problem_id": "188",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 23,
+    "status": "Accepted"
+  },
+  {
+    "title": "Isomorphic Strings",
+    "problem_id": "205",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 24,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Window Substring",
+    "problem_id": "76",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 39,
+    "status": "Accepted"
+  }
+]
