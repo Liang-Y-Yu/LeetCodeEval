@@ -2,15 +2,77 @@ package main
 
 import (
 	"bytes"
+	"compress/flate"
+	"compress/gzip"
+	"compress/zlib"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
 	"net/http"
 	"time"
 	"whisk/leetgptsolver/pkg/throttler"
 
+	"github.com/andybalholm/brotli"
 	"github.com/rs/zerolog/log"
 )
+
+// decompressResponse handles LeetCode's specific compression format
+func decompressResponse(data []byte) ([]byte, error) {
+	// Check if data is empty
+	if len(data) < 2 {
+		return data, nil
+	}
+	
+	// Try gzip first (0x1f, 0x8b)
+	if data[0] == 0x1f && data[1] == 0x8b {
+		reader, err := gzip.NewReader(bytes.NewReader(data))
+		if err == nil {
+			defer reader.Close()
+			if decompressed, err := io.ReadAll(reader); err == nil {
+				return decompressed, nil
+			}
+		}
+	}
+	
+	// Try brotli decompression (common for modern web responses)
+	brotliReader := brotli.NewReader(bytes.NewReader(data))
+	if decompressed, err := io.ReadAll(brotliReader); err == nil && len(decompressed) > 0 {
+		trimmed := bytes.TrimSpace(decompressed)
+		if len(trimmed) > 0 && (trimmed[0] == '{' || trimmed[0] == '[') {
+			log.Debug().Msgf("Successfully decompressed with brotli: %d -> %d bytes", len(data), len(decompressed))
+			return decompressed, nil
+		}
+	}
+	
+	// Try zlib format
+	if zlibReader, err := zlib.NewReader(bytes.NewReader(data)); err == nil {
+		defer zlibReader.Close()
+		if decompressed, err := io.ReadAll(zlibReader); err == nil && len(decompressed) > 0 {
+			trimmed := bytes.TrimSpace(decompressed)
+			if len(trimmed) > 0 && (trimmed[0] == '{' || trimmed[0] == '[') {
+				log.Debug().Msgf("Successfully decompressed with zlib: %d -> %d bytes", len(data), len(decompressed))
+				return decompressed, nil
+			}
+		}
+	}
+	
+	// Try raw deflate decompression (no wrapper)
+	if deflateReader := flate.NewReader(bytes.NewReader(data)); deflateReader != nil {
+		defer deflateReader.Close()
+		if decompressed, err := io.ReadAll(deflateReader); err == nil && len(decompressed) > 0 {
+			trimmed := bytes.TrimSpace(decompressed)
+			if len(trimmed) > 0 && (trimmed[0] == '{' || trimmed[0] == '[') {
+				log.Debug().Msgf("Successfully decompressed with raw deflate: %d -> %d bytes", len(data), len(decompressed))
+				return decompressed, nil
+			}
+		}
+	}
+	
+	// If all decompression attempts fail, return original data
+	log.Debug().Msgf("All decompression attempts failed, returning original data")
+	return data, nil
+}
 
 type InvalidCodeError struct {
 	error
@@ -152,8 +214,11 @@ func submitCode(url string, subReq SubmitRequest) (uint64, error) {
 	for leetcodeThrottler.Wait() && i < maxRetries {
 		i += 1
 
+		// Add small delay to appear more human-like
+		time.Sleep(2 * time.Second)
+
 		var code int
-		respBody, code, err = makeAuthorizedHttpRequest("POST", url, &reqBody)
+		respBody, code, err = makeEnhancedAuthorizedHttpRequest("POST", url, &reqBody)
 		leetcodeThrottler.Touch()
 		log.Trace().Msgf("submission response body:\n%s", string(respBody))
 		if code == http.StatusBadRequest || code == 403 || code == 499 {
@@ -212,11 +277,24 @@ func checkStatus(url string) (*CheckResponse, error) {
 	for leetcodeThrottler.Wait() && i < maxRetries {
 		i += 1
 		log.Trace().Msgf("checking submission status (%d/%d)...", i, maxRetries)
-		respBody, code, err := makeAuthorizedHttpRequest("GET", url, bytes.NewReader([]byte{}))
+		respBody, code, err := makeEnhancedAuthorizedHttpRequest("GET", url, bytes.NewReader([]byte{}))
 		leetcodeThrottler.Touch()
-		log.Trace().Msgf("Check response body: %s", string(respBody))
+		
+		// Decompress response if it's gzipped
+		if len(respBody) >= 2 {
+			log.Debug().Msgf("Response starts with: %02x %02x", respBody[0], respBody[1])
+		}
+		decompressedBody, decompErr := decompressResponse(respBody)
+		if decompErr != nil {
+			log.Warn().Err(decompErr).Msg("Failed to decompress response, using original")
+			decompressedBody = respBody
+		} else if len(decompressedBody) != len(respBody) {
+			log.Debug().Msgf("Successfully decompressed response from %d to %d bytes", len(respBody), len(decompressedBody))
+		}
+		
+		log.Trace().Msgf("Check response body: %s", string(decompressedBody))
 		if code == http.StatusBadRequest || code == 403 || code == 499 {
-			err_message := string(respBody)
+			err_message := string(decompressedBody)
 			if len(err_message) > 80 {
 				err_message = err_message[:80] + "..."
 			}
@@ -228,7 +306,7 @@ func checkStatus(url string) (*CheckResponse, error) {
 			continue
 		}
 
-		err = json.Unmarshal(respBody, &checkResp)
+		err = json.Unmarshal(decompressedBody, &checkResp)
 		if err != nil {
 			return nil, fmt.Errorf("failed to unmarshal check response: %w", err)
 		}

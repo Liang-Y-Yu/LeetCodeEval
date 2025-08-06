@@ -194,7 +194,6 @@ func promptAzureOpenAi(q Question, modelName string, params string) (*Solution, 
 	if options.UseGateway {
 		// Use gateway configuration with Azure AD authentication
 		config := openai.DefaultConfig("")
-		// Use the correct URL format for the Ericsson gateway
 		config.BaseURL = fmt.Sprintf("%s/generativeai-model/v1/azure/openai/deployments/%s", 
 			options.GatewayURL, options.AzureModel)
 		

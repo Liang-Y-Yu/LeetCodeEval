@@ -20,9 +20,27 @@ go.work
 # backups
 *.bak
 
+# LeetCode authentication
+~/.config/leetcode/
+cookie
+csrf
+
+# Personal data
+**/personal/
+**/private/
+
+# API keys and secrets
+*.key
+*.pem
+secrets/
+
+# API keys and secrets
+*.key
+*.pem
+secrets/
+
 # project specific files
-experiments
-problems
-problems/*.json
+leetgptsolver
 config.yaml
+config.production
 
