@@ -3,7 +3,7 @@
 A tool for evaluating code quality and performance of Large Language Models (LLMs) on LeetCode coding interview problems.
 This repository includes automated problem downloading, solution generation, submission to LeetCode, and metrics analysis.
 
-## 🚀 Quick Start
+## <a id="quick-start"></a>🚀 Quick Start
 
 ### Prerequisites
 - Go 1.19+ installed
@@ -26,21 +26,23 @@ This repository includes automated problem downloading, solution generation, sub
    ```bash
    # Step-by-step complete evaluation
    go run . download 1 15 71 200        # Download problems
-   go run . prompt --model gpt-4o    # Generate solutions  
+   go run . prompt --model gpt-4o       # Generate solutions
    ./submit_all_solutions.sh            # Submit to LeetCode
    ./extract-metrics.sh                 # Analyze results
    ```
 
 ## 📋 Table of Contents
-- [Configuration](#configuration)
-- [LeetCode Authentication](#leetcode-authentication)
-- [Core Commands](#core-commands)
-- [Automated Scripts](#automated-scripts)
-- [Metrics Analysis](#metrics-analysis)
-- [File Structure](#file-structure)
-- [Troubleshooting](#troubleshooting)
+- [🚀 Quick Start](#quick-start)
+- [⚙️ Configuration](#configuration)
+- [🔐 LeetCode Authentication](#leetcode-authentication)
+- [🛠️ Core Commands](#core-commands)
+- [🤖 Automated Scripts](#automated-scripts)
+- [📊 Metrics Analysis](#metrics-analysis)
+- [📁 File Structure](#file-structure)
+- [🔧 Troubleshooting](#troubleshooting)
+- [📈 Example Workflow](#example-workflow)
 
-## ⚙️ Configuration
+## <a id="configuration"></a>⚙️ Configuration
 
 ### Supported LLM Providers
 - **OpenAI** (GPT-4)
@@ -69,7 +71,7 @@ use_gateway: true
 gateway_url: "https://your-gateway-url.com"
 ```
 
-## 🔐 LeetCode Authentication
+## <a id="leetcode-authentication"></a>🔐 LeetCode Authentication
 
 The tool requires LeetCode session cookies to submit solutions.
 
@@ -91,7 +93,7 @@ For headless environments or when browser cookies aren't accessible:
    echo "your_csrf_token_value" > ~/.config/leetcode/csrf
    ```
 
-## 🛠️ Core Commands
+## <a id="core-commands"></a>🛠️ Core Commands
 
 ### Download Problems
 ```bash
@@ -168,7 +170,7 @@ go run . list --print '.Question.Data.Question.Title'
 go run . list --header=false
 ```
 
-## 🤖 Automated Scripts
+## <a id="automated-scripts"></a>🤖 Automated Scripts
 
 ### Complete Evaluation Pipeline
 ```bash
@@ -185,7 +187,7 @@ go run . prompt --model gpt-4o       # Generate solutions
 ./submit_all_solutions.sh
 ```
 
-## 📊 Metrics Analysis
+## <a id="metrics-analysis"></a>📊 Metrics Analysis
 
 The `extract-metrics.sh` script generates comprehensive analysis in the `metrics/` folder:
 
@@ -238,7 +240,7 @@ cat datasets/leetcode_dataset.jsonl | jq '.code_snippets[] | select(.lang == "py
 cat datasets/leetcode_dataset.jsonl | jq -r '.category' | sort | uniq -c
 ```
 
-## 📁 File Structure
+## <a id="file-structure"></a>📁 File Structure
 
 ```
 LeetCodeEval/
@@ -270,7 +272,7 @@ LeetCodeEval/
     └── leetcode_dataset.jsonl         # Hugging Face compatible dataset
 ```
 
-## 🔧 Troubleshooting
+## <a id="troubleshooting"></a>🔧 Troubleshooting
 
 ### Debug Mode
 ```bash
@@ -293,7 +295,7 @@ go run . prompt --model gpt-4o -f
 go run . submit --model gpt-4o -f
 ```
 
-## 📈 Example Workflow
+## <a id="example-workflow"></a>📈 Example Workflow
 
 Here's a complete example of evaluating GPT-4o on LeetCode problems:
 
@@ -326,4 +328,4 @@ cat metrics/failed_problems.json | jq '.[] | {title, status}'
 
 ---
 
-**Note:** This tool is for research purposes. Please respect LeetCode's terms of service and rate limits.
+**Note:** This tool is for research purposes.
