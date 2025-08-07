@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"compress/gzip"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -14,9 +15,18 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/andybalholm/brotli"
 	"github.com/gocolly/colly"
 	"github.com/rs/zerolog/log"
 )
+
+// Helper function for min
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
 
 // used only to scrap question content
 type QuestionSlug struct {
@@ -203,12 +213,89 @@ func downloadQuestions(slugs []QuestionSlug, dstDir string, overwrite bool) int 
 		log.Debug().Msgf("%s %s %s %d", r.Request.Method, r.Request.URL, r.Ctx.Get("dstFile"), r.StatusCode)
 		log.Trace().Msg(string(r.Body))
 
-		var problem Problem
-		err := json.Unmarshal(r.Body, &problem.Question)
+		// Handle gzip/brotli decompression if needed
+		bodyBytes := r.Body
+		contentEncoding := r.Headers.Get("Content-Encoding")
+		
+		// Manual decompression if the client didn't handle it
+		if contentEncoding == "gzip" {
+			log.Debug().Msg("Manually decompressing gzip response")
+			reader, err := gzip.NewReader(bytes.NewReader(bodyBytes))
+			if err != nil {
+				log.Err(err).Msg("failed to create gzip reader")
+				return
+			}
+			defer reader.Close()
+			
+			decompressed, err := io.ReadAll(reader)
+			if err != nil {
+				log.Err(err).Msg("failed to decompress gzip response")
+				return
+			}
+			bodyBytes = decompressed
+		} else if contentEncoding == "br" {
+			log.Debug().Msg("Manually decompressing brotli response")
+			reader := brotli.NewReader(bytes.NewReader(bodyBytes))
+			
+			decompressed, err := io.ReadAll(reader)
+			if err != nil {
+				log.Err(err).Msg("failed to decompress brotli response")
+				return
+			}
+			bodyBytes = decompressed
+		}
+
+		// GraphQL responses are wrapped in a data field
+		var graphqlResponse struct {
+			Data struct {
+				Question struct {
+					FrontendId       string `json:"questionFrontendId"`
+					Id               string `json:"questionId"`
+					Content          string
+					SampleTestCase   string
+					ExampleTestcases string
+					Difficulty       string
+					Title            string
+					TitleSlug        string
+					IsPaidOnly       bool
+					Stats            string
+					Likes            int
+					Dislikes         int
+					FreqBar          float64
+					CategoryTitle    string
+					TopicTags        []struct {
+						Id   string
+						Name string
+						Slug string
+					}
+					CodeSnippets []struct {
+						Lang     string
+						LangSlug string
+						Code     string
+					}
+					CompanyTagStats string
+				} `json:"question"`
+			} `json:"data"`
+			Errors []struct {
+				Message string `json:"message"`
+			} `json:"errors"`
+		}
+		
+		err := json.Unmarshal(bodyBytes, &graphqlResponse)
 		if err != nil {
-			log.Err(err).Msg("failed to unmarshall question from json")
+			log.Err(err).Msgf("failed to unmarshall GraphQL response from json. Response body: %s", string(bodyBytes[:min(500, len(bodyBytes))]))
 			return
 		}
+		
+		// Check for GraphQL errors
+		if len(graphqlResponse.Errors) > 0 {
+			log.Error().Msgf("GraphQL errors: %+v", graphqlResponse.Errors)
+			return
+		}
+		
+		// Create Problem struct with proper nesting
+		var problem Problem
+		problem.Question.Data.Question = graphqlResponse.Data.Question
 		problem.Question.DownloadedAt = time.Now()
 
 		dstFile := r.Ctx.Get("dstFile")

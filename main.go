@@ -135,6 +135,23 @@ func main() {
 	cmdPrompt.PersistentFlags().StringP("model", "m", "", "large language model family name to use")
 	cmdPrompt.PersistentFlags().IntP("retries", "r", 2, "number of retries")
 
+	cmdMultiAgent := &cobra.Command{
+		Use:   "multiagent",
+		Short: "Solve problems using multi-agent approach",
+		Long: `Solve LeetCode problems using a multi-agent system with specialized roles:
+- Problem Analyzer: Analyzes the problem and identifies patterns
+- Solution Designer: Designs the algorithmic approach  
+- Code Executor: Implements the solution code
+- Solution Verifier: Reviews and validates the solution`,
+		Run: func(cmd *cobra.Command, args []string) {
+			viper.BindPFlag("retries", cmd.Flags().Lookup("retries"))
+			viper.Unmarshal(&options)
+			promptMultiAgent(args, cmd.Flag("model").Value.String())
+		},
+	}
+	cmdMultiAgent.PersistentFlags().StringP("model", "m", "", "large language model family name to use")
+	cmdMultiAgent.PersistentFlags().IntP("retries", "r", 2, "number of retries")
+
 	cmdSubmit := &cobra.Command{
 		Use:   "submit",
 		Short: "Submit a solution",
@@ -157,7 +174,7 @@ func main() {
 		},
 	}
 
-	rootCmd.AddCommand(cmdDownload, cmdList, cmdPrompt, cmdSubmit, cmdFix)
+	rootCmd.AddCommand(cmdDownload, cmdList, cmdPrompt, cmdMultiAgent, cmdSubmit, cmdFix)
 
 	if err := rootCmd.Execute(); err != nil {
 		panic(err)
