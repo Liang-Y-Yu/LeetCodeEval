@@ -31,8 +31,10 @@ echo "Found $TOTAL problems to download"
 # Download problems in batches
 COUNT=0
 BATCH_COUNT=0
+BATCH=""
 
-echo "$PROBLEMS" | while read -r slug; do
+# Use process substitution instead of pipe to avoid subshell variable issues
+while read -r slug; do
     if [ -z "$slug" ]; then
         continue
     fi
@@ -49,7 +51,7 @@ echo "$PROBLEMS" | while read -r slug; do
     
     # Process batch when it reaches the batch size or at the end
     if [ $BATCH_COUNT -eq $BATCH_SIZE ] || [ $COUNT -eq $TOTAL ]; then
-        echo "Downloading batch $((COUNT / BATCH_SIZE + 1)) ($COUNT/$TOTAL problems)"
+        echo "Downloading batch $(((COUNT - 1) / BATCH_SIZE + 1)) ($COUNT/$TOTAL problems)"
         go run . download -P $BATCH
         
         # Reset batch
@@ -62,6 +64,6 @@ echo "$PROBLEMS" | while read -r slug; do
             sleep $DELAY
         fi
     fi
-done
+done < <(echo "$PROBLEMS")
 
 echo "Download complete. Downloaded $COUNT problems."

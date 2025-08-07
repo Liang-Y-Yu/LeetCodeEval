@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Basic Calculator",
+    "problem_id": "224",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 54,
+    "status": "Runtime Error"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "problem_id": "4",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "3Sum",
+    "problem_id": "15",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Substring with Concatenation of All Words",
+    "problem_id": "30",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 35,
+    "status": "Time Limit Exceeded"
+  },
+  {
+    "title": "Course Schedule II",
+    "problem_id": "210",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Course Schedule",
+    "problem_id": "207",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Evaluate Division",
+    "problem_id": "399",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Genetic Mutation",
+    "problem_id": "433",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Window Substring",
+    "problem_id": "76",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 39,
+    "status": "Accepted"
+  },
+  {
+    "title": "Perfect Squares",
+    "problem_id": "279",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 23,
+    "status": "Accepted"
+  }
+]
