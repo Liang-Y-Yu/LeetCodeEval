@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Total Cost to Hire K Workers",
+    "problem_id": "2553",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 55,
+    "status": "Wrong Answer"
+  },
+  {
+    "title": "Basic Calculator",
+    "problem_id": "224",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 58,
+    "status": "Wrong Answer"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "problem_id": "4",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "3Sum",
+    "problem_id": "15",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 26,
+    "status": "Accepted"
+  },
+  {
+    "title": "Course Schedule",
+    "problem_id": "207",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "Determine if Two Strings Are Close",
+    "problem_id": "1777",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 28,
+    "status": "Accepted"
+  },
+  {
+    "title": "Evaluate Division",
+    "problem_id": "399",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Is Subsequence",
+    "problem_id": "392",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 31,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Genetic Mutation",
+    "problem_id": "433",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Window Substring",
+    "problem_id": "76",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 38,
+    "status": "Accepted"
+  }
+]

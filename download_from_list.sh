@@ -5,7 +5,7 @@
 
 INPUT_FILE=$1
 BATCH_SIZE=10  # Number of problems to download in each batch
-DELAY=5        # Delay between batches in seconds
+DELAY=1        # Delay between batches in seconds
 
 if [ -z "$INPUT_FILE" ]; then
     echo "Please provide the path to the input file"

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "basic-calculator.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 59,
+    "cyclomatic_complexity": 9,
+    "duplication_score": 0,
+    "problem_id": "224",
+    "title": "Basic Calculator",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "max-number-of-k-sum-pairs.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 18,
+    "cyclomatic_complexity": 3,
+    "duplication_score": 0,
+    "problem_id": "1798",
+    "title": "Max Number of K-Sum Pairs",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "text-justification.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 36,
+    "cyclomatic_complexity": 4,
+    "duplication_score": 0,
+    "problem_id": "68",
+    "title": "Text Justification",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "total-cost-to-hire-k-workers.json",
+    "model": "se-gpt-4o",
+    "language": "python3",
+    "lines_of_code": 45,
+    "cyclomatic_complexity": 13,
+    "duplication_score": 0,
+    "problem_id": "2553",
+    "title": "Total Cost to Hire K Workers",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

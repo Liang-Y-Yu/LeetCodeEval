@@ -1,0 +1,19 @@
+{
+  "total_problems": 149,
+  "problems_by_model": {
+    "gpt-4o": 16,
+    "se-gpt-4o": 133
+  },
+  "acceptance_rate_by_model": {
+    "gpt-4o": 0,
+    "se-gpt-4o": 98.49624060150376
+  },
+  "avg_complexity_by_model": {
+    "gpt-4o": 4.5,
+    "se-gpt-4o": 3.7593984962406015
+  },
+  "avg_loc_by_model": {
+    "gpt-4o": 18.5625,
+    "se-gpt-4o": 19.804511278195488
+  }
+}

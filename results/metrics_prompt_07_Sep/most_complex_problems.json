@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Minimum Genetic Mutation",
+    "problem_id": "433",
+    "cyclomatic_complexity": 13,
+    "lines_of_code": 42,
+    "status": "Accepted"
+  },
+  {
+    "title": "Evaluate Division",
+    "problem_id": "399",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 42,
+    "status": "Accepted"
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "problem_id": "4",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 32,
+    "status": "Accepted"
+  },
+  {
+    "title": "3Sum",
+    "problem_id": "15",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 26,
+    "status": ""
+  },
+  {
+    "title": "3Sum",
+    "problem_id": "15",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Course Schedule II",
+    "problem_id": "210",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Substring with Concatenation of All Words",
+    "problem_id": "30",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 29,
+    "status": "Time Limit Exceeded"
+  },
+  {
+    "title": "Basic Calculator",
+    "problem_id": "224",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 33,
+    "status": ""
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "problem_id": "188",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 23,
+    "status": ""
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "problem_id": "188",
+    "cyclomatic_complexity": 7,
+    "lines_of_code": 23,
+    "status": "Accepted"
+  }
+]

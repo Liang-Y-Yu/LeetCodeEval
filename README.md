@@ -23,15 +23,17 @@ This repository includes automated problem downloading, solution generation, sub
 3. **Set up LeetCode authentication** (see [LeetCode Authentication](#leetcode-authentication))
 
 4. **Run a complete evaluation manually:**
+
    ```bash
    # Step-by-step complete evaluation
-   go run . download 1 15 71 200        # Download problems
-   go run . prompt --model gpt-4o       # Generate solutions
-   ./submit_all_solutions.sh            # Submit to LeetCode
-   ./extract-metrics.sh                 # Analyze results
+   go run . download 1 15 71 200                    # Download problems
+   go run . prompt --model gpt-4o problems/*.json   # Generate solutions
+   ./submit_all_solutions.sh                        # Submit to LeetCode
+   ./extract-metrics.sh                             # Analyze results
    ```
 
 ## 📋 Table of Contents
+
 - [🚀 Quick Start](#quick-start)
 - [⚙️ Configuration](#configuration)
 - [🔐 LeetCode Authentication](#leetcode-authentication)
@@ -76,9 +78,13 @@ gateway_url: "https://your-gateway-url.com"
 The tool requires LeetCode session cookies to submit solutions.
 
 ### Option 1: Browser Cookies (Recommended)
-If you're logged into LeetCode in your browser, the tool will automatically use those cookies.
+
+```bash
+./setup-cookies.sh
+```
 
 ### Option 2: Manual Cookie Setup
+
 For headless environments or when browser cookies aren't accessible:
 
 1. **Get your session cookies:**
@@ -87,6 +93,7 @@ For headless environments or when browser cookies aren't accessible:
    - Copy the values for `LEETCODE_SESSION` and `csrftoken`
 
 2. **Create cookie files:**
+
    ```bash
    mkdir -p ~/.config/leetcode
    echo "your_leetcode_session_value" > ~/.config/leetcode/cookie
@@ -96,6 +103,7 @@ For headless environments or when browser cookies aren't accessible:
 ## <a id="core-commands"></a>🛠️ Core Commands
 
 ### Download Problems
+
 ```bash
 # Download specific problems
 go run . download 1 15 71 200
@@ -105,22 +113,26 @@ go run . download 1 15 71 200
 ```
 
 ### Generate Solutions
+
 ```bash
 # Generate solutions for all downloaded problems
-go run . prompt --model gpt-4o
+go run . prompt --model gpt-4o problems/*.json
 
 # Generate solutions for specific problems
 go run . prompt --model gpt-4o problems/two-sum.json problems/3sum.json
 
 # Use different models
-go run . prompt --model claude-3-sonnet
 go run . prompt --model gemini-pro
 
+# Use multiagents generation
+go run . multiagent --model gpt-4o problems/*.json
+
 # Generate with retries
-go run . prompt --model gpt-4o --retries 3
+go run . prompt --model gpt-4o --retries 3 problems/*.json
 ```
 
 ### Submit Solutions
+
 ```bash
 # Submit all solutions (skips already submitted)
 go run . submit --model gpt-4o
@@ -136,6 +148,7 @@ go run . submit --model gpt-4o --submit_retries=10 --check_retries=15
 ```
 
 ### Extract Metrics
+
 ```bash
 # Generate comprehensive metrics analysis
 ./extract-metrics.sh
@@ -144,6 +157,7 @@ go run . submit --model gpt-4o --submit_retries=10 --check_retries=15
 ```
 
 ### Generate Dataset
+
 ```bash
 # Generate Hugging Face compatible dataset in JSONL format
 ./generate-dataset.sh > datasets/leetcode_dataset.jsonl
@@ -156,6 +170,7 @@ cat datasets/leetcode_dataset.jsonl | jq -r '.difficulty' | sort | uniq -c
 ```
 
 ### List Problems
+
 ```bash
 # List all downloaded problems
 go run . list
@@ -173,18 +188,13 @@ go run . list --header=false
 ## <a id="automated-scripts"></a>🤖 Automated Scripts
 
 ### Complete Evaluation Pipeline
+
 ```bash
 # Manual step-by-step evaluation (no single script available)
-go run . download 1 15 71 200        # Download problems
-go run . prompt --model gpt-4o       # Generate solutions  
-./submit_all_solutions.sh            # Submit to LeetCode
-./extract-metrics.sh                 # Analyze results
-```
-
-### Submit All Solutions
-```bash
-# Submit solutions for all problems with optimal batching
-./submit_all_solutions.sh
+go run . download 1 15 71 200                        # Download problems
+go run . prompt --model gpt-4o problems/*.json       # Generate solutions  
+./submit_all_solutions.sh                            # Submit to LeetCode
+./extract-metrics.sh                                 # Analyze results
 ```
 
 ## <a id="metrics-analysis"></a>📊 Metrics Analysis
@@ -192,6 +202,7 @@ go run . prompt --model gpt-4o       # Generate solutions
 The `extract-metrics.sh` script generates comprehensive analysis in the `metrics/` folder:
 
 ### Generated Files:
+
 - **`metrics_results.jsonl`** - Detailed metrics for each problem (JSONL format)
 - **`metrics_summary.json`** - Aggregated statistics by model
 - **`most_complex_problems.json`** - Top 10 most complex problems
@@ -199,12 +210,14 @@ The `extract-metrics.sh` script generates comprehensive analysis in the `metrics
 - **`complexity_distribution.json`** - Problems grouped by complexity ranges
 
 ### Key Metrics:
+
 - **Acceptance Rate** - Percentage of solutions that passed all test cases
 - **Cyclomatic Complexity** - Code complexity analysis
 - **Lines of Code** - Solution length analysis
 - **Runtime/Memory Percentiles** - Performance metrics from LeetCode
 
 ### Example Analysis:
+
 ```bash
 # View summary statistics
 cat metrics/metrics_summary.json | jq .
@@ -275,6 +288,7 @@ LeetCodeEval/
 ## <a id="troubleshooting"></a>🔧 Troubleshooting
 
 ### Debug Mode
+
 ```bash
 # Run with verbose logging
 go run . submit --model gpt-4o -vvv
@@ -283,28 +297,16 @@ go run . submit --model gpt-4o -vvv
 go run . submit --model gpt-4o problems/specific-problem.json -vvv
 ```
 
-### Force Flags
-```bash
-# Force re-download problems
-go run . download -f 1 15 71
-
-# Force re-generate solutions
-go run . prompt --model gpt-4o -f
-
-# Force re-submit solutions
-go run . submit --model gpt-4o -f
-```
-
 ## <a id="example-workflow"></a>📈 Example Workflow
 
 Here's a complete example of evaluating GPT-4o on LeetCode problems:
 
 ```bash
 # 1. Download a set of problems
-go run . download 1 15 20 21 53 70 121 136 169 206 217 242 283 344 387
+./download_from_list.sh experiments/problems_2025_July.txt
 
 # 2. Generate solutions
-go run . prompt --model gpt-4o
+go run . prompt --model gpt-4o problems/*.json
 
 # 3. Submit solutions to LeetCode
 ./submit_all_solutions.sh
