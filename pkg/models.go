@@ -20,6 +20,7 @@ const (
 	MODEL_FAMILY_DEEPSEEK
 	MODEL_FAMILY_XAI
 	MODEL_FAMILY_AZURE_OPENAI
+	MODEL_FAMILY_OPENROUTER
 )
 
 var OpenAiModels = []string{
@@ -58,6 +59,13 @@ var AzureOpenAIModels = []string{
 	"se-gpt-4o",  // Azure OpenAI's GPT-4o model with gateway
 }
 
+var OpenRouterModels = []string{
+	"openai/gpt-5.1",
+	"anthropic/claude-sonnet-4.5",
+	"google/gemini-2.5-pro",
+	"deepseek/deepseek-chat",
+}
+
 var supportedModels []string
 
 func init() {
@@ -67,6 +75,7 @@ func init() {
 	supportedModels = append(supportedModels, DeepseekModels...)
 	supportedModels = append(supportedModels, XaiModels...)
 	supportedModels = append(supportedModels, AzureOpenAIModels...)
+	supportedModels = append(supportedModels, OpenRouterModels...)
 }
 
 func SupportedModels() []string {
@@ -87,6 +96,8 @@ func ModelFamily(modelName string) int {
 		return MODEL_FAMILY_XAI
 	case slices.Index(AzureOpenAIModels, modelName) != -1:
 		return MODEL_FAMILY_AZURE_OPENAI
+	case slices.Index(OpenRouterModels, modelName) != -1:
+		return MODEL_FAMILY_OPENROUTER
 	default:
 		return MODEL_FAMILY_UNKNOWN
 	}

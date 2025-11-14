@@ -50,6 +50,7 @@ var options struct {
 	ClaudeApiKey          string `mapstructure:"claude_api_key"`
 	DeepseekApiKey        string `mapstructure:"deepseek_api_key"`
 	XaiApiKey             string `mapstructure:"xai_api_key"`
+	OpenRouterApiKey      string `mapstructure:"openrouter_api_key"`
 
 	PromptTemplate string `mapstructure:"prompt_template"`
 }
@@ -163,7 +164,7 @@ func main() {
 		},
 	}
 	cmdSubmit.Flags().Int("submit_retries", 2, "number of retries")
-	cmdSubmit.Flags().Int("check_retries", 5, "number of retries")
+	cmdSubmit.Flags().Int("check_retries", 10, "number of retries for checking submission status")
 	cmdSubmit.PersistentFlags().StringP("model", "m", "", "large language model family name to use")
 
 	cmdFix := &cobra.Command{

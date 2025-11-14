@@ -31,6 +31,10 @@ deepseek_api_key: sk-your-key-here
 # for grok models
 xai_api_key: xai-your-key-here
 
+# for OpenRouter
+openrouter_api_key: sk-your-key-here
+
+
 prompt_template: |
   Hi, this is a coding interview. You will be given:
   * A problem statement (with sample test cases if available).

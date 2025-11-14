@@ -60,6 +60,8 @@ func prompt(args []string, modelName string) {
 		prompter = promptXai
 	case leetgptsolver.MODEL_FAMILY_AZURE_OPENAI:
 		prompter = promptAzureOpenAi
+	case leetgptsolver.MODEL_FAMILY_OPENROUTER:
+		prompter = promptOpenRouter
 	default:
 		log.Error().Msgf("No prompter found for model %s", modelId)
 		return
@@ -422,6 +424,55 @@ func promptDeepseek(q Question, modelName string, params string) (*Solution, err
 				},
 			},
 			Temperature: 0.0,
+		},
+	)
+	latency := time.Since(t0)
+	if err != nil {
+		return nil, err
+	}
+	if len(resp.Choices) == 0 {
+		return nil, NewNonRetriableError(errors.New("no choices in response"))
+	}
+	answer := resp.Choices[0].Message.Content
+	log.Trace().Msgf("Got answer:\n%s", answer)
+	return &Solution{
+		Lang:         lang,
+		Prompt:       prompt,
+		Answer:       answer,
+		TypedCode:    extractCode(answer),
+		Model:        resp.Model,
+		SolvedAt:     time.Now(),
+		Latency:      latency,
+		PromptTokens: resp.Usage.PromptTokens,
+		OutputTokens: resp.Usage.CompletionTokens,
+	}, nil
+}
+
+func promptOpenRouter(q Question, modelName string, params string) (*Solution, error) {
+	config := openai.DefaultConfig(options.OpenRouterApiKey)
+	config.BaseURL = "https://openrouter.ai/api/v1"
+	client := openai.NewClientWithConfig(config)
+
+	lang, prompt, err := generatePrompt(q)
+	if err != nil {
+		return nil, NewFatalError(fmt.Errorf("failed to make prompt: %w", err))
+	}
+	log.Debug().Msgf("Generated %d line(s) of code prompt", strings.Count(prompt, "\n"))
+	log.Trace().Msgf("Generated prompt:\n%s", prompt)
+
+	seed := int(42)
+	t0 := time.Now()
+	resp, err := client.CreateChatCompletion(
+		context.Background(),
+		openai.ChatCompletionRequest{
+			Model: modelName,
+			Messages: []openai.ChatCompletionMessage{
+				{
+					Role:    openai.ChatMessageRoleUser,
+					Content: prompt,
+				},
+			},
+			Seed: &seed,
 		},
 	)
 	latency := time.Since(t0)

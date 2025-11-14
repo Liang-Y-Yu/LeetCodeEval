@@ -276,7 +276,18 @@ func checkStatus(url string) (*CheckResponse, error) {
 	leetcodeThrottler.Ready()
 	for leetcodeThrottler.Wait() && i < maxRetries {
 		i += 1
-		log.Trace().Msgf("checking submission status (%d/%d)...", i, maxRetries)
+		log.Debug().Msgf("checking submission status (%d/%d)...", i, maxRetries)
+		
+		// Add progressive delay - start with 3s, increase to 5s after a few retries
+		if i > 1 {
+			delay := 3 * time.Second
+			if i > 3 {
+				delay = 5 * time.Second
+			}
+			log.Debug().Msgf("Waiting %v before checking status...", delay)
+			time.Sleep(delay)
+		}
+		
 		respBody, code, err := makeEnhancedAuthorizedHttpRequest("GET", url, bytes.NewReader([]byte{}))
 		leetcodeThrottler.Touch()
 		
@@ -308,19 +319,33 @@ func checkStatus(url string) (*CheckResponse, error) {
 
 		err = json.Unmarshal(decompressedBody, &checkResp)
 		if err != nil {
-			return nil, fmt.Errorf("failed to unmarshal check response: %w", err)
+			log.Warn().Err(err).Msgf("Failed to unmarshal check response (attempt %d/%d)", i, maxRetries)
+			continue
 		}
+		
+		// Validate the response has meaningful data
+		if checkResp.StatusMsg == "" && !checkResp.Finished {
+			log.Warn().Msgf("Received incomplete response (attempt %d/%d), retrying...", i, maxRetries)
+			checkResp = nil
+			continue
+		}
+		
+		log.Debug().Msgf("Status: %s, Finished: %v, State: %s", checkResp.StatusMsg, checkResp.Finished, checkResp.State)
 
 		if checkResp.Finished {
+			log.Info().Msgf("Submission finished with status: %s", checkResp.StatusMsg)
 			break // success
 		}
+		
+		log.Debug().Msgf("Submission not finished yet, will retry...")
 	}
 	if checkResp == nil {
 		// did not get a response after retries
-		return nil, fmt.Errorf("failed to get check submission status")
+		return nil, fmt.Errorf("failed to get check submission status after %d retries", maxRetries)
 	}
 	if !checkResp.Finished {
-		return nil, fmt.Errorf("submission is not finished")
+		log.Warn().Msgf("Submission check timed out after %d retries. Last status: %s", maxRetries, checkResp.StatusMsg)
+		return nil, fmt.Errorf("submission is not finished after %d retries", maxRetries)
 	}
 
 	return checkResp, nil
