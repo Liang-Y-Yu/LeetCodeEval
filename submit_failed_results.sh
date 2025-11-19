@@ -1,13 +1,21 @@
 #!/bin/bash
 
 # Script to submit problems that have failed submissions
-# This script specifically targets problems where se-gpt-4o solutions exist but submissions failed or are incomplete
+# Usage: ./submit_failed_results.sh <model_name>
+# Example: ./submit_failed_results.sh openai/gpt-5.1
 
-MODEL="se-gpt-4o"
-BATCH_SIZE=3            # Smaller batch size to reduce rate limiting
-DELAY=15                # Longer delay between batches
-SUBMIT_RETRIES=5        # Increase submit retries
-CHECK_RETRIES=10        # Increase check retries
+if [ -z "$1" ]; then
+    echo "Error: Model name is required"
+    echo "Usage: $0 <model_name>"
+    echo "Example: $0 openai/gpt-5.1"
+    exit 1
+fi
+
+MODEL="$1"
+BATCH_SIZE=1            # Submit one at a time to avoid rate limiting
+DELAY=30                # 30 second delay between submissions
+SUBMIT_RETRIES=10       # Increase submit retries
+CHECK_RETRIES=15        # Increase check retries
 
 # Set up environment variables for LeetCode authentication
 export LEETCODE_SESSION="$(cat ~/.config/leetcode/cookie)"

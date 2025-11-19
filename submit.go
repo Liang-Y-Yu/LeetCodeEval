@@ -9,6 +9,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"math/rand"
 	"net/http"
 	"time"
 	"whisk/leetgptsolver/pkg/throttler"
@@ -214,14 +215,14 @@ func submitCode(url string, subReq SubmitRequest) (uint64, error) {
 	for leetcodeThrottler.Wait() && i < maxRetries {
 		i += 1
 
-		// Add small delay to appear more human-like
-		time.Sleep(2 * time.Second)
+		// Add delay to appear more human-like
+		time.Sleep(time.Duration(5+rand.Intn(5)) * time.Second)
 
 		var code int
 		respBody, code, err = makeEnhancedAuthorizedHttpRequest("POST", url, &reqBody)
 		leetcodeThrottler.Touch()
 		log.Trace().Msgf("submission response body:\n%s", string(respBody))
-		if code == http.StatusBadRequest || code == 403 || code == 499 {
+		if code == http.StatusBadRequest || code == 499 {
 			log.Err(err).Msg("Slowing down...")
 			leetcodeThrottler.Slowdown()
 			err_message := string(respBody)
@@ -230,9 +231,10 @@ func submitCode(url string, subReq SubmitRequest) (uint64, error) {
 			}
 			return 0, NewNonRetriableError(fmt.Errorf("invalid or unauthorized request, see response: %s", err_message))
 		}
-		if code == http.StatusTooManyRequests || err != nil {
-			log.Err(err).Msg("Slowing down...")
+		if code == 403 || code == http.StatusTooManyRequests || err != nil {
+			log.Err(err).Msgf("Retrying (%d/%d)...", i, maxRetries)
 			leetcodeThrottler.Slowdown()
+			time.Sleep(time.Duration(i*10) * time.Second)
 			continue
 		}
 
