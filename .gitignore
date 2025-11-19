@@ -19,6 +19,7 @@ go.work
 
 # backups
 *.bak
+backups
 
 # LeetCode authentication
 ~/.config/leetcode/
@@ -43,4 +44,4 @@ secrets/
 leetgptsolver
 config.yaml
 config.production
-
+.venv
