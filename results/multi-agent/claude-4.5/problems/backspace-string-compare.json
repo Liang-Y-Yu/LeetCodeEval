@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "844",
+        "questionId": "874",
+        "Content": "<p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code> <em>if they are equal when both are typed into empty text editors</em>. <code>&#39;#&#39;</code> means a backspace character.</p>\n\n<p>Note that after backspacing an empty text, the text will continue empty.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ab#c&quot;, t = &quot;ad#c&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> Both s and t become &quot;ac&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ab##&quot;, t = &quot;c#d#&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> Both s and t become &quot;&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;a#c&quot;, t = &quot;b&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> s becomes &quot;c&quot; while t becomes &quot;b&quot;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code><span>1 &lt;= s.length, t.length &lt;= 200</span></code></li>\n\t<li><span><code>s</code> and <code>t</code> only contain lowercase letters and <code>&#39;#&#39;</code> characters.</span></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong> Can you solve it in <code>O(n)</code> time and <code>O(1)</code> space?</p>\n",
+        "SampleTestCase": "\"ab#c\"\n\"ad#c\"",
+        "ExampleTestcases": "\"ab#c\"\n\"ad#c\"\n\"ab##\"\n\"c#d#\"\n\"a#c\"\n\"b\"",
+        "Difficulty": "Easy",
+        "Title": "Backspace String Compare",
+        "TitleSlug": "backspace-string-compare",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"992.7K\", \"totalSubmission\": \"2M\", \"totalAcceptedRaw\": 992699, \"totalSubmissionRaw\": 2000075, \"acRate\": \"49.6%\"}",
+        "Likes": 7837,
+        "Dislikes": 378,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool backspaceCompare(string s, string t) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean backspaceCompare(String s, String t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def backspaceCompare(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar backspaceCompare = function(s, t) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function backspaceCompare(s: string, t: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool BackspaceCompare(string s, string t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool backspaceCompare(char* s, char* t) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func backspaceCompare(s string, t string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun backspaceCompare(s: String, t: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func backspaceCompare(_ s: String, _ t: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn backspace_compare(s: String, t: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} t\n# @return {Boolean}\ndef backspace_compare(s, t)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @return Boolean\n     */\n    function backspaceCompare($s, $t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool backspaceCompare(String s, String t) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def backspaceCompare(s: String, t: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec backspace_compare(s :: String.t, t :: String.t) :: boolean\n  def backspace_compare(s, t) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec backspace_compare(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nbackspace_compare(S, T) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (backspace-compare s t)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:55:53.089889+01:00",
+    "AcRate": "49.6",
+    "TotalSubmissions": 2000075,
+    "TotalAccepted": 992699,
+    "AcceptanceRate": 0.4963308875917153,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/backspace-string-compare/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to:\n\n1. **Problem Type Classification**: String manipulation, Stack-based problem\n2. **Key Patterns & Algorithms**: Stack for simple solution, Two Pointers for O(1) space solution\n3. **Constraints Analysis**: With lengths up to 200, O(n) time with O(n) or O(1) space both work\n4. **Edge Cases**: \n   - Empty results after backspacing\n   - Multiple consecutive backspaces\n   - Backspaces at the beginning (no effect)\n   - All backspaces\n5. **Input/Output Analysis**: Two strings input, boolean output\n6. **Difficulty Assessment**: The O(n) time O(n) space solution is straightforward with stacks. The challenge is doing it in O(1) space using two pointers traversing from right to left.\n\nI'll implement the O(1) space solution using two pointers that traverse from right to left:\n\n```python\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 17813547375,
+      "SolvedAt": "2025-11-19T23:21:12.000192+01:00",
+      "PromptTokens": 4853,
+      "OutputTokens": 1345
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "874",
+        "typed_code": "\nclass Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        def next_valid_char_index(string, index):\n            backspace_count = 0\n            while index >= 0:\n                if string[index] == '#':\n                    backspace_count += 1\n                    index -= 1\n                elif backspace_count > 0:\n                    backspace_count -= 1\n                    index -= 1\n                else:\n                    return index\n            return -1\n        \n        i = len(s) - 1\n        j = len(t) - 1\n        \n        while i >= 0 or j >= 0:\n            i = next_valid_char_index(s, i)\n            j = next_valid_char_index(t, j)\n            \n            if i >= 0 and j >= 0:\n                if s[i] != t[j]:\n                    return False\n                i -= 1\n                j -= 1\n            elif i >= 0 or j >= 0:\n                return False\n            else:\n                break\n        \n        return True\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:12:46+01:00"
+    }
+  }
+}

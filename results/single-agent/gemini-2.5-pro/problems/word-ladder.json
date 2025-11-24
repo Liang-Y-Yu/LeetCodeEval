@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "127",
+        "questionId": "127",
+        "Content": "<p>A <strong>transformation sequence</strong> from word <code>beginWord</code> to word <code>endWord</code> using a dictionary <code>wordList</code> is a sequence of words <code>beginWord -&gt; s<sub>1</sub> -&gt; s<sub>2</sub> -&gt; ... -&gt; s<sub>k</sub></code> such that:</p>\n\n<ul>\n\t<li>Every adjacent pair of words differs by a single letter.</li>\n\t<li>Every <code>s<sub>i</sub></code> for <code>1 &lt;= i &lt;= k</code> is in <code>wordList</code>. Note that <code>beginWord</code> does not need to be in <code>wordList</code>.</li>\n\t<li><code>s<sub>k</sub> == endWord</code></li>\n</ul>\n\n<p>Given two words, <code>beginWord</code> and <code>endWord</code>, and a dictionary <code>wordList</code>, return <em>the <strong>number of words</strong> in the <strong>shortest transformation sequence</strong> from</em> <code>beginWord</code> <em>to</em> <code>endWord</code><em>, or </em><code>0</code><em> if no such sequence exists.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> One shortest transformation sequence is &quot;hit&quot; -&gt; &quot;hot&quot; -&gt; &quot;dot&quot; -&gt; &quot;dog&quot; -&gt; cog&quot;, which is 5 words long.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The endWord &quot;cog&quot; is not in wordList, therefore there is no valid transformation sequence.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= beginWord.length &lt;= 10</code></li>\n\t<li><code>endWord.length == beginWord.length</code></li>\n\t<li><code>1 &lt;= wordList.length &lt;= 5000</code></li>\n\t<li><code>wordList[i].length == beginWord.length</code></li>\n\t<li><code>beginWord</code>, <code>endWord</code>, and <code>wordList[i]</code> consist of lowercase English letters.</li>\n\t<li><code>beginWord != endWord</code></li>\n\t<li>All the words in <code>wordList</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+        "ExampleTestcases": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\n\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Ladder",
+        "TitleSlug": "word-ladder",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"3.4M\", \"totalAcceptedRaw\": 1495346, \"totalSubmissionRaw\": 3383525, \"acRate\": \"44.2%\"}",
+        "Likes": 13201,
+        "Dislikes": 1956,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int ladderLength(String beginWord, String endWord, List<String> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def ladderLength(self, beginWord, endWord, wordList):\n        \"\"\"\n        :type beginWord: str\n        :type endWord: str\n        :type wordList: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {number}\n */\nvar ladderLength = function(beginWord, endWord, wordList) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function ladderLength(beginWord: string, endWord: string, wordList: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LadderLength(string beginWord, string endWord, IList<string> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int ladderLength(char* beginWord, char* endWord, char** wordList, int wordListSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func ladderLength(beginWord string, endWord string, wordList []string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun ladderLength(beginWord: String, endWord: String, wordList: List<String>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn ladder_length(begin_word: String, end_word: String, word_list: Vec<String>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} begin_word\n# @param {String} end_word\n# @param {String[]} word_list\n# @return {Integer}\ndef ladder_length(begin_word, end_word, word_list)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $beginWord\n     * @param String $endWord\n     * @param String[] $wordList\n     * @return Integer\n     */\n    function ladderLength($beginWord, $endWord, $wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int ladderLength(String beginWord, String endWord, List<String> wordList) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec ladder_length(begin_word :: String.t, end_word :: String.t, word_list :: [String.t]) :: integer\n  def ladder_length(begin_word, end_word, word_list) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec ladder_length(BeginWord :: unicode:unicode_binary(), EndWord :: unicode:unicode_binary(), WordList :: [unicode:unicode_binary()]) -> integer().\nladder_length(BeginWord, EndWord, WordList) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (ladder-length beginWord endWord wordList)\n  (-> string? string? (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:31:17.264845+01:00",
+    "AcRate": "44.2",
+    "TotalSubmissions": 3383525,
+    "TotalAccepted": 1495346,
+    "AcceptanceRate": 0.44194915066387863,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-ladder/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:\n\tEvery adjacent pair of words differs by a single letter.\n\tEvery si for 1 <= i <= k is in wordList. Note that beginWord does not need to be in wordList.\n\tsk == endWord\nGiven two words, beginWord and endWord, and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.\n\u00a0\nExample 1:\nInput: beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\nOutput: 5\nExplanation: One shortest transformation sequence is \"hit\" -> \"hot\" -> \"dot\" -> \"dog\" -> cog\", which is 5 words long.\nExample 2:\nInput: beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]\nOutput: 0\nExplanation: The endWord \"cog\" is not in wordList, therefore there is no valid transformation sequence.\n\u00a0\nConstraints:\n\t1 <= beginWord.length <= 10\n\tendWord.length == beginWord.length\n\t1 <= wordList.length <= 5000\n\twordList[i].length == beginWord.length\n\tbeginWord, endWord, and wordList[i] consist of lowercase English letters.\n\tbeginWord != endWord\n\tAll the words in wordList are unique.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this problem is by modeling it as a shortest path problem on a graph and using a Bidirectional Breadth-First Search (BFS).\n\n### Method Explanation\n\n1.  **Graph Representation**:\n    The words can be seen as nodes in a graph. An edge exists between two words if they differ by exactly one letter. The problem is then to find the shortest path from `beginWord` to `endWord`.\n\n2.  **Breadth-First Search (BFS)**:\n    BFS is a classic algorithm for finding the shortest path in an unweighted graph. It explores nodes level by level, guaranteeing that the first time we reach the destination, it is via a shortest path.\n\n3.  **Bidirectional BFS Optimization**:\n    A standard BFS expands from the `beginWord` outwards. A bidirectional BFS improves on this by simultaneously searching from both the `beginWord` and the `endWord`. The search terminates when the two search frontiers meet. This significantly reduces the total search space, as it's much more efficient to grow two smaller circles than one large one. The complexity is reduced from O(b^d) to O(b^(d/2)), where `b` is the branching factor and `d` is the path depth.\n\n### Algorithm Steps\n\n1.  **Initial Setup**:\n    *   First, check if `endWord` is in `wordList`. If not, no solution is possible, so return 0. Convert `wordList` to a `set` for efficient O(1) lookups.\n    *   Initialize two queues, `q_begin` and `q_end`, for the forward and backward searches. Add `(beginWord, 1)` and `(endWord, 1)` respectively. The `1` represents the path length, starting with the first word.\n    *   Maintain two `visited` dictionaries, `visited_begin` and `visited_end`, to store visited words and their path lengths from their respective sources. This prevents cycles and redundant computations.\n\n2.  **Search Loop**:\n    *   The main loop continues as long as both queues are non-empty.\n    *   To keep the search balanced, we always expand the smaller of the two queues in each iteration. This is achieved by swapping the queues and their corresponding `visited` dictionaries if one becomes larger than the other.\n    *   Process one entire level of the smaller queue.\n    *   For each word dequeued, generate all its neighbors (words that differ by one letter).\n\n3.  **Neighbor Processing**:\n    *   For each generated neighbor `next_word`:\n        *   Check if `next_word` has been visited by the *other* search (`visited_end`). If so, the two frontiers have met. The total path length is the sum of the lengths from both ends: `current_level + visited_end[next_word]`. We can return this value.\n        *   If `next_word` is a valid word (i.e., in the `word_set`) and hasn't been visited from the *current* direction (`visited_begin`), add it to the current queue and `visited` dictionary with an incremented path length.\n\n4.  **No Path Found**:\n    *   If the loop terminates (one of the queues becomes empty), it means the two frontiers never met, and thus no transformation sequence exists. Return 0.\n\nThis approach is both correct and highly performant, making it suitable for the given constraints.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        word_set = set(wordList)\n        if endWord not in word_set:\n            return 0\n        \n        q_begin = collections.deque([(beginWord, 1)])\n        visited_begin = {beginWord: 1}\n        \n        q_end = collections.deque([(endWord, 1)])\n        visited_end = {endWord: 1}\n        \n        word_len = len(beginWord)\n\n        while q_begin and q_end:\n            if len(q_begin) > len(q_end):\n                q_begin, q_end = q_end, q_begin\n                visited_begin, visited_end = visited_end, visited_begin\n            \n            size = len(q_begin)\n            for _ in range(size):\n                word, level = q_begin.popleft()\n                \n                word_chars = list(word)\n                for i in range(word_len):\n                    original_char = word_chars[i]\n                    \n                    for code in range(ord('a'), ord('z') + 1):\n                        c = chr(code)\n                        if c == original_char:\n                            continue\n                        \n                        word_chars[i] = c\n                        next_word = \"\".join(word_chars)\n                        \n                        if next_word in visited_end:\n                            return level + visited_end[next_word]\n\n                        if next_word in word_set and next_word not in visited_begin:\n                            visited_begin[next_word] = level + 1\n                            q_begin.append((next_word, level + 1))\n                            \n                    word_chars[i] = original_char\n          \n        return 0\n```",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        word_set = set(wordList)\n        if endWord not in word_set:\n            return 0\n        \n        q_begin = collections.deque([(beginWord, 1)])\n        visited_begin = {beginWord: 1}\n        \n        q_end = collections.deque([(endWord, 1)])\n        visited_end = {endWord: 1}\n        \n        word_len = len(beginWord)\n\n        while q_begin and q_end:\n            if len(q_begin) > len(q_end):\n                q_begin, q_end = q_end, q_begin\n                visited_begin, visited_end = visited_end, visited_begin\n            \n            size = len(q_begin)\n            for _ in range(size):\n                word, level = q_begin.popleft()\n                \n                word_chars = list(word)\n                for i in range(word_len):\n                    original_char = word_chars[i]\n                    \n                    for code in range(ord('a'), ord('z') + 1):\n                        c = chr(code)\n                        if c == original_char:\n                            continue\n                        \n                        word_chars[i] = c\n                        next_word = \"\".join(word_chars)\n                        \n                        if next_word in visited_end:\n                            return level + visited_end[next_word]\n\n                        if next_word in word_set and next_word not in visited_begin:\n                            visited_begin[next_word] = level + 1\n                            q_begin.append((next_word, level + 1))\n                            \n                    word_chars[i] = original_char\n          \n        return 0\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 167935652667,
+      "SolvedAt": "2025-11-20T19:40:09.633288+01:00",
+      "PromptTokens": 587,
+      "OutputTokens": 19953
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "127",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        word_set = set(wordList)\n        if endWord not in word_set:\n            return 0\n        \n        q_begin = collections.deque([(beginWord, 1)])\n        visited_begin = {beginWord: 1}\n        \n        q_end = collections.deque([(endWord, 1)])\n        visited_end = {endWord: 1}\n        \n        word_len = len(beginWord)\n\n        while q_begin and q_end:\n            if len(q_begin) > len(q_end):\n                q_begin, q_end = q_end, q_begin\n                visited_begin, visited_end = visited_end, visited_begin\n            \n            size = len(q_begin)\n            for _ in range(size):\n                word, level = q_begin.popleft()\n                \n                word_chars = list(word)\n                for i in range(word_len):\n                    original_char = word_chars[i]\n                    \n                    for code in range(ord('a'), ord('z') + 1):\n                        c = chr(code)\n                        if c == original_char:\n                            continue\n                        \n                        word_chars[i] = c\n                        next_word = \"\".join(word_chars)\n                        \n                        if next_word in visited_end:\n                            return level + visited_end[next_word]\n\n                        if next_word in word_set and next_word not in visited_begin:\n                            visited_begin[next_word] = level + 1\n                            q_begin.append((next_word, level + 1))\n                            \n                    word_chars[i] = original_char\n          \n        return 0\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:11:54+01:00"
+    }
+  }
+}

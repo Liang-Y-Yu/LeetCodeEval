@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1365",
+        "questionId": "1482",
+        "Content": "<p>Given the array <code>nums</code>, for each <code>nums[i]</code> find out how many numbers in the array are smaller than it. That is, for each <code>nums[i]</code> you have to count the number of valid <code>j&#39;s</code>&nbsp;such that&nbsp;<code>j != i</code> <strong>and</strong> <code>nums[j] &lt; nums[i]</code>.</p>\n\n<p>Return the answer in an array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [8,1,2,2,3]\n<strong>Output:</strong> [4,0,1,1,3]\n<strong>Explanation:</strong> \nFor nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). \nFor nums[1]=1 does not exist any smaller number than it.\nFor nums[2]=2 there exist one smaller number than it (1). \nFor nums[3]=2 there exist one smaller number than it (1). \nFor nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [6,5,4,8]\n<strong>Output:</strong> [2,1,0,3]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [7,7,7,7]\n<strong>Output:</strong> [0,0,0,0]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 500</code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[8,1,2,2,3]",
+        "ExampleTestcases": "[8,1,2,2,3]\n[6,5,4,8]\n[7,7,7,7]",
+        "Difficulty": "Easy",
+        "Title": "How Many Numbers Are Smaller Than the Current Number",
+        "TitleSlug": "how-many-numbers-are-smaller-than-the-current-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"737.7K\", \"totalSubmission\": \"845.1K\", \"totalAcceptedRaw\": 737708, \"totalSubmissionRaw\": 845145, \"acRate\": \"87.3%\"}",
+        "Likes": 5793,
+        "Dislikes": 154,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcy",
+            "Name": "Counting Sort",
+            "Slug": "counting-sort"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] smallerNumbersThanCurrent(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallerNumbersThanCurrent(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar smallerNumbersThanCurrent = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallerNumbersThanCurrent(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SmallerNumbersThanCurrent(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallerNumbersThanCurrent(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallerNumbersThanCurrent(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallerNumbersThanCurrent(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef smaller_numbers_than_current(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function smallerNumbersThanCurrent($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> smallerNumbersThanCurrent(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallerNumbersThanCurrent(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smaller_numbers_than_current(nums :: [integer]) :: [integer]\n  def smaller_numbers_than_current(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smaller_numbers_than_current(Nums :: [integer()]) -> [integer()].\nsmaller_numbers_than_current(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smaller-numbers-than-current nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:25:37.289714+01:00",
+    "AcRate": "87.3",
+    "TotalSubmissions": 845145,
+    "TotalAccepted": 737708,
+    "AcceptanceRate": 0.8728774352330073,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's\u00a0such that\u00a0j != i and nums[j] < nums[i].\nReturn the answer in an array.\n\u00a0\nExample 1:\nInput: nums = [8,1,2,2,3]\nOutput: [4,0,1,1,3]\nExplanation: \nFor nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). \nFor nums[1]=1 does not exist any smaller number than it.\nFor nums[2]=2 there exist one smaller number than it (1). \nFor nums[3]=2 there exist one smaller number than it (1). \nFor nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).\nExample 2:\nInput: nums = [6,5,4,8]\nOutput: [2,1,0,3]\nExample 3:\nInput: nums = [7,7,7,7]\nOutput: [0,0,0,0]\n\u00a0\nConstraints:\n\t2 <= nums.length <= 500\n\t0 <= nums[i] <= 100\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        sorted_nums = sorted(nums)\n        count_map = {}\n        result = []\n        \n        for idx, num in enumerate(sorted_nums):\n            if num not in count_map:\n                count_map[num] = idx\n        \n        for num in nums:\n            result.append(count_map[num])\n        \n        return result\n```",
+      "TypedCode": "\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        sorted_nums = sorted(nums)\n        count_map = {}\n        result = []\n        \n        for idx, num in enumerate(sorted_nums):\n            if num not in count_map:\n                count_map[num] = idx\n        \n        for num in nums:\n            result.append(count_map[num])\n        \n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 1483400083,
+      "SolvedAt": "2025-11-20T21:17:16.650801+01:00",
+      "PromptTokens": 484,
+      "OutputTokens": 89
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1482",
+        "typed_code": "\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        sorted_nums = sorted(nums)\n        count_map = {}\n        result = []\n        \n        for idx, num in enumerate(sorted_nums):\n            if num not in count_map:\n                count_map[num] = idx\n        \n        for num in nums:\n            result.append(count_map[num])\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:27:24+01:00"
+    }
+  }
+}

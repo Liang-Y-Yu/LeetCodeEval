@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "719",
+        "questionId": "719",
+        "Content": "<p>The <strong>distance of a pair</strong> of integers <code>a</code> and <code>b</code> is defined as the absolute difference between <code>a</code> and <code>b</code>.</p>\n\n<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>smallest <strong>distance among all the pairs</strong></em> <code>nums[i]</code> <em>and</em> <code>nums[j]</code> <em>where</em> <code>0 &lt;= i &lt; j &lt; nums.length</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,1], k = 1\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> Here are all the pairs:\n(1,3) -&gt; 2\n(1,1) -&gt; 0\n(3,1) -&gt; 2\nThen the 1<sup>st</sup> smallest distance pair is (1,1), and its distance is 0.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,1], k = 2\n<strong>Output:</strong> 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,6,1], k = 3\n<strong>Output:</strong> 5\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= n * (n - 1) / 2</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,1]\n1",
+        "ExampleTestcases": "[1,3,1]\n1\n[1,1,1]\n2\n[1,6,1]\n3",
+        "Difficulty": "Hard",
+        "Title": "Find K-th Smallest Pair Distance",
+        "TitleSlug": "find-k-th-smallest-pair-distance",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.4K\", \"totalSubmission\": \"445.4K\", \"totalAcceptedRaw\": 205366, \"totalSubmissionRaw\": 445354, \"acRate\": \"46.1%\"}",
+        "Likes": 3883,
+        "Dislikes": 124,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int smallestDistancePair(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int smallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestDistancePair(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar smallestDistancePair = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestDistancePair(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int SmallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int smallestDistancePair(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestDistancePair(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestDistancePair(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestDistancePair(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_distance_pair(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef smallest_distance_pair(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function smallestDistancePair($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int smallestDistancePair(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestDistancePair(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_distance_pair(nums :: [integer], k :: integer) :: integer\n  def smallest_distance_pair(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_distance_pair(Nums :: [integer()], K :: integer()) -> integer().\nsmallest_distance_pair(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-distance-pair nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:03.033477+01:00",
+    "AcRate": "46.1",
+    "TotalSubmissions": 445354,
+    "TotalAccepted": 205366,
+    "AcceptanceRate": 0.46112979786866176,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective way to solve this problem is by combining binary search on the answer with a two-pointer technique for efficient counting.\n\nFirst, notice that the problem asks for the k-th smallest element (a distance) in a very large, implicitly defined set of all pair distances. This is a classic indicator for a \"Binary Search on the Answer\" approach. The range of possible distances is from 0 (if there are duplicate numbers) to `max(nums) - min(nums)`. Let's define this search space as `[low, high]`.\n\nThe core of the binary search strategy is to pick a potential distance `mid` from this range and then determine if it's \"too large\" or \"too small\". We can do this by counting how many pairs have a distance less than or equal to `mid`. Let's call this count `C`.\n- If `C >= k`, it means `mid` is a potential answer, but the true k-th distance might be even smaller. So, we should try to find a smaller distance by restricting our search to `[low, mid]`.\n- If `C < k`, it means `mid` is too small to be the k-th distance. We need to consider larger distances by restricting our search to `[mid + 1, high]`.\n\nThis binary search process will efficiently narrow down the possibilities until `low` and `high` converge to the smallest distance `d` for which there are at least `k` pairs with a distance less than or equal to `d`. This will be our answer.\n\nThe critical subproblem, then, is to efficiently count the number of pairs with a distance `<= mid`. A naive `O(n^2)` check for each `mid` would be too slow. A much faster `O(n)` counting method is possible if the array is sorted.\n\nAfter sorting `nums`, we can use a two-pointer (or sliding window) approach. We iterate through the array with a `right` pointer. For each `nums[right]`, we need to find how many `nums[left]` (with `left < right`) satisfy `nums[right] - nums[left] <= mid`.\nSince the array is sorted, as `right` increases, `nums[right]` increases. To maintain the condition, `nums[left]` must also increase, which means the `left` pointer only ever moves forward. This monotonicity allows for an `O(n)` pass:\n1. Initialize `count = 0` and `left = 0`.\n2. Iterate `right` from `0` to `n-1`.\n3. For each `right`, advance the `left` pointer as long as `nums[right] - nums[left] > mid`.\n4. All indices from `left` to `right-1` now form valid pairs with `right`. The number of such pairs is `right - left`. Add this to our total `count`.\n\nThe combination of these two techniques gives an overall time complexity of `O(n log n + n log W)`, where `n` is the number of elements and `W` is the range of values in `nums`. The `n log n` term is for the initial sort, and `n log W` is for the binary search (`log W` iterations) with an `O(n)` counting step inside. This is highly efficient and well within typical time limits.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            # Efficiently count pairs with distance <= mid\n            # using a two-pointer/sliding window approach.\n            count = 0\n            left = 0\n            for right in range(n):\n                # Move the left pointer to maintain the window property.\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                # For the current `right`, all pairs (left...right-1, right)\n                # have a distance <= mid.\n                count += right - left\n            \n            if count >= k:\n                # mid is a potential answer, or a smaller one exists.\n                # Search in the lower half.\n                high = mid\n            else:\n                # mid is too small. Search in the upper half.\n                low = mid + 1\n                \n        return low\n\n```\n\n=== DESIGN ===\nAn elegant and effective way to solve this problem is by combining binary search on the answer with a two-pointer technique for efficient counting.\n\nFirst, notice that the problem asks for the k-th smallest element (a distance) in a very large, implicitly defined set of all pair distances. This is a classic indicator for a \"Binary Search on the Answer\" approach. The range of possible distances is from 0 (if there are duplicate numbers) to `max(nums) - min(nums)`. Let's define this search space as `[low, high]`.\n\nThe core of the binary search strategy is to pick a potential distance `mid` from this range and then determine if it's \"too large\" or \"too small\". We can do this by counting how many pairs have a distance less than or equal to `mid`. Let's call this count `C`.\n\n- If `C >= k`, it means `mid` is a potential answer, but the true k-th distance might be even smaller. So, we should try to find a smaller distance by restricting our search to `[low, mid]`.\n- If `C < k`, it means `mid` is too small to be the k-th distance. We need to consider larger distances by restricting our search to `[mid + 1, high]`.\n\nThis binary search process will efficiently narrow down the possibilities until `low` and `high` converge to the smallest distance `d` for which there are at least `k` pairs with a distance less than or equal to `d`. This will be our answer.\n\nThe critical subproblem, then, is to efficiently count the number of pairs with a distance `<= mid`. A naive `O(n^2)` check for each `mid` would be too slow. A much faster `O(n)` counting method is possible if the array is sorted.\n\nAfter sorting `nums`, we can use a two-pointer (or sliding window) approach. We iterate through the array with a `right` pointer. For each `nums[right]`, we need to find how many `nums[left]` (with `left < right`) satisfy `nums[right] - nums[left] <= mid`.\n\nSince the array is sorted, as `right` increases, `nums[right]` increases. To maintain the condition, `nums[left]` must also increase, which means the `left` pointer only ever moves forward. This monotonicity allows for an `O(n)` pass:\n1. Initialize `count = 0` and `left = 0`.\n2. Iterate `right` from `0` to `n-1`.\n3. For each `right`, advance the `left` pointer as long as `nums[right] - nums[left] > mid`.\n4. All indices from `left` to `right-1` now form valid pairs with `right`. The number of such pairs is `right - left`. Add this to our total `count`.\n\nThe combination of these two techniques gives an overall time complexity of `O(n log n + n log W)`, where `n` is the number of elements and `W` is the range of values in `nums`. The `n log n` term is for the initial sort, and `n log W` is for the binary search (`log W` iterations) with an `O(n)` counting step inside. This is highly efficient and well within typical time limits.\n```python\nfrom typing import List\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += right - left\n            \n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n                \n        return low\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += right - left\n            \n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n                \n        return low\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            # Count pairs with distance <= mid\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                # For the current `right`, all pairs (nums[left]...nums[right-1], nums[right])\n                # have a distance <= mid.\n                count += right - left\n            \n            if count >= k:\n                # mid is a potential answer, or a smaller one exists.\n                # Search in the lower half.\n                high = mid\n            else:\n                # mid is too small. Search in the upper half.\n                low = mid + 1\n                \n        return low\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += right - left\n            \n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n                \n        return low\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 224550615208,
+      "SolvedAt": "2025-11-21T11:07:11.356791+01:00",
+      "PromptTokens": 7621,
+      "OutputTokens": 26985
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "719",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        \n        low = 0\n        high = nums[-1] - nums[0]\n        \n        while low < high:\n            mid = low + (high - low) // 2\n            \n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += right - left\n            \n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n                \n        return low\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:23:16+01:00"
+    }
+  }
+}

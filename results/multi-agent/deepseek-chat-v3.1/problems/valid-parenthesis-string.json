@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "678",
+        "questionId": "678",
+        "Content": "<p>Given a string <code>s</code> containing only three types of characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> and <code>&#39;*&#39;</code>, return <code>true</code> <em>if</em> <code>s</code> <em>is <strong>valid</strong></em>.</p>\n\n<p>The following rules define a <strong>valid</strong> string:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>&#39;(&#39;</code> must have a corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li>Any right parenthesis <code>&#39;)&#39;</code> must have a corresponding left parenthesis <code>&#39;(&#39;</code>.</li>\n\t<li>Left parenthesis <code>&#39;(&#39;</code> must go before the corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li><code>&#39;*&#39;</code> could be treated as a single right parenthesis <code>&#39;)&#39;</code> or a single left parenthesis <code>&#39;(&#39;</code> or an empty string <code>&quot;&quot;</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"()\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"(*)\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \"(*))\"\n<strong>Output:</strong> true\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s[i]</code> is <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"()\"",
+        "ExampleTestcases": "\"()\"\n\"(*)\"\n\"(*))\"",
+        "Difficulty": "Medium",
+        "Title": "Valid Parenthesis String",
+        "TitleSlug": "valid-parenthesis-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"541.3K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 541328, \"totalSubmissionRaw\": 1369036, \"acRate\": \"39.5%\"}",
+        "Likes": 6815,
+        "Dislikes": 217,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkValidString(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkValidString(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkValidString(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkValidString(s: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckValidString(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkValidString(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkValidString(s string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkValidString(s: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkValidString(_ s: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_valid_string(s: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Boolean}\ndef check_valid_string(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Boolean\n     */\n    function checkValidString($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkValidString(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkValidString(s: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_valid_string(s :: String.t) :: boolean\n  def check_valid_string(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_valid_string(S :: unicode:unicode_binary()) -> boolean().\ncheck_valid_string(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-valid-string s)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:00.013178+01:00",
+    "AcRate": "39.5",
+    "TotalSubmissions": 1369036,
+    "TotalAccepted": 541328,
+    "AcceptanceRate": 0.3954081558118267,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/valid-parenthesis-string/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to verify if a string with parentheses and wildcard characters ('*') can form a valid parentheses sequence.\n\n**Problem Analysis:**\n- The wildcard '*' can act as '(', ')' or empty string\n- We need to ensure proper matching with the flexibility wildcards provide\n\n**Approach:**\nI'll use a two-pass greedy approach that tracks the possible range of open parentheses:\n1. Left to right: Count open parentheses, treat '*' as '(' (increasing count) when possible\n2. Right to left: Count close parentheses, treat '*' as ')' (decreasing count) when possible\n3. If both passes are valid, return true\n\n**Solution Code:**\n```python\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        left_balance = 0\n        for char in s:\n            if char == '(' or char == '*':\n                left_balance += 1\n            else:\n                left_balance -= 1\n            if left_balance < 0:\n                return False\n        \n        right_balance = 0\n        for char in reversed(s):\n            if char == ')' or char == '*':\n                right_balance += 1\n            else:\n                right_balance -= 1\n            if right_balance < 0:\n                return False\n        \n        return True\n```\n\n**Explanation:**\n1. First pass (left to right): We treat '*' as '(' to maximize open parentheses. If at any point we have negative balance, it means too many ')'\n2. Second pass (right to left): We treat '*' as ')' to maximize close parentheses. If at any point we have negative balance, it means too many '('\n3. Both passes must be valid for the entire string to be valid\n\nThe solution handles all edge cases efficiently with O(n) time and O(1) space complexity.\n\n=== DESIGN ===\nBased on the analysis and requirements, here is the solution:\n\n```python\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        left_balance = 0\n        for char in s:\n            if char == '(' or char == '*':\n                left_balance += 1\n            else:\n                left_balance -= 1\n            if left_balance < 0:\n                return False\n        \n        right_balance = 0\n        for char in reversed(s):\n            if char == ')' or char == '*':\n                right_balance += 1\n            else:\n                right_balance -= 1\n            if right_balance < 0:\n                return False\n        \n        return True\n```\n\n**Algorithm Choice**: Two-pass greedy approach that tracks the possible range of open parentheses.\n\n**Step-by-Step Approach**:\n1. First pass left to right: Treat '*' as '(' to maximize open parentheses count\n2. If balance becomes negative at any point, return false (too many closing parentheses)\n3. Second pass right to left: Treat '*' as ')' to maximize closing parentheses count\n4. If balance becomes negative at any point, return false (too many opening parentheses)\n5. If both passes complete successfully, return true\n\n**Data Structures**: Simple integer counters for balance tracking.\n\n**Time Complexity**: O(n) - Two linear passes through the string\n**Space Complexity**: O(1) - Only using a few integer variables\n\n**Pseudocode**:\n```\nfunction checkValidString(s):\n    left_balance = 0\n    for each character in s:\n        if character is '(' or '*': increment left_balance\n        else: decrement left_balance\n        if left_balance < 0: return false\n    \n    right_balance = 0\n    for each character in reversed(s):\n        if character is ')' or '*': increment right_balance\n        else: decrement right_balance\n        if right_balance < 0: return false\n    \n    return true\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        left_balance = 0\n        for char in s:\n            if char == '(' or char == '*':\n                left_balance += 1\n            else:\n                left_balance -= 1\n            if left_balance < 0:\n                return False\n        \n        right_balance = 0\n        for char in reversed(s):\n            if char == ')' or char == '*':\n                right_balance += 1\n            else:\n                right_balance -= 1\n            if right_balance < 0:\n                return False\n        \n        return True\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        min_open = 0\n        max_open = 0\n        \n        for char in s:\n            if char == '(':\n                min_open += 1\n                max_open += 1\n            elif char == ')':\n                min_open = max(min_open - 1, 0)\n                max_open -= 1\n            else:  # char == '*'\n                min_open = max(min_open - 1, 0)\n                max_open += 1\n            \n            if max_open < 0:\n                return False\n        \n        return min_open == 0\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        left_balance = 0\n        for char in s:\n            if char == '(' or char == '*':\n                left_balance += 1\n            else:\n                left_balance -= 1\n            if left_balance < 0:\n                return False\n        \n        right_balance = 0\n        for char in reversed(s):\n            if char == ')' or char == '*':\n                right_balance += 1\n            else:\n                right_balance -= 1\n            if right_balance < 0:\n                return False\n        \n        return True\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 19508553167,
+      "SolvedAt": "2025-11-21T00:48:18.625359+01:00",
+      "PromptTokens": 4293,
+      "OutputTokens": 1096
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "678",
+        "typed_code": "\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        left_balance = 0\n        for char in s:\n            if char == '(' or char == '*':\n                left_balance += 1\n            else:\n                left_balance -= 1\n            if left_balance < 0:\n                return False\n        \n        right_balance = 0\n        for char in reversed(s):\n            if char == ')' or char == '*':\n                right_balance += 1\n            else:\n                right_balance -= 1\n            if right_balance < 0:\n                return False\n        \n        return True\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:09:01+01:00"
+    }
+  }
+}

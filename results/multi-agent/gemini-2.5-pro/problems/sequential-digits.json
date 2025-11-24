@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1291",
+        "questionId": "1212",
+        "Content": "<p>An&nbsp;integer has <em>sequential digits</em> if and only if each digit in the number is one more than the previous digit.</p>\n\n<p>Return a <strong>sorted</strong> list of all the integers&nbsp;in the range <code>[low, high]</code>&nbsp;inclusive that have sequential digits.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> low = 100, high = 300\n<strong>Output:</strong> [123,234]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> low = 1000, high = 13000\n<strong>Output:</strong> [1234,2345,3456,4567,5678,6789,12345]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>10 &lt;= low &lt;= high &lt;= 10^9</code></li>\n</ul>\n",
+        "SampleTestCase": "100\n300",
+        "ExampleTestcases": "100\n300\n1000\n13000",
+        "Difficulty": "Medium",
+        "Title": "Sequential Digits",
+        "TitleSlug": "sequential-digits",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"232.4K\", \"totalSubmission\": \"355.9K\", \"totalAcceptedRaw\": 232449, \"totalSubmissionRaw\": 355875, \"acRate\": \"65.3%\"}",
+        "Likes": 2911,
+        "Dislikes": 177,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> sequentialDigits(int low, int high) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<Integer> sequentialDigits(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def sequentialDigits(self, low, high):\n        \"\"\"\n        :type low: int\n        :type high: int\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} low\n * @param {number} high\n * @return {number[]}\n */\nvar sequentialDigits = function(low, high) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function sequentialDigits(low: number, high: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<int> SequentialDigits(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sequentialDigits(int low, int high, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func sequentialDigits(low int, high int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun sequentialDigits(low: Int, high: Int): List<Int> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func sequentialDigits(_ low: Int, _ high: Int) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn sequential_digits(low: i32, high: i32) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} low\n# @param {Integer} high\n# @return {Integer[]}\ndef sequential_digits(low, high)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $low\n     * @param Integer $high\n     * @return Integer[]\n     */\n    function sequentialDigits($low, $high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> sequentialDigits(int low, int high) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def sequentialDigits(low: Int, high: Int): List[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec sequential_digits(low :: integer, high :: integer) :: [integer]\n  def sequential_digits(low, high) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec sequential_digits(Low :: integer(), High :: integer()) -> [integer()].\nsequential_digits(Low, High) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (sequential-digits low high)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:25.347942+01:00",
+    "AcRate": "65.3",
+    "TotalSubmissions": 355875,
+    "TotalAccepted": 232449,
+    "AcceptanceRate": 0.6531759747102213,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sequential-digits/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the \"Sequential Digits\" problem:\n\n1.  **Problem Type Classification**: This problem falls under the category of **Number Generation** or **Enumeration**. The core task is to create all numbers that fit a specific pattern (\"sequential digits\") and then filter them based on a given range.\n\n2.  **Key Patterns & Algorithms**:\n    *   **Naive Approach (Inefficient)**: Iterating through every integer from `low` to `high` and checking if each has sequential digits. This is too slow given `high` can be up to `10^9`.\n    *   **Efficient Generation**: The key insight is that the number of integers with sequential digits is very small (only 36 total, from 12 to 123456789). This makes it feasible to generate all of them and then filter.\n    *   **Iterative Generation (Nested Loops)**: A straightforward method is to use nested loops. The outer loop selects the starting digit (1-9), and the inner loop appends subsequent digits to form all possible sequential numbers (e.g., for start=1, generate 12, 123, 1234...).\n    *   **Sliding Window on a String**: An elegant pattern using a sample string `s = \"123456789\"`. All sequential-digit numbers are substrings of `s`. By iterating through possible lengths and starting positions, one can generate all candidates, naturally in sorted order.\n    *   **BFS/Queue-based Generation**: Start with single-digit numbers in a queue. In a loop, dequeue a number, check if it's in the valid range, and if its last digit is less than 9, generate the next sequential number and add it to the queue. This also produces sorted results.\n\n3.  **Constraints Analysis**:\n    *   The constraints `10 <= low <= high <= 10^9` make the naive approach of checking every number infeasible.\n    *   The crucial constraint is implicit: the number of sequential-digit integers is small and fixed regardless of the `low` and `high` values.\n    *   This implies that any solution that efficiently generates this small set of candidates will be very fast. The time and space complexity will be effectively constant, O(1), as they don't scale with the input range `high - low`.\n\n4.  **Edge Cases**:\n    *   The range `[low, high]` contains no sequential-digit numbers (e.g., [150, 200]). The solution should return an empty list.\n    *   The range is very wide and includes all possible sequential-digit numbers (e.g., [10, 10^9]).\n    *   The `low` or `high` boundaries are themselves sequential-digit numbers. The solution must be inclusive.\n    *   `low` and `high` can be large numbers, but they fit within standard 64-bit integers. Python's arbitrary-precision integers handle this automatically.\n\n5.  **Input/Output Analysis**:\n    *   **Input**: Two integers `low` and `high`.\n    *   **Output**: A `List[int]` containing all sequential-digit numbers `x` such that `low <= x <= high`. The list must be sorted in ascending order. The generation methods (Sliding Window, BFS) can produce sorted output naturally, while a simpler generation might require a final sort.\n\n6.  **Difficulty Assessment**:\n    *   The problem is of **Easy-Medium** difficulty.\n    *   The main trap is the inefficient naive approach. The key to an efficient solution is realizing the small, fixed search space of candidate numbers. Once this insight is gained, the implementation of a generation strategy is relatively straightforward.\n\nThis analysis leads to a solution that first generates all sequential numbers, filters them against the `[low, high]` range, and then sorts the result.\n\n```python\nimport collections\n\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> list[int]:\n        result = []\n        \n        # Iterate through all possible starting digits (1 through 9)\n        for i in range(1, 10):\n            num = i\n            # From the starting digit, build the sequential number\n            for j in range(i + 1, 10):\n                num = num * 10 + j\n                \n                # If the number exceeds high, any further number generated from this \n                # starting digit will also be too large, so we can break early.\n                if num > high:\n                    break\n                \n                # If the number is within the [low, high] range, add it to the result list.\n                if num >= low:\n                    result.append(num)\n        \n        # The numbers are generated based on the starting digit (e.g., 12, 123..., 23, 234...),\n        # so the final list needs to be sorted to meet the requirement.\n        result.sort()\n        \n        return result\n\n```\n\n=== DESIGN ===\n**1. Algorithm Choice**\nThe chosen algorithm is the **Generative Sliding Window** method. This approach generates all possible sequential-digit numbers and filters them against the given range. It is highly efficient because the total count of sequential-digit numbers is a small constant (36). The generation is performed by taking substrings from a sample string \"123456789\". This method naturally produces the numbers in sorted order, eliminating the need for a separate sorting step.\n\n**2. Step-by-Step Approach**\n1.  Initialize an empty list, `result`, to store the integers that satisfy the condition.\n2.  Define a constant string, `sample_digits = \"123456789\"`.\n3.  Iterate through all possible lengths (`length`) of sequential numbers, from 2 to 9.\n4.  For each `length`, iterate through all possible starting positions (`i`) in `sample_digits`. The starting index `i` can range from 0 up to `9 - length`.\n5.  In the inner loop, extract the substring of the current `length` starting at index `i`.\n6.  Convert this substring representation into an integer, `num`.\n7.  Check if `num` is within the `[low, high]` range.\n    *   If `num` is greater than `high`, we can stop the entire process and return the `result` list. This is because all subsequent numbers generated (with the same or greater length) will also be larger than `high`.\n    *   If `num` is greater than or equal to `low`, it fits the criteria, so add it to the `result` list.\n8.  After all loops complete (or exit early), return the `result` list.\n\n**3. Data Structures**\n*   **String**: A constant string `sample_digits` (\"123456789\") is used as a template to generate the numbers.\n*   **List**: A list (`result`) is used to accumulate the final set of integers to be returned.\n\n**4. Time Complexity**\nThe algorithm's performance is independent of the input range `[low, high]`. It involves two nested loops that run a fixed number of times to generate all 36 possible sequential-digit numbers.\n*   Outer loop (length): 8 iterations (from 2 to 9).\n*   Inner loop (start index): At most 8 iterations.\nThe total number of generated numbers is constant. Therefore, the time complexity is **O(1)**.\n\n**5. Space Complexity**\nThe space required is for the `result` list. In the worst-case scenario, all 36 sequential-digit numbers fall within the given range and are stored. Since this number is constant, the space complexity is **O(1)**.\n\n**6. Pseudocode**\n```pseudocode\nFUNCTION sequentialDigits(low, high):\n  // 1. Initialize data structures\n  result = CREATE_EMPTY_LIST()\n  sample = \"123456789\"\n  num_digits_in_sample = 9\n\n  // 2. Iterate through all possible lengths\n  FOR length FROM 2 TO num_digits_in_sample:\n    \n    // 3. Iterate through all possible start indices for the current length\n    FOR i FROM 0 TO num_digits_in_sample - length:\n      \n      // 4. Generate the number\n      substring = sample.substring(i, i + length)\n      num = to_integer(substring)\n\n      // 5. Check if the number exceeds the upper bound\n      IF num > high:\n        // All subsequent numbers will also be too high, so we can exit.\n        RETURN result\n      \n      // 6. Check if the number is within the desired range\n      IF num >= low:\n        result.append(num)\n        \n  // 7. Return the completed list\n  RETURN result\n```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        result = []\n        sample = \"123456789\"\n        \n        # Iterate through possible lengths (2 to 9)\n        for length in range(len(str(low)), len(str(high)) + 2):\n            if length > 9:\n                break\n            # Iterate through possible start positions in the sample string\n            for i in range(0, 10 - length):\n                # Extract substring and convert to a number\n                num = int(sample[i : i + length])\n                \n                # If the generated number is within the range, add it\n                if low <= num <= high:\n                    result.append(num)\n                # If the number exceeds high, subsequent numbers for this length\n                # will also be too high. (This is a micro-optimization)\n                elif num > high:\n                    break # Break inner loop\n        \n        # The slightly more optimized version of the loops from the design doc is simpler\n        # and more robust. Let's use that one for the final implementation, as it\n        # is cleaner and avoids complex range calculations for length.\n\n        final_result = []\n        for length in range(2, 10):\n            for i in range(0, 10 - length):\n                num = int(sample[i: i + length])\n\n                if num > high:\n                    return final_result\n                \n                if num >= low:\n                    final_result.append(num)\n        \n        return final_result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> list[int]:\n        result = []\n        sample_digits = \"123456789\"\n        num_digits_in_sample = 9\n\n        for length in range(2, num_digits_in_sample + 1):\n            for i in range(0, num_digits_in_sample - length + 1):\n                substring = sample_digits[i : i + length]\n                num = int(substring)\n\n                if num > high:\n                    return result\n                \n                if num >= low:\n                    result.append(num)\n        \n        return result\n```\n\n=== VERIFICATION ===\nAn analysis of the user-provided \"Implemented Code\":\n\n### Verification Report\n\n1.  **Correctness**: The solution correctly implements the designed \"Generative Sliding Window\" algorithm. It systematically generates all 36 possible sequential-digit numbers (from 12 to 123456789) by taking substrings of the string \"123456789\". The order of generation (by increasing length, then by increasing starting digit) ensures that the numbers are produced in ascending order. The filtering logic `if num >= low` and the early exit `if num > high` are correctly applied to find all numbers within the inclusive range `[low, high]`.\n\n2.  **Edge Cases**: The code correctly handles all relevant edge cases:\n    *   **No sequential digits in range** (e.g., `low=150, high=200`): The code will produce an empty list, which is correct.\n    *   **Wide range** (e.g., `low=10, high=10^9`): The code will correctly find and return all 36 sequential-digit numbers.\n    *   **Inclusive boundaries**: The conditions `num >= low` and the implicit `num <= high` (from the `num > high` exit) correctly handle cases where `low` or `high` are themselves sequential-digit numbers.\n    *   **Large inputs**: Python's arbitrary-precision integers prevent any overflow issues with `low`, `high`, or the generated numbers.\n\n3.  **Complexity**:\n    *   **Time Complexity**: **O(1)**. The number of iterations is constant. There are two nested loops that run a fixed number of times (a total of 36 times) to generate all possible candidates, regardless of the values of `low` and `high`.\n    *   **Space Complexity**: **O(1)**. The `result` list stores at most 36 integers, and the space for other variables is also constant. The memory usage does not scale with the input range.\n\n4.  **Code Quality**: The code is of high quality.\n    *   **Readability**: It is clean, concise, and easy to understand. The variable names (`length`, `i`, `num`) are clear.\n    *   **Efficiency**: The approach of generating a small, fixed set of candidates is optimal. The early exit `if num > high: return result` is a smart optimization that avoids unnecessary computations.\n    *   **Best Practices**: It uses an elegant pattern (sliding window on a string template) and avoids a final sorting step by generating numbers in their natural order.\n\n5.  **Test Cases**:\n    *   For `low=100, high=300`, the code generates numbers like `123` and `234`. When it generates `345`, it sees `345 > 300` and returns the `result`, which is correctly `[123, 234]`.\n    *   For `low=1000, high=13000`, the code correctly finds `1234, 2345, ..., 6789`, then finds `12345`. When it generates `23456`, it sees `23456 > 13000` and returns the `result`, which is correctly `[1234, 2345, 3456, 4567, 5678, 6789, 12345]`.\n\n6.  **Potential Issues**: There are no bugs or logical errors found in the implementation. It is a robust and efficient solution for the given problem.\n\n**Conclusion**: The provided solution is fully correct, highly efficient, and well-written. It successfully passes all checks.\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> list[int]:\n        result = []\n        sample_digits = \"123456789\"\n        num_digits_in_sample = 9\n\n        # Iterate through all possible lengths (from 2 to 9)\n        for length in range(2, num_digits_in_sample + 1):\n            # Iterate through all possible start indices for the current length\n            for i in range(0, num_digits_in_sample - length + 1):\n                # Extract the substring and convert to an integer\n                substring = sample_digits[i : i + length]\n                num = int(substring)\n                \n                # If the number exceeds the upper bound, all subsequent numbers\n                # will also be too high, so we can stop.\n                if num > high:\n                    return result\n                \n                # If the number is within the [low, high] range, add it.\n                if num >= low:\n                    result.append(num)\n        \n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> list[int]:\n        result = []\n        sample_digits = \"123456789\"\n        num_digits_in_sample = 9\n\n        for length in range(2, num_digits_in_sample + 1):\n            for i in range(0, num_digits_in_sample - length + 1):\n                substring = sample_digits[i : i + length]\n                num = int(substring)\n\n                if num > high:\n                    return result\n                \n                if num >= low:\n                    result.append(num)\n        \n        return result\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 301039734542,
+      "SolvedAt": "2025-11-21T16:45:32.043127+01:00",
+      "PromptTokens": 8224,
+      "OutputTokens": 36109
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1212",
+        "typed_code": "\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> list[int]:\n        result = []\n        sample_digits = \"123456789\"\n        num_digits_in_sample = 9\n\n        for length in range(2, num_digits_in_sample + 1):\n            for i in range(0, num_digits_in_sample - length + 1):\n                substring = sample_digits[i : i + length]\n                num = int(substring)\n\n                if num > high:\n                    return result\n                \n                if num >= low:\n                    result.append(num)\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:52:11+01:00"
+    }
+  }
+}

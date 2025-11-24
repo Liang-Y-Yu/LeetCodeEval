@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "905",
+        "questionId": "941",
+        "Content": "<p>Given an integer array <code>nums</code>, move all the even integers at the beginning of the array followed by all the odd integers.</p>\n\n<p>Return <em><strong>any array</strong> that satisfies this condition</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,1,2,4]\n<strong>Output:</strong> [2,4,3,1]\n<strong>Explanation:</strong> The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0]\n<strong>Output:</strong> [0]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 5000</code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 5000</code></li>\n</ul>\n",
+        "SampleTestCase": "[3,1,2,4]",
+        "ExampleTestcases": "[3,1,2,4]\n[0]",
+        "Difficulty": "Easy",
+        "Title": "Sort Array By Parity",
+        "TitleSlug": "sort-array-by-parity",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"961K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 960965, \"totalSubmissionRaw\": 1258294, \"acRate\": \"76.4%\"}",
+        "Likes": 5618,
+        "Dislikes": 157,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> sortArrayByParity(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] sortArrayByParity(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def sortArrayByParity(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar sortArrayByParity = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function sortArrayByParity(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SortArrayByParity(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sortArrayByParity(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func sortArrayByParity(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun sortArrayByParity(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func sortArrayByParity(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn sort_array_by_parity(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef sort_array_by_parity(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function sortArrayByParity($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> sortArrayByParity(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def sortArrayByParity(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec sort_array_by_parity(nums :: [integer]) :: [integer]\n  def sort_array_by_parity(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec sort_array_by_parity(Nums :: [integer()]) -> [integer()].\nsort_array_by_parity(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (sort-array-by-parity nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:51:21.932369+01:00",
+    "AcRate": "76.4",
+    "TotalSubmissions": 1258294,
+    "TotalAccepted": 960965,
+    "AcceptanceRate": 0.7637046667948826,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sort-array-by-parity/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: list[int]) -> list[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            # If the current element is even\n            if nums[curr_idx] % 2 == 0:\n                # Swap it with the element at the position for the next even number\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                # Move the pointer for the next even number's position\n                even_idx += 1\n        return nums\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by using an in-place, single-pass partition algorithm. This approach, often referred to as a two-pointer technique, effectively segregates the array into even and odd sections without requiring extra memory.\n\nOne pointer, `even_idx`, acts as a write pointer, marking the boundary of the section containing even numbers. This section grows from the beginning of the array. The second pointer, `curr_idx`, serves as a read pointer, iterating through the entire array.\n\nAs `curr_idx` scans the array, whenever it encounters an even number, that number is swapped with the element at the `even_idx` position. After the swap, `even_idx` is incremented, effectively expanding the 'even' partition by one element. If the `curr_idx` points to an odd number, no action is taken, and the pointer simply moves to the next element.\n\nThis process ensures that by the time `curr_idx` has traversed the whole array, all even numbers have been moved to the front (from index 0 to `even_idx` - 1), and all remaining elements (the odd numbers) are located in the latter part of the array. The algorithm completes in linear time and constant space, making it highly efficient.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            # Check if the current element is even.\n            if nums[curr_idx] % 2 == 0:\n                # If it is, swap it with the element at the 'even_idx' position.\n                # This moves the even number to the front section of the array.\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                \n                # Increment even_idx to mark the new boundary of the even numbers section.\n                even_idx += 1\n                \n        return nums\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: list[int]) -> list[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            if nums[curr_idx] % 2 == 0:\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                even_idx += 1\n        return nums\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is by using an in-place, single-pass partition algorithm. This approach, often referred to as a two-pointer technique, effectively segregates the array into even and odd sections without requiring extra memory.\nOne pointer, `even_idx`, acts as a write pointer, marking the boundary of the section containing even numbers. This section grows from the beginning of the array. The second pointer, `curr_idx`, serves as a read pointer, iterating through the entire array.\nAs `curr_idx` scans the array, whenever it encounters an even number, that number is swapped with the element at the `even_idx` position. After the swap, `even_idx` is incremented, effectively expanding the 'even' partition by one element. If the `curr_idx` points to an odd number, no action is taken, and the pointer simply moves to the next element.\nThis process ensures that by the time `curr_idx` has traversed the whole array, all even numbers have been moved to the front (from index 0 to `even_idx` - 1), and all remaining elements (the odd numbers) are located in the latter part of the array. The algorithm completes in linear time and constant space, making it highly efficient.\n## Verification Report\n\n**1. Correctness:**\n- The implemented code correctly solves the problem using a single-pass, in-place partition algorithm.\n- A pointer `even_idx` tracks the boundary for even numbers. The loop iterates with `curr_idx`, and when an even number is found at `nums[curr_idx]`, it is swapped into the `even_idx` position.\n- This logic correctly moves all even numbers to the beginning of the array, followed by the odd numbers, satisfying the problem requirements.\n\n**2. Edge Cases:**\n- The solution properly handles all identified edge cases:\n  - **Single-element array:** Works correctly for both even (`[2] -> [2]`) and odd (`[3] -> [3]`) inputs, including `[0]`.\n  - **Arrays with all even or all odd numbers:** Correctly returns the array unmodified as it's already sorted by parity.\n  - **Array containing `0`:** `0` is correctly treated as an even number.\n  - **Constraints:** The solution is robust for array lengths up to 5000 as per the constraints.\n\n**3. Complexity:**\n- **Time Complexity:** `O(N)`, where `N` is the number of elements in `nums`. The algorithm iterates through the array exactly once. This is optimal.\n- **Space Complexity:** `O(1)`. The sorting is performed in-place, using only a constant amount of extra memory for pointers. This is optimal.\n\n**4. Code Quality:**\n- The code is clean, concise, and easy to read.\n- Variable names like `even_idx` and `curr_idx` are descriptive and make the algorithm's logic clear.\n- The use of Python's tuple assignment for swapping is idiomatic and efficient. The overall structure is simple and follows best practices.\n\n**5. Test Cases:**\n- **Example 1: `nums = [3,1,2,4]`** -> The code produces `[2,4,3,1]`, which is a valid output. The walkthrough confirms the step-by-step logic works as expected.\n- **Example 2: `nums = [0]`** -> The code produces `[0]`, which is the correct output.\n\n**6. Potential Issues:**\n- No bugs or logical errors were found.\n- The solution is sound. A minor point is that a redundant self-swap occurs when an even number is already in its correct partition (`even_idx == curr_idx`). This could be avoided with an extra check, but the current implementation is preferred for its simplicity and clarity, and the performance difference is negligible.\n\n**Conclusion:** The provided solution is correct, efficient, and well-written. It passes all checks and is a valid implementation for the given problem.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            # If the current element is even\n            if nums[curr_idx] % 2 == 0:\n                # Swap it with the element at the position for the next even number\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                # Move the pointer for the next even number's position\n                even_idx += 1\n        return nums\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def sortArrayByParity(self, nums: list[int]) -> list[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            if nums[curr_idx] % 2 == 0:\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                even_idx += 1\n        return nums\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 253588809458,
+      "SolvedAt": "2025-11-21T17:31:16.802272+01:00",
+      "PromptTokens": 3621,
+      "OutputTokens": 27861
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "941",
+        "typed_code": "\nclass Solution:\n    def sortArrayByParity(self, nums: list[int]) -> list[int]:\n        even_idx = 0\n        for curr_idx in range(len(nums)):\n            if nums[curr_idx] % 2 == 0:\n                nums[even_idx], nums[curr_idx] = nums[curr_idx], nums[even_idx]\n                even_idx += 1\n        return nums\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:03:32+01:00"
+    }
+  }
+}

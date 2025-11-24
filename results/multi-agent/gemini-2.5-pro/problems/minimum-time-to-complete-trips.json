@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2187",
+        "questionId": "2294",
+        "Content": "<p>You are given an array <code>time</code> where <code>time[i]</code> denotes the time taken by the <code>i<sup>th</sup></code> bus to complete <strong>one trip</strong>.</p>\n\n<p>Each bus can make multiple trips <strong>successively</strong>; that is, the next trip can start <strong>immediately after</strong> completing the current trip. Also, each bus operates <strong>independently</strong>; that is, the trips of one bus do not influence the trips of any other bus.</p>\n\n<p>You are also given an integer <code>totalTrips</code>, which denotes the number of trips all buses should make <strong>in total</strong>. Return <em>the <strong>minimum time</strong> required for all buses to complete <strong>at least</strong> </em><code>totalTrips</code><em> trips</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> time = [1,2,3], totalTrips = 5\n<strong>Output:</strong> 3\n<strong>Explanation:</strong>\n- At time t = 1, the number of trips completed by each bus are [1,0,0]. \n  The total number of trips completed is 1 + 0 + 0 = 1.\n- At time t = 2, the number of trips completed by each bus are [2,1,0]. \n  The total number of trips completed is 2 + 1 + 0 = 3.\n- At time t = 3, the number of trips completed by each bus are [3,1,1]. \n  The total number of trips completed is 3 + 1 + 1 = 5.\nSo the minimum time needed for all buses to complete at least 5 trips is 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> time = [2], totalTrips = 1\n<strong>Output:</strong> 2\n<strong>Explanation:</strong>\nThere is only one bus, and it will complete its first trip at t = 2.\nSo the minimum time needed to complete 1 trip is 2.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= time.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= time[i], totalTrips &lt;= 10<sup>7</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3]\n5",
+        "ExampleTestcases": "[1,2,3]\n5\n[2]\n1",
+        "Difficulty": "Medium",
+        "Title": "Minimum Time to Complete Trips",
+        "TitleSlug": "minimum-time-to-complete-trips",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"145.1K\", \"totalSubmission\": \"368.5K\", \"totalAcceptedRaw\": 145064, \"totalSubmissionRaw\": 368474, \"acRate\": \"39.4%\"}",
+        "Likes": 3038,
+        "Dislikes": 193,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long minimumTime(vector<int>& time, int totalTrips) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long minimumTime(int[] time, int totalTrips) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minimumTime(self, time, totalTrips):\n        \"\"\"\n        :type time: List[int]\n        :type totalTrips: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} time\n * @param {number} totalTrips\n * @return {number}\n */\nvar minimumTime = function(time, totalTrips) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minimumTime(time: number[], totalTrips: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long MinimumTime(int[] time, int totalTrips) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long minimumTime(int* time, int timeSize, int totalTrips) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minimumTime(time []int, totalTrips int) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minimumTime(time: IntArray, totalTrips: Int): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minimumTime(_ time: [Int], _ totalTrips: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn minimum_time(time: Vec<i32>, total_trips: i32) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} time\n# @param {Integer} total_trips\n# @return {Integer}\ndef minimum_time(time, total_trips)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $time\n     * @param Integer $totalTrips\n     * @return Integer\n     */\n    function minimumTime($time, $totalTrips) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minimumTime(List<int> time, int totalTrips) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minimumTime(time: Array[Int], totalTrips: Int): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec minimum_time(time :: [integer], total_trips :: integer) :: integer\n  def minimum_time(time, total_trips) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec minimum_time(Time :: [integer()], TotalTrips :: integer()) -> integer().\nminimum_time(Time, TotalTrips) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (minimum-time time totalTrips)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:45:35.997181+01:00",
+    "AcRate": "39.4",
+    "TotalSubmissions": 368474,
+    "TotalAccepted": 145064,
+    "AcceptanceRate": 0.39368856418634696,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-time-to-complete-trips/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is by using binary search on the answer. The problem asks for the *minimum time*, and we can observe a key monotonic property: if a certain amount of time `t` is sufficient to complete `totalTrips`, then any time `t' > t` will also be sufficient. This suggests that we can binary search for the smallest `t` that satisfies the condition.\n\n### Algorithm Outline:\n\n1.  **Define a Search Space:**\n    *   The minimum possible time is 1. So, our lower bound (`low`) can be 1.\n    *   A safe upper bound (`high`) can be estimated by considering the worst-case scenario. If only the fastest bus (with time `min(time)`) were to complete all the trips, it would take `min(time) * totalTrips`. This is a guaranteed upper limit for the required time, as having more buses can only help reduce the time.\n\n2.  **Binary Search:**\n    *   We search for the minimum time `t` in the range `[low, high]`.\n    *   In each step, we take the middle time `mid` and check if it's possible to complete at least `totalTrips` within this `mid` time.\n\n3.  **Check Function (`is_sufficient(t)`):**\n    *   For a given time `t`, the number of trips a single bus `i` can complete is `t // time[i]`.\n    *   To check if time `t` is sufficient, we sum the trips completed by all buses: `sum(t // time[i] for i in time)`.\n    *   If this sum is greater than or equal to `totalTrips`, then time `t` is sufficient.\n\n4.  **Narrowing the Search Space:**\n    *   If `mid` time is sufficient, it means `mid` is a potential answer, and the actual minimum time could be `mid` or something smaller. So, we try to find a better answer in the lower half of the search range: `[low, mid]`.\n    *   If `mid` time is not sufficient, we need more time. The answer must lie in the upper half: `[mid + 1, high]`.\n\n5.  **Termination:**\n    *   The binary search continues until the search space `[low, high]` converges to a single value. This value will be the minimum time required.\n\n### Complexity Analysis:\n\n*   **Time Complexity:** `O(N * log(M * K))`, where `N` is the number of buses, `M` is the minimum trip time, and `K` is `totalTrips`. The `log` factor comes from the binary search over the time range, and for each time check, we iterate through all `N` buses.\n*   **Space Complexity:** `O(1)`, as we only use a few variables for the binary search, not dependent on the input size.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        low = 1\n        # A safe upper bound is the time it would take for the fastest bus\n        # to complete all trips by itself.\n        high = min(time) * totalTrips\n\n        # Binary search for the minimum time. The key property is that if time 't'\n        # is sufficient, any time greater than 't' is also sufficient. We are\n        # looking for the first such 't'.\n        while low < high:\n            mid = low + (high - low) // 2\n            \n            # Calculate the total trips that can be completed within 'mid' time.\n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n                # Optimization: If we've already reached the target,\n                # we know 'mid' is a potential solution, so we can stop counting.\n                if completed_trips >= totalTrips:\n                    break\n            \n            if completed_trips >= totalTrips:\n                # 'mid' is a possible answer. The actual minimum could be 'mid' or smaller.\n                # So we narrow our search space to the left half, including 'mid'.\n                high = mid\n            else:\n                # 'mid' is not enough time. The answer must be greater than 'mid'.\n                # We search in the right half.\n                low = mid + 1\n                \n        # When the loop terminates, 'low' will be the smallest time that satisfies\n        # the condition.\n        return low\n\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by using binary search on the answer. The problem asks for the *minimum time*, and we can observe a key monotonic property: if a certain amount of time `t` is sufficient to complete `totalTrips`, then any time `t' > t` will also be sufficient. This suggests that we can binary search for the smallest `t` that satisfies the condition.\n### Algorithm Outline:\n1.  **Define a Search Space:**\n    *   The minimum possible time is 1. So, our lower bound (`low`) can be 1.\n    *   A safe upper bound (`high`) can be estimated by considering the worst-case scenario. If only the fastest bus (with time `min(time)`) were to complete all the trips, it would take `min(time) * totalTrips`. This is a guaranteed upper limit for the required time, as having more buses can only help reduce the time.\n2.  **Binary Search:**\n    *   We search for the minimum time `t` in the range `[low, high]`.\n    *   In each step, we take the middle time `mid` and check if it's possible to complete at least `totalTrips` within this `mid` time.\n3.  **Check Function (`is_sufficient(t)`):**\n    *   For a given time `t`, the number of trips a single bus `i` can complete is `t // time[i]`.\n    *   To check if time `t` is sufficient, we sum the trips completed by all buses: `sum(t // time[i] for i in time)`.\n    *   If this sum is greater than or equal to `totalTrips`, then time `t` is sufficient.\n4.  **Narrowing the Search Space:**\n    *   If `mid` time is sufficient, it means `mid` is a potential answer, and the actual minimum time could be `mid` or something smaller. So, we try to find a better answer in the lower half of the search range: `[low, mid]`.\n    *   If `mid` time is not sufficient, we need more time. The answer must lie in the upper half: `[mid + 1, high]`.\n5.  **Termination:**\n    *   The binary search continues until the search space `[low, high]` converges to a single value. This value will be the minimum time required.\n### Complexity Analysis:\n*   **Time Complexity:** `O(N * log(M * K))`, where `N` is the number of buses, `M` is the minimum trip time, and `K` is `totalTrips`. The `log` factor comes from the binary search over the time range, and for each time check, we iterate through all `N` buses.\n*   **Space Complexity:** `O(1)`, as we only use a few variables for the binary search, not dependent on the input size.\n\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        low = 1\n        high = min(time) * totalTrips\n\n        while low < high:\n            mid = low + (high - low) // 2\n            \n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n                if completed_trips >= totalTrips:\n                    break\n            \n            if completed_trips >= totalTrips:\n                high = mid\n            else:\n                low = mid + 1\n        \n        return low\n```\n\n=== IMPLEMENTATION ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        low = 1\n        high = min(time) * totalTrips\n        \n        ans = high\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            if mid == 0:\n                low = 1\n                continue\n            \n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n            \n            if completed_trips >= totalTrips:\n                ans = mid\n                high = mid - 1\n            else:\n                low = mid + 1\n                \n        return ans\n```\n\n=== VERIFICATION ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        \"\"\"\n        Finds the minimum time required to complete at least `totalTrips`.\n        \"\"\"\n        # The minimum possible time is 1.\n        low = 1\n        \n        # A safe upper bound is the time it would take for the fastest bus\n        # to complete all trips by itself.\n        # This guarantees that at this time, at least `totalTrips` are completed.\n        high = min(time) * totalTrips\n        \n        # We are looking for the smallest time `t` such that the number of trips\n        # is >= `totalTrips`. This is a classic binary search for a lower bound.\n        # The predicate `can_complete(t)` is monotonic: if we can complete the trips in\n        # time `t`, we can also complete them in any time `t' > t`.\n        \n        # The invariant of this loop is that the answer lies in the range [low, high].\n        while low < high:\n            mid = low + (high - low) // 2\n            \n            # Calculate the total trips that can be completed within 'mid' time.\n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n                # Optimization: If we've already reached the target,\n                # we know 'mid' is a potential solution, so we can stop counting.\n                if completed_trips >= totalTrips:\n                    break\n            \n            if completed_trips >= totalTrips:\n                # 'mid' is a sufficient amount of time, so it's a potential answer.\n                # The actual minimum could be 'mid' or smaller.\n                # We narrow our search space to the left half, including 'mid'.\n                high = mid\n            else:\n                # 'mid' is not enough time. The answer must be greater than 'mid'.\n                # We search in the right half.\n                low = mid + 1\n                \n        # The loop terminates when low == high. This value is the smallest time\n        # that satisfies the condition.\n        return low\n```\n\n",
+      "TypedCode": "\nimport math\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        low = 1\n        high = min(time) * totalTrips\n        \n        ans = high\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            if mid == 0:\n                low = 1\n                continue\n            \n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n            \n            if completed_trips >= totalTrips:\n                ans = mid\n                high = mid - 1\n            else:\n                low = mid + 1\n                \n        return ans\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 275409807041,
+      "SolvedAt": "2025-11-21T14:23:50.531441+01:00",
+      "PromptTokens": 7972,
+      "OutputTokens": 32095
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2294",
+        "typed_code": "\nimport math\nfrom typing import List\n\nclass Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        low = 1\n        high = min(time) * totalTrips\n        \n        ans = high\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            if mid == 0:\n                low = 1\n                continue\n            \n            completed_trips = 0\n            for t in time:\n                completed_trips += mid // t\n            \n            if completed_trips >= totalTrips:\n                ans = mid\n                high = mid - 1\n            else:\n                low = mid + 1\n                \n        return ans\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:33:45+01:00"
+    }
+  }
+}

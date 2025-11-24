@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "678",
+        "questionId": "678",
+        "Content": "<p>Given a string <code>s</code> containing only three types of characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> and <code>&#39;*&#39;</code>, return <code>true</code> <em>if</em> <code>s</code> <em>is <strong>valid</strong></em>.</p>\n\n<p>The following rules define a <strong>valid</strong> string:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>&#39;(&#39;</code> must have a corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li>Any right parenthesis <code>&#39;)&#39;</code> must have a corresponding left parenthesis <code>&#39;(&#39;</code>.</li>\n\t<li>Left parenthesis <code>&#39;(&#39;</code> must go before the corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li><code>&#39;*&#39;</code> could be treated as a single right parenthesis <code>&#39;)&#39;</code> or a single left parenthesis <code>&#39;(&#39;</code> or an empty string <code>&quot;&quot;</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"()\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"(*)\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \"(*))\"\n<strong>Output:</strong> true\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s[i]</code> is <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"()\"",
+        "ExampleTestcases": "\"()\"\n\"(*)\"\n\"(*))\"",
+        "Difficulty": "Medium",
+        "Title": "Valid Parenthesis String",
+        "TitleSlug": "valid-parenthesis-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"541.3K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 541328, \"totalSubmissionRaw\": 1369036, \"acRate\": \"39.5%\"}",
+        "Likes": 6815,
+        "Dislikes": 217,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkValidString(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkValidString(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkValidString(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkValidString(s: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckValidString(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkValidString(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkValidString(s string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkValidString(s: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkValidString(_ s: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_valid_string(s: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Boolean}\ndef check_valid_string(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Boolean\n     */\n    function checkValidString($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkValidString(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkValidString(s: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_valid_string(s :: String.t) :: boolean\n  def check_valid_string(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_valid_string(S :: unicode:unicode_binary()) -> boolean().\ncheck_valid_string(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-valid-string s)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:00.013178+01:00",
+    "AcRate": "39.5",
+    "TotalSubmissions": 1369036,
+    "TotalAccepted": 541328,
+    "AcceptanceRate": 0.3954081558118267,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/valid-parenthesis-string/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:  # '*'\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0\n\n=== DESIGN ===\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0\n\n=== VERIFICATION ===\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0\n\n",
+      "TypedCode": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0",
+      "Model": "openai/gpt-5.1",
+      "Latency": 40625350709,
+      "SolvedAt": "2025-11-19T17:02:18.699651+01:00",
+      "PromptTokens": 2887,
+      "OutputTokens": 1641
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "678",
+        "typed_code": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        low = 0\n        high = 0\n        for c in s:\n            if c == '(':\n                low += 1\n                high += 1\n            elif c == ')':\n                if low > 0:\n                    low -= 1\n                high -= 1\n            else:\n                if low > 0:\n                    low -= 1\n                high += 1\n            if high < 0:\n                return False\n        return low == 0"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:35:16+01:00"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "392",
+        "questionId": "392",
+        "Content": "<p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>A <strong>subsequence</strong> of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., <code>&quot;ace&quot;</code> is a subsequence of <code>&quot;<u>a</u>b<u>c</u>d<u>e</u>&quot;</code> while <code>&quot;aec&quot;</code> is not).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"abc\", t = \"ahbgdc\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"axc\", t = \"ahbgdc\"\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>0 &lt;= t.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> and <code>t</code> consist only of lowercase English letters.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Suppose there are lots of incoming <code>s</code>, say <code>s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub></code> where <code>k &gt;= 10<sup>9</sup></code>, and you want to check one by one to see if <code>t</code> has its subsequence. In this scenario, how would you change your code?",
+        "SampleTestCase": "\"abc\"\n\"ahbgdc\"",
+        "ExampleTestcases": "\"abc\"\n\"ahbgdc\"\n\"axc\"\n\"ahbgdc\"",
+        "Difficulty": "Easy",
+        "Title": "Is Subsequence",
+        "TitleSlug": "is-subsequence",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.3M\", \"totalSubmission\": \"4.7M\", \"totalAcceptedRaw\": 2289330, \"totalSubmissionRaw\": 4703665, \"acRate\": \"48.7%\"}",
+        "Likes": 10590,
+        "Dislikes": 606,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isSubsequence(string s, string t) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isSubsequence(String s, String t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isSubsequence(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isSubsequence = function(s, t) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isSubsequence(s: string, t: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsSubsequence(string s, string t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isSubsequence(char* s, char* t) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isSubsequence(s string, t string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isSubsequence(s: String, t: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isSubsequence(_ s: String, _ t: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_subsequence(s: String, t: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} t\n# @return {Boolean}\ndef is_subsequence(s, t)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @return Boolean\n     */\n    function isSubsequence($s, $t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isSubsequence(String s, String t) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isSubsequence(s: String, t: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_subsequence(s :: String.t, t :: String.t) :: boolean\n  def is_subsequence(s, t) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_subsequence(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nis_subsequence(S, T) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-subsequence s t)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:19:37.221193+01:00",
+    "AcRate": "48.7",
+    "TotalSubmissions": 4703665,
+    "TotalAccepted": 2289330,
+    "AcceptanceRate": 0.48671195759051716,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/is-subsequence/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        s_ptr = 0\n        t_ptr = 0\n        \n        while s_ptr < len(s) and t_ptr < len(t):\n            # If characters match, advance the pointer for s\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            # Always advance the pointer for t to scan through it\n            t_ptr += 1\n            \n        # If s_ptr has reached the end of s, all characters were found in order\n        return s_ptr == len(s)\n\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by using a two-pointer greedy approach. This method avoids the need for more complex data structures or recursion, offering a linear time complexity solution.\n\n### 1. Algorithm Choice\nThe chosen algorithm is the **Two-Pointer Greedy Approach**. This is suitable because we only need to scan through the strings once to determine if `s` is a subsequence of `t`. The greedy nature of the algorithm lies in matching the characters of `s` as early as possible in `t`.\n\n### 2. Step-by-Step Approach\n1.  Initialize two pointers, `s_ptr` for string `s` and `t_ptr` for string `t`, both starting at index 0.\n2.  Iterate with a `while` loop as long as both pointers are within the bounds of their respective strings.\n3.  Inside the loop, compare the character `s[s_ptr]` with `t[t_ptr]`.\n4.  If the characters match, it means we've found the current character of `s` in `t`. We then advance `s_ptr` to look for the next character in `s`.\n5.  The pointer `t_ptr` is always advanced in each iteration to scan through string `t`.\n6.  The loop terminates when either all characters of `s` have been found (`s_ptr` reaches the end of `s`) or when `t` has been fully scanned (`t_ptr` reaches the end of `t`).\n7.  After the loop, if `s_ptr` is equal to the length of `s`, it signifies that every character of `s` was found in `t` in the correct order. In this case, `s` is a subsequence, and we return `true`. Otherwise, we return `false`.\n\n### 3. Data Structures\n- **Input Strings**: `s` and `t`.\n- **Pointers**: Two integer variables to serve as pointers (`s_ptr`, `t_ptr`). No other auxiliary data structures are required.\n\n### 4. Time Complexity\nThe algorithm involves a single pass through the strings. The `t_ptr` traverses `t` at most once. Therefore, the time complexity is **O(len(t))**.\n\n### 5. Space Complexity\nThe solution uses only a fixed number of variables (the two pointers) regardless of the input size. Thus, the space complexity is **O(1)**.\n\n### 6. Pseudocode\n```pseudocode\nFUNCTION isSubsequence(s, t):\n  s_ptr = 0\n  t_ptr = 0\n  \n  WHILE s_ptr < length(s) AND t_ptr < length(t):\n    IF s[s_ptr] == t[t_ptr]:\n      s_ptr = s_ptr + 1\n    t_ptr = t_ptr + 1\n    \n  RETURN s_ptr == length(s)\n```\n\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        s_ptr = 0\n        t_ptr = 0\n        \n        while s_ptr < len(s) and t_ptr < len(t):\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            t_ptr += 1\n            \n        return s_ptr == len(s)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        s_ptr = 0\n        t_ptr = 0\n        \n        while s_ptr < len(s) and t_ptr < len(t):\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            t_ptr += 1\n            \n        return s_ptr == len(s)\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is by using a two-pointer greedy approach. This method avoids the need for more complex data structures or recursion, offering a linear time complexity solution.\n### 1. Algorithm Choice\nThe chosen algorithm is the **Two-Pointer Greedy Approach**. This is suitable because we only need to scan through the strings once to determine if `s` is a subsequence of `t`. The greedy nature of the algorithm lies in matching the characters of `s` as early as possible in `t`.\n### 2. Step-by-Step Approach\n1.  Initialize two pointers, `s_ptr` for string `s` and `t_ptr` for string `t`, both starting at index 0.\n2.  Iterate with a `while` loop as long as both pointers are within the bounds of their respective strings.\n3.  Inside the loop, compare the character `s[s_ptr]` with `t[t_ptr]`.\n4.  If the characters match, it means we've found the current character of `s` in `t`. We then advance `s_ptr` to look for the next character in `s`.\n5.  The pointer `t_ptr` is always advanced in each iteration to scan through string `t`.\n6.  The loop terminates when either all characters of `s` have been found (`s_ptr` reaches the end of `s`) or when `t` has been fully scanned (`t_ptr` reaches the end of `t`).\n7.  After the loop, if `s_ptr` is equal to the length of `s`, it signifies that every character of `s` was found in `t` in the correct order. In this case, `s` is a subsequence, and we return `true`. Otherwise, we return `false`.\n### 3. Data Structures\n- **Input Strings**: `s` and `t`.\n- **Pointers**: Two integer variables to serve as pointers (`s_ptr`, `t_ptr`). No other auxiliary data structures are required.\n### 4. Time Complexity\nThe algorithm involves a single pass through the strings. The `t_ptr` traverses `t` at most once. Therefore, the time complexity is **O(len(t))**.\n### 5. Space Complexity\nThe solution uses only a fixed number of variables (the two pointers) regardless of the input size. Thus, the space complexity is **O(1)**.\n### 6. Pseudocode\n```pseudocode\nFUNCTION isSubsequence(s, t):\n  s_ptr = 0\n  t_ptr = 0\n  \n  WHILE s_ptr < length(s) AND t_ptr < length(t):\n    IF s[s_ptr] == t[t_ptr]:\n      s_ptr = s_ptr + 1\n    t_ptr = t_ptr + 1\n    \n  RETURN s_ptr == length(s)\n```\n**Verification Report:**\n\n**1. Correctness:**\nThe implemented solution is **correct**. It correctly employs a two-pointer greedy algorithm to determine if `s` is a subsequence of `t`. The logic is sound: it iterates through both strings, advancing the pointer for `s` only when a character match is found. If the `s` pointer traverses the entirety of `s`, it confirms that `s` is a subsequence.\n\n**2. Edge Cases:**\nThe solution correctly handles all relevant edge cases:\n*   **Empty `s` string (`s = \"\"`):** Correctly returns `true`, as an empty string is a subsequence of any string.\n*   **Empty `t` string (`t = \"\"`):** Correctly returns `false` if `s` is not empty.\n*   **`s` and `t` are identical:** Correctly returns `true`.\n*   **`s` is longer than `t`:** Correctly returns `false`.\n\n**3. Complexity:**\nThe complexity analysis provided in the design is accurate.\n*   **Time Complexity:** O(len(t)). The algorithm performs a single pass through the string `t`.\n*   **Space Complexity:** O(1). The solution uses a constant amount of extra space for the two pointers, regardless of the input strings' lengths.\n\n**4. Code Quality:**\n*   **Readability:** The code is clean, well-structured, and easy to understand. Variable names (`s_ptr`, `t_ptr`) are descriptive and unambiguous.\n*   **Best Practices:** The implementation follows standard coding practices and is an efficient and straightforward solution to the problem.\n\n**5. Test Cases:**\nThe code passes the provided sample test cases:\n*   **`s = \"abc\"`, `t = \"ahbgdc\"`:** The code will correctly return `true`.\n*   **`s = \"axc\"`, `t = \"ahbgdc\"`:** The code will correctly return `false`.\n\n**6. Potential Issues & Improvements (Follow-up):**\nThe provided solution is optimal for a single `s` and `t`. However, it does not address the follow-up question in the problem statement regarding a large number of incoming `s` strings.\n\n*   **Issue:** For a large number of queries (k >= 10^9), the current solution's total time complexity of O(k * len(t)) would be too slow.\n*   **Suggested Improvement for Follow-up:** To optimize for multiple queries, one should preprocess string `t` to build an index of character positions.\n    1.  **Preprocessing (O(len(t))):** Create a hash map where keys are characters and values are sorted lists of their indices in `t`.\n    2.  **Querying (O(len(s) * log(len(t)))):** For each character in a given `s`, use binary search on the appropriate index list to find the next valid position in `t`.\n\nThis preprocessing approach amortizes the cost of scanning `t` over many queries, leading to a much more efficient overall solution for the follow-up scenario with a total time complexity of O(len(t) + k * len(s) * log(len(t))).\n\n**Conclusion:**\nThe provided code is a **correct, high-quality, and efficient** solution for the base problem statement. It successfully passes all checks for correctness, edge cases, complexity, and code quality.\n\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        \"\"\"\n        Determines if s is a subsequence of t using a two-pointer approach.\n        \"\"\"\n        s_ptr = 0\n        t_ptr = 0\n        \n        # Iterate while both pointers are within the bounds of their respective strings.\n        while s_ptr < len(s) and t_ptr < len(t):\n            # If the characters at the current pointers match, it means we have found\n            # the current character of s in t. We then advance the pointer for s\n            # to look for the next character.\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            \n            # The pointer for t is always advanced to scan through the string t.\n            t_ptr += 1\n            \n        # After the loop, if s_ptr has reached the end of s, it signifies that\n        # every character of s was found in t in the correct relative order.\n        # Thus, s is a subsequence of t.\n        return s_ptr == len(s)\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        s_ptr = 0\n        t_ptr = 0\n        \n        while s_ptr < len(s) and t_ptr < len(t):\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            t_ptr += 1\n            \n        return s_ptr == len(s)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 215241418125,
+      "SolvedAt": "2025-11-21T12:06:39.160966+01:00",
+      "PromptTokens": 4586,
+      "OutputTokens": 27276
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "392",
+        "typed_code": "\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        s_ptr = 0\n        t_ptr = 0\n        \n        while s_ptr < len(s) and t_ptr < len(t):\n            if s[s_ptr] == t[t_ptr]:\n                s_ptr += 1\n            t_ptr += 1\n            \n        return s_ptr == len(s)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:50:10+01:00"
+    }
+  }
+}

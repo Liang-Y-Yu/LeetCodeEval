@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "745",
+        "questionId": "746",
+        "Content": "<p>Design a special dictionary that searches the words in it by a prefix and a suffix.</p>\n\n<p>Implement the <code>WordFilter</code> class:</p>\n\n<ul>\n\t<li><code>WordFilter(string[] words)</code> Initializes the object with the <code>words</code> in the dictionary.</li>\n\t<li><code>f(string pref, string suff)</code> Returns <em>the index of the word in the dictionary,</em> which has the prefix <code>pref</code> and the suffix <code>suff</code>. If there is more than one valid index, return <strong>the largest</strong> of them. If there is no such word in the dictionary, return <code>-1</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;WordFilter&quot;, &quot;f&quot;]\n[[[&quot;apple&quot;]], [&quot;a&quot;, &quot;e&quot;]]\n<strong>Output</strong>\n[null, 0]\n<strong>Explanation</strong>\nWordFilter wordFilter = new WordFilter([&quot;apple&quot;]);\nwordFilter.f(&quot;a&quot;, &quot;e&quot;); // return 0, because the word at index 0 has prefix = &quot;a&quot; and suffix = &quot;e&quot;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 7</code></li>\n\t<li><code>1 &lt;= pref.length, suff.length &lt;= 7</code></li>\n\t<li><code>words[i]</code>, <code>pref</code> and <code>suff</code> consist of lowercase English letters only.</li>\n\t<li>At most <code>10<sup>4</sup></code> calls will be made to the function <code>f</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"WordFilter\",\"f\"]\n[[[\"apple\"]],[\"a\",\"e\"]]",
+        "ExampleTestcases": "[\"WordFilter\",\"f\"]\n[[[\"apple\"]],[\"a\",\"e\"]]",
+        "Difficulty": "Hard",
+        "Title": "Prefix and Suffix Search",
+        "TitleSlug": "prefix-and-suffix-search",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"107.5K\", \"totalSubmission\": \"264.6K\", \"totalAcceptedRaw\": 107470, \"totalSubmissionRaw\": 264587, \"acRate\": \"40.6%\"}",
+        "Likes": 2334,
+        "Dislikes": 498,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class WordFilter {\npublic:\n    WordFilter(vector<string>& words) {\n        \n    }\n    \n    int f(string pref, string suff) {\n        \n    }\n};\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter* obj = new WordFilter(words);\n * int param_1 = obj->f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class WordFilter {\n\n    public WordFilter(String[] words) {\n        \n    }\n    \n    public int f(String pref, String suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class WordFilter:\n\n    def __init__(self, words: List[str]):\n        \n\n    def f(self, pref: str, suff: str) -> int:\n        \n\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter(words)\n# param_1 = obj.f(pref,suff)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class WordFilter(object):\n\n    def __init__(self, words):\n        \"\"\"\n        :type words: List[str]\n        \"\"\"\n        \n\n    def f(self, pref, suff):\n        \"\"\"\n        :type pref: str\n        :type suff: str\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter(words)\n# param_1 = obj.f(pref,suff)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n */\nvar WordFilter = function(words) {\n    \n};\n\n/** \n * @param {string} pref \n * @param {string} suff\n * @return {number}\n */\nWordFilter.prototype.f = function(pref, suff) {\n    \n};\n\n/** \n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class WordFilter {\n    constructor(words: string[]) {\n        \n    }\n\n    f(pref: string, suff: string): number {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class WordFilter {\n\n    public WordFilter(string[] words) {\n        \n    }\n    \n    public int F(string pref, string suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.F(pref,suff);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} WordFilter;\n\n\nWordFilter* wordFilterCreate(char** words, int wordsSize) {\n    \n}\n\nint wordFilterF(WordFilter* obj, char* pref, char* suff) {\n    \n}\n\nvoid wordFilterFree(WordFilter* obj) {\n    \n}\n\n/**\n * Your WordFilter struct will be instantiated and called as such:\n * WordFilter* obj = wordFilterCreate(words, wordsSize);\n * int param_1 = wordFilterF(obj, pref, suff);\n \n * wordFilterFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type WordFilter struct {\n    \n}\n\n\nfunc Constructor(words []string) WordFilter {\n    \n}\n\n\nfunc (this *WordFilter) F(pref string, suff string) int {\n    \n}\n\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * obj := Constructor(words);\n * param_1 := obj.F(pref,suff);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class WordFilter(words: Array<String>) {\n\n    fun f(pref: String, suff: String): Int {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * var obj = WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass WordFilter {\n\n    init(_ words: [String]) {\n        \n    }\n    \n    func f(_ pref: String, _ suff: String) -> Int {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * let obj = WordFilter(words)\n * let ret_1: Int = obj.f(pref, suff)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct WordFilter {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl WordFilter {\n\n    fn new(words: Vec<String>) -> Self {\n        \n    }\n    \n    fn f(&self, pref: String, suff: String) -> i32 {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * let obj = WordFilter::new(words);\n * let ret_1: i32 = obj.f(pref, suff);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class WordFilter\n\n=begin\n    :type words: String[]\n=end\n    def initialize(words)\n        \n    end\n\n\n=begin\n    :type pref: String\n    :type suff: String\n    :rtype: Integer\n=end\n    def f(pref, suff)\n        \n    end\n\n\nend\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter.new(words)\n# param_1 = obj.f(pref, suff)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class WordFilter {\n    /**\n     * @param String[] $words\n     */\n    function __construct($words) {\n        \n    }\n  \n    /**\n     * @param String $pref\n     * @param String $suff\n     * @return Integer\n     */\n    function f($pref, $suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * $obj = WordFilter($words);\n * $ret_1 = $obj->f($pref, $suff);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class WordFilter {\n\n  WordFilter(List<String> words) {\n    \n  }\n  \n  int f(String pref, String suff) {\n    \n  }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = WordFilter(words);\n * int param1 = obj.f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class WordFilter(_words: Array[String]) {\n\n    def f(pref: String, suff: String): Int = {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * val obj = new WordFilter(words)\n * val param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule WordFilter do\n  @spec init_(words :: [String.t]) :: any\n  def init_(words) do\n    \n  end\n\n  @spec f(pref :: String.t, suff :: String.t) :: integer\n  def f(pref, suff) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# WordFilter.init_(words)\n# param_1 = WordFilter.f(pref, suff)\n\n# WordFilter.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_filter_init_(Words :: [unicode:unicode_binary()]) -> any().\nword_filter_init_(Words) ->\n  .\n\n-spec word_filter_f(Pref :: unicode:unicode_binary(), Suff :: unicode:unicode_binary()) -> integer().\nword_filter_f(Pref, Suff) ->\n  .\n\n\n%% Your functions will be called as such:\n%% word_filter_init_(Words),\n%% Param_1 = word_filter_f(Pref, Suff),\n\n%% word_filter_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define word-filter%\n  (class object%\n    (super-new)\n    \n    ; words : (listof string?)\n    (init-field\n      words)\n    \n    ; f : string? string? -> exact-integer?\n    (define/public (f pref suff)\n      )))\n\n;; Your word-filter% object will be instantiated and called as such:\n;; (define obj (new word-filter% [words words]))\n;; (define param_1 (send obj f pref suff))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:03:22.53053+01:00",
+    "AcRate": "40.6",
+    "TotalSubmissions": 264587,
+    "TotalAccepted": 107470,
+    "AcceptanceRate": 0.406180197817731,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/prefix-and-suffix-search/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to design a data structure that efficiently searches for words with both a given prefix and suffix.\n\n## Analysis\n\n1. **Problem Type**: String manipulation, Trie/Dictionary design, Preprocessing/Indexing\n2. **Key Patterns**: Trie data structure, Hash map, String matching, Preprocessing\n3. **Constraints**: Words length \u2264 7, up to 10^4 words and queries - need efficient lookups\n4. **Edge Cases**: \n   - Multiple words with same prefix/suffix (return largest index)\n   - No matching word (return -1)\n   - Prefix/suffix could be entire word\n5. **Difficulty**: Need to balance preprocessing time vs query time\n\n## Solution Approach\n\nGiven the constraints (word length \u2264 7, up to 10^4 words), I can use a preprocessing approach:\n- Store all possible combinations of suffix+word+prefix\n- Use a hash map to store these combinations with their indices\n- For each word, generate all possible prefix-suffix combinations\n\nThe key insight is to use a special format: for each word, I can create keys like `{suffix}#{prefix}` for all possible suffixes and prefixes. When querying, I look up `{suff}#{pref}`.\n\nAlternative efficient approach: Store mappings of all `suffix#prefix` combinations to their word indices during initialization.\n\n```python\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n```\n\n=== DESIGN ===\nLooking at this problem, I need to efficiently find words with a given prefix and suffix, returning the largest index if multiple matches exist.\n\n## Solution Design\n\n**Algorithm Choice**: Preprocessing with HashMap using combined prefix-suffix keys\n\n**Step-by-Step Approach**:\n1. During initialization, for each word at index i, generate all possible prefix-suffix combinations\n2. Store each combination with format `suffix#prefix` as key, mapping to the word's index\n3. Since we iterate through words in order, later indices naturally overwrite earlier ones, giving us the largest index\n4. During query, construct the key `suff#pref` and lookup in the map\n\n**Data Structures**: \n- HashMap/Dictionary to store `suffix#prefix` -> index mappings\n\n**Time Complexity**:\n- Initialization: O(N * L^2) where N is number of words, L is max word length (\u22647)\n- Query: O(1) average case for hash lookup\n\n**Space Complexity**: \n- O(N * L^2) to store all prefix-suffix combinations\n\n**Pseudocode**:\n```\nInit(words):\n    map = empty dictionary\n    for index, word in words:\n        for each possible prefix of word:\n            for each possible suffix of word:\n                key = suffix + '#' + prefix\n                map[key] = index  // Later indices overwrite earlier ones\n                \nf(pref, suff):\n    key = suff + '#' + pref\n    return map.get(key, -1)\n```\n\nHere's the implementation:\n\n```python\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 23218235916,
+      "SolvedAt": "2025-11-19T23:53:46.114844+01:00",
+      "PromptTokens": 5745,
+      "OutputTokens": 1362
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "746",
+        "typed_code": "\nfrom typing import List\n\nclass WordFilter:\n\n    def __init__(self, words: List[str]):\n        self.map = {}\n        for index, word in enumerate(words):\n            word_len = len(word)\n            for i in range(word_len + 1):\n                prefix = word[:i]\n                for j in range(word_len + 1):\n                    suffix = word[j:]\n                    key = suffix + '#' + prefix\n                    self.map[key] = index\n\n    def f(self, pref: str, suff: str) -> int:\n        key = suff + '#' + pref\n        return self.map.get(key, -1)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:16:59+01:00"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "palindrome-number.json",
+    "model": "openai/gpt-5.1",
+    "language": "python3",
+    "lines_of_code": 11,
+    "cyclomatic_complexity": 3,
+    "duplication_score": 0,
+    "problem_id": "9",
+    "title": "Palindrome Number",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

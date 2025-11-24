@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 20,
+    "lines_of_code": 43,
+    "status": "Accepted"
+  },
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "problem_id": "1381",
+    "cyclomatic_complexity": 16,
+    "lines_of_code": 51,
+    "status": "Accepted"
+  },
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 77,
+    "status": "Accepted"
+  },
+  {
+    "title": "Basic Calculator II",
+    "problem_id": "227",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 43,
+    "status": "Accepted"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 13,
+    "lines_of_code": 48,
+    "status": "Accepted"
+  },
+  {
+    "title": "Backspace String Compare",
+    "problem_id": "874",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 31,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 44,
+    "status": "Accepted"
+  },
+  {
+    "title": "Parsing A Boolean Expression",
+    "problem_id": "1197",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 27,
+    "status": "Accepted"
+  },
+  {
+    "title": "Permutation in String",
+    "problem_id": "567",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "problem_id": "1220",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 31,
+    "status": "Accepted"
+  }
+]

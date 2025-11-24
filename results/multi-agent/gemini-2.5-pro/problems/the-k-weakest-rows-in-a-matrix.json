@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1337",
+        "questionId": "1463",
+        "Content": "<p>You are given an <code>m x n</code> binary matrix <code>mat</code> of <code>1</code>&#39;s (representing soldiers) and <code>0</code>&#39;s (representing civilians). The soldiers are positioned <strong>in front</strong> of the civilians. That is, all the <code>1</code>&#39;s will appear to the <strong>left</strong> of all the <code>0</code>&#39;s in each row.</p>\n\n<p>A row <code>i</code> is <strong>weaker</strong> than a row <code>j</code> if one of the following is true:</p>\n\n<ul>\n\t<li>The number of soldiers in row <code>i</code> is less than the number of soldiers in row <code>j</code>.</li>\n\t<li>Both rows have the same number of soldiers and <code>i &lt; j</code>.</li>\n</ul>\n\n<p>Return <em>the indices of the </em><code>k</code><em> <strong>weakest</strong> rows in the matrix ordered from weakest to strongest</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> mat = \n[[1,1,0,0,0],\n [1,1,1,1,0],\n [1,0,0,0,0],\n [1,1,0,0,0],\n [1,1,1,1,1]], \nk = 3\n<strong>Output:</strong> [2,0,3]\n<strong>Explanation:</strong> \nThe number of soldiers in each row is: \n- Row 0: 2 \n- Row 1: 4 \n- Row 2: 1 \n- Row 3: 2 \n- Row 4: 5 \nThe rows ordered from weakest to strongest are [2,0,3,1,4].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> mat = \n[[1,0,0,0],\n [1,1,1,1],\n [1,0,0,0],\n [1,0,0,0]], \nk = 2\n<strong>Output:</strong> [0,2]\n<strong>Explanation:</strong> \nThe number of soldiers in each row is: \n- Row 0: 1 \n- Row 1: 4 \n- Row 2: 1 \n- Row 3: 1 \nThe rows ordered from weakest to strongest are [0,2,3,1].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == mat.length</code></li>\n\t<li><code>n == mat[i].length</code></li>\n\t<li><code>2 &lt;= n, m &lt;= 100</code></li>\n\t<li><code>1 &lt;= k &lt;= m</code></li>\n\t<li><code>matrix[i][j]</code> is either 0 or 1.</li>\n</ul>\n",
+        "SampleTestCase": "[[1,1,0,0,0],[1,1,1,1,0],[1,0,0,0,0],[1,1,0,0,0],[1,1,1,1,1]]\n3",
+        "ExampleTestcases": "[[1,1,0,0,0],[1,1,1,1,0],[1,0,0,0,0],[1,1,0,0,0],[1,1,1,1,1]]\n3\n[[1,0,0,0],[1,1,1,1],[1,0,0,0],[1,0,0,0]]\n2",
+        "Difficulty": "Easy",
+        "Title": "The K Weakest Rows in a Matrix",
+        "TitleSlug": "the-k-weakest-rows-in-a-matrix",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"411K\", \"totalSubmission\": \"554K\", \"totalAcceptedRaw\": 410989, \"totalSubmissionRaw\": 554044, \"acRate\": \"74.2%\"}",
+        "Likes": 4314,
+        "Dislikes": 241,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUz",
+            "Name": "Matrix",
+            "Slug": "matrix"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] kWeakestRows(int[][] mat, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def kWeakestRows(self, mat, k):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} mat\n * @param {number} k\n * @return {number[]}\n */\nvar kWeakestRows = function(mat, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function kWeakestRows(mat: number[][], k: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] KWeakestRows(int[][] mat, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* kWeakestRows(int** mat, int matSize, int* matColSize, int k, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func kWeakestRows(mat [][]int, k int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun kWeakestRows(mat: Array<IntArray>, k: Int): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func kWeakestRows(_ mat: [[Int]], _ k: Int) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn k_weakest_rows(mat: Vec<Vec<i32>>, k: i32) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} mat\n# @param {Integer} k\n# @return {Integer[]}\ndef k_weakest_rows(mat, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $mat\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function kWeakestRows($mat, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> kWeakestRows(List<List<int>> mat, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def kWeakestRows(mat: Array[Array[Int]], k: Int): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec k_weakest_rows(mat :: [[integer]], k :: integer) :: [integer]\n  def k_weakest_rows(mat, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec k_weakest_rows(Mat :: [[integer()]], K :: integer()) -> [integer()].\nk_weakest_rows(Mat, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (k-weakest-rows mat k)\n  (-> (listof (listof exact-integer?)) exact-integer? (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:51.777522+01:00",
+    "AcRate": "74.2",
+    "TotalSubmissions": 554044,
+    "TotalAccepted": 410989,
+    "AcceptanceRate": 0.7417984853188555,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:\n        # Create a list of tuples, where each tuple contains the strength (number of soldiers)\n        # and the original index of a row.\n        # The strength is calculated by summing the elements of the row.\n        # The enumerate function provides both the index (i) and the value (row).\n        \n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n            \n        # Sort the list of tuples. Python's default sorting for tuples works perfectly here.\n        # It first sorts by the first element (strength) in ascending order.\n        # If there's a tie, it sorts by the second element (original index) in ascending order.\n        # This matches the problem's definition of \"weaker\".\n        \n        row_strengths.sort()\n        \n        # Extract the original indices from the first k elements of the sorted list.\n        # This gives us the indices of the k weakest rows.\n        \n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by combining calculation, storage, and sorting. The approach maps each row to a tuple containing its strength and its original index. Sorting these tuples naturally arranges them according to the problem's weakness criteria.\n\n### 1. Algorithm Choice\nA **sorting-based approach** is the most direct and clear way to solve this problem. We will associate each row with a \"weakness score,\" which is a composite key made of the row's strength (number of soldiers) and its original index. Then, we will sort all rows based on this score and pick the top `k` results.\n\n### 2. Step-by-Step Approach\n1.  **Initialize a helper data structure**: create an empty list to store pairs of `(strength, index)` for each row.\n2.  **Calculate Strength and Store**: Iterate through the input matrix `mat` using an index `i` from `0` to `m-1`, where `m` is the number of rows.\n    *   For each row, calculate its strength. The strength is the count of soldiers (1s). This can be computed by summing the elements of the row.\n    .   Create a tuple `(strength, i)` containing the calculated strength and the original row index `i`.\n    *   Append this tuple to the list from step 1.\n3.  **Sort**: After processing all rows, sort the list of tuples. Python's default sorting for tuples works perfectly here: it sorts by the first element (strength) in ascending order, and for ties, it uses the second element (original index) as the tie-breaker, also in ascending order. This directly implements the problem's definition of a \"weaker\" row.\n4.  **Extract Result**: Create the final result list by selecting the first `k` tuples from the sorted list and extracting the index from each tuple.\n5.  **Return**: Return the list of `k` indices.\n\n### 3. Data Structures\n*   A **List of Tuples** (e.g., `List[(int, int)]`) is the primary data structure needed. It will store the `(strength, original_index)` for each of the `m` rows, allowing for a straightforward sort.\n\n### 4. Time Complexity\nThe overall time complexity will be `O(m * n + m * log m)`.\n*   **Strength Calculation**: We iterate through `m` rows, and for each row of length `n`, we calculate the sum. This takes `O(m * n)`.\n*   **Sorting**: We sort a list containing `m` elements. This takes `O(m * log m)`.\n*   **Result Extraction**: Slicing the first `k` elements and creating the result list takes `O(k)`.\nSince `k <= m`, the dominant factors are the strength calculation and the sort.\n\n### 5. Space Complexity\nThe space complexity will be `O(m)`.\n*   We need to store the strength and index for each of the `m` rows in an auxiliary list.\n\n### 6. Pseudocode\n```\nFUNCTION kWeakestRows(mat, k):\n  // Get the number of rows\n  m = number of rows in mat\n  \n  // Create a list to store (strength, index) pairs\n  strength_index_pairs = EMPTY_LIST\n  \n  // Calculate strength for each row and store it with its original index\n  FOR i FROM 0 TO m-1:\n    strength = SUM(mat[i])\n    APPEND (strength, i) TO strength_index_pairs\n  \n  // Sort the pairs. The default tuple sort achieves the desired ranking.\n  SORT strength_index_pairs ASCENDING\n  \n  // Get the first k elements from the sorted list\n  weakest_pairs = SLICE strength_index_pairs FROM 0 TO k\n  \n  // Extract just the indices from the weakest pairs\n  result = EMPTY_LIST\n  FOR each pair in weakest_pairs:\n    APPEND pair.index TO result\n    \n  RETURN result\n```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:\n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n        \n        row_strengths.sort()\n        \n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def kWeakestRows(self, mat: list[list[int]], k: int) -> list[int]:\n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n        \n        row_strengths.sort()\n        \n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:\n        \"\"\"\n        Identifies the k weakest rows in a matrix based on the number of soldiers (1s)\n        and their original row index.\n        \"\"\"\n        \n        # 1. Create a list of tuples (strength, index) for each row.\n        # The strength is the number of soldiers (sum of 1s).\n        # The index is the original row position.\n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n        \n        # 2. Sort the list. Python's default sort for tuples works perfectly.\n        # It sorts by the first element (strength) in ascending order.\n        # For ties in strength, it sorts by the second element (index) in ascending order.\n        # This matches the problem's definition of \"weaker\".\n        row_strengths.sort()\n        \n        # 3. Extract the indices from the first k elements of the sorted list.\n        # This gives the indices of the k weakest rows in the correct order.\n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def kWeakestRows(self, mat: list[list[int]], k: int) -> list[int]:\n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n        \n        row_strengths.sort()\n        \n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 280979808459,
+      "SolvedAt": "2025-11-21T18:29:02.877694+01:00",
+      "PromptTokens": 6560,
+      "OutputTokens": 28887
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1463",
+        "typed_code": "\nclass Solution:\n    def kWeakestRows(self, mat: list[list[int]], k: int) -> list[int]:\n        row_strengths = []\n        for i, row in enumerate(mat):\n            strength = sum(row)\n            row_strengths.append((strength, i))\n        \n        row_strengths.sort()\n        \n        result = [index for strength, index in row_strengths[:k]]\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:11:03+01:00"
+    }
+  }
+}

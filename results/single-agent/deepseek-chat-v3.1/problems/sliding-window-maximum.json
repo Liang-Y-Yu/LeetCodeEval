@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "239",
+        "questionId": "239",
+        "Content": "<p>You are given an array of integers&nbsp;<code>nums</code>, there is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>\n\n<p>Return <em>the max sliding window</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3\n<strong>Output:</strong> [3,3,5,5,6,7]\n<strong>Explanation:</strong> \nWindow position                Max\n---------------               -----\n[1  3  -1] -3  5  3  6  7       <strong>3</strong>\n 1 [3  -1  -3] 5  3  6  7       <strong>3</strong>\n 1  3 [-1  -3  5] 3  6  7      <strong> 5</strong>\n 1  3  -1 [-3  5  3] 6  7       <strong>5</strong>\n 1  3  -1  -3 [5  3  6] 7       <strong>6</strong>\n 1  3  -1  -3  5 [3  6  7]      <strong>7</strong>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1], k = 1\n<strong>Output:</strong> [1]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= nums.length</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,-1,-3,5,3,6,7]\n3",
+        "ExampleTestcases": "[1,3,-1,-3,5,3,6,7]\n3\n[1]\n1",
+        "Difficulty": "Hard",
+        "Title": "Sliding Window Maximum",
+        "TitleSlug": "sliding-window-maximum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"3.1M\", \"totalAcceptedRaw\": 1500044, \"totalSubmissionRaw\": 3117997, \"acRate\": \"48.1%\"}",
+        "Likes": 19886,
+        "Dislikes": 799,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjM0",
+            "Name": "Queue",
+            "Slug": "queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcx",
+            "Name": "Monotonic Queue",
+            "Slug": "monotonic-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] maxSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxSlidingWindow(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar maxSlidingWindow = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxSlidingWindow(nums: number[], k: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] MaxSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxSlidingWindow(nums []int, k int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_sliding_window(nums: Vec<i32>, k: i32) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer[]}\ndef max_sliding_window(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function maxSlidingWindow($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> maxSlidingWindow(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxSlidingWindow(nums: Array[Int], k: Int): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_sliding_window(nums :: [integer], k :: integer) :: [integer]\n  def max_sliding_window(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_sliding_window(Nums :: [integer()], K :: integer()) -> [integer()].\nmax_sliding_window(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-sliding-window nums k)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:25:34.534997+01:00",
+    "AcRate": "48.1",
+    "TotalSubmissions": 3117997,
+    "TotalAccepted": 1500044,
+    "AcceptanceRate": 0.48109218835040574,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array of integers\u00a0nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\nReturn the max sliding window.\n\u00a0\nExample 1:\nInput: nums = [1,3,-1,-3,5,3,6,7], k = 3\nOutput: [3,3,5,5,6,7]\nExplanation: \nWindow position                Max\n---------------               -----\n[1  3  -1] -3  5  3  6  7       3\n 1 [3  -1  -3] 5  3  6  7       3\n 1  3 [-1  -3  5] 3  6  7       5\n 1  3  -1 [-3  5  3] 6  7       5\n 1  3  -1  -3 [5  3  6] 7       6\n 1  3  -1  -3  5 [3  6  7]      7\nExample 2:\nInput: nums = [1], k = 1\nOutput: [1]\n\u00a0\nConstraints:\n\t1 <= nums.length <= 10^5\n\t-10^4 <= nums[i] <= 10^4\n\t1 <= k <= nums.length\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to efficiently compute the maximum value in each sliding window of size `k` as it moves from left to right over an array of integers. The constraints require that the solution runs in linear time relative to the input size to handle large arrays efficiently.\n\n### Approach\n1. **Problem Analysis**: The problem requires finding the maximum in every contiguous subarray (window) of size `k`. A naive approach that checks every window by scanning each element would result in O(n*k) time complexity, which is inefficient for large `n` (up to 10^5). Instead, we need an optimal solution.\n\n2. **Key Insight**: Use a deque (double-ended queue) to maintain indices of elements in the current window such that the deque's front always has the index of the maximum element for the current window. The deque helps in efficiently adding new elements and removing elements that are out of the current window.\n\n3. **Algorithm Selection**:\n   - **Deque Technique**: We traverse the array and for each element:\n     - Remove indices that are out of the current window from the front of the deque.\n     - While the current element is greater than the element at the back of the deque, remove indices from the back. This ensures that the deque remains in decreasing order.\n     - Add the current index to the back of the deque.\n     - Once we have processed at least `k` elements, the front of the deque holds the index of the maximum element for the current window.\n   - This approach ensures each element is pushed and popped from the deque at most once, leading to O(n) time complexity.\n\n4. **Steps**:\n   - Initialize an empty deque `dq` and a list `result` to store the maximums.\n   - Iterate over each index `i` in the range of `len(nums)`:\n        - Check and remove indices from the front that are out of the current window (i.e., indices <= `i - k`).\n        - While the deque is not empty and the current element `nums[i]` is greater than or equal to the element at the last index in the deque, pop from the back.\n        - Append the current index `i` to the deque.\n        - If `i` is at least `k-1`, then the front of the deque is the index of the maximum element for the current window. Append `nums[dq[0]]` to `result`.\n   - Return `result`.\n\n### Solution Code\n```python\nfrom collections import deque\n\nclass Solution:\n    def maxSlidingWindow(self, nums: list, k: int) -> list:\n        dq = deque()\n        result = []\n        n = len(nums)\n        for i in range(n):\n            if dq and dq[0] == i - k:\n                dq.popleft()\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            dq.append(i)\n            if i >= k - 1:\n                result.append(nums[dq[0]])\n        return result\n```\n\n### Explanation\n- The deque stores indices of elements in the current window such that the elements are in decreasing order. This ensures the front of the deque always has the index of the maximum element.\n- For each new element, we remove indices that are out of the current window from the front.\n- We then remove indices from the back if the corresponding elements are smaller than the current element, maintaining the deque's decreasing order.\n- After processing each element, if we have processed at least `k` elements, the front of the deque gives the maximum of the current window.\n- This approach efficiently computes the maximum for each window in O(n) time with O(k) space, optimal for large inputs.",
+      "TypedCode": "\nfrom collections import deque\n\nclass Solution:\n    def maxSlidingWindow(self, nums: list, k: int) -> list:\n        dq = deque()\n        result = []\n        n = len(nums)\n        for i in range(n):\n            if dq and dq[0] == i - k:\n                dq.popleft()\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            dq.append(i)\n            if i >= k - 1:\n                result.append(nums[dq[0]])\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 7698942625,
+      "SolvedAt": "2025-11-20T21:26:58.92096+01:00",
+      "PromptTokens": 520,
+      "OutputTokens": 781
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "239",
+        "typed_code": "\nfrom collections import deque\n\nclass Solution:\n    def maxSlidingWindow(self, nums: list, k: int) -> list:\n        dq = deque()\n        result = []\n        n = len(nums)\n        for i in range(n):\n            if dq and dq[0] == i - k:\n                dq.popleft()\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            dq.append(i)\n            if i >= k - 1:\n                result.append(nums[dq[0]])\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:38:11+01:00"
+    }
+  }
+}

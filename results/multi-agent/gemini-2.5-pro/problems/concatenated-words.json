@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "472",
+        "questionId": "472",
+        "Content": "<p>Given an array of strings <code>words</code> (<strong>without duplicates</strong>), return <em>all the <strong>concatenated words</strong> in the given list of</em> <code>words</code>.</p>\n\n<p>A <strong>concatenated word</strong> is defined as a string that is comprised entirely of at least two shorter words (not necessarily distinct)&nbsp;in the given array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;cat&quot;,&quot;cats&quot;,&quot;catsdogcats&quot;,&quot;dog&quot;,&quot;dogcatsdog&quot;,&quot;hippopotamuses&quot;,&quot;rat&quot;,&quot;ratcatdogcat&quot;]\n<strong>Output:</strong> [&quot;catsdogcats&quot;,&quot;dogcatsdog&quot;,&quot;ratcatdogcat&quot;]\n<strong>Explanation:</strong> &quot;catsdogcats&quot; can be concatenated by &quot;cats&quot;, &quot;dog&quot; and &quot;cats&quot;; \n&quot;dogcatsdog&quot; can be concatenated by &quot;dog&quot;, &quot;cats&quot; and &quot;dog&quot;; \n&quot;ratcatdogcat&quot; can be concatenated by &quot;rat&quot;, &quot;cat&quot;, &quot;dog&quot; and &quot;cat&quot;.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;cat&quot;,&quot;dog&quot;,&quot;catdog&quot;]\n<strong>Output:</strong> [&quot;catdog&quot;]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 30</code></li>\n\t<li><code>words[i]</code> consists of only lowercase English letters.</li>\n\t<li>All the strings of <code>words</code> are <strong>unique</strong>.</li>\n\t<li><code>1 &lt;= sum(words[i].length) &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]",
+        "ExampleTestcases": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\n[\"cat\",\"dog\",\"catdog\"]",
+        "Difficulty": "Hard",
+        "Title": "Concatenated Words",
+        "TitleSlug": "concatenated-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"260.2K\", \"totalSubmission\": \"524.6K\", \"totalAcceptedRaw\": 260204, \"totalSubmissionRaw\": 524581, \"acRate\": \"49.6%\"}",
+        "Likes": 4037,
+        "Dislikes": 292,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> findAllConcatenatedWordsInADict(String[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findAllConcatenatedWordsInADict(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findAllConcatenatedWordsInADict = function(words) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findAllConcatenatedWordsInADict(words: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> FindAllConcatenatedWordsInADict(string[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** findAllConcatenatedWordsInADict(char** words, int wordsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findAllConcatenatedWordsInADict(words []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findAllConcatenatedWordsInADict(words: Array<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findAllConcatenatedWordsInADict(_ words: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_all_concatenated_words_in_a_dict(words: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} words\n# @return {String[]}\ndef find_all_concatenated_words_in_a_dict(words)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $words\n     * @return String[]\n     */\n    function findAllConcatenatedWordsInADict($words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> findAllConcatenatedWordsInADict(List<String> words) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findAllConcatenatedWordsInADict(words: Array[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_all_concatenated_words_in_a_dict(words :: [String.t]) :: [String.t]\n  def find_all_concatenated_words_in_a_dict(words) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_all_concatenated_words_in_a_dict(Words :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nfind_all_concatenated_words_in_a_dict(Words) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-all-concatenated-words-in-a-dict words)\n  (-> (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:38.89262+01:00",
+    "AcRate": "49.6",
+    "TotalSubmissions": 524581,
+    "TotalAccepted": 260204,
+    "AcceptanceRate": 0.4960225398937438,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/concatenated-words/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem is presented below, followed by the complete Python solution.\n\n### Problem Analysis\n\n1.  **Problem Type Classification**: This problem falls into the categories of **String Manipulation** and **Dynamic Programming**. It is a variant of the classic \"Word Break\" problem. Advanced solutions might also involve a **Trie** data structure for optimization.\n\n2.  **Key Patterns & Algorithms**:\n    *   **Word Break Pattern**: The core of the problem is to determine if a string can be segmented into a sequence of dictionary words. This is a classic application of dynamic programming.\n    *   **Sorting**: A key insight is to process the words in increasing order of length. This elegantly handles the constraint that a concatenated word must be formed from \"shorter\" words. When checking a `word`, the dictionary of potential component words will only contain words that are strictly shorter. This also naturally satisfies the \"at least two\" words condition, as a word cannot be formed from a single shorter word.\n    *   **Dynamic Programming (DP)**: For each word, we can use a DP approach to check if it can be segmented. Let `dp[i]` be a boolean indicating whether the prefix `word[0...i-1]` can be formed by words from our dictionary of predecessors. The state transition would be `dp[i] = OR(dp[j])` for `0 <= j < i` if `dp[j]` is true and the substring `word[j...i-1]` exists in the dictionary.\n    *   **Trie (for optimization)**: The DP check for each word can be optimized. Instead of storing predecessor words in a hash set (which leads to an `O(L^3)` check for a word of length `L`), we can store them in a Trie. This allows for a more efficient check, reducing the complexity to `O(L^2)`.\n\n3.  **Constraints Analysis**:\n    *   `words.length` (N) up to `10^4`.\n    *   `words[i].length` (L) up to `30`.\n    *   `sum(words[i].length)` up to `10^5`.\n    *   The `O(L^3)` DP check per word might be slow. The total time complexity would be `O(N log N + sum(L_i^3))`. Given `L_max = 30`, `L^3` is up to `27000`. In a worst-case scenario (e.g., ~3300 words of length 30), this could be `~9 * 10^7` operations, which might be acceptable but is on the edge of Time Limit Exceeded (TLE).\n    *   The Trie-optimized `O(L^2)` approach reduces this to `O(N log N + sum(L_i^2))`, which is significantly faster and safer.\n    *   Space complexity is dominated by storing the predecessor words, which is `O(sum(words[i].length))`, well within typical memory limits.\n\n4.  **Edge Cases**:\n    *   **Empty `words` list**: The solution should return an empty list.\n    *   **No concatenated words**: The solution should correctly return an empty list.\n    *   **Shortest words**: The shortest word(s) in the input list cannot be concatenated words. The sorting approach naturally handles this, as they will be processed first when the dictionary of predecessors is empty.\n    *   **Empty strings**: The constraints state `words[i].length >= 1`, so we don't need to handle empty strings in the input list.\n\n5.  **Input/Output Analysis**:\n    *   **Input**: `words: List[str]`, a list of unique strings composed of lowercase English letters.\n    *   **Output**: `List[str]`, a list containing all words from the input that are concatenated words. The order of words in the output is not specified.\n\n6.  **Difficulty Assessment**:\n    *   The problem is of **Medium** to **Hard** difficulty.\n    *   It requires recognizing the underlying Word Break problem and adapting it.\n    *   The main challenge is correctly handling the \"at least two shorter words\" rule. The sorting-based approach is a non-obvious but elegant way to solve this.\n    *   Achieving an optimal, robust solution that passes all test cases under strict time limits may require the Trie optimization, pushing the difficulty towards Hard. A well-implemented `O(L^3)` DP per word might pass, making it a Medium problem for those who find that solution.\n\n---\n```python\nfrom typing import List\n\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n\n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n\n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n\n        dp = [False] * (len(word) + 1)\n        dp[0] = True\n\n        for i in range(1, len(word) + 1):\n            for j in range(i):\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break\n        \n        return dp[len(word)]\n\n```\n\n=== DESIGN ===\nAn elegant and effective approach combines sorting with dynamic programming. Here's a breakdown of the design:\n\n### 1. Algorithm Choice\nThe problem can be solved by iterating through each word and checking if it can be formed by concatenating other words from the list. This subproblem is a classic \"Word Break\" problem, which is efficiently solved using **Dynamic Programming**.\n\nA key insight is to process the words in a specific order: sorted by their length. By sorting the words from shortest to longest, we ensure that when we check a `word`, the dictionary of potential component words we test against will only contain words that are strictly shorter. This naturally fulfills the problem's constraint that a concatenated word must be made of \"at least two shorter words\". If a word can be broken down using only shorter words, it must inherently be composed of at least two such words.\n\n### 2. Step-by-Step Approach\n1.  **Sort**: Sort the input `words` array based on string length in ascending order.\n2.  **Initialize**: Create an empty list `result` to store the concatenated words and an empty `set` called `predecessors` to store words that have been processed. Using a set provides fast lookups.\n3.  **Iterate and Check**: Loop through each `word` in the sorted array.\n4.  **Word Break Check**: For each `word`, call a helper function (e.g., `_can_be_formed`) that determines if it can be segmented using the words currently in the `predecessors` set.\n    *   This helper function uses dynamic programming. It builds a `dp` array where `dp[i]` is true if the prefix `word[0...i-1]` can be formed.\n    *   The transition is: `dp[i]` becomes true if there exists a `j < i` such that `dp[j]` is true and the substring `word[j...i-1]` is in the `predecessors` set.\n5.  **Append to Result**: If the helper function returns `True`, it means the `word` is a concatenated word. Add it to the `result` list.\n6.  **Update Predecessors**: After checking the current `word`, add it to the `predecessors` set. This makes it available as a potential component for subsequent, longer words.\n7.  **Return**: After iterating through all the words, return the `result` list.\n\n### 3. Data Structures\n*   **List**: For storing the final list of concatenated words.\n*   **Set**: For the `predecessors` dictionary to allow for efficient (average O(1) time) lookups of component words.\n*   **Boolean Array**: For the DP table within the word break helper function.\n\n### 4. Time Complexity\nLet `N` be the number of words and `L` be the maximum length of a word.\n*   **Sorting**: `O(N log N)`.\n*   **Main Loop**: We iterate through `N` words.\n*   **Word Break DP**: For a word of length `k`, the nested loops run in `O(k^2)`. The substring and set lookup operations inside the loop take `O(k)` time in the worst case (for slicing and hashing a string of length `k`). This results in an `O(k^3)` complexity for checking a single word.\n*   **Total**: The overall time complexity is dominated by the word break checks, leading to `O(N log N + sum(L_i^3))` where `L_i` is the length of the i-th word.\n\n### 5. Space Complexity\nLet `S` be the total sum of the lengths of all words.\n*   The `predecessors` set will store all words, taking `O(S)` space.\n*   The `dp` array for the longest word takes `O(L)` space.\n*   The `result` list can, in the worst case, also store most of the words, taking `O(S)` space.\n*   **Total**: The overall space complexity is `O(S)`.\n\n### 6. Pseudocode\n```pseudocode\nfunction findAllConcatenatedWords(words):\n  // 1. Sort words by length\n  sort words by length in ascending order\n\n  predecessors = new Set()\n  result = new List()\n\n  // 2. Iterate through sorted words\n  for each word in words:\n    // 3. Check if word can be formed from shorter words seen so far\n    if can_be_formed(word, predecessors):\n      add word to result\n    \n    // 4. Add current word to the set for future checks\n    add word to predecessors\n\n  return result\n\nfunction can_be_formed(word, word_dict):\n  if word_dict is empty:\n    return false\n\n  n = length of word\n  dp = new Boolean array of size n + 1, all false\n  dp[0] = true // Base case: empty prefix\n\n  for i from 1 to n:\n    for j from 0 to i - 1:\n      if dp[j] is true AND substring(word, j, i) is in word_dict:\n        dp[i] = true\n        break // Move to the next i\n\n  return dp[n]\n```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n        \n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n            \n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n        \n        n = len(word)\n        dp = [False] * (n + 1)\n        dp[0] = True\n        \n        for i in range(1, n + 1):\n            for j in range(i):\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break\n        \n        return dp[n]\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n        \n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n            \n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n        \n        n = len(word)\n        dp = [False] * (n + 1)\n        dp[0] = True\n        \n        for i in range(1, n + 1):\n            for j in range(i):\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break\n        \n        return dp[n]\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n        \n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n            \n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n        \n        n = len(word)\n        dp = [False] * (n + 1)\n        dp[0] = True\n        \n        for i in range(1, n + 1):\n            for j in range(i):\n                # If dp[j] is True, it means word[0...j-1] can be formed.\n                # Now we check if the rest of the substring, word[j...i-1],\n                # is in our dictionary of shorter words.\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break  # Found a way to form word[0...i-1], move to next i\n        \n        return dp[n]\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n        \n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n            \n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n        \n        n = len(word)\n        dp = [False] * (n + 1)\n        dp[0] = True\n        \n        for i in range(1, n + 1):\n            for j in range(i):\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break\n        \n        return dp[n]\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 352646144708,
+      "SolvedAt": "2025-11-21T09:33:26.5139+01:00",
+      "PromptTokens": 9591,
+      "OutputTokens": 41897
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "472",
+        "typed_code": "\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        words.sort(key=len)\n        predecessor_words = set()\n        concatenated_words = []\n        \n        for word in words:\n            if self._can_be_formed(word, predecessor_words):\n                concatenated_words.append(word)\n            predecessor_words.add(word)\n            \n        return concatenated_words\n\n    def _can_be_formed(self, word: str, word_dict: set) -> bool:\n        if not word_dict:\n            return False\n        \n        n = len(word)\n        dp = [False] * (n + 1)\n        dp[0] = True\n        \n        for i in range(1, n + 1):\n            for j in range(i):\n                if dp[j] and word[j:i] in word_dict:\n                    dp[i] = True\n                    break\n        \n        return dp[n]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:40:21+01:00"
+    }
+  }
+}

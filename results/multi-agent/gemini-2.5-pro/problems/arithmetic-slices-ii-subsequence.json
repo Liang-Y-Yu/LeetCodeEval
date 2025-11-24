@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "446",
+        "questionId": "446",
+        "Content": "<p>Given an integer array <code>nums</code>, return <em>the number of all the <strong>arithmetic subsequences</strong> of</em> <code>nums</code>.</p>\n\n<p>A sequence of numbers is called arithmetic if it consists of <strong>at least three elements</strong> and if the difference between any two consecutive elements is the same.</p>\n\n<ul>\n\t<li>For example, <code>[1, 3, 5, 7, 9]</code>, <code>[7, 7, 7, 7]</code>, and <code>[3, -1, -5, -9]</code> are arithmetic sequences.</li>\n\t<li>For example, <code>[1, 1, 2, 5, 7]</code> is not an arithmetic sequence.</li>\n</ul>\n\n<p>A <strong>subsequence</strong> of an array is a sequence that can be formed by removing some elements (possibly none) of the array.</p>\n\n<ul>\n\t<li>For example, <code>[2,5,10]</code> is a subsequence of <code>[1,2,1,<strong><u>2</u></strong>,4,1,<u><strong>5</strong></u>,<u><strong>10</strong></u>]</code>.</li>\n</ul>\n\n<p>The test cases are generated so that the answer fits in <strong>32-bit</strong> integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,4,6,8,10]\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> All arithmetic subsequence slices are:\n[2,4,6]\n[4,6,8]\n[6,8,10]\n[2,4,6,8]\n[4,6,8,10]\n[2,4,6,8,10]\n[2,6,10]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [7,7,7,7,7]\n<strong>Output:</strong> 16\n<strong>Explanation:</strong> Any subsequence of this array is arithmetic.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1&nbsp; &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,4,6,8,10]",
+        "ExampleTestcases": "[2,4,6,8,10]\n[7,7,7,7,7]",
+        "Difficulty": "Hard",
+        "Title": "Arithmetic Slices II - Subsequence",
+        "TitleSlug": "arithmetic-slices-ii-subsequence",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"164.3K\", \"totalSubmission\": \"300.2K\", \"totalAcceptedRaw\": 164330, \"totalSubmissionRaw\": 300165, \"acRate\": \"54.7%\"}",
+        "Likes": 3471,
+        "Dislikes": 165,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numberOfArithmeticSlices(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numberOfArithmeticSlices(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberOfArithmeticSlices(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar numberOfArithmeticSlices = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberOfArithmeticSlices(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumberOfArithmeticSlices(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numberOfArithmeticSlices(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberOfArithmeticSlices(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberOfArithmeticSlices(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberOfArithmeticSlices(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_of_arithmetic_slices(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef number_of_arithmetic_slices(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function numberOfArithmeticSlices($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numberOfArithmeticSlices(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberOfArithmeticSlices(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_of_arithmetic_slices(nums :: [integer]) :: integer\n  def number_of_arithmetic_slices(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_of_arithmetic_slices(Nums :: [integer()]) -> integer().\nnumber_of_arithmetic_slices(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-of-arithmetic-slices nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:17:05.838612+01:00",
+    "AcRate": "54.7",
+    "TotalSubmissions": 300165,
+    "TotalAccepted": 164330,
+    "AcceptanceRate": 0.5474655606083321,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective solution to this problem uses dynamic programming. The main challenge is to define a DP state that captures enough information to extend arithmetic subsequences. A simple `dp[i]` is not sufficient because we need to know the common difference to check if a new element `nums[i]` can extend a subsequence.\n\nThis leads to a 2D DP state: `dp[i][d]`, representing the number of arithmetic subsequences ending at index `i` with a common difference `d`. Since we are only interested in subsequences of length 3 or more, a subtle distinction is needed: we can use the DP state to count subsequences of length 2 or more, and then use that information to find the count of those with length 3 or more.\n\nLet `dp[i][d]` be the number of arithmetic subsequences of length **at least 2** ending at `nums[i]` with common difference `d`.\n\nWe can build this DP table by iterating through the `nums` array. For each element `nums[i]`, we iterate through all previous elements `nums[j]` (where `j < i`).\nThe difference is `d = nums[i] - nums[j]`.\n\n1.  Any arithmetic subsequence of length `k >= 2` ending at `nums[j]` with the same difference `d` can be extended by `nums[i]` to form a new arithmetic subsequence of length `k + 1`. The number of such subsequences is given by `dp[j][d]`. Since these new subsequences will have a length of at least 3, we add `dp[j][d]` to our total count of valid arithmetic subsequences.\n\n2.  The pair `(nums[j], nums[i])` forms a new arithmetic subsequence of length 2. This sequence can serve as a base for longer arithmetic subsequences later.\n\nSo, for each pair `(i, j)`, we update `dp[i][d]`:\n`dp[i][d] = dp[i][d] + (dp[j][d] + 1)`\nThe `dp[j][d]` part accounts for extending existing sequences, and the `+ 1` accounts for the new base sequence `(nums[j], nums[i])`.\n\nThe DP table `dp` can be implemented as a list of dictionaries (or hash maps), where `dp[i]` maps differences to their counts. This approach handles the potentially large and sparse range of differences efficiently.\n\nThe overall algorithm is:\n- Initialize `total_count = 0`.\n- Initialize `dp` as a list of `n` default dictionaries.\n- Iterate `i` from `0` to `n-1`.\n-   For each `i`, iterate `j` from `0` to `i-1`.\n    -   `diff = nums[i] - nums[j]`\n    -   `count_at_j = dp[j][diff]`\n    -   `total_count += count_at_j` (counts new sequences of length >= 3)\n    -   `dp[i][diff] += count_at_j + 1` (updates sequences of length >= 2 ending at `i`)\n- Return `total_count`.\n\nThis approach has a time complexity of O(N^2) and a space complexity of O(N^2) in the worst case, which is well within the typical limits for N=1000.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n\n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n\n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                count_at_j = dp[j][diff]\n                \n                total_count += count_at_j\n                \n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n```\n\n=== DESIGN ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n\n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n\n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                # count_at_j is the number of arithmetic subsequences of length >= 2\n                # ending at index j with difference `diff`.\n                count_at_j = dp[j][diff]\n                \n                # Each of these `count_at_j` subsequences can be extended by nums[i]\n                # to form a new arithmetic subsequence of length >= 3.\n                # We add these to the total count.\n                total_count += count_at_j\n                \n                # We update the dp state for index i.\n                # The subsequences ending at i with difference `diff` are:\n                # 1. The `count_at_j` subsequences ending at j, now extended with nums[i].\n                # 2. The new base subsequence of length 2 formed by (nums[j], nums[i]).\n                # So, we add `count_at_j + 1` to dp[i][diff].\n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n        \n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n        \n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                count_at_j = dp[j][diff]\n                \n                total_count += count_at_j\n                \n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n```\n\n=== VERIFICATION ===\nAn analysis of the provided solution:\n\n### 1. Correctness\nThe algorithm uses dynamic programming, which is an appropriate and effective approach for this problem. The state `dp[i][d]` is correctly defined as the number of arithmetic subsequences of length at least 2 ending at index `i` with a common difference `d`.\n\nThe state transition logic is sound:\n-   `for i in range(n): for j in range(i):` This correctly iterates through all pairs `(nums[j], nums[i])` that could form the end of an arithmetic subsequence.\n-   `diff = nums[i] - nums[j]` calculates the common difference.\n-   `count_at_j = dp[j][diff]` correctly retrieves the number of arithmetic subsequences of length `>=2` ending at `j` with the same difference.\n-   `total_count += count_at_j`: This is the core insight. Each of the `count_at_j` subsequences (which have length `k >= 2`) can be extended by `nums[i]` to form a new subsequence of length `k+1 >= 3`. Thus, we find `count_at_j` new valid arithmetic subsequences, which are added to the total.\n-   `dp[i][diff] += count_at_j + 1`: This updates the state for index `i`. The number of subsequences of length `>=2` ending at `i` with difference `diff` is increased by:\n    -   `count_at_j`: The sequences extended from index `j`.\n    -   `1`: The new base sequence of length 2, `(nums[j], nums[i])`.\n\nThis logic correctly counts all arithmetic subsequences of length 3 or more without double-counting.\n\n### 2. Edge Cases\n-   **`nums.length < 3`**: The code correctly handles this by returning `0` immediately, as it's impossible to form an arithmetic subsequence of length 3.\n-   **Large/Negative Numbers**: `nums[i]` can be large, leading to a large range of possible differences. The use of a hash map (`collections.defaultdict`) for `dp[i]` elegantly handles this, as only the differences that actually appear are stored.\n-   **Duplicate Numbers**: The logic works correctly for inputs with duplicate numbers, as shown by the walkthrough of `[7,7,7,7,7]`. The difference `d=0` is handled just like any other difference.\n\n### 3. Complexity\n-   **Time Complexity**: The nested loops `for i ... for j ...` result in O(N^2) iterations. The operations inside the loop (dictionary access) take, on average, O(1) time. Therefore, the total time complexity is O(N^2), which is efficient enough for `N <= 1000`.\n-   **Space Complexity**: `dp` is a list of `N` dictionaries. In the worst-case scenario (e.g., an array with all unique elements), the total number of entries across all dictionaries can be up to `sum(i for i in range(N))`, which is O(N^2). Therefore, the space complexity is O(N^2). This is acceptable for the given constraints.\n\n### 4. Code Quality\n-   **Readability**: The code is clean, well-structured, and easy to follow. Variable names like `total_count`, `dp`, `diff`, and `count_at_j` are descriptive.\n-   **Pythonic Practices**: The use of `collections.defaultdict(int)` is a good practice, simplifying the code by removing the need for explicit key existence checks. The list comprehension for initializing `dp` is also concise and standard.\n-   **Structure**: The solution is encapsulated within the `Solution` class as required, and the function signature matches the problem statement.\n\n### 5. Test Cases\n-   **`nums = [2,4,6,8,10]`**: A manual walkthrough confirms the code produces the correct output of `7`.\n    - `i=2, j=1`: `diff=2`, `dp[1][2]=1`. `total_count` becomes `1`. (`[2,4,6]`)\n    - `i=3, j=2`: `diff=2`, `dp[2][2]=2`. `total_count` becomes `1+2=3`. (`[4,6,8]`, `[2,4,6,8]`)\n    - `i=4, j=2`: `diff=4`, `dp[2][4]=1`. `total_count` becomes `3+1=4`. (`[2,6,10]`)\n    - `i=4, j=3`: `diff=2`, `dp[3][2]=3`. `total_count` becomes `4+3=7`. (`[6,8,10]`, `[4,6,8,10]`, `[2,4,6,8,10]`)\n    - The final result is `7`.\n-   **`nums = [7,7,7,7,7]`**: The logic correctly identifies that any subsequence of length `k>=3` is arithmetic. The number of such subsequences is `C(5,3) + C(5,4) + C(5,5) = 10 + 5 + 1 = 16`. The DP calculation correctly arrives at `16`.\n\n### 6. Potential Issues\nNo bugs or logical errors are found. The solution is a standard and correct implementation for this problem.\n\n### Verification Report\nThe provided solution is **correct and of high quality**. It successfully solves the problem by implementing a well-designed O(N^2) dynamic programming algorithm. The code is clean, efficient, handles edge cases properly, and meets all stated requirements.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n        \n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n        \n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                count_at_j = dp[j].get(diff, 0)\n                \n                total_count += count_at_j\n                \n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n        \n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n        \n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                count_at_j = dp[j][diff]\n                \n                total_count += count_at_j\n                \n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 283624607958,
+      "SolvedAt": "2025-11-21T08:15:42.957476+01:00",
+      "PromptTokens": 6735,
+      "OutputTokens": 35712
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "446",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numberOfArithmeticSlices(self, nums: List[int]) -> int:\n        n = len(nums)\n        if n < 3:\n            return 0\n        \n        total_count = 0\n        dp = [collections.defaultdict(int) for _ in range(n)]\n        \n        for i in range(n):\n            for j in range(i):\n                diff = nums[i] - nums[j]\n                \n                count_at_j = dp[j][diff]\n                \n                total_count += count_at_j\n                \n                dp[i][diff] += count_at_j + 1\n                \n        return total_count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:08:07+01:00"
+    }
+  }
+}

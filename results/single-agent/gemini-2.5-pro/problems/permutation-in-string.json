@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "567",
+        "questionId": "567",
+        "Content": "<p>Given two strings <code>s1</code> and <code>s2</code>, return <code>true</code> if <code>s2</code> contains a <span data-keyword=\"permutation-string\">permutation</span> of <code>s1</code>, or <code>false</code> otherwise.</p>\n\n<p>In other words, return <code>true</code> if one of <code>s1</code>&#39;s permutations is the substring of <code>s2</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidbaooo&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> s2 contains one permutation of s1 (&quot;ba&quot;).\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidboaoo&quot;\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s1.length, s2.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s1</code> and <code>s2</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"ab\"\n\"eidbaooo\"",
+        "ExampleTestcases": "\"ab\"\n\"eidbaooo\"\n\"ab\"\n\"eidboaoo\"",
+        "Difficulty": "Medium",
+        "Title": "Permutation in String",
+        "TitleSlug": "permutation-in-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.4M\", \"totalSubmission\": \"2.8M\", \"totalAcceptedRaw\": 1352397, \"totalSubmissionRaw\": 2818928, \"acRate\": \"48.0%\"}",
+        "Likes": 12687,
+        "Dislikes": 510,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkInclusion(string s1, string s2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkInclusion(String s1, String s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkInclusion(self, s1, s2):\n        \"\"\"\n        :type s1: str\n        :type s2: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar checkInclusion = function(s1, s2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkInclusion(s1: string, s2: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckInclusion(string s1, string s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkInclusion(char* s1, char* s2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkInclusion(s1 string, s2 string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkInclusion(s1: String, s2: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkInclusion(_ s1: String, _ s2: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_inclusion(s1: String, s2: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s1\n# @param {String} s2\n# @return {Boolean}\ndef check_inclusion(s1, s2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @return Boolean\n     */\n    function checkInclusion($s1, $s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkInclusion(String s1, String s2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkInclusion(s1: String, s2: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_inclusion(s1 :: String.t, s2 :: String.t) :: boolean\n  def check_inclusion(s1, s2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_inclusion(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> boolean().\ncheck_inclusion(S1, S2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-inclusion s1 s2)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:10:57.722161+01:00",
+    "AcRate": "48.0",
+    "TotalSubmissions": 2818928,
+    "TotalAccepted": 1352397,
+    "AcceptanceRate": 0.4797557795019951,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.\nIn other words, return true if one of s1's permutations is the substring of s2.\n\u00a0\nExample 1:\nInput: s1 = \"ab\", s2 = \"eidbaooo\"\nOutput: true\nExplanation: s2 contains one permutation of s1 (\"ba\").\nExample 2:\nInput: s1 = \"ab\", s2 = \"eidboaoo\"\nOutput: false\n\u00a0\nConstraints:\n\t1 <= s1.length, s2.length <= 10^4\n\ts1 and s2 consist of lowercase English letters.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nimport collections\n\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n, m = len(s1), len(s2)\n\n        if n > m:\n            return False\n\n        s1_counts = [0] * 26\n        window_counts = [0] * 26\n\n        for i in range(n):\n            s1_counts[ord(s1[i]) - ord('a')] += 1\n            window_counts[ord(s2[i]) - ord('a')] += 1\n\n        if s1_counts == window_counts:\n            return True\n\n        for i in range(n, m):\n            window_counts[ord(s2[i]) - ord('a')] += 1\n            window_counts[ord(s2[i - n]) - ord('a')] -= 1\n\n            if s1_counts == window_counts:\n                return True\n\n        return False\n```",
+      "TypedCode": "\nimport collections\n\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n, m = len(s1), len(s2)\n\n        if n > m:\n            return False\n\n        s1_counts = [0] * 26\n        window_counts = [0] * 26\n\n        for i in range(n):\n            s1_counts[ord(s1[i]) - ord('a')] += 1\n            window_counts[ord(s2[i]) - ord('a')] += 1\n\n        if s1_counts == window_counts:\n            return True\n\n        for i in range(n, m):\n            window_counts[ord(s2[i]) - ord('a')] += 1\n            window_counts[ord(s2[i - n]) - ord('a')] -= 1\n\n            if s1_counts == window_counts:\n                return True\n\n        return False\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 118125131750,
+      "SolvedAt": "2025-11-20T18:12:36.475016+01:00",
+      "PromptTokens": 374,
+      "OutputTokens": 15606
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "567",
+        "typed_code": "\nimport collections\n\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n, m = len(s1), len(s2)\n\n        if n > m:\n            return False\n\n        s1_counts = [0] * 26\n        window_counts = [0] * 26\n\n        for i in range(n):\n            s1_counts[ord(s1[i]) - ord('a')] += 1\n            window_counts[ord(s2[i]) - ord('a')] += 1\n\n        if s1_counts == window_counts:\n            return True\n\n        for i in range(n, m):\n            window_counts[ord(s2[i]) - ord('a')] += 1\n            window_counts[ord(s2[i - n]) - ord('a')] -= 1\n\n            if s1_counts == window_counts:\n                return True\n\n        return False\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:08:58+01:00"
+    }
+  }
+}

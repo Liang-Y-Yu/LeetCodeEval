@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "474",
+        "questionId": "474",
+        "Content": "<p>You are given an array of binary strings <code>strs</code> and two integers <code>m</code> and <code>n</code>.</p>\n\n<p>Return <em>the size of the largest subset of <code>strs</code> such that there are <strong>at most</strong> </em><code>m</code><em> </em><code>0</code><em>&#39;s and </em><code>n</code><em> </em><code>1</code><em>&#39;s in the subset</em>.</p>\n\n<p>A set <code>x</code> is a <strong>subset</strong> of a set <code>y</code> if all elements of <code>x</code> are also elements of <code>y</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> strs = [&quot;10&quot;,&quot;0001&quot;,&quot;111001&quot;,&quot;1&quot;,&quot;0&quot;], m = 5, n = 3\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The largest subset with at most 5 0&#39;s and 3 1&#39;s is {&quot;10&quot;, &quot;0001&quot;, &quot;1&quot;, &quot;0&quot;}, so the answer is 4.\nOther valid but smaller subsets include {&quot;0001&quot;, &quot;1&quot;} and {&quot;10&quot;, &quot;1&quot;, &quot;0&quot;}.\n{&quot;111001&quot;} is an invalid subset because it contains 4 1&#39;s, greater than the maximum of 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> strs = [&quot;10&quot;,&quot;0&quot;,&quot;1&quot;], m = 1, n = 1\n<strong>Output:</strong> 2\n<b>Explanation:</b> The largest subset is {&quot;0&quot;, &quot;1&quot;}, so the answer is 2.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= strs.length &lt;= 600</code></li>\n\t<li><code>1 &lt;= strs[i].length &lt;= 100</code></li>\n\t<li><code>strs[i]</code> consists only of digits <code>&#39;0&#39;</code> and <code>&#39;1&#39;</code>.</li>\n\t<li><code>1 &lt;= m, n &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\n5\n3",
+        "ExampleTestcases": "[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\n5\n3\n[\"10\",\"0\",\"1\"]\n1\n1",
+        "Difficulty": "Medium",
+        "Title": "Ones and Zeroes",
+        "TitleSlug": "ones-and-zeroes",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"330.2K\", \"totalSubmission\": \"625.9K\", \"totalAcceptedRaw\": 330152, \"totalSubmissionRaw\": 625855, \"acRate\": \"52.8%\"}",
+        "Likes": 6019,
+        "Dislikes": 505,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int findMaxForm(vector<string>& strs, int m, int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int findMaxForm(String[] strs, int m, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findMaxForm(self, strs, m, n):\n        \"\"\"\n        :type strs: List[str]\n        :type m: int\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} strs\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar findMaxForm = function(strs, m, n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findMaxForm(strs: string[], m: number, n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int FindMaxForm(string[] strs, int m, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int findMaxForm(char** strs, int strsSize, int m, int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findMaxForm(strs []string, m int, n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findMaxForm(strs: Array<String>, m: Int, n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findMaxForm(_ strs: [String], _ m: Int, _ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_max_form(strs: Vec<String>, m: i32, n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} strs\n# @param {Integer} m\n# @param {Integer} n\n# @return {Integer}\ndef find_max_form(strs, m, n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $strs\n     * @param Integer $m\n     * @param Integer $n\n     * @return Integer\n     */\n    function findMaxForm($strs, $m, $n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int findMaxForm(List<String> strs, int m, int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findMaxForm(strs: Array[String], m: Int, n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_max_form(strs :: [String.t], m :: integer, n :: integer) :: integer\n  def find_max_form(strs, m, n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_max_form(Strs :: [unicode:unicode_binary()], M :: integer(), N :: integer()) -> integer().\nfind_max_form(Strs, M, N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-max-form strs m n)\n  (-> (listof string?) exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:25.866413+01:00",
+    "AcRate": "52.8",
+    "TotalSubmissions": 625855,
+    "TotalAccepted": 330152,
+    "AcceptanceRate": 0.5275215505188902,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/ones-and-zeroes/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n\n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n\n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n            \n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def findMaxForm(self, strs: list[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n            \n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n```\n\n=== VERIFICATION ===\nAn internal verification report has been generated for the user's request.\n\n**Verification Report Summary:**\n*   **Correctness**: The provided solution is **correct**. It uses a standard and efficient dynamic programming approach for the 0/1 knapsack problem with two constraints (number of zeros and ones). The state `dp[i][j]` correctly represents the maximum subset size for `i` zeros and `j` ones. The state transition and use of backward iteration for space optimization are implemented perfectly.\n*   **Edge Cases**: The solution correctly handles all relevant edge cases, including an empty input list, constraints `m` or `n` being zero, and strings that individually exceed the `m` or `n` limits.\n*   **Complexity**:\n    *   Time Complexity: `O(L * m * n)`, where `L` is the number of strings. With the given constraints (`L`<=600, `m`<=100, `n`<=100), this is efficient enough.\n    *   Space Complexity: `O(m * n)` for the DP table, which is also well within acceptable limits.\n*   **Code Quality**: The code is clean, concise, and readable. It adheres to good programming practices.\n*   **Test Cases**: The logic was manually walked through with the provided examples, and it produces the correct outputs.\n\n**Conclusion**: The provided implementation is fully correct, efficient, and well-written. No fixes are necessary. The code is ready for use.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n            \n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def findMaxForm(self, strs: list[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n            \n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 290270524584,
+      "SolvedAt": "2025-11-21T15:08:02.817576+01:00",
+      "PromptTokens": 3910,
+      "OutputTokens": 32421
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "474",
+        "typed_code": "\nclass Solution:\n    def findMaxForm(self, strs: list[str], m: int, n: int) -> int:\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for s in strs:\n            zeros = s.count('0')\n            ones = s.count('1')\n            \n            for i in range(m, zeros - 1, -1):\n                for j in range(n, ones - 1, -1):\n                    dp[i][j] = max(dp[i][j], 1 + dp[i - zeros][j - ones])\n        \n        return dp[m][n]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:45:40+01:00"
+    }
+  }
+}

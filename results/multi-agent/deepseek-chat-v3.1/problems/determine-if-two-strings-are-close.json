@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1657",
+        "questionId": "1777",
+        "Content": "<p>Two strings are considered <strong>close</strong> if you can attain one from the other using the following operations:</p>\n\n<ul>\n\t<li>Operation 1: Swap any two <strong>existing</strong> characters.\n\n\t<ul>\n\t\t<li>For example, <code>a<u>b</u>cd<u>e</u> -&gt; a<u>e</u>cd<u>b</u></code></li>\n\t</ul>\n\t</li>\n\t<li>Operation 2: Transform <strong>every</strong> occurrence of one <strong>existing</strong> character into another <strong>existing</strong> character, and do the same with the other character.\n\t<ul>\n\t\t<li>For example, <code><u>aa</u>c<u>abb</u> -&gt; <u>bb</u>c<u>baa</u></code> (all <code>a</code>&#39;s turn into <code>b</code>&#39;s, and all <code>b</code>&#39;s turn into <code>a</code>&#39;s)</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>You can use the operations on either string as many times as necessary.</p>\n\n<p>Given two strings, <code>word1</code> and <code>word2</code>, return <code>true</code><em> if </em><code>word1</code><em> and </em><code>word2</code><em> are <strong>close</strong>, and </em><code>false</code><em> otherwise.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;abc&quot;, word2 = &quot;bca&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> You can attain word2 from word1 in 2 operations.\nApply Operation 1: &quot;a<u>bc</u>&quot; -&gt; &quot;a<u>cb</u>&quot;\nApply Operation 1: &quot;<u>a</u>c<u>b</u>&quot; -&gt; &quot;<u>b</u>c<u>a</u>&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;a&quot;, word2 = &quot;aa&quot;\n<strong>Output:</strong> false\n<strong>Explanation: </strong>It is impossible to attain word2 from word1, or vice versa, in any number of operations.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;cabbba&quot;, word2 = &quot;abbccc&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> You can attain word2 from word1 in 3 operations.\nApply Operation 1: &quot;ca<u>b</u>bb<u>a</u>&quot; -&gt; &quot;ca<u>a</u>bb<u>b</u>&quot;\nApply Operation 2: &quot;<u>c</u>aa<u>bbb</u>&quot; -&gt; &quot;<u>b</u>aa<u>ccc</u>&quot;\nApply Operation 2: &quot;<u>baa</u>ccc&quot; -&gt; &quot;<u>abb</u>ccc&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= word1.length, word2.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>word1</code> and <code>word2</code> contain only lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abc\"\n\"bca\"",
+        "ExampleTestcases": "\"abc\"\n\"bca\"\n\"a\"\n\"aa\"\n\"cabbba\"\n\"abbccc\"",
+        "Difficulty": "Medium",
+        "Title": "Determine if Two Strings Are Close",
+        "TitleSlug": "determine-if-two-strings-are-close",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"531K\", \"totalSubmission\": \"979.6K\", \"totalAcceptedRaw\": 531011, \"totalSubmissionRaw\": 979590, \"acRate\": \"54.2%\"}",
+        "Likes": 4047,
+        "Dislikes": 350,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool closeStrings(string word1, string word2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean closeStrings(String word1, String word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def closeStrings(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {boolean}\n */\nvar closeStrings = function(word1, word2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function closeStrings(word1: string, word2: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CloseStrings(string word1, string word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool closeStrings(char* word1, char* word2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func closeStrings(word1 string, word2 string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun closeStrings(word1: String, word2: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func closeStrings(_ word1: String, _ word2: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn close_strings(word1: String, word2: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word1\n# @param {String} word2\n# @return {Boolean}\ndef close_strings(word1, word2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return Boolean\n     */\n    function closeStrings($word1, $word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool closeStrings(String word1, String word2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def closeStrings(word1: String, word2: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec close_strings(word1 :: String.t, word2 :: String.t) :: boolean\n  def close_strings(word1, word2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec close_strings(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> boolean().\nclose_strings(Word1, Word2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (close-strings word1 word2)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:10:35.947097+01:00",
+    "AcRate": "54.2",
+    "TotalSubmissions": 979590,
+    "TotalAccepted": 531011,
+    "AcceptanceRate": 0.5420747455568146,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/determine-if-two-strings-are-close/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n**Problem Type Classification:** This problem falls under the categories of **String** and **Hash Table** (or Frequency Counting). It involves comparing two strings based on their character frequencies and the set of characters they contain.\n\n**Key Patterns & Algorithms:**\n1. **Frequency Counting**: The core idea is to count the frequency of each character in both strings.\n2. **Set Comparison**: The set of characters in both strings must be identical because Operation 2 requires that both characters exist in the string to swap their frequencies.\n3. **Frequency Multiset Comparison**: The multiset (i.e., sorted list) of frequencies must be the same for both strings. This is because Operation 1 allows swapping any two characters (which doesn't change the frequency counts) and Operation 2 allows swapping the frequencies of two characters (which rearranges the frequency distribution without changing the values).\n\n**Constraints Analysis:**\n- The strings can be up to 10^5 characters long. Therefore, the solution must be efficient, ideally O(n) time and O(1) space (since there are only 26 letters).\n- We need to count frequencies for each string (O(n)), compare sets (O(1)), and sort the frequency lists (O(26 log 26) = constant). So overall, the solution is efficient.\n\n**Edge Cases:**\n1. Strings of different lengths: immediately return false.\n2. Strings with different sets of characters: return false.\n3. Strings with same characters but different frequency distributions: need to check if sorted frequencies match.\n4. One string has a character not in the other: return false.\n\n**Input/Output Analysis:**\n- Input: two strings `word1` and `word2`.\n- Output: boolean indicating if they are close.\n\n**Difficulty Assessment:**\n- The challenge is understanding the operations and realizing that:\n  - Operation 1 (swapping) implies that the frequency counts of characters are invariant.\n  - Operation 2 (swapping all occurrences of two characters) implies that the multiset of frequencies is invariant, but the frequencies can be reassigned to different characters as long as the set of frequencies is the same.\n- Therefore, the conditions for closeness are:\n  1. Both strings have the same length.\n  2. They have the same set of characters.\n  3. The sorted list of frequency counts are identical.\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2\n```\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2\n\n=== VERIFICATION ===\n**Verification Report**\n\n**1. Correctness:**\nThe code correctly implements the designed algorithm:\n- It first checks if the strings have the same length (required for closeness).\n- It uses frequency arrays of size 26 (for each lowercase letter) to count occurrences.\n- It checks that the set of characters (non-zero frequencies) is the same for both strings.\n- It sorts the frequency arrays and checks if they are identical.\n\nThis matches the conditions for closeness: same length, same character set, and same multiset of frequencies.\n\n**2. Edge Cases:**\nThe code handles all edge cases:\n- Different lengths: returns false immediately.\n- Different character sets: the loop checks for any index where one frequency is zero and the other is non-zero.\n- Same character set but different frequencies: the sorted frequency arrays will not match, so returns false.\n\n**3. Complexity:**\n- Time: O(n + 26 log 26) = O(n) (since 26 log 26 is constant).\n- Space: O(1) (uses two fixed-size arrays of length 26).\nThis meets the constraints for large inputs (up to 10^5).\n\n**4. Code Quality:**\n- The code is clean and readable.\n- Uses efficient frequency counting with arrays.\n- The logic is straightforward and follows best practices.\n\n**5. Test Cases:**\n- Example 1: word1=\"abc\", word2=\"bca\"\n  - Lengths same (3).\n  - Both have the same set of characters: {'a','b','c'}.\n  - Frequencies: both have [1,1,1] when sorted. Returns true. \u2714\ufe0f\n\n- Example 2: word1=\"a\", word2=\"aa\"\n  - Lengths different (1 vs 2). Returns false. \u2714\ufe0f\n\n- Example 3: word1=\"cabbba\", word2=\"abbccc\"\n  - Lengths same (6).\n  - Both have the same set: {'a','b','c'}.\n  - Frequencies for word1: \n      a:2, b:3, c:1 -> sorted [1,2,3]\n  - Frequencies for word2:\n      a:1, b:2, c:3 -> sorted [1,2,3]\n  - Returns true. \u2714\ufe0f\n\n**6. Potential Issues:**\nNone identified. The solution is correct and efficient.\n\n**Conclusion:**\nThe solution is valid and meets all requirements. No changes are needed.\n\nFinal code (as provided):\n```python\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2\n```\n\n",
+      "TypedCode": "class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 28001316417,
+      "SolvedAt": "2025-11-20T23:49:04.848027+01:00",
+      "PromptTokens": 5432,
+      "OutputTokens": 1689
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1777",
+        "typed_code": "class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n        \n        freq1 = [0] * 26\n        freq2 = [0] * 26\n        \n        for ch in word1:\n            freq1[ord(ch) - ord('a')] += 1\n        \n        for ch in word2:\n            idx = ord(ch) - ord('a')\n            freq2[idx] += 1\n        \n        for i in range(26):\n            if (freq1[i] == 0) != (freq2[i] == 0):\n                return False\n        \n        freq1.sort()\n        freq2.sort()\n        \n        return freq1 == freq2"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:44:11+01:00"
+    }
+  }
+}

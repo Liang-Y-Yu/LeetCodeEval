@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1346",
+        "questionId": "1468",
+        "Content": "<p>Given an array <code>arr</code> of integers, check if there exist two indices <code>i</code> and <code>j</code> such that :</p>\n\n<ul>\n\t<li><code>i != j</code></li>\n\t<li><code>0 &lt;= i, j &lt; arr.length</code></li>\n\t<li><code>arr[i] == 2 * arr[j]</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [10,2,5,3]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [3,1,7,11]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> There is no i and j that satisfy the conditions.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= arr.length &lt;= 500</code></li>\n\t<li><code>-10<sup>3</sup> &lt;= arr[i] &lt;= 10<sup>3</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,2,5,3]",
+        "ExampleTestcases": "[10,2,5,3]\n[3,1,7,11]",
+        "Difficulty": "Easy",
+        "Title": "Check If N and Its Double Exist",
+        "TitleSlug": "check-if-n-and-its-double-exist",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"598.7K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 598749, \"totalSubmissionRaw\": 1443679, \"acRate\": \"41.5%\"}",
+        "Likes": 2483,
+        "Dislikes": 252,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkIfExist(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkIfExist(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkIfExist(self, arr: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkIfExist(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {boolean}\n */\nvar checkIfExist = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkIfExist(arr: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckIfExist(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkIfExist(int* arr, int arrSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkIfExist(arr []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkIfExist(arr: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkIfExist(_ arr: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_if_exist(arr: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Boolean}\ndef check_if_exist(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Boolean\n     */\n    function checkIfExist($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkIfExist(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkIfExist(arr: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_if_exist(arr :: [integer]) :: boolean\n  def check_if_exist(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_if_exist(Arr :: [integer()]) -> boolean().\ncheck_if_exist(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-if-exist arr)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:26.995092+01:00",
+    "AcRate": "41.5",
+    "TotalSubmissions": 1443679,
+    "TotalAccepted": 598749,
+    "AcceptanceRate": 0.4147383178670605,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/check-if-n-and-its-double-exist/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an array arr of integers, check if there exist two indices i and j such that :\n\ti != j\n\t0 <= i, j < arr.length\n\tarr[i] == 2 * arr[j]\n\u00a0\nExample 1:\nInput: arr = [10,2,5,3]\nOutput: true\nExplanation: For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]\nExample 2:\nInput: arr = [3,1,7,11]\nOutput: false\nExplanation: There is no i and j that satisfy the conditions.\n\u00a0\nConstraints:\n\t2 <= arr.length <= 500\n\t-10^3 <= arr[i] <= 10^3\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def checkIfExist(self, arr: List[int]) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this is by using a hash set to keep track of the numbers seen so far. We can iterate through the array, and for each number, check if its double or its half (if it's an even number) is already in our set of seen numbers.\n\nHere's the step-by-step logic:\n1. Initialize an empty set, `seen`, to store the numbers we have encountered.\n2. Iterate through each `num` in the input array `arr`.\n3. For each `num`, check for two conditions:\n    a. If `2 * num` exists in `seen`. This would satisfy `arr[j] = 2 * arr[i]` where `num` is `arr[i]` and some previous element is `arr[j]`.\n    b. If `num` is an even number and `num / 2` exists in `seen`. This would satisfy `arr[i] = 2 * arr[j]` where `num` is `arr[i]` and some previous element is `arr[j]`.\n4. If either of these conditions is true, we have found a valid pair, so we can return `True` immediately.\n5. If no match is found for the current `num`, add it to the `seen` set to make it available for checks against subsequent numbers in the array.\n6. If the loop completes without finding any such pair, it means no such pair exists, and we should return `False`.\n\nThis approach ensures that we are always comparing a number with elements at different indices because we only add a number to the `seen` set after we have checked it. It handles all cases, including zeros and negative numbers, correctly and efficiently. The time complexity is O(N) because we iterate through the array once, and set operations (add, in) take O(1) on average. The space complexity is O(N) to store the numbers in the set.\n\n```python\nfrom typing import List\n\nclass Solution:\n  def checkIfExist(self, arr: List[int]) -> bool:\n    seen = set()\n    for num in arr:\n      # Check if we have already seen a number that is double the current one,\n      # or a number that is half of the current one.\n      if (2 * num in seen) or (num % 2 == 0 and num // 2 in seen):\n        # We found a pair (i, j) where arr[i] == 2 * arr[j] and i != j.\n        return True\n      \n      # If no match is found, add the current number to the set of seen numbers.\n      seen.add(num)\n      \n    # If we finish the loop without finding a pair, no such pair exists.\n    return False\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n  def checkIfExist(self, arr: List[int]) -> bool:\n    seen = set()\n    for num in arr:\n      # Check if we have already seen a number that is double the current one,\n      # or a number that is half of the current one.\n      if (2 * num in seen) or (num % 2 == 0 and num // 2 in seen):\n        # We found a pair (i, j) where arr[i] == 2 * arr[j] and i != j.\n        return True\n      \n      # If no match is found, add the current number to the set of seen numbers.\n      seen.add(num)\n      \n    # If we finish the loop without finding a pair, no such pair exists.\n    return False\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 113644728292,
+      "SolvedAt": "2025-11-20T12:24:38.116039+01:00",
+      "PromptTokens": 403,
+      "OutputTokens": 14006
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1468",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n  def checkIfExist(self, arr: List[int]) -> bool:\n    seen = set()\n    for num in arr:\n      # Check if we have already seen a number that is double the current one,\n      # or a number that is half of the current one.\n      if (2 * num in seen) or (num % 2 == 0 and num // 2 in seen):\n        # We found a pair (i, j) where arr[i] == 2 * arr[j] and i != j.\n        return True\n      \n      # If no match is found, add the current number to the set of seen numbers.\n      seen.add(num)\n      \n    # If we finish the loop without finding a pair, no such pair exists.\n    return False\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:59:28+01:00"
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1044",
+        "questionId": "1122",
+        "Content": "<p>Given a string <code>s</code>, consider all <em>duplicated substrings</em>: (contiguous) substrings of s that occur 2 or more times.&nbsp;The occurrences&nbsp;may overlap.</p>\n\n<p>Return <strong>any</strong> duplicated&nbsp;substring that has the longest possible length.&nbsp;If <code>s</code> does not have a duplicated substring, the answer is <code>&quot;&quot;</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"banana\"\n<strong>Output:</strong> \"ana\"\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"abcd\"\n<strong>Output:</strong> \"\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"banana\"",
+        "ExampleTestcases": "\"banana\"\n\"abcd\"",
+        "Difficulty": "Hard",
+        "Title": "Longest Duplicate Substring",
+        "TitleSlug": "longest-duplicate-substring",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"81.1K\", \"totalSubmission\": \"261.9K\", \"totalAcceptedRaw\": 81109, \"totalSubmissionRaw\": 261938, \"acRate\": \"31.0%\"}",
+        "Likes": 2317,
+        "Dislikes": 396,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU2NTk4",
+            "Name": "Rolling Hash",
+            "Slug": "rolling-hash"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU2Njk4",
+            "Name": "Suffix Array",
+            "Slug": "suffix-array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY1",
+            "Name": "Hash Function",
+            "Slug": "hash-function"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string longestDupSubstring(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String longestDupSubstring(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def longestDupSubstring(self, s: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def longestDupSubstring(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {string}\n */\nvar longestDupSubstring = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function longestDupSubstring(s: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string LongestDupSubstring(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* longestDupSubstring(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func longestDupSubstring(s string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun longestDupSubstring(s: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func longestDupSubstring(_ s: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn longest_dup_substring(s: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {String}\ndef longest_dup_substring(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return String\n     */\n    function longestDupSubstring($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String longestDupSubstring(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def longestDupSubstring(s: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec longest_dup_substring(s :: String.t) :: String.t\n  def longest_dup_substring(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec longest_dup_substring(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlongest_dup_substring(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (longest-dup-substring s)\n  (-> string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:44:50.623732+01:00",
+    "AcRate": "31.0",
+    "TotalSubmissions": 261938,
+    "TotalAccepted": 81109,
+    "AcceptanceRate": 0.3096496117401828,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/longest-duplicate-substring/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is by combining binary search on the answer with a rolling hash technique (Rabin-Karp algorithm).\n\n### Method Explanation\n\n1.  **Problem Structure**: We are looking for the **longest** duplicated substring. This \"longest\" property suggests that if a duplicated substring of length `k` exists, then a duplicated substring of any length less than `k` must also exist (by simply taking a prefix of the length-`k` duplicate). This monotonic property is a perfect fit for binary search on the answer, which in this case is the length of the substring.\n\n2.  **Binary Search on Length**: We can binary search for the length `L` of the duplicated substring in the range `[1, n-1]`, where `n` is the length of the input string `s`.\n    *   For a given length `L`, we need an efficient way to check if any substring of length `L` appears more than once.\n    *   If we find a duplicate of length `L`, it means `L` is a possible answer, and we try for a longer one. So, we search in the range `[L+1, high]`.\n    *   If no duplicate of length `L` is found, `L` is too large, and we must try a shorter one. So, we search in the range `[low, L-1]`.\n\n3.  **Checking for Duplicates (The `search(L)` function)**: To check for a duplicated substring of a fixed length `L`, we can use a rolling hash.\n    *   A rolling hash allows us to calculate the hash of a new substring from the hash of the previous one in `O(1)` time by \"sliding\" a window of size `L` across the string.\n    *   The formula for the hash of a substring `s[i...i+L-1]` can be a polynomial `(s[i]*p^(L-1) + s[i+1]*p^(L-2) + ... + s[i+L-1]*p^0) mod M`.\n    *   To get the hash of the next substring `s[i+1...i+L]`, we can update the previous hash in constant time: `new_hash = ((old_hash - s[i]*p^(L-1)) * p + s[i+L]) mod M`.\n    *   We iterate through all substrings of length `L`, calculate their hashes, and store them in a hash map (`seen`). The map stores `hash -> list of starting indices`.\n    *   If we compute a hash that's already in our map, we have a potential duplicate.\n\n4.  **Handling Hash Collisions**: Since different strings can potentially have the same hash value (a \"collision\"), finding a matching hash doesn't guarantee the substrings are identical. When a hash match is found, we must compare the actual substrings character by character to confirm they are true duplicates. If they are, we've found a duplicated substring of length `L` and the `search(L)` function can return it. If not, it's a collision, and we continue our search. Using a large prime modulus `M` (like `2^61 - 1`) significantly reduces the probability of collisions.\n\n5.  **Complexity**:\n    *   The binary search performs `O(log n)` iterations.\n    *   The `search(L)` function takes `O(n)` time, as it slides a window across the string of length `n`, and each step is `O(1)` on average (hash calculation and map lookup). Verifying on collision takes `O(L)`. With a good hash function, collisions are rare.\n    *   The total time complexity is `O(n log n)`.\n    *   The space complexity is `O(n)` to store the hashes in the `seen` map.\n\nThis `O(n log n)` approach is efficient enough to pass within the time limits for the given constraints.\n\n```python\nclass Solution:\n    def longestDupSubstring(self, s: str) -> str:\n        n = len(s)\n        # Convert string to list of integers\n        nums = [ord(c) - ord('a') for c in s]\n        # Prime base for the hash\n        base = 26\n        # A large prime modulus to minimize collisions\n        modulus = (1 << 61) - 1\n\n        def search(L: int) -> str:\n            \"\"\"\n            Checks for a duplicated substring of length L using rolling hash.\n            \"\"\"\n            if L == 0:\n                return \"\"\n\n            # Compute hash for the first substring of length L\n            h = 0\n            for i in range(L):\n                h = (h * base + nums[i]) % modulus\n\n            # Store hashes and their starting indices\n            seen = {h: [0]}\n            \n            # Pre-compute (base^(L-1)) % modulus forefficiency\n            power_L_minus_1 = pow(base, L - 1, modulus)\n\n            # Slide the window across the string\n            for i in range(1, n - L + 1):\n                # Rolling hash update from s[i-1:i-1+L] to s[i:i+L]\n                # Formula: h_new = (h_old - val_old * base^(L-1)) * base + val_new\n                h = (h - nums[i - 1] * power_L_minus_1) * base + nums[i + L - 1]\n                h %= modulus\n                \n                if h in seen:\n                    # Hash collision or genuine match. Verify.\n                    current_substring = s[i : i + L]\n                    for start_index in seen[h]:\n                        if s[start_index : start_index + L] == current_substring:\n                            return current_substring\n                \n                if h not in seen:\n                    seen[h] = []\n                seen[h].append(i)\n\n            return \"\"\n\n        # Binary search for the longest possible length\n        ans = \"\"\n        low, high = 1, n\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            if mid == 0:\n                low = mid + 1\n                continue\n            \n            found_substring = search(mid)\n            if found_substring:\n                # Found a duplicate of length `mid`, try for a longer one\n                ans = found_substring\n                low = mid + 1\n            else:\n                # No duplicate of length `mid`, must be shorter\n                high = mid - 1\n                \n        return ans\n\n```\n\n=== DESIGN ===\nAn elegant and effective method to solve this problem is to use a combination of binary search on the answer (the length of the substring) and a rolling hash technique (Rabin-Karp) for efficient duplicate checking.\n\n1.  **Algorithm Choice**\n    The chosen algorithm is Binary Search on the length of the substring, combined with Rabin-Karp for checking duplicates. The problem of finding the \"longest\" substring has a monotonic property: if a duplicated substring of length `k` exists, one of length `k-1` also exists. This allows us to binary search for the optimal length.\n\n2.  **Step-by-Step Approach**\n    1.  **Binary Search:** Define a search space for the length `L` of the duplicated substring, from `1` to `n` (where `n` is the length of the input string).\n    2.  In each step of the binary search, pick a middle length `mid`.\n    3.  **Check for Duplicates:** Use a helper function, say `search(L)`, to determine if there is any duplicated substring of length `L`. This function will use a rolling hash.\n    4.  **Rolling Hash (`search(L)`):**\n        a. Calculate the hash of the first substring of length `L`.\n        b. Store this hash and its starting index (0) in a hash map.\n        c. Iterate from the second character to the end of the string, and for each position, update the hash from the previous substring in `O(1)` time. This is done by subtracting the term of the character leaving the window and adding the term for the new character entering the window.\n        d. For each calculated hash, check if it's already in the hash map.\n        e. **Collision Handling:** If a hash match is found, it's a potential duplicate. Verify by comparing the actual substrings character by character. If they match, a duplicate of length `L` is found, and `search(L)` returns that substring.\n        f. If the hash is new, or if it was a collision (substrings didn't match), add the hash and its starting index to the map and continue.\n        g. If the loop finishes without finding a confirmed duplicate, `search(L)` returns an empty string.\n    5.  **Adjust Search Range:**\n        - If `search(mid)` finds a duplicated substring, it means `mid` is a possible length. We store this result and try for a longer one by setting `low = mid + 1`.\n        - If `search(mid)` finds nothing, the length `mid` is too long. We must try for shorter substrings by setting `high = mid - 1`.\n    6.  The binary search continues until `low > high`. The last successfully found substring is the answer.\n\n3.  **Data Structures**\n    - `list` or `array` of integers: To store the numerical representation of the input string `s` (e.g., `ord(c) - ord('a')`) for hashing calculations.\n    - `dict` or `hash map`: To store computed hash values and a list of their corresponding starting indices. This is used in the `search(L)` function to detect potential duplicates. The structure would be `{hash_value: [start_index_1, start_index_2, ...]}`.\n\n4.  **Time Complexity**\n    - The binary search performs `O(log n)` iterations.\n    - The `search(L)` function takes `O(n)` time. It slides a window of size `L` across the string of length `n`. Each step (hash calculation and map lookup) is `O(1)` on average. String verification upon a hash collision takes `O(L)`, but with a good hash function, collisions are rare, so the amortized complexity remains `O(n)`.\n    - The total time complexity is **`O(n log n)`**.\n\n5.  **Space Complexity**\n    - `O(n)` to store the numerical representation of the string.\n    - Inside `search(L)`, the hash map can store up to `O(n)` unique hashes in the worst case.\n    - Therefore, the total space complexity is **`O(n)`**.\n\n6.  **Pseudocode**\n\n```\nfunction longestDupSubstring(s):\n    n = length of s\n    nums = convert s to array of integers\n    \n    // Helper function to find a duplicate of length L\n    function search(L):\n        if L == 0: return \"\"\n        \n        seen_hashes = new HashMap()\n        current_hash = calculate hash of s[0...L-1]\n        add (current_hash -> starting_index 0) to seen_hashes\n        \n        power = base^(L-1) // precompute for rolling hash\n        \n        for i from 1 to n - L:\n            // Update hash for s[i...i+L-1] from previous hash\n            current_hash = roll(current_hash, nums[i-1], nums[i+L-1], power)\n            \n            if current_hash is in seen_hashes:\n                potential_match_indices = seen_hashes.get(current_hash)\n                current_substring = s[i...i+L-1]\n                for each start_idx in potential_match_indices:\n                    if s[start_idx...start_idx+L-1] == current_substring:\n                        return current_substring // Found a true duplicate\n            \n            add (current_hash -> starting_index i) to seen_hashes\n\n        return \"\" // No duplicate of length L found\n\n    // Binary search for the longest length\n    best_substring = \"\"\n    low = 1, high = n\n    \n    while low <= high:\n        mid = low + (high - low) / 2\n        found = search(mid)\n        \n        if found is not \"\":\n            best_substring = found\n            low = mid + 1 // Try for a longer substring\n        else:\n            high = mid - 1 // Substring is too long, try shorter\n            \n    return best_substring\n```\n\n```python\nclass Solution:\n    def longestDupSubstring(self, s: str) -> str:\n        n = len(s)\n        nums = [ord(c) - ord('a') for c in s]\n        base = 26\n        modulus = (1 << 61) - 1\n\n        def search(L: int) -> str:\n            if L == 0:\n                return \"\"\n            \n            h = 0\n            for i in range(L):\n                h = (h * base + nums[i]) % modulus\n            \n            seen = {h: [0]}\n            \n            power_L_minus_1 = pow(base, L - 1, modulus)\n            \n            for i in range(1, n - L + 1):\n                h = (h - nums[i - 1] * power_L_minus_1) * base + nums[i + L - 1]\n                h %= modulus\n                \n                if h in seen:\n                    current_substring = s[i : i + L]\n                    for start_index in seen[h]:\n                        if s[start_index : start_index + L] == current_substring:\n                            return current_substring\n                \n                if h not in seen:\n                    seen[h] = []\n                seen[h].append(i)\n            \n            return \"\"\n\n        ans = \"\"\n        low, high = 1, n\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            \n            found_substring = search(mid)\n            if found_substring:\n                ans = found_substring\n                low = mid + 1\n            else:\n                high = mid - 1\n                \n        return ans\n```\n\n=== IMPLEMENTATION ===\n\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def longestDupSubstring(self, s: str) -> str:\n        n = len(s)\n        nums = [ord(c) - ord('a') for c in s]\n        base = 26\n        modulus = (1 << 61) - 1\n\n        def search(L: int) -> str:\n            if L == 0:\n                return \"\"\n            \n            h = 0\n            for i in range(L):\n                h = (h * base + nums[i]) % modulus\n            \n            seen = {h: [0]}\n            \n            power_L_minus_1 = pow(base, L - 1, modulus)\n            \n            for i in range(1, n - L + 1):\n                h = (h - nums[i - 1] * power_L_minus_1) * base + nums[i + L - 1]\n                h %= modulus\n                \n                if h in seen:\n                    current_substring = s[i : i + L]\n                    for start_index in seen[h]:\n                        if s[start_index : start_index + L] == current_substring:\n                            return current_substring\n                \n                if h not in seen:\n                    seen[h] = []\n                seen[h].append(i)\n            \n            return \"\"\n\n        ans = \"\"\n        low, high = 1, n\n        \n        while low <= high:\n            mid = low + (high - low) // 2\n            \n            found_substring = search(mid)\n            if found_substring:\n                ans = found_substring\n                low = mid + 1\n            else:\n                high = mid - 1\n                \n        return ans\n```\n\n",
+      "TypedCode": "",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 426406679792,
+      "SolvedAt": "2025-11-21T12:41:57.419563+01:00",
+      "PromptTokens": 6314,
+      "OutputTokens": 44121
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1122",
+        "typed_code": ""
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 11,
+        "status_msg": "Runtime Error",
+        "Finished": true,
+        "State": "FAILED"
+      },
+      "SubmittedAt": "2025-11-21T21:15:02+01:00"
+    }
+  }
+}

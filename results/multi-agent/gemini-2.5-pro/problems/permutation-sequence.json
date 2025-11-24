@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "60",
+        "questionId": "60",
+        "Content": "<p>The set <code>[1, 2, 3, ...,&nbsp;n]</code> contains a total of <code>n!</code> unique permutations.</p>\n\n<p>By listing and labeling all of the permutations in order, we get the following sequence for <code>n = 3</code>:</p>\n\n<ol>\n\t<li><code>&quot;123&quot;</code></li>\n\t<li><code>&quot;132&quot;</code></li>\n\t<li><code>&quot;213&quot;</code></li>\n\t<li><code>&quot;231&quot;</code></li>\n\t<li><code>&quot;312&quot;</code></li>\n\t<li><code>&quot;321&quot;</code></li>\n</ol>\n\n<p>Given <code>n</code> and <code>k</code>, return the <code>k<sup>th</sup></code> permutation sequence.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 3, k = 3\n<strong>Output:</strong> \"213\"\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 4, k = 9\n<strong>Output:</strong> \"2314\"\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> n = 3, k = 1\n<strong>Output:</strong> \"123\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 9</code></li>\n\t<li><code>1 &lt;= k &lt;= n!</code></li>\n</ul>\n",
+        "SampleTestCase": "3\n3",
+        "ExampleTestcases": "3\n3\n4\n9\n3\n1",
+        "Difficulty": "Hard",
+        "Title": "Permutation Sequence",
+        "TitleSlug": "permutation-sequence",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"524.1K\", \"totalSubmission\": \"1M\", \"totalAcceptedRaw\": 524097, \"totalSubmissionRaw\": 1022789, \"acRate\": \"51.2%\"}",
+        "Likes": 7127,
+        "Dislikes": 500,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string getPermutation(int n, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String getPermutation(int n, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def getPermutation(self, n, k):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar getPermutation = function(n, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function getPermutation(n: number, k: number): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string GetPermutation(int n, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* getPermutation(int n, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func getPermutation(n int, k int) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun getPermutation(n: Int, k: Int): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func getPermutation(_ n: Int, _ k: Int) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn get_permutation(n: i32, k: i32) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @param {Integer} k\n# @return {String}\ndef get_permutation(n, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $k\n     * @return String\n     */\n    function getPermutation($n, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String getPermutation(int n, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def getPermutation(n: Int, k: Int): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec get_permutation(n :: integer, k :: integer) :: String.t\n  def get_permutation(n, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec get_permutation(N :: integer(), K :: integer()) -> unicode:unicode_binary().\nget_permutation(N, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (get-permutation n k)\n  (-> exact-integer? exact-integer? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:35:37.02878+01:00",
+    "AcRate": "51.2",
+    "TotalSubmissions": 1022789,
+    "TotalAccepted": 524097,
+    "AcceptanceRate": 0.5124194726380514,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/permutation-sequence/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        factorials = [1] * n\n        # factorials[i] will store i!\n        # factorials[0] = 0! = 1\n        for i in range(1, n):\n            factorials[i] = factorials[i-1] * i\n\n        numbers = list(range(1, n + 1))\n        \n        # Adjust k to be 0-indexed\n        k -= 1\n        \n        result_chars = []\n        \n        # Determine digits from left to right\n        for i in range(n, 0, -1):\n            # (i-1)! is the size of blocks of permutations\n            fact_val = factorials[i-1]\n            \n            # Find the index of the number to pick\n            index = k // fact_val\n            \n            # Append the chosen number to the result\n            result_chars.append(str(numbers[index]))\n            \n            # Remove the chosen number from the list of available numbers\n            numbers.pop(index)\n            \n            # Update k for the next sub-problem\n            k %= fact_val\n            \n        return \"\".join(result_chars)\n```\n\n=== DESIGN ===\nTo solve this problem, we will devise an algorithm that constructs the k-th permutation sequence digit by digit, from left to right, using a mathematical approach based on factorials. This method is highly efficient as it avoids the costly process of generating all possible permutations.\n\nThe core idea is that for `n` numbers, the permutations can be grouped into `n` blocks based on their first digit. Each block contains `(n-1)!` permutations. For example, with `n=4`, there are `4! = 24` permutations. The first `3! = 6` permutations start with '1', the next 6 start with '2', and so on.\n\nBy using the 0-indexed `k` (i.e., `k-1`), we can determine which block the k-th permutation falls into. The index of the first digit (from the list of available numbers) is `(k-1) // (n-1)!`.\n\nAfter selecting the first digit, we remove it from our list of available numbers. We then update `k` to find its relative position within that smaller block: `k = k % (n-1)!`. This process is repeated for the remaining `n-1` numbers, where the block size becomes `(n-2)!`. We continue this iterative process until all digits are chosen.\n\nThis constructive approach ensures we directly calculate the desired permutation in `O(n^2)` time, which is well within the limits for the given constraints.\n\n```python\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        # Pre-compute factorials from 0! to (n-1)!.\n        # factorials[i] will store i!\n        factorials = [1] * n\n        for i in range(1, n):\n            factorials[i] = factorials[i - 1] * i\n        \n        # Create a list of available numbers.\n        numbers = list(range(1, n + 1))\n        \n        # Adjust k to be 0-indexed.\n        k -= 1\n        \n        result_chars = []\n        \n        # Determine digits from left to right.\n        for i in range(n, 0, -1):\n            # For i remaining numbers, permutations are in blocks of size (i-1)!\n            fact_val = factorials[i - 1]\n            \n            # Find the index of the number to pick from the 'numbers' list.\n            index = k // fact_val\n            \n            # Append the chosen number to the result.\n            result_chars.append(str(numbers[index]))\n            \n            # Remove the chosen number from the list of available numbers.\n            numbers.pop(index)\n            \n            # Update k for the sub-problem of the remaining i-1 numbers.\n            k %= fact_val\n            \n        return \"\".join(result_chars)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        factorials = [1] * n\n        for i in range(1, n):\n            factorials[i] = factorials[i - 1] * i\n        \n        numbers = list(range(1, n + 1))\n        \n        k -= 1\n        \n        result_chars = []\n        \n        for i in range(n, 0, -1):\n            fact_val = factorials[i - 1]\n            \n            index = k // fact_val\n            \n            result_chars.append(str(numbers[index]))\n            \n            numbers.pop(index)\n            \n            k %= fact_val\n            \n        return \"\".join(result_chars)\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        factorials = [1] * n\n        for i in range(1, n):\n            factorials[i] = factorials[i - 1] * i\n        \n        numbers = list(range(1, n + 1))\n        \n        # Adjust k to be 0-indexed for calculation\n        k -= 1\n        \n        result_chars = []\n        \n        # Determine digits from left to right\n        for i in range(n, 0, -1):\n            # The size of blocks of permutations for the remaining i numbers is (i-1)!\n            fact_val = factorials[i - 1]\n            \n            # Find the index of the number to pick from the current 'numbers' list\n            index = k // fact_val\n            \n            # Append the chosen number to the result\n            result_chars.append(str(numbers[index]))\n            \n            # Remove the chosen number from the list of available numbers\n            numbers.pop(index)\n            \n            # Update k for the sub-problem with the remaining numbers\n            k %= fact_val\n            \n        return \"\".join(result_chars)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        factorials = [1] * n\n        for i in range(1, n):\n            factorials[i] = factorials[i - 1] * i\n        \n        numbers = list(range(1, n + 1))\n        \n        k -= 1\n        \n        result_chars = []\n        \n        for i in range(n, 0, -1):\n            fact_val = factorials[i - 1]\n            \n            index = k // fact_val\n            \n            result_chars.append(str(numbers[index]))\n            \n            numbers.pop(index)\n            \n            k %= fact_val\n            \n        return \"\".join(result_chars)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 232361878165,
+      "SolvedAt": "2025-11-21T15:44:53.639267+01:00",
+      "PromptTokens": 4723,
+      "OutputTokens": 29780
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "60",
+        "typed_code": "\nclass Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        factorials = [1] * n\n        for i in range(1, n):\n            factorials[i] = factorials[i - 1] * i\n        \n        numbers = list(range(1, n + 1))\n        \n        k -= 1\n        \n        result_chars = []\n        \n        for i in range(n, 0, -1):\n            fact_val = factorials[i - 1]\n            \n            index = k // fact_val\n            \n            result_chars.append(str(numbers[index]))\n            \n            numbers.pop(index)\n            \n            k %= fact_val\n            \n        return \"\".join(result_chars)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:26:04+01:00"
+    }
+  }
+}

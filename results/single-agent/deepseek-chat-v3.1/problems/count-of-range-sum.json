@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "327",
+        "questionId": "327",
+        "Content": "<p>Given an integer array <code>nums</code> and two integers <code>lower</code> and <code>upper</code>, return <em>the number of range sums that lie in</em> <code>[lower, upper]</code> <em>inclusive</em>.</p>\n\n<p>Range sum <code>S(i, j)</code> is defined as the sum of the elements in <code>nums</code> between indices <code>i</code> and <code>j</code> inclusive, where <code>i &lt;= j</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-2,5,-1], lower = -2, upper = 2\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The three ranges are: [0,0], [2,2], and [0,2] and their respective sums are: -2, -1, 2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0], lower = 0, upper = 0\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>-10<sup>5</sup> &lt;= lower &lt;= upper &lt;= 10<sup>5</sup></code></li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</li>\n</ul>\n",
+        "SampleTestCase": "[-2,5,-1]\n-2\n2",
+        "ExampleTestcases": "[-2,5,-1]\n-2\n2\n[0]\n0\n0",
+        "Difficulty": "Hard",
+        "Title": "Count of Range Sum",
+        "TitleSlug": "count-of-range-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"97.3K\", \"totalSubmission\": \"257.3K\", \"totalAcceptedRaw\": 97340, \"totalSubmissionRaw\": 257272, \"acRate\": \"37.8%\"}",
+        "Likes": 2469,
+        "Dislikes": 261,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEy",
+            "Name": "Divide and Conquer",
+            "Slug": "divide-and-conquer"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI4",
+            "Name": "Binary Indexed Tree",
+            "Slug": "binary-indexed-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI5",
+            "Name": "Segment Tree",
+            "Slug": "segment-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUx",
+            "Name": "Merge Sort",
+            "Slug": "merge-sort"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countRangeSum(vector<int>& nums, int lower, int upper) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countRangeSum(self, nums, lower, upper):\n        \"\"\"\n        :type nums: List[int]\n        :type lower: int\n        :type upper: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar countRangeSum = function(nums, lower, upper) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countRangeSum(nums: number[], lower: number, upper: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countRangeSum(int* nums, int numsSize, int lower, int upper) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countRangeSum(nums []int, lower int, upper int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countRangeSum(nums: IntArray, lower: Int, upper: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countRangeSum(_ nums: [Int], _ lower: Int, _ upper: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_range_sum(nums: Vec<i32>, lower: i32, upper: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} lower\n# @param {Integer} upper\n# @return {Integer}\ndef count_range_sum(nums, lower, upper)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $lower\n     * @param Integer $upper\n     * @return Integer\n     */\n    function countRangeSum($nums, $lower, $upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countRangeSum(List<int> nums, int lower, int upper) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countRangeSum(nums: Array[Int], lower: Int, upper: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_range_sum(nums :: [integer], lower :: integer, upper :: integer) :: integer\n  def count_range_sum(nums, lower, upper) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_range_sum(Nums :: [integer()], Lower :: integer(), Upper :: integer()) -> integer().\ncount_range_sum(Nums, Lower, Upper) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-range-sum nums lower upper)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:22:40.06433+01:00",
+    "AcRate": "37.8",
+    "TotalSubmissions": 257272,
+    "TotalAccepted": 97340,
+    "AcceptanceRate": 0.37835442644360834,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-of-range-sum/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer array nums and two integers lower and upper, return the number of range sums that lie in [lower, upper] inclusive.\nRange sum S(i, j) is defined as the sum of the elements in nums between indices i and j inclusive, where i <= j.\n\u00a0\nExample 1:\nInput: nums = [-2,5,-1], lower = -2, upper = 2\nOutput: 3\nExplanation: The three ranges are: [0,0], [2,2], and [0,2] and their respective sums are: -2, -1, 2.\nExample 2:\nInput: nums = [0], lower = 0, upper = 0\nOutput: 1\n\u00a0\nConstraints:\n\t1 <= nums.length <= 10^5\n\t-2^31 <= nums[i] <= 2^31 - 1\n\t-10^5 <= lower <= upper <= 10^5\n\tThe answer is guaranteed to fit in a 32-bit integer.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to count the number of range sums in an array that fall within a given inclusive range [lower, upper]. The challenge is to do this efficiently given the constraints, especially since the array can have up to 10^5 elements.\n\n### Approach\n1. **Problem Analysis**: The problem requires counting all contiguous subarrays whose sum lies between `lower` and `upper`. A naive approach would involve checking every possible subarray (i, j), which would be O(n^2) and too slow for n=10^5.\n\n2. **Key Insight**: The problem can be transformed using prefix sums. Let `prefix[i]` be the sum of the first `i` elements (with `prefix[0] = 0`). Then the sum of the subarray from i to j is `prefix[j+1] - prefix[i]`. We need to count pairs (i, j) such that `lower <= prefix[j+1] - prefix[i] <= upper`.\n\n3. **Efficient Solution**:\n   - **Prefix Array**: Compute the prefix sum array `pref` where `pref[0] = 0` and `pref[i] = nums[0] + nums[1] + ... + nums[i-1]`.\n   - **Merge Sort and Count**: Use a divide and conquer strategy (similar to merge sort) to count the valid pairs. The idea is to count pairs (i, j) where i < j and `lower <= pref[j] - pref[i] <= upper`. This is done by:\n        - Splitting the prefix array into two halves.\n        - Recursively counting the pairs in each half.\n        - Counting pairs that cross the two halves.\n        - Merging the two halves while sorting the array (which helps in the cross counting).\n   - **Cross Counting**: For the cross pairs, for each element in the left half, we need to find indices in the right half such that `pref[j] - pref[i]` is in [lower, upper]. Since the right half is sorted, we can use two pointers to efficiently count the valid j indices for each i.\n\n4. **Algorithm Selection**: The merge sort based approach ensures that the entire solution runs in O(n log n) time, which is efficient for the constraints.\n\n### Solution Code\n```python\nclass Solution:\n    def countRangeSum(self, nums: list, lower: int, upper: int) -> int:\n        n = len(nums)\n        pre = [0] * (n + 1)\n        for i in range(n):\n            pre[i+1] = pre[i] + nums[i]\n        \n        def merge_sort_count(l, r):\n            if l == r:\n                return 0\n            mid = (l + r) // 2\n            count = merge_sort_count(l, mid) + merge_sort_count(mid+1, r)\n            \n            i = l\n            j_low = mid + 1\n            j_high = mid + 1\n            for i in range(l, mid+1):\n                while j_low <= r and pre[j_low] - pre[i] < lower:\n                    j_low += 1\n                while j_high <= r and pre[j_high] - pre[i] <= upper:\n                    j_high += 1\n                count += j_high - j_low\n            \n            # Merge the two sorted halves\n            left = pre[l:mid+1]\n            right = pre[mid+1:r+1]\n            i = 0\n            j = 0\n            k = l\n            while i < len(left) and j < len(right):\n                if left[i] <= right[j]:\n                    pre[k] = left[i]\n                    i += 1\n                else:\n                    pre[k] = right[j]\n                    j += 1\n                k += 1\n            while i < len(left):\n                pre[k] = left[i]\n                i += 1\n                k += 1\n            while j < len(right):\n                pre[k] = right[j]\n                j += 1\n                k += 1\n            return count\n        \n        return merge_sort_count(0, n)\n```\n\n### Explanation\n1. **Prefix Sum Calculation**: The prefix array `pre` is computed such that `pre[i]` holds the sum of the first `i` elements of `nums`. This allows the sum of any subarray (i, j) to be expressed as `pre[j+1] - pre[i]`.\n\n2. **Divide and Conquer**: The function `merge_sort_count` recursively splits the prefix array into halves, counts valid pairs within each half, and then counts pairs that cross the halves. For each element in the left half, it uses two pointers to efficiently count the number of elements in the right half that satisfy `lower <= pre[j] - pre[i] <= upper`.\n\n3. **Merging**: After processing, the halves are merged into a sorted array to facilitate the counting in the recursive steps. This sorted merging ensures that the cross counting can be done efficiently with the two pointers.\n\nThis approach efficiently reduces the problem to O(n log n) time by leveraging the divide and conquer strategy and sorted arrays for efficient range queries.",
+      "TypedCode": "\nclass Solution:\n    def countRangeSum(self, nums: list, lower: int, upper: int) -> int:\n        n = len(nums)\n        pre = [0] * (n + 1)\n        for i in range(n):\n            pre[i+1] = pre[i] + nums[i]\n        \n        def merge_sort_count(l, r):\n            if l == r:\n                return 0\n            mid = (l + r) // 2\n            count = merge_sort_count(l, mid) + merge_sort_count(mid+1, r)\n            \n            i = l\n            j_low = mid + 1\n            j_high = mid + 1\n            for i in range(l, mid+1):\n                while j_low <= r and pre[j_low] - pre[i] < lower:\n                    j_low += 1\n                while j_high <= r and pre[j_high] - pre[i] <= upper:\n                    j_high += 1\n                count += j_high - j_low\n            \n            # Merge the two sorted halves\n            left = pre[l:mid+1]\n            right = pre[mid+1:r+1]\n            i = 0\n            j = 0\n            k = l\n            while i < len(left) and j < len(right):\n                if left[i] <= right[j]:\n                    pre[k] = left[i]\n                    i += 1\n                else:\n                    pre[k] = right[j]\n                    j += 1\n                k += 1\n            while i < len(left):\n                pre[k] = left[i]\n                i += 1\n                k += 1\n            while j < len(right):\n                pre[k] = right[j]\n                j += 1\n                k += 1\n            return count\n        \n        return merge_sort_count(0, n)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 17358475583,
+      "SolvedAt": "2025-11-20T21:14:53.370117+01:00",
+      "PromptTokens": 429,
+      "OutputTokens": 1104
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "327",
+        "typed_code": "\nclass Solution:\n    def countRangeSum(self, nums: list, lower: int, upper: int) -> int:\n        n = len(nums)\n        pre = [0] * (n + 1)\n        for i in range(n):\n            pre[i+1] = pre[i] + nums[i]\n        \n        def merge_sort_count(l, r):\n            if l == r:\n                return 0\n            mid = (l + r) // 2\n            count = merge_sort_count(l, mid) + merge_sort_count(mid+1, r)\n            \n            i = l\n            j_low = mid + 1\n            j_high = mid + 1\n            for i in range(l, mid+1):\n                while j_low <= r and pre[j_low] - pre[i] < lower:\n                    j_low += 1\n                while j_high <= r and pre[j_high] - pre[i] <= upper:\n                    j_high += 1\n                count += j_high - j_low\n            \n            # Merge the two sorted halves\n            left = pre[l:mid+1]\n            right = pre[mid+1:r+1]\n            i = 0\n            j = 0\n            k = l\n            while i < len(left) and j < len(right):\n                if left[i] <= right[j]:\n                    pre[k] = left[i]\n                    i += 1\n                else:\n                    pre[k] = right[j]\n                    j += 1\n                k += 1\n            while i < len(left):\n                pre[k] = left[i]\n                i += 1\n                k += 1\n            while j < len(right):\n                pre[k] = right[j]\n                j += 1\n                k += 1\n            return count\n        \n        return merge_sort_count(0, n)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T23:02:02+01:00"
+    }
+  }
+}

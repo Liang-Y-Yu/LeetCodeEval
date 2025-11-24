@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1696",
+        "questionId": "1814",
+        "Content": "<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and an integer <code>k</code>.</p>\n\n<p>You are initially standing at index <code>0</code>. In one move, you can jump at most <code>k</code> steps forward without going outside the boundaries of the array. That is, you can jump from index <code>i</code> to any index in the range <code>[i + 1, min(n - 1, i + k)]</code> <strong>inclusive</strong>.</p>\n\n<p>You want to reach the last index of the array (index <code>n - 1</code>). Your <strong>score</strong> is the <strong>sum</strong> of all <code>nums[j]</code> for each index <code>j</code> you visited in the array.</p>\n\n<p>Return <em>the <strong>maximum score</strong> you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [<u>1</u>,<u>-1</u>,-2,<u>4</u>,-7,<u>3</u>], k = 2\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> You can choose your jumps forming the subsequence [1,-1,4,3] (underlined above). The sum is 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [<u>10</u>,-5,-2,<u>4</u>,0,<u>3</u>], k = 3\n<strong>Output:</strong> 17\n<strong>Explanation:</strong> You can choose your jumps forming the subsequence [10,4,3] (underlined above). The sum is 17.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,-5,-20,4,-1,3,-6,-3], k = 2\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length, k &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,-1,-2,4,-7,3]\n2",
+        "ExampleTestcases": "[1,-1,-2,4,-7,3]\n2\n[10,-5,-2,4,0,3]\n3\n[1,-5,-20,4,-1,3,-6,-3]\n2",
+        "Difficulty": "Medium",
+        "Title": "Jump Game VI",
+        "TitleSlug": "jump-game-vi",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"123.8K\", \"totalSubmission\": \"267.8K\", \"totalAcceptedRaw\": 123813, \"totalSubmissionRaw\": 267849, \"acRate\": \"46.2%\"}",
+        "Likes": 3534,
+        "Dislikes": 124,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjM0",
+            "Name": "Queue",
+            "Slug": "queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcx",
+            "Name": "Monotonic Queue",
+            "Slug": "monotonic-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxResult(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxResult(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxResult(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar maxResult = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxResult(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxResult(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxResult(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxResult(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxResult(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxResult(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_result(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef max_result(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxResult($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxResult(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxResult(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_result(nums :: [integer], k :: integer) :: integer\n  def max_result(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_result(Nums :: [integer()], K :: integer()) -> integer().\nmax_result(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-result nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:08:37.712228+01:00",
+    "AcRate": "46.2",
+    "TotalSubmissions": 267849,
+    "TotalAccepted": 123813,
+    "AcceptanceRate": 0.46224925237727227,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/jump-game-vi/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nThis problem can be solved using dynamic programming combined with a sliding window maximum technique to efficiently compute the maximum value in a range.\n\n**Problem Analysis:**\nWe need to maximize the score (sum of visited indices) to reach the last index from the first index with at most k steps allowed per jump. The constraints (up to 10^5 elements) require an efficient solution.\n\n**Approach:**\n1. **Dynamic Programming (DP):** Let `dp[i]` be the maximum score to reach index `i`. Then, `dp[i] = nums[i] + max(dp[j])` for all `j` in the range `[i-k, i-1]`. However, directly iterating for each j would lead to O(n*k) time, which is too slow for large n and k.\n2. **Efficient Maximum Calculation:** To avoid the inner loop, we can use a deque to maintain a sliding window maximum. We traverse from left to right. For each index `i`, we want the maximum value in the window `[i-k, i-1]` for the dp array.\n3. **Deque for Monotonic Queue:** We maintain a deque that stores indices of the dp array such that the values are in decreasing order. This allows us to quickly get the maximum value in the window.\n\n**Steps:**\n- Initialize `dp[0] = nums[0]`.\n- Initialize a deque `d` with index 0.\n- For `i` from 1 to n-1:\n   - Remove indices that are out of the current window (i.e., indices < i - k) from the front of the deque.\n   - `dp[i] = nums[i] + dp[d[0]]` (since the front of deque has the maximum value for the valid window).\n   - While the deque is not empty and `dp[d[-1]] <= dp[i]`, pop from the back. This maintains the deque in decreasing order.\n   - Append `i` to the back of the deque.\n- Return `dp[n-1]`.\n\n**Why this works:**\nThe deque always has the indices of the dp array in decreasing order of their values. The front of the deque is the maximum value in the current window. This allows O(1) access to the maximum and each element is pushed and popped at most once, leading to O(n) time.\n\n**Solution Code:**\n```python\nfrom collections import deque\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        for i in range(1, n):\n            while d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] <= dp[i]:\n                d.pop()\n            d.append(i)\n        return dp[n-1]\n```\n\n**Explanation:**\n- We initialize the dp array and set the first value.\n- The deque is used to keep track of indices with the highest dp values in the current valid window.\n- For each subsequent index, we remove indices that are too far (beyond k steps back) from the front.\n- The current dp value is computed by adding the current number to the maximum dp value in the valid window (which is at the front of the deque).\n- We then maintain the deque by removing indices from the back if their dp values are less than the current dp value (to keep the deque decreasing).\n- Finally, we return the last value of the dp array.\n\nThis approach efficiently computes the maximum score with O(n) time and O(n) space.\n\n=== DESIGN ===\n**Algorithm Choice:**  \nDynamic Programming combined with a Monotonic Deque to efficiently compute the maximum value in a sliding window.\n\n**Step-by-Step Approach:**  \n1. Initialize an array `dp` where `dp[i]` represents the maximum score to reach index `i`.\n2. Set `dp[0] = nums[0]`.\n3. Use a deque to maintain indices of `dp` such that their values are in decreasing order. This allows O(1) access to the maximum value in the current window.\n4. For each index `i` from 1 to n-1:\n   - Remove indices from the front of the deque that are outside the window `[i-k, i-1]`.\n   - Set `dp[i] = nums[i] + dp[d[0]]` (the maximum value in the window).\n   - While the deque is not empty and `dp[d[-1]] <= dp[i]`, remove indices from the back to maintain the decreasing order.\n   - Append `i` to the back of the deque.\n5. Return `dp[n-1]`.\n\n**Data Structures:**  \n- Array `dp` to store maximum scores.\n- Deque to maintain indices for the sliding window maximum.\n\n**Time Complexity:**  \nO(n) - Each index is pushed and popped from the deque at most once.\n\n**Space Complexity:**  \nO(n) - For the `dp` array and the deque.\n\n**Pseudocode:**  \n```\nfunction maxResult(nums, k):\n    n = length(nums)\n    dp = array of zeros with length n\n    dp[0] = nums[0]\n    d = deque containing index 0\n    for i from 1 to n-1:\n        while d is not empty and front of d < i - k:\n            pop from front of d\n        dp[i] = nums[i] + dp[front of d]\n        while d is not empty and dp[back of d] <= dp[i]:\n            pop from back of d\n        append i to back of d\n    return dp[n-1]\n```\n\n```python\nfrom collections import deque\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        for i in range(1, n):\n            if d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] <= dp[i]:\n                d.pop()\n            d.append(i)\n        return dp[n-1]\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        \n        for i in range(1, n):\n            while d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] <= dp[i]:\n                d.pop()\n            d.append(i)\n        \n        return dp[-1]\n```\n\n=== VERIFICATION ===\n```python\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        \n        for i in range(1, n):\n            while d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] < dp[i]:\n                d.pop()\n            d.append(i)\n        \n        return dp[-1]\n```\n\n",
+      "TypedCode": "\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        \n        for i in range(1, n):\n            while d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] <= dp[i]:\n                d.pop()\n            d.append(i)\n        \n        return dp[-1]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 19202932541,
+      "SolvedAt": "2025-11-20T23:57:56.722806+01:00",
+      "PromptTokens": 6364,
+      "OutputTokens": 1641
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1814",
+        "typed_code": "\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def maxResult(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        d = deque([0])\n        \n        for i in range(1, n):\n            while d and d[0] < i - k:\n                d.popleft()\n            dp[i] = nums[i] + dp[d[0]]\n            while d and dp[d[-1]] <= dp[i]:\n                d.pop()\n            d.append(i)\n        \n        return dp[-1]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:01:22+01:00"
+    }
+  }
+}

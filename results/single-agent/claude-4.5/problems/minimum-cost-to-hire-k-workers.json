@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "857",
+        "questionId": "887",
+        "Content": "<p>There are <code>n</code> workers. You are given two integer arrays <code>quality</code> and <code>wage</code> where <code>quality[i]</code> is the quality of the <code>i<sup>th</sup></code> worker and <code>wage[i]</code> is the minimum wage expectation for the <code>i<sup>th</sup></code> worker.</p>\n\n<p>We want to hire exactly <code>k</code> workers to form a <strong>paid group</strong>. To hire a group of <code>k</code> workers, we must pay them according to the following rules:</p>\n\n<ol>\n\t<li>Every worker in the paid group must be paid at least their minimum wage expectation.</li>\n\t<li>In the group, each worker&#39;s pay must be directly proportional to their quality. This means if a worker&rsquo;s quality is double that of another worker in the group, then they must be paid twice as much as the other worker.</li>\n</ol>\n\n<p>Given the integer <code>k</code>, return <em>the least amount of money needed to form a paid group satisfying the above conditions</em>. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> quality = [10,20,5], wage = [70,50,30], k = 2\n<strong>Output:</strong> 105.00000\n<strong>Explanation:</strong> We pay 70 to 0<sup>th</sup> worker and 35 to 2<sup>nd</sup> worker.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> quality = [3,1,10,10,1], wage = [4,8,2,2,7], k = 3\n<strong>Output:</strong> 30.66667\n<strong>Explanation:</strong> We pay 4 to 0<sup>th</sup> worker, 13.33333 to 2<sup>nd</sup> and 3<sup>rd</sup> workers separately.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == quality.length == wage.length</code></li>\n\t<li><code>1 &lt;= k &lt;= n &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= quality[i], wage[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,20,5]\n[70,50,30]\n2",
+        "ExampleTestcases": "[10,20,5]\n[70,50,30]\n2\n[3,1,10,10,1]\n[4,8,2,2,7]\n3",
+        "Difficulty": "Hard",
+        "Title": "Minimum Cost to Hire K Workers",
+        "TitleSlug": "minimum-cost-to-hire-k-workers",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"155.1K\", \"totalSubmission\": \"244K\", \"totalAcceptedRaw\": 155088, \"totalSubmissionRaw\": 243955, \"acRate\": \"63.6%\"}",
+        "Likes": 3030,
+        "Dislikes": 405,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public double mincostToHireWorkers(int[] quality, int[] wage, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def mincostToHireWorkers(self, quality, wage, k):\n        \"\"\"\n        :type quality: List[int]\n        :type wage: List[int]\n        :type k: int\n        :rtype: float\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} quality\n * @param {number[]} wage\n * @param {number} k\n * @return {number}\n */\nvar mincostToHireWorkers = function(quality, wage, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function mincostToHireWorkers(quality: number[], wage: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public double MincostToHireWorkers(int[] quality, int[] wage, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "double mincostToHireWorkers(int* quality, int qualitySize, int* wage, int wageSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func mincostToHireWorkers(quality []int, wage []int, k int) float64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun mincostToHireWorkers(quality: IntArray, wage: IntArray, k: Int): Double {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func mincostToHireWorkers(_ quality: [Int], _ wage: [Int], _ k: Int) -> Double {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn mincost_to_hire_workers(quality: Vec<i32>, wage: Vec<i32>, k: i32) -> f64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} quality\n# @param {Integer[]} wage\n# @param {Integer} k\n# @return {Float}\ndef mincost_to_hire_workers(quality, wage, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $quality\n     * @param Integer[] $wage\n     * @param Integer $k\n     * @return Float\n     */\n    function mincostToHireWorkers($quality, $wage, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  double mincostToHireWorkers(List<int> quality, List<int> wage, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def mincostToHireWorkers(quality: Array[Int], wage: Array[Int], k: Int): Double = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec mincost_to_hire_workers(quality :: [integer], wage :: [integer], k :: integer) :: float\n  def mincost_to_hire_workers(quality, wage, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec mincost_to_hire_workers(Quality :: [integer()], Wage :: [integer()], K :: integer()) -> float().\nmincost_to_hire_workers(Quality, Wage, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (mincost-to-hire-workers quality wage k)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? flonum?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:54:44.803768+01:00",
+    "AcRate": "63.6",
+    "TotalSubmissions": 243955,
+    "TotalAccepted": 155088,
+    "AcceptanceRate": 0.6357238015207722,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: There are n workers. You are given two integer arrays quality and wage where quality[i] is the quality of the i^th worker and wage[i] is the minimum wage expectation for the i^th worker.\nWe want to hire exactly k workers to form a paid group. To hire a group of k workers, we must pay them according to the following rules:\n\tEvery worker in the paid group must be paid at least their minimum wage expectation.\n\tIn the group, each worker's pay must be directly proportional to their quality. This means if a worker\u2019s quality is double that of another worker in the group, then they must be paid twice as much as the other worker.\nGiven the integer k, return the least amount of money needed to form a paid group satisfying the above conditions. Answers within 10^-5 of the actual answer will be accepted.\n\u00a0\nExample 1:\nInput: quality = [10,20,5], wage = [70,50,30], k = 2\nOutput: 105.00000\nExplanation: We pay 70 to 0^th worker and 35 to 2^nd worker.\nExample 2:\nInput: quality = [3,1,10,10,1], wage = [4,8,2,2,7], k = 3\nOutput: 30.66667\nExplanation: We pay 4 to 0^th worker, 13.33333 to 2^nd and 3^rd workers separately.\n\u00a0\nConstraints:\n\tn == quality.length == wage.length\n\t1 <= k <= n <= 10^4\n\t1 <= quality[i], wage[i] <= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to understand the constraints:\n\n1. Every worker must be paid at least their minimum wage expectation\n2. Pay must be proportional to quality within the group\n3. I need to hire exactly k workers with minimum total cost\n\nKey insight: If pay is proportional to quality, then there's a \"wage rate\" (pay/quality ratio) that applies to all workers in the group. For a worker to be satisfied, this rate must be at least wage[i]/quality[i].\n\nStrategy:\n- For any group, the wage rate must be at least the maximum of (wage[i]/quality[i]) for all workers in that group\n- Once we fix this rate, the total cost is: rate \u00d7 sum(quality of workers in group)\n- To minimize cost with a fixed rate, we want workers with minimum total quality\n- We can try each worker as the one with the maximum wage/quality ratio, then select k-1 other workers with lower ratios and minimum quality sum\n\nAlgorithm:\n1. Calculate wage/quality ratio for each worker\n2. Sort workers by this ratio\n3. For each possible maximum ratio (iterate through sorted workers):\n   - Consider this worker and the k-1 workers before them (with lower ratios)\n   - Among those candidates, pick the k workers with smallest quality\n   - Calculate total cost = ratio \u00d7 sum of qualities\n4. Return minimum cost found\n\nI'll use a max heap to efficiently track the k workers with smallest quality as I iterate.\n\n```python\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        for i in range(len(quality)):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort()\n        \n        min_cost = float('inf')\n        quality_sum = 0\n        max_heap = []\n        \n        for ratio, q in workers:\n            heapq.heappush(max_heap, -q)\n            quality_sum += q\n            \n            if len(max_heap) > k:\n                removed = -heapq.heappop(max_heap)\n                quality_sum -= removed\n            \n            if len(max_heap) == k:\n                cost = ratio * quality_sum\n                min_cost = min(min_cost, cost)\n        \n        return min_cost\n```",
+      "TypedCode": "\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        for i in range(len(quality)):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort()\n        \n        min_cost = float('inf')\n        quality_sum = 0\n        max_heap = []\n        \n        for ratio, q in workers:\n            heapq.heappush(max_heap, -q)\n            quality_sum += q\n            \n            if len(max_heap) > k:\n                removed = -heapq.heappop(max_heap)\n                quality_sum -= removed\n            \n            if len(max_heap) == k:\n                cost = ratio * quality_sum\n                min_cost = min(min_cost, cost)\n        \n        return min_cost\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 11551396500,
+      "SolvedAt": "2025-11-19T21:45:53.340509+01:00",
+      "PromptTokens": 627,
+      "OutputTokens": 577
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "887",
+        "typed_code": "\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        for i in range(len(quality)):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort()\n        \n        min_cost = float('inf')\n        quality_sum = 0\n        max_heap = []\n        \n        for ratio, q in workers:\n            heapq.heappush(max_heap, -q)\n            quality_sum += q\n            \n            if len(max_heap) > k:\n                removed = -heapq.heappop(max_heap)\n                quality_sum -= removed\n            \n            if len(max_heap) == k:\n                cost = ratio * quality_sum\n                min_cost = min(min_cost, cost)\n        \n        return min_cost\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T23:00:33+01:00"
+    }
+  }
+}

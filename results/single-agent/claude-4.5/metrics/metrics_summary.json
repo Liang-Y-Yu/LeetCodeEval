@@ -1,0 +1,15 @@
+{
+  "total_problems": 150,
+  "problems_by_model": {
+    "anthropic/claude-sonnet-4.5": 150
+  },
+  "acceptance_rate_by_model": {
+    "anthropic/claude-sonnet-4.5": 95.33333333333333
+  },
+  "avg_complexity_by_model": {
+    "anthropic/claude-sonnet-4.5": 4.253333333333333
+  },
+  "avg_loc_by_model": {
+    "anthropic/claude-sonnet-4.5": 22.413333333333334
+  }
+}

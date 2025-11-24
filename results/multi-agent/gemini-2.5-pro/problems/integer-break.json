@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "343",
+        "questionId": "343",
+        "Content": "<p>Given an integer <code>n</code>, break it into the sum of <code>k</code> <strong>positive integers</strong>, where <code>k &gt;= 2</code>, and maximize the product of those integers.</p>\n\n<p>Return <em>the maximum product you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> 2 = 1 + 1, 1 &times; 1 = 1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 36\n<strong>Explanation:</strong> 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= n &lt;= 58</code></li>\n</ul>\n",
+        "SampleTestCase": "2",
+        "ExampleTestcases": "2\n10",
+        "Difficulty": "Medium",
+        "Title": "Integer Break",
+        "TitleSlug": "integer-break",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"417.5K\", \"totalSubmission\": \"678.4K\", \"totalAcceptedRaw\": 417526, \"totalSubmissionRaw\": 678389, \"acRate\": \"61.5%\"}",
+        "Likes": 5312,
+        "Dislikes": 463,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int integerBreak(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int integerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def integerBreak(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def integerBreak(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerBreak = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function integerBreak(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int IntegerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int integerBreak(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func integerBreak(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun integerBreak(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func integerBreak(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn integer_break(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef integer_break(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function integerBreak($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int integerBreak(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def integerBreak(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec integer_break(n :: integer) :: integer\n  def integer_break(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec integer_break(N :: integer()) -> integer().\ninteger_break(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (integer-break n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:21:59.969283+01:00",
+    "AcRate": "61.5",
+    "TotalSubmissions": 678389,
+    "TotalAccepted": 417526,
+    "AcceptanceRate": 0.6154669371113034,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-break/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant explanation of the method, followed by the complete code. This is a classic interview problem that can be solved with dynamic programming or a greedy approach based on mathematical insights. I'll provide the more efficient greedy solution.\n\n### Method Explanation\n\nThe problem asks to break an integer `n` into a sum of `k>=2` positive integers to maximize their product.\n\n1.  **Exploring Small Numbers**:\n    *   `n=2`: Must break into `1+1`, product is `1`.\n    *   `n=3`: Must break into `1+2`, product is `2`.\n    *   `n=4`: `2+2` gives product `4`. `1+3` gives `3`. Max is `4`.\n    *   `n=5`: `2+3` gives product `6`. Other breaks like `1+4` or `2+2+1` yield smaller products.\n    *   `n=6`: `3+3` gives product `9`. `2+2+2` gives `8`. `3+3` is better.\n\n2.  **Key Observations & Mathematical Insight**:\n    *   **Factors > 1**: Using `1` as a factor is suboptimal. If we have a factor `1`, we can add it to another factor `x` to get `x+1`. The product changes from `...*x*1*...` to `...*(x+1)*...`. Since `x+1 > x` for `x>=1`, the new product is always larger (or equal if x=1, but then 1+1=2, and 2 > 1*1). So, all factors must be `>=2`.\n    *   **Factors <= 4**: Any factor `f >= 5` can be broken down into `3` and `f-3` to yield a larger product. `3 * (f-3) = 3f - 9`. We need to check if `3f - 9 > f`, which simplifies to `2f > 9`, or `f > 4.5`. This means any factor of 5 or more should be broken down.\n    *   **Factors are 2s and 3s**: From the above, the optimal factors must be smaller than 5. A factor of `4` can be replaced by `2+2`. The product `2*2` is the same as `4`, so it doesn't matter. This means we only need to consider factors of `2` and `3`.\n    *   **Prefer 3s over 2s**: When we have a sum of `6`, we can form it as `2+2+2` (product `8`) or `3+3` (product `9`). The product of two `3`s is greater than three `2`s. This suggests we should use as many `3`s as possible.\n\n3.  **The Greedy Strategy**:\n    Based on these observations, the best strategy is to break `n` into as many `3`s as possible. Let `n = 3 * q + r`, where `q` is the quotient and `r` is the remainder.\n\n    *   **If `r = 0`**: `n` is a multiple of `3`. We can break it into `q` threes. The maximum product is `3^q`.\n    *   **If `r = 1`**: `n = 3q + 1`. We have `q` threes and a `1`. Since `1` is a poor factor, we combine one `3` with the `1` to make `4`. So now we have `q-1` threes and one `4`. The product is `3^(q-1) * 4`.\n    *   **If `r = 2`**: `n = 3q + 2`. We have `q` threes and one `2`. This is optimal, as `2` is a valid factor. The product is `3^q * 2`.\n\n4.  **Edge Cases**:\n    The greedy logic above assumes `n` is large enough. For `n=2` and `n=3`, the constraint `k>=2` forces us to break them, leading to products smaller than `n`.\n    *   `n=2`: breaks into `1+1`, product `1`.\n    *   `n=3`: breaks into `1+2`, product `2`.\n    For `n >= 4`, the greedy strategy holds. A compact way to handle these base cases is `if n <= 3: return n - 1`.\n\nThis mathematical greedy approach is very efficient, running in `O(log n)` time (due to the power function) and `O(1)` space.\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n\n        quotient, remainder = divmod(n, 3)\n\n        if remainder == 0:\n            # If n is a multiple of 3, break it into n/3 threes.\n            # e.g., n=6 -> 3+3, product=9\n            # e.g., n=9 -> 3+3+3, product=27\n            return 3**quotient\n        elif remainder == 1:\n            # If n = 3k + 1, it's better to form (k-1) threes and one 4.\n            # e.g., n=10 -> 3+3+3+1. Group 3+1 to get 4. So, 3+3+4. Product = 36.\n            # 4 is better than 3*1 and 2*2 is equivalent.\n            return 3**(quotient - 1) * 4\n        else:  # remainder == 2\n            # If n = 3k + 2, break it into k threes and one 2.\n            # e.g., n=5 -> 3+2, product=6\n            # e.g., n=8 -> 3+3+2, product=18\n            return 3**quotient * 2\n```\n\n=== DESIGN ===\n**1. Algorithm Choice**\nThe chosen algorithm is a greedy approach based on mathematical insights. This method is highly efficient and directly addresses the core logic of maximizing a product by selecting optimal factors. It is preferred over dynamic programming for this problem due to its superior time complexity and simplicity.\n\n**2. Step-by-Step Approach**\nThe solution is implemented in the following steps:\n1.  **Handle Small `n`**: First, address the edge cases for `n <= 3`. Since the number must be broken into at least two positive integers, `n=2` must be `1+1` (product `1`) and `n=3` must be `1+2` (product `2`). A general rule for `n <= 3` is to return `n-1`.\n2.  **Apply Greedy Strategy for `n >= 4`**: For larger numbers, the strategy is to decompose `n` into as many `3`s as possible, as `3` is the most \"productive\" factor.\n3.  **Determine Remainder**: Calculate the quotient (`q`) and remainder (`r`) of `n` divided by `3`.\n4.  **Finalize Factors based on Remainder**:\n    *   If `r` is `0`, `n` is a multiple of 3. The optimal break is into `q` factors of `3`.\n    *   If `r` is `1`, breaking `n` into `q-1` factors of `3` and one factor of `4` (`3+1=4`) is more optimal than having a factor of `1`.\n    *   If `r` is `2`, the optimal break is into `q` factors of `3` and one factor of `2`.\n5.  **Calculate Product**: Compute the final product based on the chosen factors and return the result.\n\n**3. Data Structures**\nThe algorithm requires only basic integer variables to store the input `n`, the quotient and remainder from division, and the final product. No complex data structures like arrays or hashmaps are needed.\n\n**4. Time Complexity**\nThe time complexity is `O(log n)`. The dominant operation is exponentiation (`pow(3, q)`), where `q` is approximately `n/3`. Standard algorithms for integer exponentiation run in logarithmic time with respect to the exponent. Thus, the complexity is `O(log(n/3))`, which simplifies to `O(log n)`.\n\n**5. Space Complexity**\nThe space complexity is `O(1)`. The algorithm uses a constant amount of extra space for variables, regardless of the input size `n`.\n\n**6. Pseudocode**\n```pseudocode\nFUNCTION integerBreak(n):\n    // Handle edge cases for small n where k>=2 is a tight constraint.\n    IF n <= 3 THEN\n        RETURN n - 1\n    END IF\n\n    // Calculate quotient and remainder for the greedy strategy.\n    quotient = n / 3  // Integer division\n    remainder = n % 3\n\n    // Determine product based on remainder.\n    IF remainder == 0 THEN\n        // n is a multiple of 3 (e.g., 6 -> 3+3)\n        RETURN 3 ^ quotient\n    ELSE IF remainder == 1 THEN\n        // n = 3q + 1 (e.g., 10 -> 3+3+4). It's better than 3+3+3+1.\n        RETURN 3 ^ (quotient - 1) * 4\n    ELSE // remainder == 2\n        // n = 3q + 2 (e.g., 8 -> 3+3+2)\n        RETURN 3 ^ quotient * 2\n    END IF\nEND FUNCTION\n```\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n\n        quotient, remainder = divmod(n, 3)\n\n        if remainder == 0:\n            return 3**quotient\n        elif remainder == 1:\n            return 3**(quotient - 1) * 4\n        else:  # remainder == 2\n            return 3**quotient * 2\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n        \n        quotient, remainder = divmod(n, 3)\n        \n        if remainder == 0:\n            return 3 ** quotient\n        elif remainder == 1:\n            return 3 ** (quotient - 1) * 4\n        else:  # remainder == 2\n            return 3 ** quotient * 2\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n        \n        quotient, remainder = divmod(n, 3)\n        \n        if remainder == 0:\n            return 3 ** quotient\n        elif remainder == 1:\n            return 3 ** (quotient - 1) * 4\n        else:  # remainder == 2\n            return 3 ** quotient * 2\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n        \n        quotient, remainder = divmod(n, 3)\n        \n        if remainder == 0:\n            return 3 ** quotient\n        elif remainder == 1:\n            return 3 ** (quotient - 1) * 4\n        else:  # remainder == 2\n            return 3 ** quotient * 2\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 262069229709,
+      "SolvedAt": "2025-11-21T11:47:33.973341+01:00",
+      "PromptTokens": 8241,
+      "OutputTokens": 31169
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "343",
+        "typed_code": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n <= 3:\n            return n - 1\n        \n        quotient, remainder = divmod(n, 3)\n        \n        if remainder == 0:\n            return 3 ** quotient\n        elif remainder == 1:\n            return 3 ** (quotient - 1) * 4\n        else:  # remainder == 2\n            return 3 ** quotient * 2\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:39:29+01:00"
+    }
+  }
+}

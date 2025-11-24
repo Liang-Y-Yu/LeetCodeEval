@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "472",
+        "questionId": "472",
+        "Content": "<p>Given an array of strings <code>words</code> (<strong>without duplicates</strong>), return <em>all the <strong>concatenated words</strong> in the given list of</em> <code>words</code>.</p>\n\n<p>A <strong>concatenated word</strong> is defined as a string that is comprised entirely of at least two shorter words (not necessarily distinct)&nbsp;in the given array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;cat&quot;,&quot;cats&quot;,&quot;catsdogcats&quot;,&quot;dog&quot;,&quot;dogcatsdog&quot;,&quot;hippopotamuses&quot;,&quot;rat&quot;,&quot;ratcatdogcat&quot;]\n<strong>Output:</strong> [&quot;catsdogcats&quot;,&quot;dogcatsdog&quot;,&quot;ratcatdogcat&quot;]\n<strong>Explanation:</strong> &quot;catsdogcats&quot; can be concatenated by &quot;cats&quot;, &quot;dog&quot; and &quot;cats&quot;; \n&quot;dogcatsdog&quot; can be concatenated by &quot;dog&quot;, &quot;cats&quot; and &quot;dog&quot;; \n&quot;ratcatdogcat&quot; can be concatenated by &quot;rat&quot;, &quot;cat&quot;, &quot;dog&quot; and &quot;cat&quot;.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;cat&quot;,&quot;dog&quot;,&quot;catdog&quot;]\n<strong>Output:</strong> [&quot;catdog&quot;]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 30</code></li>\n\t<li><code>words[i]</code> consists of only lowercase English letters.</li>\n\t<li>All the strings of <code>words</code> are <strong>unique</strong>.</li>\n\t<li><code>1 &lt;= sum(words[i].length) &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]",
+        "ExampleTestcases": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\n[\"cat\",\"dog\",\"catdog\"]",
+        "Difficulty": "Hard",
+        "Title": "Concatenated Words",
+        "TitleSlug": "concatenated-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"260.2K\", \"totalSubmission\": \"524.6K\", \"totalAcceptedRaw\": 260204, \"totalSubmissionRaw\": 524581, \"acRate\": \"49.6%\"}",
+        "Likes": 4037,
+        "Dislikes": 292,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> findAllConcatenatedWordsInADict(String[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findAllConcatenatedWordsInADict(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n * @return {string[]}\n */\nvar findAllConcatenatedWordsInADict = function(words) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findAllConcatenatedWordsInADict(words: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> FindAllConcatenatedWordsInADict(string[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** findAllConcatenatedWordsInADict(char** words, int wordsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findAllConcatenatedWordsInADict(words []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findAllConcatenatedWordsInADict(words: Array<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findAllConcatenatedWordsInADict(_ words: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_all_concatenated_words_in_a_dict(words: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} words\n# @return {String[]}\ndef find_all_concatenated_words_in_a_dict(words)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $words\n     * @return String[]\n     */\n    function findAllConcatenatedWordsInADict($words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> findAllConcatenatedWordsInADict(List<String> words) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findAllConcatenatedWordsInADict(words: Array[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_all_concatenated_words_in_a_dict(words :: [String.t]) :: [String.t]\n  def find_all_concatenated_words_in_a_dict(words) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_all_concatenated_words_in_a_dict(Words :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nfind_all_concatenated_words_in_a_dict(Words) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-all-concatenated-words-in-a-dict words)\n  (-> (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:38.89262+01:00",
+    "AcRate": "49.6",
+    "TotalSubmissions": 524581,
+    "TotalAccepted": 260204,
+    "AcceptanceRate": 0.4960225398937438,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/concatenated-words/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n\n```python\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n```\n\n=== VERIFICATION ===\n\nAfter reviewing the provided solution, I have identified several issues that need to be addressed:\n\n1. **Incorrect Handling of Base Case**: The current implementation doesn't prevent a word from being considered as a concatenation of itself. For example, if \"cat\" is in the set, the function `can_form(\"cat\")` would incorrectly return true if it finds \"cat\" as both prefix and suffix, but actually it should require at least two words.\n\n2. **Performance Issue**: The algorithm uses a recursive DFS with memoization, but the worst-case time complexity could be high. However, given the constraints (word length <= 30), it should be acceptable.\n\n3. **Edge Case Handling**: The solution doesn't handle the case where the same word might be used multiple times (which is allowed), but the base issue is point #1.\n\n4. **Memoization Scope**: The memo dictionary is shared across all words, which is correct.\n\nThe main problem is that when checking a word, we should not allow the entire word to be considered as a prefix without breaking it into at least two parts. Specifically, we need to ensure that when we break the word, the prefix is a valid word and then the suffix is either a valid word or can be broken further. However, the current code does not prevent the entire word from being taken as a prefix? Actually, no, because the loop runs from i=1 to len(word)-1, so the entire word is never taken as prefix. But wait: for a word like \"catdog\", when we break at i=3, prefix=\"cat\" and suffix=\"dog\". This is correct.\n\nBut the issue is: when we are checking a word that is exactly composed of two other words, it should work. However, the problem is that when we check a word that is itself in the set, the algorithm might use the word itself as a prefix and then try to break the suffix. But since the loop doesn't go to len(word), it should be safe? Actually, no: for a word that is exactly \"cat\", the loop runs from i=1 to len(word)-1 = 2. So i=1: prefix=\"c\", suffix=\"at\" -> if \"c\" is not in set, skip. i=2: prefix=\"ca\", suffix=\"t\" -> if \"ca\" is not in set, skip. So it returns false. So it's correct for \"cat\".\n\nBut why is \"catdog\" being detected? For \"catdog\", which is in the set, we break at i=3: prefix=\"cat\" (in set) and suffix=\"dog\" (in set) -> returns true. So it works.\n\nWait, then what is the issue? Actually, the provided solution is almost correct. However, there is one subtle problem: when we break the word, we should not allow the entire word to be used as a prefix? But we don't. So why did I think there is an issue?\n\nAfter re-examining, I realize the problem is that the algorithm might use the same word multiple times? But that is allowed. The problem says \"comprised entirely of at least two shorter words\". So the words used can be the same and can be used multiple times.\n\nBut there is a critical flaw: when we break the word, we are allowed to use any word in the set. However, the word itself should not be used to form itself. For example, if we have \"cat\" and \"catcat\", then \"catcat\" should be concatenated. But when we break \"catcat\", we can break at i=3: prefix=\"cat\" (in set) and suffix=\"cat\" (in set). So it returns true. Correct.\n\nSo why did I initially think there is a problem? Actually, the solution is correct for the examples. But wait: in the example, \"catsdogcats\" is broken into \"cats\", \"dog\", and \"cats\". The algorithm will break at i=4: prefix=\"cats\" (in set) and suffix=\"dogcats\". Then it will recursively break \"dogcats\": break at i=3: prefix=\"dog\" (in set) and suffix=\"cats\" (in set). So it returns true.\n\nSo the algorithm is correct. However, there is one performance improvement: we should sort the words by length and process shorter words first? Actually, no, because the memoization is per word.\n\nBut there is a known better approach: use dynamic programming for each word. However, given the constraints (max word length 30), the current DFS is acceptable.\n\nBut wait: the problem says the total sum of words length is <= 10^5. So we can have up to 10^4 words, each up to 30. So worst-case, we might do 30 checks per word, and each check might do a recursive call. But the recursion depth is at most 30. So it's efficient.\n\nHowever, there is one more issue: the memoization dictionary might grow large, but that's acceptable.\n\nSo the solution is actually correct. But why did the problem say \"You are a Solution Verifier Agent\" and then provide a solution? It seems the solution is provided, and we are to verify it.\n\nAfter careful analysis, I find the solution correct. But to be thorough, let's test with the examples.\n\nExample 1: \nwords = [\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\nWe should return [\"catsdogcats\",\"dogcatsdog\",\"ratcatdogcat\"].\n\nThe code will:\n- Check \"cat\": fails (no break possible).\n- Check \"cats\": fails? Actually, it can break into \"cat\" and \"s\", but \"s\" is not in set. So false.\n- Check \"catsdogcats\": will break into \"cats\" and \"dogcats\", then \"dogcats\" breaks into \"dog\" and \"cats\". So true.\n- Check \"dog\": false.\n- Check \"dogcatsdog\": breaks into \"dog\" and \"catsdog\", then \"catsdog\" breaks into \"cats\" and \"dog\". So true.\n- Check \"hippopotamuses\": probably false.\n- Check \"rat\": false.\n- Check \"ratcatdogcat\": breaks into \"rat\" and \"catdogcat\", then \"catdogcat\" breaks into \"cat\" and \"dogcat\", then \"dogcat\" breaks into \"dog\" and \"cat\". So true.\n\nSo it returns the correct output.\n\nExample 2: \nwords = [\"cat\",\"dog\",\"catdog\"]\nOutput: [\"catdog\"].\nCheck \"cat\": false.\n\"dog\": false.\n\"catdog\": breaks into \"cat\" and \"dog\", both in set. So true.\n\nSo it works.\n\nTherefore, the solution is correct. However, there is one minor improvement: we should remove the current word from the set when checking it? Because if we don't, it might use itself in the concatenation. But wait: the problem says \"shorter words\". So we should not use the word itself to form itself.\n\nFor example, if we have \"cat\" and \"catcat\", then when checking \"catcat\", we should be allowed to use \"cat\". But if we leave \"catcat\" in the set, then when we break \"catcat\", we might use \"catcat\" as a part? But that would be incorrect because it is not shorter.\n\nHowever, in the algorithm, we are only breaking the word into prefix and suffix. The prefix is always shorter than the original word (because i < len(word)). So we never use the entire word as a prefix. Therefore, we don't need to remove the word from the set.\n\nBut actually, the suffix might be the entire word? No, because i>=1, so prefix is at least length 1, and suffix is at most length n-1.\n\nSo the solution is correct as is.\n\nFinal verdict: The provided solution is correct and efficient enough. No changes are needed.\n\nHowever, to follow the instruction exactly, I must output the code as is. But note: the problem says \"Output only valid source code that can be executed as-is\". So I will output the same code.\n\nBut wait: the code has a typo? In the function name: it should be `findAllConcatenatedWordsInADict`, but in the provided code it is written as `findAllConcatenatedWordsInADict` (correct) in the signature, but in the designed algorithm it is written with a typo? Actually, in the designed algorithm it is correct.\n\nSo the code is correct.\n\nI will output the code as provided.\n```python\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 23404255084,
+      "SolvedAt": "2025-11-20T23:39:30.825729+01:00",
+      "PromptTokens": 3413,
+      "OutputTokens": 2426
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "472",
+        "typed_code": "\nclass Solution:\n    def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:\n        word_set = set(words)\n        memo = {}\n        \n        def can_form(word):\n            if word in memo:\n                return memo[word]\n            for i in range(1, len(word)):\n                prefix = word[:i]\n                suffix = word[i:]\n                if prefix in word_set and (suffix in word_set or can_form(suffix)):\n                    memo[word] = True\n                    return True\n            memo[word] = False\n            return False\n        \n        res = []\n        for w in words:\n            if can_form(w):\n                res.append(w)\n        return res\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:53:40+01:00"
+    }
+  }
+}

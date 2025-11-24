@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1125",
+        "questionId": "1220",
+        "Content": "<p>In a project, you have a list of required skills <code>req_skills</code>, and a list of people. The <code>i<sup>th</sup></code> person <code>people[i]</code> contains a list of skills that the person has.</p>\n\n<p>Consider a sufficient team: a set of people such that for every required skill in <code>req_skills</code>, there is at least one person in the team who has that skill. We can represent these teams by the index of each person.</p>\n\n<ul>\n\t<li>For example, <code>team = [0, 1, 3]</code> represents the people with skills <code>people[0]</code>, <code>people[1]</code>, and <code>people[3]</code>.</li>\n</ul>\n\n<p>Return <em>any sufficient team of the smallest possible size, represented by the index of each person</em>. You may return the answer in <strong>any order</strong>.</p>\n\n<p>It is <strong>guaranteed</strong> an answer exists.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n<strong>Output:</strong> [0,2]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\n<strong>Output:</strong> [1,2]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= req_skills.length &lt;= 16</code></li>\n\t<li><code>1 &lt;= req_skills[i].length &lt;= 16</code></li>\n\t<li><code>req_skills[i]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>req_skills</code> are <strong>unique</strong>.</li>\n\t<li><code>1 &lt;= people.length &lt;= 60</code></li>\n\t<li><code>0 &lt;= people[i].length &lt;= 16</code></li>\n\t<li><code>1 &lt;= people[i][j].length &lt;= 16</code></li>\n\t<li><code>people[i][j]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>people[i]</code> are <strong>unique</strong>.</li>\n\t<li>Every skill in <code>people[i]</code> is a skill in <code>req_skills</code>.</li>\n\t<li>It is guaranteed a sufficient team exists.</li>\n</ul>\n",
+        "SampleTestCase": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]",
+        "ExampleTestcases": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n[\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"]\n[[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]",
+        "Difficulty": "Hard",
+        "Title": "Smallest Sufficient Team",
+        "TitleSlug": "smallest-sufficient-team",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"70.9K\", \"totalSubmission\": \"128.1K\", \"totalAcceptedRaw\": 70869, \"totalSubmissionRaw\": 128052, \"acRate\": \"55.3%\"}",
+        "Likes": 2254,
+        "Dislikes": 57,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDc4",
+            "Name": "Bitmask",
+            "Slug": "bitmask"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] smallestSufficientTeam(String[] req_skills, List<List<String>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestSufficientTeam(self, req_skills, people):\n        \"\"\"\n        :type req_skills: List[str]\n        :type people: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} req_skills\n * @param {string[][]} people\n * @return {number[]}\n */\nvar smallestSufficientTeam = function(req_skills, people) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestSufficientTeam(req_skills: string[], people: string[][]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* smallestSufficientTeam(char** req_skills, int req_skillsSize, char*** people, int peopleSize, int* peopleColSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestSufficientTeam(req_skills []string, people [][]string) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestSufficientTeam(req_skills: Array<String>, people: List<List<String>>): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestSufficientTeam(_ req_skills: [String], _ people: [[String]]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_sufficient_team(req_skills: Vec<String>, people: Vec<Vec<String>>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} req_skills\n# @param {String[][]} people\n# @return {Integer[]}\ndef smallest_sufficient_team(req_skills, people)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $req_skills\n     * @param String[][] $people\n     * @return Integer[]\n     */\n    function smallestSufficientTeam($req_skills, $people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> smallestSufficientTeam(List<String> req_skills, List<List<String>> people) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestSufficientTeam(req_skills: Array[String], people: List[List[String]]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_sufficient_team(req_skills :: [String.t], people :: [[String.t]]) :: [integer]\n  def smallest_sufficient_team(req_skills, people) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_sufficient_team(Req_skills :: [unicode:unicode_binary()], People :: [[unicode:unicode_binary()]]) -> [integer()].\nsmallest_sufficient_team(Req_skills, People) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-sufficient-team req_skills people)\n  (-> (listof string?) (listof (listof string?)) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:06.364913+01:00",
+    "AcRate": "55.3",
+    "TotalSubmissions": 128052,
+    "TotalAccepted": 70869,
+    "AcceptanceRate": 0.5534392278137007,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/smallest-sufficient-team/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: In a project, you have a list of required skills req_skills, and a list of people. The i^th person people[i] contains a list of skills that the person has.\nConsider a sufficient team: a set of people such that for every required skill in req_skills, there is at least one person in the team who has that skill. We can represent these teams by the index of each person.\n\tFor example, team = [0, 1, 3] represents the people with skills people[0], people[1], and people[3].\nReturn any sufficient team of the smallest possible size, represented by the index of each person. You may return the answer in any order.\nIt is guaranteed an answer exists.\n\u00a0\nExample 1:\nInput: req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\nOutput: [0,2]\nExample 2:\nInput: req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\nOutput: [1,2]\n\u00a0\nConstraints:\n\t1 <= req_skills.length <= 16\n\t1 <= req_skills[i].length <= 16\n\treq_skills[i] consists of lowercase English letters.\n\tAll the strings of req_skills are unique.\n\t1 <= people.length <= 60\n\t0 <= people[i].length <= 16\n\t1 <= people[i][j].length <= 16\n\tpeople[i][j] consists of lowercase English letters.\n\tAll the strings of people[i] are unique.\n\tEvery skill in people[i] is a skill in req_skills.\n\tIt is guaranteed a sufficient team exists.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this problem is by using dynamic programming with bitmasking. This approach is well-suited because the number of required skills is small (at most 16), allowing us to represent any subset of skills as an integer bitmask.\n\n### Method Breakdown\n\n1.  **Skill-to-Bit Mapping**: First, we map each required skill to a unique bit position from 0 to `n-1`, where `n` is the number of required skills. This allows us to represent a set of skills as a single integer (a bitmask). For example, if `\"java\"` is the 0th skill and `\"python\"` is the 1st, the set `{\"java\", \"python\"}` is represented by the bitmask `(1 << 0) | (1 << 1)`, which is `3`. The target is to achieve a mask where all `n` bits are set, i.e., `(1 << n) - 1`.\n\n2.  **People's Skills as Bitmasks**: We process the `people` list and convert each person's skill set into its corresponding bitmask representation. This simplifies skill comparisons to fast bitwise operations.\n\n3.  **Dynamic Programming State**: We define our DP state as `dp[skill_mask]`, which will store information about the smallest team found so far that collectively possesses the skills represented by `skill_mask`. To optimize for both size and reconstruction, `dp[skill_mask]` will be a tuple `(team_size, team_mask)`, where `team_mask` is another bitmask representing the set of people in the team (using their original indices as bit positions).\n\n4.  **DP Transitions**: We iterate through each person one by one. For each person, we iterate through all the skill masks we have already managed to form a team for. Let's say we have a team for `prev_skill_mask`. By adding the current person `p`, we can form a new team for `new_skill_mask = prev_skill_mask | p's_skill_mask`. If this new team is smaller than any existing team for `new_skill_mask`, we update our `dp` table.\n\n5.  **Optimization (Pre-filtering)**: Before running the DP, we can filter the list of people. A person `i` is 'subsumed' by person `j` if `j` has all the skills `i` has, plus potentially more. In any optimal team containing person `i`, we can replace `i` with `j` to get another team of the same size that is also sufficient. Therefore, we can safely remove all subsumed people from consideration. This also includes removing people with duplicate skill sets (keeping only one, preferably the one with the lowest index). This optimization can significantly reduce the number of people to process in the DP step.\n\n6.  **Final Result**: After the DP table is fully populated, `dp` will contain the minimal team for every reachable skill combination. The answer is found in `dp[(1 << n) - 1]`. The `team_mask` from this entry is then converted back into a list of person indices.\n\nThis approach has a time complexity of approximately O(m * 2^n), where m is the number of people and n is the number of required skills. Given the constraints (m <= 60, n <= 16), this is efficient enough.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        m = len(people)\n        \n        skill_map = {skill: i for i, skill in enumerate(req_skills)}\n        \n        people_masks = [0] * m\n        for i, p_skills in enumerate(people):\n            for skill in p_skills:\n                if skill in skill_map:\n                    people_masks[i] |= (1 << skill_map[skill])\n\n        unique_people = {}\n        for i, mask in enumerate(people_masks):\n            if mask > 0 and mask not in unique_people:\n                unique_people[mask] = i\n\n        unique_masks = list(unique_people.keys())\n        p_filtered_indices = []\n        for mask_i in unique_masks:\n            is_subsumed = False\n            for mask_j in unique_masks:\n                if mask_i != mask_j and (mask_i | mask_j) == mask_j:\n                    is_subsumed = True\n                    break\n            if not is_subsumed:\n                p_filtered_indices.append(unique_people[mask_i])\n\n        dp = {0: (0, 0)}\n        \n        for p_idx in p_filtered_indices:\n            p_skill_mask = people_masks[p_idx]\n            \n            for prev_skill_mask, (team_size, team_mask) in list(dp.items()):\n                new_skill_mask = prev_skill_mask | p_skill_mask\n                \n                if new_skill_mask == prev_skill_mask:\n                    continue\n                    \n                new_team_size = team_size + 1\n                \n                if new_skill_mask not in dp or new_team_size < dp[new_skill_mask][0]:\n                    new_team_mask = team_mask | (1 << p_idx)\n                    dp[new_skill_mask] = (new_team_size, new_team_mask)\n    \n        target_mask = (1 << n) - 1\n        _, final_team_mask = dp[target_mask]\n        \n        result = []\n        for i in range(m):\n            if (final_team_mask >> i) & 1:\n                result.append(i)\n        \n        return result\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        m = len(people)\n        \n        skill_map = {skill: i for i, skill in enumerate(req_skills)}\n        \n        people_masks = [0] * m\n        for i, p_skills in enumerate(people):\n            for skill in p_skills:\n                if skill in skill_map:\n                    people_masks[i] |= (1 << skill_map[skill])\n\n        unique_people = {}\n        for i, mask in enumerate(people_masks):\n            if mask > 0 and mask not in unique_people:\n                unique_people[mask] = i\n\n        unique_masks = list(unique_people.keys())\n        p_filtered_indices = []\n        for mask_i in unique_masks:\n            is_subsumed = False\n            for mask_j in unique_masks:\n                if mask_i != mask_j and (mask_i | mask_j) == mask_j:\n                    is_subsumed = True\n                    break\n            if not is_subsumed:\n                p_filtered_indices.append(unique_people[mask_i])\n\n        dp = {0: (0, 0)}\n        \n        for p_idx in p_filtered_indices:\n            p_skill_mask = people_masks[p_idx]\n            \n            for prev_skill_mask, (team_size, team_mask) in list(dp.items()):\n                new_skill_mask = prev_skill_mask | p_skill_mask\n                \n                if new_skill_mask == prev_skill_mask:\n                    continue\n                    \n                new_team_size = team_size + 1\n                \n                if new_skill_mask not in dp or new_team_size < dp[new_skill_mask][0]:\n                    new_team_mask = team_mask | (1 << p_idx)\n                    dp[new_skill_mask] = (new_team_size, new_team_mask)\n    \n        target_mask = (1 << n) - 1\n        _, final_team_mask = dp[target_mask]\n        \n        result = []\n        for i in range(m):\n            if (final_team_mask >> i) & 1:\n                result.append(i)\n        \n        return result\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 211209426541,
+      "SolvedAt": "2025-11-20T18:58:51.712301+01:00",
+      "PromptTokens": 660,
+      "OutputTokens": 25918
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1220",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        m = len(people)\n        \n        skill_map = {skill: i for i, skill in enumerate(req_skills)}\n        \n        people_masks = [0] * m\n        for i, p_skills in enumerate(people):\n            for skill in p_skills:\n                if skill in skill_map:\n                    people_masks[i] |= (1 << skill_map[skill])\n\n        unique_people = {}\n        for i, mask in enumerate(people_masks):\n            if mask > 0 and mask not in unique_people:\n                unique_people[mask] = i\n\n        unique_masks = list(unique_people.keys())\n        p_filtered_indices = []\n        for mask_i in unique_masks:\n            is_subsumed = False\n            for mask_j in unique_masks:\n                if mask_i != mask_j and (mask_i | mask_j) == mask_j:\n                    is_subsumed = True\n                    break\n            if not is_subsumed:\n                p_filtered_indices.append(unique_people[mask_i])\n\n        dp = {0: (0, 0)}\n        \n        for p_idx in p_filtered_indices:\n            p_skill_mask = people_masks[p_idx]\n            \n            for prev_skill_mask, (team_size, team_mask) in list(dp.items()):\n                new_skill_mask = prev_skill_mask | p_skill_mask\n                \n                if new_skill_mask == prev_skill_mask:\n                    continue\n                    \n                new_team_size = team_size + 1\n                \n                if new_skill_mask not in dp or new_team_size < dp[new_skill_mask][0]:\n                    new_team_mask = team_mask | (1 << p_idx)\n                    dp[new_skill_mask] = (new_team_size, new_team_mask)\n    \n        target_mask = (1 << n) - 1\n        _, final_team_mask = dp[target_mask]\n        \n        result = []\n        for i in range(m):\n            if (final_team_mask >> i) & 1:\n                result.append(i)\n        \n        return result\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:44:21+01:00"
+    }
+  }
+}

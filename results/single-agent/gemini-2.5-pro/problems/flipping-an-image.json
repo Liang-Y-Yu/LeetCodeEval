@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "832",
+        "questionId": "861",
+        "Content": "<p>Given an <code>n x n</code> binary matrix <code>image</code>, flip the image <strong>horizontally</strong>, then invert it, and return <em>the resulting image</em>.</p>\n\n<p>To flip an image horizontally means that each row of the image is reversed.</p>\n\n<ul>\n\t<li>For example, flipping <code>[1,1,0]</code> horizontally results in <code>[0,1,1]</code>.</li>\n</ul>\n\n<p>To invert an image means that each <code>0</code> is replaced by <code>1</code>, and each <code>1</code> is replaced by <code>0</code>.</p>\n\n<ul>\n\t<li>For example, inverting <code>[0,1,1]</code> results in <code>[1,0,0]</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> image = [[1,1,0],[1,0,1],[0,0,0]]\n<strong>Output:</strong> [[1,0,0],[0,1,0],[1,1,1]]\n<strong>Explanation:</strong> First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].\nThen, invert the image: [[1,0,0],[0,1,0],[1,1,1]]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> image = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]\n<strong>Output:</strong> [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\n<strong>Explanation:</strong> First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].\nThen invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == image.length</code></li>\n\t<li><code>n == image[i].length</code></li>\n\t<li><code>1 &lt;= n &lt;= 20</code></li>\n\t<li><code>images[i][j]</code> is either <code>0</code> or <code>1</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[[1,1,0],[1,0,1],[0,0,0]]",
+        "ExampleTestcases": "[[1,1,0],[1,0,1],[0,0,0]]\n[[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]",
+        "Difficulty": "Easy",
+        "Title": "Flipping an Image",
+        "TitleSlug": "flipping-an-image",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"528.9K\", \"totalSubmission\": \"634.6K\", \"totalAcceptedRaw\": 528870, \"totalSubmissionRaw\": 634579, \"acRate\": \"83.3%\"}",
+        "Likes": 3659,
+        "Dislikes": 254,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUz",
+            "Name": "Matrix",
+            "Slug": "matrix"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[][] flipAndInvertImage(int[][] image) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def flipAndInvertImage(self, image):\n        \"\"\"\n        :type image: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} image\n * @return {number[][]}\n */\nvar flipAndInvertImage = function(image) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function flipAndInvertImage(image: number[][]): number[][] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[][] FlipAndInvertImage(int[][] image) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** flipAndInvertImage(int** image, int imageSize, int* imageColSize, int* returnSize, int** returnColumnSizes) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func flipAndInvertImage(image [][]int) [][]int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun flipAndInvertImage(image: Array<IntArray>): Array<IntArray> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func flipAndInvertImage(_ image: [[Int]]) -> [[Int]] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn flip_and_invert_image(image: Vec<Vec<i32>>) -> Vec<Vec<i32>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} image\n# @return {Integer[][]}\ndef flip_and_invert_image(image)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $image\n     * @return Integer[][]\n     */\n    function flipAndInvertImage($image) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<List<int>> flipAndInvertImage(List<List<int>> image) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def flipAndInvertImage(image: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec flip_and_invert_image(image :: [[integer]]) :: [[integer]]\n  def flip_and_invert_image(image) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec flip_and_invert_image(Image :: [[integer()]]) -> [[integer()]].\nflip_and_invert_image(Image) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (flip-and-invert-image image)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:56:57.769711+01:00",
+    "AcRate": "83.3",
+    "TotalSubmissions": 634579,
+    "TotalAccepted": 528870,
+    "AcceptanceRate": 0.8334186917625701,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/flipping-an-image/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.\nTo flip an image horizontally means that each row of the image is reversed.\n\tFor example, flipping [1,1,0] horizontally results in [0,1,1].\nTo invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.\n\tFor example, inverting [0,1,1] results in [1,0,0].\n\u00a0\nExample 1:\nInput: image = [[1,1,0],[1,0,1],[0,0,0]]\nOutput: [[1,0,0],[0,1,0],[1,1,1]]\nExplanation: First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].\nThen, invert the image: [[1,0,0],[0,1,0],[1,1,1]]\nExample 2:\nInput: image = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]\nOutput: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\nExplanation: First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].\nThen invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\n\u00a0\nConstraints:\n\tn == image.length\n\tn == image[i].length\n\t1 <= n <= 20\n\timages[i][j] is either 0 or 1.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nfrom typing import List\n\nclass Solution:\n    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:\n        \"\"\"\n        Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.\n        To flip an image horizontally means that each row of the image is reversed.\n        To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.\n        \"\"\"\n        \n        # We can implement this using a list comprehension for a concise solution.\n        # For each row in the input image:\n        # 1. Reverse the row. In Python, `row[::-1]` creates a reversed copy.\n        # 2. Invert each pixel in the reversed row. A pixel `p` (0 or 1) can be inverted using `1 - p`.\n        # The outer list comprehension collects the new, transformed rows into a new matrix.\n        \n        return [[1 - pixel for pixel in row[::-1]] for row in image]\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:\n        \"\"\"\n        Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.\n        To flip an image horizontally means that each row of the image is reversed.\n        To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.\n        \"\"\"\n        \n        # We can implement this using a list comprehension for a concise solution.\n        # For each row in the input image:\n        # 1. Reverse the row. In Python, `row[::-1]` creates a reversed copy.\n        # 2. Invert each pixel in the reversed row. A pixel `p` (0 or 1) can be inverted using `1 - p`.\n        # The outer list comprehension collects the new, transformed rows into a new matrix.\n        \n        return [[1 - pixel for pixel in row[::-1]] for row in image]\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 82678171500,
+      "SolvedAt": "2025-11-20T13:43:20.551628+01:00",
+      "PromptTokens": 649,
+      "OutputTokens": 9882
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "861",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:\n        \"\"\"\n        Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.\n        To flip an image horizontally means that each row of the image is reversed.\n        To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.\n        \"\"\"\n        \n        # We can implement this using a list comprehension for a concise solution.\n        # For each row in the input image:\n        # 1. Reverse the row. In Python, `row[::-1]` creates a reversed copy.\n        # 2. Invert each pixel in the reversed row. A pixel `p` (0 or 1) can be inverted using `1 - p`.\n        # The outer list comprehension collects the new, transformed rows into a new matrix.\n        \n        return [[1 - pixel for pixel in row[::-1]] for row in image]\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:23:52+01:00"
+    }
+  }
+}

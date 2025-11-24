@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "981",
+        "questionId": "1023",
+        "Content": "<p>Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&#39;s value at a certain timestamp.</p>\n\n<p>Implement the <code>TimeMap</code> class:</p>\n\n<ul>\n\t<li><code>TimeMap()</code> Initializes the object of the data structure.</li>\n\t<li><code>void set(String key, String value, int timestamp)</code> Stores the key <code>key</code> with the value <code>value</code> at the given time <code>timestamp</code>.</li>\n\t<li><code>String get(String key, int timestamp)</code> Returns a value such that <code>set</code> was called previously, with <code>timestamp_prev &lt;= timestamp</code>. If there are multiple such values, it returns the value associated with the largest <code>timestamp_prev</code>. If there are no values, it returns <code>&quot;&quot;</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;TimeMap&quot;, &quot;set&quot;, &quot;get&quot;, &quot;get&quot;, &quot;set&quot;, &quot;get&quot;, &quot;get&quot;]\n[[], [&quot;foo&quot;, &quot;bar&quot;, 1], [&quot;foo&quot;, 1], [&quot;foo&quot;, 3], [&quot;foo&quot;, &quot;bar2&quot;, 4], [&quot;foo&quot;, 4], [&quot;foo&quot;, 5]]\n<strong>Output</strong>\n[null, null, &quot;bar&quot;, &quot;bar&quot;, null, &quot;bar2&quot;, &quot;bar2&quot;]\n\n<strong>Explanation</strong>\nTimeMap timeMap = new TimeMap();\ntimeMap.set(&quot;foo&quot;, &quot;bar&quot;, 1);  // store the key &quot;foo&quot; and value &quot;bar&quot; along with timestamp = 1.\ntimeMap.get(&quot;foo&quot;, 1);         // return &quot;bar&quot;\ntimeMap.get(&quot;foo&quot;, 3);         // return &quot;bar&quot;, since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 is &quot;bar&quot;.\ntimeMap.set(&quot;foo&quot;, &quot;bar2&quot;, 4); // store the key &quot;foo&quot; and value &quot;bar2&quot; along with timestamp = 4.\ntimeMap.get(&quot;foo&quot;, 4);         // return &quot;bar2&quot;\ntimeMap.get(&quot;foo&quot;, 5);         // return &quot;bar2&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= key.length, value.length &lt;= 100</code></li>\n\t<li><code>key</code> and <code>value</code> consist of lowercase English letters and digits.</li>\n\t<li><code>1 &lt;= timestamp &lt;= 10<sup>7</sup></code></li>\n\t<li>All the timestamps <code>timestamp</code> of <code>set</code> are strictly increasing.</li>\n\t<li>At most <code>2 * 10<sup>5</sup></code> calls will be made to <code>set</code> and <code>get</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"TimeMap\",\"set\",\"get\",\"get\",\"set\",\"get\",\"get\"]\n[[],[\"foo\",\"bar\",1],[\"foo\",1],[\"foo\",3],[\"foo\",\"bar2\",4],[\"foo\",4],[\"foo\",5]]",
+        "ExampleTestcases": "[\"TimeMap\",\"set\",\"get\",\"get\",\"set\",\"get\",\"get\"]\n[[],[\"foo\",\"bar\",1],[\"foo\",1],[\"foo\",3],[\"foo\",\"bar2\",4],[\"foo\",4],[\"foo\",5]]",
+        "Difficulty": "Medium",
+        "Title": "Time Based Key-Value Store",
+        "TitleSlug": "time-based-key-value-store",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"665.6K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 665625, \"totalSubmissionRaw\": 1342374, \"acRate\": \"49.6%\"}",
+        "Likes": 5164,
+        "Dislikes": 706,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class TimeMap {\npublic:\n    TimeMap() {\n        \n    }\n    \n    void set(string key, string value, int timestamp) {\n        \n    }\n    \n    string get(string key, int timestamp) {\n        \n    }\n};\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * TimeMap* obj = new TimeMap();\n * obj->set(key,value,timestamp);\n * string param_2 = obj->get(key,timestamp);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class TimeMap {\n\n    public TimeMap() {\n        \n    }\n    \n    public void set(String key, String value, int timestamp) {\n        \n    }\n    \n    public String get(String key, int timestamp) {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * TimeMap obj = new TimeMap();\n * obj.set(key,value,timestamp);\n * String param_2 = obj.get(key,timestamp);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class TimeMap:\n\n    def __init__(self):\n        \n\n    def set(self, key: str, value: str, timestamp: int) -> None:\n        \n\n    def get(self, key: str, timestamp: int) -> str:\n        \n\n\n# Your TimeMap object will be instantiated and called as such:\n# obj = TimeMap()\n# obj.set(key,value,timestamp)\n# param_2 = obj.get(key,timestamp)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class TimeMap(object):\n\n    def __init__(self):\n        \n\n    def set(self, key, value, timestamp):\n        \"\"\"\n        :type key: str\n        :type value: str\n        :type timestamp: int\n        :rtype: None\n        \"\"\"\n        \n\n    def get(self, key, timestamp):\n        \"\"\"\n        :type key: str\n        :type timestamp: int\n        :rtype: str\n        \"\"\"\n        \n\n\n# Your TimeMap object will be instantiated and called as such:\n# obj = TimeMap()\n# obj.set(key,value,timestamp)\n# param_2 = obj.get(key,timestamp)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "\nvar TimeMap = function() {\n    \n};\n\n/** \n * @param {string} key \n * @param {string} value \n * @param {number} timestamp\n * @return {void}\n */\nTimeMap.prototype.set = function(key, value, timestamp) {\n    \n};\n\n/** \n * @param {string} key \n * @param {number} timestamp\n * @return {string}\n */\nTimeMap.prototype.get = function(key, timestamp) {\n    \n};\n\n/** \n * Your TimeMap object will be instantiated and called as such:\n * var obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class TimeMap {\n    constructor() {\n        \n    }\n\n    set(key: string, value: string, timestamp: number): void {\n        \n    }\n\n    get(key: string, timestamp: number): string {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * var obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class TimeMap {\n\n    public TimeMap() {\n        \n    }\n    \n    public void Set(string key, string value, int timestamp) {\n        \n    }\n    \n    public string Get(string key, int timestamp) {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * TimeMap obj = new TimeMap();\n * obj.Set(key,value,timestamp);\n * string param_2 = obj.Get(key,timestamp);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} TimeMap;\n\n\nTimeMap* timeMapCreate() {\n    \n}\n\nvoid timeMapSet(TimeMap* obj, char* key, char* value, int timestamp) {\n    \n}\n\nchar* timeMapGet(TimeMap* obj, char* key, int timestamp) {\n    \n}\n\nvoid timeMapFree(TimeMap* obj) {\n    \n}\n\n/**\n * Your TimeMap struct will be instantiated and called as such:\n * TimeMap* obj = timeMapCreate();\n * timeMapSet(obj, key, value, timestamp);\n \n * char* param_2 = timeMapGet(obj, key, timestamp);\n \n * timeMapFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type TimeMap struct {\n    \n}\n\n\nfunc Constructor() TimeMap {\n    \n}\n\n\nfunc (this *TimeMap) Set(key string, value string, timestamp int)  {\n    \n}\n\n\nfunc (this *TimeMap) Get(key string, timestamp int) string {\n    \n}\n\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Set(key,value,timestamp);\n * param_2 := obj.Get(key,timestamp);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class TimeMap() {\n\n    fun set(key: String, value: String, timestamp: Int) {\n        \n    }\n\n    fun get(key: String, timestamp: Int): String {\n        \n    }\n\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * var obj = TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass TimeMap {\n\n    init() {\n        \n    }\n    \n    func set(_ key: String, _ value: String, _ timestamp: Int) {\n        \n    }\n    \n    func get(_ key: String, _ timestamp: Int) -> String {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * let obj = TimeMap()\n * obj.set(key, value, timestamp)\n * let ret_2: String = obj.get(key, timestamp)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct TimeMap {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl TimeMap {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn set(&self, key: String, value: String, timestamp: i32) {\n        \n    }\n    \n    fn get(&self, key: String, timestamp: i32) -> String {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * let obj = TimeMap::new();\n * obj.set(key, value, timestamp);\n * let ret_2: String = obj.get(key, timestamp);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class TimeMap\n    def initialize()\n        \n    end\n\n\n=begin\n    :type key: String\n    :type value: String\n    :type timestamp: Integer\n    :rtype: Void\n=end\n    def set(key, value, timestamp)\n        \n    end\n\n\n=begin\n    :type key: String\n    :type timestamp: Integer\n    :rtype: String\n=end\n    def get(key, timestamp)\n        \n    end\n\n\nend\n\n# Your TimeMap object will be instantiated and called as such:\n# obj = TimeMap.new()\n# obj.set(key, value, timestamp)\n# param_2 = obj.get(key, timestamp)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class TimeMap {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param String $key\n     * @param String $value\n     * @param Integer $timestamp\n     * @return NULL\n     */\n    function set($key, $value, $timestamp) {\n        \n    }\n  \n    /**\n     * @param String $key\n     * @param Integer $timestamp\n     * @return String\n     */\n    function get($key, $timestamp) {\n        \n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * $obj = TimeMap();\n * $obj->set($key, $value, $timestamp);\n * $ret_2 = $obj->get($key, $timestamp);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class TimeMap {\n\n  TimeMap() {\n    \n  }\n  \n  void set(String key, String value, int timestamp) {\n    \n  }\n  \n  String get(String key, int timestamp) {\n    \n  }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * TimeMap obj = TimeMap();\n * obj.set(key,value,timestamp);\n * String param2 = obj.get(key,timestamp);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class TimeMap() {\n\n    def set(key: String, value: String, timestamp: Int): Unit = {\n        \n    }\n\n    def get(key: String, timestamp: Int): String = {\n        \n    }\n\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * val obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * val param_2 = obj.get(key,timestamp)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule TimeMap do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec set(key :: String.t, value :: String.t, timestamp :: integer) :: any\n  def set(key, value, timestamp) do\n    \n  end\n\n  @spec get(key :: String.t, timestamp :: integer) :: String.t\n  def get(key, timestamp) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# TimeMap.init_()\n# TimeMap.set(key, value, timestamp)\n# param_2 = TimeMap.get(key, timestamp)\n\n# TimeMap.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec time_map_init_() -> any().\ntime_map_init_() ->\n  .\n\n-spec time_map_set(Key :: unicode:unicode_binary(), Value :: unicode:unicode_binary(), Timestamp :: integer()) -> any().\ntime_map_set(Key, Value, Timestamp) ->\n  .\n\n-spec time_map_get(Key :: unicode:unicode_binary(), Timestamp :: integer()) -> unicode:unicode_binary().\ntime_map_get(Key, Timestamp) ->\n  .\n\n\n%% Your functions will be called as such:\n%% time_map_init_(),\n%% time_map_set(Key, Value, Timestamp),\n%% Param_2 = time_map_get(Key, Timestamp),\n\n%% time_map_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define time-map%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; set : string? string? exact-integer? -> void?\n    (define/public (set key value timestamp)\n      )\n    ; get : string? exact-integer? -> string?\n    (define/public (get key timestamp)\n      )))\n\n;; Your time-map% object will be instantiated and called as such:\n;; (define obj (new time-map%))\n;; (send obj set key value timestamp)\n;; (define param_2 (send obj get key timestamp))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:42:01.200033+01:00",
+    "AcRate": "49.6",
+    "TotalSubmissions": 1342374,
+    "TotalAccepted": 665625,
+    "AcceptanceRate": 0.4958565943619289,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "multi",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "multi",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/time-based-key-value-store/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass TimeMap:\n\n    def __init__(self):\n        self.store = {}\n\n    def set(self, key: str, value: str, timestamp: int) -> None:\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n\n    def get(self, key: str, timestamp: int) -> str:\n        if key not in self.store:\n            return \"\"\n        \n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n                \n        return res\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Binary Search\n- Since the timestamps for each key are stored in strictly increasing order, we can use binary search to efficiently find the largest timestamp that is <= the given timestamp.\n\n**Step-by-Step Approach**:\n1. **Initialization**: Use a dictionary to map keys to a list of (timestamp, value) pairs.\n2. **set operation**: For a given key, append the (timestamp, value) pair to the list associated with that key. Since timestamps are strictly increasing, the list for each key will be sorted by timestamp.\n3. **get operation**: For a given key and timestamp:\n   - If the key does not exist in the dictionary, return an empty string.\n   - If the key exists, perform a binary search on the list of (timestamp, value) pairs to find the largest timestamp that is <= the given timestamp.\n   - If no such timestamp is found (i.e., all timestamps are larger than the given timestamp), return an empty string.\n\n**Data Structures**:\n- Dictionary (hash map) to store keys mapping to lists of (timestamp, value) tuples.\n\n**Time Complexity**:\n- set: O(1) per operation (amortized for list appends).\n- get: O(log n) per operation (binary search on the list for the key), where n is the number of entries for the key.\n\n**Space Complexity**:\n- O(m) where m is the total number of set operations (each set stores one entry).\n\n**Pseudocode**:\n```\nclass TimeMap:\n    Initialize:\n        store = dictionary\n\n    set(key, value, timestamp):\n        if key not in store:\n            store[key] = empty list\n        append (timestamp, value) to store[key]\n\n    get(key, timestamp):\n        if key not in store:\n            return \"\"\n        arr = store[key]\n        left = 0, right = len(arr)-1\n        res = \"\"\n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n        return res\n```\n\nNow, here is the code solution:\n```python\nclass TimeMap:\n\n    def __init__(self):\n        self.store = {}\n\n    def set(self, key: str, value: str, timestamp: int) -> None:\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n\n    def get(self, key: str, timestamp: int) -> str:\n        if key not in self.store:\n            return \"\"\n        \n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n                \n        return res\n```\n\n=== IMPLEMENTATION ===\n```python\nclass TimeMap:\n    def __init__(self):\n        self.store = {}\n        \n    def set(self, key, value, timestamp):\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n        \n    def get(self, key, timestamp):\n        if key not in self.store:\n            return \"\"\n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n        return res\n```\n\n=== VERIFICATION ===\nLooking at the provided solution, I can verify that it correctly implements the TimeMap class as specified. Let me analyze it step by step:\n\n## Verification Report\n\n**1. Correctness:**\n- The solution uses a dictionary to store key-value pairs with timestamps\n- The `set` method correctly appends (timestamp, value) tuples to the appropriate key's list\n- The `get` method correctly performs binary search to find the largest timestamp \u2264 the query timestamp\n- Since timestamps are strictly increasing, the lists remain sorted, making binary search valid\n\n**2. Edge Cases:**\n- \u2705 Missing keys return empty string\n- \u2705 Query timestamp before any stored timestamp returns empty string (handled by initial res = \"\")\n- \u2705 Query timestamp exactly matching a stored timestamp returns correct value\n- \u2705 Query timestamp between stored timestamps returns the previous value\n- \u2705 Multiple values for same key handled correctly\n\n**3. Complexity:**\n- \u2705 `set`: O(1) amortized time (dictionary lookup + list append)\n- \u2705 `get`: O(log n) time (binary search on key's values)\n- \u2705 Space: O(n) where n is total number of set operations\n\n**4. Code Quality:**\n- \u2705 Clean, readable code with clear variable names\n- \u2705 Proper use of Python features (dictionary, list, tuples)\n- \u2705 Consistent indentation and spacing\n- \u2705 No unnecessary complexity\n\n**5. Test Cases:**\nLet's test with the provided example:\n```python\ntimeMap = TimeMap()\ntimeMap.set(\"foo\", \"bar\", 1)        # store (\"foo\", \"bar\", 1)\ntimeMap.get(\"foo\", 1)               # returns \"bar\" \u2713\ntimeMap.get(\"foo\", 3)               # returns \"bar\" (timestamp 1 \u2264 3) \u2713  \ntimeMap.set(\"foo\", \"bar2\", 4)       # store (\"foo\", \"bar2\", 4)\ntimeMap.get(\"foo\", 4)               # returns \"bar2\" \u2713\ntimeMap.get(\"foo\", 5)               # returns \"bar2\" (timestamp 4 \u2264 5) \u2713\n```\n\n**6. Potential Issues:**\n- None found. The implementation correctly handles all requirements and constraints\n- The binary search algorithm is implemented correctly with proper boundary conditions\n- The \"store\" dictionary initialization is proper\n\n**Final Assessment:** The solution is correct, efficient, and well-implemented. No changes are needed.\n\nHere is the complete code as required:\n\n```python\nclass TimeMap:\n    def __init__(self):\n        self.store = {}\n        \n    def set(self, key, value, timestamp):\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n        \n    def get(self, key, timestamp):\n        if key not in self.store:\n            return \"\"\n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n        return res\n```\n\n",
+      "TypedCode": "\nclass TimeMap:\n    def __init__(self):\n        self.store = {}\n        \n    def set(self, key, value, timestamp):\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n        \n    def get(self, key, timestamp):\n        if key not in self.store:\n            return \"\"\n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n        return res\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 35471138793,
+      "SolvedAt": "2025-11-21T00:47:24.794583+01:00",
+      "PromptTokens": 5676,
+      "OutputTokens": 1689
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1023",
+        "typed_code": "\nclass TimeMap:\n    def __init__(self):\n        self.store = {}\n        \n    def set(self, key, value, timestamp):\n        if key not in self.store:\n            self.store[key] = []\n        self.store[key].append((timestamp, value))\n        \n    def get(self, key, timestamp):\n        if key not in self.store:\n            return \"\"\n        arr = self.store[key]\n        left, right = 0, len(arr) - 1\n        res = \"\"\n        while left <= right:\n            mid = (left + right) // 2\n            if arr[mid][0] <= timestamp:\n                res = arr[mid][1]\n                left = mid + 1\n            else:\n                right = mid - 1\n        return res\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:51:52+01:00"
+    }
+  }
+}

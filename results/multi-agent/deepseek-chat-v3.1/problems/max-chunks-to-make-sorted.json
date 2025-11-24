@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "769",
+        "questionId": "780",
+        "Content": "<p>You are given an integer array <code>arr</code> of length <code>n</code> that represents a permutation of the integers in the range <code>[0, n - 1]</code>.</p>\n\n<p>We split <code>arr</code> into some number of <strong>chunks</strong> (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.</p>\n\n<p>Return <em>the largest number of chunks we can make to sort the array</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [4,3,2,1,0]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong>\nSplitting into two or more chunks will not return the required result.\nFor example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn&#39;t sorted.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,0,2,3,4]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong>\nWe can split into two chunks, such as [1, 0], [2, 3, 4].\nHowever, splitting into [1, 0], [2], [3], [4] is the highest number of chunks possible.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == arr.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10</code></li>\n\t<li><code>0 &lt;= arr[i] &lt; n</code></li>\n\t<li>All the elements of <code>arr</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[4,3,2,1,0]",
+        "ExampleTestcases": "[4,3,2,1,0]\n[1,0,2,3,4]",
+        "Difficulty": "Medium",
+        "Title": "Max Chunks To Make Sorted",
+        "TitleSlug": "max-chunks-to-make-sorted",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"231K\", \"totalSubmission\": \"360.3K\", \"totalAcceptedRaw\": 230988, \"totalSubmissionRaw\": 360268, \"acRate\": \"64.1%\"}",
+        "Likes": 3622,
+        "Dislikes": 364,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxChunksToSorted(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxChunksToSorted(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxChunksToSorted(self, arr: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxChunksToSorted(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maxChunksToSorted = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxChunksToSorted(arr: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxChunksToSorted(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxChunksToSorted(int* arr, int arrSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxChunksToSorted(arr []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxChunksToSorted(arr: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxChunksToSorted(_ arr: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_chunks_to_sorted(arr: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer}\ndef max_chunks_to_sorted(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function maxChunksToSorted($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxChunksToSorted(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxChunksToSorted(arr: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_chunks_to_sorted(arr :: [integer]) :: integer\n  def max_chunks_to_sorted(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_chunks_to_sorted(Arr :: [integer()]) -> integer().\nmax_chunks_to_sorted(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-chunks-to-sorted arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:01:52.366719+01:00",
+    "AcRate": "64.1",
+    "TotalSubmissions": 360268,
+    "TotalAccepted": 230988,
+    "AcceptanceRate": 0.6411560282900507,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/max-chunks-to-make-sorted/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Analysis:\n1. **Problem Type Classification**: Array, Greedy, Sorting\n2. **Key Patterns & Algorithms**: The key insight is that a chunk can be formed if the maximum element in the current segment is equal to the current index (or the last index of the chunk). This is because the sorted array would have the value i at the i-th position. Alternatively, we can use a technique that tracks the maximum value encountered so far and checks if it equals the current index to determine a valid chunk.\n3. **Constraints Analysis**: The constraints are small (n <= 10), so even a brute force solution would work. However, an optimal O(n) solution is straightforward and preferred.\n4. **Edge Cases**: Single element array, already sorted array, reverse sorted array, and arrays where chunks are of varying sizes.\n5. **Input/Output Analysis**: The input is an array of distinct integers from 0 to n-1. The output is an integer representing the maximum number of chunks.\n6. **Difficulty Assessment**: The problem is medium difficulty. The challenge is to recognize the greedy approach: a chunk ending at index i is valid if the maximum value in the chunk is i. This ensures that when sorted, the chunk will contain exactly the numbers from the start index to i.\n\nSolution Code:\n```python\nclass Solution:\n    def maxChunksToSorted(self, arr: List[int]) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n```\n\n=== DESIGN ===\nGiven the problem constraints and the analysis, the optimal solution involves a greedy approach that traverses the array while tracking the maximum value encountered. When the maximum value equals the current index, it indicates that all elements from the start of the chunk to the current index are in place (after sorting the chunk), making it a valid partition. This approach efficiently determines the maximum number of chunks.\n\n### Algorithm Choice:\nWe choose a greedy algorithm that iterates through the array once. The key idea is to maintain the maximum value encountered so far. For each index, if the maximum value equals the index, it signifies that the current segment (chunk) can be sorted to match the sorted array exactly up to that point.\n\n### Step-by-Step Approach:\n1. Initialize a variable `max_val` to keep track of the maximum value encountered during the traversal.\n2. Initialize a counter `chunks` to count the number of valid chunks.\n3. Iterate through each element in the array along with its index.\n   - Update `max_val` to be the maximum of the current `max_val` and the current element.\n   - Check if the current index `i` is equal to `max_val`. If true, it means that all elements from the start of the chunk to `i` are such that when sorted, they will exactly be the numbers from the start index to `i`. Hence, we can form a chunk ending at `i`.\n4. Increment the chunk counter whenever the condition (`max_val == i`) is met.\n5. Return the total chunk count.\n\n### Data Structures:\n- No additional data structures are needed. We only use two integer variables: `max_val` and `chunks`.\n\n### Time Complexity:\n- The algorithm runs in O(n) time since it processes each element exactly once.\n\n### Space Complexity:\n- The space complexity is O(1) as we only use a constant amount of extra space.\n\n### Pseudocode:\n```\nmaxChunksToSorted(arr):\n    max_val = -1\n    chunks = 0\n    for i from 0 to n-1:\n        max_val = max(max_val, arr[i])\n        if max_val == i:\n            chunks += 1\n    return chunks\n```\n\n### Solution Code:\n```python\nclass Solution:\n    def maxChunksToSorted(self, arr: list) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maxChunksToSorted(self, arr: list) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n```\n\n=== VERIFICATION ===\nThe solution code provided is correct and efficient. Let me verify it step by step.\n\n### Verification Report:\n1. **Correctness**: The code correctly implements the designed algorithm. It tracks the maximum value encountered so far and increments the chunk count when the maximum value equals the current index. This ensures that each chunk contains all the necessary elements to be sorted independently and produce the correct sequence when concatenated.\n\n2. **Edge Cases**:\n   - Single element array: For n=1 (e.g., [0]), the maximum value at index0 is 0, so chunks=1. Correct.\n   - Already sorted array (e.g., [0,1,2,3,4]): At each index i, the maximum is i, so chunks=5. Correct.\n   - Reverse sorted array (e.g., [4,3,2,1,0]): The maximum at index0 is 4, which doesn't equal 0. At index1, max=4 !=1. Similarly, until index4, max=4 equals 4. So chunks=1. Correct.\n   - Mixed chunks (e.g., [1,0,2,3,4]): \n        i=0: max=1 !=0\n        i=1: max=1 ==1 -> chunks=1\n        i=2: max=2 ==2 -> chunks=2\n        i=3: max=3 ==3 -> chunks=3\n        i=4: max=4 ==4 -> chunks=4. Correct.\n\n3. **Complexity**: The algorithm runs in O(n) time with O(1) space, which is optimal.\n\n4. **Code Quality**: The code is clean and readable. It uses simple variables and a single loop. The logic is straightforward.\n\n5. **Test Cases**: The provided examples work correctly as shown above.\n\n6. **Potential Issues**: There are no bugs or logical errors. The solution is efficient and handles all cases.\n\nTherefore, the solution is valid and requires no changes.\n\nFinal code:\n```python\nclass Solution:\n    def maxChunksToSorted(self, arr: list) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maxChunksToSorted(self, arr: list) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 35960409751,
+      "SolvedAt": "2025-11-21T00:03:38.411821+01:00",
+      "PromptTokens": 4729,
+      "OutputTokens": 1461
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "780",
+        "typed_code": "\nclass Solution:\n    def maxChunksToSorted(self, arr: list) -> int:\n        max_val = -1\n        chunks = 0\n        for i, num in enumerate(arr):\n            if num > max_val:\n                max_val = num\n            if max_val == i:\n                chunks += 1\n        return chunks\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:54:12+01:00"
+    }
+  }
+}

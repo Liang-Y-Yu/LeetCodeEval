@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1657",
+        "questionId": "1777",
+        "Content": "<p>Two strings are considered <strong>close</strong> if you can attain one from the other using the following operations:</p>\n\n<ul>\n\t<li>Operation 1: Swap any two <strong>existing</strong> characters.\n\n\t<ul>\n\t\t<li>For example, <code>a<u>b</u>cd<u>e</u> -&gt; a<u>e</u>cd<u>b</u></code></li>\n\t</ul>\n\t</li>\n\t<li>Operation 2: Transform <strong>every</strong> occurrence of one <strong>existing</strong> character into another <strong>existing</strong> character, and do the same with the other character.\n\t<ul>\n\t\t<li>For example, <code><u>aa</u>c<u>abb</u> -&gt; <u>bb</u>c<u>baa</u></code> (all <code>a</code>&#39;s turn into <code>b</code>&#39;s, and all <code>b</code>&#39;s turn into <code>a</code>&#39;s)</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>You can use the operations on either string as many times as necessary.</p>\n\n<p>Given two strings, <code>word1</code> and <code>word2</code>, return <code>true</code><em> if </em><code>word1</code><em> and </em><code>word2</code><em> are <strong>close</strong>, and </em><code>false</code><em> otherwise.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;abc&quot;, word2 = &quot;bca&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> You can attain word2 from word1 in 2 operations.\nApply Operation 1: &quot;a<u>bc</u>&quot; -&gt; &quot;a<u>cb</u>&quot;\nApply Operation 1: &quot;<u>a</u>c<u>b</u>&quot; -&gt; &quot;<u>b</u>c<u>a</u>&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;a&quot;, word2 = &quot;aa&quot;\n<strong>Output:</strong> false\n<strong>Explanation: </strong>It is impossible to attain word2 from word1, or vice versa, in any number of operations.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;cabbba&quot;, word2 = &quot;abbccc&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> You can attain word2 from word1 in 3 operations.\nApply Operation 1: &quot;ca<u>b</u>bb<u>a</u>&quot; -&gt; &quot;ca<u>a</u>bb<u>b</u>&quot;\nApply Operation 2: &quot;<u>c</u>aa<u>bbb</u>&quot; -&gt; &quot;<u>b</u>aa<u>ccc</u>&quot;\nApply Operation 2: &quot;<u>baa</u>ccc&quot; -&gt; &quot;<u>abb</u>ccc&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= word1.length, word2.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>word1</code> and <code>word2</code> contain only lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abc\"\n\"bca\"",
+        "ExampleTestcases": "\"abc\"\n\"bca\"\n\"a\"\n\"aa\"\n\"cabbba\"\n\"abbccc\"",
+        "Difficulty": "Medium",
+        "Title": "Determine if Two Strings Are Close",
+        "TitleSlug": "determine-if-two-strings-are-close",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"531K\", \"totalSubmission\": \"979.6K\", \"totalAcceptedRaw\": 531011, \"totalSubmissionRaw\": 979590, \"acRate\": \"54.2%\"}",
+        "Likes": 4047,
+        "Dislikes": 350,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool closeStrings(string word1, string word2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean closeStrings(String word1, String word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def closeStrings(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {boolean}\n */\nvar closeStrings = function(word1, word2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function closeStrings(word1: string, word2: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CloseStrings(string word1, string word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool closeStrings(char* word1, char* word2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func closeStrings(word1 string, word2 string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun closeStrings(word1: String, word2: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func closeStrings(_ word1: String, _ word2: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn close_strings(word1: String, word2: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word1\n# @param {String} word2\n# @return {Boolean}\ndef close_strings(word1, word2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return Boolean\n     */\n    function closeStrings($word1, $word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool closeStrings(String word1, String word2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def closeStrings(word1: String, word2: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec close_strings(word1 :: String.t, word2 :: String.t) :: boolean\n  def close_strings(word1, word2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec close_strings(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> boolean().\nclose_strings(Word1, Word2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (close-strings word1 word2)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:10:35.947097+01:00",
+    "AcRate": "54.2",
+    "TotalSubmissions": 979590,
+    "TotalAccepted": 531011,
+    "AcceptanceRate": 0.5420747455568146,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/determine-if-two-strings-are-close/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Two strings are considered close if you can attain one from the other using the following operations:\n\tOperation 1: Swap any two existing characters.\n\t\n\t\tFor example, abcde -> aecdb\n\t\n\t\n\tOperation 2: Transform every occurrence of one existing character into another existing character, and do the same with the other character.\n\t\n\t\tFor example, aacabb -> bbcbaa (all a's turn into b's, and all b's turn into a's)\n\t\n\t\nYou can use the operations on either string as many times as necessary.\nGiven two strings, word1 and word2, return true if word1 and word2 are close, and false otherwise.\n\u00a0\nExample 1:\nInput: word1 = \"abc\", word2 = \"bca\"\nOutput: true\nExplanation: You can attain word2 from word1 in 2 operations.\nApply Operation 1: \"abc\" -> \"acb\"\nApply Operation 1: \"acb\" -> \"bca\"\nExample 2:\nInput: word1 = \"a\", word2 = \"aa\"\nOutput: false\nExplanation: It is impossible to attain word2 from word1, or vice versa, in any number of operations.\nExample 3:\nInput: word1 = \"cabbba\", word2 = \"abbccc\"\nOutput: true\nExplanation: You can attain word2 from word1 in 3 operations.\nApply Operation 1: \"cabbba\" -> \"caabbb\"\nApply Operation 2: \"caabbb\" -> \"baaccc\"\nApply Operation 2: \"baaccc\" -> \"abbccc\"\n\u00a0\nConstraints:\n\t1 <= word1.length, word2.length <= 10^5\n\tword1 and word2 contain only lowercase English letters.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and robust solution can be crafted by analyzing the invariants of the defined operations.\n\n### Analysis of Operations\n\n1.  **Operation 1 (Swap characters):** This operation allows for any permutation of the string's characters. This implies that the specific order of characters is not important, but rather the counts (frequencies) of each character are what matter. For example, `abc` and `bca` are equivalent under this operation.\n\n2.  **Operation 2 (Transform characters):** This operation allows for swapping the frequency counts between any two characters that exist in the string. For example, in `\"cabbba\"`, the frequencies are `{c:1, a:2, b:3}`. If we transform 'a's and 'b's, the new frequencies would be `{c:1, a:3, b:2}`. While the specific character-to-frequency mapping changes, the collection of frequency values, `{1, 2, 3}`, remains the same.\n\n### Conditions for \"Close\" Strings\n\nFrom the analysis, we can deduce two core conditions that must be true for two strings to be considered \"close\":\n\n1.  **Same Character Set:** Both strings must be composed of the same set of unique characters. Neither operation can introduce a new character or remove an existing one. For instance, `\"abc\"` can never become close to `\"abd\"` because `'d'` cannot be introduced.\n\n2.  **Same Frequency Multiset:** The collection of frequency counts for each string must be identical. While Operation 2 can swap which character has which frequency, it cannot change the set of frequency values themselves. For example, if one string has frequencies `{1, 2, 3}`, it can't become close to a string with frequencies `{1, 1, 4}`.\n\nAn initial, straightforward check is that the strings must have the same length, as neither operation alters length. This is also implicitly covered by the frequency multiset condition (the sum of frequencies equals the length), but an explicit length check at the beginning is a quick and clear optimization.\n\nThese two conditions are not only necessary but also sufficient. If they hold, one string can always be transformed into the other.\n\n### Algorithm\n\nThe resulting algorithm is:\n1.  Check if `word1` and `word2` have the same length. If not, return `False`.\n2.  Compute the frequency of each character for both strings. `collections.Counter` is ideal for this.\n3.  Compare the set of unique characters (the keys of the frequency maps). If they are not identical, return `False`.\n4.  Compare the multisets of frequency counts (the values of the frequency maps). This can be done by sorting the values and comparing the resulting lists. If they are not identical, return `False`.\n5.  If all checks pass, return `True`.\n\nThis approach is efficient, with a time complexity of O(N) where N is the length of the strings, and a space complexity of O(1) as the alphabet size is constant (26).\n\n```python\nfrom collections import Counter\n\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n\n        word1_counts = Counter(word1)\n        word2_counts = Counter(word2)\n\n        if set(word1_counts.keys()) != set(word2_counts.keys()):\n            return False\n        \n        if sorted(word1_counts.values()) != sorted(word2_counts.values()):\n            return False\n            \n        return True\n\n```",
+      "TypedCode": "\nfrom collections import Counter\n\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n\n        word1_counts = Counter(word1)\n        word2_counts = Counter(word2)\n\n        if set(word1_counts.keys()) != set(word2_counts.keys()):\n            return False\n        \n        if sorted(word1_counts.values()) != sorted(word2_counts.values()):\n            return False\n            \n        return True\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 136547491708,
+      "SolvedAt": "2025-11-20T13:09:20.827305+01:00",
+      "PromptTokens": 622,
+      "OutputTokens": 16405
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1777",
+        "typed_code": "\nfrom collections import Counter\n\nclass Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        if len(word1) != len(word2):\n            return False\n\n        word1_counts = Counter(word1)\n        word2_counts = Counter(word2)\n\n        if set(word1_counts.keys()) != set(word2_counts.keys()):\n            return False\n        \n        if sorted(word1_counts.values()) != sorted(word2_counts.values()):\n            return False\n            \n        return True\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:42:43+01:00"
+    }
+  }
+}

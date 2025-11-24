@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "852",
+        "questionId": "882",
+        "Content": "<p>You are given an integer <strong>mountain</strong> array <code>arr</code> of length <code>n</code> where the values increase to a <strong>peak element</strong> and then decrease.</p>\n\n<p>Return the index of the peak element.</p>\n\n<p>Your task is to solve it in <code>O(log(n))</code> time complexity.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">arr = [0,1,0]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">arr = [0,2,1,0]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">arr = [0,10,5,2]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>arr</code> is <strong>guaranteed</strong> to be a mountain array.</li>\n</ul>\n",
+        "SampleTestCase": "[0,1,0]",
+        "ExampleTestcases": "[0,1,0]\n[0,2,1,0]\n[0,10,5,2]",
+        "Difficulty": "Medium",
+        "Title": "Peak Index in a Mountain Array",
+        "TitleSlug": "peak-index-in-a-mountain-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.1M\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 1105597, \"totalSubmissionRaw\": 1647115, \"acRate\": \"67.1%\"}",
+        "Likes": 8299,
+        "Dislikes": 1943,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int peakIndexInMountainArray(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int peakIndexInMountainArray(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def peakIndexInMountainArray(self, arr: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def peakIndexInMountainArray(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar peakIndexInMountainArray = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function peakIndexInMountainArray(arr: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int PeakIndexInMountainArray(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int peakIndexInMountainArray(int* arr, int arrSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func peakIndexInMountainArray(arr []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun peakIndexInMountainArray(arr: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func peakIndexInMountainArray(_ arr: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn peak_index_in_mountain_array(arr: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer}\ndef peak_index_in_mountain_array(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function peakIndexInMountainArray($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int peakIndexInMountainArray(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def peakIndexInMountainArray(arr: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec peak_index_in_mountain_array(arr :: [integer]) :: integer\n  def peak_index_in_mountain_array(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec peak_index_in_mountain_array(Arr :: [integer()]) -> integer().\npeak_index_in_mountain_array(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (peak-index-in-mountain-array arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:55:08.40702+01:00",
+    "AcRate": "67.1",
+    "TotalSubmissions": 1647115,
+    "TotalAccepted": 1105597,
+    "AcceptanceRate": 0.6712324276082726,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def peakIndexInMountainArray(self, arr: list[int]) -> int:\n        left, right = 0, len(arr) - 1\n\n        while left < right:\n            mid = left + (right - left) // 2\n            \n            # If the middle element is on the ascending slope\n            if arr[mid] < arr[mid + 1]:\n                # The peak must be to the right of mid, so we search in the right half\n                left = mid + 1\n            # If the middle element is on the descending slope or is the peak itself\n            else:\n                # The peak is at mid or to the left of mid, so we search in the left half\n                right = mid\n        \n        # The loop terminates when left and right converge on a single index,\n        # which is the peak of the mountain array.\n        return left\n```\n\n=== DESIGN ===\n```python\nimport collections\n\nclass Solution:\n    def peakIndexInMountainArray(self, arr: list[int]) -> int:\n        \"\"\"\n        Finds the peak index in a mountain array.\n\n        A mountain array is an array that strictly increases and then strictly decreases.\n        This problem guarantees that the input `arr` is a mountain array.\n\n        The problem requires a solution with O(log(n)) time complexity, which suggests\n        a binary search approach.\n\n        The core idea of the binary search is to compare the middle element `arr[mid]`\n        with its right neighbor `arr[mid + 1]` to determine which side of `mid` the\n        peak lies on.\n\n        1. If `arr[mid] < arr[mid + 1]`, it means we are on the ascending slope of the\n           mountain. The peak must be to the right of `mid`. Therefore, we can discard\n           the left half of the search space, including `mid`, by setting `left = mid + 1`.\n\n        2. If `arr[mid] > arr[mid + 1]`, it means we are either at the peak itself or on\n           the descending slope. In this case, the peak is at `mid` or to its left.\n           We cannot discard `mid` as it could be the peak. So, we shrink the search\n           space to the left half, including `mid`, by setting `right = mid`.\n\n        The loop continues until `left` and `right` pointers converge. At this point,\n        they will both point to the index of the peak element.\n\n        Let's trace an example: arr = [0, 10, 5, 2]\n        - Initial: left = 0, right = 3\n        - Iteration 1:\n            - mid = (0 + 3) // 2 = 1.\n            - arr[1] (10) > arr[2] (5). This means mid is on the descending slope or is the peak.\n            - The peak is at or to the left of mid.\n            - right = mid = 1.\n            - Search space is now [0, 1].\n        - Iteration 2:\n            - left = 0, right = 1.\n            - mid = (0 + 1) // 2 = 0.\n            - arr[0] (0) < arr[1] (10). This means mid is on the ascending slope.\n            - The peak is to the right of mid.\n            - left = mid + 1 = 1.\n            - Search space is now [1, 1].\n        - Loop terminates because left (1) is not less than right (1).\n        - Return left, which is 1. The peak is at index 1.\n        \"\"\"\n        left, right = 0, len(arr) - 1\n\n        while left < right:\n            mid = left + (right - left) // 2\n            \n            # If the middle element is on the ascending slope\n            if arr[mid] < arr[mid + 1]:\n                # The peak must be to the right of mid, so we search in the right half\n                left = mid + 1\n            # If the middle element is on the descending slope or is the peak itself\n            else:\n                # The peak is at mid or to the left of mid, so we search in the left half\n                right = mid\n        \n        # The loop terminates when left and right converge on a single index,\n        # which is the peak of the mountain array.\n        return left\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def peakIndexInMountainArray(self, arr: List[int]) -> int:\n        left, right = 0, len(arr) - 1\n        while left < right:\n            mid = left + (right - left) // 2\n            if arr[mid] < arr[mid + 1]:\n                left = mid + 1\n            else:\n                right = mid\n        return left\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def peakIndexInMountainArray(self, arr: List[int]) -> int:\n        left, right = 0, len(arr) - 1\n        while left < right:\n            mid = left + (right - left) // 2\n            if arr[mid] < arr[mid + 1]:\n                left = mid + 1\n            else:\n                right = mid\n        return left\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def peakIndexInMountainArray(self, arr: List[int]) -> int:\n        left, right = 0, len(arr) - 1\n        while left < right:\n            mid = left + (right - left) // 2\n            if arr[mid] < arr[mid + 1]:\n                left = mid + 1\n            else:\n                right = mid\n        return left\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 198938145125,
+      "SolvedAt": "2025-11-21T15:37:37.91945+01:00",
+      "PromptTokens": 4541,
+      "OutputTokens": 22239
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "882",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def peakIndexInMountainArray(self, arr: List[int]) -> int:\n        left, right = 0, len(arr) - 1\n        while left < right:\n            mid = left + (right - left) // 2\n            if arr[mid] < arr[mid + 1]:\n                left = mid + 1\n            else:\n                right = mid\n        return left\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:49:46+01:00"
+    }
+  }
+}

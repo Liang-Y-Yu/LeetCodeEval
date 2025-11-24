@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1793",
+        "questionId": "1918",
+        "Content": "<p>You are given an array of integers <code>nums</code> <strong>(0-indexed)</strong> and an integer <code>k</code>.</p>\n\n<p>The <strong>score</strong> of a subarray <code>(i, j)</code> is defined as <code>min(nums[i], nums[i+1], ..., nums[j]) * (j - i + 1)</code>. A <strong>good</strong> subarray is a subarray where <code>i &lt;= k &lt;= j</code>.</p>\n\n<p>Return <em>the maximum possible <strong>score</strong> of a <strong>good</strong> subarray.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,4,3,7,4,5], k = 3\n<strong>Output:</strong> 15\n<strong>Explanation:</strong> The optimal subarray is (1, 5) with a score of min(4,3,7,4,5) * (5-1+1) = 3 * 5 = 15. \n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [5,5,4,5,4,1,1,1], k = 0\n<strong>Output:</strong> 20\n<strong>Explanation:</strong> The optimal subarray is (0, 4) with a score of min(5,5,4,5,4) * (4-0+1) = 4 * 5 = 20.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= k &lt; nums.length</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,4,3,7,4,5]\n3",
+        "ExampleTestcases": "[1,4,3,7,4,5]\n3\n[5,5,4,5,4,1,1,1]\n0",
+        "Difficulty": "Hard",
+        "Title": "Maximum Score of a Good Subarray",
+        "TitleSlug": "maximum-score-of-a-good-subarray",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"86.5K\", \"totalSubmission\": \"134.6K\", \"totalAcceptedRaw\": 86549, \"totalSubmissionRaw\": 134567, \"acRate\": \"64.3%\"}",
+        "Likes": 1974,
+        "Dislikes": 50,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximumScore(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximumScore(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximumScore(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximumScore(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar maximumScore = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximumScore(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaximumScore(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximumScore(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximumScore(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximumScore(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximumScore(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum_score(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef maximum_score(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function maximumScore($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximumScore(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximumScore(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum_score(nums :: [integer], k :: integer) :: integer\n  def maximum_score(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum_score(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_score(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum-score nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:04:11.692891+01:00",
+    "AcRate": "64.3",
+    "TotalSubmissions": 134567,
+    "TotalAccepted": 86549,
+    "AcceptanceRate": 0.6431666010240252,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-score-of-a-good-subarray/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array of integers nums (0-indexed) and an integer k.\nThe score of a subarray (i, j) is defined as min(nums[i], nums[i+1], ..., nums[j]) * (j - i + 1). A good subarray is a subarray where i <= k <= j.\nReturn the maximum possible score of a good subarray.\n\u00a0\nExample 1:\nInput: nums = [1,4,3,7,4,5], k = 3\nOutput: 15\nExplanation: The optimal subarray is (1, 5) with a score of min(4,3,7,4,5) * (5-1+1) = 3 * 5 = 15. \nExample 2:\nInput: nums = [5,5,4,5,4,1,1,1], k = 0\nOutput: 20\nExplanation: The optimal subarray is (0, 4) with a score of min(5,5,4,5,4) * (4-0+1) = 4 * 5 = 20.\n\u00a0\nConstraints:\n\t1 <= nums.length <= 10^5\n\t1 <= nums[i] <= 2 * 10^4\n\t0 <= k < nums.length\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def maximumScore(self, nums: List[int], k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this problem is using a two-pointer approach that expands a window around the given index `k`. Since any \"good\" subarray must include `k`, we can start with the smallest possible good subarray, which is `(k, k)`, and progressively expand it.\n\nThe core idea is to maintain a window `(i, j)` that always contains `k`. We start with `i = j = k`. In each step, we expand the window by moving either the left pointer `i` one step to the left or the right pointer `j` one step to the right.\n\nTo maximize the score, which is `min_val * length`, we should try to keep the `min_val` as high as possible while increasing the `length`. This suggests a greedy strategy for expansion: at each step, compare the values just outside our current window (`nums[i-1]` and `nums[j+1]`) and expand in the direction of the larger value. By picking the larger neighbor, we have a better chance of maintaining a high minimum value for the subarray.\n\nThe algorithm proceeds as follows:\n1. Initialize two pointers, `i` and `j`, both to `k`.\n2. The initial subarray is `(k, k)`. The `max_score` is initialized to `nums[k]`, and the minimum value in the window, `current_min`, is also `nums[k]`.\n3. Repeatedly expand the window until it covers the entire array (i.e., `i` is 0 and `j` is `n-1`).\n4. In each expansion step:\n    a. If we can only expand in one direction (because the other pointer is at an array boundary), we do so.\n    b. If we can expand in both directions, we compare `nums[i-1]` and `nums[j+1]`. We move the pointer corresponding to the larger value. This greedy choice helps delay the decrease of `current_min`.\n5. After each expansion, update `current_min` to be the minimum of all elements in the new window `(i, j)`.\n6. Calculate the score for the new window: `current_min * (j - i + 1)`.\n7. Update `max_score` if this new score is greater.\n\nThis process continues until the window encompasses the whole array. The algorithm explores a path of expanding subarrays, and this greedy expansion strategy is sufficient to find the optimal score. The time complexity is O(N) because each of the `n` elements is visited by the pointers at most once. The space complexity is O(1) as we only use a few variables to track the state.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def maximumScore(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        i, j = k, k\n        max_score = nums[k]\n        current_min = nums[k]\n\n        while i > 0 or j < n - 1:\n            left_val = nums[i - 1] if i > 0 else 0\n            right_val = nums[j + 1] if j < n - 1 else 0\n\n            if left_val > right_val:\n                i -= 1\n                current_min = min(current_min, nums[i])\n            else:\n                j += 1\n                current_min = min(current_min, nums[j])\n            \n            max_score = max(max_score, current_min * (j - i + 1))\n            \n        return max_score\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def maximumScore(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        i, j = k, k\n        max_score = nums[k]\n        current_min = nums[k]\n\n        while i > 0 or j < n - 1:\n            left_val = nums[i - 1] if i > 0 else 0\n            right_val = nums[j + 1] if j < n - 1 else 0\n\n            if left_val > right_val:\n                i -= 1\n                current_min = min(current_min, nums[i])\n            else:\n                j += 1\n                current_min = min(current_min, nums[j])\n            \n            max_score = max(max_score, current_min * (j - i + 1))\n            \n        return max_score\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 157359090208,
+      "SolvedAt": "2025-11-20T15:13:45.41827+01:00",
+      "PromptTokens": 523,
+      "OutputTokens": 18831
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1918",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def maximumScore(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        i, j = k, k\n        max_score = nums[k]\n        current_min = nums[k]\n\n        while i > 0 or j < n - 1:\n            left_val = nums[i - 1] if i > 0 else 0\n            right_val = nums[j + 1] if j < n - 1 else 0\n\n            if left_val > right_val:\n                i -= 1\n                current_min = min(current_min, nums[i])\n            else:\n                j += 1\n                current_min = min(current_min, nums[j])\n            \n            max_score = max(max_score, current_min * (j - i + 1))\n            \n        return max_score\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:47:22+01:00"
+    }
+  }
+}

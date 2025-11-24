@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "556",
+        "questionId": "556",
+        "Content": "<p>Given a positive integer <code>n</code>, find <em>the smallest integer which has exactly the same digits existing in the integer</em> <code>n</code> <em>and is greater in value than</em> <code>n</code>. If no such positive integer exists, return <code>-1</code>.</p>\n\n<p><strong>Note</strong> that the returned integer should fit in <strong>32-bit integer</strong>, if there is a valid answer but it does not fit in <strong>32-bit integer</strong>, return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 12\n<strong>Output:</strong> 21\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 21\n<strong>Output:</strong> -1\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "12",
+        "ExampleTestcases": "12\n21",
+        "Difficulty": "Medium",
+        "Title": "Next Greater Element III",
+        "TitleSlug": "next-greater-element-iii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"199.2K\", \"totalSubmission\": \"569.9K\", \"totalAcceptedRaw\": 199186, \"totalSubmissionRaw\": 569904, \"acRate\": \"35.0%\"}",
+        "Likes": 3891,
+        "Dislikes": 491,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int nextGreaterElement(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int nextGreaterElement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def nextGreaterElement(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar nextGreaterElement = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function nextGreaterElement(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NextGreaterElement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int nextGreaterElement(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func nextGreaterElement(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun nextGreaterElement(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func nextGreaterElement(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn next_greater_element(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef next_greater_element(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function nextGreaterElement($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int nextGreaterElement(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def nextGreaterElement(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec next_greater_element(n :: integer) :: integer\n  def next_greater_element(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec next_greater_element(N :: integer()) -> integer().\nnext_greater_element(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (next-greater-element n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:11:30.552081+01:00",
+    "AcRate": "35.0",
+    "TotalSubmissions": 569904,
+    "TotalAccepted": 199186,
+    "AcceptanceRate": 0.3495079873101435,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/next-greater-element-iii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n\n```python\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result < 2**31 else -1\n```\n\n=== DESIGN ===\nGiven the problem and the analysis, I'll design the solution accordingly.\n\n**Algorithm Choice:**\nWe'll use the classic \"next permutation\" algorithm, which efficiently finds the next greater number with the same digits. This involves:\n1. Finding the first decreasing digit from the right (the pivot).\n2. Finding the smallest digit larger than the pivot to the right of it.\n3. Swapping the pivot with that digit.\n4. Reversing the digits to the right of the pivot to make them in ascending order (which gives the smallest possible number after the swap).\n\n**Step-by-Step Approach:**\n1. Convert the integer `n` to a list of characters (digits) for easy manipulation.\n2. Traverse from the end to find the first index `i` such that `s[i] < s[i+1]`. This is the pivot.\n3. If no such index exists (i.e., the entire number is in descending order), return -1.\n4. Traverse from the end again to find the smallest digit larger than `s[i]` (call this index `j`).\n5. Swap `s[i]` and `s[j]`.\n6. Reverse the sublist from `i+1` to the end to make it in ascending order (so it becomes the smallest possible number after the pivot).\n7. Convert the list back to an integer and check if it fits in a 32-bit integer. If not, return -1; otherwise, return the number.\n\n**Data Structures:**\n- A list of characters to represent the digits of `n`.\n\n**Time Complexity:**\nO(d), where d is the number of digits in `n`. We traverse the list a constant number of times (at most three passes: to find the pivot, to find the swap candidate, and to reverse the suffix).\n\n**Space Complexity:**\nO(d) to store the list of digits.\n\n**Pseudocode:**\n1. s = list(str(n))\n2. i = len(s)-2\n   while i>=0 and s[i] >= s[i+1]:\n        i--\n3. if i < 0: return -1\n4. j = len(s)-1\n   while j>i and s[j] <= s[i]:\n        j--\n5. swap(s[i], s[j])\n6. reverse(s[i+1:])\n7. result = int(''.join(s))\n8. if result > 2**31 - 1: return -1\n9. else return result\n\nNow, I'll write the code accordingly.\n```python\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result <= 2**31 - 1 else -1\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result <= 2**31 - 1 else -1\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result <= 2**31 - 1 else -1\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result <= 2**31 - 1 else -1\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 19579389875,
+      "SolvedAt": "2025-11-21T00:18:33.676225+01:00",
+      "PromptTokens": 3934,
+      "OutputTokens": 1158
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "556",
+        "typed_code": "\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        s = list(str(n))\n        i = len(s) - 2\n        while i >= 0 and s[i] >= s[i+1]:\n            i -= 1\n        if i < 0:\n            return -1\n        \n        j = len(s) - 1\n        while j > i and s[j] <= s[i]:\n            j -= 1\n        \n        s[i], s[j] = s[j], s[i]\n        s[i+1:] = reversed(s[i+1:])\n        \n        result = int(''.join(s))\n        return result if result <= 2**31 - 1 else -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:06:37+01:00"
+    }
+  }
+}

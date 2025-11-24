@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "330",
+        "questionId": "330",
+        "Content": "<p>Given a sorted integer array <code>nums</code> and an integer <code>n</code>, add/patch elements to the array such that any number in the range <code>[1, n]</code> inclusive can be formed by the sum of some elements in the array.</p>\n\n<p>Return <em>the minimum number of patches required</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3], n = 6\n<strong>Output:</strong> 1\nExplanation:\nCombinations of nums are [1], [3], [1,3], which form possible sums of: 1, 3, 4.\nNow if we add/patch 2 to nums, the combinations are: [1], [2], [3], [1,3], [2,3], [1,2,3].\nPossible sums are 1, 2, 3, 4, 5, 6, which now covers the range [1, 6].\nSo we only need 1 patch.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,5,10], n = 20\n<strong>Output:</strong> 2\nExplanation: The two patches can be [2, 4].\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,2], n = 5\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>nums</code> is sorted in <strong>ascending order</strong>.</li>\n\t<li><code>1 &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3]\n6",
+        "ExampleTestcases": "[1,3]\n6\n[1,5,10]\n20\n[1,2,2]\n5",
+        "Difficulty": "Hard",
+        "Title": "Patching Array",
+        "TitleSlug": "patching-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"177K\", \"totalSubmission\": \"328.6K\", \"totalAcceptedRaw\": 176972, \"totalSubmissionRaw\": 328648, \"acRate\": \"53.8%\"}",
+        "Likes": 2413,
+        "Dislikes": 202,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minPatches(vector<int>& nums, int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minPatches(int[] nums, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minPatches(self, nums, n):\n        \"\"\"\n        :type nums: List[int]\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} n\n * @return {number}\n */\nvar minPatches = function(nums, n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minPatches(nums: number[], n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinPatches(int[] nums, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minPatches(int* nums, int numsSize, int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minPatches(nums []int, n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minPatches(nums: IntArray, n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minPatches(_ nums: [Int], _ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_patches(nums: Vec<i32>, n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} n\n# @return {Integer}\ndef min_patches(nums, n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $n\n     * @return Integer\n     */\n    function minPatches($nums, $n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minPatches(List<int> nums, int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minPatches(nums: Array[Int], n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_patches(nums :: [integer], n :: integer) :: integer\n  def min_patches(nums, n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_patches(Nums :: [integer()], N :: integer()) -> integer().\nmin_patches(Nums, N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-patches nums n)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:22:26.994463+01:00",
+    "AcRate": "53.8",
+    "TotalSubmissions": 328648,
+    "TotalAccepted": 176972,
+    "AcceptanceRate": 0.5384849443781797,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/patching-array/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\n\nclass Solution:\n    def minPatches(self, nums: list[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by using a greedy algorithm. The core idea is to keep track of the maximum number that can be formed by the sums of elements from the (patched) array. Let's call this `reach`. Initially, without any numbers, the `reach` is 0. We want to be able to form all numbers from 1 to `n`.\n\nLet's say we can currently form all numbers in the range `[1, k]`. The next number we need to be able to form is `k + 1`. We can use the numbers in the `nums` array or add a patch.\n\nIf the next number in `nums`, say `x`, is less than or equal to `k + 1`, we can use it. By adding `x` to our set of numbers, we can now form all sums we could before, plus `x` added to all of those sums. This extends our range of formable numbers to `[1, k + x]`.\n\nIf the next number in `nums` is greater than `k + 1`, or if we have run out of numbers in `nums`, then we are stuck. We cannot form `k + 1`. We must add a patch. To be most efficient and extend our reach as much as possible, the best number to add is `k + 1` itself. By adding `k + 1` as a patch, our new range of formable numbers becomes `[1, k + (k + 1)] = [1, 2k + 1]`.\n\nWe can maintain a variable, let's call it `miss`, which is the smallest number we cannot yet form. Initially, `miss = 1`. In each step, we try to form `miss`.\n- If there is a number `num` in the array such that `num <= miss`, we can use it. This extends our reach from `[1, miss-1]` to `[1, miss-1 + num]`. The new `miss` becomes `miss + num`.\n- If the next number in the array is greater than `miss` (or we're out of numbers), we must patch. The optimal patch is `miss` itself. This extends our reach from `[1, miss-1]` to `[1, miss-1 + miss] = [1, 2*miss - 1]`. The new `miss` becomes `2 * miss`.\n\nWe repeat this process, greedily extending our reach, until we can form all numbers up to `n`.\n\nNow, let's translate this into a concrete implementation.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is by using a greedy algorithm. The core idea is to keep track of the maximum number that can be formed by the sums of elements from the (patched) array. Let's call this `reach`. Initially, without any numbers, the `reach` is 0. We want to be able to form all numbers from 1 to `n`.\nLet's say we can currently form all numbers in the range `[1, k]`. The next number we need to be able to form is `k + 1`. We can use the numbers in the `nums` array or add a patch.\nIf the next number in `nums`, say `x`, is less than or equal to `k + 1`, we can use it. By adding `x` to our set of numbers, we can now form all sums we could before, plus `x` added to all of those sums. This extends our range of formable numbers to `[1, k + x]`.\nIf the next number in `nums` is greater than `k + 1`, or if we have run out of numbers in `nums`, then we are stuck. We cannot form `k + 1`. We must add a patch. To be most efficient and extend our reach as much as possible, the best number to add is `k + 1` itself. By adding `k + 1` as a patch, our new range of formable numbers becomes `[1, k + (k + 1)] = [1, 2k + 1]`.\nWe can maintain a variable, let's call it `miss`, which is the smallest number we cannot yet form. Initially, `miss = 1`. In each step, we try to form `miss`.\n- If there is a number `num` in the array such that `num <= miss`, we can use it. This extends our reach from `[1, miss-1]` to `[1, miss-1 + num]`. The new `miss` becomes `miss + num`.\n- If the next number in the array is greater than `miss` (or we're out of numbers), we must patch. The optimal patch is `miss` itself. This extends our reach from `[1, miss-1]` to `[1, miss-1 + miss] = [1, 2*miss - 1]`. The new `miss` becomes `2 * miss`.\nWe repeat this process, greedily extending our reach, until we can form all numbers up to `n`.\nNow, let's translate this into a concrete implementation.\n\n### Verification Report\n\n**1. Correctness**\nThe solution correctly implements the greedy algorithm described in the analysis. It maintains a variable `reach` representing the smallest number that cannot yet be formed. The algorithm iteratively extends the range of formable numbers `[1, reach - 1]` by either using a number from `nums` or adding a patch. The choice at each step is optimal: using `nums[i]` if `nums[i] <= reach`, or patching with `reach` otherwise. This correctly and minimally extends the coverage until the entire range `[1, n]` is formable. The logic is sound.\n\n**2. Edge Cases**\nThe implementation handles edge cases robustly:\n*   **`nums` already covers `[1, n]`**: Correctly returns 0 patches (e.g., `nums = [1,2,2], n = 5`).\n*   **Empty `nums`**: Correctly adds patches `1, 2, 4, ...` to build the range from scratch.\n*   **`nums` does not start with 1**: Correctly patches 1 (if needed) and proceeds.\n*   **Large `n`**: Python's arbitrary-precision integers prevent overflow for the `reach` variable, ensuring correctness for `n` up to `2^31 - 1`.\n\n**3. Complexity**\n*   **Time Complexity:** O(len(nums) + log n). The `while` loop continues as long as `reach <= n`. In each iteration, either `i` is incremented (at most `len(nums)` times) or `reach` is at least doubled (at most `log n` times).\n*   **Space Complexity:** O(1). The solution uses a fixed number of variables, making its space usage constant.\n\n**4. Code Quality**\nThe code is clean, readable, and concise. Variable names are appropriate for the algorithm. The structure is a direct and efficient implementation of the greedy strategy. It follows best practices, including the use of type hints.\n\n**5. Test Cases**\nThe solution passes all provided sample test cases:\n*   `nums = [1,3], n = 6` -> `Output: 1`. **Correct**.\n*   `nums = [1,5,10], n = 20` -> `Output: 2`. **Correct**.\n*   `nums = [1,2,2], n = 5` -> `Output: 0`. **Correct**.\n\n**6. Potential Issues**\nNo logical errors or bugs were identified in the provided `Implemented Code`. The solution is correct and complete. There is a minor discrepancy in the problem description's `Analysis` section, which includes an unused `import collections`, but this is absent from the `Implemented Code` and does not affect the solution's validity.\n\n**Conclusion:** The provided solution is correct, efficient, and of high quality. It is a valid and robust implementation for the given problem.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 333776573792,
+      "SolvedAt": "2025-11-21T15:34:18.97592+01:00",
+      "PromptTokens": 4642,
+      "OutputTokens": 35512
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "330",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        patches = 0\n        reach = 1\n        i = 0\n        \n        while reach <= n:\n            if i < len(nums) and nums[i] <= reach:\n                reach += nums[i]\n                i += 1\n            else:\n                reach += reach\n                patches += 1\n        \n        return patches\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:04:45+01:00"
+    }
+  }
+}

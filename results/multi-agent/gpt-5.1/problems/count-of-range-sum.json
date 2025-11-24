@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "327",
+        "questionId": "327",
+        "Content": "<p>Given an integer array <code>nums</code> and two integers <code>lower</code> and <code>upper</code>, return <em>the number of range sums that lie in</em> <code>[lower, upper]</code> <em>inclusive</em>.</p>\n\n<p>Range sum <code>S(i, j)</code> is defined as the sum of the elements in <code>nums</code> between indices <code>i</code> and <code>j</code> inclusive, where <code>i &lt;= j</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-2,5,-1], lower = -2, upper = 2\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The three ranges are: [0,0], [2,2], and [0,2] and their respective sums are: -2, -1, 2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0], lower = 0, upper = 0\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>-10<sup>5</sup> &lt;= lower &lt;= upper &lt;= 10<sup>5</sup></code></li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</li>\n</ul>\n",
+        "SampleTestCase": "[-2,5,-1]\n-2\n2",
+        "ExampleTestcases": "[-2,5,-1]\n-2\n2\n[0]\n0\n0",
+        "Difficulty": "Hard",
+        "Title": "Count of Range Sum",
+        "TitleSlug": "count-of-range-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"97.3K\", \"totalSubmission\": \"257.3K\", \"totalAcceptedRaw\": 97340, \"totalSubmissionRaw\": 257272, \"acRate\": \"37.8%\"}",
+        "Likes": 2469,
+        "Dislikes": 261,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEy",
+            "Name": "Divide and Conquer",
+            "Slug": "divide-and-conquer"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI4",
+            "Name": "Binary Indexed Tree",
+            "Slug": "binary-indexed-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI5",
+            "Name": "Segment Tree",
+            "Slug": "segment-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUx",
+            "Name": "Merge Sort",
+            "Slug": "merge-sort"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countRangeSum(vector<int>& nums, int lower, int upper) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countRangeSum(self, nums, lower, upper):\n        \"\"\"\n        :type nums: List[int]\n        :type lower: int\n        :type upper: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar countRangeSum = function(nums, lower, upper) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countRangeSum(nums: number[], lower: number, upper: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countRangeSum(int* nums, int numsSize, int lower, int upper) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countRangeSum(nums []int, lower int, upper int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countRangeSum(nums: IntArray, lower: Int, upper: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countRangeSum(_ nums: [Int], _ lower: Int, _ upper: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_range_sum(nums: Vec<i32>, lower: i32, upper: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} lower\n# @param {Integer} upper\n# @return {Integer}\ndef count_range_sum(nums, lower, upper)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $lower\n     * @param Integer $upper\n     * @return Integer\n     */\n    function countRangeSum($nums, $lower, $upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countRangeSum(List<int> nums, int lower, int upper) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countRangeSum(nums: Array[Int], lower: Int, upper: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_range_sum(nums :: [integer], lower :: integer, upper :: integer) :: integer\n  def count_range_sum(nums, lower, upper) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_range_sum(Nums :: [integer()], Lower :: integer(), Upper :: integer()) -> integer().\ncount_range_sum(Nums, Lower, Upper) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-range-sum nums lower upper)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:22:40.06433+01:00",
+    "AcRate": "37.8",
+    "TotalSubmissions": 257272,
+    "TotalAccepted": 97340,
+    "AcceptanceRate": 0.37835442644360834,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-of-range-sum/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)\n\n=== DESIGN ===\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)\n\n=== IMPLEMENTATION ===\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)\n\n=== VERIFICATION ===\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)\n\n",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)",
+      "Model": "openai/gpt-5.1",
+      "Latency": 39563253041,
+      "SolvedAt": "2025-11-19T15:24:38.504628+01:00",
+      "PromptTokens": 4362,
+      "OutputTokens": 2879
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "327",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n\n        def sort_and_count(lo: int, hi: int) -> int:\n            if hi - lo <= 1:\n                return 0\n            mid = (lo + hi) // 2\n            count = sort_and_count(lo, mid) + sort_and_count(mid, hi)\n            j_lower = j_upper = mid\n            for i in range(lo, mid):\n                while j_lower < hi and prefix[j_lower] - prefix[i] < lower:\n                    j_lower += 1\n                while j_upper < hi and prefix[j_upper] - prefix[i] <= upper:\n                    j_upper += 1\n                count += j_upper - j_lower\n            temp = []\n            i, j = lo, mid\n            while i < mid and j < hi:\n                if prefix[i] <= prefix[j]:\n                    temp.append(prefix[i])\n                    i += 1\n                else:\n                    temp.append(prefix[j])\n                    j += 1\n            while i < mid:\n                temp.append(prefix[i])\n                i += 1\n            while j < hi:\n                temp.append(prefix[j])\n                j += 1\n            prefix[lo:hi] = temp\n            return count\n\n        return sort_and_count(0, n + 1)"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:51:03+01:00"
+    }
+  }
+}

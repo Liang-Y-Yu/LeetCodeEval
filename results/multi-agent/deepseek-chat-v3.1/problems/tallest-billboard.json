@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "956",
+        "questionId": "993",
+        "Content": "<p>You are installing a billboard and want it to have the largest height. The billboard will have two steel supports, one on each side. Each steel support must be an equal height.</p>\n\n<p>You are given a collection of <code>rods</code> that can be welded together. For example, if you have rods of lengths <code>1</code>, <code>2</code>, and <code>3</code>, you can weld them together to make a support of length <code>6</code>.</p>\n\n<p>Return <em>the largest possible height of your billboard installation</em>. If you cannot support the billboard, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2,3,6]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> We have two disjoint subsets {1,2,3} and {6}, which have the same sum = 6.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2,3,4,5,6]\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> We have two disjoint subsets {2,3,5} and {4,6}, which have the same sum = 10.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The billboard cannot be supported, so we return 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= rods.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= rods[i] &lt;= 1000</code></li>\n\t<li><code>sum(rods[i]) &lt;= 5000</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,6]",
+        "ExampleTestcases": "[1,2,3,6]\n[1,2,3,4,5,6]\n[1,2]",
+        "Difficulty": "Hard",
+        "Title": "Tallest Billboard",
+        "TitleSlug": "tallest-billboard",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"67.7K\", \"totalSubmission\": \"130.5K\", \"totalAcceptedRaw\": 67665, \"totalSubmissionRaw\": 130526, \"acRate\": \"51.8%\"}",
+        "Likes": 2445,
+        "Dislikes": 61,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int tallestBillboard(vector<int>& rods) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int tallestBillboard(int[] rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def tallestBillboard(self, rods):\n        \"\"\"\n        :type rods: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} rods\n * @return {number}\n */\nvar tallestBillboard = function(rods) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function tallestBillboard(rods: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int TallestBillboard(int[] rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int tallestBillboard(int* rods, int rodsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func tallestBillboard(rods []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun tallestBillboard(rods: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func tallestBillboard(_ rods: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn tallest_billboard(rods: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} rods\n# @return {Integer}\ndef tallest_billboard(rods)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $rods\n     * @return Integer\n     */\n    function tallestBillboard($rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int tallestBillboard(List<int> rods) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def tallestBillboard(rods: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec tallest_billboard(rods :: [integer]) :: integer\n  def tallest_billboard(rods) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec tallest_billboard(Rods :: [integer()]) -> integer().\ntallest_billboard(Rods) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (tallest-billboard rods)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:47:00.582607+01:00",
+    "AcRate": "51.8",
+    "TotalSubmissions": 130526,
+    "TotalAccepted": 67665,
+    "AcceptanceRate": 0.5184024638769288,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/tallest-billboard/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        n = len(rods)\n        total = sum(rods)\n        \n        dp = [-1] * (total + 1)\n        dp[0] = 0\n        \n        for rod in rods:\n            curr_dp = dp[:]\n            for diff in range(total + 1):\n                if curr_dp[diff] == -1:\n                    continue\n                \n                # Add to taller side\n                new_diff = diff + rod\n                dp[new_diff] = max(dp[new_diff], curr_dp[diff] + rod)\n                \n                # Add to shorter side\n                new_diff = abs(diff - rod)\n                dp[new_diff] = max(dp[new_diff], curr_dp[diff] + rod)\n        \n        return dp[0] // 2 if dp[0] > 0 else 0\n```\n\n=== DESIGN ===\n\n```python\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for rod in rods:\n            curr_dp = dp.copy()\n            for diff, height in curr_dp.items():\n                # Add to taller side\n                new_diff1 = diff + rod\n                new_height1 = height + rod\n                if new_diff1 in dp:\n                    if new_height1 > dp[new_diff1]:\n                        dp[new_diff1] = new_height1\n                else:\n                    dp[new_diff1] = new_height1\n                \n                # Add to shorter side\n                new_diff2 = abs(diff - rod)\n                new_height2 = height + rod\n                if new_diff2 in dp:\n                    if new_height2 > dp[new_diff2]:\n                        dp[new_diff2] = new_height2\n                else:\n                    dp[new_diff2] = new_height2\n        return dp[0] // 2 if 0 in dp else 0\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for rod in rods:\n            curr_dp = dp.copy()\n            for diff, height in curr_dp.items():\n                new_diff1 = diff + rod\n                new_height1 = height + rod\n                if new_diff1 in dp:\n                    if new_height1 > dp[new_diff1]:\n                        dp[new_diff1] = new_height1\n                else:\n                    dp[new_diff1] = new_height1\n                \n                new_diff2 = abs(diff - rod)\n                new_height2 = height + rod\n                if new_diff2 in dp:\n                    if new_height2 > dp[new_diff2]:\n                        dp[new_diff2] = new_height2\n                else:\n                    dp[new_diff2] = new_height2\n        return dp[0] // 2 if 0 in dp else 0\n```\n\n=== VERIFICATION ===\nLooking at the implemented solution, I need to verify its correctness and quality. Let me analyze it step by step:\n\n## Verification Report\n\n### 1. **Correctness Issues**\nThe main issue is that the implementation modifies `dp` while iterating over `curr_dp`, which causes incorrect results. When we iterate over `curr_dp` and modify `dp`, the new entries added during iteration can affect subsequent iterations in the same rod processing, leading to incorrect state transitions.\n\n### 2. **Edge Cases Handling**\n- Empty input: Handled correctly (returns 0)\n- Single rod: Handled correctly (returns 0)\n- All rods equal: Should work correctly when fixed\n- Large inputs within constraints: Should work with proper implementation\n\n### 3. **Complexity Analysis**\n- Time: O(n \u00d7 S) where S is the sum of rods (acceptable for constraints)\n- Space: O(S) (acceptable for sum \u2264 5000)\n\n### 4. **Code Quality Issues**\n- In-place modification of dictionary during iteration causes logical errors\n- Variable naming is adequate but algorithm logic is flawed\n\n### 5. **Test Case Verification**\nWith the current implementation:\n- Example 1 (rods = [1,2,3,6]): May not produce correct result due to iteration issue\n- Example 2 (rods = [1,2,3,4,5,6]): May not produce correct result\n- Example 3 (rods = [1,2]): Should work correctly\n\n### 6. **Fix Needed**\nThe solution needs to be fixed by ensuring we don't modify the dictionary being iterated. We should use a separate temporary dictionary for updates.\n\nHere's the corrected implementation:\n\n```python\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for rod in rods:\n            new_dp = dp.copy()\n            for diff, height in dp.items():\n                # Add to taller side\n                new_diff1 = diff + rod\n                new_height1 = height + rod\n                if new_diff1 in new_dp:\n                    if new_height1 > new_dp[new_diff1]:\n                        new_dp[new_diff1] = new_height1\n                else:\n                    new_dp[new_diff1] = new_height1\n                \n                # Add to shorter side\n                new_diff2 = abs(diff - rod)\n                new_height2 = height + rod\n                if new_diff2 in new_dp:\n                    if new_height2 > new_dp[new_diff2]:\n                        new_dp[new_diff2] = new_height2\n                else:\n                    new_dp[new_diff2] = new_height2\n            dp = new_dp\n        return dp[0] // 2 if 0 in dp else 0\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for rod in rods:\n            curr_dp = dp.copy()\n            for diff, height in curr_dp.items():\n                new_diff1 = diff + rod\n                new_height1 = height + rod\n                if new_diff1 in dp:\n                    if new_height1 > dp[new_diff1]:\n                        dp[new_diff1] = new_height1\n                else:\n                    dp[new_diff1] = new_height1\n                \n                new_diff2 = abs(diff - rod)\n                new_height2 = height + rod\n                if new_diff2 in dp:\n                    if new_height2 > dp[new_diff2]:\n                        dp[new_diff2] = new_height2\n                else:\n                    dp[new_diff2] = new_height2\n        return dp[0] // 2 if 0 in dp else 0\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 38096786376,
+      "SolvedAt": "2025-11-21T00:44:52.850865+01:00",
+      "PromptTokens": 3827,
+      "OutputTokens": 1233
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "993",
+        "typed_code": "\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for rod in rods:\n            curr_dp = dp.copy()\n            for diff, height in curr_dp.items():\n                new_diff1 = diff + rod\n                new_height1 = height + rod\n                if new_diff1 in dp:\n                    if new_height1 > dp[new_diff1]:\n                        dp[new_diff1] = new_height1\n                else:\n                    dp[new_diff1] = new_height1\n                \n                new_diff2 = abs(diff - rod)\n                new_height2 = height + rod\n                if new_diff2 in dp:\n                    if new_height2 > dp[new_diff2]:\n                        dp[new_diff2] = new_height2\n                else:\n                    dp[new_diff2] = new_height2\n        return dp[0] // 2 if 0 in dp else 0\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:46:53+01:00"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "804",
+        "questionId": "822",
+        "Content": "<p>International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:</p>\n\n<ul>\n\t<li><code>&#39;a&#39;</code> maps to <code>&quot;.-&quot;</code>,</li>\n\t<li><code>&#39;b&#39;</code> maps to <code>&quot;-...&quot;</code>,</li>\n\t<li><code>&#39;c&#39;</code> maps to <code>&quot;-.-.&quot;</code>, and so on.</li>\n</ul>\n\n<p>For convenience, the full table for the <code>26</code> letters of the English alphabet is given below:</p>\n\n<pre>\n[&quot;.-&quot;,&quot;-...&quot;,&quot;-.-.&quot;,&quot;-..&quot;,&quot;.&quot;,&quot;..-.&quot;,&quot;--.&quot;,&quot;....&quot;,&quot;..&quot;,&quot;.---&quot;,&quot;-.-&quot;,&quot;.-..&quot;,&quot;--&quot;,&quot;-.&quot;,&quot;---&quot;,&quot;.--.&quot;,&quot;--.-&quot;,&quot;.-.&quot;,&quot;...&quot;,&quot;-&quot;,&quot;..-&quot;,&quot;...-&quot;,&quot;.--&quot;,&quot;-..-&quot;,&quot;-.--&quot;,&quot;--..&quot;]</pre>\n\n<p>Given an array of strings <code>words</code> where each word can be written as a concatenation of the Morse code of each letter.</p>\n\n<ul>\n\t<li>For example, <code>&quot;cab&quot;</code> can be written as <code>&quot;-.-..--...&quot;</code>, which is the concatenation of <code>&quot;-.-.&quot;</code>, <code>&quot;.-&quot;</code>, and <code>&quot;-...&quot;</code>. We will call such a concatenation the <strong>transformation</strong> of a word.</li>\n</ul>\n\n<p>Return <em>the number of different <strong>transformations</strong> among all words we have</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;gin&quot;,&quot;zen&quot;,&quot;gig&quot;,&quot;msg&quot;]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The transformation of each word is:\n&quot;gin&quot; -&gt; &quot;--...-.&quot;\n&quot;zen&quot; -&gt; &quot;--...-.&quot;\n&quot;gig&quot; -&gt; &quot;--...--.&quot;\n&quot;msg&quot; -&gt; &quot;--...--.&quot;\nThere are 2 different transformations: &quot;--...-.&quot; and &quot;--...--.&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;a&quot;]\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 12</code></li>\n\t<li><code>words[i]</code> consists of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "[\"gin\",\"zen\",\"gig\",\"msg\"]",
+        "ExampleTestcases": "[\"gin\",\"zen\",\"gig\",\"msg\"]\n[\"a\"]",
+        "Difficulty": "Easy",
+        "Title": "Unique Morse Code Words",
+        "TitleSlug": "unique-morse-code-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"396K\", \"totalSubmission\": \"474.5K\", \"totalAcceptedRaw\": 395978, \"totalSubmissionRaw\": 474513, \"acRate\": \"83.4%\"}",
+        "Likes": 2595,
+        "Dislikes": 1551,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int uniqueMorseRepresentations(vector<string>& words) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int uniqueMorseRepresentations(String[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def uniqueMorseRepresentations(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n * @return {number}\n */\nvar uniqueMorseRepresentations = function(words) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function uniqueMorseRepresentations(words: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int UniqueMorseRepresentations(string[] words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int uniqueMorseRepresentations(char** words, int wordsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func uniqueMorseRepresentations(words []string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun uniqueMorseRepresentations(words: Array<String>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func uniqueMorseRepresentations(_ words: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn unique_morse_representations(words: Vec<String>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} words\n# @return {Integer}\ndef unique_morse_representations(words)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $words\n     * @return Integer\n     */\n    function uniqueMorseRepresentations($words) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int uniqueMorseRepresentations(List<String> words) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def uniqueMorseRepresentations(words: Array[String]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec unique_morse_representations(words :: [String.t]) :: integer\n  def unique_morse_representations(words) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec unique_morse_representations(Words :: [unicode:unicode_binary()]) -> integer().\nunique_morse_representations(Words) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (unique-morse-representations words)\n  (-> (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:59:08.808549+01:00",
+    "AcRate": "83.4",
+    "TotalSubmissions": 474513,
+    "TotalAccepted": 395978,
+    "AcceptanceRate": 0.8344934701472878,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/unique-morse-code-words/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def uniqueMorseRepresentations(self, words: list[str]) -> int:\n        MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", \"-..\", \".\", \"..-.\", \"--.\", \"....\", \"..\", \".---\", \"-.-\", \".-..\", \"--\", \"-.\", \"---\", \".--.\", \"--.-\", \".-.\", \"...\", \"-\", \"..-\", \"...-\", \".--\", \"-..-\", \"-.--\", \"--..\"]\n        \n        unique_transformations = set()\n        \n        for word in words:\n            transformation_builder = []\n            for char in word:\n                index = ord(char) - ord('a')\n                transformation_builder.append(MORSE_TABLE[index])\n            \n            final_transformation = \"\".join(transformation_builder)\n            unique_transformations.add(final_transformation)\n            \n        return len(unique_transformations)\n\n```\n\n=== DESIGN ===\nAn elegant and effective solution to this problem involves a straightforward simulation and counting approach using a hash set. The core idea is to transform each word into its Morse code representation and then use a set data structure to automatically handle the counting of unique transformations.\n\n### 1. Algorithm Choice\nThe algorithm will be an iterative transformation and counting process. We will iterate through each word in the input list, convert it to its Morse code equivalent, and store these transformations in a hash set. A hash set is ideal for this task because it automatically enforces uniqueness and provides an efficient way to count the number of distinct items.\n\n### 2. Step-by-Step Approach\n1.  **Setup Morse Code Mapping**: First, we need a way to quickly look up the Morse code for each letter. An array (or list in Python) of strings is perfect for this, where the index `i` corresponds to the i-th letter of the alphabet (e.g., index 0 for 'a', 1 for 'b'). The Morse code for a character `c` can be found at `MORSE_TABLE[ord(c) - ord('a')]`.\n2.  **Initialize a Set**: Create an empty hash set. This set will store the unique Morse code strings we generate.\n3.  **Iterate Through Words**: Loop through each `word` in the input `words` list.\n4.  **Build Word Transformation**: For each `word`, initialize a temporary structure (like a list of strings) to build its Morse code transformation.\n5.  **Transform Characters**: Iterate through each character `char` of the current `word`. For each `char`, use the mapping from Step 1 to find its Morse code string and append it to the temporary structure.\n6.  **Store Unique Transformation**: After processing all characters in a word, join the collected Morse code parts into a single string. Add this final transformation string to the hash set. The set's properties ensure that if the same transformation is added multiple times, it is only stored once.\n7.  **Return Result**: Once all words have been processed, the number of unique transformations is simply the size of the set. Return this size.\n\n### 3. Data Structures\n*   **Morse Code Table (List/Array)**: A constant-size array of 26 strings to serve as a lookup table for Morse codes.\n*   **Set (Hash Set)**: To store the unique transformations. Its key features are O(1) average time complexity for additions and its inherent ability to store only unique elements.\n*   **String Builder (List of strings in Python)**: To efficiently construct the Morse code transformation for each word by appending parts and then joining them at the end.\n\n### 4. Time Complexity\nLet `N` be the number of words in the input list and `L` be the maximum length of any word. The total number of characters across all words can be represented as `S`.\n*   We iterate through each of the `N` words.\n*   For each word of length `w` (where `w <= L`), we iterate through its characters.\n*   The transformation process for a single word involves `w` lookups (O(1) each) and building a new string of length proportional to `w`. This takes O(w) time.\n*   Adding the resulting string to the hash set also takes time proportional to its length, O(w), on average.\n*   Therefore, the total time complexity is the sum of the lengths of all words, which is **O(S)**, or in Big-O notation using the upper bounds, **O(N * L)**.\n\n### 5. Space Complexity\n*   The Morse code table requires constant space, O(1).\n*   The space for the string builder is proportional to the length of the current word, O(L), and is reused for each word.\n*   The primary space consumption comes from the hash set storing the unique transformations. In the worst-case scenario, every word produces a unique transformation. The maximum length of a transformation is proportional to `L`. Thus, the space complexity is **O(N * L)**.\n\n### 6. Pseudocode\n```\nFUNCTION uniqueMorseRepresentations(words):\n  // 1. Setup Morse Code Mapping\n  MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", ... , \"--..\"]\n\n  // 2. Initialize a Set\n  unique_transformations = new Set()\n\n  // 3. Iterate Through Words\n  FOR each word IN words:\n    // 4. Build Word Transformation\n    current_transformation_parts = new List()\n\n    // 5. Transform Characters\n    FOR each char IN word:\n      index = ASCII(char) - ASCII('a')\n      morse_char = MORSE_TABLE[index]\n      APPEND morse_char TO current_transformation_parts\n\n    // 6. Store Unique Transformation\n    final_transformation = JOIN(current_transformation_parts, \"\")\n    ADD final_transformation TO unique_transformations\n  \n  // 7. Return Result\n  RETURN size of unique_transformations\nEND FUNCTION\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", \"-..\", \".\", \"..-.\", \"--.\", \"....\", \"..\", \".---\", \"-.-\", \".-..\", \"--\", \"-.\", \"---\", \".--.\", \"--.-\", \".-.\", \"...\", \"-\", \"..-\", \"...-\", \".--\", \"-..-\", \"-.--\", \"--..\"]\n        \n        unique_transformations = set()\n        \n        for word in words:\n            transformation_builder = []\n            for char in word:\n                index = ord(char) - ord('a')\n                transformation_builder.append(MORSE_TABLE[index])\n            \n            final_transformation = \"\".join(transformation_builder)\n            unique_transformations.add(final_transformation)\n            \n        return len(unique_transformations)\n```\n\n=== VERIFICATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", \"-..\", \".\", \"..-.\", \"--.\", \"....\", \"..\", \".---\", \"-.-\", \".-..\", \"--\", \"-.\", \"---\", \".--.\", \"--.-\", \".-.\", \"...\", \"-\", \"..-\", \"...-\", \".--\", \"-..-\", \"-.--\", \"--..\"]\n        \n        unique_transformations = set()\n        \n        for word in words:\n            transformation_builder = []\n            for char in word:\n                index = ord(char) - ord('a')\n                transformation_builder.append(MORSE_TABLE[index])\n            \n            final_transformation = \"\".join(transformation_builder)\n            unique_transformations.add(final_transformation)\n            \n        return len(unique_transformations)\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", \"-..\", \".\", \"..-.\", \"--.\", \"....\", \"..\", \".---\", \"-.-\", \".-..\", \"--\", \"-.\", \"---\", \".--.\", \"--.-\", \".-.\", \"...\", \"-\", \"..-\", \"...-\", \".--\", \"-..-\", \"-.--\", \"--..\"]\n        \n        unique_transformations = set()\n        \n        for word in words:\n            transformation_builder = []\n            for char in word:\n                index = ord(char) - ord('a')\n                transformation_builder.append(MORSE_TABLE[index])\n            \n            final_transformation = \"\".join(transformation_builder)\n            unique_transformations.add(final_transformation)\n            \n        return len(unique_transformations)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 296287745707,
+      "SolvedAt": "2025-11-21T18:38:33.179999+01:00",
+      "PromptTokens": 6056,
+      "OutputTokens": 31542
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "822",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueMorseRepresentations(self, words: List[str]) -> int:\n        MORSE_TABLE = [\".-\", \"-...\", \"-.-.\", \"-..\", \".\", \"..-.\", \"--.\", \"....\", \"..\", \".---\", \"-.-\", \".-..\", \"--\", \"-.\", \"---\", \".--.\", \"--.-\", \".-.\", \"...\", \"-\", \"..-\", \"...-\", \".--\", \"-..-\", \"-.--\", \"--..\"]\n        \n        unique_transformations = set()\n        \n        for word in words:\n            transformation_builder = []\n            for char in word:\n                index = ord(char) - ord('a')\n                transformation_builder.append(MORSE_TABLE[index])\n            \n            final_transformation = \"\".join(transformation_builder)\n            unique_transformations.add(final_transformation)\n            \n        return len(unique_transformations)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:41:09+01:00"
+    }
+  }
+}

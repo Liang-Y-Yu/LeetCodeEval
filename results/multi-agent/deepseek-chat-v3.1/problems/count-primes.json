@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "204",
+        "questionId": "204",
+        "Content": "<p>Given an integer <code>n</code>, return <em>the number of prime numbers that are strictly less than</em> <code>n</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are 4 prime numbers less than 10, they are 2, 3, 5, 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 0\n<strong>Output:</strong> 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 5 * 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "10",
+        "ExampleTestcases": "10\n0\n1",
+        "Difficulty": "Medium",
+        "Title": "Count Primes",
+        "TitleSlug": "count-primes",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.2M\", \"totalSubmission\": \"3.3M\", \"totalAcceptedRaw\": 1170961, \"totalSubmissionRaw\": 3301700, \"acRate\": \"35.5%\"}",
+        "Likes": 8638,
+        "Dislikes": 1559,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY3",
+            "Name": "Number Theory",
+            "Slug": "number-theory"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countPrimes(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countPrimes(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countPrimes(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countPrimes(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar countPrimes = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countPrimes(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountPrimes(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countPrimes(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countPrimes(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countPrimes(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countPrimes(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_primes(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef count_primes(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function countPrimes($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countPrimes(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countPrimes(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_primes(n :: integer) :: integer\n  def count_primes(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_primes(N :: integer()) -> integer().\ncount_primes(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-primes n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:27:46.725697+01:00",
+    "AcRate": "35.5",
+    "TotalSubmissions": 3301700,
+    "TotalAccepted": 1170961,
+    "AcceptanceRate": 0.35465396613865585,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-primes/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**: This problem falls under the category of Number Theory and involves efficiently generating prime numbers. The key challenge is to count primes up to n (exclusive) in an optimal way given the constraints.\n\n2. **Key Patterns & Algorithms**: The most relevant algorithm is the Sieve of Eratosthenes, which efficiently marks non-prime numbers in a boolean list. This algorithm is well-suited for the constraints (n up to 5,000,000). Alternative methods like trial division would be too slow for large n.\n\n3. **Constraints Analysis**: With n up to 5e6, we need an O(n log log n) time complexity solution. The Sieve of Eratosthenes achieves this. Space complexity should be O(n) to store the boolean list of size n.\n\n4. **Edge Cases**: \n   - n = 0: No primes less than 0 -> return 0.\n   - n = 1: No primes less than 1 -> return 0.\n   - n = 2: Primes less than 2 is 0 (since 2 is not less than 2).\n\n5. **Input/Output Analysis**: The input is a single integer n. The output is an integer count of primes strictly less than n.\n\n6. **Difficulty Assessment**: The problem is rated as \"Medium\" because implementing the Sieve of Eratosthenes efficiently (with optimizations) requires careful handling of indices and loops. Without optimizations (like iterating only up to sqrt(n)), the solution might be inefficient.\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n```\n\n=== DESIGN ===\n**Algorithm Choice**: The Sieve of Eratosthenes algorithm is chosen due to its efficiency in generating all primes up to a given limit n. The optimized version (with inner loop starting from i*i and outer loop up to sqrt(n)) ensures O(n log log n) time complexity.\n\n**Step-by-Step Approach**:\n1. Handle edge cases where n <= 2 (return 0).\n2. Create a boolean list `is_prime` of length n, initially all True. Mark indices 0 and 1 as False (non-prime).\n3. Iterate from 2 to sqrt(n) (inclusive). For each number i that is prime:\n   - Mark all multiples of i (starting from i*i) as non-prime.\n4. The number of primes is the count of True values in the `is_prime` list.\n\n**Data Structures**: A boolean list (`is_prime`) of size n to track prime status for each number.\n\n**Time Complexity**: O(n log log n) due to the nested loops in the Sieve algorithm.\n\n**Space Complexity**: O(n) for the boolean list.\n\n**Pseudocode**:\n```\nif n <= 2:\n    return 0\ninitialize is_prime as a list of n True values\nset is_prime[0] and is_prime[1] to False\nfor i from 2 to sqrt(n) (inclusive):\n    if is_prime[i] is True:\n        for j from i*i to n (exclusive) with step i:\n            set is_prime[j] to False\nreturn the sum of all True values in is_prime\n```\n\n```python\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 26178346749,
+      "SolvedAt": "2025-11-20T23:43:57.691932+01:00",
+      "PromptTokens": 4209,
+      "OutputTokens": 1103
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "204",
+        "typed_code": "\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        is_prime = [True] * n\n        is_prime[0] = is_prime[1] = False\n        for i in range(2, int(n**0.5) + 1):\n            if is_prime[i]:\n                for j in range(i*i, n, i):\n                    is_prime[j] = False\n        return sum(is_prime)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T04:00:01+01:00"
+    }
+  }
+}

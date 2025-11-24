@@ -64,6 +64,7 @@ var OpenRouterModels = []string{
 	"anthropic/claude-sonnet-4.5",
 	"google/gemini-2.5-pro",
 	"deepseek/deepseek-chat",
+	"deepseek/deepseek-chat-v3.1",
 }
 
 var supportedModels []string

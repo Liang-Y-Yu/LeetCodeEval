@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2448",
+        "questionId": "2538",
+        "Content": "<p>You are given two <strong>0-indexed</strong> arrays <code>nums</code> and <code>cost</code> consisting each of <code>n</code> <strong>positive</strong> integers.</p>\n\n<p>You can do the following operation <strong>any</strong> number of times:</p>\n\n<ul>\n\t<li>Increase or decrease <strong>any</strong> element of the array <code>nums</code> by <code>1</code>.</li>\n</ul>\n\n<p>The cost of doing one operation on the <code>i<sup>th</sup></code> element is <code>cost[i]</code>.</p>\n\n<p>Return <em>the <strong>minimum</strong> total cost such that all the elements of the array </em><code>nums</code><em> become <strong>equal</strong></em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,5,2], cost = [2,3,1,14]\n<strong>Output:</strong> 8\n<strong>Explanation:</strong> We can make all the elements equal to 2 in the following way:\n- Increase the 0<sup>th</sup> element one time. The cost is 2.\n- Decrease the 1<sup><span style=\"font-size: 10.8333px;\">st</span></sup> element one time. The cost is 3.\n- Decrease the 2<sup>nd</sup> element three times. The cost is 1 + 1 + 1 = 3.\nThe total cost is 2 + 3 + 3 = 8.\nIt can be shown that we cannot make the array equal with a smaller cost.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,2,2,2,2], cost = [4,2,8,1,3]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All the elements are already equal, so no operations are needed.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length == cost.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i], cost[i] &lt;= 10<sup>6</sup></code></li>\n\t<li>Test cases are generated in a way that the output doesn&#39;t exceed&nbsp;2<sup>53</sup>-1</li>\n</ul>\n",
+        "SampleTestCase": "[1,3,5,2]\n[2,3,1,14]",
+        "ExampleTestcases": "[1,3,5,2]\n[2,3,1,14]\n[2,2,2,2,2]\n[4,2,8,1,3]",
+        "Difficulty": "Hard",
+        "Title": "Minimum Cost to Make Array Equal",
+        "TitleSlug": "minimum-cost-to-make-array-equal",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"75.6K\", \"totalSubmission\": \"162.3K\", \"totalAcceptedRaw\": 75619, \"totalSubmissionRaw\": 162282, \"acRate\": \"46.6%\"}",
+        "Likes": 2503,
+        "Dislikes": 36,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long minCost(vector<int>& nums, vector<int>& cost) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long minCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minCost(self, nums, cost):\n        \"\"\"\n        :type nums: List[int]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number[]} cost\n * @return {number}\n */\nvar minCost = function(nums, cost) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minCost(nums: number[], cost: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long MinCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long minCost(int* nums, int numsSize, int* cost, int costSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minCost(nums []int, cost []int) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minCost(nums: IntArray, cost: IntArray): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minCost(_ nums: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_cost(nums: Vec<i32>, cost: Vec<i32>) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer[]} cost\n# @return {Integer}\ndef min_cost(nums, cost)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $cost\n     * @return Integer\n     */\n    function minCost($nums, $cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minCost(List<int> nums, List<int> cost) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minCost(nums: Array[Int], cost: Array[Int]): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_cost(nums :: [integer], cost :: [integer]) :: integer\n  def min_cost(nums, cost) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_cost(Nums :: [integer()], Cost :: [integer()]) -> integer().\nmin_cost(Nums, Cost) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-cost nums cost)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:32:55.521499+01:00",
+    "AcRate": "46.6",
+    "TotalSubmissions": 162282,
+    "TotalAccepted": 75619,
+    "AcceptanceRate": 0.4659728127580385,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to find the minimum cost to make all elements in `nums` equal by incrementing/decrementing elements, where each operation on element `i` costs `cost[i]`.\n\n**Observation**: This is similar to finding a target value that minimizes the weighted sum of absolute differences, where weights are given by `cost`.\n\n**Approach**: \n1. Pair each `nums[i]` with its `cost[i]` and sort by `nums[i]`.\n2. The optimal target value is the weighted median of `nums` with weights `cost`. Why?\n   - The cost function is convex: decreasing as we approach the median and increasing after.\n   - For weighted absolute deviations, the median minimizes the sum.\n3. Calculate total weight and find the median index where cumulative weight reaches half the total.\n4. Compute total cost by summing `abs(num - target) * c` for each element.\n\n**Complexity**: O(n log n) due to sorting, O(n) space for pairs.\n\n```python\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        pairs = sorted(zip(nums, cost))\n        total_weight = sum(cost)\n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative > total_weight // 2:\n                target = num\n                break\n        return sum(abs(num - target) * c for num, c in pairs)\n```\n\n=== DESIGN ===\nGiven the problem analysis, I'll design a solution that uses the weighted median to minimize the total cost.\n\n**Algorithm Choice**: \n- We will use the concept of weighted median. The optimal target value is the median of the nums array when weighted by the cost. This minimizes the sum of absolute deviations.\n\n**Step-by-Step Approach**:\n1. Combine the nums and cost arrays into pairs and sort these pairs by the nums values.\n2. Calculate the total weight (sum of all costs).\n3. Traverse the sorted pairs while accumulating the cost. The point at which the cumulative cost exceeds half the total weight is the weighted median (target value).\n4. Compute the total cost by summing the absolute differences between each num and the target multiplied by its cost.\n\n**Data Structures**:\n- A list of tuples to store (num, cost) pairs.\n\n**Time Complexity**:\n- O(n log n) due to sorting the pairs.\n- O(n) for the cumulative traversal and the final cost calculation.\n\n**Space Complexity**:\n- O(n) for storing the pairs.\n\n**Pseudocode**:\n```\nfunction minCost(nums, cost):\n    pairs = list of (nums[i], cost[i]) for all i\n    sort pairs by nums[i]\n    total_weight = sum(cost)\n    cumulative = 0\n    target = first num in sorted pairs\n    for each (num, c) in sorted pairs:\n        cumulative += c\n        if cumulative > total_weight / 2:\n            target = num\n            break\n    total_cost = 0\n    for each (num, c) in pairs:\n        total_cost += abs(num - target) * c\n    return total_cost\n```\n\nNow, implementing the solution accordingly:\n\n```python\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        pairs = sorted(zip(nums, cost))\n        total_weight = sum(cost)\n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative > total_weight // 2:\n                target = num\n                break\n        return sum(abs(num - target) * c for num, c in pairs)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        pairs = sorted(zip(nums, cost))\n        total_weight = sum(cost)\n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative > total_weight // 2:\n                target = num\n                break\n        return sum(abs(num - target) * c for num, c in pairs)\n```\n\n=== VERIFICATION ===\n\nI have reviewed the provided solution for the problem of finding the minimum cost to make all elements in `nums` equal. Below is my verification report.\n\n### 1. **Correctness**\nThe solution correctly implements the algorithm to minimize the total cost by using the weighted median. The weighted median is indeed the optimal target value that minimizes the sum of absolute deviations with weights. The code:\n- Pairs each element with its cost.\n- Sorts these pairs by the value of the elements.\n- Calculates the total weight (sum of all costs).\n- Traverses the sorted pairs to find the point where cumulative cost exceeds half the total weight (which is the weighted median).\n- Computes the total cost by summing the absolute differences between each element and the target multiplied by its cost.\n\nThis approach is mathematically sound and should yield the correct result.\n\n### 2. **Edge Cases**\nThe solution handles the following edge cases:\n- **All elements are already equal**: In this case, the cumulative cost will immediately exceed half the total weight (since all elements are the same) and the target will be set to that value. The total cost will be zero. This matches Example 2.\n- **Single element**: The total weight is the cost of that element. The cumulative cost immediately exceeds half the total (which is exactly half, but note the condition uses `>`). However, since the target is set to the first element and the total cost is zero, it works.\n- **Large inputs**: The solution uses efficient operations (sorting and linear passes) which are acceptable for n up to 10^5.\n\n### 3. **Complexity**\n- **Time Complexity**: The solution sorts the pairs, which is O(n log n), and then does two linear traversals (one to find the median and one to compute the total cost). This is efficient and meets the constraints.\n- **Space Complexity**: The solution uses O(n) space to store the pairs. This is acceptable.\n\n### 4. **Code Quality**\nThe code is clean, readable, and follows Python best practices. It uses:\n- Meaningful variable names (`pairs`, `total_weight`, `cumulative`, `target`).\n- List comprehensions and built-in functions (`sorted`, `zip`, `sum`) for clarity and efficiency.\n- A straightforward algorithm without unnecessary complexity.\n\n### 5. **Test Cases**\nI tested the provided examples:\n- **Example 1**: \n  - nums = [1,3,5,2], cost = [2,3,1,14]\n  - Sorted pairs: [(1,2), (2,14), (3,3), (5,1)]\n  - Total weight = 2+3+1+14 = 20. Half is 10.\n  - Cumulative: \n      - Start: cumulative=0\n      - After (1,2): cumulative=2 <=10\n      - After (2,14): cumulative=16 >10 -> target=2\n  - Total cost = |1-2|*2 + |2-2|*14 + |3-2|*3 + |5-2|*1 = 1*2 + 0*14 + 1*3 + 3*1 = 2+0+3+3=8. Correct.\n- **Example 2**: \n  - All elements are 2. Sorted pairs are all (2, cost). \n  - Total weight=4+2+8+1+3=18. Half is 9.\n  - Cumulative after first element: 4 <=9, after second: 6<=9, after third: 14>9 -> target=2.\n  - Total cost=0. Correct.\n\n### 6. **Potential Issues**\nOne subtle issue: when the cumulative cost exactly equals half the total weight, the condition `cumulative > total_weight // 2` might not trigger. However, in integer arithmetic, `total_weight // 2` is an integer. For example, if total_weight is even, half is an integer. If cumulative exactly equals half, it does not break. But note:\n- The weighted median is defined as the smallest value for which the cumulative weight is at least half. So if cumulative exactly equals half, we should move to the next value? Actually, the median is not uniquely defined in such cases? However, the cost function is minimized at any point between the two medians. But we are only allowed to choose an integer value.\n\nHowever, in practice, because we are iterating and breaking at the first value that exceeds half, we are effectively choosing the lower median. This is correct because the cost function is convex and the minimum occurs\n\n",
+      "TypedCode": "\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        pairs = sorted(zip(nums, cost))\n        total_weight = sum(cost)\n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative > total_weight // 2:\n                target = num\n                break\n        return sum(abs(num - target) * c for num, c in pairs)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 19119904541,
+      "SolvedAt": "2025-11-21T00:12:50.263813+01:00",
+      "PromptTokens": 4812,
+      "OutputTokens": 1868
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2538",
+        "typed_code": "\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        pairs = sorted(zip(nums, cost))\n        total_weight = sum(cost)\n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative > total_weight // 2:\n                target = num\n                break\n        return sum(abs(num - target) * c for num, c in pairs)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:53:11+01:00"
+    }
+  }
+}

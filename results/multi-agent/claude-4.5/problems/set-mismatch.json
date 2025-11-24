@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "645",
+        "questionId": "645",
+        "Content": "<p>You have a set of integers <code>s</code>, which originally contains all the numbers from <code>1</code> to <code>n</code>. Unfortunately, due to some error, one of the numbers in <code>s</code> got duplicated to another number in the set, which results in <strong>repetition of one</strong> number and <strong>loss of another</strong> number.</p>\n\n<p>You are given an integer array <code>nums</code> representing the data status of this set after the error.</p>\n\n<p>Find the number that occurs twice and the number that is missing and return <em>them in the form of an array</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [1,2,2,4]\n<strong>Output:</strong> [2,3]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [1,1]\n<strong>Output:</strong> [1,2]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,2,4]",
+        "ExampleTestcases": "[1,2,2,4]\n[1,1]",
+        "Difficulty": "Easy",
+        "Title": "Set Mismatch",
+        "TitleSlug": "set-mismatch",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"582.3K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 582295, \"totalSubmissionRaw\": 1285063, \"acRate\": \"45.3%\"}",
+        "Likes": 5132,
+        "Dislikes": 1215,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> findErrorNums(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] findErrorNums(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findErrorNums(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar findErrorNums = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findErrorNums(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] FindErrorNums(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findErrorNums(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findErrorNums(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findErrorNums(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findErrorNums(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_error_nums(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef find_error_nums(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function findErrorNums($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> findErrorNums(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findErrorNums(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_error_nums(nums :: [integer]) :: [integer]\n  def find_error_nums(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_error_nums(Nums :: [integer()]) -> [integer()].\nfind_error_nums(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-error-nums nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:08:35.274353+01:00",
+    "AcRate": "45.3",
+    "TotalSubmissions": 1285063,
+    "TotalAccepted": 582295,
+    "AcceptanceRate": 0.4531256444236586,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/set-mismatch/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to find:\n1. The duplicate number (appears twice)\n2. The missing number (should be there but isn't)\n\nLet me analyze:\n\n**Problem Type**: Array manipulation, Set operations, Math\n\n**Key Patterns**: \n- Hash set/frequency counting to find duplicate\n- Mathematical approach: sum comparison\n- Could use XOR bit manipulation\n- Could use array indices as hash (mark visited)\n\n**Constraints Analysis**: \n- n up to 10^4, so O(n) time and O(n) space is acceptable\n- O(1) space would be optimal but not required\n\n**Edge Cases**:\n- Minimum size (n=2): [1,1] \u2192 [1,2]\n- Duplicate at start/end\n- Missing number at start/end\n\n**Approach**:\nI'll use a combination of set and sum:\n1. Find duplicate by checking what's in a set\n2. Calculate what the sum should be (1+2+...+n = n*(n+1)/2)\n3. Missing = expected_sum - (actual_sum - duplicate)\n\nOr simpler: track frequency and check what appears twice vs what's missing.\n\nLet me implement a clean solution using frequency counting:\n\n```python\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n```\n\nWait, let me verify with examples:\n- Example 1: nums = [1,2,2,4], n=4\n  - duplicate = 2\n  - expected_sum = 10, actual_sum = 9\n  - missing = 10 - (9-2) = 10 - 7 = 3 \u2713\n  \n- Example 2: nums = [1,1], n=2\n  - duplicate = 1\n  - expected_sum = 3, actual_sum = 2\n  - missing = 3 - (2-1) = 3 - 1 = 2 \u2713\n\nPerfect! This solution is O(n) time and O(n) space.\n\n=== DESIGN ===\n```python\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 18727955959,
+      "SolvedAt": "2025-11-19T23:57:26.962948+01:00",
+      "PromptTokens": 4524,
+      "OutputTokens": 996
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "645",
+        "typed_code": "\nclass Solution:\n    def findErrorNums(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        seen = set()\n        duplicate = -1\n        \n        for num in nums:\n            if num in seen:\n                duplicate = num\n            seen.add(num)\n        \n        expected_sum = n * (n + 1) // 2\n        actual_sum = sum(nums)\n        missing = expected_sum - (actual_sum - duplicate)\n        \n        return [duplicate, missing]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T09:22:50+01:00"
+    }
+  }
+}

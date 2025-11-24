@@ -12,10 +12,11 @@ def submit_problem(page, problem_file, model_name):
     with open(problem_file) as f:
         data = json.load(f)
     
-    # Check if already submitted
+    # Check if already successfully submitted
     submission = data.get("Submissions", {}).get(model_name, {})
-    if submission.get("CheckResponse", {}).get("Finished"):
-        print(f"Skipping {problem_file} - already submitted")
+    status = submission.get("CheckResponse", {}).get("status_msg")
+    if status == "Accepted":
+        print(f"Skipping {problem_file} - already accepted")
         return True
     
     # Get problem details
@@ -26,8 +27,19 @@ def submit_problem(page, problem_file, model_name):
     print(f"\nSubmitting: {title}")
     print(f"URL: {url}")
     
-    # Navigate to problem
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    # Navigate to problem with retry
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            break
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"Connection failed, retrying ({attempt + 1}/{max_retries})...")
+                time.sleep(5)
+            else:
+                print(f"Error: {e}")
+                return False
     
     # Wait for editor to be ready
     page.wait_for_selector('.monaco-editor', timeout=30000)
@@ -56,56 +68,85 @@ def submit_problem(page, problem_file, model_name):
     except:
         pass
     
-    # Clear and input code using clipboard (preserves formatting)
+    # Clear and input code - use direct JavaScript injection to avoid clipboard issues
     try:
-        # Copy code to clipboard
-        page.evaluate(f"""
-            navigator.clipboard.writeText(`{code.replace('`', '\\`')}`);
-        """)
+        # Escape the code properly for JavaScript
+        escaped_code = code.replace('\\', '\\\\').replace('`', '\\`').replace('$', '\\$')
         
-        # Focus editor and paste
-        editor = page.locator('.monaco-editor textarea').first
-        editor.click()
-        page.keyboard.press("Meta+A")
-        page.keyboard.press("Meta+V")
-        time.sleep(1)  # Brief wait for paste
-        print("Code pasted")
+        # Inject code directly into Monaco editor
+        page.evaluate(f"""
+            () => {{
+                const editor = monaco.editor.getModels()[0];
+                if (editor) {{
+                    editor.setValue(`{escaped_code}`);
+                }}
+            }}
+        """)
+        time.sleep(1)
+        print("Code injected")
     except Exception as e:
-        print(f"Error pasting code: {e}")
+        print(f"Error injecting code: {e}")
         return False
     
     # Submit
     page.click('button:has-text("Submit")')
     print("Submitted, waiting for result...")
     
-    # Wait for result to appear
+    # Wait for result to appear - try multiple strategies
+    result = None
     try:
-        page.wait_for_function("""
-            () => {
-                const text = document.body.innerText;
-                return text.includes('Accepted') || 
-                       text.includes('Wrong Answer') || 
-                       text.includes('Time Limit') || 
-                       text.includes('Runtime Error') ||
-                       text.includes('Memory Limit');
-            }
-        """, timeout=45000)
+        # Strategy 1: Wait for submission result panel (most common)
+        page.wait_for_selector('[data-e2e-locator="submission-result"]', timeout=45000)
+        time.sleep(2)
     except:
-        print("Timeout waiting for result")
+        try:
+            # Strategy 2: Wait for any result tab to appear
+            page.wait_for_selector('[role="tab"]:has-text("Accepted"), [role="tab"]:has-text("Wrong Answer"), [role="tab"]:has-text("Runtime Error")', timeout=10000)
+            time.sleep(2)
+        except:
+            # Strategy 3: Just wait and hope for the best
+            print("Waiting 20 seconds for result...")
+            time.sleep(20)
     
     # Take screenshot
     page.screenshot(path=f"logs/debug_{problem_file.stem}.png")
     print(f"Screenshot saved: logs/debug_{problem_file.stem}.png")
     
-    # Try to get result
+    # Get result from multiple possible locations
     result = page.evaluate("""
         () => {
-            const text = document.body.innerText;
-            if (text.includes('Accepted')) return 'Accepted';
-            if (text.includes('Wrong Answer')) return 'Wrong Answer';
-            if (text.includes('Time Limit Exceeded')) return 'Time Limit Exceeded';
-            if (text.includes('Runtime Error')) return 'Runtime Error';
-            if (text.includes('Memory Limit Exceeded')) return 'Memory Limit Exceeded';
+            // Method 1: Check submission result panel
+            const resultPanel = document.querySelector('[data-e2e-locator="submission-result"]');
+            if (resultPanel) {
+                const text = resultPanel.innerText;
+                if (text.includes('Accepted')) return 'Accepted';
+                if (text.includes('Wrong Answer')) return 'Wrong Answer';
+                if (text.includes('Time Limit Exceeded')) return 'Time Limit Exceeded';
+                if (text.includes('Runtime Error')) return 'Runtime Error';
+                if (text.includes('Memory Limit Exceeded')) return 'Memory Limit Exceeded';
+                if (text.includes('Compile Error')) return 'Compile Error';
+            }
+            
+            // Method 2: Check tab titles (for errors shown in tabs)
+            const tabs = document.querySelectorAll('[role="tab"]');
+            for (const tab of tabs) {
+                const text = tab.innerText;
+                if (text === 'Runtime Error') return 'Runtime Error';
+                if (text === 'Wrong Answer') return 'Wrong Answer';
+                if (text === 'Accepted') return 'Accepted';
+                if (text === 'Time Limit Exceeded') return 'Time Limit Exceeded';
+                if (text === 'Memory Limit Exceeded') return 'Memory Limit Exceeded';
+            }
+            
+            // Method 3: Check for status text anywhere on page
+            const allText = document.body.innerText;
+            if (allText.includes('Runtime Error')) return 'Runtime Error';
+            if (allText.includes('Compile Error')) return 'Compile Error';
+            if (allText.includes('Time Limit Exceeded')) return 'Time Limit Exceeded';
+            if (allText.includes('Memory Limit Exceeded')) return 'Memory Limit Exceeded';
+            if (allText.includes('Wrong Answer')) return 'Wrong Answer';
+            if (allText.includes('Accepted')) return 'Accepted';
+            
             return null;
         }
     """)
@@ -165,7 +206,8 @@ def main():
         status = submission.get("CheckResponse", {}).get("status_msg")
         finished = submission.get("CheckResponse", {}).get("Finished")
         
-        if not status or not finished:
+        # Include problems that are not submitted, or have errors
+        if not status or not finished or status in ["Runtime Error", "Wrong Answer", "Time Limit Exceeded", "Memory Limit Exceeded", "Compile Error"]:
             failed_problems.append(problem_file)
     
     print(f"Found {len(failed_problems)} problems to submit")

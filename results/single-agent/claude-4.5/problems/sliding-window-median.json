@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "480",
+        "questionId": "480",
+        "Content": "<p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.</p>\n\n<ul>\n\t<li>For examples, if <code>arr = [2,<u>3</u>,4]</code>, the median is <code>3</code>.</li>\n\t<li>For examples, if <code>arr = [1,<u>2,3</u>,4]</code>, the median is <code>(2 + 3) / 2 = 2.5</code>.</li>\n</ul>\n\n<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. There is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>\n\n<p>Return <em>the median array for each window in the original array</em>. Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3\n<strong>Output:</strong> [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\n<strong>Explanation:</strong> \nWindow position                Median\n---------------                -----\n[<strong>1  3  -1</strong>] -3  5  3  6  7        1\n 1 [<strong>3  -1  -3</strong>] 5  3  6  7       -1\n 1  3 [<strong>-1  -3  5</strong>] 3  6  7       -1\n 1  3  -1 [<strong>-3  5  3</strong>] 6  7        3\n 1  3  -1  -3 [<strong>5  3  6</strong>] 7        5\n 1  3  -1  -3  5 [<strong>3  6  7</strong>]       6\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,2,3,1,4,2], k = 3\n<strong>Output:</strong> [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,-1,-3,5,3,6,7]\n3",
+        "ExampleTestcases": "[1,3,-1,-3,5,3,6,7]\n3\n[1,2,3,4,2,3,1,4,2]\n3",
+        "Difficulty": "Hard",
+        "Title": "Sliding Window Median",
+        "TitleSlug": "sliding-window-median",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.6K\", \"totalSubmission\": \"529.8K\", \"totalAcceptedRaw\": 205634, \"totalSubmissionRaw\": 529797, \"acRate\": \"38.8%\"}",
+        "Likes": 3499,
+        "Dislikes": 231,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<double> medianSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public double[] medianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def medianSlidingWindow(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: List[float]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar medianSlidingWindow = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function medianSlidingWindow(nums: number[], k: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public double[] MedianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\ndouble* medianSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func medianSlidingWindow(nums []int, k int) []float64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun medianSlidingWindow(nums: IntArray, k: Int): DoubleArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func medianSlidingWindow(_ nums: [Int], _ k: Int) -> [Double] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn median_sliding_window(nums: Vec<i32>, k: i32) -> Vec<f64> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Float[]}\ndef median_sliding_window(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Float[]\n     */\n    function medianSlidingWindow($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<double> medianSlidingWindow(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def medianSlidingWindow(nums: Array[Int], k: Int): Array[Double] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec median_sliding_window(nums :: [integer], k :: integer) :: [float]\n  def median_sliding_window(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec median_sliding_window(Nums :: [integer()], K :: integer()) -> [float()].\nmedian_sliding_window(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (median-sliding-window nums k)\n  (-> (listof exact-integer?) exact-integer? (listof flonum?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:09.240796+01:00",
+    "AcRate": "38.8",
+    "TotalSubmissions": 529797,
+    "TotalAccepted": 205634,
+    "AcceptanceRate": 0.38813734317106363,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sliding-window-median/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.\n\tFor examples, if arr = [2,3,4], the median is 3.\n\tFor examples, if arr = [1,2,3,4], the median is (2 + 3) / 2 = 2.5.\nYou are given an integer array nums and an integer k. There is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\nReturn the median array for each window in the original array. Answers within 10^-5 of the actual value will be accepted.\n\u00a0\nExample 1:\nInput: nums = [1,3,-1,-3,5,3,6,7], k = 3\nOutput: [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\nExplanation: \nWindow position                Median\n---------------                -----\n[1  3  -1] -3  5  3  6  7        1\n 1 [3  -1  -3] 5  3  6  7       -1\n 1  3 [-1  -3  5] 3  6  7       -1\n 1  3  -1 [-3  5  3] 6  7        3\n 1  3  -1  -3 [5  3  6] 7        5\n 1  3  -1  -3  5 [3  6  7]       6\nExample 2:\nInput: nums = [1,2,3,4,2,3,1,4,2], k = 3\nOutput: [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n\u00a0\nConstraints:\n\t1 <= k <= nums.length <= 10^5\n\t-2^31 <= nums[i] <= 2^31 - 1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the median of each sliding window of size k. The challenge is to do this efficiently.\n\nThe key insight is to maintain the window in a sorted state as it slides. I'll use two heaps (max heap for the smaller half, min heap for the larger half) to efficiently track the median, similar to the \"Find Median from Data Stream\" problem. However, since we also need to remove elements, I'll use a different approach with a sorted container.\n\nActually, let me use a simpler approach with Python's `bisect` module to maintain a sorted list:\n\n```python\nfrom typing import List\nimport bisect\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        def get_median(sorted_window):\n            n = len(sorted_window)\n            if n % 2 == 1:\n                return float(sorted_window[n // 2])\n            else:\n                return (sorted_window[n // 2 - 1] + sorted_window[n // 2]) / 2.0\n        \n        result = []\n        window = sorted(nums[:k])\n        result.append(get_median(window))\n        \n        for i in range(k, len(nums)):\n            old_val = nums[i - k]\n            new_val = nums[i]\n            \n            idx = bisect.bisect_left(window, old_val)\n            window.pop(idx)\n            \n            bisect.insort(window, new_val)\n            \n            result.append(get_median(window))\n        \n        return result\n```\n\nWait, this approach might be O(n*k) in the worst case due to insertion/deletion in a list. Let me reconsider using a heap-based approach with lazy deletion.\n\nActually, for the constraints given (n <= 10^5, k <= n), the bisect approach should work fine. Let me optimize it slightly:\n\n```python\nfrom typing import List\nimport bisect\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        result = []\n        window = sorted(nums[:k])\n        \n        for i in range(len(nums) - k + 1):\n            if k % 2 == 1:\n                result.append(float(window[k // 2]))\n            else:\n                result.append((window[k // 2 - 1] + window[k // 2]) / 2.0)\n            \n            if i + k < len(nums):\n                old_val = nums[i]\n                new_val = nums[i + k]\n                \n                idx = bisect.bisect_left(window, old_val)\n                window.pop(idx)\n                \n                bisect.insort(window, new_val)\n        \n        return result\n```\n\nThis solution:\n1. Initializes the first window and sorts it\n2. For each window position, calculates the median from the sorted window\n3. Slides the window by removing the leftmost element and adding the new rightmost element\n4. Uses binary search (bisect_left) to find the element to remove efficiently\n5. Uses insort to insert the new element in sorted order\n\nThe time complexity is O(n*k) where we have n-k+1 windows, and for each we do O(k) operations for insertion/deletion. This should be acceptable for the given constraints.",
+      "TypedCode": "\nfrom typing import List\nimport bisect\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        def get_median(sorted_window):\n            n = len(sorted_window)\n            if n % 2 == 1:\n                return float(sorted_window[n // 2])\n            else:\n                return (sorted_window[n // 2 - 1] + sorted_window[n // 2]) / 2.0\n        \n        result = []\n        window = sorted(nums[:k])\n        result.append(get_median(window))\n        \n        for i in range(k, len(nums)):\n            old_val = nums[i - k]\n            new_val = nums[i]\n            \n            idx = bisect.bisect_left(window, old_val)\n            window.pop(idx)\n            \n            bisect.insort(window, new_val)\n            \n            result.append(get_median(window))\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 13844257709,
+      "SolvedAt": "2025-11-19T21:53:26.216041+01:00",
+      "PromptTokens": 757,
+      "OutputTokens": 821
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "480",
+        "typed_code": "\nfrom typing import List\nimport bisect\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        def get_median(sorted_window):\n            n = len(sorted_window)\n            if n % 2 == 1:\n                return float(sorted_window[n // 2])\n            else:\n                return (sorted_window[n // 2 - 1] + sorted_window[n // 2]) / 2.0\n        \n        result = []\n        window = sorted(nums[:k])\n        result.append(get_median(window))\n        \n        for i in range(k, len(nums)):\n            old_val = nums[i - k]\n            new_val = nums[i]\n            \n            idx = bisect.bisect_left(window, old_val)\n            window.pop(idx)\n            \n            bisect.insort(window, new_val)\n            \n            result.append(get_median(window))\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:07:00+01:00"
+    }
+  }
+}

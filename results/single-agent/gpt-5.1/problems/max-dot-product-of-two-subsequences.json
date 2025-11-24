@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1458",
+        "questionId": "1569",
+        "Content": "<p>Given two arrays <code>nums1</code>&nbsp;and <code><font face=\"monospace\">nums2</font></code><font face=\"monospace\">.</font></p>\n\n<p>Return the maximum dot product&nbsp;between&nbsp;<strong>non-empty</strong> subsequences of nums1 and nums2 with the same length.</p>\n\n<p>A subsequence of a array is a new array which is formed from the original array by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie,&nbsp;<code>[2,3,5]</code>&nbsp;is a subsequence of&nbsp;<code>[1,2,3,4,5]</code>&nbsp;while <code>[1,5,3]</code>&nbsp;is not).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [2,1,-2,5], nums2 = [3,0,-6]\n<strong>Output:</strong> 18\n<strong>Explanation:</strong> Take subsequence [2,-2] from nums1 and subsequence [3,-6] from nums2.\nTheir dot product is (2*3 + (-2)*(-6)) = 18.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [3,-2], nums2 = [2,-6,7]\n<strong>Output:</strong> 21\n<strong>Explanation:</strong> Take subsequence [3] from nums1 and subsequence [7] from nums2.\nTheir dot product is (3*7) = 21.</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [-1,-1], nums2 = [1,1]\n<strong>Output:</strong> -1\n<strong>Explanation: </strong>Take subsequence [-1] from nums1 and subsequence [1] from nums2.\nTheir dot product is -1.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums1.length, nums2.length &lt;= 500</code></li>\n\t<li><code>-1000 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,1,-2,5]\n[3,0,-6]",
+        "ExampleTestcases": "[2,1,-2,5]\n[3,0,-6]\n[3,-2]\n[2,-6,7]\n[-1,-1]\n[1,1]",
+        "Difficulty": "Hard",
+        "Title": "Max Dot Product of Two Subsequences",
+        "TitleSlug": "max-dot-product-of-two-subsequences",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"84.6K\", \"totalSubmission\": \"135.6K\", \"totalAcceptedRaw\": 84626, \"totalSubmissionRaw\": 135632, \"acRate\": \"62.4%\"}",
+        "Likes": 1700,
+        "Dislikes": 33,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxDotProduct(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxDotProduct(int[] nums1, int[] nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxDotProduct(self, nums1, nums2):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar maxDotProduct = function(nums1, nums2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxDotProduct(nums1: number[], nums2: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxDotProduct(int[] nums1, int[] nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxDotProduct(int* nums1, int nums1Size, int* nums2, int nums2Size) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxDotProduct(nums1 []int, nums2 []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxDotProduct(nums1: IntArray, nums2: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxDotProduct(_ nums1: [Int], _ nums2: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_dot_product(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @return {Integer}\ndef max_dot_product(nums1, nums2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @return Integer\n     */\n    function maxDotProduct($nums1, $nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxDotProduct(List<int> nums1, List<int> nums2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxDotProduct(nums1: Array[Int], nums2: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_dot_product(nums1 :: [integer], nums2 :: [integer]) :: integer\n  def max_dot_product(nums1, nums2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_dot_product(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmax_dot_product(Nums1, Nums2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-dot-product nums1 nums2)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:20:07.350578+01:00",
+    "AcRate": "62.4",
+    "TotalSubmissions": 135632,
+    "TotalAccepted": 84626,
+    "AcceptanceRate": 0.6239383036451575,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/max-dot-product-of-two-subsequences/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given two arrays nums1\u00a0and nums2.\nReturn the maximum dot product\u00a0between\u00a0non-empty subsequences of nums1 and nums2 with the same length.\nA subsequence of a array is a new array which is formed from the original array by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie,\u00a0[2,3,5]\u00a0is a subsequence of\u00a0[1,2,3,4,5]\u00a0while [1,5,3]\u00a0is not).\n\u00a0\nExample 1:\nInput: nums1 = [2,1,-2,5], nums2 = [3,0,-6]\nOutput: 18\nExplanation: Take subsequence [2,-2] from nums1 and subsequence [3,-6] from nums2.\nTheir dot product is (2*3 + (-2)*(-6)) = 18.\nExample 2:\nInput: nums1 = [3,-2], nums2 = [2,-6,7]\nOutput: 21\nExplanation: Take subsequence [3] from nums1 and subsequence [7] from nums2.\nTheir dot product is (3*7) = 21.\nExample 3:\nInput: nums1 = [-1,-1], nums2 = [1,1]\nOutput: -1\nExplanation: Take subsequence [-1] from nums1 and subsequence [1] from nums2.\nTheir dot product is -1.\n\u00a0\nConstraints:\n\t1 <= nums1.length, nums2.length <= 500\n\t-1000 <= nums1[i], nums2[i] <= 1000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "from typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        neg_inf = float('-inf')\n        dp = [[neg_inf] * n for _ in range(m)]\n        \n        for i in range(m):\n            for j in range(n):\n                prod = nums1[i] * nums2[j]\n                cur = prod\n                if i > 0 and j > 0:\n                    cur = max(cur, prod + max(dp[i - 1][j - 1], 0))\n                if i > 0:\n                    cur = max(cur, dp[i - 1][j])\n                if j > 0:\n                    cur = max(cur, dp[i][j - 1])\n                dp[i][j] = cur\n        \n        return dp[m - 1][n - 1]",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        neg_inf = float('-inf')\n        dp = [[neg_inf] * n for _ in range(m)]\n        \n        for i in range(m):\n            for j in range(n):\n                prod = nums1[i] * nums2[j]\n                cur = prod\n                if i > 0 and j > 0:\n                    cur = max(cur, prod + max(dp[i - 1][j - 1], 0))\n                if i > 0:\n                    cur = max(cur, dp[i - 1][j])\n                if j > 0:\n                    cur = max(cur, dp[i][j - 1])\n                dp[i][j] = cur\n        \n        return dp[m - 1][n - 1]",
+      "Model": "openai/gpt-5.1",
+      "Latency": 10354067167,
+      "SolvedAt": "2025-11-19T10:27:32.436851+01:00",
+      "PromptTokens": 561,
+      "OutputTokens": 660
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1569",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        neg_inf = float('-inf')\n        dp = [[neg_inf] * n for _ in range(m)]\n        \n        for i in range(m):\n            for j in range(n):\n                prod = nums1[i] * nums2[j]\n                cur = prod\n                if i > 0 and j > 0:\n                    cur = max(cur, prod + max(dp[i - 1][j - 1], 0))\n                if i > 0:\n                    cur = max(cur, dp[i - 1][j])\n                if j > 0:\n                    cur = max(cur, dp[i][j - 1])\n                dp[i][j] = cur\n        \n        return dp[m - 1][n - 1]"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T12:39:13+01:00"
+    }
+  }
+}

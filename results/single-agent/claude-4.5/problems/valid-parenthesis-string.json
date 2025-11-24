@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "678",
+        "questionId": "678",
+        "Content": "<p>Given a string <code>s</code> containing only three types of characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> and <code>&#39;*&#39;</code>, return <code>true</code> <em>if</em> <code>s</code> <em>is <strong>valid</strong></em>.</p>\n\n<p>The following rules define a <strong>valid</strong> string:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>&#39;(&#39;</code> must have a corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li>Any right parenthesis <code>&#39;)&#39;</code> must have a corresponding left parenthesis <code>&#39;(&#39;</code>.</li>\n\t<li>Left parenthesis <code>&#39;(&#39;</code> must go before the corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li><code>&#39;*&#39;</code> could be treated as a single right parenthesis <code>&#39;)&#39;</code> or a single left parenthesis <code>&#39;(&#39;</code> or an empty string <code>&quot;&quot;</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"()\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"(*)\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \"(*))\"\n<strong>Output:</strong> true\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s[i]</code> is <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"()\"",
+        "ExampleTestcases": "\"()\"\n\"(*)\"\n\"(*))\"",
+        "Difficulty": "Medium",
+        "Title": "Valid Parenthesis String",
+        "TitleSlug": "valid-parenthesis-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"541.3K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 541328, \"totalSubmissionRaw\": 1369036, \"acRate\": \"39.5%\"}",
+        "Likes": 6815,
+        "Dislikes": 217,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkValidString(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkValidString(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkValidString(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkValidString(s: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckValidString(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkValidString(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkValidString(s string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkValidString(s: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkValidString(_ s: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_valid_string(s: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Boolean}\ndef check_valid_string(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Boolean\n     */\n    function checkValidString($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkValidString(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkValidString(s: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_valid_string(s :: String.t) :: boolean\n  def check_valid_string(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_valid_string(S :: unicode:unicode_binary()) -> boolean().\ncheck_valid_string(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-valid-string s)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:00.013178+01:00",
+    "AcRate": "39.5",
+    "TotalSubmissions": 1369036,
+    "TotalAccepted": 541328,
+    "AcceptanceRate": 0.3954081558118267,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/valid-parenthesis-string/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string s containing only three types of characters: '(', ')' and '*', return true if s is valid.\nThe following rules define a valid string:\n\tAny left parenthesis '(' must have a corresponding right parenthesis ')'.\n\tAny right parenthesis ')' must have a corresponding left parenthesis '('.\n\tLeft parenthesis '(' must go before the corresponding right parenthesis ')'.\n\t'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string \"\".\n\u00a0\nExample 1:\nInput: s = \"()\"\nOutput: true\nExample 2:\nInput: s = \"(*)\"\nOutput: true\nExample 3:\nInput: s = \"(*))\"\nOutput: true\n\u00a0\nConstraints:\n\t1 <= s.length <= 100\n\ts[i] is '(', ')' or '*'.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def checkValidString(self, s: str) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to validate a string with parentheses where '*' can be treated as '(', ')', or empty string.\n\nThe key insight is to track the range of possible open parentheses counts as we scan through the string:\n- Maintain a minimum and maximum count of possible open parentheses\n- For '(': both min and max increase by 1\n- For ')': both min and max decrease by 1\n- For '*': min decreases by 1 (treating as ')' or empty), max increases by 1 (treating as '(')\n\nAt any point, if max becomes negative, we have too many ')' that can't be balanced - return false.\nWe keep min at least 0 (can't have negative open parens in reality).\nAt the end, min should be 0 (meaning there's a valid way to balance everything).\n\nLet me trace through Example 3: \"(*))\"\n- i=0, '(': min=1, max=1\n- i=1, '*': min=0, max=2\n- i=2, ')': min=-1\u21920, max=1\n- i=3, ')': min=-1\u21920, max=0\n- Result: min=0, return true \u2713\n\n```python\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        min_open = 0\n        max_open = 0\n        \n        for char in s:\n            if char == '(':\n                min_open += 1\n                max_open += 1\n            elif char == ')':\n                min_open -= 1\n                max_open -= 1\n            else:\n                min_open -= 1\n                max_open += 1\n            \n            if max_open < 0:\n                return False\n            \n            if min_open < 0:\n                min_open = 0\n        \n        return min_open == 0\n```",
+      "TypedCode": "\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        min_open = 0\n        max_open = 0\n        \n        for char in s:\n            if char == '(':\n                min_open += 1\n                max_open += 1\n            elif char == ')':\n                min_open -= 1\n                max_open -= 1\n            else:\n                min_open -= 1\n                max_open += 1\n            \n            if max_open < 0:\n                return False\n            \n            if min_open < 0:\n                min_open = 0\n        \n        return min_open == 0\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 9568357167,
+      "SolvedAt": "2025-11-19T21:55:59.829068+01:00",
+      "PromptTokens": 436,
+      "OutputTokens": 451
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "678",
+        "typed_code": "\nclass Solution:\n    def checkValidString(self, s: str) -> bool:\n        min_open = 0\n        max_open = 0\n        \n        for char in s:\n            if char == '(':\n                min_open += 1\n                max_open += 1\n            elif char == ')':\n                min_open -= 1\n                max_open -= 1\n            else:\n                min_open -= 1\n                max_open += 1\n            \n            if max_open < 0:\n                return False\n            \n            if min_open < 0:\n                min_open = 0\n        \n        return min_open == 0\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:34:12+01:00"
+    }
+  }
+}

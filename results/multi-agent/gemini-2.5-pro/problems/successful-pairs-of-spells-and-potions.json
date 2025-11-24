@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2300",
+        "questionId": "2392",
+        "Content": "<p>You are given two positive integer arrays <code>spells</code> and <code>potions</code>, of length <code>n</code> and <code>m</code> respectively, where <code>spells[i]</code> represents the strength of the <code>i<sup>th</sup></code> spell and <code>potions[j]</code> represents the strength of the <code>j<sup>th</sup></code> potion.</p>\n\n<p>You are also given an integer <code>success</code>. A spell and potion pair is considered <strong>successful</strong> if the <strong>product</strong> of their strengths is <strong>at least</strong> <code>success</code>.</p>\n\n<p>Return <em>an integer array </em><code>pairs</code><em> of length </em><code>n</code><em> where </em><code>pairs[i]</code><em> is the number of <strong>potions</strong> that will form a successful pair with the </em><code>i<sup>th</sup></code><em> spell.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> spells = [5,1,3], potions = [1,2,3,4,5], success = 7\n<strong>Output:</strong> [4,0,3]\n<strong>Explanation:</strong>\n- 0<sup>th</sup> spell: 5 * [1,2,3,4,5] = [5,<u><strong>10</strong></u>,<u><strong>15</strong></u>,<u><strong>20</strong></u>,<u><strong>25</strong></u>]. 4 pairs are successful.\n- 1<sup>st</sup> spell: 1 * [1,2,3,4,5] = [1,2,3,4,5]. 0 pairs are successful.\n- 2<sup>nd</sup> spell: 3 * [1,2,3,4,5] = [3,6,<u><strong>9</strong></u>,<u><strong>12</strong></u>,<u><strong>15</strong></u>]. 3 pairs are successful.\nThus, [4,0,3] is returned.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> spells = [3,1,2], potions = [8,5,8], success = 16\n<strong>Output:</strong> [2,0,2]\n<strong>Explanation:</strong>\n- 0<sup>th</sup> spell: 3 * [8,5,8] = [<u><strong>24</strong></u>,15,<u><strong>24</strong></u>]. 2 pairs are successful.\n- 1<sup>st</sup> spell: 1 * [8,5,8] = [8,5,8]. 0 pairs are successful. \n- 2<sup>nd</sup> spell: 2 * [8,5,8] = [<strong><u>16</u></strong>,10,<u><strong>16</strong></u>]. 2 pairs are successful. \nThus, [2,0,2] is returned.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == spells.length</code></li>\n\t<li><code>m == potions.length</code></li>\n\t<li><code>1 &lt;= n, m &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= spells[i], potions[i] &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= success &lt;= 10<sup>10</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[5,1,3]\n[1,2,3,4,5]\n7",
+        "ExampleTestcases": "[5,1,3]\n[1,2,3,4,5]\n7\n[3,1,2]\n[8,5,8]\n16",
+        "Difficulty": "Medium",
+        "Title": "Successful Pairs of Spells and Potions",
+        "TitleSlug": "successful-pairs-of-spells-and-potions",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"362.7K\", \"totalSubmission\": \"736.4K\", \"totalAcceptedRaw\": 362706, \"totalSubmissionRaw\": 736363, \"acRate\": \"49.3%\"}",
+        "Likes": 3151,
+        "Dislikes": 104,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] successfulPairs(int[] spells, int[] potions, long success) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def successfulPairs(self, spells, potions, success):\n        \"\"\"\n        :type spells: List[int]\n        :type potions: List[int]\n        :type success: int\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} spells\n * @param {number[]} potions\n * @param {number} success\n * @return {number[]}\n */\nvar successfulPairs = function(spells, potions, success) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function successfulPairs(spells: number[], potions: number[], success: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SuccessfulPairs(int[] spells, int[] potions, long success) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* successfulPairs(int* spells, int spellsSize, int* potions, int potionsSize, long long success, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func successfulPairs(spells []int, potions []int, success int64) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun successfulPairs(spells: IntArray, potions: IntArray, success: Long): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func successfulPairs(_ spells: [Int], _ potions: [Int], _ success: Int) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn successful_pairs(spells: Vec<i32>, potions: Vec<i32>, success: i64) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} spells\n# @param {Integer[]} potions\n# @param {Integer} success\n# @return {Integer[]}\ndef successful_pairs(spells, potions, success)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $spells\n     * @param Integer[] $potions\n     * @param Integer $success\n     * @return Integer[]\n     */\n    function successfulPairs($spells, $potions, $success) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> successfulPairs(List<int> spells, List<int> potions, int success) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def successfulPairs(spells: Array[Int], potions: Array[Int], success: Long): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec successful_pairs(spells :: [integer], potions :: [integer], success :: integer) :: [integer]\n  def successful_pairs(spells, potions, success) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec successful_pairs(Spells :: [integer()], Potions :: [integer()], Success :: integer()) -> [integer()].\nsuccessful_pairs(Spells, Potions, Success) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (successful-pairs spells potions success)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:40:29.830982+01:00",
+    "AcRate": "49.3",
+    "TotalSubmissions": 736363,
+    "TotalAccepted": 362706,
+    "AcceptanceRate": 0.4925641293764081,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        \"\"\"\n        Calculates the number of successful pairs for each spell.\n\n        A brute-force approach would be to iterate through each spell and then\n        iterate through all potions, checking the product. This would be O(n*m),\n        which is too slow given the constraints (n, m <= 10^5).\n\n        A more efficient approach involves sorting and binary search.\n        The condition for a successful pair is:\n        spell * potion >= success\n        This can be rearranged to:\n        potion >= success / spell\n\n        For each spell, we need to count how many potions meet this criterion.\n        If we sort the 'potions' array first, we can use binary search to\n        efficiently find the first potion that is strong enough.\n\n        Algorithm:\n        1. Sort the `potions` array in non-decreasing order. This takes O(m log m).\n        2. Initialize an empty list `pairs` to store the results.\n        3. For each `spell` in the `spells` array (O(n) iterations):\n           a. Calculate the minimum potion strength required: `min_strength = success / spell`.\n           b. Use binary search (specifically, `bisect_left`) on the sorted `potions`\n              array to find the index of the first potion whose strength is at least\n              `min_strength`. This takes O(log m).\n           c. All potions from this index to the end of the array will form a\n              successful pair. The number of such potions is `m - index`, where `m` is\n              the total number of potions.\n           d. Append this count to the `pairs` list.\n        4. Return the `pairs` list.\n\n        The total time complexity will be O(m log m + n log m), which is efficient\n        enough for the given constraints. The space complexity will be O(n) to\n        store the result list (or O(1) if we modify the input `spells` array in place,\n        but returning a new list is better practice).\n        \"\"\"\n        \n        potions.sort()\n        m = len(potions)\n        \n        result_pairs = []\n        \n        for spell_strength in spells:\n            min_potion_strength = success / spell_strength\n            \n            # bisect_left finds the index of the first element in potions\n            # that is greater than or equal to min_potion_strength.\n            first_valid_idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            # The number of successful potions is the total number of potions\n            # minus the index of the first valid one.\n            count = m - first_valid_idx\n            result_pairs.append(count)\n            \n        return result_pairs\n```\n\n=== DESIGN ===\n```python\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        potions.sort()\n        m = len(potions)\n        \n        pairs = []\n        for spell in spells:\n            # We need spell * potion >= success.\n            # This is equivalent to potion >= success / spell.\n            # We calculate the minimum required strength for a potion.\n            min_potion_strength = success / spell\n            \n            # We use binary search to find the index of the first potion\n            # that has a strength greater than or equal to the minimum required.\n            # bisect_left finds the correct insertion point, which corresponds to this index.\n            idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            # The number of successful potions is the total number of potions\n            # minus the index of the first successful one. All potions from this index\n            # to the end of the sorted array will form a successful pair.\n            count = m - idx\n            pairs.append(count)\n            \n        return pairs\n```\n\n=== IMPLEMENTATION ===\n```python\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        potions.sort()\n        m = len(potions)\n        \n        pairs = []\n        for spell in spells:\n            min_potion_strength = success / spell\n            \n            idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            count = m - idx\n            pairs.append(count)\n            \n        return pairs\n```\n\n=== VERIFICATION ===\nAn excellent and thorough analysis has been provided. The proposed solution is correct, efficient, and well-designed.\n\nHere is the verification report:\n\n### Verification Report\n\n1.  **Correctness**: The logic is sound. The core of the problem is, for each `spell`, to find the number of `potion` values such that `potion >= success / spell`. By sorting the `potions` array, this counting problem can be solved efficiently. The algorithm correctly uses `bisect.bisect_left` to find the index of the first potion that meets this requirement. The number of successful potions is then correctly calculated as `m - index`. The use of floating-point division `success / spell` is safe and correct in this context, as `bisect_left` handles float arguments properly, and potential precision issues are not a concern with the given constraints on input values.\n\n2.  **Edge Cases**: The solution correctly handles various scenarios:\n    *   If `success / spell` is greater than all potion strengths, `bisect_left` will return `m`, resulting in a count of `m - m = 0`.\n    *   If `success / spell` is less than or equal to the smallest potion strength, `bisect_left` will return `0`, resulting in a count of `m - 0 = m`.\n    *   The constraints `1 <= n, m` mean the input lists are never empty, so no special handling for empty lists is required.\n\n3.  **Complexity**:\n    *   **Time**: `O(m log m + n log m)`. Sorting `potions` takes `O(m log m)`. The subsequent loop runs `n` times, with each iteration performing a binary search on `potions` which takes `O(log m)`. This complexity is efficient and meets the requirements for the given constraints (`n, m <= 10^5`).\n    *   **Space**: `O(n)` (or `O(m)` if the space for sorting is considered, as Python's Timsort can use `O(m)` space in the worst case). The space is primarily for the `pairs` result list, which is `O(n)`. This is well within typical memory limits.\n\n4.  **Code Quality**: The code is clean, concise, and easy to understand. It leverages Python's standard library (`bisect`) effectively, which is a best practice. Variable names are clear and descriptive. The implementation directly reflects the efficient algorithm described in the analysis.\n\n5.  **Test Cases**:\n    *   **Example 1**: `spells = [5,1,3], potions = [1,2,3,4,5], success = 7`.\n        *   `potions` is sorted: `[1,2,3,4,5]`.\n        *   For `spell = 5`: `min_potion = 1.4`. `bisect_left` finds index 1. Count = `5 - 1 = 4`.\n        *   For `spell = 1`: `min_potion = 7.0`. `bisect_left` finds index 5. Count = `5 - 5 = 0`.\n        *   For `spell = 3`: `min_potion = 2.33`. `bisect_left` finds index 2. Count = `5 - 2 = 3`.\n        *   Result: `[4, 0, 3]`. Correct.\n    *   **Example 2**: `spells = [3,1,2], potions = [8,5,8], success = 16`.\n        *   `potions` is sorted: `[5,8,8]`.\n        *   For `spell = 3`: `min_potion = 5.33`. `bisect_left` finds index 1. Count = `3 - 1 = 2`.\n        *   For `spell = 1`: `min_potion = 16.0`. `bisect_left` finds index 3. Count = `3 - 3 = 0`.\n        *   For `spell = 2`: `min_potion = 8.0`. `bisect_left` finds index 1. Count = `3 - 1 = 2`.\n        *   Result: `[2, 0, 2]`. Correct.\n\n6.  **Potential Issues**: There are no bugs or logical errors. The solution is robust. An alternative using integer ceiling division (`(success + spell - 1) // spell`) would also work but offers no significant advantage over the current floating-point approach, which is correct and readable.\n\n**Conclusion**: The provided solution is valid, correct, and meets all requirements.\n\n```python\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        potions.sort()\n        m = len(potions)\n        \n        pairs = []\n        for spell in spells:\n            min_potion_strength = success / spell\n            \n            idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            count = m - idx\n            pairs.append(count)\n            \n        return pairs\n```\n\n",
+      "TypedCode": "\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        potions.sort()\n        m = len(potions)\n        \n        pairs = []\n        for spell in spells:\n            min_potion_strength = success / spell\n            \n            idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            count = m - idx\n            pairs.append(count)\n            \n        return pairs\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 266938359209,
+      "SolvedAt": "2025-11-21T18:12:42.8814+01:00",
+      "PromptTokens": 6323,
+      "OutputTokens": 28840
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2392",
+        "typed_code": "\nimport bisect\nfrom typing import List\n\nclass Solution:\n    def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:\n        potions.sort()\n        m = len(potions)\n        \n        pairs = []\n        for spell in spells:\n            min_potion_strength = success / spell\n            \n            idx = bisect.bisect_left(potions, min_potion_strength)\n            \n            count = m - idx\n            pairs.append(count)\n            \n        return pairs\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:34:58+01:00"
+    }
+  }
+}

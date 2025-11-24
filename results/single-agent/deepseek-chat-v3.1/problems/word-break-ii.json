@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "140",
+        "questionId": "140",
+        "Content": "<p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>\n\n<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsanddog&quot;, wordDict = [&quot;cat&quot;,&quot;cats&quot;,&quot;and&quot;,&quot;sand&quot;,&quot;dog&quot;]\n<strong>Output:</strong> [&quot;cats and dog&quot;,&quot;cat sand dog&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pineapplepenapple&quot;, wordDict = [&quot;apple&quot;,&quot;pen&quot;,&quot;applepen&quot;,&quot;pine&quot;,&quot;pineapple&quot;]\n<strong>Output:</strong> [&quot;pine apple pen apple&quot;,&quot;pineapple pen apple&quot;,&quot;pine applepen apple&quot;]\n<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;,&quot;dog&quot;,&quot;sand&quot;,&quot;and&quot;,&quot;cat&quot;]\n<strong>Output:</strong> []\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>\n\t<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>\n\t<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>\n\t<li>Input is generated in a way that the length of the answer doesn&#39;t exceed&nbsp;10<sup>5</sup>.</li>\n</ul>\n",
+        "SampleTestCase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+        "ExampleTestcases": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\n\"pineapplepenapple\"\n[\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\n\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Break II",
+        "TitleSlug": "word-break-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"784.4K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 784415, \"totalSubmissionRaw\": 1437245, \"acRate\": \"54.6%\"}",
+        "Likes": 7493,
+        "Dislikes": 545,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> wordBreak(String s, List<String> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def wordBreak(self, s, wordDict):\n        \"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function wordBreak(s: string, wordDict: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func wordBreak(s string, wordDict []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun wordBreak(s: String, wordDict: List<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn word_break(s: String, word_dict: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String[]} word_dict\n# @return {String[]}\ndef word_break(s, word_dict)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $wordDict\n     * @return String[]\n     */\n    function wordBreak($s, $wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> wordBreak(String s, List<String> wordDict) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec word_break(s :: String.t, word_dict :: [String.t]) :: [String.t]\n  def word_break(s, word_dict) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_break(S :: unicode:unicode_binary(), WordDict :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nword_break(S, WordDict) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (word-break s wordDict)\n  (-> string? (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:09.102829+01:00",
+    "AcRate": "54.6",
+    "TotalSubmissions": 1437245,
+    "TotalAccepted": 784415,
+    "AcceptanceRate": 0.5457768160612839,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-break-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string s and a dictionary of strings wordDict, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in any order.\nNote that the same word in the dictionary may be reused multiple times in the segmentation.\n\u00a0\nExample 1:\nInput: s = \"catsanddog\", wordDict = [\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\nOutput: [\"cats and dog\",\"cat sand dog\"]\nExample 2:\nInput: s = \"pineapplepenapple\", wordDict = [\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\nOutput: [\"pine apple pen apple\",\"pineapple pen apple\",\"pine applepen apple\"]\nExplanation: Note that you are allowed to reuse a dictionary word.\nExample 3:\nInput: s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]\nOutput: []\n\u00a0\nConstraints:\n\t1 <= s.length <= 20\n\t1 <= wordDict.length <= 1000\n\t1 <= wordDict[i].length <= 10\n\ts and wordDict[i] consist of only lowercase English letters.\n\tAll the strings of wordDict are unique.\n\tInput is generated in a way that the length of the answer doesn't exceed\u00a010^5.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        wordSet = set(wordDict)\n        memo = {}\n        \n        def backtrack(start):\n            if start in memo:\n                return memo[start]\n            if start == len(s):\n                return [\"\"]\n            results = []\n            for end in range(start + 1, len(s) + 1):\n                word = s[start:end]\n                if word in wordSet:\n                    for sentence in backtrack(end):\n                        if sentence:\n                            results.append(word + \" \" + sentence)\n                        else:\n                            results.append(word)\n            memo[start] = results\n            return results\n        \n        return backtrack(0)\n```",
+      "TypedCode": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        wordSet = set(wordDict)\n        memo = {}\n        \n        def backtrack(start):\n            if start in memo:\n                return memo[start]\n            if start == len(s):\n                return [\"\"]\n            results = []\n            for end in range(start + 1, len(s) + 1):\n                word = s[start:end]\n                if word in wordSet:\n                    for sentence in backtrack(end):\n                        if sentence:\n                            results.append(word + \" \" + sentence)\n                        else:\n                            results.append(word)\n            memo[start] = results\n            return results\n        \n        return backtrack(0)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 13646458542,
+      "SolvedAt": "2025-11-20T21:29:43.002939+01:00",
+      "PromptTokens": 479,
+      "OutputTokens": 151
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "140",
+        "typed_code": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        wordSet = set(wordDict)\n        memo = {}\n        \n        def backtrack(start):\n            if start in memo:\n                return memo[start]\n            if start == len(s):\n                return [\"\"]\n            results = []\n            for end in range(start + 1, len(s) + 1):\n                word = s[start:end]\n                if word in wordSet:\n                    for sentence in backtrack(end):\n                        if sentence:\n                            results.append(word + \" \" + sentence)\n                        else:\n                            results.append(word)\n            memo[start] = results\n            return results\n        \n        return backtrack(0)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:26:36+01:00"
+    }
+  }
+}

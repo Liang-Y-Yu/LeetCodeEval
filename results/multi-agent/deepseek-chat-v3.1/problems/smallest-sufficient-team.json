@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1125",
+        "questionId": "1220",
+        "Content": "<p>In a project, you have a list of required skills <code>req_skills</code>, and a list of people. The <code>i<sup>th</sup></code> person <code>people[i]</code> contains a list of skills that the person has.</p>\n\n<p>Consider a sufficient team: a set of people such that for every required skill in <code>req_skills</code>, there is at least one person in the team who has that skill. We can represent these teams by the index of each person.</p>\n\n<ul>\n\t<li>For example, <code>team = [0, 1, 3]</code> represents the people with skills <code>people[0]</code>, <code>people[1]</code>, and <code>people[3]</code>.</li>\n</ul>\n\n<p>Return <em>any sufficient team of the smallest possible size, represented by the index of each person</em>. You may return the answer in <strong>any order</strong>.</p>\n\n<p>It is <strong>guaranteed</strong> an answer exists.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n<strong>Output:</strong> [0,2]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\n<strong>Output:</strong> [1,2]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= req_skills.length &lt;= 16</code></li>\n\t<li><code>1 &lt;= req_skills[i].length &lt;= 16</code></li>\n\t<li><code>req_skills[i]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>req_skills</code> are <strong>unique</strong>.</li>\n\t<li><code>1 &lt;= people.length &lt;= 60</code></li>\n\t<li><code>0 &lt;= people[i].length &lt;= 16</code></li>\n\t<li><code>1 &lt;= people[i][j].length &lt;= 16</code></li>\n\t<li><code>people[i][j]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>people[i]</code> are <strong>unique</strong>.</li>\n\t<li>Every skill in <code>people[i]</code> is a skill in <code>req_skills</code>.</li>\n\t<li>It is guaranteed a sufficient team exists.</li>\n</ul>\n",
+        "SampleTestCase": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]",
+        "ExampleTestcases": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n[\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"]\n[[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]",
+        "Difficulty": "Hard",
+        "Title": "Smallest Sufficient Team",
+        "TitleSlug": "smallest-sufficient-team",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"70.9K\", \"totalSubmission\": \"128.1K\", \"totalAcceptedRaw\": 70869, \"totalSubmissionRaw\": 128052, \"acRate\": \"55.3%\"}",
+        "Likes": 2254,
+        "Dislikes": 57,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDc4",
+            "Name": "Bitmask",
+            "Slug": "bitmask"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] smallestSufficientTeam(String[] req_skills, List<List<String>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestSufficientTeam(self, req_skills, people):\n        \"\"\"\n        :type req_skills: List[str]\n        :type people: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} req_skills\n * @param {string[][]} people\n * @return {number[]}\n */\nvar smallestSufficientTeam = function(req_skills, people) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestSufficientTeam(req_skills: string[], people: string[][]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* smallestSufficientTeam(char** req_skills, int req_skillsSize, char*** people, int peopleSize, int* peopleColSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestSufficientTeam(req_skills []string, people [][]string) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestSufficientTeam(req_skills: Array<String>, people: List<List<String>>): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestSufficientTeam(_ req_skills: [String], _ people: [[String]]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_sufficient_team(req_skills: Vec<String>, people: Vec<Vec<String>>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} req_skills\n# @param {String[][]} people\n# @return {Integer[]}\ndef smallest_sufficient_team(req_skills, people)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $req_skills\n     * @param String[][] $people\n     * @return Integer[]\n     */\n    function smallestSufficientTeam($req_skills, $people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> smallestSufficientTeam(List<String> req_skills, List<List<String>> people) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestSufficientTeam(req_skills: Array[String], people: List[List[String]]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_sufficient_team(req_skills :: [String.t], people :: [[String.t]]) :: [integer]\n  def smallest_sufficient_team(req_skills, people) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_sufficient_team(Req_skills :: [unicode:unicode_binary()], People :: [[unicode:unicode_binary()]]) -> [integer()].\nsmallest_sufficient_team(Req_skills, People) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-sufficient-team req_skills people)\n  (-> (listof string?) (listof (listof string?)) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:06.364913+01:00",
+    "AcRate": "55.3",
+    "TotalSubmissions": 128052,
+    "TotalAccepted": 70869,
+    "AcceptanceRate": 0.5534392278137007,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/smallest-sufficient-team/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = [0] * len(people)\n        for i, skills in enumerate(people):\n            mask = 0\n            for skill in skills:\n                mask |= (1 << skill_to_index[skill])\n            people_skills[i] = mask\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, skills_mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | skills_mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Dynamic Programming with Bitmasking\n\n**Step-by-Step Approach**:\n1. Map each required skill to a unique bit index.\n2. Convert each person's skills into a bitmask.\n3. Use dynamic programming where `dp[mask]` stores the smallest team (list of indices) that covers the skills represented by `mask`.\n4. Initialize `dp[0]` as an empty list.\n5. Iterate through each person and update the DP table by considering the new skills they add.\n6. Return the team stored at `dp[target]`, where `target` is the bitmask representing all required skills.\n\n**Data Structures**:\n- Dictionary for skill-to-index mapping.\n- List of integers for people's skill bitmasks.\n- DP array storing lists of person indices.\n\n**Time Complexity**: O(people_count * 2^n), where n is the number of required skills.\n\n**Space Complexity**: O(2^n) for the DP array.\n\n**Pseudocode**:\n```\n1. n = len(req_skills)\n2. skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n3. people_skills = list of bitmasks for each person\n4. target = (1 << n) - 1\n5. dp = [None] * (target + 1)\n6. dp[0] = []\n7. For each person i with skills_mask:\n      For covered from target down to 0:\n          If dp[covered] is not None:\n              new_covered = covered | skills_mask\n              If dp[new_covered] is None or new team is smaller:\n                  dp[new_covered] = dp[covered] + [i]\n8. Return dp[target]\n```\n\n```python\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = []\n        for skills in people:\n            mask = 0\n            for skill in skills:\n                mask |= 1 << skill_to_index[skill]\n            people_skills.append(mask)\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n```\n\n=== IMPLEMENTATION ===\n\n```python\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = []\n        for skills in people:\n            mask = 0\n            for skill in skills:\n                mask |= 1 << skill_to_index[skill]\n            people_skills.append(mask)\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n```\n\n=== VERIFICATION ===\nVerification Report:\n\n1. **Correctness**: The code correctly implements the designed algorithm. It uses bitmasking to represent skills and dynamic programming to find the smallest team. The algorithm efficiently explores all combinations of people to cover the required skills.\n\n2. **Edge Cases**: The code handles:\n   - Single skill: req_skills = [\"java\"], people = [[\"java\"]] -> [0]\n   - People with no skills (but note constraint: every skill in people[i] is in req_skills, so no irrelevant skills; but a person might have no relevant skills? Actually, constraint says \"every skill in people[i] is a skill in req_skills\", but a person can have an empty list. However, the code correctly ignores such a person because their mask is 0 and they don't contribute. But testing with an empty person: req_skills = [\"java\"], people = [[\"java\"], []] -> still returns [0] correctly.\n   - All people needed: e.g., req_skills = [\"a\",\"b\",\"c\"], people = [[\"a\"],[\"b\"],[\"c\"]] -> returns [0,1,2].\n   - Duplicate skills in a person: handled by the bitmask OR operation.\n\n3. **Complexity**: The time complexity is O(people_count * 2^n) and space is O(2^n). Given n<=16 and people_count<=60, this is acceptable (2^16=65536, 65536*60 ~ 3.9e6 operations). The code uses a DP array of size 2^n, which is 65536, each storing a list (worst-case length 60). This is within acceptable limits.\n\n4. **Code Quality**: The code is clean and readable. Variable names are meaningful. The logic is straightforward. However, one minor improvement: the inner loop iterates from target down to 0. This is correct because we want to avoid using the same person multiple times (by processing backwards, we prevent overwriting states that might be used again in the same iteration). The code uses list concatenation (dp[covered] + [i]) which creates a new list. This is acceptable for the problem size.\n\n5. **Test Cases**:\n   - Example 1: req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n        skill_to_index: {\"java\":0, \"nodejs\":1, \"reactjs\":2}\n        people_skills: \n            person0: 1<<0 = 1\n            person1: 1<<1 = 2\n            person2: (1<<1) | (1<<2) = 6\n        target = 7 (binary 111)\n        dp[0] = []\n        Process person0 (mask=1):\n            covered=7 to 0: \n                at covered=0: new_covered=0|1=1 -> dp[1] = [0]\n        Process person1 (mask=2):\n            covered=7: \n                covered=0: new_covered=2 -> dp[2]=[1]\n                covered=1: new_covered=1|2=3 -> dp[3]=[0,1]\n        Process person2 (mask=6):\n            covered=7: \n                covered=0: new_covered=6 -> dp[6]=[2]\n                covered=1: new_covered=1|6=7 -> compare: current dp[7] is None, so set to [0,2] (which has length 2, while the alternative from covered=3 would be [0,1,2] which is longer)\n            covered=2: new_covered=2|6=6 -> but current dp[6] is [2] which is same length as [1,2]? Actually, we compare: len(dp[2])+1=2 vs len(dp[6])=1 -> so we don't update.\n            covered=3: new_covered=3|6=7 -> len(dp[3])+1=3 which is larger than current [0,2] (length2), so no update.\n        So dp[7] = [0,2] -> correct output.\n\n   - Example 2: req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\n        The code should output [1,2]. Verification is similar but longer. The code correctly computes the solution.\n\n6. **Potential Issues**: \n   - The inner loop goes from target down to 0. This is correct to avoid multiple uses of the same person? Actually, no: we are iterating over people one by one, and we are not using the same person twice because we are not iterating forward. The backward iteration is to avoid reprocessing the same state in the same person iteration? Actually, it is standard in knapsack-like problems to iterate backwards to prevent using the same element multiple times. But here, we are not using the same person multiple times because we are iterating over people. However, if we iterated forward, we might use the same person multiple times? Actually no, because we are not looping over the same person again. But the inner loop backwards is unnecessary? Actually, it is necessary to avoid overwriting states that are used later in the same iteration. For example, if we iterate forward, then when we update state j, and then later use state j to update state j|mask, we would be using the same person twice. So backwards iteration is correct.\n   - The code uses list concatenation which creates a new list. This might be inefficient in terms of memory and time for large lists. However, the team size is at most 60, so it is acceptable.\n   - There is no early termination. But we cannot terminate early because we need to compute the entire DP table.\n\nConclusion: The solution is correct and efficient for the problem constraints. No changes are needed.\n\nFinal Code:\n```python\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = []\n        for skills in people:\n            mask = 0\n            for skill in skills:\n                mask |= 1 << skill_to_index[skill]\n            people_skills.append(mask)\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = []\n        for skills in people:\n            mask = 0\n            for skill in skills:\n                mask |= 1 << skill_to_index[skill]\n            people_skills.append(mask)\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 33403096293,
+      "SolvedAt": "2025-11-21T00:38:41.636459+01:00",
+      "PromptTokens": 5311,
+      "OutputTokens": 2633
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1220",
+        "typed_code": "\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        n = len(req_skills)\n        skill_to_index = {skill: i for i, skill in enumerate(req_skills)}\n        people_skills = []\n        for skills in people:\n            mask = 0\n            for skill in skills:\n                mask |= 1 << skill_to_index[skill]\n            people_skills.append(mask)\n        \n        target = (1 << n) - 1\n        dp = [None] * (target + 1)\n        dp[0] = []\n        \n        for i, mask in enumerate(people_skills):\n            for covered in range(target, -1, -1):\n                if dp[covered] is None:\n                    continue\n                new_covered = covered | mask\n                if dp[new_covered] is None or len(dp[covered]) + 1 < len(dp[new_covered]):\n                    dp[new_covered] = dp[covered] + [i]\n        \n        return dp[target]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:53:22+01:00"
+    }
+  }
+}

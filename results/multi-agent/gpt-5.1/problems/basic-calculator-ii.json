@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "227",
+        "questionId": "227",
+        "Content": "<p>Given a string <code>s</code> which represents an expression, <em>evaluate this expression and return its value</em>.&nbsp;</p>\n\n<p>The integer division should truncate toward zero.</p>\n\n<p>You may assume that the given expression is always valid. All intermediate results will be in the range of <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>.</p>\n\n<p><strong>Note:</strong> You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code>eval()</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"3+2*2\"\n<strong>Output:</strong> 7\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \" 3/2 \"\n<strong>Output:</strong> 1\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \" 3+5 / 2 \"\n<strong>Output:</strong> 5\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of integers and operators <code>(&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;)</code> separated by some number of spaces.</li>\n\t<li><code>s</code> represents <strong>a valid expression</strong>.</li>\n\t<li>All the integers in the expression are non-negative integers in the range <code>[0, 2<sup>31</sup> - 1]</code>.</li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit integer</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "\"3+2*2\"",
+        "ExampleTestcases": "\"3+2*2\"\n\" 3/2 \"\n\" 3+5 / 2 \"",
+        "Difficulty": "Medium",
+        "Title": "Basic Calculator II",
+        "TitleSlug": "basic-calculator-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"900.2K\", \"totalSubmission\": \"1.9M\", \"totalAcceptedRaw\": 900177, \"totalSubmissionRaw\": 1941487, \"acRate\": \"46.4%\"}",
+        "Likes": 6518,
+        "Dislikes": 947,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int calculate(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int calculate(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def calculate(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function calculate(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Calculate(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int calculate(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func calculate(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun calculate(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func calculate(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn calculate(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef calculate(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function calculate($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int calculate(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def calculate(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec calculate(s :: String.t) :: integer\n  def calculate(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec calculate(S :: unicode:unicode_binary()) -> integer().\ncalculate(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (calculate s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:26:24.964965+01:00",
+    "AcRate": "46.4",
+    "TotalSubmissions": 1941487,
+    "TotalAccepted": 900177,
+    "AcceptanceRate": 0.46365337496465336,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/basic-calculator-ii/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def calculate(self, s: str) -> int:\n        n = len(s)\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        i = 0\n        while i < n:\n            ch = s[i]\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            if ch in '+-*/' or i == n - 1:\n                if ch in '+-*/' or (i == n - 1 and ch.isdigit()):\n                    if last_op == '+':\n                        stack.append(num)\n                    elif last_op == '-':\n                        stack.append(-num)\n                    elif last_op == '*':\n                        prev = stack.pop()\n                        stack.append(prev * num)\n                    elif last_op == '/':\n                        prev = stack.pop()\n                        if prev < 0:\n                            stack.append(-(-prev // num))\n                        else:\n                            stack.append(prev // num)\n                    last_op = ch\n                    num = 0\n            i += 1\n        \n        return sum(stack)\n\n=== DESIGN ===\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        for ch in s:\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            elif ch in '+-*/':\n                if last_op == '+':\n                    stack.append(num)\n                elif last_op == '-':\n                    stack.append(-num)\n                elif last_op == '*':\n                    prev = stack.pop()\n                    stack.append(prev * num)\n                elif last_op == '/':\n                    prev = stack.pop()\n                    if prev < 0:\n                        stack.append(-(-prev // num))\n                    else:\n                        stack.append(prev // num)\n                last_op = ch\n                num = 0\n            else:\n                continue\n        \n        if last_op == '+':\n            stack.append(num)\n        elif last_op == '-':\n            stack.append(-num)\n        elif last_op == '*':\n            prev = stack.pop()\n            stack.append(prev * num)\n        elif last_op == '/':\n            prev = stack.pop()\n            if prev < 0:\n                stack.append(-(-prev // num))\n            else:\n                stack.append(prev // num)\n        \n        return sum(stack)\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        for ch in s:\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            elif ch in '+-*/':\n                if last_op == '+':\n                    stack.append(num)\n                elif last_op == '-':\n                    stack.append(-num)\n                elif last_op == '*':\n                    prev = stack.pop()\n                    stack.append(prev * num)\n                elif last_op == '/':\n                    prev = stack.pop()\n                    if prev < 0:\n                        stack.append(-(-prev // num))\n                    else:\n                        stack.append(prev // num)\n                last_op = ch\n                num = 0\n            else:\n                continue\n        \n        if last_op == '+':\n            stack.append(num)\n        elif last_op == '-':\n            stack.append(-num)\n        elif last_op == '*':\n            prev = stack.pop()\n            stack.append(prev * num)\n        elif last_op == '/':\n            prev = stack.pop()\n            if prev < 0:\n                stack.append(-(-prev // num))\n            else:\n                stack.append(prev // num)\n        \n        return sum(stack)\n\n=== VERIFICATION ===\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        for ch in s:\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            elif ch in '+-*/':\n                if last_op == '+':\n                    stack.append(num)\n                elif last_op == '-':\n                    stack.append(-num)\n                elif last_op == '*':\n                    prev = stack.pop()\n                    stack.append(prev * num)\n                elif last_op == '/':\n                    prev = stack.pop()\n                    if prev < 0:\n                        stack.append(-(-prev // num))\n                    else:\n                        stack.append(prev // num)\n                last_op = ch\n                num = 0\n            else:\n                continue\n        \n        if last_op == '+':\n            stack.append(num)\n        elif last_op == '-':\n            stack.append(-num)\n        elif last_op == '*':\n            prev = stack.pop()\n            stack.append(prev * num)\n        elif last_op == '/':\n            prev = stack.pop()\n            if prev < 0:\n                stack.append(-(-prev // num))\n            else:\n                stack.append(prev // num)\n        \n        return sum(stack)\n\n",
+      "TypedCode": "class Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        for ch in s:\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            elif ch in '+-*/':\n                if last_op == '+':\n                    stack.append(num)\n                elif last_op == '-':\n                    stack.append(-num)\n                elif last_op == '*':\n                    prev = stack.pop()\n                    stack.append(prev * num)\n                elif last_op == '/':\n                    prev = stack.pop()\n                    if prev < 0:\n                        stack.append(-(-prev // num))\n                    else:\n                        stack.append(prev // num)\n                last_op = ch\n                num = 0\n            else:\n                continue\n        \n        if last_op == '+':\n            stack.append(num)\n        elif last_op == '-':\n            stack.append(-num)\n        elif last_op == '*':\n            prev = stack.pop()\n            stack.append(prev * num)\n        elif last_op == '/':\n            prev = stack.pop()\n            if prev < 0:\n                stack.append(-(-prev // num))\n            else:\n                stack.append(prev // num)\n        \n        return sum(stack)",
+      "Model": "openai/gpt-5.1",
+      "Latency": 53564464958,
+      "SolvedAt": "2025-11-19T15:11:57.388627+01:00",
+      "PromptTokens": 3789,
+      "OutputTokens": 2938
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "227",
+        "typed_code": "class Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        last_op = '+'\n        \n        for ch in s:\n            if ch.isdigit():\n                num = num * 10 + int(ch)\n            elif ch in '+-*/':\n                if last_op == '+':\n                    stack.append(num)\n                elif last_op == '-':\n                    stack.append(-num)\n                elif last_op == '*':\n                    prev = stack.pop()\n                    stack.append(prev * num)\n                elif last_op == '/':\n                    prev = stack.pop()\n                    if prev < 0:\n                        stack.append(-(-prev // num))\n                    else:\n                        stack.append(prev // num)\n                last_op = ch\n                num = 0\n            else:\n                continue\n        \n        if last_op == '+':\n            stack.append(num)\n        elif last_op == '-':\n            stack.append(-num)\n        elif last_op == '*':\n            prev = stack.pop()\n            stack.append(prev * num)\n        elif last_op == '/':\n            prev = stack.pop()\n            if prev < 0:\n                stack.append(-(-prev // num))\n            else:\n                stack.append(prev // num)\n        \n        return sum(stack)"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:38:17+01:00"
+    }
+  }
+}

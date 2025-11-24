@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1299",
+        "questionId": "1231",
+        "Content": "<p>Given an array <code>arr</code>,&nbsp;replace every element in that array with the greatest element among the elements to its&nbsp;right, and replace the last element with <code>-1</code>.</p>\n\n<p>After doing so, return the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [17,18,5,4,6,1]\n<strong>Output:</strong> [18,6,6,6,1,-1]\n<strong>Explanation:</strong> \n- index 0 --&gt; the greatest element to the right of index 0 is index 1 (18).\n- index 1 --&gt; the greatest element to the right of index 1 is index 4 (6).\n- index 2 --&gt; the greatest element to the right of index 2 is index 4 (6).\n- index 3 --&gt; the greatest element to the right of index 3 is index 4 (6).\n- index 4 --&gt; the greatest element to the right of index 4 is index 5 (1).\n- index 5 --&gt; there are no elements to the right of index 5, so we put -1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [400]\n<strong>Output:</strong> [-1]\n<strong>Explanation:</strong> There are no elements to the right of index 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= arr[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[17,18,5,4,6,1]",
+        "ExampleTestcases": "[17,18,5,4,6,1]\n[400]",
+        "Difficulty": "Easy",
+        "Title": "Replace Elements with Greatest Element on Right Side",
+        "TitleSlug": "replace-elements-with-greatest-element-on-right-side",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"503.5K\", \"totalSubmission\": \"701.9K\", \"totalAcceptedRaw\": 503507, \"totalSubmissionRaw\": 701899, \"acRate\": \"71.7%\"}",
+        "Likes": 2804,
+        "Dislikes": 259,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> replaceElements(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] replaceElements(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def replaceElements(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number[]}\n */\nvar replaceElements = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function replaceElements(arr: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] ReplaceElements(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* replaceElements(int* arr, int arrSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func replaceElements(arr []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun replaceElements(arr: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func replaceElements(_ arr: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn replace_elements(arr: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer[]}\ndef replace_elements(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer[]\n     */\n    function replaceElements($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> replaceElements(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def replaceElements(arr: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec replace_elements(arr :: [integer]) :: [integer]\n  def replace_elements(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec replace_elements(Arr :: [integer()]) -> [integer()].\nreplace_elements(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (replace-elements arr)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:38:26.687604+01:00",
+    "AcRate": "71.7",
+    "TotalSubmissions": 701899,
+    "TotalAccepted": 503507,
+    "AcceptanceRate": 0.7173496471714591,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an array arr,\u00a0replace every element in that array with the greatest element among the elements to its\u00a0right, and replace the last element with -1.\nAfter doing so, return the array.\n\u00a0\nExample 1:\nInput: arr = [17,18,5,4,6,1]\nOutput: [18,6,6,6,1,-1]\nExplanation: \n- index 0 --> the greatest element to the right of index 0 is index 1 (18).\n- index 1 --> the greatest element to the right of index 1 is index 4 (6).\n- index 2 --> the greatest element to the right of index 2 is index 4 (6).\n- index 3 --> the greatest element to the right of index 3 is index 4 (6).\n- index 4 --> the greatest element to the right of index 4 is index 5 (1).\n- index 5 --> there are no elements to the right of index 5, so we put -1.\nExample 2:\nInput: arr = [400]\nOutput: [-1]\nExplanation: There are no elements to the right of index 0.\n\u00a0\nConstraints:\n\t1 <= arr.length <= 10^4\n\t1 <= arr[i] <= 10^5\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to replace each element with the greatest element to its right.\n\nLet me think through the approach:\n1. The last element should always be -1\n2. For each other element, I need to find the maximum among all elements to its right\n3. A naive approach would be O(n\u00b2) - for each position, scan right to find max\n4. A better approach is to traverse from right to left, keeping track of the maximum seen so far - O(n)\n\nLet me trace through Example 1 with the optimized approach:\n- arr = [17,18,5,4,6,1]\n- Start from right, max_so_far = -1\n- Index 5: result[5] = -1, max_so_far = 1\n- Index 4: result[4] = 1, max_so_far = max(1, 6) = 6\n- Index 3: result[3] = 6, max_so_far = max(6, 4) = 6\n- Index 2: result[2] = 6, max_so_far = max(6, 5) = 6\n- Index 1: result[1] = 6, max_so_far = max(6, 18) = 18\n- Index 0: result[0] = 18, max_so_far = max(18, 17) = 18\n- Result: [18,6,6,6,1,-1] \u2713\n\nHere's my solution:\n\n```python\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        n = len(arr)\n        result = [-1] * n\n        max_so_far = -1\n        \n        for i in range(n - 1, -1, -1):\n            result[i] = max_so_far\n            max_so_far = max(max_so_far, arr[i])\n        \n        return result\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        n = len(arr)\n        result = [-1] * n\n        max_so_far = -1\n        \n        for i in range(n - 1, -1, -1):\n            result[i] = max_so_far\n            max_so_far = max(max_so_far, arr[i])\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 7285726208,
+      "SolvedAt": "2025-11-19T21:51:58.20953+01:00",
+      "PromptTokens": 541,
+      "OutputTokens": 474
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1231",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        n = len(arr)\n        result = [-1] * n\n        max_so_far = -1\n        \n        for i in range(n - 1, -1, -1):\n            result[i] = max_so_far\n            max_so_far = max(max_so_far, arr[i])\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T23:00:57+01:00"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "total_problems": 150,
+  "problems_by_model": {
+    "deepseek/deepseek-chat-v3.1": 150
+  },
+  "acceptance_rate_by_model": {
+    "deepseek/deepseek-chat-v3.1": 97.33333333333333
+  },
+  "avg_complexity_by_model": {
+    "deepseek/deepseek-chat-v3.1": 4.56
+  },
+  "avg_loc_by_model": {
+    "deepseek/deepseek-chat-v3.1": 19.866666666666667
+  }
+}

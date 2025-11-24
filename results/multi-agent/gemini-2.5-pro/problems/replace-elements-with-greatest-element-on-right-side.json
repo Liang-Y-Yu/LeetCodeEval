@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1299",
+        "questionId": "1231",
+        "Content": "<p>Given an array <code>arr</code>,&nbsp;replace every element in that array with the greatest element among the elements to its&nbsp;right, and replace the last element with <code>-1</code>.</p>\n\n<p>After doing so, return the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [17,18,5,4,6,1]\n<strong>Output:</strong> [18,6,6,6,1,-1]\n<strong>Explanation:</strong> \n- index 0 --&gt; the greatest element to the right of index 0 is index 1 (18).\n- index 1 --&gt; the greatest element to the right of index 1 is index 4 (6).\n- index 2 --&gt; the greatest element to the right of index 2 is index 4 (6).\n- index 3 --&gt; the greatest element to the right of index 3 is index 4 (6).\n- index 4 --&gt; the greatest element to the right of index 4 is index 5 (1).\n- index 5 --&gt; there are no elements to the right of index 5, so we put -1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [400]\n<strong>Output:</strong> [-1]\n<strong>Explanation:</strong> There are no elements to the right of index 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= arr[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[17,18,5,4,6,1]",
+        "ExampleTestcases": "[17,18,5,4,6,1]\n[400]",
+        "Difficulty": "Easy",
+        "Title": "Replace Elements with Greatest Element on Right Side",
+        "TitleSlug": "replace-elements-with-greatest-element-on-right-side",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"503.5K\", \"totalSubmission\": \"701.9K\", \"totalAcceptedRaw\": 503507, \"totalSubmissionRaw\": 701899, \"acRate\": \"71.7%\"}",
+        "Likes": 2804,
+        "Dislikes": 259,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> replaceElements(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] replaceElements(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def replaceElements(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number[]}\n */\nvar replaceElements = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function replaceElements(arr: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] ReplaceElements(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* replaceElements(int* arr, int arrSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func replaceElements(arr []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun replaceElements(arr: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func replaceElements(_ arr: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn replace_elements(arr: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer[]}\ndef replace_elements(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer[]\n     */\n    function replaceElements($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> replaceElements(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def replaceElements(arr: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec replace_elements(arr :: [integer]) :: [integer]\n  def replace_elements(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec replace_elements(Arr :: [integer()]) -> [integer()].\nreplace_elements(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (replace-elements arr)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:38:26.687604+01:00",
+    "AcRate": "71.7",
+    "TotalSubmissions": 701899,
+    "TotalAccepted": 503507,
+    "AcceptanceRate": 0.7173496471714591,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def replaceElements(self, arr: list[int]) -> list[int]:\n        right_max = -1\n        \n        for i in range(len(arr) - 1, -1, -1):\n            # The RHS of the assignment is evaluated first.\n            # max(right_max, arr[i]) calculates the new maximum using the current element\n            # and the greatest element seen so far from the right.\n            # The current right_max is the value to be placed at arr[i].\n            # After evaluation, the tuple unpacking assigns the new values.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n```\n\n=== DESIGN ===\nAn elegant and efficient approach is to traverse the array from right to left, keeping track of the maximum element encountered so far. This allows us to perform the replacement in a single pass with constant extra space.\n\n1.  **Algorithm Choice**: A single-pass, reverse iteration algorithm is the most suitable choice. It processes the array in-place, achieving optimal time and space complexity.\n\n2.  **Step-by-Step Approach**:\n    1.  Initialize a variable, `max_from_right`, to `-1`. This variable will hold the greatest element seen so far as we iterate from the right. It's initialized to `-1` because this is the required replacement value for the last element in the array.\n    2.  Iterate through the array `arr` backward, from the last index (`len(arr) - 1`) down to the first index (`0`).\n    3.  For each element at index `i`, we need to perform two operations in a specific order:\n        a. First, replace the element `arr[i]` with the current value of `max_from_right`. This `max_from_right` represents the greatest element among all elements to the right of `i`.\n        b. Second, update `max_from_right` to be the maximum of its current value and the original value that was at `arr[i]`. This ensures `max_from_right` is correctly updated for the next iteration (at index `i-1`).\n    4.  These two operations can be performed atomically using a temporary variable or, more idiomatically in Python, with tuple packing and unpacking to swap and update in a single line.\n    5.  After the loop finishes, the array `arr` has been modified in-place as required.\n    6.  Return the modified array.\n\n3.  **Data Structures**:\n    *   The input `list` `arr` is used for in-place modification.\n    *   A single integer variable, `max_from_right`, is used to maintain the running maximum from the right.\n\n4.  **Time Complexity**: The algorithm involves a single pass through the array. For an array of size `N`, the loop runs `N` times. Each operation inside the loop is a constant-time operation (O(1)). Thus, the total time complexity is **O(N)**.\n\n5.  **Space Complexity**: The replacements are done in-place within the original array. We only use one extra variable to store the running maximum. Therefore, the space complexity is **O(1)**.\n\n6.  **Pseudocode**:\n    ```\n    FUNCTION replaceElements(arr):\n      // Initialize the maximum value seen from the right.\n      // -1 is the value for the last element.\n      max_from_right = -1\n\n      // Iterate from the last element to the first.\n      FOR i FROM length(arr)-1 DOWNTO 0:\n        // Cache the original value of the current element.\n        original_val = arr[i]\n\n        // Replace the current element with the max seen so far to its right.\n        arr[i] = max_from_right\n\n        // Update the running maximum for the next iteration.\n        max_from_right = max(max_from_right, original_val)\n      \n      // Return the modified array.\n      RETURN arr\n    ```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        # Initialize the greatest element seen so far from the right.\n        # Start with -1, as this is the value that replaces the last element.\n        right_max = -1\n        \n        # Iterate through the array in reverse order.\n        # The range starts from the last index and goes down to 0.\n        for i in range(len(arr) - 1, -1, -1):\n            # The right-hand side of the assignment is evaluated first.\n            # 1. max(right_max, arr[i]) calculates the new maximum using the current\n            #    element and the greatest element seen so far from the right.\n            # 2. A tuple of (new_maximum, current_right_max) is created.\n            #\n            # Then, tuple unpacking assigns the new values:\n            # - `right_max` is updated to the newly calculated maximum.\n            # - `arr[i]` is replaced with the `right_max` from before the update,\n            #   which is the greatest element to its right.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        right_max = -1\n        \n        # Iterate from the last element to the first.\n        for i in range(len(arr) - 1, -1, -1):\n            # This is an idiomatic way to swap and update in one line.\n            # The right-hand side is fully evaluated before assignment.\n            # 1. arr[i] is replaced with the current right_max (greatest element to the right).\n            # 2. right_max is updated to be the maximum of its current value and the\n            #    original value of arr[i], preparing it for the next iteration to the left.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        right_max = -1\n        \n        # Iterate from the last element to the first.\n        for i in range(len(arr) - 1, -1, -1):\n            # The right-hand side is fully evaluated before assignment.\n            # 1. arr[i] is replaced with the current right_max (greatest element to the right).\n            # 2. right_max is updated to be the maximum of its current value and the\n            #    original value of arr[i], preparing it for the next iteration to the left.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        right_max = -1\n        \n        # Iterate from the last element to the first.\n        for i in range(len(arr) - 1, -1, -1):\n            # This is an idiomatic way to swap and update in one line.\n            # The right-hand side is fully evaluated before assignment.\n            # 1. arr[i] is replaced with the current right_max (greatest element to the right).\n            # 2. right_max is updated to be the maximum of its current value and the\n            #    original value of arr[i], preparing it for the next iteration to the left.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 215594492916,
+      "SolvedAt": "2025-11-21T16:28:35.818633+01:00",
+      "PromptTokens": 5519,
+      "OutputTokens": 25420
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1231",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def replaceElements(self, arr: List[int]) -> List[int]:\n        right_max = -1\n        \n        # Iterate from the last element to the first.\n        for i in range(len(arr) - 1, -1, -1):\n            # This is an idiomatic way to swap and update in one line.\n            # The right-hand side is fully evaluated before assignment.\n            # 1. arr[i] is replaced with the current right_max (greatest element to the right).\n            # 2. right_max is updated to be the maximum of its current value and the\n            #    original value of arr[i], preparing it for the next iteration to the left.\n            right_max, arr[i] = max(right_max, arr[i]), right_max\n            \n        return arr\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:39:05+01:00"
+    }
+  }
+}

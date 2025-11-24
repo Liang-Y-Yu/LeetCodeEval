@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 17,
+    "lines_of_code": 36,
+    "status": "Accepted"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 67,
+    "status": "Accepted"
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "problem_id": "1220",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 38,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 42,
+    "status": "Accepted"
+  },
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 73,
+    "status": "Accepted"
+  },
+  {
+    "title": "24 Game",
+    "problem_id": "679",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 32,
+    "status": "Accepted"
+  },
+  {
+    "title": "Basic Calculator II",
+    "problem_id": "227",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Concatenated Words",
+    "problem_id": "472",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "problem_id": "352",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 41,
+    "status": "Accepted"
+  },
+  {
+    "title": "Minimum Genetic Mutation",
+    "problem_id": "433",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 35,
+    "status": "Accepted"
+  }
+]

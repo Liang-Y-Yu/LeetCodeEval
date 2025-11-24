@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1752",
+        "questionId": "1878",
+        "Content": "<p>Given an array <code>nums</code>, return <code>true</code><em> if the array was originally sorted in non-decreasing order, then rotated <strong>some</strong> number of positions (including zero)</em>. Otherwise, return <code>false</code>.</p>\n\n<p>There may be <strong>duplicates</strong> in the original array.</p>\n\n<p><strong>Note:</strong> An array <code>A</code> rotated by <code>x</code> positions results in an array <code>B</code> of the same length such that <code>B[i] == A[(i+x) % A.length]</code> for every valid index <code>i</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,4,5,1,2]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> [1,2,3,4,5] is the original sorted array.\nYou can rotate the array by x = 2 positions to begin on the element of value 3: [3,4,5,1,2].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,1,3,4]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> There is no sorted array once rotated that can make nums.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> [1,2,3] is the original sorted array.\nYou can rotate the array by x = 0 positions (i.e. no rotation) to make nums.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[3,4,5,1,2]",
+        "ExampleTestcases": "[3,4,5,1,2]\n[2,1,3,4]\n[1,2,3]",
+        "Difficulty": "Easy",
+        "Title": "Check if Array Is Sorted and Rotated",
+        "TitleSlug": "check-if-array-is-sorted-and-rotated",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"748.7K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 748656, \"totalSubmissionRaw\": 1349985, \"acRate\": \"55.5%\"}",
+        "Likes": 4664,
+        "Dislikes": 277,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool check(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean check(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def check(self, nums: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def check(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar check = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function check(nums: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool Check(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool check(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func check(nums []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun check(nums: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func check(_ nums: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check(nums: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Boolean}\ndef check(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Boolean\n     */\n    function check($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool check(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def check(nums: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check(nums :: [integer]) :: boolean\n  def check(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check(Nums :: [integer()]) -> boolean().\ncheck(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check nums)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:06:28.29366+01:00",
+    "AcRate": "55.5",
+    "TotalSubmissions": 1349985,
+    "TotalAccepted": 748656,
+    "AcceptanceRate": 0.5545661618462427,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\n\nclass Solution:\n    def check(self, nums: list[int]) -> bool:\n        \"\"\"\n        Problem: Given an array nums, return true if the array was originally sorted in non-decreasing order, \n        then rotated some number of positions (including zero). Otherwise, return false.\n\n        Analysis:\n        1. Problem Type Classification: Array.\n        2. Key Patterns & Algorithms:\n           - The core idea is to recognize the property of a sorted-and-rotated array.\n           - In a non-decreasingly sorted array like [1, 2, 3, 4, 5], each element is less than or equal to the next.\n           - When this array is rotated, e.g., to [3, 4, 5, 1, 2], this property holds for most elements, but is broken at the point of \"wrap-around\" (5 > 1).\n           - This break, or \"dip\", can occur at most once.\n           - If we consider the array to be circular, we can count the number of times `nums[i] > nums[i+1]`.\n           - For a valid sorted-and-rotated array, this count must be at most 1.\n             - 0 dips: All elements are equal (e.g., [2, 2, 2]).\n             - 1 dip: The array is sorted ([1, 2, 3] -> circular dip 3 > 1) or rotated ([3, 4, 1, 2] -> dip 4 > 1).\n             - >1 dips: The array is not a rotated version of a sorted array (e.g., [2, 1, 3, 4] -> dips 2 > 1 and 4 > 2).\n           - The algorithm is a single pass through the array to count these \"dips\".\n\n        3. Constraints Analysis:\n           - `1 <= nums.length <= 100`: The input size is small. An O(n) solution is very efficient.\n           - Time Complexity: O(n) for a single pass.\n           - Space Complexity: O(1) for a counter variable.\n\n        4. Edge Cases:\n           - Array with one element: [1] -> 0 dips.\n           - Array with all equal elements: [2, 2, 2] -> 0 dips.\n           - Already sorted array: [1, 2, 3] -> 1 dip (circularly, 3 > 1).\n           - Duplicates: [1, 1, 2, 1] -> 1 dip (2 > 1).\n\n        Implementation:\n        - Iterate from i = 0 to n-1.\n        - In each iteration, compare `nums[i]` with `nums[(i + 1) % n]` to handle the circular nature.\n        - Count the number of times `nums[i] > nums[(i + 1) % n]`.\n        - Return true if the count is 0 or 1, otherwise false.\n        \"\"\"\n        n = len(nums)\n        dips = 0\n\n        for i in range(n):\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n        \n        return dips <= 1\n```\n\n=== DESIGN ===\nAn array `nums` is a rotated version of a sorted array if and only if there is at most one \"inversion\" or \"dip\" where `nums[i] > nums[i+1]` when considering the array cyclically. A non-decreasing sorted array like `[1, 2, 3, 4]` has one such dip when wrapped around (`4` is followed by `1`). A rotated version like `[3, 4, 1, 2]` preserves this single dip (`4 > 1`). An unsorted array like `[2, 1, 3, 4]` would have more than one dip ( `2 > 1` and `4 > 2` when wrapped). An array with all equal elements like `[2, 2, 2]` has zero dips. Therefore, we can solve the problem by counting these dips.\n\n1.  **Algorithm Choice**\n    A single-pass linear scan to count the number of \"dips\".\n\n2.  **Step-by-Step Approach**\n    a. Initialize a counter `dips` to zero.\n    b. Iterate through the array `nums` from the first to the last element, for `n` total elements.\n    c. In each iteration at index `i`, compare `nums[i]` with the next element `nums[(i + 1) % n]`. The modulo operator `% n` handles the circular wrap-around from the last element to the first.\n    d. If `nums[i] > nums[(i + 1) % n]`, it signifies a dip, so increment the counter.\n    e. After the loop, if the total count of `dips` is 0 or 1, the array is a valid rotated sorted array. Return `true`.\n    f. If the count of `dips` is greater than 1, return `false`.\n\n3.  **Data Structures**\n    - The input array `nums`.\n    - A single integer variable for `dips` count.\n\n4.  **Time Complexity**\n    O(n), where n is the number of elements in `nums`. We perform a single pass through the array.\n\n5.  **Space Complexity**\n    O(1), as we only use a constant amount of extra space for the counter variable, regardless of the input size.\n\n6.  **Pseudocode**\n    ```\n    FUNCTION check(nums):\n      n = LENGTH(nums)\n      dips = 0\n      \n      FOR i FROM 0 TO n-1:\n        IF nums[i] > nums[(i + 1) % n]:\n          dips = dips + 1\n      \n      RETURN dips <= 1\n    ```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def check(self, nums: List[int]) -> bool:\n        n = len(nums)\n        dips = 0\n\n        # Iterate through the array to find points where the order is broken.\n        # This includes the wrap-around comparison from the last to the first element.\n        for i in range(n):\n            # Compare the current element with the next element in a circular fashion.\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n\n        # A valid rotated sorted array can have at most one such \"dip\".\n        # 0 dips for an array with all equal elements.\n        # 1 dip for a standard sorted or rotated array.\n        # >1 dips indicates the array is not a rotated version of a sorted array.\n        return dips <= 1\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def check(self, nums: List[int]) -> bool:\n        n = len(nums)\n        dips = 0\n        for i in range(n):\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n        \n        return dips <= 1\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def check(self, nums: List[int]) -> bool:\n        n = len(nums)\n        dips = 0\n        for i in range(n):\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n        \n        return dips <= 1\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def check(self, nums: List[int]) -> bool:\n        n = len(nums)\n        dips = 0\n        for i in range(n):\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n        \n        return dips <= 1\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 235262627627,
+      "SolvedAt": "2025-11-21T09:15:07.214145+01:00",
+      "PromptTokens": 6631,
+      "OutputTokens": 26098
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1878",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def check(self, nums: List[int]) -> bool:\n        n = len(nums)\n        dips = 0\n        for i in range(n):\n            if nums[i] > nums[(i + 1) % n]:\n                dips += 1\n        \n        return dips <= 1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:10:38+01:00"
+    }
+  }
+}

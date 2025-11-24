@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2448",
+        "questionId": "2538",
+        "Content": "<p>You are given two <strong>0-indexed</strong> arrays <code>nums</code> and <code>cost</code> consisting each of <code>n</code> <strong>positive</strong> integers.</p>\n\n<p>You can do the following operation <strong>any</strong> number of times:</p>\n\n<ul>\n\t<li>Increase or decrease <strong>any</strong> element of the array <code>nums</code> by <code>1</code>.</li>\n</ul>\n\n<p>The cost of doing one operation on the <code>i<sup>th</sup></code> element is <code>cost[i]</code>.</p>\n\n<p>Return <em>the <strong>minimum</strong> total cost such that all the elements of the array </em><code>nums</code><em> become <strong>equal</strong></em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,5,2], cost = [2,3,1,14]\n<strong>Output:</strong> 8\n<strong>Explanation:</strong> We can make all the elements equal to 2 in the following way:\n- Increase the 0<sup>th</sup> element one time. The cost is 2.\n- Decrease the 1<sup><span style=\"font-size: 10.8333px;\">st</span></sup> element one time. The cost is 3.\n- Decrease the 2<sup>nd</sup> element three times. The cost is 1 + 1 + 1 = 3.\nThe total cost is 2 + 3 + 3 = 8.\nIt can be shown that we cannot make the array equal with a smaller cost.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,2,2,2,2], cost = [4,2,8,1,3]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All the elements are already equal, so no operations are needed.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length == cost.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i], cost[i] &lt;= 10<sup>6</sup></code></li>\n\t<li>Test cases are generated in a way that the output doesn&#39;t exceed&nbsp;2<sup>53</sup>-1</li>\n</ul>\n",
+        "SampleTestCase": "[1,3,5,2]\n[2,3,1,14]",
+        "ExampleTestcases": "[1,3,5,2]\n[2,3,1,14]\n[2,2,2,2,2]\n[4,2,8,1,3]",
+        "Difficulty": "Hard",
+        "Title": "Minimum Cost to Make Array Equal",
+        "TitleSlug": "minimum-cost-to-make-array-equal",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"75.6K\", \"totalSubmission\": \"162.3K\", \"totalAcceptedRaw\": 75619, \"totalSubmissionRaw\": 162282, \"acRate\": \"46.6%\"}",
+        "Likes": 2503,
+        "Dislikes": 36,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long minCost(vector<int>& nums, vector<int>& cost) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long minCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minCost(self, nums, cost):\n        \"\"\"\n        :type nums: List[int]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number[]} cost\n * @return {number}\n */\nvar minCost = function(nums, cost) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minCost(nums: number[], cost: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long MinCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long minCost(int* nums, int numsSize, int* cost, int costSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minCost(nums []int, cost []int) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minCost(nums: IntArray, cost: IntArray): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minCost(_ nums: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_cost(nums: Vec<i32>, cost: Vec<i32>) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer[]} cost\n# @return {Integer}\ndef min_cost(nums, cost)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $cost\n     * @return Integer\n     */\n    function minCost($nums, $cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minCost(List<int> nums, List<int> cost) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minCost(nums: Array[Int], cost: Array[Int]): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_cost(nums :: [integer], cost :: [integer]) :: integer\n  def min_cost(nums, cost) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_cost(Nums :: [integer()], Cost :: [integer()]) -> integer().\nmin_cost(Nums, Cost) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-cost nums cost)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:32:55.521499+01:00",
+    "AcRate": "46.6",
+    "TotalSubmissions": 162282,
+    "TotalAccepted": 75619,
+    "AcceptanceRate": 0.4659728127580385,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given two 0-indexed arrays nums and cost consisting each of n positive integers.\nYou can do the following operation any number of times:\n\tIncrease or decrease any element of the array nums by 1.\nThe cost of doing one operation on the i^th element is cost[i].\nReturn the minimum total cost such that all the elements of the array nums become equal.\n\u00a0\nExample 1:\nInput: nums = [1,3,5,2], cost = [2,3,1,14]\nOutput: 8\nExplanation: We can make all the elements equal to 2 in the following way:\n- Increase the 0^th element one time. The cost is 2.\n- Decrease the 1^st element one time. The cost is 3.\n- Decrease the 2^nd element three times. The cost is 1 + 1 + 1 = 3.\nThe total cost is 2 + 3 + 3 = 8.\nIt can be shown that we cannot make the array equal with a smaller cost.\nExample 2:\nInput: nums = [2,2,2,2,2], cost = [4,2,8,1,3]\nOutput: 0\nExplanation: All the elements are already equal, so no operations are needed.\n\u00a0\nConstraints:\n\tn == nums.length == cost.length\n\t1 <= n <= 10^5\n\t1 <= nums[i], cost[i] <= 10^6\n\tTest cases are generated in a way that the output doesn't exceed\u00a02^53-1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the optimal target value that minimizes the total cost of making all elements equal to that target.\n\nKey insights:\n1. The cost to change `nums[i]` to a target value `t` is `cost[i] * |nums[i] - t|`\n2. The total cost function is the sum of `cost[i] * |nums[i] - t|` for all i\n3. This is a weighted median problem - the optimal target is the weighted median of the nums array\n\nThe weighted median minimizes the sum of weighted absolute deviations. To find it:\n- Sort the numbers with their costs\n- Find the point where cumulative cost reaches half of the total cost\n\nLet me trace through Example 1:\n- nums = [1,3,5,2], cost = [2,3,1,14]\n- Sorted by nums: [(1,2), (2,14), (3,3), (5,1)]\n- Total cost = 20, half = 10\n- Cumulative: 2, 16 (>= 10), so weighted median is 2\n- Cost to make all 2: 2*|1-2| + 14*|2-2| + 3*|3-2| + 1*|5-2| = 2 + 0 + 3 + 3 = 8 \u2713\n\nHere's my solution:\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        n = len(nums)\n        \n        pairs = sorted(zip(nums, cost))\n        \n        total_cost = sum(cost)\n        half_cost = total_cost / 2\n        \n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative >= half_cost:\n                target = num\n                break\n        \n        result = 0\n        for i in range(n):\n            result += cost[i] * abs(nums[i] - target)\n        \n        return result\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        n = len(nums)\n        \n        pairs = sorted(zip(nums, cost))\n        \n        total_cost = sum(cost)\n        half_cost = total_cost / 2\n        \n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative >= half_cost:\n                target = num\n                break\n        \n        result = 0\n        for i in range(n):\n            result += cost[i] * abs(nums[i] - target)\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 9364520375,
+      "SolvedAt": "2025-11-19T21:46:03.70973+01:00",
+      "PromptTokens": 605,
+      "OutputTokens": 509
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2538",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        n = len(nums)\n        \n        pairs = sorted(zip(nums, cost))\n        \n        total_cost = sum(cost)\n        half_cost = total_cost / 2\n        \n        cumulative = 0\n        target = pairs[0][0]\n        for num, c in pairs:\n            cumulative += c\n            if cumulative >= half_cost:\n                target = num\n                break\n        \n        result = 0\n        for i in range(n):\n            result += cost[i] * abs(nums[i] - target)\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:29:20+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "962",
+        "questionId": "1002",
+        "Content": "<p>A <strong>ramp</strong> in an integer array <code>nums</code> is a pair <code>(i, j)</code> for which <code>i &lt; j</code> and <code>nums[i] &lt;= nums[j]</code>. The <strong>width</strong> of such a ramp is <code>j - i</code>.</p>\n\n<p>Given an integer array <code>nums</code>, return <em>the maximum width of a <strong>ramp</strong> in </em><code>nums</code>. If there is no <strong>ramp</strong> in <code>nums</code>, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [6,0,8,2,1,5]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The maximum width ramp is achieved at (i, j) = (1, 5): nums[1] = 0 and nums[5] = 5.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [9,8,1,0,1,9,4,0,4,1]\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> The maximum width ramp is achieved at (i, j) = (2, 9): nums[2] = 1 and nums[9] = 1.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 5 * 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[6,0,8,2,1,5]",
+        "ExampleTestcases": "[6,0,8,2,1,5]\n[9,8,1,0,1,9,4,0,4,1]",
+        "Difficulty": "Medium",
+        "Title": "Maximum Width Ramp",
+        "TitleSlug": "maximum-width-ramp",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"200.1K\", \"totalSubmission\": \"358.7K\", \"totalAcceptedRaw\": 200112, \"totalSubmissionRaw\": 358711, \"acRate\": \"55.8%\"}",
+        "Likes": 2811,
+        "Dislikes": 96,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxWidthRamp(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxWidthRamp(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxWidthRamp(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxWidthRamp = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxWidthRamp(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxWidthRamp(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxWidthRamp(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxWidthRamp(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxWidthRamp(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxWidthRamp(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_width_ramp(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef max_width_ramp(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function maxWidthRamp($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxWidthRamp(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxWidthRamp(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_width_ramp(nums :: [integer]) :: integer\n  def max_width_ramp(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_width_ramp(Nums :: [integer()]) -> integer().\nmax_width_ramp(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-width-ramp nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:44:49.35849+01:00",
+    "AcRate": "55.8",
+    "TotalSubmissions": 358711,
+    "TotalAccepted": 200112,
+    "AcceptanceRate": 0.5578641301772179,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-width-ramp/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to find the maximum width ramp where a ramp is defined as a pair (i, j) with i < j and nums[i] <= nums[j].\n\nLet me analyze:\n\n1. **Problem Type**: Array, Stack/Monotonic Stack\n2. **Key Patterns**: \n   - Monotonic decreasing stack to track potential left endpoints\n   - For each position, we want the smallest value to the left that satisfies the condition\n   - We can use a stack to maintain candidates for i (left side of ramp)\n   \n3. **Constraints Analysis**: \n   - n up to 5*10^4 means O(n\u00b2) might be too slow\n   - Need O(n) or O(n log n) solution\n   \n4. **Edge Cases**:\n   - Array of length 2\n   - Strictly decreasing array (return 0)\n   - Strictly increasing array (return n-1)\n   - All same elements\n   \n5. **Input/Output**: \n   - Input: List of integers\n   - Output: Single integer (max width)\n   \n6. **Difficulty**: The challenge is finding an efficient approach better than brute force O(n\u00b2)\n\n**Solution Approach**:\n1. Build a monotonic decreasing stack of indices - these are potential left endpoints\n2. Traverse from right to left, and for each position try to match with stack elements\n3. Once we find a match, we can pop from stack since we won't find a better width for that element\n\nActually, let me reconsider - better approach:\n1. Build a decreasing stack from left (potential i values)\n2. Scan from right to left, and for each j, pop from stack while condition is satisfied\n\n```python\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 18355319291,
+      "SolvedAt": "2025-11-19T23:42:30.402735+01:00",
+      "PromptTokens": 4855,
+      "OutputTokens": 1057
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1002",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def maxWidthRamp(self, nums: List[int]) -> int:\n        n = len(nums)\n        stack = []\n        \n        for i in range(n):\n            if not stack or nums[i] < nums[stack[-1]]:\n                stack.append(i)\n        \n        max_width = 0\n        \n        for j in range(n - 1, -1, -1):\n            while stack and nums[stack[-1]] <= nums[j]:\n                i = stack.pop()\n                max_width = max(max_width, j - i)\n        \n        return max_width\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:13:35+01:00"
+    }
+  }
+}

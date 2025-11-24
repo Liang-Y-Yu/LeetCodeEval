@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "860",
+        "questionId": "890",
+        "Content": "<p>At a lemonade stand, each lemonade costs <code>$5</code>. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a <code>$5</code>, <code>$10</code>, or <code>$20</code> bill. You must provide the correct change to each customer so that the net transaction is that the customer pays <code>$5</code>.</p>\n\n<p>Note that you do not have any change in hand at first.</p>\n\n<p>Given an integer array <code>bills</code> where <code>bills[i]</code> is the bill the <code>i<sup>th</sup></code> customer pays, return <code>true</code> <em>if you can provide every customer with the correct change, or</em> <code>false</code> <em>otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> bills = [5,5,5,10,20]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> \nFrom the first 3 customers, we collect three $5 bills in order.\nFrom the fourth customer, we collect a $10 bill and give back a $5.\nFrom the fifth customer, we give a $10 bill and a $5 bill.\nSince all customers got correct change, we output true.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> bills = [5,5,10,10,20]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> \nFrom the first two customers in order, we collect two $5 bills.\nFor the next two customers in order, we collect a $10 bill and give back a $5 bill.\nFor the last customer, we can not give the change of $15 back because we only have two $10 bills.\nSince not every customer received the correct change, the answer is false.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= bills.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>bills[i]</code> is either <code>5</code>, <code>10</code>, or <code>20</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[5,5,5,10,20]",
+        "ExampleTestcases": "[5,5,5,10,20]\n[5,5,10,10,20]",
+        "Difficulty": "Easy",
+        "Title": "Lemonade Change",
+        "TitleSlug": "lemonade-change",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"524.9K\", \"totalSubmission\": \"893.2K\", \"totalAcceptedRaw\": 524887, \"totalSubmissionRaw\": 893173, \"acRate\": \"58.8%\"}",
+        "Likes": 3277,
+        "Dislikes": 210,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool lemonadeChange(vector<int>& bills) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean lemonadeChange(int[] bills) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def lemonadeChange(self, bills: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def lemonadeChange(self, bills):\n        \"\"\"\n        :type bills: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} bills\n * @return {boolean}\n */\nvar lemonadeChange = function(bills) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function lemonadeChange(bills: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool LemonadeChange(int[] bills) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool lemonadeChange(int* bills, int billsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func lemonadeChange(bills []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun lemonadeChange(bills: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func lemonadeChange(_ bills: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn lemonade_change(bills: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} bills\n# @return {Boolean}\ndef lemonade_change(bills)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $bills\n     * @return Boolean\n     */\n    function lemonadeChange($bills) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool lemonadeChange(List<int> bills) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def lemonadeChange(bills: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec lemonade_change(bills :: [integer]) :: boolean\n  def lemonade_change(bills) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec lemonade_change(Bills :: [integer()]) -> boolean().\nlemonade_change(Bills) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (lemonade-change bills)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:54:40.282082+01:00",
+    "AcRate": "58.8",
+    "TotalSubmissions": 893173,
+    "TotalAccepted": 524887,
+    "AcceptanceRate": 0.587665547435939,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/lemonade-change/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.\nNote that you do not have any change in hand at first.\nGiven an integer array bills where bills[i] is the bill the i^th customer pays, return true if you can provide every customer with the correct change, or false otherwise.\n\u00a0\nExample 1:\nInput: bills = [5,5,5,10,20]\nOutput: true\nExplanation: \nFrom the first 3 customers, we collect three $5 bills in order.\nFrom the fourth customer, we collect a $10 bill and give back a $5.\nFrom the fifth customer, we give a $10 bill and a $5 bill.\nSince all customers got correct change, we output true.\nExample 2:\nInput: bills = [5,5,10,10,20]\nOutput: false\nExplanation: \nFrom the first two customers in order, we collect two $5 bills.\nFor the next two customers in order, we collect a $10 bill and give back a $5 bill.\nFor the last customer, we can not give the change of $15 back because we only have two $10 bills.\nSince not every customer received the correct change, the answer is false.\n\u00a0\nConstraints:\n\t1 <= bills.length <= 10^5\n\tbills[i] is either 5, 10, or 20.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def lemonadeChange(self, bills: List[int]) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def lemonadeChange(self, bills: list[int]) -> bool:\n        fives = 0\n        tens = 0\n\n        for bill in bills:\n            if bill == 5:\n                fives += 1\n            elif bill == 10:\n                if fives > 0:\n                    fives -= 1\n                    tens += 1\n                else:\n                    return False\n            else:  # bill is 20\n                # To give $15 change, the greedy choice is to use a $10 and a $5 bill.\n                # This is because $5 bills are more flexible for making change.\n                if tens > 0 and fives > 0:\n                    tens -= 1\n                    fives -= 1\n                # If that's not possible, try using three $5 bills.\n                elif fives >= 3:\n                    fives -= 3\n                else:\n                    # If neither option is possible, we can't provide correct change.\n                    return False\n        \n        # If the loop completes, it means we could provide change to every customer.\n        return True\n```",
+      "TypedCode": "\nclass Solution:\n    def lemonadeChange(self, bills: list[int]) -> bool:\n        fives = 0\n        tens = 0\n\n        for bill in bills:\n            if bill == 5:\n                fives += 1\n            elif bill == 10:\n                if fives > 0:\n                    fives -= 1\n                    tens += 1\n                else:\n                    return False\n            else:  # bill is 20\n                # To give $15 change, the greedy choice is to use a $10 and a $5 bill.\n                # This is because $5 bills are more flexible for making change.\n                if tens > 0 and fives > 0:\n                    tens -= 1\n                    fives -= 1\n                # If that's not possible, try using three $5 bills.\n                elif fives >= 3:\n                    fives -= 3\n                else:\n                    # If neither option is possible, we can't provide correct change.\n                    return False\n        \n        # If the loop completes, it means we could provide change to every customer.\n        return True\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 77586559375,
+      "SolvedAt": "2025-11-20T14:14:26.254639+01:00",
+      "PromptTokens": 605,
+      "OutputTokens": 9771
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "890",
+        "typed_code": "\nclass Solution:\n    def lemonadeChange(self, bills: list[int]) -> bool:\n        fives = 0\n        tens = 0\n\n        for bill in bills:\n            if bill == 5:\n                fives += 1\n            elif bill == 10:\n                if fives > 0:\n                    fives -= 1\n                    tens += 1\n                else:\n                    return False\n            else:  # bill is 20\n                # To give $15 change, the greedy choice is to use a $10 and a $5 bill.\n                # This is because $5 bills are more flexible for making change.\n                if tens > 0 and fives > 0:\n                    tens -= 1\n                    fives -= 1\n                # If that's not possible, try using three $5 bills.\n                elif fives >= 3:\n                    fives -= 3\n                else:\n                    # If neither option is possible, we can't provide correct change.\n                    return False\n        \n        # If the loop completes, it means we could provide change to every customer.\n        return True\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:05:36+01:00"
+    }
+  }
+}

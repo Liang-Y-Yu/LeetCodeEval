@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "670",
+        "questionId": "670",
+        "Content": "<p>You are given an integer <code>num</code>. You can swap two digits at most once to get the maximum valued number.</p>\n\n<p>Return <em>the maximum valued number you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 2736\n<strong>Output:</strong> 7236\n<strong>Explanation:</strong> Swap the number 2 and the number 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9973\n<strong>Output:</strong> 9973\n<strong>Explanation:</strong> No swap.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 10<sup>8</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "2736",
+        "ExampleTestcases": "2736\n9973",
+        "Difficulty": "Medium",
+        "Title": "Maximum Swap",
+        "TitleSlug": "maximum-swap",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"500.5K\", \"totalSubmission\": \"964.3K\", \"totalAcceptedRaw\": 500532, \"totalSubmissionRaw\": 964326, \"acRate\": \"51.9%\"}",
+        "Likes": 4255,
+        "Dislikes": 273,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximumSwap(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximumSwap(self, num: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximumSwap(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximumSwap = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximumSwap(num: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximumSwap(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximumSwap(num int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximumSwap(num: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximumSwap(_ num: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum_swap(num: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {Integer}\ndef maximum_swap(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer\n     */\n    function maximumSwap($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximumSwap(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximumSwap(num: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum_swap(num :: integer) :: integer\n  def maximum_swap(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum_swap(Num :: integer()) -> integer().\nmaximum_swap(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum-swap num)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:23.575462+01:00",
+    "AcRate": "51.9",
+    "TotalSubmissions": 964326,
+    "TotalAccepted": 500532,
+    "AcceptanceRate": 0.5190485375277655,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-swap/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nTask: Swap two digits at most once in the integer `num` to get the maximum valued number.\n\nAnalysis:\n1. **Problem Type Classification**: This is a greedy/array manipulation problem. We are working with the digits of the number to maximize its value with at most one swap.\n\n2. **Key Patterns & Algorithms**: \n   - Convert the number to a list of characters (or array of digits) for easier manipulation.\n   - We want to make the number as large as possible. The idea is to find the first digit (from left) that is smaller than a digit to its right. Then swap it with the largest digit that appears to its right (if there are multiple largest digits, we should choose the rightmost occurrence to maximize the effect).\n   - Alternatively, we can precompute the maximum digit from the right for each position.\n\n3. **Constraints Analysis**: \n   - The number can be up to 10^8, which means it has at most 9 digits. So we can use an O(n^2) solution without any issue. However, we can also do it in O(n) with a single pass from right to left.\n\n4. **Edge Cases**:\n   - Single digit number (no swap possible).\n   - Number with all digits same (e.g., 9999 -> no swap needed).\n   - Number that is already the maximum (like 9973 in example 2).\n   - Number with duplicates (e.g., 1993 -> we should swap the first '1' with the last '9' to get 9913, not 9193).\n\n5. **Input/Output Analysis**: \n   - Input: an integer `num`.\n   - Output: an integer after at most one swap.\n\n6. **Difficulty Assessment**: Easy to Medium. The challenge is to implement the greedy strategy correctly, especially handling duplicates and choosing the right digit to swap.\n\nPlan:\n1. Convert the number to a list of characters.\n2. Traverse from right to left and for each position, keep track of the maximum digit and its index that appears to the right.\n3. Then traverse from left to right and find the first digit that is less than the maximum digit to its right. Swap it with the maximum digit (if multiple, use the rightmost occurrence) and break.\n4. Convert the list back to an integer.\n\nWe can do:\n   - Create an array `arr` of digits.\n   - Precompute an array `max_right` where `max_right[i]` is the index of the maximum digit from index i to the end (if there are multiple, we want the rightmost occurrence to avoid early large digits being swapped unnecessarily? Actually, we want the rightmost maximum to ensure we get the largest number when we swap with a left digit. For example, 1993: if we have two 9's, we should swap with the last one to get 9913 instead of 9193).\n\nAlternatively, we can precompute:\n   - Let `n = len(arr)`\n   - Create an array `max_index` of length `n`, where `max_index[i]` is the index of the largest digit in the suffix starting at i (if multiple, choose the rightmost one). We can compute this from right to left.\n\nBut note: we don't need the entire array. Actually, we can just traverse from left to right and for each index i, we want to know the maximum digit in the suffix [i+1, end] and its index. So we can precompute from right to left.\n\nEfficient approach (O(n)):\n   - Precompute an array `max_right` of the same length as the digits, where `max_right[i]` is the index of the maximum digit that appears in the suffix from i to the end (if multiple, take the rightmost). Why rightmost? Because if we have duplicates, swapping with the rightmost one will yield a larger number. For example: 1993 -> we want to swap the first '1' with the last '9' to get 9913 instead of 9193.\n   - Then iterate from left to right:\n        for i in range(n):\n            if there is a digit in the right that is larger than arr[i] (i.e., arr[max_right[i+1]] > arr[i] if i < n-1), then swap arr[i] with arr[max_right[i+1]] and break.\n\nBut actually, we should define `max_right[i]` as the index of the maximum digit in the suffix starting at i (including i). However, we don't want to swap with itself. So for each i, we are interested in the maximum in [i+1, end]. So we can create an array `max_right` of length n, but for each i we look at j = i+1.\n\nAlternatively, we can create an array `max_index` of length n, and initialize:\n   max_index[n-1] = n-1\n   for i from n-2 down to 0:\n        if arr[i+1] >= arr[max_index[i+1]]:   # we want the rightmost maximum, so use >=\n            max_index[i] = i+1\n        else:\n            max_index[i] = max_index[i+1]\n\nBut this doesn't work correctly for the entire suffix. Actually, we want the maximum in the entire suffix [i+1, end]. So we should do:\n   max_index = [0]*n\n   max_index[n-1] = n-1\n   for i in range(n-2, -1, -1):\n        if arr[i+1] > arr[max_index[i+1]]:\n            max_index[i] = i+1\n        else:\n            max_index[i] = max_index[i+1]\n\nBut to get the rightmost maximum, we should use >=. So:\n   max_index[i] = i+1 if arr[i+1] >= arr[max_index[i+1]] else max_index[i+1]\n\nThen we traverse i from 0 to n-2:\n   if arr[i] < arr[max_index[i]]:\n        swap arr[i] and arr[max_index[i]]\n        break\n\nThis should work.\n\nExample with 1993:\nDigits: ['1','9','9','3']\nPrecompute max_index from right:\n   i=3: max_index[3]=3\n   i=2: compare arr[3]='3' and arr[max_index[3]]='3' -> same, so we take the rightmost? Actually we are using >= so we take index 3? But we want the maximum in the suffix [i+1, end]. For i=2, the suffix is [3] -> max index=3.\n   But wait, for i=2, we are comparing the next digit (index3) with the max of the next suffix (which is index3). So it's correct.\n   i=1: compare arr[2]='9' and arr[max_index[2]]=arr[3]='3' -> 9>=3, so we set max_index[1]=2.\n   i=0: compare arr[1]='9' and arr[max_index[1]]=arr[2]='9' -> same, so we set max_index[0]=1? But we want the maximum in the suffix [1,3] which is 9 at index2 (rightmost). So we should actually compare with >= to get the rightmost.\n\nSo the precomputation is correct: for i=0, max_index[0]=1? But that is not the rightmost 9. Actually, we are computing for each i the index of the maximum digit in the suffix [i+1, end]. For i=0, the suffix is [1,2,3]. The maximum is 9 at index1 and index2. We want the rightmost, which is index2. So our method for i=0: \n   max_index[0] = 1 if arr[1] >= arr[max_index[1]] -> arr[1]='9' and arr[max_index[1]]=arr[2]='9', so we set to 1. But we want 2.\n\nSo we need to change the precomputation to always take the rightmost maximum. How? We can traverse from right to left and update the maximum value and its index. Actually, we can do:\n\n   max_index = [0] * n\n   max_val = -1\n   max_pos = -1\n   for i in range(n-1, -1, -1):\n        if int(arr[i]) >= max_val:\n            max_val = int(arr[i])\n            max_pos = i\n        max_index[i] = max_pos\n\nBut this gives the maximum from i to end. But we need from i+1 to end for index i. So we can shift: for each i, the max in [i+1, end] is stored at max_index[i+1] (if i < n-1).\n\nSo we can precompute an array `max_arr` for the entire array from right to left. Then for each i, we look at j = i+1 to get the max index from i+1 to end.\n\nActually, we can avoid building an array for all i. We can just traverse from left to right and for each i, we can look from the end backwards to find the largest digit that is greater than arr[i]. But that would be O(n^2). Since n is at most 9, it's acceptable.\n\nGiven the small constraints (n<=9), we can use a simple O(n^2) method:\n\n   digits = list(str(num))\n   n = len(digits)\n   max_num = num\n   for i in range(n):\n        for j in range(i+1, n):\n            # swap digits[i] and digits[j]\n            digits[i], digits[j] = digits[j], digits[i]\n            new_num = int(''.join(digits))\n            if new_num > max_num:\n                max_num = new_num\n            # swap back\n            digits[i], digits[j] = digits[j], digits[i]\n   return max_num\n\nThis is straightforward and will work.\n\nBut to be efficient and practice for larger problems, we can do the O(n) method.\n\nLet's correct the O(n) method:\n\nWe want to precompute an array `right_max_index` of length n, where `right_max_index[i]` is the index of the largest digit in the suffix [i, n-1] (if multiple, the rightmost). We can compute this from right to left:\n\n   right_max_index = [0] * n\n   right_max_index[n-1] = n-1\n   for i in range(n-2, -1, -1):\n        if digits[i] > digits[right_max_index[i+1]]:\n            right_max_index[i] = i\n        else:\n            right_max_index[i] = right_max_index[i+1]\n\nBut to get the rightmost maximum, we use >=:\n\n   right_max_index[i] = i if digits[i] >= digits[right_max_index[i+1]] else right_max_index[i+1]\n\nNow, for each index i from 0 to n-2, we are interested in the maximum in [i+1, n-1], which is stored in `right_max_index[i+1]`. So we traverse i from 0 to n-2:\n   if digits[i] < digits[right_max_index[i+1]]:\n        swap digits[i] and digits[right_max_index[i+1]]\n        break\n\nThen return the integer.\n\nExample 1993:\ndigits = ['1','9','9','3']\nPrecompute right_max_index:\n   i=3: right_max_index[3]=3\n   i=2: compare digits[2]='9' >= digits[right_max_index[3]]='3' -> true, so right_max_index[2]=2\n   i=1: compare digits[1]='9' >= digits[right_max_index[2]]='9' -> true, so right_max_index[1]=1\n   i=0: compare digits[0]='1' >= digits[right_max_index[1]]='9' -> false, so right_max_index[0]=1\n\nNow, we traverse i from0 to n-2:\n   i=0: digits[0]='1' < digits[right_max_index[1]]=digits[1]='9' -> true. So we swap digits[0] and digits[1]. Result: ['9','1','9','3'] -> 9193, which is not the maximum (9913 is).\n\nWhy? Because we should have taken the rightmost maximum. In the precomputation, for i=1, we set right_max_index[1]=1, but the rightmost maximum in [1,3] is actually at index2. So we need to change the precomputation to always take the rightmost when there are duplicates.\n\nTo get the rightmost maximum, we should change the condition to strictly greater for taking the current, and otherwise take the right one. Actually, we want the rightmost, so we should only update when the current is strictly greater? No, because we want the rightmost, so we should never update if the current is equal? Actually, we want to always keep the rightmost. So we can do:\n\n   right_max_index[n-1] = n-1\n   for i in range(n-2, -1, -1):\n        if digits[i] > digits[right_max_index[i+1]]:\n            right_max_index[i] = i\n        else:\n            right_max_index[i] = right_max_index[i+1]\n\nThis will give the rightmost maximum? For i=2: digits[2]='9' > digits[right_max_index[3]]='3' -> true, so set to 2.\nFor i=1: digits[1]='9' > digits[right_max_index[2]]='9' -> false, so set to right_max_index[2]=2.\nFor i=0: digits[0]='1' > digits[right_max_index[1]]='9' -> false, so set to2.\n\nSo now right_max_index[0]=2, which is the rightmost maximum in the entire array.\n\nThen for i=0: digits[0]='1' < digits[right_max_index[1]]? Actually, we need the max in [i+1, end], which is right_max_index[i+1]. For i=0, we look at right_max_index[1]=2.\nSo we swap digits[0] and digits[2] -> becomes [9,9,1,3] = 9913, which is correct.\n\nSo the O(n) method is:\n\n   s = list(str(num))\n   n = len(s)\n   right_max_index = [0] * n\n   right_max_index[n-1] = n-1\n   for i in range(n-2, -1, -1):\n        if s[i] > s[right_max_index[i+1]]:\n            right_max_index[i] = i\n        else:\n            right_max_index[i] = right_max_index[i+1]\n\n   for i in range(n-1):\n        j = right_max_index[i+1]\n        if s[i] < s[j]:\n            s[i], s[j] = s[j], s[i]\n            break\n\n   return int(''.join(s))\n\nLet's test with another example: 2736\ns = ['2','7','3','6']\nPrecompute right_max_index:\n   i=3: right_max_index[3]=3\n   i=2: s[2]='3' > s[right_max_index[3]]='6'? no -> right_max_index[2]=3\n   i=1: s[1]='7' > s[right_max_index[2]]='6'? yes -> right_max_index[1]=1\n   i=0: s[0]='2' > s[right_max_index[1]]='7'? no -> right_max_index[0]=1\n\nThen for i=0: look at right_max_index[1]=1, and s[0]='2' < s[1]='7', so swap -> becomes ['7','2','3','6'] = 7236, correct.\n\nSo we'll implement the O(n) method.\n\nCode:\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Greedy with precomputation of the rightmost maximum digit index.\n\n**Step-by-Step Approach**:\n1. Convert the integer to a list of characters for digit manipulation.\n2. Precompute an array `right_max_index` where `right_max_index[i]` stores the index of the largest digit (with rightmost preference) from index `i` to the end.\n3. Iterate from left to right through the digits. For each digit, check if there exists a larger digit to its right (using `right_max_index[i+1]`). If found, swap with the rightmost occurrence of that larger digit and break.\n4. Convert the list back to an integer and return.\n\n**Data Structures**:\n- List of characters to represent digits.\n- Integer array for storing indices of rightmost maximum digits.\n\n**Time Complexity**: O(n), where n is the number of digits. We traverse the list twice: once right-to-left for precomputation and once left-to-right for swapping.\n\n**Space Complexity**: O(n) for storing the digits and the precomputation array.\n\n**Pseudocode**:\n1. Let s = list of string digits from num.\n2. n = len(s)\n3. Initialize right_max_index array of length n.\n4. Set right_max_index[n-1] = n-1.\n5. For i from n-2 down to 0:\n   - If s[i] > s[right_max_index[i+1]]:\n        right_max_index[i] = i\n   - Else:\n        right_max_index[i] = right_max_index[i+1]\n6. For i from 0 to n-2:\n   - j = right_max_index[i+1]\n   - If s[i] < s[j]:\n        Swap s[i] and s[j]\n        Break\n7. Return integer conversion of s\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 51781474917,
+      "SolvedAt": "2025-11-21T00:07:51.137347+01:00",
+      "PromptTokens": 14046,
+      "OutputTokens": 4535
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "670",
+        "typed_code": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        right_max_index = [0] * n\n        right_max_index[-1] = n - 1\n        for i in range(n-2, -1, -1):\n            if s[i] > s[right_max_index[i+1]]:\n                right_max_index[i] = i\n            else:\n                right_max_index[i] = right_max_index[i+1]\n        for i in range(n-1):\n            j = right_max_index[i+1]\n            if s[i] < s[j]:\n                s[i], s[j] = s[j], s[i]\n                break\n        return int(''.join(s))\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:17:11+01:00"
+    }
+  }
+}

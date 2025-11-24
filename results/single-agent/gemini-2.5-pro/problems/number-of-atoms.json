@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "726",
+        "questionId": "726",
+        "Content": "<p>Given a string <code>formula</code> representing a chemical formula, return <em>the count of each atom</em>.</p>\n\n<p>The atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.</p>\n\n<p>One or more digits representing that element&#39;s count may follow if the count is greater than <code>1</code>. If the count is <code>1</code>, no digits will follow.</p>\n\n<ul>\n\t<li>For example, <code>&quot;H2O&quot;</code> and <code>&quot;H2O2&quot;</code> are possible, but <code>&quot;H1O2&quot;</code> is impossible.</li>\n</ul>\n\n<p>Two formulas are concatenated together to produce another formula.</p>\n\n<ul>\n\t<li>For example, <code>&quot;H2O2He3Mg4&quot;</code> is also a formula.</li>\n</ul>\n\n<p>A formula placed in parentheses, and a count (optionally added) is also a formula.</p>\n\n<ul>\n\t<li>For example, <code>&quot;(H2O2)&quot;</code> and <code>&quot;(H2O2)3&quot;</code> are formulas.</li>\n</ul>\n\n<p>Return the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than <code>1</code>), followed by the second name (in sorted order), followed by its count (if that count is more than <code>1</code>), and so on.</p>\n\n<p>The test cases are generated so that all the values in the output fit in a <strong>32-bit</strong> integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> formula = &quot;H2O&quot;\n<strong>Output:</strong> &quot;H2O&quot;\n<strong>Explanation:</strong> The count of elements are {&#39;H&#39;: 2, &#39;O&#39;: 1}.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> formula = &quot;Mg(OH)2&quot;\n<strong>Output:</strong> &quot;H2MgO2&quot;\n<strong>Explanation:</strong> The count of elements are {&#39;H&#39;: 2, &#39;Mg&#39;: 1, &#39;O&#39;: 2}.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> formula = &quot;K4(ON(SO3)2)2&quot;\n<strong>Output:</strong> &quot;K4N2O14S4&quot;\n<strong>Explanation:</strong> The count of elements are {&#39;K&#39;: 4, &#39;N&#39;: 2, &#39;O&#39;: 14, &#39;S&#39;: 4}.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= formula.length &lt;= 1000</code></li>\n\t<li><code>formula</code> consists of English letters, digits, <code>&#39;(&#39;</code>, and <code>&#39;)&#39;</code>.</li>\n\t<li><code>formula</code> is always valid.</li>\n</ul>\n",
+        "SampleTestCase": "\"H2O\"",
+        "ExampleTestcases": "\"H2O\"\n\"Mg(OH)2\"\n\"K4(ON(SO3)2)2\"",
+        "Difficulty": "Hard",
+        "Title": "Number of Atoms",
+        "TitleSlug": "number-of-atoms",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"158.4K\", \"totalSubmission\": \"243.5K\", \"totalAcceptedRaw\": 158389, \"totalSubmissionRaw\": 243519, \"acRate\": \"65.0%\"}",
+        "Likes": 1959,
+        "Dislikes": 411,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string countOfAtoms(string formula) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String countOfAtoms(String formula) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countOfAtoms(self, formula):\n        \"\"\"\n        :type formula: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} formula\n * @return {string}\n */\nvar countOfAtoms = function(formula) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countOfAtoms(formula: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string CountOfAtoms(string formula) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* countOfAtoms(char* formula) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countOfAtoms(formula string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countOfAtoms(formula: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countOfAtoms(_ formula: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_of_atoms(formula: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} formula\n# @return {String}\ndef count_of_atoms(formula)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $formula\n     * @return String\n     */\n    function countOfAtoms($formula) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String countOfAtoms(String formula) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countOfAtoms(formula: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_of_atoms(formula :: String.t) :: String.t\n  def count_of_atoms(formula) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_of_atoms(Formula :: unicode:unicode_binary()) -> unicode:unicode_binary().\ncount_of_atoms(Formula) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-of-atoms formula)\n  (-> string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:04:31.713984+01:00",
+    "AcRate": "65.0",
+    "TotalSubmissions": 243519,
+    "TotalAccepted": 158389,
+    "AcceptanceRate": 0.6504174212279124,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-atoms/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string formula representing a chemical formula, return the count of each atom.\nThe atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.\nOne or more digits representing that element's count may follow if the count is greater than 1. If the count is 1, no digits will follow.\n\tFor example, \"H2O\" and \"H2O2\" are possible, but \"H1O2\" is impossible.\nTwo formulas are concatenated together to produce another formula.\n\tFor example, \"H2O2He3Mg4\" is also a formula.\nA formula placed in parentheses, and a count (optionally added) is also a formula.\n\tFor example, \"(H2O2)\" and \"(H2O2)3\" are formulas.\nReturn the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than 1), followed by the second name (in sorted order), followed by its count (if that count is more than 1), and so on.\nThe test cases are generated so that all the values in the output fit in a 32-bit integer.\n\u00a0\nExample 1:\nInput: formula = \"H2O\"\nOutput: \"H2O\"\nExplanation: The count of elements are {'H': 2, 'O': 1}.\nExample 2:\nInput: formula = \"Mg(OH)2\"\nOutput: \"H2MgO2\"\nExplanation: The count of elements are {'H': 2, 'Mg': 1, 'O': 2}.\nExample 3:\nInput: formula = \"K4(ON(SO3)2)2\"\nOutput: \"K4N2O14S4\"\nExplanation: The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.\n\u00a0\nConstraints:\n\t1 <= formula.length <= 1000\n\tformula consists of English letters, digits, '(', and ')'.\n\tformula is always valid.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and robust way to solve this problem is by using a stack. The nested structure of chemical formulas, particularly with parentheses, naturally maps to the Last-In, First-Out behavior of a stack. Each level of parentheses can be thought of as a new \"scope\" for counting atoms.\n\nHere's the approach:\n1.  We'll use a stack where each element is a `collections.Counter` (which is like a dictionary for counting hashable objects). The counter at the top of the stack will keep track of atom counts in the current scope (i.e., within the current set of parentheses). We initialize the stack with one counter for the global scope.\n\n2.  We iterate through the formula string from left to right, parsing it character by character. We use an index `i` that we manually advance as we consume parts of the string.\n\n3.  The parsing logic is as follows:\n    *   If we see an opening parenthesis `(`, it signifies the start of a new, nested scope. We push a new, empty `Counter` onto the stack.\n    *   If we see a closing parenthesis `)`, it signifies the end of the current scope. We pop the top counter from the stack. Then, we look for a number immediately following the parenthesis, which acts as a multiplier. We multiply all counts in the popped counter by this multiplier and add them to the new top counter on the stack (which represents the parent scope).\n    *   If we see an uppercase letter, it's the start of an element's name. We parse the full name (e.g., `H`, `Mg`), which is one uppercase letter followed by zero or more lowercase letters. After the name, we parse any following digits to get the element's count. If no digits are present, the count is 1. We then add this element and its count to the counter at the top of the stack.\n\n4.  After iterating through the entire formula, the counter at the bottom of the stack (`stack[0]`) will hold the total counts for all atoms.\n\n5.  Finally, we format the output string according to the requirements:\n    *   Sort the element names alphabetically.\n    *   For each element, append its name to the result.\n    *   If its count is greater than 1, append the count as well.\n    *   Concatenate all parts to form the final string.\n\nThis method correctly handles all aspects of the formula grammar, including concatenation, nesting, and multipliers, in a single pass.\n\n```python\nimport collections\n\nclass Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        n = len(formula)\n        stack = [collections.Counter()]\n        i = 0\n\n        while i < n:\n            if formula[i] == '(':\n                stack.append(collections.Counter())\n                i += 1\n            elif formula[i] == ')':\n                top_counter = stack.pop()\n                i += 1\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                multiplier = int(formula[i_start:i] or '1')\n                \n                for name, count in top_counter.items():\n                    stack[-1][name] += count * multiplier\n            else:\n                i_start = i\n                i += 1\n                while i < n and formula[i].islower():\n                    i += 1\n                name = formula[i_start:i]\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                count = int(formula[i_start:i] or '1')\n                \n                stack[-1][name] += count\n        \n        final_counts = stack[0]\n        \n        res = []\n        for name in sorted(final_counts.keys()):\n            res.append(name)\n            count = final_counts[name]\n            if count > 1:\n                res.append(str(count))\n        \n        return \"\".join(res)\n```",
+      "TypedCode": "\nimport collections\n\nclass Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        n = len(formula)\n        stack = [collections.Counter()]\n        i = 0\n\n        while i < n:\n            if formula[i] == '(':\n                stack.append(collections.Counter())\n                i += 1\n            elif formula[i] == ')':\n                top_counter = stack.pop()\n                i += 1\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                multiplier = int(formula[i_start:i] or '1')\n                \n                for name, count in top_counter.items():\n                    stack[-1][name] += count * multiplier\n            else:\n                i_start = i\n                i += 1\n                while i < n and formula[i].islower():\n                    i += 1\n                name = formula[i_start:i]\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                count = int(formula[i_start:i] or '1')\n                \n                stack[-1][name] += count\n        \n        final_counts = stack[0]\n        \n        res = []\n        for name in sorted(final_counts.keys()):\n            res.append(name)\n            count = final_counts[name]\n            if count > 1:\n                res.append(str(count))\n        \n        return \"\".join(res)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 119664292375,
+      "SolvedAt": "2025-11-20T17:49:01.137264+01:00",
+      "PromptTokens": 691,
+      "OutputTokens": 14935
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "726",
+        "typed_code": "\nimport collections\n\nclass Solution:\n    def countOfAtoms(self, formula: str) -> str:\n        n = len(formula)\n        stack = [collections.Counter()]\n        i = 0\n\n        while i < n:\n            if formula[i] == '(':\n                stack.append(collections.Counter())\n                i += 1\n            elif formula[i] == ')':\n                top_counter = stack.pop()\n                i += 1\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                multiplier = int(formula[i_start:i] or '1')\n                \n                for name, count in top_counter.items():\n                    stack[-1][name] += count * multiplier\n            else:\n                i_start = i\n                i += 1\n                while i < n and formula[i].islower():\n                    i += 1\n                name = formula[i_start:i]\n                \n                i_start = i\n                while i < n and formula[i].isdigit():\n                    i += 1\n                count = int(formula[i_start:i] or '1')\n                \n                stack[-1][name] += count\n        \n        final_counts = stack[0]\n        \n        res = []\n        for name in sorted(final_counts.keys()):\n            res.append(name)\n            count = final_counts[name]\n            if count > 1:\n                res.append(str(count))\n        \n        return \"\".join(res)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:40:58+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "646",
+        "questionId": "646",
+        "Content": "<p>You are given an array of <code>n</code> pairs <code>pairs</code> where <code>pairs[i] = [left<sub>i</sub>, right<sub>i</sub>]</code> and <code>left<sub>i</sub> &lt; right<sub>i</sub></code>.</p>\n\n<p>A pair <code>p2 = [c, d]</code> <strong>follows</strong> a pair <code>p1 = [a, b]</code> if <code>b &lt; c</code>. A <strong>chain</strong> of pairs can be formed in this fashion.</p>\n\n<p>Return <em>the length longest chain which can be formed</em>.</p>\n\n<p>You do not need to use up all the given intervals. You can select pairs in any order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> pairs = [[1,2],[2,3],[3,4]]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The longest chain is [1,2] -&gt; [3,4].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> pairs = [[1,2],[7,8],[4,5]]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The longest chain is [1,2] -&gt; [4,5] -&gt; [7,8].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == pairs.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 1000</code></li>\n\t<li><code>-1000 &lt;= left<sub>i</sub> &lt; right<sub>i</sub> &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[[1,2],[2,3],[3,4]]",
+        "ExampleTestcases": "[[1,2],[2,3],[3,4]]\n[[1,2],[7,8],[4,5]]",
+        "Difficulty": "Medium",
+        "Title": "Maximum Length of Pair Chain",
+        "TitleSlug": "maximum-length-of-pair-chain",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"297.1K\", \"totalSubmission\": \"484.5K\", \"totalAcceptedRaw\": 297114, \"totalSubmissionRaw\": 484500, \"acRate\": \"61.3%\"}",
+        "Likes": 4836,
+        "Dislikes": 137,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int findLongestChain(vector<vector<int>>& pairs) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int findLongestChain(int[][] pairs) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findLongestChain(self, pairs):\n        \"\"\"\n        :type pairs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} pairs\n * @return {number}\n */\nvar findLongestChain = function(pairs) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findLongestChain(pairs: number[][]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int FindLongestChain(int[][] pairs) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int findLongestChain(int** pairs, int pairsSize, int* pairsColSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findLongestChain(pairs [][]int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findLongestChain(pairs: Array<IntArray>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findLongestChain(_ pairs: [[Int]]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_longest_chain(pairs: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} pairs\n# @return {Integer}\ndef find_longest_chain(pairs)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $pairs\n     * @return Integer\n     */\n    function findLongestChain($pairs) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int findLongestChain(List<List<int>> pairs) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findLongestChain(pairs: Array[Array[Int]]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_longest_chain(pairs :: [[integer]]) :: integer\n  def find_longest_chain(pairs) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_longest_chain(Pairs :: [[integer()]]) -> integer().\nfind_longest_chain(Pairs) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-longest-chain pairs)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:08:39.29473+01:00",
+    "AcRate": "61.3",
+    "TotalSubmissions": 484500,
+    "TotalAccepted": 297114,
+    "AcceptanceRate": 0.6132383900928793,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-length-of-pair-chain/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array of n pairs pairs where pairs[i] = [lefti, righti] and lefti < righti.\nA pair p2 = [c, d] follows a pair p1 = [a, b] if b < c. A chain of pairs can be formed in this fashion.\nReturn the length longest chain which can be formed.\nYou do not need to use up all the given intervals. You can select pairs in any order.\n\u00a0\nExample 1:\nInput: pairs = [[1,2],[2,3],[3,4]]\nOutput: 2\nExplanation: The longest chain is [1,2] -> [3,4].\nExample 2:\nInput: pairs = [[1,2],[7,8],[4,5]]\nOutput: 3\nExplanation: The longest chain is [1,2] -> [4,5] -> [7,8].\n\u00a0\nConstraints:\n\tn == pairs.length\n\t1 <= n <= 1000\n\t-1000 <= lefti < righti <= 1000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the longest chain of pairs where each pair follows the previous one (meaning the right value of one pair is less than the left value of the next pair).\n\nThis is a classic greedy algorithm problem similar to the activity selection problem. The key insight is:\n1. Sort pairs by their ending point (right value)\n2. Greedily select pairs that don't overlap with the previously selected pair\n\nThe greedy approach works because by always choosing the pair that ends earliest, we leave maximum room for future pairs to be added to the chain.\n\nAlternatively, this can be solved with dynamic programming, but the greedy approach is more efficient.\n\nLet me trace through Example 1:\n- pairs = [[1,2],[2,3],[3,4]]\n- After sorting by right value: [[1,2],[2,3],[3,4]]\n- Pick [1,2], chain length = 1, last_right = 2\n- [2,3]: left=2, not < 2, skip\n- [3,4]: left=3, 3 > 2, pick it, chain length = 2, last_right = 4\n- Result: 2 \u2713\n\nExample 2:\n- pairs = [[1,2],[7,8],[4,5]]\n- After sorting by right value: [[1,2],[4,5],[7,8]]\n- Pick [1,2], chain length = 1, last_right = 2\n- [4,5]: left=4, 4 > 2, pick it, chain length = 2, last_right = 5\n- [7,8]: left=7, 7 > 5, pick it, chain length = 3, last_right = 8\n- Result: 3 \u2713\n\n```python\nfrom typing import List\n\nclass Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        pairs.sort(key=lambda x: x[1])\n        \n        chain_length = 0\n        last_right = float('-inf')\n        \n        for left, right in pairs:\n            if left > last_right:\n                chain_length += 1\n                last_right = right\n        \n        return chain_length\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        pairs.sort(key=lambda x: x[1])\n        \n        chain_length = 0\n        last_right = float('-inf')\n        \n        for left, right in pairs:\n            if left > last_right:\n                chain_length += 1\n                last_right = right\n        \n        return chain_length\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 9440453250,
+      "SolvedAt": "2025-11-19T21:43:49.302844+01:00",
+      "PromptTokens": 478,
+      "OutputTokens": 528
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "646",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        pairs.sort(key=lambda x: x[1])\n        \n        chain_length = 0\n        last_right = float('-inf')\n        \n        for left, right in pairs:\n            if left > last_right:\n                chain_length += 1\n                last_right = right\n        \n        return chain_length\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:22:27+01:00"
+    }
+  }
+}

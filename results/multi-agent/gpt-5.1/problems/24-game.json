@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "679",
+        "questionId": "679",
+        "Content": "<p>You are given an integer array <code>cards</code> of length <code>4</code>. You have four cards, each containing a number in the range <code>[1, 9]</code>. You should arrange the numbers on these cards in a mathematical expression using the operators <code>[&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;]</code> and the parentheses <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> to get the value 24.</p>\n\n<p>You are restricted with the following rules:</p>\n\n<ul>\n\t<li>The division operator <code>&#39;/&#39;</code> represents real division, not integer division.\n\n\t<ul>\n\t\t<li>For example, <code>4 / (1 - 2 / 3) = 4 / (1 / 3) = 12</code>.</li>\n\t</ul>\n\t</li>\n\t<li>Every operation done is between two numbers. In particular, we cannot use <code>&#39;-&#39;</code> as a unary operator.\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 1, 1, 1]</code>, the expression <code>&quot;-1 - 1 - 1 - 1&quot;</code> is <strong>not allowed</strong>.</li>\n\t</ul>\n\t</li>\n\t<li>You cannot concatenate numbers together\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 2, 1, 2]</code>, the expression <code>&quot;12 + 12&quot;</code> is not valid.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return <code>true</code> if you can get such expression that evaluates to <code>24</code>, and <code>false</code> otherwise.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [4,1,8,7]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> (8-4) * (7-1) = 24\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [1,2,1,2]\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>cards.length == 4</code></li>\n\t<li><code>1 &lt;= cards[i] &lt;= 9</code></li>\n</ul>\n",
+        "SampleTestCase": "[4,1,8,7]",
+        "ExampleTestcases": "[4,1,8,7]\n[1,2,1,2]",
+        "Difficulty": "Hard",
+        "Title": "24 Game",
+        "TitleSlug": "24-game",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"164.2K\", \"totalSubmission\": \"277.3K\", \"totalAcceptedRaw\": 164151, \"totalSubmissionRaw\": 277296, \"acRate\": \"59.2%\"}",
+        "Likes": 1872,
+        "Dislikes": 288,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool judgePoint24(vector<int>& cards) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean judgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def judgePoint24(self, cards):\n        \"\"\"\n        :type cards: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} cards\n * @return {boolean}\n */\nvar judgePoint24 = function(cards) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function judgePoint24(cards: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool JudgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool judgePoint24(int* cards, int cardsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func judgePoint24(cards []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun judgePoint24(cards: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func judgePoint24(_ cards: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn judge_point24(cards: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} cards\n# @return {Boolean}\ndef judge_point24(cards)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $cards\n     * @return Boolean\n     */\n    function judgePoint24($cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool judgePoint24(List<int> cards) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def judgePoint24(cards: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec judge_point24(cards :: [integer]) :: boolean\n  def judge_point24(cards) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec judge_point24(Cards :: [integer()]) -> boolean().\njudge_point24(Cards) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (judge-point24 cards)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:06:56.163065+01:00",
+    "AcRate": "59.2",
+    "TotalSubmissions": 277296,
+    "TotalAccepted": 164151,
+    "AcceptanceRate": 0.5919703133114073,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/24-game/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n        \n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n            \n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n                    \n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n                    \n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n        \n        nums = [float(x) for x in cards]\n        return backtrack(nums)\n\n=== DESIGN ===\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n\n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n\n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n\n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n\n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n\n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n\n        nums = [float(x) for x in cards]\n        return backtrack(nums)\n\n=== IMPLEMENTATION ===\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n\n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n\n        nums = [float(x) for x in cards]\n        return backtrack(nums)\n\n=== VERIFICATION ===\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n\n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n\n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n\n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n\n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n\n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n\n        nums = [float(x) for x in cards]\n        return backtrack(nums)\n\n",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n\n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n\n        nums = [float(x) for x in cards]\n        return backtrack(nums)",
+      "Model": "openai/gpt-5.1",
+      "Latency": 41741781959,
+      "SolvedAt": "2025-11-19T15:09:11.994374+01:00",
+      "PromptTokens": 4145,
+      "OutputTokens": 2094
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "679",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        TARGET = 24.0\n\n        def backtrack(nums: List[float]) -> bool:\n            if len(nums) == 1:\n                return abs(nums[0] - TARGET) < EPS\n            n = len(nums)\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    rest = [nums[k] for k in range(n) if k != i and k != j]\n                    results = [\n                        a + b,\n                        a - b,\n                        b - a,\n                        a * b\n                    ]\n                    if abs(b) > EPS:\n                        results.append(a / b)\n                    if abs(a) > EPS:\n                        results.append(b / a)\n                    for r in results:\n                        if backtrack(rest + [r]):\n                            return True\n            return False\n\n        nums = [float(x) for x in cards]\n        return backtrack(nums)"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:40:56+01:00"
+    }
+  }
+}

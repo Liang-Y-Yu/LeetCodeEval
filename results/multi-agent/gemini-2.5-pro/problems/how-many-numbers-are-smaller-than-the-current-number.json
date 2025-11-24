@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1365",
+        "questionId": "1482",
+        "Content": "<p>Given the array <code>nums</code>, for each <code>nums[i]</code> find out how many numbers in the array are smaller than it. That is, for each <code>nums[i]</code> you have to count the number of valid <code>j&#39;s</code>&nbsp;such that&nbsp;<code>j != i</code> <strong>and</strong> <code>nums[j] &lt; nums[i]</code>.</p>\n\n<p>Return the answer in an array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [8,1,2,2,3]\n<strong>Output:</strong> [4,0,1,1,3]\n<strong>Explanation:</strong> \nFor nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). \nFor nums[1]=1 does not exist any smaller number than it.\nFor nums[2]=2 there exist one smaller number than it (1). \nFor nums[3]=2 there exist one smaller number than it (1). \nFor nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [6,5,4,8]\n<strong>Output:</strong> [2,1,0,3]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [7,7,7,7]\n<strong>Output:</strong> [0,0,0,0]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 500</code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[8,1,2,2,3]",
+        "ExampleTestcases": "[8,1,2,2,3]\n[6,5,4,8]\n[7,7,7,7]",
+        "Difficulty": "Easy",
+        "Title": "How Many Numbers Are Smaller Than the Current Number",
+        "TitleSlug": "how-many-numbers-are-smaller-than-the-current-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"737.7K\", \"totalSubmission\": \"845.1K\", \"totalAcceptedRaw\": 737708, \"totalSubmissionRaw\": 845145, \"acRate\": \"87.3%\"}",
+        "Likes": 5793,
+        "Dislikes": 154,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcy",
+            "Name": "Counting Sort",
+            "Slug": "counting-sort"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] smallerNumbersThanCurrent(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallerNumbersThanCurrent(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar smallerNumbersThanCurrent = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallerNumbersThanCurrent(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SmallerNumbersThanCurrent(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallerNumbersThanCurrent(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallerNumbersThanCurrent(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallerNumbersThanCurrent(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef smaller_numbers_than_current(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function smallerNumbersThanCurrent($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> smallerNumbersThanCurrent(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallerNumbersThanCurrent(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smaller_numbers_than_current(nums :: [integer]) :: [integer]\n  def smaller_numbers_than_current(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smaller_numbers_than_current(Nums :: [integer()]) -> [integer()].\nsmaller_numbers_than_current(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smaller-numbers-than-current nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:25:37.289714+01:00",
+    "AcRate": "87.3",
+    "TotalSubmissions": 845145,
+    "TotalAccepted": 737708,
+    "AcceptanceRate": 0.8728774352330073,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:\n        # Step 1: Create a frequency map for numbers in the input array.\n        # Since the numbers are constrained to the range [0, 100], an array of\n        # size 101 is an efficient way to store frequencies.\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n        \n        # Step 2: Transform the frequency array into a lookup table.\n        # The goal is for each index `i`, the value stored at that index\n        # will represent the total count of numbers smaller than `i`.\n        # This is achieved by calculating a running sum (prefix sum).\n        running_sum = 0\n        for i in range(101):\n            # Store the current frequency count before overwriting.\n            current_count = counts[i]\n            # Overwrite the frequency count with the running sum of\n            # frequencies of all numbers smaller than `i`.\n            counts[i] = running_sum\n            # Update the running sum for the next number.\n            running_sum += current_count\n\n        # Step 3: Build the result array.\n        # For each number in the original input, we can now perform an O(1)\n        # lookup in our transformed `counts` array to find how many numbers\n        # are smaller than it.\n        result = [counts[num] for num in nums]\n        \n        return result\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    \"\"\"\n    Solves the problem of finding, for each number in an array, how many other\n    numbers in the array are smaller than it.\n    \"\"\"\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        \"\"\"\n        Given the array nums, for each nums[i] find out how many numbers in the\n        array are smaller than it.\n\n        Args:\n            nums: A list of integers where 0 <= nums[i] <= 100.\n\n        Returns:\n            A list of integers representing the count of smaller numbers for\n            each element in the original list.\n        \"\"\"\n        \n        # Based on the constraint that 0 <= nums[i] <= 100, we can use a\n        # frequency counting approach for an efficient solution.\n        \n        # Step 1: Create a frequency map for numbers in the input array.\n        # An array of size 101 is used to store the frequency of each number\n        # from 0 to 100.\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n            \n        # Step 2: Transform the frequency array into a lookup table.\n        # The value at counts[i] will be updated to store the total count of\n        # numbers in the original array that are strictly smaller than i.\n        # This is done by calculating a running sum.\n        running_sum = 0\n        for i in range(101):\n            # Store the original frequency of the number `i`.\n            current_count = counts[i]\n            # Update counts[i] to be the count of numbers smaller than `i`.\n            counts[i] = running_sum\n            # Add the original frequency of `i` to the running sum for the\n            # next iteration.\n            running_sum += current_count\n            \n        # Step 3: Build the result array.\n        # For each number in the original input, we can now perform an O(1)\n        # lookup in our transformed `counts` array to find the answer.\n        result = [counts[num] for num in nums]\n        \n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n        \n        running_sum = 0\n        for i in range(101):\n            current_count = counts[i]\n            counts[i] = running_sum\n            running_sum += current_count\n            \n        result = [counts[num] for num in nums]\n        \n        return result\n```\n\n=== VERIFICATION ===\nAn analysis of the provided solution is as follows:\n\n### Verification Report\n\n**1. Correctness**\nThe implemented code correctly solves the problem by using a counting sort-based approach. The logic is sound:\n- **Step 1 (Frequency Counting):** It accurately counts the occurrences of each number in the input `nums` and stores them in a `counts` array. The size of this array (101) is appropriate for the given constraint `0 <= nums[i] <= 100`.\n- **Step 2 (Prefix Sum Calculation):** It transforms the frequency array into a lookup table where `counts[i]` stores the number of elements in the original `nums` array that are strictly smaller than `i`. This is done by correctly calculating a running sum (prefix sum) of the frequencies.\n- **Step 3 (Result Generation):** It constructs the final result array by iterating through the original `nums` and using the pre-computed lookup table for an efficient O(1) query for each number.\n\nThe algorithm is logically correct and robust.\n\n**2. Edge Cases**\nThe solution correctly handles all relevant edge cases within the given constraints:\n- **Duplicate Numbers:** The frequency counting naturally handles duplicates (e.g., `[2, 2, 1]`). The count for `2` will be the count of all numbers smaller than `2` (i.e., the count of `1`s), which is correct.\n- **All Same Numbers:** For an input like `[7, 7, 7, 7]`, the algorithm will correctly determine that there are `0` smaller numbers for each `7`.\n- **Boundary Values:** Numbers at the limits of the range (0 and 100) are handled correctly by the `counts` array of size 101.\n- **Array Size:** The constraints `2 <= nums.length <= 500` are well within the limits this algorithm can handle.\n\n**3. Complexity**\n- **Time Complexity:** The overall time complexity is O(N + K), where N is the length of `nums` and K is the range of possible number values (101).\n    - Frequency counting: O(N)\n    - Prefix sum calculation: O(K)\n    - Result building: O(N)\n  Since K is a constant, the complexity simplifies to O(N), which is highly efficient.\n- **Space Complexity:** The space complexity is O(K) for the `counts` array, plus O(N) for the required result array. The auxiliary space is O(K), which is constant space `O(1)` as K is fixed.\n\nThe solution meets excellent time and space complexity standards.\n\n**4. Code Quality**\n- **Readability:** The code logic is straightforward and easy to follow. Variable names like `counts` and `running_sum` are descriptive.\n- **Pythonic practices:** The use of a list comprehension to build the result is a good, concise practice.\n- **Structure:** The code is logically structured in three clear steps, as outlined in the analysis.\n\n**5. Test Cases**\n- **Example 1:** `nums = [8,1,2,2,3]` -> `Output: [4,0,1,1,3]`. Correct.\n- **Example 2:** `nums = [6,5,4,8]` -> `Output: [2,1,0,3]`. Correct.\n- **Example 3:** `nums = [7,7,7,7]` -> `Output: [0,0,0,0]`. Correct.\nThe code produces the correct output for all provided examples.\n\n**6. Potential Issues**\nThere are no bugs or logical errors in the implementation. The solution is highly optimized for the given constraints. The in-place modification of the `counts` array is a valid space optimization technique. No improvements are necessary.\n\n### Conclusion\nThe provided solution is fully correct, highly efficient, and well-written. It is an excellent implementation for this problem.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n        \n        running_sum = 0\n        for i in range(101):\n            current_count = counts[i]\n            counts[i] = running_sum\n            running_sum += current_count\n            \n        result = [counts[num] for num in nums]\n        \n        return result\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n        \n        running_sum = 0\n        for i in range(101):\n            current_count = counts[i]\n            counts[i] = running_sum\n            running_sum += current_count\n            \n        result = [counts[num] for num in nums]\n        \n        return result\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 253458789250,
+      "SolvedAt": "2025-11-21T11:43:11.89782+01:00",
+      "PromptTokens": 4988,
+      "OutputTokens": 31823
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1482",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:\n        counts = [0] * 101\n        for num in nums:\n            counts[num] += 1\n        \n        running_sum = 0\n        for i in range(101):\n            current_count = counts[i]\n            counts[i] = running_sum\n            running_sum += current_count\n            \n        result = [counts[num] for num in nums]\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:56:41+01:00"
+    }
+  }
+}

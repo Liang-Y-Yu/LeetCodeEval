@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "670",
+        "questionId": "670",
+        "Content": "<p>You are given an integer <code>num</code>. You can swap two digits at most once to get the maximum valued number.</p>\n\n<p>Return <em>the maximum valued number you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 2736\n<strong>Output:</strong> 7236\n<strong>Explanation:</strong> Swap the number 2 and the number 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9973\n<strong>Output:</strong> 9973\n<strong>Explanation:</strong> No swap.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 10<sup>8</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "2736",
+        "ExampleTestcases": "2736\n9973",
+        "Difficulty": "Medium",
+        "Title": "Maximum Swap",
+        "TitleSlug": "maximum-swap",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"500.5K\", \"totalSubmission\": \"964.3K\", \"totalAcceptedRaw\": 500532, \"totalSubmissionRaw\": 964326, \"acRate\": \"51.9%\"}",
+        "Likes": 4255,
+        "Dislikes": 273,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximumSwap(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximumSwap(self, num: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximumSwap(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximumSwap = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximumSwap(num: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximumSwap(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximumSwap(num int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximumSwap(num: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximumSwap(_ num: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum_swap(num: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {Integer}\ndef maximum_swap(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer\n     */\n    function maximumSwap($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximumSwap(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximumSwap(num: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum_swap(num :: integer) :: integer\n  def maximum_swap(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum_swap(Num :: integer()) -> integer().\nmaximum_swap(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum-swap num)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:23.575462+01:00",
+    "AcRate": "51.9",
+    "TotalSubmissions": 964326,
+    "TotalAccepted": 500532,
+    "AcceptanceRate": 0.5190485375277655,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-swap/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an integer num. You can swap two digits at most once to get the maximum valued number.\nReturn the maximum valued number you can get.\n\u00a0\nExample 1:\nInput: num = 2736\nOutput: 7236\nExplanation: Swap the number 2 and the number 7.\nExample 2:\nInput: num = 9973\nOutput: 9973\nExplanation: No swap.\n\u00a0\nConstraints:\n\t0 <= num <= 10^8\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def maximumSwap(self, num: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the maximum number I can get by swapping at most two digits.\n\nThe strategy is:\n1. Convert the number to a list of digits so I can work with individual digits\n2. For each position from left to right, I want to find if there's a larger digit to the right that I can swap with\n3. If there are multiple candidates with the same maximum value to the right, I should pick the rightmost one (to maximize the result)\n4. Make at most one swap and return the result\n\nLet me trace through Example 1:\n- num = 2736 \u2192 digits = [2, 7, 3, 6]\n- Position 0 (digit 2): Look right for max digit. Max is 7 at index 1. 7 > 2, so swap them.\n- Result: [7, 2, 3, 6] \u2192 7236\n\nLet me trace through Example 2:\n- num = 9973 \u2192 digits = [9, 9, 7, 3]\n- Position 0 (digit 9): Look right for max digit. Max is 9 at index 1. 9 is not > 9, so continue.\n- Position 1 (digit 9): Look right for max digit. Max is 7. 7 is not > 9, so continue.\n- Position 2 (digit 7): Look right for max digit. Max is 3. 3 is not > 7, so continue.\n- No swap made, return 9973.\n\nHere's my approach:\n1. Convert number to list of digits\n2. For each position i from left to right:\n   - Find the maximum digit in positions i+1 to end\n   - If this max digit is greater than digit at position i:\n     - Find the rightmost position of this max digit\n     - Swap and return the result\n3. If no beneficial swap found, return original number\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        digits = list(str(num))\n        n = len(digits)\n        \n        for i in range(n):\n            max_digit = digits[i]\n            max_idx = -1\n            \n            for j in range(i + 1, n):\n                if digits[j] >= max_digit:\n                    if digits[j] > max_digit or (digits[j] == max_digit and max_idx == -1):\n                        max_digit = digits[j]\n                        max_idx = j\n                    elif digits[j] == max_digit:\n                        max_idx = j\n            \n            if max_idx != -1 and max_digit > digits[i]:\n                digits[i], digits[max_idx] = digits[max_idx], digits[i]\n                break\n        \n        return int(''.join(digits))\n```\n\nWait, let me simplify this logic:\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        digits = list(str(num))\n        n = len(digits)\n        \n        for i in range(n):\n            max_digit = digits[i]\n            max_idx = i\n            \n            for j in range(i + 1, n):\n                if digits[j] >= max_digit:\n                    max_digit = digits[j]\n                    max_idx = j\n            \n            if max_idx != i and digits[max_idx] > digits[i]:\n                digits[i], digits[max_idx] = digits[max_idx], digits[i]\n                break\n        \n        return int(''.join(digits))\n```\n\nActually, I need to be more careful. When looking for the maximum to the right, if there are multiple occurrences of the same maximum value, I want the rightmost one:\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        digits = list(str(num))\n        n = len(digits)\n        \n        for i in range(n):\n            max_val = digits[i]\n            max_idx = i\n            \n            for j in range(i + 1, n):\n                if digits[j] >= max_val:\n                    max_val = digits[j]\n                    max_idx = j\n            \n            if digits[max_idx] > digits[i]:\n                digits[i], digits[max_idx] = digits[max_idx], digits[i]\n                break\n        \n        return int(''.join(digits))\n```\n\nThis should work correctly because when I check `digits[j] >= max_val`, I update max_idx even for equal values, which gives me the rightmost occurrence.",
+      "TypedCode": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        digits = list(str(num))\n        n = len(digits)\n        \n        for i in range(n):\n            max_digit = digits[i]\n            max_idx = -1\n            \n            for j in range(i + 1, n):\n                if digits[j] >= max_digit:\n                    if digits[j] > max_digit or (digits[j] == max_digit and max_idx == -1):\n                        max_digit = digits[j]\n                        max_idx = j\n                    elif digits[j] == max_digit:\n                        max_idx = j\n            \n            if max_idx != -1 and max_digit > digits[i]:\n                digits[i], digits[max_idx] = digits[max_idx], digits[i]\n                break\n        \n        return int(''.join(digits))\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 14599743542,
+      "SolvedAt": "2025-11-19T21:44:40.816845+01:00",
+      "PromptTokens": 342,
+      "OutputTokens": 1118
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "670",
+        "typed_code": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        digits = list(str(num))\n        n = len(digits)\n        \n        for i in range(n):\n            max_digit = digits[i]\n            max_idx = -1\n            \n            for j in range(i + 1, n):\n                if digits[j] >= max_digit:\n                    if digits[j] > max_digit or (digits[j] == max_digit and max_idx == -1):\n                        max_digit = digits[j]\n                        max_idx = j\n                    elif digits[j] == max_digit:\n                        max_idx = j\n            \n            if max_idx != -1 and max_digit > digits[i]:\n                digits[i], digits[max_idx] = digits[max_idx], digits[i]\n                break\n        \n        return int(''.join(digits))\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:51:57+01:00"
+    }
+  }
+}

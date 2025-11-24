@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1464",
+        "questionId": "1574",
+        "Content": "Given the array of integers <code>nums</code>, you will choose two different indices <code>i</code> and <code>j</code> of that array. <em>Return the maximum value of</em> <code>(nums[i]-1)*(nums[j]-1)</code>.\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,4,5,2]\n<strong>Output:</strong> 12 \n<strong>Explanation:</strong> If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12. \n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,5,4,5]\n<strong>Output:</strong> 16\n<strong>Explanation:</strong> Choosing the indices i=1 and j=3 (indexed from 0), you will get the maximum value of (5-1)*(5-1) = 16.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,7]\n<strong>Output:</strong> 12\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 500</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10^3</code></li>\n</ul>\n",
+        "SampleTestCase": "[3,4,5,2]",
+        "ExampleTestcases": "[3,4,5,2]\n[1,5,4,5]\n[3,7]",
+        "Difficulty": "Easy",
+        "Title": "Maximum Product of Two Elements in an Array",
+        "TitleSlug": "maximum-product-of-two-elements-in-an-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"466.2K\", \"totalSubmission\": \"558.7K\", \"totalAcceptedRaw\": 466216, \"totalSubmissionRaw\": 558668, \"acRate\": \"83.5%\"}",
+        "Likes": 2589,
+        "Dislikes": 239,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxProduct(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxProduct(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxProduct(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxProduct = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxProduct(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxProduct(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxProduct(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxProduct(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxProduct(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxProduct(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_product(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef max_product(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function maxProduct($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxProduct(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxProduct(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_product(nums :: [integer]) :: integer\n  def max_product(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_product(Nums :: [integer()]) -> integer().\nmax_product(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-product nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:19:52.555974+01:00",
+    "AcRate": "83.5",
+    "TotalSubmissions": 558668,
+    "TotalAccepted": 466216,
+    "AcceptanceRate": 0.8345135214474428,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem has been conducted, and the following solution is provided based on that analysis.\n\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        \"\"\"\n        Finds the maximum product of (nums[i]-1)*(nums[j]-1) for two different indices i and j.\n\n        The core idea is that to maximize the product of two non-negative numbers,\n        we need to maximize each number individually. Since nums[i] >= 1, the term\n        (nums[i] - 1) is always non-negative. Therefore, we want to choose the two\n        elements nums[i] and nums[j] to be the two largest numbers in the array.\n\n        This implementation finds the two largest numbers in a single pass through\n        the array, which is an efficient approach with O(N) time complexity and\n        O(1) space complexity.\n        \"\"\"\n        \n        # Initialize variables to hold the largest and second largest numbers.\n        # Since the constraints specify nums[i] >= 1, initializing with a value\n        # less than 1 (e.g., 0 or -1) is safe.\n        largest = 0\n        second_largest = 0\n\n        # Iterate through the array to find the two largest numbers.\n        for num in nums:\n            if num >= largest:\n                # If the current number is greater than or equal to the current largest,\n                # it becomes the new largest. The old largest becomes the second largest.\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                # If the current number is not the largest, but is greater than the\n                # current second largest, it becomes the new second largest.\n                second_largest = num\n        \n        # The result is the product of (largest-1) and (second_largest-1).\n        return (largest - 1) * (second_largest - 1)\n\n```\n\n=== DESIGN ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        largest = 0\n        second_largest = 0\n        \n        for num in nums:\n            if num >= largest:\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                second_largest = num\n        \n        return (largest - 1) * (second_largest - 1)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        largest = 0\n        second_largest = 0\n        \n        for num in nums:\n            if num >= largest:\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                second_largest = num\n        \n        return (largest - 1) * (second_largest - 1)\n```\n\n=== VERIFICATION ===\nAn elegant and efficient one-pass approach. The logic correctly identifies that to maximize the product (given all numbers are at least 1, making `num-1` non-negative), one must find the two largest numbers in the array. The implementation does this in O(N) time and O(1) space by tracking the `largest` and `second_largest` elements. The code is clean, handles edge cases like duplicate largest numbers correctly, and is optimal.\n\n**Verification Report:**\n1.  **Correctness**: The algorithm is correct. Maximizing `(nums[i]-1)*(nums[j]-1)` for `nums[i] >= 1` is equivalent to finding the two largest numbers in `nums`. The implementation correctly finds these two numbers in a single pass.\n2.  **Edge Cases**: The solution correctly handles all relevant edge cases:\n    *   Arrays of minimum size (2 elements).\n    *   Arrays containing duplicate numbers, including duplicates of the largest value. The `num >= largest` condition is key to handling this gracefully.\n    *   The initialization `largest = 0, second_largest = 0` is safe due to the constraint `1 <= nums[i]`.\n3.  **Complexity**:\n    *   Time Complexity: O(N), as it iterates through the input array once.\n    *   Space Complexity: O(1), as it only uses a few variables to store the largest and second-largest numbers.\n    Both complexities are optimal for this problem.\n4.  **Code Quality**: The code is clean, readable, and well-structured. Variable names are descriptive. It follows Python best practices.\n5.  **Test Cases**:\n    *   `nums = [3,4,5,2]`: `largest=5`, `second_largest=4`. Output: `(5-1)*(4-1) = 12`. Correct.\n    *   `nums = [1,5,4,5]`: `largest=5`, `second_largest=5`. Output: `(5-1)*(5-1) = 16`. Correct.\n    *   `nums = [3,7]`: `largest=7`, `second_largest=3`. Output: `(7-1)*(3-1) = 12`. Correct.\n    The code passes all provided examples.\n6.  **Potential Issues**: No bugs or logical errors were found. The provided solution is valid and well-implemented. The `import math` in the design document is unnecessary, but it's absent from the final implemented code, which is correct.\n\nThe solution is confirmed to be correct and high-quality.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        largest = 0\n        second_largest = 0\n        \n        for num in nums:\n            if num >= largest:\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                second_largest = num\n        \n        return (largest - 1) * (second_largest - 1)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        largest = 0\n        second_largest = 0\n        \n        for num in nums:\n            if num >= largest:\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                second_largest = num\n        \n        return (largest - 1) * (second_largest - 1)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 217765649291,
+      "SolvedAt": "2025-11-21T13:09:45.13988+01:00",
+      "PromptTokens": 4204,
+      "OutputTokens": 25148
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1574",
+        "typed_code": "\nclass Solution:\n    def maxProduct(self, nums: List[int]) -> int:\n        largest = 0\n        second_largest = 0\n        \n        for num in nums:\n            if num >= largest:\n                second_largest = largest\n                largest = num\n            elif num > second_largest:\n                second_largest = num\n        \n        return (largest - 1) * (second_largest - 1)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:23:41+01:00"
+    }
+  }
+}

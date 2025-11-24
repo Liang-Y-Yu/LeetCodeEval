@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "818",
+        "questionId": "836",
+        "Content": "<p>Your car starts at position <code>0</code> and speed <code>+1</code> on an infinite number line. Your car can go into negative positions. Your car drives automatically according to a sequence of instructions <code>&#39;A&#39;</code> (accelerate) and <code>&#39;R&#39;</code> (reverse):</p>\n\n<ul>\n\t<li>When you get an instruction <code>&#39;A&#39;</code>, your car does the following:\n\n\t<ul>\n\t\t<li><code>position += speed</code></li>\n\t\t<li><code>speed *= 2</code></li>\n\t</ul>\n\t</li>\n\t<li>When you get an instruction <code>&#39;R&#39;</code>, your car does the following:\n\t<ul>\n\t\t<li>If your speed is positive then <code>speed = -1</code></li>\n\t\t<li>otherwise <code>speed = 1</code></li>\n\t</ul>\n\tYour position stays the same.</li>\n</ul>\n\n<p>For example, after commands <code>&quot;AAR&quot;</code>, your car goes to positions <code>0 --&gt; 1 --&gt; 3 --&gt; 3</code>, and your speed goes to <code>1 --&gt; 2 --&gt; 4 --&gt; -1</code>.</p>\n\n<p>Given a target position <code>target</code>, return <em>the length of the shortest sequence of instructions to get there</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = 3\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> \nThe shortest instruction sequence is &quot;AA&quot;.\nYour position goes from 0 --&gt; 1 --&gt; 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = 6\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> \nThe shortest instruction sequence is &quot;AAARA&quot;.\nYour position goes from 0 --&gt; 1 --&gt; 3 --&gt; 7 --&gt; 7 --&gt; 6.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= target &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "3",
+        "ExampleTestcases": "3\n6",
+        "Difficulty": "Hard",
+        "Title": "Race Car",
+        "TitleSlug": "race-car",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"102.8K\", \"totalSubmission\": \"231.3K\", \"totalAcceptedRaw\": 102825, \"totalSubmissionRaw\": 231291, \"acRate\": \"44.5%\"}",
+        "Likes": 2006,
+        "Dislikes": 189,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int racecar(int target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int racecar(int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def racecar(self, target: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def racecar(self, target):\n        \"\"\"\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} target\n * @return {number}\n */\nvar racecar = function(target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function racecar(target: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Racecar(int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int racecar(int target) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func racecar(target int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun racecar(target: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func racecar(_ target: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn racecar(target: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} target\n# @return {Integer}\ndef racecar(target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $target\n     * @return Integer\n     */\n    function racecar($target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int racecar(int target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def racecar(target: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec racecar(target :: integer) :: integer\n  def racecar(target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec racecar(Target :: integer()) -> integer().\nracecar(Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (racecar target)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:57:54.08534+01:00",
+    "AcRate": "44.5",
+    "TotalSubmissions": 231291,
+    "TotalAccepted": 102825,
+    "AcceptanceRate": 0.4445698276197517,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/race-car/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Your car starts at position 0 and speed +1 on an infinite number line. Your car can go into negative positions. Your car drives automatically according to a sequence of instructions 'A' (accelerate) and 'R' (reverse):\n\tWhen you get an instruction 'A', your car does the following:\n\t\n\t\tposition += speed\n\t\tspeed *= 2\n\t\n\t\n\tWhen you get an instruction 'R', your car does the following:\n\t\n\t\tIf your speed is positive then speed = -1\n\t\totherwise speed = 1\n\t\n\tYour position stays the same.\nFor example, after commands \"AAR\", your car goes to positions 0 --> 1 --> 3 --> 3, and your speed goes to 1 --> 2 --> 4 --> -1.\nGiven a target position target, return the length of the shortest sequence of instructions to get there.\n\u00a0\nExample 1:\nInput: target = 3\nOutput: 2\nExplanation: \nThe shortest instruction sequence is \"AA\".\nYour position goes from 0 --> 1 --> 3.\nExample 2:\nInput: target = 6\nOutput: 5\nExplanation: \nThe shortest instruction sequence is \"AAARA\".\nYour position goes from 0 --> 1 --> 3 --> 7 --> 7 --> 6.\n\u00a0\nConstraints:\n\t1 <= target <= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def racecar(self, target: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the shortest sequence of instructions to reach the target position.\n\nThis is a shortest path problem, so BFS (Breadth-First Search) is appropriate. The state consists of (position, speed), and I need to explore all possible sequences until I reach the target.\n\nKey observations:\n1. Starting state: position = 0, speed = 1\n2. Two possible actions at each state:\n   - 'A': position += speed, speed *= 2\n   - 'R': speed = -1 if speed > 0 else 1 (position unchanged)\n3. Need to find minimum number of instructions to reach target position\n\nI'll use BFS with state pruning to avoid infinite loops:\n- Track visited (position, speed) states\n- Add bounds to prevent exploring too far from target\n\nLet me trace through Example 1 (target = 3):\n- Start: (0, 1)\n- After A: (1, 2)\n- After AA: (3, 4) \u2192 reached target with 2 instructions \u2713\n\nExample 2 (target = 6):\n- Start: (0, 1)\n- After A: (1, 2)\n- After AA: (3, 4)\n- After AAA: (7, 8)\n- After AAAR: (7, -1)\n- After AAARA: (6, -2) \u2192 reached target with 5 instructions \u2713\n\nFor pruning, I need to be careful not to prune valid states. The position can overshoot and come back, so I'll allow some reasonable range beyond the target.\n\n```python\nfrom collections import deque\n\nclass Solution:\n    def racecar(self, target: int) -> int:\n        queue = deque([(0, 1, 0)])\n        visited = {(0, 1)}\n        \n        while queue:\n            pos, speed, steps = queue.popleft()\n            \n            if pos == target:\n                return steps\n            \n            new_pos = pos + speed\n            new_speed = speed * 2\n            if (new_pos, new_speed) not in visited and -target <= new_pos <= 2 * target:\n                visited.add((new_pos, new_speed))\n                queue.append((new_pos, new_speed, steps + 1))\n            \n            new_speed = -1 if speed > 0 else 1\n            if (pos, new_speed) not in visited:\n                visited.add((pos, new_speed))\n                queue.append((pos, new_speed, steps + 1))\n        \n        return -1\n```\n\nWait, I need to reconsider the bounds. The speed doubles exponentially, so we might need to overshoot significantly and come back. Let me think about better bounds.\n\nActually, since speed doubles with each A, after k A's, speed is 2^k and position is 2^k - 1. So if we go too far past the target, it becomes inefficient to come back. A reasonable upper bound would be around 2*target, and we might go negative when reversing.\n\nLet me refine:\n\n```python\nfrom collections import deque\n\nclass Solution:\n    def racecar(self, target: int) -> int:\n        queue = deque([(0, 1, 0)])\n        visited = {(0, 1)}\n        \n        while queue:\n            pos, speed, steps = queue.popleft()\n            \n            if pos == target:\n                return steps\n            \n            new_pos = pos + speed\n            new_speed = speed * 2\n            if (new_pos, new_speed) not in visited and abs(new_pos) <= 2 * target:\n                visited.add((new_pos, new_speed))\n                queue.append((new_pos, new_speed, steps + 1))\n            \n            new_speed = -1 if speed > 0 else 1\n            if (pos, new_speed) not in visited:\n                visited.add((pos, new_speed))\n                queue.append((pos, new_speed, steps + 1))\n        \n        return -1\n```",
+      "TypedCode": "\nfrom collections import deque\n\nclass Solution:\n    def racecar(self, target: int) -> int:\n        queue = deque([(0, 1, 0)])\n        visited = {(0, 1)}\n        \n        while queue:\n            pos, speed, steps = queue.popleft()\n            \n            if pos == target:\n                return steps\n            \n            new_pos = pos + speed\n            new_speed = speed * 2\n            if (new_pos, new_speed) not in visited and -target <= new_pos <= 2 * target:\n                visited.add((new_pos, new_speed))\n                queue.append((new_pos, new_speed, steps + 1))\n            \n            new_speed = -1 if speed > 0 else 1\n            if (pos, new_speed) not in visited:\n                visited.add((pos, new_speed))\n                queue.append((pos, new_speed, steps + 1))\n        \n        return -1\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 14580061000,
+      "SolvedAt": "2025-11-19T21:50:50.684939+01:00",
+      "PromptTokens": 561,
+      "OutputTokens": 982
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "836",
+        "typed_code": "\nfrom collections import deque\n\nclass Solution:\n    def racecar(self, target: int) -> int:\n        queue = deque([(0, 1, 0)])\n        visited = {(0, 1)}\n        \n        while queue:\n            pos, speed, steps = queue.popleft()\n            \n            if pos == target:\n                return steps\n            \n            new_pos = pos + speed\n            new_speed = speed * 2\n            if (new_pos, new_speed) not in visited and -target <= new_pos <= 2 * target:\n                visited.add((new_pos, new_speed))\n                queue.append((new_pos, new_speed, steps + 1))\n            \n            new_speed = -1 if speed > 0 else 1\n            if (pos, new_speed) not in visited:\n                visited.add((pos, new_speed))\n                queue.append((pos, new_speed, steps + 1))\n        \n        return -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:49:01+01:00"
+    }
+  }
+}

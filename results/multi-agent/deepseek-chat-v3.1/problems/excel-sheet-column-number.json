@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "171",
+        "questionId": "171",
+        "Content": "<p>Given a string <code>columnTitle</code> that represents the column title as appears in an Excel sheet, return <em>its corresponding column number</em>.</p>\n\n<p>For example:</p>\n\n<pre>\nA -&gt; 1\nB -&gt; 2\nC -&gt; 3\n...\nZ -&gt; 26\nAA -&gt; 27\nAB -&gt; 28 \n...\n</pre>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> columnTitle = &quot;A&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> columnTitle = &quot;AB&quot;\n<strong>Output:</strong> 28\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> columnTitle = &quot;ZY&quot;\n<strong>Output:</strong> 701\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= columnTitle.length &lt;= 7</code></li>\n\t<li><code>columnTitle</code> consists only of uppercase English letters.</li>\n\t<li><code>columnTitle</code> is in the range <code>[&quot;A&quot;, &quot;FXSHRXW&quot;]</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"A\"",
+        "ExampleTestcases": "\"A\"\n\"AB\"\n\"ZY\"",
+        "Difficulty": "Easy",
+        "Title": "Excel Sheet Column Number",
+        "TitleSlug": "excel-sheet-column-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"849.8K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 849792, \"totalSubmissionRaw\": 1273656, \"acRate\": \"66.7%\"}",
+        "Likes": 5030,
+        "Dislikes": 395,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int titleToNumber(string columnTitle) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int titleToNumber(String columnTitle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def titleToNumber(self, columnTitle):\n        \"\"\"\n        :type columnTitle: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} columnTitle\n * @return {number}\n */\nvar titleToNumber = function(columnTitle) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function titleToNumber(columnTitle: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int TitleToNumber(string columnTitle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int titleToNumber(char* columnTitle) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func titleToNumber(columnTitle string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun titleToNumber(columnTitle: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func titleToNumber(_ columnTitle: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn title_to_number(column_title: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} column_title\n# @return {Integer}\ndef title_to_number(column_title)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $columnTitle\n     * @return Integer\n     */\n    function titleToNumber($columnTitle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int titleToNumber(String columnTitle) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def titleToNumber(columnTitle: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec title_to_number(column_title :: String.t) :: integer\n  def title_to_number(column_title) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec title_to_number(ColumnTitle :: unicode:unicode_binary()) -> integer().\ntitle_to_number(ColumnTitle) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (title-to-number columnTitle)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:28:56.702739+01:00",
+    "AcRate": "66.7",
+    "TotalSubmissions": 1273656,
+    "TotalAccepted": 849792,
+    "AcceptanceRate": 0.6672068439201794,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/excel-sheet-column-number/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: String, Base Conversion\n\nKey Patterns & Algorithms: The problem is essentially converting a base-26 number (with digits represented by letters) to a base-10 integer. However, note that unlike standard base conversion where digits range from 0 to (base-1), here the digits range from 1 to 26. This means it's a base-26 system without a zero.\n\nConstraints Analysis: The maximum length is 7. Since each character is processed once, the time complexity is O(n) where n is the length of the string. The space complexity is O(1) as we only use a few variables.\n\nEdge Cases:\n- Single character (e.g., \"A\")\n- Multiple characters (e.g., \"AA\", \"AB\")\n- The maximum possible input (\"FXSHRXW\" which is the maximum 7-letter column title)\n- Characters at the end of the alphabet (e.g., \"Z\", \"ZY\")\n\nInput/Output Analysis: The input is a string of uppercase letters. The output is an integer representing the column number.\n\nDifficulty Assessment: The problem is straightforward once the base conversion concept is understood. The main challenge is recognizing that it's similar to base-26 but with digits starting from 1 instead of 0. This requires adjusting the conversion formula appropriately.\n\nSolution Code:\n```python\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n```\n\n=== DESIGN ===\n\n```python\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n```\n\n=== VERIFICATION ===\nVerification Report:\n\n1. **Correctness**: The provided code correctly implements the base conversion algorithm for Excel column titles. It processes each character from left to right, converting the string to a number by treating it as a base-26 number with digits from 1 to 26. The formula `result = result * 26 + (ord(char) - ord('A') + 1)` is mathematically sound and accurately computes the column number.\n\n2. **Edge Cases**: The code handles all edge cases:\n   - Single character (e.g., \"A\"): Returns 1.\n   - Multiple characters (e.g., \"AA\"): Returns 27 (1*26 + 1).\n   - Maximum input (\"FXSHRXW\"): Returns 2147483647 (which is the correct value for this column title).\n   - Characters at the end (e.g., \"Z\"): Returns 26.\n   - \"ZY\": Returns 701 (26*26 + 25).\n\n3. **Complexity**: The algorithm runs in O(n) time, where n is the length of the string, as it processes each character once. The space complexity is O(1) since only a few variables are used. This meets the requirements.\n\n4. **Code Quality**: The code is clean, readable, and follows best practices. It uses a simple loop and efficient arithmetic operations. The variable names are meaningful, and the logic is straightforward.\n\n5. **Test Cases**: The code passes all provided examples:\n   - Example 1: \"A\" -> 1.\n   - Example 2: \"AB\" -> 28 (1*26 + 2).\n   - Example 3: \"ZY\" -> 701 (26*26 + 25).\n\n6. **Potential Issues**: There are no bugs or logical errors. The solution is optimal and handles all constraints effectively.\n\nConclusion: The solution is correct and meets all requirements. No changes are needed.\n\nFinal Code:\n```python\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 28618824042,
+      "SolvedAt": "2025-11-20T23:50:14.320449+01:00",
+      "PromptTokens": 3238,
+      "OutputTokens": 925
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "171",
+        "typed_code": "\nclass Solution:\n    def titleToNumber(self, columnTitle: str) -> int:\n        result = 0\n        for char in columnTitle:\n            result = result * 26 + (ord(char) - ord('A') + 1)\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:58:01+01:00"
+    }
+  }
+}

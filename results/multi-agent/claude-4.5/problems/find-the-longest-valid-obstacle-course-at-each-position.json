@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1964",
+        "questionId": "2096",
+        "Content": "<p>You want to build some obstacle courses. You are given a <strong>0-indexed</strong> integer array <code>obstacles</code> of length <code>n</code>, where <code>obstacles[i]</code> describes the height of the <code>i<sup>th</sup></code> obstacle.</p>\n\n<p>For every index <code>i</code> between <code>0</code> and <code>n - 1</code> (<strong>inclusive</strong>), find the length of the <strong>longest obstacle course</strong> in <code>obstacles</code> such that:</p>\n\n<ul>\n\t<li>You choose any number of obstacles between <code>0</code> and <code>i</code> <strong>inclusive</strong>.</li>\n\t<li>You must include the <code>i<sup>th</sup></code> obstacle in the course.</li>\n\t<li>You must put the chosen obstacles in the <strong>same order</strong> as they appear in <code>obstacles</code>.</li>\n\t<li>Every obstacle (except the first) is <strong>taller</strong> than or the <strong>same height</strong> as the obstacle immediately before it.</li>\n</ul>\n\n<p>Return <em>an array</em> <code>ans</code> <em>of length</em> <code>n</code>, <em>where</em> <code>ans[i]</code> <em>is the length of the <strong>longest obstacle course</strong> for index</em> <code>i</code><em> as described above</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> obstacles = [1,2,3,2]\n<strong>Output:</strong> [1,2,3,3]\n<strong>Explanation:</strong> The longest valid obstacle course at each position is:\n- i = 0: [<u>1</u>], [1] has length 1.\n- i = 1: [<u>1</u>,<u>2</u>], [1,2] has length 2.\n- i = 2: [<u>1</u>,<u>2</u>,<u>3</u>], [1,2,3] has length 3.\n- i = 3: [<u>1</u>,<u>2</u>,3,<u>2</u>], [1,2,2] has length 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> obstacles = [2,2,1]\n<strong>Output:</strong> [1,2,1]\n<strong>Explanation: </strong>The longest valid obstacle course at each position is:\n- i = 0: [<u>2</u>], [2] has length 1.\n- i = 1: [<u>2</u>,<u>2</u>], [2,2] has length 2.\n- i = 2: [2,2,<u>1</u>], [1] has length 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> obstacles = [3,1,5,6,4,2]\n<strong>Output:</strong> [1,1,2,3,2,2]\n<strong>Explanation:</strong> The longest valid obstacle course at each position is:\n- i = 0: [<u>3</u>], [3] has length 1.\n- i = 1: [3,<u>1</u>], [1] has length 1.\n- i = 2: [<u>3</u>,1,<u>5</u>], [3,5] has length 2. [1,5] is also valid.\n- i = 3: [<u>3</u>,1,<u>5</u>,<u>6</u>], [3,5,6] has length 3. [1,5,6] is also valid.\n- i = 4: [<u>3</u>,1,5,6,<u>4</u>], [3,4] has length 2. [1,4] is also valid.\n- i = 5: [3,<u>1</u>,5,6,4,<u>2</u>], [1,2] has length 2.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == obstacles.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= obstacles[i] &lt;= 10<sup>7</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,2]",
+        "ExampleTestcases": "[1,2,3,2]\n[2,2,1]\n[3,1,5,6,4,2]",
+        "Difficulty": "Hard",
+        "Title": "Find the Longest Valid Obstacle Course at Each Position",
+        "TitleSlug": "find-the-longest-valid-obstacle-course-at-each-position",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"66.7K\", \"totalSubmission\": \"106.6K\", \"totalAcceptedRaw\": 66682, \"totalSubmissionRaw\": 106608, \"acRate\": \"62.5%\"}",
+        "Likes": 1880,
+        "Dislikes": 74,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI4",
+            "Name": "Binary Indexed Tree",
+            "Slug": "binary-indexed-tree"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> longestObstacleCourseAtEachPosition(vector<int>& obstacles) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] longestObstacleCourseAtEachPosition(int[] obstacles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def longestObstacleCourseAtEachPosition(self, obstacles):\n        \"\"\"\n        :type obstacles: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} obstacles\n * @return {number[]}\n */\nvar longestObstacleCourseAtEachPosition = function(obstacles) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function longestObstacleCourseAtEachPosition(obstacles: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] LongestObstacleCourseAtEachPosition(int[] obstacles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* longestObstacleCourseAtEachPosition(int* obstacles, int obstaclesSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func longestObstacleCourseAtEachPosition(obstacles []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun longestObstacleCourseAtEachPosition(obstacles: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func longestObstacleCourseAtEachPosition(_ obstacles: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn longest_obstacle_course_at_each_position(obstacles: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} obstacles\n# @return {Integer[]}\ndef longest_obstacle_course_at_each_position(obstacles)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $obstacles\n     * @return Integer[]\n     */\n    function longestObstacleCourseAtEachPosition($obstacles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> longestObstacleCourseAtEachPosition(List<int> obstacles) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def longestObstacleCourseAtEachPosition(obstacles: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec longest_obstacle_course_at_each_position(obstacles :: [integer]) :: [integer]\n  def longest_obstacle_course_at_each_position(obstacles) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec longest_obstacle_course_at_each_position(Obstacles :: [integer()]) -> [integer()].\nlongest_obstacle_course_at_each_position(Obstacles) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (longest-obstacle-course-at-each-position obstacles)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:56:35.847686+01:00",
+    "AcRate": "62.5",
+    "TotalSubmissions": 106608,
+    "TotalAccepted": 66682,
+    "AcceptanceRate": 0.6254877682725499,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it systematically:\n\n## Analysis\n\n1. **Problem Type**: Dynamic Programming + Binary Search (Longest Increasing Subsequence variant)\n\n2. **Key Patterns**: This is a variant of the Longest Non-Decreasing Subsequence problem where we need to track the length ending at each position.\n\n3. **Constraints Analysis**: With n up to 10^5, we need O(n log n) solution. A naive DP would be O(n\u00b2) which is too slow.\n\n4. **Key Insight**: For each position i, we need the longest non-decreasing subsequence ending at obstacles[i]. We can use a greedy approach with binary search similar to LIS, but modified for non-decreasing (allowing duplicates).\n\n5. **Edge Cases**: \n   - Single element array\n   - All same heights\n   - Strictly decreasing sequence\n   - Strictly increasing sequence\n\nThe approach:\n- Maintain an array `lis` that stores the smallest ending value for non-decreasing subsequences of each length\n- For each obstacle, use binary search to find the rightmost position where it can be placed (since we allow equal values)\n- Track the length at each position\n\n```python\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        from bisect import bisect_right\n        \n        n = len(obstacles)\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\nfrom bisect import bisect_right\n\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        n = len(obstacles)\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\nfrom bisect import bisect_right\n\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        n = len(obstacles)\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n```\n\n=== VERIFICATION ===\nLooking at this problem, I need to verify the provided solution and implement it correctly.\n\n## Verification\n\n**1. Correctness Analysis:**\nThe algorithm uses a modified LIS (Longest Increasing Subsequence) approach:\n- Maintains a `lis` array where `lis[i]` represents the smallest ending value for a non-decreasing subsequence of length `i+1`\n- Uses `bisect_right` to find the rightmost position where the current obstacle can be placed (allowing equal values)\n- This is correct because we want non-decreasing sequences (\u2264 not just <)\n\n**2. Edge Cases:**\n- Single element: \u2713 Works (returns [1])\n- All same heights: \u2713 Works (uses bisect_right correctly)\n- Strictly decreasing: \u2713 Works (each returns 1)\n- Strictly increasing: \u2713 Works (returns [1,2,3,...])\n\n**3. Complexity:**\n- Time: O(n log n) - n iterations, each with binary search O(log n)\n- Space: O(n) - for ans and lis arrays\n- \u2713 Meets requirements\n\n**4. Test Case Walkthrough:**\n\nExample 1: `[1,2,3,2]`\n- i=0, obs=1: lis=[], pos=0, lis=[1], ans=[1]\n- i=1, obs=2: lis=[1], pos=1, lis=[1,2], ans=[1,2]\n- i=2, obs=3: lis=[1,2], pos=2, lis=[1,2,3], ans=[1,2,3]\n- i=3, obs=2: lis=[1,2,3], pos=2 (bisect_right finds position after last 2), lis=[1,2,2], ans=[1,2,3,3]\n- \u2713 Correct!\n\nExample 2: `[2,2,1]`\n- i=0, obs=2: lis=[], pos=0, lis=[2], ans=[1]\n- i=1, obs=2: lis=[2], pos=1, lis=[2,2], ans=[1,2]\n- i=2, obs=1: lis=[2,2], pos=0, lis=[1,2], ans=[1,2,1]\n- \u2713 Correct!\n\n**5. Code Quality:**\nThe code is clean and follows best practices. The variable `n` is defined but not strictly necessary.\n\nThe solution is **CORRECT**. Here's the final implementation:\n\n```python\nfrom typing import List\nfrom bisect import bisect_right\n\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n```\n\n",
+      "TypedCode": "\nfrom typing import List\nfrom bisect import bisect_right\n\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        n = len(obstacles)\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 26588720833,
+      "SolvedAt": "2025-11-19T23:33:03.193522+01:00",
+      "PromptTokens": 6102,
+      "OutputTokens": 1479
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2096",
+        "typed_code": "\nfrom typing import List\nfrom bisect import bisect_right\n\nclass Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        n = len(obstacles)\n        ans = []\n        lis = []\n        \n        for obstacle in obstacles:\n            pos = bisect_right(lis, obstacle)\n            \n            if pos == len(lis):\n                lis.append(obstacle)\n            else:\n                lis[pos] = obstacle\n            \n            ans.append(pos + 1)\n        \n        return ans\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:48:02+01:00"
+    }
+  }
+}

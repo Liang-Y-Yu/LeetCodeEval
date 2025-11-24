@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "480",
+        "questionId": "480",
+        "Content": "<p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.</p>\n\n<ul>\n\t<li>For examples, if <code>arr = [2,<u>3</u>,4]</code>, the median is <code>3</code>.</li>\n\t<li>For examples, if <code>arr = [1,<u>2,3</u>,4]</code>, the median is <code>(2 + 3) / 2 = 2.5</code>.</li>\n</ul>\n\n<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. There is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>\n\n<p>Return <em>the median array for each window in the original array</em>. Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3\n<strong>Output:</strong> [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\n<strong>Explanation:</strong> \nWindow position                Median\n---------------                -----\n[<strong>1  3  -1</strong>] -3  5  3  6  7        1\n 1 [<strong>3  -1  -3</strong>] 5  3  6  7       -1\n 1  3 [<strong>-1  -3  5</strong>] 3  6  7       -1\n 1  3  -1 [<strong>-3  5  3</strong>] 6  7        3\n 1  3  -1  -3 [<strong>5  3  6</strong>] 7        5\n 1  3  -1  -3  5 [<strong>3  6  7</strong>]       6\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,2,3,1,4,2], k = 3\n<strong>Output:</strong> [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,-1,-3,5,3,6,7]\n3",
+        "ExampleTestcases": "[1,3,-1,-3,5,3,6,7]\n3\n[1,2,3,4,2,3,1,4,2]\n3",
+        "Difficulty": "Hard",
+        "Title": "Sliding Window Median",
+        "TitleSlug": "sliding-window-median",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.6K\", \"totalSubmission\": \"529.8K\", \"totalAcceptedRaw\": 205634, \"totalSubmissionRaw\": 529797, \"acRate\": \"38.8%\"}",
+        "Likes": 3499,
+        "Dislikes": 231,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<double> medianSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public double[] medianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def medianSlidingWindow(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: List[float]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar medianSlidingWindow = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function medianSlidingWindow(nums: number[], k: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public double[] MedianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\ndouble* medianSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func medianSlidingWindow(nums []int, k int) []float64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun medianSlidingWindow(nums: IntArray, k: Int): DoubleArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func medianSlidingWindow(_ nums: [Int], _ k: Int) -> [Double] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn median_sliding_window(nums: Vec<i32>, k: i32) -> Vec<f64> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Float[]}\ndef median_sliding_window(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Float[]\n     */\n    function medianSlidingWindow($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<double> medianSlidingWindow(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def medianSlidingWindow(nums: Array[Int], k: Int): Array[Double] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec median_sliding_window(nums :: [integer], k :: integer) :: [float]\n  def median_sliding_window(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec median_sliding_window(Nums :: [integer()], K :: integer()) -> [float()].\nmedian_sliding_window(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (median-sliding-window nums k)\n  (-> (listof exact-integer?) exact-integer? (listof flonum?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:09.240796+01:00",
+    "AcRate": "38.8",
+    "TotalSubmissions": 529797,
+    "TotalAccepted": 205634,
+    "AcceptanceRate": 0.38813734317106363,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sliding-window-median/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.\n\tFor examples, if arr = [2,3,4], the median is 3.\n\tFor examples, if arr = [1,2,3,4], the median is (2 + 3) / 2 = 2.5.\nYou are given an integer array nums and an integer k. There is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\nReturn the median array for each window in the original array. Answers within 10^-5 of the actual value will be accepted.\n\u00a0\nExample 1:\nInput: nums = [1,3,-1,-3,5,3,6,7], k = 3\nOutput: [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\nExplanation: \nWindow position                Median\n---------------                -----\n[1  3  -1] -3  5  3  6  7        1\n 1 [3  -1  -3] 5  3  6  7       -1\n 1  3 [-1  -3  5] 3  6  7       -1\n 1  3  -1 [-3  5  3] 6  7        3\n 1  3  -1  -3 [5  3  6] 7        5\n 1  3  -1  -3  5 [3  6  7]       6\nExample 2:\nInput: nums = [1,2,3,4,2,3,1,4,2], k = 3\nOutput: [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n\u00a0\nConstraints:\n\t1 <= k <= nums.length <= 10^5\n\t-2^31 <= nums[i] <= 2^31 - 1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to compute the median for each sliding window of size `k` in an array `nums`. The challenge is to do this efficiently given the constraints (array length up to 10^5). A naive approach that sorts each window would be too slow, so we need a more efficient method.\n\n### Approach\n1. **Data Structures**: We use two heaps (a max-heap for the lower half and a min-heap for the upper half) to maintain the elements in the current window. This allows us to efficiently access the median. However, since we need to remove elements that leave the window, we use lazy deletion. We also need to balance the heaps to ensure they represent the two halves correctly.\n\n2. **Heaps Setup**:\n   - `max_heap` (for the lower half) is implemented as a min-heap of negatives to simulate a max-heap.\n   - `min_heap` (for the upper half) is a standard min-heap.\n   - We maintain a balance such that the size of `max_heap` is either equal to or one more than the size of `min_heap` for easy median calculation.\n\n3. **Lazy Deletion**:\n   - We use dictionaries (`delayed`) to keep track of elements that need to be removed from the heaps when they are no longer in the current window.\n   - When we move the window, we mark the outgoing element for deletion and then prune the heaps at the top to remove any elements that have been marked for deletion.\n\n4. **Median Calculation**:\n   - If `k` is odd, the median is the top of `max_heap` (which is the largest in the lower half).\n   - If `k` is even, the median is the average of the tops of both heaps.\n\n5. **Operations**:\n   - **Adding an element**: We add the new element to one of the heaps based on its value relative to the current tops and then balance the heaps.\n   - **Removing an element**: We mark the element to be deleted and later prune the heaps when the top element is marked for deletion.\n   - **Pruning**: We remove the top elements from the heaps if they are in the deletion dictionary, updating the dictionary accordingly.\n\n6. **Efficiency**: Each insertion and deletion operation is O(log k), and each pruning operation is amortized O(1), leading to an overall O(n log k) solution.\n\n### Solution Code\n```python\nimport heapq\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        # Initialize two heaps: max_heap for lower half (using negative values for max-heap simulation) and min_heap for upper half.\n        max_heap = []   # stored as negatives to simulate max-heap\n        min_heap = []\n        # Dictionary to keep track of delayed removals\n        delayed = defaultdict(int)\n        \n        # Initialize the heaps for the first window\n        for i in range(k):\n            heapq.heappush(max_heap, -nums[i])\n        # Balance the heaps: make sure max_heap has one more if k is odd, or equal if even.\n        for _ in range(k - (k//2)):\n            heapq.heappush(min_heap, -heapq.heappop(max_heap))\n        # Now, we have the first window balanced.\n        \n        medians = []\n        # Helper function to prune the heaps\n        def prune(heap, is_max_heap):\n            while heap:\n                if is_max_heap:\n                    num = -heap[0]\n                else:\n                    num = heap[0]\n                if delayed[num] > 0:\n                    delayed[num] -= 1\n                    heapq.heappop(heap)\n                else:\n                    break\n        \n        # Function to get median from current heaps\n        def get_median():\n            if k % 2 == 1:\n                return min_heap[0] * 1.0\n            else:\n                return (-max_heap[0] + min_heap[0]) / 2.0\n        \n        medians.append(get_median())\n        \n        for i in range(k, len(nums)):\n            # Number to remove\n            out_num = nums[i - k]\n            delayed[out_num] += 1\n            \n            # Number to add\n            in_num = nums[i]\n            \n            # Determine which heap the out_num belongs to\n            if out_num <= -max_heap[0]:\n                # It is in max_heap\n                # We need to remove it, which effectively reduces the size of max_heap.\n                # But we do lazy removal.\n                pass\n            else:\n                # It is in min_heap\n                pass\n            \n            # Add the new number\n            if in_num <= -max_heap[0]:\n                heapq.heappush(max_heap, -in_num)\n            else:\n                heapq.heappush(min_heap, in_num)\n            \n            # Now, we need to rebalance the heaps after the addition and the removal (which is lazy).\n            # The removal might have unbalanced the heaps.\n            # We consider the effect of the removal: if the out_num was in max_heap, then max_heap size decreases by 1 (logically), otherwise min_heap.\n            # Similarly, the addition: if added to max_heap, max_heap size increases by 1, else min_heap.\n            # So net change: we need to balance the heaps to have the same sizes as required.\n            \n            # Actually, we need to adjust the heaps based on the logical sizes.\n            # We have two cases for the removal:\n            if out_num <= -max_heap[0]:\n                # out_num is in max_heap\n                # So we logically removed one from max_heap. But we haven't actually removed it from the heap (lazy), so we need to compensate by moving one from min_heap to max_heap if needed.\n                # But wait, we added one to either heap.\n                # After adding, if we added to max_heap, then max_heap size increased by 1, and we removed one from max_heap -> net same.\n                # If we added to min_heap, then max_heap size is reduced by one (removal) and min_heap increased by one (addition) -> so we need to move one from min_heap to max_heap to balance.\n                if in_num > -max_heap[0]:\n                    # Added to min_heap\n                    # So net: max_heap size decreased by 1, min_heap increased by 1 -> we need to move one from min_heap to max_heap.\n                    heapq.heappush(max_heap, -heapq.heappop(min_heap))\n            else:\n                # out_num is in min_heap\n                if in_num <= -max_heap[0]:\n                    # Added to max_heap\n                    # So net: min_heap decreased by 1, max_heap increased by 1 -> we need to move one from max_heap to min_heap.\n                    heapq.heappush(min_heap, -heapq.heappop(max_heap))\n            \n            # Now prune the heaps to remove delayed elements at the top\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            # Now, we might need to balance the heaps again after pruning?\n            # Actually, the pruning might have changed the sizes. So we need to ensure the heaps are balanced.\n            # The desired balance: max_heap should have ceil(k/2) elements, min_heap floor(k/2).\n            while len(max_heap) - delayed.get(-max_heap[0], 0) > len(min_heap) - delayed.get(min_heap[0], 0) + 1:\n                # Move from max_heap to min_heap\n                num = -heapq.heappop(max_heap)\n                heapq.heappush(min_heap, num)\n                prune(max_heap, True)  # prune after pop\n            while len(min_heap) - delayed.get(min_heap[0], 0) > len(max_heap) - delayed.get(-max_heap[0], 0):\n                num = heapq.heappop(min_heap)\n                heapq.heappush(max_heap, -num)\n                prune(min_heap, False)\n            \n            # Prune again after balancing\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            medians.append(get_median())\n        \n        return medians\n```\n\n### Explanation\n1. **Initialization**: The first `k` elements are pushed into `max_heap`. Then, the top half of these elements are moved to `min_heap` to balance the heaps.\n2. **Sliding Window**: For each new element, the outgoing element (leaving the window) is marked for lazy deletion. The new element is added to the appropriate heap.\n3. **Rebalancing**: After each addition and removal, the heaps are adjusted to maintain the required sizes (max_heap should have ceil(k/2) elements and min_heap should have floor(k/2) elements). This involves moving elements between heaps if necessary.\n4. **Pruning**: The tops of the heaps are checked for marked deletions and removed if found. This ensures that the heaps only contain elements from the current window.\n5. **Median Calculation**: The median for the current window is computed from the tops of the heaps, considering whether `k` is odd or even.\n\nThis approach efficiently maintains the sliding window median by leveraging heaps and lazy deletion, ensuring optimal performance for large inputs.",
+      "TypedCode": "\nimport heapq\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        # Initialize two heaps: max_heap for lower half (using negative values for max-heap simulation) and min_heap for upper half.\n        max_heap = []   # stored as negatives to simulate max-heap\n        min_heap = []\n        # Dictionary to keep track of delayed removals\n        delayed = defaultdict(int)\n        \n        # Initialize the heaps for the first window\n        for i in range(k):\n            heapq.heappush(max_heap, -nums[i])\n        # Balance the heaps: make sure max_heap has one more if k is odd, or equal if even.\n        for _ in range(k - (k//2)):\n            heapq.heappush(min_heap, -heapq.heappop(max_heap))\n        # Now, we have the first window balanced.\n        \n        medians = []\n        # Helper function to prune the heaps\n        def prune(heap, is_max_heap):\n            while heap:\n                if is_max_heap:\n                    num = -heap[0]\n                else:\n                    num = heap[0]\n                if delayed[num] > 0:\n                    delayed[num] -= 1\n                    heapq.heappop(heap)\n                else:\n                    break\n        \n        # Function to get median from current heaps\n        def get_median():\n            if k % 2 == 1:\n                return min_heap[0] * 1.0\n            else:\n                return (-max_heap[0] + min_heap[0]) / 2.0\n        \n        medians.append(get_median())\n        \n        for i in range(k, len(nums)):\n            # Number to remove\n            out_num = nums[i - k]\n            delayed[out_num] += 1\n            \n            # Number to add\n            in_num = nums[i]\n            \n            # Determine which heap the out_num belongs to\n            if out_num <= -max_heap[0]:\n                # It is in max_heap\n                # We need to remove it, which effectively reduces the size of max_heap.\n                # But we do lazy removal.\n                pass\n            else:\n                # It is in min_heap\n                pass\n            \n            # Add the new number\n            if in_num <= -max_heap[0]:\n                heapq.heappush(max_heap, -in_num)\n            else:\n                heapq.heappush(min_heap, in_num)\n            \n            # Now, we need to rebalance the heaps after the addition and the removal (which is lazy).\n            # The removal might have unbalanced the heaps.\n            # We consider the effect of the removal: if the out_num was in max_heap, then max_heap size decreases by 1 (logically), otherwise min_heap.\n            # Similarly, the addition: if added to max_heap, max_heap size increases by 1, else min_heap.\n            # So net change: we need to balance the heaps to have the same sizes as required.\n            \n            # Actually, we need to adjust the heaps based on the logical sizes.\n            # We have two cases for the removal:\n            if out_num <= -max_heap[0]:\n                # out_num is in max_heap\n                # So we logically removed one from max_heap. But we haven't actually removed it from the heap (lazy), so we need to compensate by moving one from min_heap to max_heap if needed.\n                # But wait, we added one to either heap.\n                # After adding, if we added to max_heap, then max_heap size increased by 1, and we removed one from max_heap -> net same.\n                # If we added to min_heap, then max_heap size is reduced by one (removal) and min_heap increased by one (addition) -> so we need to move one from min_heap to max_heap to balance.\n                if in_num > -max_heap[0]:\n                    # Added to min_heap\n                    # So net: max_heap size decreased by 1, min_heap increased by 1 -> we need to move one from min_heap to max_heap.\n                    heapq.heappush(max_heap, -heapq.heappop(min_heap))\n            else:\n                # out_num is in min_heap\n                if in_num <= -max_heap[0]:\n                    # Added to max_heap\n                    # So net: min_heap decreased by 1, max_heap increased by 1 -> we need to move one from max_heap to min_heap.\n                    heapq.heappush(min_heap, -heapq.heappop(max_heap))\n            \n            # Now prune the heaps to remove delayed elements at the top\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            # Now, we might need to balance the heaps again after pruning?\n            # Actually, the pruning might have changed the sizes. So we need to ensure the heaps are balanced.\n            # The desired balance: max_heap should have ceil(k/2) elements, min_heap floor(k/2).\n            while len(max_heap) - delayed.get(-max_heap[0], 0) > len(min_heap) - delayed.get(min_heap[0], 0) + 1:\n                # Move from max_heap to min_heap\n                num = -heapq.heappop(max_heap)\n                heapq.heappush(min_heap, num)\n                prune(max_heap, True)  # prune after pop\n            while len(min_heap) - delayed.get(min_heap[0], 0) > len(max_heap) - delayed.get(-max_heap[0], 0):\n                num = heapq.heappop(min_heap)\n                heapq.heappush(max_heap, -num)\n                prune(min_heap, False)\n            \n            # Prune again after balancing\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            medians.append(get_median())\n        \n        return medians\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 39636645083,
+      "SolvedAt": "2025-11-20T21:27:39.562063+01:00",
+      "PromptTokens": 701,
+      "OutputTokens": 1982
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "480",
+        "typed_code": "\nimport heapq\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        # Initialize two heaps: max_heap for lower half (using negative values for max-heap simulation) and min_heap for upper half.\n        max_heap = []   # stored as negatives to simulate max-heap\n        min_heap = []\n        # Dictionary to keep track of delayed removals\n        delayed = defaultdict(int)\n        \n        # Initialize the heaps for the first window\n        for i in range(k):\n            heapq.heappush(max_heap, -nums[i])\n        # Balance the heaps: make sure max_heap has one more if k is odd, or equal if even.\n        for _ in range(k - (k//2)):\n            heapq.heappush(min_heap, -heapq.heappop(max_heap))\n        # Now, we have the first window balanced.\n        \n        medians = []\n        # Helper function to prune the heaps\n        def prune(heap, is_max_heap):\n            while heap:\n                if is_max_heap:\n                    num = -heap[0]\n                else:\n                    num = heap[0]\n                if delayed[num] > 0:\n                    delayed[num] -= 1\n                    heapq.heappop(heap)\n                else:\n                    break\n        \n        # Function to get median from current heaps\n        def get_median():\n            if k % 2 == 1:\n                return min_heap[0] * 1.0\n            else:\n                return (-max_heap[0] + min_heap[0]) / 2.0\n        \n        medians.append(get_median())\n        \n        for i in range(k, len(nums)):\n            # Number to remove\n            out_num = nums[i - k]\n            delayed[out_num] += 1\n            \n            # Number to add\n            in_num = nums[i]\n            \n            # Determine which heap the out_num belongs to\n            if out_num <= -max_heap[0]:\n                # It is in max_heap\n                # We need to remove it, which effectively reduces the size of max_heap.\n                # But we do lazy removal.\n                pass\n            else:\n                # It is in min_heap\n                pass\n            \n            # Add the new number\n            if in_num <= -max_heap[0]:\n                heapq.heappush(max_heap, -in_num)\n            else:\n                heapq.heappush(min_heap, in_num)\n            \n            # Now, we need to rebalance the heaps after the addition and the removal (which is lazy).\n            # The removal might have unbalanced the heaps.\n            # We consider the effect of the removal: if the out_num was in max_heap, then max_heap size decreases by 1 (logically), otherwise min_heap.\n            # Similarly, the addition: if added to max_heap, max_heap size increases by 1, else min_heap.\n            # So net change: we need to balance the heaps to have the same sizes as required.\n            \n            # Actually, we need to adjust the heaps based on the logical sizes.\n            # We have two cases for the removal:\n            if out_num <= -max_heap[0]:\n                # out_num is in max_heap\n                # So we logically removed one from max_heap. But we haven't actually removed it from the heap (lazy), so we need to compensate by moving one from min_heap to max_heap if needed.\n                # But wait, we added one to either heap.\n                # After adding, if we added to max_heap, then max_heap size increased by 1, and we removed one from max_heap -> net same.\n                # If we added to min_heap, then max_heap size is reduced by one (removal) and min_heap increased by one (addition) -> so we need to move one from min_heap to max_heap to balance.\n                if in_num > -max_heap[0]:\n                    # Added to min_heap\n                    # So net: max_heap size decreased by 1, min_heap increased by 1 -> we need to move one from min_heap to max_heap.\n                    heapq.heappush(max_heap, -heapq.heappop(min_heap))\n            else:\n                # out_num is in min_heap\n                if in_num <= -max_heap[0]:\n                    # Added to max_heap\n                    # So net: min_heap decreased by 1, max_heap increased by 1 -> we need to move one from max_heap to min_heap.\n                    heapq.heappush(min_heap, -heapq.heappop(max_heap))\n            \n            # Now prune the heaps to remove delayed elements at the top\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            # Now, we might need to balance the heaps again after pruning?\n            # Actually, the pruning might have changed the sizes. So we need to ensure the heaps are balanced.\n            # The desired balance: max_heap should have ceil(k/2) elements, min_heap floor(k/2).\n            while len(max_heap) - delayed.get(-max_heap[0], 0) > len(min_heap) - delayed.get(min_heap[0], 0) + 1:\n                # Move from max_heap to min_heap\n                num = -heapq.heappop(max_heap)\n                heapq.heappush(min_heap, num)\n                prune(max_heap, True)  # prune after pop\n            while len(min_heap) - delayed.get(min_heap[0], 0) > len(max_heap) - delayed.get(-max_heap[0], 0):\n                num = heapq.heappop(min_heap)\n                heapq.heappush(max_heap, -num)\n                prune(min_heap, False)\n            \n            # Prune again after balancing\n            prune(max_heap, True)\n            prune(min_heap, False)\n            \n            medians.append(get_median())\n        \n        return medians\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 11,
+        "status_msg": "Wrong Answer",
+        "Finished": true,
+        "State": "FAILED"
+      },
+      "SubmittedAt": "2025-11-20T23:14:33+01:00"
+    }
+  }
+}

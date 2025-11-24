@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "227",
+        "questionId": "227",
+        "Content": "<p>Given a string <code>s</code> which represents an expression, <em>evaluate this expression and return its value</em>.&nbsp;</p>\n\n<p>The integer division should truncate toward zero.</p>\n\n<p>You may assume that the given expression is always valid. All intermediate results will be in the range of <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>.</p>\n\n<p><strong>Note:</strong> You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code>eval()</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"3+2*2\"\n<strong>Output:</strong> 7\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \" 3/2 \"\n<strong>Output:</strong> 1\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \" 3+5 / 2 \"\n<strong>Output:</strong> 5\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of integers and operators <code>(&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;)</code> separated by some number of spaces.</li>\n\t<li><code>s</code> represents <strong>a valid expression</strong>.</li>\n\t<li>All the integers in the expression are non-negative integers in the range <code>[0, 2<sup>31</sup> - 1]</code>.</li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit integer</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "\"3+2*2\"",
+        "ExampleTestcases": "\"3+2*2\"\n\" 3/2 \"\n\" 3+5 / 2 \"",
+        "Difficulty": "Medium",
+        "Title": "Basic Calculator II",
+        "TitleSlug": "basic-calculator-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"900.2K\", \"totalSubmission\": \"1.9M\", \"totalAcceptedRaw\": 900177, \"totalSubmissionRaw\": 1941487, \"acRate\": \"46.4%\"}",
+        "Likes": 6518,
+        "Dislikes": 947,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int calculate(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int calculate(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def calculate(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function calculate(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Calculate(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int calculate(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func calculate(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun calculate(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func calculate(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn calculate(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef calculate(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function calculate($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int calculate(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def calculate(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec calculate(s :: String.t) :: integer\n  def calculate(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec calculate(S :: unicode:unicode_binary()) -> integer().\ncalculate(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (calculate s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:26:24.964965+01:00",
+    "AcRate": "46.4",
+    "TotalSubmissions": 1941487,
+    "TotalAccepted": 900177,
+    "AcceptanceRate": 0.46365337496465336,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/basic-calculator-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    # Handle negative division with truncation towards zero\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Use a stack to handle operator precedence, processing numbers and operators in one pass. Higher precedence operators (*, /) are evaluated immediately, while lower precedence operators (+, -) are deferred using the stack.\n\n**Step-by-Step Approach**:\n1. Initialize a stack, current number, and current sign.\n2. Iterate through each character in the string.\n3. If the character is a digit, build the current number.\n4. When encountering an operator or the end of the string:\n   - Apply the previous sign to the current number and push to the stack (for +, -).\n   - For * and /, pop the top of the stack, perform the operation, and push the result.\n5. Update the sign and reset the current number.\n6. After processing, sum all values in the stack.\n\n**Data Structures**: A stack (list) to store intermediate results.\n\n**Time Complexity**: O(n) where n is the length of the string.\n\n**Space Complexity**: O(n) for the stack in worst-case scenarios.\n\n**Pseudocode**:\n```\ninitialize stack = []\nnum = 0\nsign = '+'\n\nfor each char in s:\n    if char is digit:\n        num = num * 10 + int(char)\n    if char is operator or last character:\n        if sign is '+': push num\n        if sign is '-': push -num\n        if sign is '*': push(pop() * num)\n        if sign is '/': push(int(pop() / num))  # truncate toward zero\n        update sign = char\n        reset num = 0\n\nreturn sum(stack)\n```\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    stack.append(int(top / num))\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    stack.append(int(top / num))\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\n=== VERIFICATION ===\n**Verification Report:**\n\nAfter reviewing the provided solution, I have identified a critical issue that must be fixed to ensure correctness:\n\n1. **Bug in Division Handling**: The current implementation uses `int(top / num)` for division. While this works for positive numbers, it fails for negative division because Python's `int()` truncates towards zero for positive numbers but truncates towards negative infinity for negative numbers. However, the problem requires truncation toward zero for both positive and negative cases. For example:\n   - `-3/2` should yield `-1` (truncated toward zero), but `int(-3/2)` yields `-1` (which is correct).\n   - But `3/-2` should yield `-1` (truncated toward zero), but `int(3/-2)` yields `-2` (which is incorrect).\n\n   The correct way is to use integer division `//` but with adjustment for negative numbers to truncate toward zero. Alternatively, we can use `int(top / num)` only if both numbers are positive? Actually, in Python, `//` does floor division, which truncates towards negative infinity. So we need to simulate truncation toward zero.\n\n   The original analysis had the correct approach: \n   ```python\n   if top < 0:\n        stack.append(-(abs(top) // num))\n   else:\n        stack.append(top // num)\n   ```\n   But the implemented code uses `int(top / num)`, which is not consistent for all cases.\n\n2. **Whitespace Handling**: The problem states that the string may contain spaces. The current code does not skip spaces. This means that if there are spaces between digits (which should not happen according to the problem) or operators, the code might break. However, the problem says \"separated by some number of spaces\", meaning that numbers and operators are separated by spaces, but digits within a number are not separated. So we should skip spaces.\n\n3. **Edge Case**: The last character might be a space? But the code checks for operators or last index. So if the last character is a space, the number might not be processed. Actually, the problem says the expression is valid, so the last character might be a digit or operator? But we should be safe.\n\n**Fixes:**\n1. Change the division handling to truncate toward zero correctly.\n2. Add a condition to skip spaces.\n\n**Corrected Code:**\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == ' ':\n                continue\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\nHowever, note that the above code might not process the last number if the string ends with spaces. To handle that, we should process the number when we reach the end of the string regardless of spaces. Actually, the condition `i == len(s)-1` is true only for the last character, which might be a space. So we need to ensure that we process the number at the end.\n\nAlternatively, we can avoid skipping spaces in the inner loop and instead only process when we have an operator or the end of the string. But we need to build the number even if there are spaces? Actually, the problem says integers are non-negative and separated by operators and spaces. So we should skip spaces when building numbers.\n\nA better approach is to skip spaces at the beginning of the loop and then process.\n\nBut to keep it simple, we can change the condition to:\n```python\nif char.isdigit():\n    num = num * 10 + int(char)\nif (char in '+-*/' or i == len(s)-1) and char != ' ':\n    ...\n```\nBut that might not be elegant.\n\nAlternatively, we can skip spaces in the loop without affecting the number building.\n\nActually, the number building should not be affected by spaces because we skip them. So we can do:\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\nBut this does not skip spaces. So if there is a space at the end, it will be treated as an operator? Actually, no, because the condition checks for operators. So spaces are not in '+-*/', so they won't trigger the processing. However, the last character might be a space. So we need to process the number when we are at the last character only if it is not a space.\n\nTo truly handle spaces, we should ignore them entirely. So we can do:\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if (not char.isspace() and not char.isdigit()) or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\nBut this might process the last character even if it is an operator? Actually, the last character should be a digit or space. The problem says the expression is valid.\n\nAfter considering, the safest is to skip spaces in the number building and only process when we have an operator or the end of the string. But we must ensure that at the end of the string, we process the number.\n\nFinal decision: Skip spaces during number building, and process when we meet an operator or the end of the string.\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        \n        for i, char in enumerate(s):\n            if char == ' ':\n                continue\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\nThis should work. We skip spaces, so we only process digits and operators. The condition `i == n-1` will trigger for the last character, which is not a space (because we skipped spaces), so it should be a digit or operator.\n\nTherefore, the corrected code is as above.\n\n**Final Code:**\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        \n        for i, char in enumerate(s):\n            if char == ' ':\n                continue\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    if top < 0:\n                        stack.append(-(abs(top) // num))\n                    else:\n                        stack.append(top // num)\n                sign = char\n                num = 0\n        \n        return sum(stack)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    stack.append(int(top / num))\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 32466272917,
+      "SolvedAt": "2025-11-20T23:33:42.660658+01:00",
+      "PromptTokens": 4063,
+      "OutputTokens": 2792
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "227",
+        "typed_code": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        \n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            \n            if char in '+-*/' or i == len(s) - 1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack.append(stack.pop() * num)\n                elif sign == '/':\n                    top = stack.pop()\n                    stack.append(int(top / num))\n                \n                sign = char\n                num = 0\n        \n        return sum(stack)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:23:17+01:00"
+    }
+  }
+}

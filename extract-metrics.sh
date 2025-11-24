@@ -22,7 +22,9 @@ extract_metrics() {
     local model=$2
     local lang=$3
     local code=$4
-    local file_path="$TEMP_DIR/$(basename "$file" .json)_${model}.${lang}"
+    # Replace / with _ in model name to avoid path issues
+    local safe_model=$(echo "$model" | tr '/' '_')
+    local file_path="$TEMP_DIR/$(basename "$file" .json)_${safe_model}.${lang}"
     
     # Write code to temporary file
     echo "$code" > "$file_path"

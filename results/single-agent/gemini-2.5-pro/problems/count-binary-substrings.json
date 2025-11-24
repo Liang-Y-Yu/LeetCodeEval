@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "696",
+        "questionId": "696",
+        "Content": "<p>Given a binary string <code>s</code>, return the number of non-empty substrings that have the same number of <code>0</code>&#39;s and <code>1</code>&#39;s, and all the <code>0</code>&#39;s and all the <code>1</code>&#39;s in these substrings are grouped consecutively.</p>\n\n<p>Substrings that occur multiple times are counted the number of times they occur.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;00110011&quot;\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> There are 6 substrings that have equal number of consecutive 1&#39;s and 0&#39;s: &quot;0011&quot;, &quot;01&quot;, &quot;1100&quot;, &quot;10&quot;, &quot;0011&quot;, and &quot;01&quot;.\nNotice that some of these substrings repeat and are counted the number of times they occur.\nAlso, &quot;00110011&quot; is not a valid substring because all the 0&#39;s (and 1&#39;s) are not grouped together.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;10101&quot;\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are 4 substrings: &quot;10&quot;, &quot;01&quot;, &quot;10&quot;, &quot;01&quot; that have equal number of consecutive 1&#39;s and 0&#39;s.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s[i]</code> is either <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"00110011\"",
+        "ExampleTestcases": "\"00110011\"\n\"10101\"",
+        "Difficulty": "Easy",
+        "Title": "Count Binary Substrings",
+        "TitleSlug": "count-binary-substrings",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"246.9K\", \"totalSubmission\": \"372.8K\", \"totalAcceptedRaw\": 246926, \"totalSubmissionRaw\": 372794, \"acRate\": \"66.2%\"}",
+        "Likes": 4153,
+        "Dislikes": 906,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countBinarySubstrings(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countBinarySubstrings(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countBinarySubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar countBinarySubstrings = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countBinarySubstrings(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountBinarySubstrings(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countBinarySubstrings(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countBinarySubstrings(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countBinarySubstrings(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countBinarySubstrings(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_binary_substrings(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef count_binary_substrings(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function countBinarySubstrings($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countBinarySubstrings(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countBinarySubstrings(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_binary_substrings(s :: String.t) :: integer\n  def count_binary_substrings(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_binary_substrings(S :: unicode:unicode_binary()) -> integer().\ncount_binary_substrings(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-binary-substrings s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:43.731693+01:00",
+    "AcRate": "66.2",
+    "TotalSubmissions": 372794,
+    "TotalAccepted": 246926,
+    "AcceptanceRate": 0.6623658106085398,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-binary-substrings/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a binary string s, return the number of non-empty substrings that have the same number of 0's and 1's, and all the 0's and all the 1's in these substrings are grouped consecutively.\nSubstrings that occur multiple times are counted the number of times they occur.\n\u00a0\nExample 1:\nInput: s = \"00110011\"\nOutput: 6\nExplanation: There are 6 substrings that have equal number of consecutive 1's and 0's: \"0011\", \"01\", \"1100\", \"10\", \"0011\", and \"01\".\nNotice that some of these substrings repeat and are counted the number of times they occur.\nAlso, \"00110011\" is not a valid substring because all the 0's (and 1's) are not grouped together.\nExample 2:\nInput: s = \"10101\"\nOutput: 4\nExplanation: There are 4 substrings: \"10\", \"01\", \"10\", \"01\" that have equal number of consecutive 1's and 0's.\n\u00a0\nConstraints:\n\t1 <= s.length <= 10^5\n\ts[i] is either '0' or '1'.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this problem is by iterating through the string and counting the lengths of consecutive groups of identical characters. A valid substring is formed by two adjacent groups of different characters, for example, a block of zeros followed by a block of ones.\n\nLet's consider two adjacent groups of characters, say `L1` consecutive '0's and `L2` consecutive '1's. The substrings that can be formed at their boundary are \"01\", \"0011\", \"000111\", and so on, up to `k` zeros and `k` ones, where `k` is limited by the shorter of the two group lengths. The total number of valid substrings at this boundary is `min(L1, L2)`.\n\nTo find the total count, we can sum `min(L1, L2)` over all adjacent groups in the string.\n\nThis logic can be implemented in a single pass with constant extra space (O(1)). We can iterate through the string, keeping track of the length of the current consecutive group (`curr_group_len`) and the length of the previous one (`prev_group_len`). When the character changes (e.g., from '0' to '1'), it signals the end of a group and the start of a new one. At this point, we have the lengths of two adjacent groups and can add their contribution to the total count.\n\nThe algorithm is as follows:\n1. Initialize `ans = 0`, `prev_group_len = 0`, and `curr_group_len = 1`.\n2. Iterate through the string from the second character (`i = 1`).\n3. If the current character `s[i]` is the same as the previous one `s[i-1]`, we are in the same group, so increment `curr_group_len`.\n4. If `s[i]` is different from `s[i-1]`, a new group has started.\n   a. Add `min(prev_group_len, curr_group_len)` to `ans`.\n   b. The current group now becomes the \"previous\" group for the next transition, so update `prev_group_len = curr_group_len`.\n   c. Reset `curr_group_len` to 1 for the new group.\n5. After the loop, the last two groups have not been compared, so we add `min(prev_group_len, curr_group_len)` to `ans` one final time.\n\nThis approach ensures a time complexity of O(N) and a space complexity of O(1), making it efficient for the given constraints.\n\n```python\nclass Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        n = len(s)\n        if n <= 1:\n            return 0\n        \n        ans = 0\n        prev_group_len = 0\n        curr_group_len = 1\n        \n        for i in range(1, n):\n            if s[i] == s[i-1]:\n                curr_group_len += 1\n            else:\n                ans += min(prev_group_len, curr_group_len)\n                prev_group_len = curr_group_len\n                curr_group_len = 1\n        \n        ans += min(prev_group_len, curr_group_len)\n        \n        return ans\n```",
+      "TypedCode": "\nclass Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        n = len(s)\n        if n <= 1:\n            return 0\n        \n        ans = 0\n        prev_group_len = 0\n        curr_group_len = 1\n        \n        for i in range(1, n):\n            if s[i] == s[i-1]:\n                curr_group_len += 1\n            else:\n                ans += min(prev_group_len, curr_group_len)\n                prev_group_len = curr_group_len\n                curr_group_len = 1\n        \n        ans += min(prev_group_len, curr_group_len)\n        \n        return ans\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 120836021709,
+      "SolvedAt": "2025-11-20T12:41:28.49836+01:00",
+      "PromptTokens": 523,
+      "OutputTokens": 15099
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "696",
+        "typed_code": "\nclass Solution:\n    def countBinarySubstrings(self, s: str) -> int:\n        n = len(s)\n        if n <= 1:\n            return 0\n        \n        ans = 0\n        prev_group_len = 0\n        curr_group_len = 1\n        \n        for i in range(1, n):\n            if s[i] == s[i-1]:\n                curr_group_len += 1\n            else:\n                ans += min(prev_group_len, curr_group_len)\n                prev_group_len = curr_group_len\n                curr_group_len = 1\n        \n        ans += min(prev_group_len, curr_group_len)\n        \n        return ans\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:58:38+01:00"
+    }
+  }
+}

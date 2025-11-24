@@ -59,22 +59,22 @@ func (a *ProblemAnalyzerAgent) Name() string {
 
 func (a *ProblemAnalyzerAgent) Process(ctx context.Context, input AgentInput) (*AgentOutput, error) {
 	prompt := generateAnalyzerPrompt(input.Question)
-	
+
 	// Create a temporary question for the prompter
 	tempQuestion := input.Question
 	tempQuestion.Data.Question.Content = prompt
-	
+
 	t0 := time.Now()
 	solution, err := a.prompter(tempQuestion, input.ModelName, input.ModelParams)
 	latency := time.Since(t0)
-	
+
 	if err != nil {
 		return nil, fmt.Errorf("analyzer agent failed: %w", err)
 	}
-	
+
 	return &AgentOutput{
-		AgentName:    a.Name(),
-		Content:      solution.Answer,
+		AgentName: a.Name(),
+		Content:   solution.Answer,
 		Metadata: map[string]interface{}{
 			"analysis_type": "problem_breakdown",
 		},
@@ -95,24 +95,24 @@ func (a *SolutionDesignerAgent) Process(ctx context.Context, input AgentInput) (
 	if prev, ok := input.PreviousWork["problem_analyzer"]; ok {
 		analysis = prev.Content
 	}
-	
+
 	prompt := generateDesignerPrompt(input.Question, analysis)
-	
+
 	// Create a temporary question for the prompter
 	tempQuestion := input.Question
 	tempQuestion.Data.Question.Content = prompt
-	
+
 	t0 := time.Now()
 	solution, err := a.prompter(tempQuestion, input.ModelName, input.ModelParams)
 	latency := time.Since(t0)
-	
+
 	if err != nil {
 		return nil, fmt.Errorf("designer agent failed: %w", err)
 	}
-	
+
 	return &AgentOutput{
-		AgentName:    a.Name(),
-		Content:      solution.Answer,
+		AgentName: a.Name(),
+		Content:   solution.Answer,
 		Metadata: map[string]interface{}{
 			"design_type": "algorithm_design",
 		},
@@ -131,38 +131,38 @@ func (a *CodeExecutorAgent) Name() string {
 func (a *CodeExecutorAgent) Process(ctx context.Context, input AgentInput) (*AgentOutput, error) {
 	analysis := ""
 	design := ""
-	
+
 	if prev, ok := input.PreviousWork["problem_analyzer"]; ok {
 		analysis = prev.Content
 	}
 	if prev, ok := input.PreviousWork["solution_designer"]; ok {
 		design = prev.Content
 	}
-	
+
 	selectedSnippet, selectedLang := input.Question.FindSnippet(PREFERRED_LANGUAGES)
 	if selectedSnippet == "" {
 		return nil, fmt.Errorf("failed to find code snippet for preferred languages")
 	}
-	
+
 	prompt := generateExecutorPrompt(input.Question, analysis, design, selectedSnippet, selectedLang)
-	
+
 	// Create a temporary question for the prompter
 	tempQuestion := input.Question
 	tempQuestion.Data.Question.Content = prompt
-	
+
 	t0 := time.Now()
 	solution, err := a.prompter(tempQuestion, input.ModelName, input.ModelParams)
 	latency := time.Since(t0)
-	
+
 	if err != nil {
 		return nil, fmt.Errorf("executor agent failed: %w", err)
 	}
-	
+
 	return &AgentOutput{
-		AgentName:    a.Name(),
-		Content:      solution.Answer,
+		AgentName: a.Name(),
+		Content:   solution.Answer,
 		Metadata: map[string]interface{}{
-			"language":     selectedLang,
+			"language":    selectedLang,
 			"code_length": len(extractCode(solution.Answer)),
 		},
 		ProcessedAt:  time.Now(),
@@ -181,7 +181,7 @@ func (a *SolutionVerifierAgent) Process(ctx context.Context, input AgentInput) (
 	analysis := ""
 	design := ""
 	code := ""
-	
+
 	if prev, ok := input.PreviousWork["problem_analyzer"]; ok {
 		analysis = prev.Content
 	}
@@ -191,24 +191,24 @@ func (a *SolutionVerifierAgent) Process(ctx context.Context, input AgentInput) (
 	if prev, ok := input.PreviousWork["code_executor"]; ok {
 		code = extractCode(prev.Content)
 	}
-	
+
 	prompt := generateVerifierPrompt(input.Question, analysis, design, code)
-	
+
 	// Create a temporary question for the prompter
 	tempQuestion := input.Question
 	tempQuestion.Data.Question.Content = prompt
-	
+
 	t0 := time.Now()
 	solution, err := a.prompter(tempQuestion, input.ModelName, input.ModelParams)
 	latency := time.Since(t0)
-	
+
 	if err != nil {
 		return nil, fmt.Errorf("verifier agent failed: %w", err)
 	}
-	
+
 	return &AgentOutput{
-		AgentName:    a.Name(),
-		Content:      solution.Answer,
+		AgentName: a.Name(),
+		Content:   solution.Answer,
 		Metadata: map[string]interface{}{
 			"verification_type": "solution_review",
 		},
@@ -231,7 +231,7 @@ func promptMultiAgent(args []string, modelName string) {
 		log.Error().Msg("Model is not set")
 		return
 	}
-	
+
 	modelId, modelParams, err := leetgptsolver.ParseModelName(modelName)
 	if err != nil {
 		log.Err(err).Msg("failed to parse model")
@@ -242,6 +242,8 @@ func promptMultiAgent(args []string, modelName string) {
 	switch leetgptsolver.ModelFamily(modelId) {
 	case leetgptsolver.MODEL_FAMILY_OPENAI:
 		prompter = promptOpenAi
+	case leetgptsolver.MODEL_FAMILY_OPENROUTER:
+		prompter = promptOpenRouter
 	case leetgptsolver.MODEL_FAMILY_GOOGLE:
 		prompter = promptGoogle
 	case leetgptsolver.MODEL_FAMILY_ANTHROPIC:
@@ -266,7 +268,7 @@ func promptMultiAgent(args []string, modelName string) {
 	}
 
 	log.Info().Msgf("Processing %d problems with multi-agent approach...", len(files))
-	
+
 	solvedCnt := 0
 	skippedCnt := 0
 	errorsCnt := 0
@@ -293,7 +295,7 @@ func promptMultiAgent(args []string, modelName string) {
 		ctx := context.Background()
 		agentOutputs := make(map[string]*AgentOutput)
 		totalLatency := time.Duration(0)
-		
+
 		input := AgentInput{
 			Question:     problem.Question,
 			PreviousWork: agentOutputs,
@@ -304,18 +306,18 @@ func promptMultiAgent(args []string, modelName string) {
 		success := true
 		for _, agent := range agents {
 			log.Info().Msgf("Running %s agent...", agent.Name())
-			
+
 			output, err := agent.Process(ctx, input)
 			if err != nil {
 				log.Err(err).Msgf("Agent %s failed", agent.Name())
 				success = false
 				break
 			}
-			
+
 			agentOutputs[agent.Name()] = output
 			input.PreviousWork = agentOutputs
 			totalLatency += output.Latency
-			
+
 			log.Debug().Msgf("Agent %s completed in %v", agent.Name(), output.Latency)
 		}
 
@@ -340,7 +342,7 @@ func promptMultiAgent(args []string, modelName string) {
 
 		// Create a combined prompt from all agents (for audit trail)
 		combinedPrompt := fmt.Sprintf("Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification")
-		
+
 		// Create a combined answer from all agents
 		combinedAnswer := ""
 		if analyzerOutput, ok := agentOutputs["problem_analyzer"]; ok {
@@ -372,7 +374,7 @@ func promptMultiAgent(args []string, modelName string) {
 		// Save solution in the same format as prompt.go
 		problem.Solutions[modelName] = solution
 		problem.Submissions[modelName] = Submission{} // Clear old submissions
-		
+
 		err = problem.SaveProblemInto(file)
 		if err != nil {
 			errorsCnt += 1
@@ -406,7 +408,7 @@ func sumTokens(outputs map[string]*AgentOutput, tokenType string) int {
 // Prompt generation functions for each agent
 func generateAnalyzerPrompt(q Question) string {
 	question := htmlToPlaintext(q.Data.Question.Content)
-	
+
 	return fmt.Sprintf(`You are a Problem Analyzer Agent. Your job is to thoroughly analyze this LeetCode problem and provide insights that will help other agents solve it effectively.
 
 Problem: %s
@@ -430,7 +432,7 @@ Provide a clear, structured analysis that will guide the solution design.`, ques
 
 func generateDesignerPrompt(q Question, analysis string) string {
 	question := htmlToPlaintext(q.Data.Question.Content)
-	
+
 	return fmt.Sprintf(`You are a Solution Designer Agent. Based on the problem analysis, design a high-level algorithmic approach.
 
 Problem: %s
@@ -457,7 +459,7 @@ Focus on creating a clear, implementable design that addresses all the insights 
 
 func generateExecutorPrompt(q Question, analysis, design, snippet, language string) string {
 	question := htmlToPlaintext(q.Data.Question.Content)
-	
+
 	return fmt.Sprintf(`You are a Code Executor Agent. Implement the designed solution in %s.
 
 Problem: %s
@@ -488,7 +490,7 @@ Implement the complete solution now:`, language, question, analysis, design, sni
 
 func generateVerifierPrompt(q Question, analysis, design, code string) string {
 	question := htmlToPlaintext(q.Data.Question.Content)
-	
+
 	return fmt.Sprintf(`You are a Solution Verifier Agent. Review the implemented solution for correctness and quality.
 
 Problem: %s

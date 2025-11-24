@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1458",
+        "questionId": "1569",
+        "Content": "<p>Given two arrays <code>nums1</code>&nbsp;and <code><font face=\"monospace\">nums2</font></code><font face=\"monospace\">.</font></p>\n\n<p>Return the maximum dot product&nbsp;between&nbsp;<strong>non-empty</strong> subsequences of nums1 and nums2 with the same length.</p>\n\n<p>A subsequence of a array is a new array which is formed from the original array by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie,&nbsp;<code>[2,3,5]</code>&nbsp;is a subsequence of&nbsp;<code>[1,2,3,4,5]</code>&nbsp;while <code>[1,5,3]</code>&nbsp;is not).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [2,1,-2,5], nums2 = [3,0,-6]\n<strong>Output:</strong> 18\n<strong>Explanation:</strong> Take subsequence [2,-2] from nums1 and subsequence [3,-6] from nums2.\nTheir dot product is (2*3 + (-2)*(-6)) = 18.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [3,-2], nums2 = [2,-6,7]\n<strong>Output:</strong> 21\n<strong>Explanation:</strong> Take subsequence [3] from nums1 and subsequence [7] from nums2.\nTheir dot product is (3*7) = 21.</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [-1,-1], nums2 = [1,1]\n<strong>Output:</strong> -1\n<strong>Explanation: </strong>Take subsequence [-1] from nums1 and subsequence [1] from nums2.\nTheir dot product is -1.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums1.length, nums2.length &lt;= 500</code></li>\n\t<li><code>-1000 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,1,-2,5]\n[3,0,-6]",
+        "ExampleTestcases": "[2,1,-2,5]\n[3,0,-6]\n[3,-2]\n[2,-6,7]\n[-1,-1]\n[1,1]",
+        "Difficulty": "Hard",
+        "Title": "Max Dot Product of Two Subsequences",
+        "TitleSlug": "max-dot-product-of-two-subsequences",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"84.6K\", \"totalSubmission\": \"135.6K\", \"totalAcceptedRaw\": 84626, \"totalSubmissionRaw\": 135632, \"acRate\": \"62.4%\"}",
+        "Likes": 1700,
+        "Dislikes": 33,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxDotProduct(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxDotProduct(int[] nums1, int[] nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxDotProduct(self, nums1, nums2):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar maxDotProduct = function(nums1, nums2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxDotProduct(nums1: number[], nums2: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxDotProduct(int[] nums1, int[] nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxDotProduct(int* nums1, int nums1Size, int* nums2, int nums2Size) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxDotProduct(nums1 []int, nums2 []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxDotProduct(nums1: IntArray, nums2: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxDotProduct(_ nums1: [Int], _ nums2: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_dot_product(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @return {Integer}\ndef max_dot_product(nums1, nums2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @return Integer\n     */\n    function maxDotProduct($nums1, $nums2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxDotProduct(List<int> nums1, List<int> nums2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxDotProduct(nums1: Array[Int], nums2: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_dot_product(nums1 :: [integer], nums2 :: [integer]) :: integer\n  def max_dot_product(nums1, nums2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_dot_product(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmax_dot_product(Nums1, Nums2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-dot-product nums1 nums2)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:20:07.350578+01:00",
+    "AcRate": "62.4",
+    "TotalSubmissions": 135632,
+    "TotalAccepted": 84626,
+    "AcceptanceRate": 0.6239383036451575,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/max-dot-product-of-two-subsequences/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective solution to this problem can be achieved using dynamic programming, drawing parallels to the classic Longest Common Subsequence (LCS) problem.\n\n### 1. Problem Type Classification\nThis problem falls under the category of **Dynamic Programming**, as it requires making a sequence of optimal choices from two arrays to maximize a certain value (the dot product). The problem has optimal substructure and overlapping subproblems, which are key characteristics of DP problems.\n\n### 2. Key Patterns & Algorithms\nThe core algorithmic pattern is **2D Dynamic Programming on sequences**, similar to LCS. We can define a DP state `dp[i][j]` that represents the solution for subproblems corresponding to prefixes or suffixes of the input arrays.\n\nA robust DP state definition is `dp[i][j]` = the maximum dot product of non-empty subsequences of `nums1[i:]` and `nums2[j:]`.\n\nThe recurrence relation for `dp[i][j]` would then be based on three choices at each step `(i, j)`:\n1.  **Pair `nums1[i]` and `nums2[j]`**: The product is `nums1[i] * nums2[j]`. This can either start a new subsequence or extend a previous one. The term `nums1[i]*nums2[j] + max(0, dp[i+1][j+1])` elegantly captures this: if the best subsequent product `dp[i+1][j+1]` is positive, we add it; otherwise, we start fresh with just the current product.\n2.  **Skip `nums1[i]`**: The result is then the optimal solution for `nums1[i+1:]` and `nums2[j:]`, which is `dp[i+1][j]`.\n3.  **Skip `nums2[j]`**: The result is `dp[i][j+1]`.\n\nCombining these choices, the recurrence is:\n`dp[i][j] = max(nums1[i]*nums2[j] + max(0, dp[i+1][j+1]), dp[i+1][j], dp[i][j+1])`\n\nThe base cases for this recurrence are when either `i` or `j` go out of bounds. In such\ncases, no more pairs can be formed, so we should use a value that represents an invalid or non-contributing path, like `-infinity`.\n\n### 3. Constraints Analysis\nThe constraints `1 <= nums1.length, nums2.length <= 500` suggest that a solution with `O(M*N)` time complexity (where M and N are array lengths) is efficient enough. A naive `O(M^2*N)` or `O(M*N^2)` approach would likely be too slow. A 2D DP solution fits these constraints perfectly.\nThe space complexity would be `O(M*N)` for a standard 2D DP table. This can be optimized to `O(min(M,N))` because each row's calculation only depends on the previously computed row.\n\n### 4. Edge Cases\n- **Non-empty subsequences**: This is a critical constraint. If all possible products `nums1[i]*nums2[j]` are negative, the answer must be the largest (least negative) of these products, not zero. The chosen DP formulation correctly handles this by initializing with `-infinity` and allowing single-pair products as valid subsequences.\n- **Arrays with positive, negative, and zero values.**\n- **Short arrays** (e.g., length 1).\n\n### 5. Input/Output Analysis\n- **Input**: Two lists of integers, `nums1` and `nums2`.\n- **Output**: A single integer representing the maximum dot product.\n\n### 6. Difficulty Assessment\nThis problem is of **Medium-Hard** difficulty. The primary challenge lies in formulating the DP state and recurrence relation correctly, especially with the \"non-empty subsequence\" and \"extend or start new\" logic. The chosen recurrence is concise but not immediately obvious. A solid understanding of DP is required.\n\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        \n        # To optimize space, we can ensure n is the smaller dimension.\n        if m < n:\n            return self.maxDotProduct(nums2, nums1)\n        \n        # dp[j] will store results for row i, prev_dp[j] for row i+1.\n        # This optimizes space from O(m*n) to O(n).\n        # We are computing dp[i][j] = max dot product on nums1[i:] and nums2[j:].\n        \n        prev_dp = [-math.inf] * (n + 1)\n        \n        for i in range(m - 1, -1, -1):\n            dp = [-math.inf] * (n + 1)\n            for j in range(n - 1, -1, -1):\n                # Option 1: Pair nums1[i] and nums2[j].\n                # This can either be a start of a new subsequence or an extension.\n                # The term max(0, prev_dp[j + 1]) handles this:\n                # If prev_dp[j+1] > 0, we extend.\n                # If prev_dp[j+1] <= 0 (negative or -inf), we start a new subsequence.\n                product = nums1[i] * nums2[j]\n                use_pair = product + max(0, prev_dp[j + 1])\n                \n                # Option 2: Skip nums1[i] (don't include it in the subsequence).\n                # The result is the max dot product from nums1[i+1:] and nums2[j:].\n                skip_i = prev_dp[j]\n\n                # Option 3: Skip nums2[j].\n                # The result is from nums1[i:] and nums2[j+1:].\n                skip_j = dp[j + 1]\n                \n                dp[j] = max(use_pair, skip_i, skip_j)\n            \n            prev_dp = dp\n            \n        return prev_dp[0]\n\n```\n\n=== DESIGN ===\nAn elegant and effective solution to this problem can be achieved using dynamic programming, drawing parallels to the classic Longest Common Subsequence (LCS) problem.\n\n### 1. Algorithm Choice\nThe algorithm of choice is **2D Dynamic Programming**. This approach is ideal because the problem exhibits optimal substructure (the optimal solution can be constructed from optimal solutions to subproblems) and overlapping subproblems (the same subproblems are solved multiple times). We will use a space-optimized version of 2D DP to meet memory constraints efficiently.\n\n### 2. Step-by-Step Approach\n1.  Let the input arrays be `nums1` of length `m` and `nums2` of length `n`. To optimize for space, we ensure that `n` corresponds to the smaller of the two dimensions by swapping the arrays if `m < n`.\n2.  We define a DP state `dp[i][j]` as the maximum dot product of non-empty subsequences chosen from the suffixes `nums1[i:]` and `nums2[j:]`. The final answer will be `dp[0][0]`.\n3.  The DP table will be computed bottom-up, starting from the base cases where `i=m` or `j=n`. In these cases, no non-empty subsequence can be formed, so the value is treated as negative infinity to ensure it's never chosen unless it's the only option.\n4.  To compute `dp[i][j]`, we consider three possibilities:\n    a. **Pair `nums1[i]` with `nums2[j]`**: This option's value is `nums1[i] * nums2[j] + max(0, dp[i+1][j+1])`. This single expression cleverly handles both starting a new subsequence (if `dp[i+1][j+1]` is non-positive) and extending a profitable one (if `dp[i+1][j+1]` is positive).\n    b. **Skip `nums1[i]`**: The maximum dot product is then found from `nums1[i+1:]` and `nums2[j:]`, which is `dp[i+1][j]`.\n    c. **Skip `nums2[j]`**: The maximum dot product is found from `nums1[i:]` and `nums2[j+1:]`, which is `dp[i][j+1]`.\n5.  The state `dp[i][j]` is the maximum of these three choices.\n6.  For space optimization from `O(m*n)` to `O(n)`, we use two 1D arrays: `prev_dp` to store the results of row `i+1` and `dp` for the current row `i`. We iterate `i` from `m-1` down to `0`. In each iteration, we compute the `dp` array using `prev_dp`, and then update `prev_dp = dp` for the next iteration.\n7.  After the loops complete, the value corresponding to `dp[0][0]` will be in `prev_dp[0]`, which is our final answer.\n\n### 3. Data Structures\n*   Two 1D arrays (Python lists), `dp` and `prev_dp`, each of size `min(m, n) + 1`. They will store floating-point numbers to accommodate `-math.inf`.\n\n### 4. Time Complexity\n*   **O(m * n)**, where `m` and `n` are the lengths of `nums1` and `nums2`, respectively. This is due to the nested loops that iterate through each state of the DP table once.\n\n### 5. Space Complexity\n*   **O(min(m, n))**. By swapping the arrays to ensure the inner loop iterates over the shorter array and using only two 1D arrays for the DP calculation, the space required is proportional to the length of the smaller array.\n\n### 6. Pseudocode\n```pseudocode\nfunction maxDotProduct(nums1, nums2):\n  m = length of nums1\n  n = length of nums2\n\n  // Ensure n is the smaller dimension for space optimization\n  if m < n:\n    return maxDotProduct(nums2, nums1)\n  \n  // prev_dp stores the results for row i+1\n  prev_dp = array of size (n + 1) filled with -infinity\n\n  // Iterate backwards through nums1\n  for i from m-1 down to 0:\n    // dp stores results for the current row i\n    dp = array of size (n + 1) filled with -infinity\n    \n    // Iterate backwards through nums2\n    for j from n-1 down to 0:\n      // Value from pairing current elements and potentially extending\n      use_pair = nums1[i] * nums2[j] + max(0, prev_dp[j + 1])\n      \n      // Value from skipping nums1[i]\n      skip_i = prev_dp[j]\n      \n      // Value from skipping nums2[j]\n      skip_j = dp[j + 1]\n      \n      // Current state is the max of the three options\n      dp[j] = max(use_pair, skip_i, skip_j)\n      \n    // The current row becomes the previous row for the next step\n    prev_dp = dp\n    \n  // The final answer for dp[0][0] is now in prev_dp[0]\n  return prev_dp[0]\n```\n\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        \n        if m < n:\n            return self.maxDotProduct(nums2, nums1)\n            \n        prev_dp = [-math.inf] * (n + 1)\n        \n        for i in range(m - 1, -1, -1):\n            dp = [-math.inf] * (n + 1)\n            for j in range(n - 1, -1, -1):\n                product = nums1[i] * nums2[j]\n                \n                use_pair = product + max(0, prev_dp[j + 1])\n                \n                skip_i = prev_dp[j]\n\n                skip_j = dp[j + 1]\n                \n                dp[j] = max(use_pair, skip_i, skip_j)\n            \n            prev_dp = dp\n            \n        return prev_dp[0]\n\n```\n\n=== IMPLEMENTATION ===\nAn elegant and effective solution to this problem can be achieved using dynamic programming, drawing parallels to the classic Longest Common Subsequence (LCS) problem.\n### 1. Algorithm Choice\nThe algorithm of choice is **2D Dynamic Programming**. This approach is ideal because the problem exhibits optimal substructure (the optimal solution can be constructed from optimal solutions to subproblems) and overlapping subproblems (the same subproblems are solved multiple times). We will use a space-optimized version of 2D DP to meet memory constraints efficiently.\n### 2. Step-by-Step Approach\n1.  Let the input arrays be `nums1` of length `m` and `nums2` of length `n`. To optimize for space, we ensure that `n` corresponds to the smaller of the two dimensions by swapping the arrays if `m < n`.\n2.  We define a DP state `dp[i][j]` as the maximum dot product of non-empty subsequences chosen from the suffixes `nums1[i:]` and `nums2[j:]`. The final answer will be `dp[0][0]`.\n3.  The DP table will be computed bottom-up, starting from the base cases where `i=m` or `j=n`. In these cases, no non-empty subsequence can be formed, so the value is treated as negative infinity to ensure it's never chosen unless it's the only option.\n4.  To compute `dp[i][j]`, we consider three possibilities:\n    a. **Pair `nums1[i]` with `nums2[j]`**: This option's value is `nums1[i] * nums2[j] + max(0, dp[i+1][j+1])`. This single expression cleverly handles both starting a new subsequence (if `dp[i+1][j+1]` is non-positive) and extending a profitable one (if `dp[i+1][j+1]` is positive).\n    b. **Skip `nums1[i]`**: The maximum dot product is then found from `nums1[i+1:]` and `nums2[j:]`, which is `dp[i+1][j]`.\n    c. **Skip `nums2[j]`**: The maximum dot product is found from `nums1[i:]` and `nums2[j+1:]`, which is `dp[i][j+1]`.\n5.  The state `dp[i][j]` is the maximum of these three choices.\n6.  For space optimization from `O(m*n)` to `O(n)`, we use two 1D arrays: `prev_dp` to store the results of row `i+1` and `dp` for the current row `i`. We iterate `i` from `m-1` down to `0`. In each iteration, we compute the `dp` array using `prev_dp`, and then update `prev_dp = dp` for the next iteration.\n7.  After the loops complete, the value corresponding to `dp[0][0]` will be in `prev_dp[0]`, which is our final answer.\n### 3. Data Structures\n*   Two 1D arrays (Python lists), `dp` and `prev_dp`, each of size `min(m, n) + 1`. They will store floating-point numbers to accommodate `-math.inf`.\n### 4. Time Complexity\n*   **O(m * n)**, where `m` and `n` are the lengths of `nums1` and `nums2`, respectively. This is due to the nested loops that iterate through each state of the DP table once.\n### 5. Space Complexity\n*   **O(min(m, n))**. By swapping the arrays to ensure the inner loop iterates over the shorter array and using only two 1D arrays for the DP calculation, the space required is proportional to the length of the smaller array.\n### 6. Pseudocode\n```pseudocode\nfunction maxDotProduct(nums1, nums2):\n  m = length of nums1\n  n = length of nums2\n  // Ensure n is the smaller dimension for space optimization\n  if m < n:\n    return maxDotProduct(nums2, nums1)\n  \n  // prev_dp stores the results for row i+1\n  prev_dp = array of size (n + 1) filled with -infinity\n  // Iterate backwards through nums1\n  for i from m-1 down to 0:\n    // dp stores results for the current row i\n    dp = array of size (n + 1) filled with -infinity\n    \n    // Iterate backwards through nums2\n    for j from n-1 down to 0:\n      // Value from pairing current elements and potentially extending\n      use_pair = nums1[i] * nums2[j] + max(0, prev_dp[j + 1])\n      \n      // Value from skipping nums1[i]\n      skip_i = prev_dp[j]\n      \n      // Value from skipping nums2[j]\n      skip_j = dp[j + 1]\n      \n      // Current state is the max of the three options\n      dp[j] = max(use_pair, skip_i, skip_j)\n      \n    // The current row becomes the previous row for the next step\n    prev_dp = dp\n    \n  // The final answer for dp[0][0] is now in prev_dp[0]\n  return prev_dp[0]\n```\n```python\nimport math\nfrom typing import List\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        \n        m, n = len(nums1), len(nums2)\n        \n        if m < n:\n            return self.maxDotProduct(nums2, nums1)\n            \n        prev_dp = [-math.inf] * (n + 1)\n        \n        for i in range(m - 1, -1, -1):\n            dp = [-math.inf] * (n + 1)\n            for j in range(n - 1, -1, -1):\n                product = nums1[i] * nums2[j]\n                \n                use_pair = product + max(0, prev_dp[j + 1])\n                \n                skip_i = prev_dp[j]\n                skip_j = dp[j + 1]\n                \n                dp[j] = max(use_pair, skip_i, skip_j)\n            \n            prev_dp = dp\n            \n        return prev_dp[0]\n```\n\n=== VERIFICATION ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:\n        m, n = len(nums1), len(nums2)\n        \n        # To optimize space, we can ensure n is the smaller dimension.\n        if m < n:\n            # By swapping, we ensure the DP table's width (n) is smaller,\n            # saving space in the space-optimized approach.\n            return self.maxDotProduct(nums2, nums1)\n        \n        # dp[j] will store results for the current row i.\n        # prev_dp[j] will store results for the previous row i+1.\n        # This optimizes space from O(m*n) to O(n).\n        # We are computing dp[i][j] = max dot product on nums1[i:] and nums2[j:].\n        # We initialize with -inf because the product can be negative, and\n        # we need a value smaller than any possible product.\n        \n        prev_dp = [-math.inf] * (n + 1)\n        \n        # Iterate from the end of nums1 to the beginning.\n        for i in range(m - 1, -1, -1):\n            # `dp` will store the results for the current row `i`.\n            dp = [-math.inf] * (n + 1)\n            # Iterate from the end of nums2 to the beginning.\n            for j in range(n - 1, -1, -1):\n                # Calculate the product of the current pair of elements.\n                product = nums1[i] * nums2[j]\n                \n                # Option 1: Pair nums1[i] and nums2[j].\n                # This can either be a start of a new subsequence or an extension.\n                # The term max(0, prev_dp[j + 1]) handles this:\n                # If prev_dp[j+1] (which is dp[i+1][j+1]) > 0, we extend.\n                # If prev_dp[j+1] <= 0, we start a new subsequence with just the current product.\n                use_pair = product + max(0, prev_dp[j + 1])\n                \n                # Option 2: Skip nums1[i] (don't include it in the subsequence).\n                # The result is the max dot product from nums1[i+1:] and nums2[j:].\n                # This corresponds to prev_dp[j], which is dp[i+1][j].\n                skip_i = prev_dp[j]\n                \n                # Option 3: Skip nums2[j].\n                # The result is from nums1[i:] and nums2[j+1:].\n                # This corresponds to dp[j+1] for the current row i.\n                skip_j = dp[j + 1]\n                \n                # The DP state is the maximum of these three choices.\n                dp[j] = max(use_pair, skip_i, skip_j)\n            \n            # The current row `dp` becomes the `prev_dp` for the next iteration (i-1).\n            prev_dp = dp\n            \n        # The final answer for the full arrays (dp[0][0]) is now in prev_dp[0].\n        return prev_dp[0]\n\n```\n\n",
+      "TypedCode": "\nfunction maxDotProduct(nums1, nums2):\n  m = length of nums1\n  n = length of nums2\n  // Ensure n is the smaller dimension for space optimization\n  if m < n:\n    return maxDotProduct(nums2, nums1)\n  \n  // prev_dp stores the results for row i+1\n  prev_dp = array of size (n + 1) filled with -infinity\n  // Iterate backwards through nums1\n  for i from m-1 down to 0:\n    // dp stores results for the current row i\n    dp = array of size (n + 1) filled with -infinity\n    \n    // Iterate backwards through nums2\n    for j from n-1 down to 0:\n      // Value from pairing current elements and potentially extending\n      use_pair = nums1[i] * nums2[j] + max(0, prev_dp[j + 1])\n      \n      // Value from skipping nums1[i]\n      skip_i = prev_dp[j]\n      \n      // Value from skipping nums2[j]\n      skip_j = dp[j + 1]\n      \n      // Current state is the max of the three options\n      dp[j] = max(use_pair, skip_i, skip_j)\n      \n    // The current row becomes the previous row for the next step\n    prev_dp = dp\n    \n  // The final answer for dp[0][0] is now in prev_dp[0]\n  return prev_dp[0]\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 328922681084,
+      "SolvedAt": "2025-11-21T13:00:34.62054+01:00",
+      "PromptTokens": 10682,
+      "OutputTokens": 46800
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1569",
+        "typed_code": "\nfunction maxDotProduct(nums1, nums2):\n  m = length of nums1\n  n = length of nums2\n  // Ensure n is the smaller dimension for space optimization\n  if m < n:\n    return maxDotProduct(nums2, nums1)\n  \n  // prev_dp stores the results for row i+1\n  prev_dp = array of size (n + 1) filled with -infinity\n  // Iterate backwards through nums1\n  for i from m-1 down to 0:\n    // dp stores results for the current row i\n    dp = array of size (n + 1) filled with -infinity\n    \n    // Iterate backwards through nums2\n    for j from n-1 down to 0:\n      // Value from pairing current elements and potentially extending\n      use_pair = nums1[i] * nums2[j] + max(0, prev_dp[j + 1])\n      \n      // Value from skipping nums1[i]\n      skip_i = prev_dp[j]\n      \n      // Value from skipping nums2[j]\n      skip_j = dp[j + 1]\n      \n      // Current state is the max of the three options\n      dp[j] = max(use_pair, skip_i, skip_j)\n      \n    // The current row becomes the previous row for the next step\n    prev_dp = dp\n    \n  // The final answer for dp[0][0] is now in prev_dp[0]\n  return prev_dp[0]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 11,
+        "status_msg": "Runtime Error",
+        "Finished": true,
+        "State": "FAILED"
+      },
+      "SubmittedAt": "2025-11-21T21:01:28+01:00"
+    }
+  }
+}

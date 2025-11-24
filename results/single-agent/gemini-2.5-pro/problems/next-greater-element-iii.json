@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "556",
+        "questionId": "556",
+        "Content": "<p>Given a positive integer <code>n</code>, find <em>the smallest integer which has exactly the same digits existing in the integer</em> <code>n</code> <em>and is greater in value than</em> <code>n</code>. If no such positive integer exists, return <code>-1</code>.</p>\n\n<p><strong>Note</strong> that the returned integer should fit in <strong>32-bit integer</strong>, if there is a valid answer but it does not fit in <strong>32-bit integer</strong>, return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 12\n<strong>Output:</strong> 21\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 21\n<strong>Output:</strong> -1\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "12",
+        "ExampleTestcases": "12\n21",
+        "Difficulty": "Medium",
+        "Title": "Next Greater Element III",
+        "TitleSlug": "next-greater-element-iii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"199.2K\", \"totalSubmission\": \"569.9K\", \"totalAcceptedRaw\": 199186, \"totalSubmissionRaw\": 569904, \"acRate\": \"35.0%\"}",
+        "Likes": 3891,
+        "Dislikes": 491,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int nextGreaterElement(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int nextGreaterElement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def nextGreaterElement(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar nextGreaterElement = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function nextGreaterElement(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NextGreaterElement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int nextGreaterElement(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func nextGreaterElement(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun nextGreaterElement(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func nextGreaterElement(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn next_greater_element(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef next_greater_element(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function nextGreaterElement($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int nextGreaterElement(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def nextGreaterElement(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec next_greater_element(n :: integer) :: integer\n  def next_greater_element(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec next_greater_element(N :: integer()) -> integer().\nnext_greater_element(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (next-greater-element n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:11:30.552081+01:00",
+    "AcRate": "35.0",
+    "TotalSubmissions": 569904,
+    "TotalAccepted": 199186,
+    "AcceptanceRate": 0.3495079873101435,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/next-greater-element-iii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a positive integer n, find the smallest integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive integer exists, return -1.\nNote that the returned integer should fit in 32-bit integer, if there is a valid answer but it does not fit in 32-bit integer, return -1.\n\u00a0\nExample 1:\nInput: n = 12\nOutput: 21\nExample 2:\nInput: n = 21\nOutput: -1\n\u00a0\nConstraints:\n\t1 <= n <= 2^31 - 1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient solution can be crafted by implementing the \"next permutation\" algorithm. The core idea is to find the smallest possible number, formed by the same digits as the input `n`, that is still larger than `n`. This can be achieved by making the smallest possible change to `n`'s digits, as far to the right as possible.\n\nHere's a step-by-step breakdown of the algorithm:\n\n1.  **Represent as Digits**: First, convert the integer `n` into a list of its digits. This makes it easy to manipulate individual digits.\n\n2.  **Find the Pivot**: Scan the digits from right to left. We're looking for the first digit that is smaller than the digit to its immediate right. Let's call this digit the \"pivot\". This is the rightmost position where we can make a swap to create a larger number. If no such digit exists (i.e., all digits are in non-increasing order from left to right, like in `321`), then `n` is already the largest permutation of its digits, and no greater element exists.\n\n3.  **Find the Swap Digit**: Once the pivot is found, scan the digits to its right (from right to left again). Find the first digit that is larger than the pivot. This will be the smallest digit, among those to the right of the pivot, that is greater than the pivot.\n\n4.  **Swap**: Swap the pivot with the digit found in the previous step.\n\n5.  **Sort the Suffix**: After the swap, the part of the number to the right of the pivot's original position needs to be arranged in the smallest possible order to ensure we have found the *next* greater element. Since the digits in this suffix were in non-increasing order before the swap, and remain so after (with one substitution), reversing this suffix will sort it into non-decreasing (ascending) order.\n\n6.  **Final Result**: Convert the modified list of digits back into an integer. As a final check, ensure this new integer does not exceed the 32-bit signed integer limit (`2^31 - 1`). If it does, or if no next greater element was found in step 2, return -1. Otherwise, return the new integer.\n\nThis approach correctly identifies the next greater permutation in `O(D)` time and space, where `D` is the number of digits in `n`. Since `n` is a 32-bit integer, `D` is small (at most 10), making the solution very fast.\n\n```python\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        digits = list(str(n))\n        num_digits = len(digits)\n\n        # Step 1: Find the pivot from the right.\n        pivot_idx = num_digits - 2\n        while pivot_idx >= 0 and digits[pivot_idx] >= digits[pivot_idx + 1]:\n            pivot_idx -= 1\n\n        # If no pivot is found, n is the largest permutation.\n        if pivot_idx == -1:\n            return -1\n\n        # Step 2: Find the smallest digit to the right of the pivot that's larger than the pivot.\n        swap_idx = num_digits - 1\n        while digits[swap_idx] <= digits[pivot_idx]:\n            swap_idx -= 1\n\n        # Step 3: Swap the pivot and the swap digit.\n        digits[pivot_idx], digits[swap_idx] = digits[swap_idx], digits[pivot_idx]\n\n        # Step 4: Reverse the suffix after the pivot's original position.\n        left, right = pivot_idx + 1, num_digits - 1\n        while left < right:\n            digits[left], digits[right] = digits[right], digits[left]\n            left += 1\n            right -= 1\n\n        # Step 5: Convert back to integer and check 32-bit limit.\n        result = int(\"\".join(digits))\n\n        if result > 2**31 - 1:\n            return -1\n        \n        return result\n\n```",
+      "TypedCode": "\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        digits = list(str(n))\n        num_digits = len(digits)\n\n        # Step 1: Find the pivot from the right.\n        pivot_idx = num_digits - 2\n        while pivot_idx >= 0 and digits[pivot_idx] >= digits[pivot_idx + 1]:\n            pivot_idx -= 1\n\n        # If no pivot is found, n is the largest permutation.\n        if pivot_idx == -1:\n            return -1\n\n        # Step 2: Find the smallest digit to the right of the pivot that's larger than the pivot.\n        swap_idx = num_digits - 1\n        while digits[swap_idx] <= digits[pivot_idx]:\n            swap_idx -= 1\n\n        # Step 3: Swap the pivot and the swap digit.\n        digits[pivot_idx], digits[swap_idx] = digits[swap_idx], digits[pivot_idx]\n\n        # Step 4: Reverse the suffix after the pivot's original position.\n        left, right = pivot_idx + 1, num_digits - 1\n        while left < right:\n            digits[left], digits[right] = digits[right], digits[left]\n            left += 1\n            right -= 1\n\n        # Step 5: Convert back to integer and check 32-bit limit.\n        result = int(\"\".join(digits))\n\n        if result > 2**31 - 1:\n            return -1\n        \n        return result\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 111963652083,
+      "SolvedAt": "2025-11-20T17:47:00.468341+01:00",
+      "PromptTokens": 354,
+      "OutputTokens": 15116
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "556",
+        "typed_code": "\nclass Solution:\n    def nextGreaterElement(self, n: int) -> int:\n        digits = list(str(n))\n        num_digits = len(digits)\n\n        # Step 1: Find the pivot from the right.\n        pivot_idx = num_digits - 2\n        while pivot_idx >= 0 and digits[pivot_idx] >= digits[pivot_idx + 1]:\n            pivot_idx -= 1\n\n        # If no pivot is found, n is the largest permutation.\n        if pivot_idx == -1:\n            return -1\n\n        # Step 2: Find the smallest digit to the right of the pivot that's larger than the pivot.\n        swap_idx = num_digits - 1\n        while digits[swap_idx] <= digits[pivot_idx]:\n            swap_idx -= 1\n\n        # Step 3: Swap the pivot and the swap digit.\n        digits[pivot_idx], digits[swap_idx] = digits[swap_idx], digits[pivot_idx]\n\n        # Step 4: Reverse the suffix after the pivot's original position.\n        left, right = pivot_idx + 1, num_digits - 1\n        while left < right:\n            digits[left], digits[right] = digits[right], digits[left]\n            left += 1\n            right -= 1\n\n        # Step 5: Convert back to integer and check 32-bit limit.\n        result = int(\"\".join(digits))\n\n        if result > 2**31 - 1:\n            return -1\n        \n        return result\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:56:11+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1512",
+        "questionId": "1635",
+        "Content": "<p>Given an array of integers <code>nums</code>, return <em>the number of <strong>good pairs</strong></em>.</p>\n\n<p>A pair <code>(i, j)</code> is called <em>good</em> if <code>nums[i] == nums[j]</code> and <code>i</code> &lt; <code>j</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,1,1,3]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,1,1]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> Each pair in the array are <em>good</em>.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3]\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,1,1,3]",
+        "ExampleTestcases": "[1,2,3,1,1,3]\n[1,1,1,1]\n[1,2,3]",
+        "Difficulty": "Easy",
+        "Title": "Number of Good Pairs",
+        "TitleSlug": "number-of-good-pairs",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"992.2K\", \"totalSubmission\": \"1.1M\", \"totalAcceptedRaw\": 992198, \"totalSubmissionRaw\": 1106298, \"acRate\": \"89.7%\"}",
+        "Likes": 5779,
+        "Dislikes": 284,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numIdenticalPairs(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numIdenticalPairs(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numIdenticalPairs(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar numIdenticalPairs = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numIdenticalPairs(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumIdenticalPairs(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numIdenticalPairs(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numIdenticalPairs(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numIdenticalPairs(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numIdenticalPairs(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn num_identical_pairs(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef num_identical_pairs(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function numIdenticalPairs($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numIdenticalPairs(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numIdenticalPairs(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec num_identical_pairs(nums :: [integer]) :: integer\n  def num_identical_pairs(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec num_identical_pairs(Nums :: [integer()]) -> integer().\nnum_identical_pairs(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (num-identical-pairs nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:17:26.794427+01:00",
+    "AcRate": "89.7",
+    "TotalSubmissions": 1106298,
+    "TotalAccepted": 992198,
+    "AcceptanceRate": 0.8968632321490232,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-good-pairs/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        \"\"\"\n        Calculates the number of good pairs in an array.\n        A pair (i, j) is good if nums[i] == nums[j] and i < j.\n\n        The solution uses a one-pass approach with a frequency counter.\n        As we iterate through the list, for each number, we know how many times\n        we've seen it before. The current number can form a \"good pair\" with\n        each of its previous occurrences. We add this count to our total\n        and then update the frequency count for the current number.\n\n        Example: nums = [1, 2, 3, 1, 1, 3]\n        - num=1: Seen 0 times before. pairs=0. counts[1]=1.\n        - num=2: Seen 0 times before. pairs=0. counts[2]=1.\n        - num=3: Seen 0 times before. pairs=0. counts[3]=1.\n        - num=1: Seen 1 time before. pairs=0+1=1. counts[1]=2.\n        - num=1: Seen 2 times before. pairs=1+2=3. counts[1]=3.\n        - num=3: Seen 1 time before. pairs=3+1=4. counts[3]=2.\n        Final count is 4.\n        \"\"\"\n        \n        # We can use a hash map (dictionary) or an array for frequency counting.\n        # Since the constraints state 1 <= nums[i] <= 100, an array is efficient.\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            # The number of pairs the current `num` can form is equal to the\n            # number of times `num` has been seen before.\n            good_pairs_count += freq[num]\n            \n            # Increment the frequency count for the current number.\n            freq[num] += 1\n            \n        return good_pairs_count\n```\n\n=== DESIGN ===\nAn elegant and efficient approach to this problem is to use a single pass with a frequency counter. As we iterate through the input array, we can count the number of good pairs in an \"online\" fashion. For each number, the number of new good pairs it forms is equal to the number of times we have seen that same number before. We add this to a running total and then update our frequency count for the number we just processed.\n\n1.  **Algorithm Choice**:\n    The chosen algorithm is a **One-Pass Frequency Counting** approach. This is highly efficient as it processes the input array in a single pass.\n\n2.  **Step-by-Step Approach**:\n    1.  Initialize an integer variable, `good_pairs_count`, to `0`. This variable will accumulate the total count of good pairs.\n    2.  Initialize a frequency map to store the counts of each number encountered so far. Given the problem constraints (`1 <= nums[i] <= 100`), a simple array of size 101 (to accommodate numbers 1 through 100) is an optimal choice for this map, with all counts initialized to `0`.\n    3.  Iterate through each `num` in the input array `nums`.\n    4.  For the current `num`, retrieve its current count from the frequency map. This count represents the number of times this number has appeared before the current position.\n    5.  Add this count to `good_pairs_count`, as the current number forms a good pair with each of its previous occurrences.\n    6.  Increment the count for the current `num` in the frequency map to reflect that we have now seen it one more time.\n    7.  After the loop completes, return the final `good_pairs_count`.\n\n3.  **Data Structures**:\n    *   `good_pairs_count`: An integer to store the running total of good pairs.\n    *   `frequency_map`: A fixed-size integer array of size 101, where `frequency_map[k]` stores the number of times the integer `k` has been seen.\n\n4.  **Time Complexity**:\n    The algorithm involves a single loop through the `nums` array of length N. Inside the loop, all operations (array access, addition, and assignment) are constant time, O(1). Therefore, the total time complexity is **O(N)**.\n\n5.  **Space Complexity**:\n    We use an auxiliary array of a fixed size (101) to store frequencies. Since the size of this array does not depend on the size of the input `nums`, the space complexity is constant, i.e., **O(1)**.\n\n6.  **Pseudocode**:\n    ```\n    FUNCTION numIdenticalPairs(nums):\n        good_pairs_count = 0\n        frequency_array = new Array of size 101, initialized to all zeros\n\n        FOR each number `num` in `nums`:\n            // Add the number of previous occurrences of `num` to the total count\n            good_pairs_count = good_pairs_count + frequency_array[num]\n\n            // Increment the frequency of the current number\n            frequency_array[num] = frequency_array[num] + 1\n        \n        RETURN good_pairs_count\n    ```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            good_pairs_count += freq[num]\n            freq[num] += 1\n            \n        return good_pairs_count\n\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            good_pairs_count += freq[num]\n            freq[num] += 1\n            \n        return good_pairs_count\n```\n\n=== VERIFICATION ===\nAn elegant and efficient approach to this problem is to use a single pass with a frequency counter. As we iterate through the input array, we can count the number of good pairs in an \"online\" fashion. For each number, the number of new good pairs it forms is equal to the number of times we have seen that same number before. We add this to a running total and then update our frequency count for the number we just processed.\n\n1.  **Algorithm Choice**:\n    The chosen algorithm is a **One-Pass Frequency Counting** approach. This is highly efficient as it processes the input array in a single pass.\n\n2.  **Step-by-Step Approach**:\n    1.  Initialize an integer variable, `good_pairs_count`, to `0`. This variable will accumulate the total count of good pairs.\n    2.  Initialize a frequency map to store the counts of each number encountered so far. Given the problem constraints (`1 <= nums[i] <= 100`), a simple array of size 101 (to accommodate numbers 1 through 100) is an optimal choice for this map, with all counts initialized to `0`.\n    3.  Iterate through each `num` in the input array `nums`.\n    4.  For the current `num`, retrieve its current count from the frequency map. This count represents the number of times this number has appeared before the current position.\n    5.  Add this count to `good_pairs_count`, as the current number forms a good pair with each of its previous occurrences.\n    6.  Increment the count for the current `num` in the frequency map to reflect that we have now seen it one more time.\n    7.  After the loop completes, return the final `good_pairs_count`.\n\n3.  **Data Structures**:\n    *   `good_pairs_count`: An integer to store the running total of good pairs.\n    *   `frequency_map`: A fixed-size integer array of size 101, where `frequency_map[k]` stores the number of times the integer `k` has been seen.\n\n4.  **Time Complexity**:\n    The algorithm involves a single loop through the `nums` array of length N. Inside the loop, all operations (array access, addition, and assignment) are constant time, O(1). Therefore, the total time complexity is **O(N)**.\n\n5.  **Space Complexity**:\n    We use an auxiliary array of a fixed size (101) to store frequencies. Since the size of this array does not depend on the size of the input `nums`, the space complexity is constant, i.e., **O(1)**.\n\n6.  **Pseudocode**:\n    ```\n    FUNCTION numIdenticalPairs(nums):\n        good_pairs_count = 0\n        frequency_array = new Array of size 101, initialized to all zeros\n\n        FOR each number `num` in `nums`:\n            // Add the number of previous occurrences of `num` to the total count\n            good_pairs_count = good_pairs_count + frequency_array[num]\n            // Increment the frequency of the current number\n            frequency_array[num] = frequency_array[num] + 1\n        \n        RETURN good_pairs_count\n    ```\n\n**Verification Report:**\n\n1.  **Correctness**: **PASS**. The implemented code is a faithful and correct translation of the designed one-pass frequency counting algorithm. The logic correctly calculates the total number of good pairs by iterating through the list once and, for each number, adding the count of its previous occurrences to a running total. This method is mathematically sound, as it effectively calculates \u03a3 C(k, 2) for each number that appears k times.\n\n2.  **Edge Cases**: **PASS**. The solution correctly handles all relevant edge cases derived from the problem constraints (`1 <= nums.length <= 100`, `1 <= nums[i] <= 100`).\n    *   **Single-element list**: Correctly returns 0.\n    *   **List with all unique elements**: Correctly returns 0.\n    *   **List with all identical elements**: Correctly returns C(N, 2) pairs.\n    *   **List with numbers at the value boundaries (1 and 100)**: Correctly handled by the `freq` array of size 101.\n\n3.  **Complexity**: **PASS**. The code meets the stated time and space complexity.\n    *   **Time Complexity**: O(N), where N is the length of `nums`, due to a single pass over the input array. This is optimal.\n    *   **Space Complexity**: O(1), as it uses a fixed-size array of 101 elements, which does not scale with the input size N. This is also optimal given the constraints.\n\n4.  **Code Quality**: **PASS**. The code is of high quality.\n    *   **Readability**: It is clean, concise, and easy to understand. Variable names are clear and descriptive.\n    *   **Best Practices**: The code uses standard Python features effectively. The choice of a fixed-size array over a dictionary is a smart optimization for the given constraints. Type hints are used correctly, improving code clarity and maintainability.\n\n5.  **Test Cases**: **PASS**. The code correctly produces the expected output for all provided sample test cases.\n    *   `[1,2,3,1,1,3]` -> `4` (Correct)\n    *   `[1,1,1,1]` -> `6` (Correct)\n    *   `[1,2,3]` -> `0` (Correct)\n\n6.  **Potential Issues**: **NONE**. There are no bugs or logical errors in the solution. The implementation is robust for the specified problem constraints. While a dictionary-based approach would be more general, the current array-based frequency counter is superior in terms of performance for this specific problem due to the tight numeric constraints on element values. No improvements are necessary.\n\n**Conclusion**: The provided solution is correct, efficient, and well-written. It fully solves the problem and adheres to all best practices.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            good_pairs_count += freq[num]\n            freq[num] += 1\n            \n        return good_pairs_count\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            good_pairs_count += freq[num]\n            freq[num] += 1\n            \n        return good_pairs_count\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 204627072168,
+      "SolvedAt": "2025-11-21T14:58:07.622292+01:00",
+      "PromptTokens": 5529,
+      "OutputTokens": 24005
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1635",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        freq = [0] * 101\n        good_pairs_count = 0\n        \n        for num in nums:\n            good_pairs_count += freq[num]\n            freq[num] += 1\n            \n        return good_pairs_count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:35:24+01:00"
+    }
+  }
+}

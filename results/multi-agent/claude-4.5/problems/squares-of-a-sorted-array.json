@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "977",
+        "questionId": "1019",
+        "Content": "<p>Given an integer array <code>nums</code> sorted in <strong>non-decreasing</strong> order, return <em>an array of <strong>the squares of each number</strong> sorted in non-decreasing order</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-4,-1,0,3,10]\n<strong>Output:</strong> [0,1,9,16,100]\n<strong>Explanation:</strong> After squaring, the array becomes [16,1,0,9,100].\nAfter sorting, it becomes [0,1,9,16,100].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-7,-3,2,3,11]\n<strong>Output:</strong> [4,9,9,49,121]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code><span>1 &lt;= nums.length &lt;= </span>10<sup>4</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Squaring each element and sorting the new array is very trivial, could you find an <code>O(n)</code> solution using a different approach?",
+        "SampleTestCase": "[-4,-1,0,3,10]",
+        "ExampleTestcases": "[-4,-1,0,3,10]\n[-7,-3,2,3,11]",
+        "Difficulty": "Easy",
+        "Title": "Squares of a Sorted Array",
+        "TitleSlug": "squares-of-a-sorted-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.4M\", \"totalSubmission\": \"3.3M\", \"totalAcceptedRaw\": 2408511, \"totalSubmissionRaw\": 3281862, \"acRate\": \"73.4%\"}",
+        "Likes": 9918,
+        "Dislikes": 262,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> sortedSquares(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] sortedSquares(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def sortedSquares(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar sortedSquares = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function sortedSquares(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SortedSquares(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sortedSquares(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func sortedSquares(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun sortedSquares(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func sortedSquares(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn sorted_squares(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef sorted_squares(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function sortedSquares($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> sortedSquares(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def sortedSquares(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec sorted_squares(nums :: [integer]) :: [integer]\n  def sorted_squares(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec sorted_squares(Nums :: [integer()]) -> [integer()].\nsorted_squares(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (sorted-squares nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:42:43.580705+01:00",
+    "AcRate": "73.4",
+    "TotalSubmissions": 3281862,
+    "TotalAccepted": 2408511,
+    "AcceptanceRate": 0.733885519866466,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/squares-of-a-sorted-array/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 11152915917,
+      "SolvedAt": "2025-11-20T00:00:28.868558+01:00",
+      "PromptTokens": 3573,
+      "OutputTokens": 704
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1019",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        result = [0] * n\n        left = 0\n        right = n - 1\n        pos = n - 1\n        \n        while left <= right:\n            left_sq = nums[left] * nums[left]\n            right_sq = nums[right] * nums[right]\n            \n            if left_sq > right_sq:\n                result[pos] = left_sq\n                left += 1\n            else:\n                result[pos] = right_sq\n                right -= 1\n            pos -= 1\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:29:48+01:00"
+    }
+  }
+}

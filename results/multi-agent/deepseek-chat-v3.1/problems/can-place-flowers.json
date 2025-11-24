@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "605",
+        "questionId": "605",
+        "Content": "<p>You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in <strong>adjacent</strong> plots.</p>\n\n<p>Given an integer array <code>flowerbed</code> containing <code>0</code>&#39;s and <code>1</code>&#39;s, where <code>0</code> means empty and <code>1</code> means not empty, and an integer <code>n</code>, return <code>true</code>&nbsp;<em>if</em> <code>n</code> <em>new flowers can be planted in the</em> <code>flowerbed</code> <em>without violating the no-adjacent-flowers rule and</em> <code>false</code> <em>otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> flowerbed = [1,0,0,0,1], n = 1\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> flowerbed = [1,0,0,0,1], n = 2\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= flowerbed.length &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li><code>flowerbed[i]</code> is <code>0</code> or <code>1</code>.</li>\n\t<li>There are no two adjacent flowers in <code>flowerbed</code>.</li>\n\t<li><code>0 &lt;= n &lt;= flowerbed.length</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,0,0,0,1]\n1",
+        "ExampleTestcases": "[1,0,0,0,1]\n1\n[1,0,0,0,1]\n2",
+        "Difficulty": "Easy",
+        "Title": "Can Place Flowers",
+        "TitleSlug": "can-place-flowers",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.3M\", \"totalSubmission\": \"4.5M\", \"totalAcceptedRaw\": 1295292, \"totalSubmissionRaw\": 4467725, \"acRate\": \"29.0%\"}",
+        "Likes": 7224,
+        "Dislikes": 1305,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool canPlaceFlowers(vector<int>& flowerbed, int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean canPlaceFlowers(int[] flowerbed, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def canPlaceFlowers(self, flowerbed, n):\n        \"\"\"\n        :type flowerbed: List[int]\n        :type n: int\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} flowerbed\n * @param {number} n\n * @return {boolean}\n */\nvar canPlaceFlowers = function(flowerbed, n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function canPlaceFlowers(flowerbed: number[], n: number): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CanPlaceFlowers(int[] flowerbed, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func canPlaceFlowers(flowerbed []int, n int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun canPlaceFlowers(flowerbed: IntArray, n: Int): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} flowerbed\n# @param {Integer} n\n# @return {Boolean}\ndef can_place_flowers(flowerbed, n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $flowerbed\n     * @param Integer $n\n     * @return Boolean\n     */\n    function canPlaceFlowers($flowerbed, $n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool canPlaceFlowers(List<int> flowerbed, int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def canPlaceFlowers(flowerbed: Array[Int], n: Int): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec can_place_flowers(flowerbed :: [integer], n :: integer) :: boolean\n  def can_place_flowers(flowerbed, n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec can_place_flowers(Flowerbed :: [integer()], N :: integer()) -> boolean().\ncan_place_flowers(Flowerbed, N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (can-place-flowers flowerbed n)\n  (-> (listof exact-integer?) exact-integer? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:09:57.318725+01:00",
+    "AcRate": "29.0",
+    "TotalSubmissions": 4467725,
+    "TotalAccepted": 1295292,
+    "AcceptanceRate": 0.28992205205109983,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/can-place-flowers/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: Array, Greedy\n\n**Key Patterns & Algorithms**: Single-pass greedy scanning with look-ahead and look-behind checks.\n\n**Constraints Analysis**: Array length up to 20,000 requires O(n) time complexity. O(1) space is achievable since we can modify array in place or use simple variables.\n\n**Edge Cases**:\n- Empty flowerbed (single element)\n- All plots empty\n- All plots full\n- n = 0 (always true)\n- n > available spots\n- Flowerbeds starting/ending with empty plots\n\n**Input/Output Analysis**: Input is a binary array and integer n; output is boolean indicating if n flowers can be planted.\n\n**Difficulty Assessment**: Easy. The challenge is handling edge cases correctly and designing an efficient single-pass algorithm.\n\n```python\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return count >= n\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Greedy scanning with look-ahead and look-behind checks. This approach efficiently checks each plot to see if it can be planted by verifying its adjacent plots are empty.\n\n**Step-by-Step Approach**:\n1. If `n` is zero, return `True` immediately since no flowers need to be planted.\n2. Iterate through each plot in the flowerbed.\n3. For each empty plot (0), check if the left and right plots are also empty (or if the plot is at the boundary).\n4. If both adjacent plots are empty, plant a flower (set to 1) and increment the count.\n5. If at any point the count reaches `n`, return `True`.\n6. After processing all plots, return `False` if the count is less than `n`.\n\n**Data Structures**: Only the input array is used, with no additional data structures.\n\n**Time Complexity**: O(n), where n is the length of the flowerbed. We traverse the array once.\n\n**Space Complexity**: O(1), as we are modifying the input array in place and using a constant number of variables.\n\n**Pseudocode**:\n```\nif n == 0:\n    return True\n\nlength = len(flowerbed)\ncount = 0\n\nfor i from 0 to length-1:\n    if flowerbed[i] == 0:\n        check left: if i is first element OR left is 0\n        check right: if i is last element OR right is 0\n        if both left and right are empty:\n            set flowerbed[i] to 1\n            increment count\n            if count >= n:\n                return True\n\nreturn count >= n\n```\n\n```python\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return False\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return False\n```\n\n=== VERIFICATION ===\n\n**Verification Report:**\n\n1. **Correctness**: The code correctly implements the greedy algorithm. It checks each plot and plants a flower only if both adjacent plots are empty (or the plot is at the boundary). This ensures the no-adjacent-flowers rule is maintained.\n\n2. **Edge Cases**:\n   - n=0: Returns True immediately (handled correctly).\n   - Empty flowerbed (single element): For [0] and n=1, it will plant and return True. Correct.\n   - All plots empty: For [0,0,0] and n=2, it will plant at index0 and index2 (since index1 becomes adjacent to index0), so count=2. Correct.\n   - All plots full: For [1,1,1] and n=1, no planting occurs. Returns False. Correct.\n   - n > available spots: Returns False. Correct.\n   - Flowerbeds starting/ending with empty plots: Handled by boundary checks (i==0 and i==length-1).\n\n3. **Complexity**: The algorithm runs in O(n) time with O(1) space, meeting the constraints.\n\n4. **Code Quality**: The code is clean, readable, and uses descriptive variable names. It follows Python best practices.\n\n5. **Test Cases**:\n   - Example 1: flowerbed = [1,0,0,0,1], n=1\n        i=0: skip (1)\n        i=1: check left (1) -> not empty? Actually, left is index0 which is 1 -> not empty. So left_empty is false? Wait, there is a logical error here.\n        Correction: The condition checks `(i==0) or (flowerbed[i-1]==0)`. For i=1, i!=0 so it checks flowerbed[0] which is 1 -> not 0. So left_empty is false. Similarly, right_empty checks flowerbed[2] which is 0 -> true. So no planting.\n        i=2: left is flowerbed[1]=0 -> true; right is flowerbed[3]=0 -> true. So plant at index2. count=1 -> return True. Correct.\n   - Example 2: flowerbed = [1,0,0,0,1], n=2\n        Same as above: only index2 is planted. Then i=3: left is flowerbed[2]=1 -> not empty (so false); right is flowerbed[4]=1 -> not empty (so false). So no planting. Then i=4: skip. So count=1 < 2 -> return False. Correct.\n\n6. **Potential Issues**: \n   - The code has a minor issue: when planting at index i, it modifies the array. This affects subsequent checks? Actually, it is correct because after planting, the adjacent plots become non-empty, which prevents adjacent planting. This is intended.\n   - However, note that the problem states \"There are no two adjacent flowers in flowerbed\" initially. So the input is valid. The algorithm maintains this invariant.\n\n**Conclusion**: The solution is correct and efficient. It passes all tests and handles edge cases appropriately.\n\nFinal code (unchanged, as it is correct):\n```python\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return False\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return False\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 58045137208,
+      "SolvedAt": "2025-11-20T23:36:28.919419+01:00",
+      "PromptTokens": 4400,
+      "OutputTokens": 1817
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "605",
+        "typed_code": "\nclass Solution:\n    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:\n        if n == 0:\n            return True\n        \n        length = len(flowerbed)\n        count = 0\n        \n        for i in range(length):\n            if flowerbed[i] == 0:\n                left_empty = (i == 0) or (flowerbed[i-1] == 0)\n                right_empty = (i == length-1) or (flowerbed[i+1] == 0)\n                \n                if left_empty and right_empty:\n                    flowerbed[i] = 1\n                    count += 1\n                    if count >= n:\n                        return True\n        \n        return False\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:35:51+01:00"
+    }
+  }
+}

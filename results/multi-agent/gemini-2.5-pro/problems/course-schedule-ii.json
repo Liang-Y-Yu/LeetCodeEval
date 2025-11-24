@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "210",
+        "questionId": "210",
+        "Content": "<p>There are a total of <code>numCourses</code> courses you have to take, labeled from <code>0</code> to <code>numCourses - 1</code>. You are given an array <code>prerequisites</code> where <code>prerequisites[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> indicates that you <strong>must</strong> take course <code>b<sub>i</sub></code> first if you want to take course <code>a<sub>i</sub></code>.</p>\n\n<ul>\n\t<li>For example, the pair <code>[0, 1]</code>, indicates that to take course <code>0</code> you have to first take course <code>1</code>.</li>\n</ul>\n\n<p>Return <em>the ordering of courses you should take to finish all courses</em>. If there are many valid answers, return <strong>any</strong> of them. If it is impossible to finish all courses, return <strong>an empty array</strong>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> numCourses = 2, prerequisites = [[1,0]]\n<strong>Output:</strong> [0,1]\n<strong>Explanation:</strong> There are a total of 2 courses to take. To take course 1 you should have finished course 0. So the correct course order is [0,1].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]\n<strong>Output:</strong> [0,2,1,3]\n<strong>Explanation:</strong> There are a total of 4 courses to take. To take course 3 you should have finished both courses 1 and 2. Both courses 1 and 2 should be taken after you finished course 0.\nSo one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3].\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> numCourses = 1, prerequisites = []\n<strong>Output:</strong> [0]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= numCourses &lt;= 2000</code></li>\n\t<li><code>0 &lt;= prerequisites.length &lt;= numCourses * (numCourses - 1)</code></li>\n\t<li><code>prerequisites[i].length == 2</code></li>\n\t<li><code>0 &lt;= a<sub>i</sub>, b<sub>i</sub> &lt; numCourses</code></li>\n\t<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>\n\t<li>All the pairs <code>[a<sub>i</sub>, b<sub>i</sub>]</code> are <strong>distinct</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "2\n[[1,0]]",
+        "ExampleTestcases": "2\n[[1,0]]\n4\n[[1,0],[2,0],[3,1],[3,2]]\n1\n[]",
+        "Difficulty": "Medium",
+        "Title": "Course Schedule II",
+        "TitleSlug": "course-schedule-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"2.8M\", \"totalAcceptedRaw\": 1549471, \"totalSubmissionRaw\": 2845434, \"acRate\": \"54.5%\"}",
+        "Likes": 11718,
+        "Dislikes": 374,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI0",
+            "Name": "Graph",
+            "Slug": "graph"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI2",
+            "Name": "Topological Sort",
+            "Slug": "topological-sort"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] findOrder(int numCourses, int[][] prerequisites) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findOrder(self, numCourses, prerequisites):\n        \"\"\"\n        :type numCourses: int\n        :type prerequisites: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} numCourses\n * @param {number[][]} prerequisites\n * @return {number[]}\n */\nvar findOrder = function(numCourses, prerequisites) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findOrder(numCourses: number, prerequisites: number[][]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] FindOrder(int numCourses, int[][] prerequisites) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findOrder(numCourses int, prerequisites [][]int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findOrder(numCourses: Int, prerequisites: Array<IntArray>): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_order(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num_courses\n# @param {Integer[][]} prerequisites\n# @return {Integer[]}\ndef find_order(num_courses, prerequisites)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $numCourses\n     * @param Integer[][] $prerequisites\n     * @return Integer[]\n     */\n    function findOrder($numCourses, $prerequisites) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> findOrder(int numCourses, List<List<int>> prerequisites) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findOrder(numCourses: Int, prerequisites: Array[Array[Int]]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_order(num_courses :: integer, prerequisites :: [[integer]]) :: [integer]\n  def find_order(num_courses, prerequisites) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_order(NumCourses :: integer(), Prerequisites :: [[integer()]]) -> [integer()].\nfind_order(NumCourses, Prerequisites) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-order numCourses prerequisites)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:27:26.807907+01:00",
+    "AcRate": "54.5",
+    "TotalSubmissions": 2845434,
+    "TotalAccepted": 1549471,
+    "AcceptanceRate": 0.5445464558306395,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/course-schedule-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant explanation of the method, followed by the complete, runnable code for the solution.\n\nThis problem asks for a valid ordering of courses given a set of prerequisites. This is a classic graph problem that can be modeled as finding a **topological sort** of a directed graph. Each course is a node, and a prerequisite `[a, b]` (must take `b` before `a`) corresponds to a directed edge from `b` to `a`.\n\nA topological sort is a linear ordering of nodes such that for every directed edge from node `u` to node `v`, `u` comes before `v` in the ordering. Such an ordering is only possible if the graph is a **Directed Acyclic Graph (DAG)**. If a cycle exists (e.g., you must take course A before B, and B before A), it's impossible to complete all courses.\n\n**Kahn's algorithm** is a standard and intuitive algorithm for topological sorting that fits this problem perfectly. It works as follows:\n\n1.  **Graph Representation**: We first build a representation of the course dependencies. An adjacency list is suitable, where `adj[course]` stores a list of courses that depend on it. We also maintain an `in_degree` array, where `in_degree[course]` counts how many prerequisites a course has.\n\n2.  **Initialization**: We identify all courses with an in-degree of 0. These are the courses with no prerequisites, so they can be taken first. We add all such courses to a queue.\n\n3.  **Processing**: We process the courses in the queue one by one. For each course we \"take\" (i.e., dequeue):\n    *   Add it to our result list, which will form the final topological order.\n    *   For each of its \"neighbor\" courses (i.e., courses that have it as a prerequisite), we decrement their in-degree, signifying that one of their prerequisites has been met.\n    *   If a neighbor's in-degree becomes 0, it means all its prerequisites are now satisfied, and it can be taken. We add it to the queue.\n\n4.  **Completion and Cycle Detection**: We repeat this process until the queue is empty. If the number of courses in our result list equals the total number of courses, we have successfully found a valid topological sort. If the count is less, it means some courses were never added to the queue because their in-degrees never reached zero. This can only happen if there is a cycle in the graph, making a full sort impossible. In this case, we return an empty list.\n\nThis BFS-based approach naturally simulates the order of taking courses and efficiently detects impossible scenarios (cycles).\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        \"\"\"\n        Finds a valid course order using Kahn's algorithm for topological sorting.\n        \"\"\"\n        # Adjacency list to represent the graph, and an array to store in-degrees.\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n\n        # Build the graph and in-degree array from the prerequisites.\n        # For a prerequisite [a, b], the edge is b -> a.\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n\n        # Initialize a queue with all courses that have an in-degree of 0.\n        queue = collections.deque([i for i in range(numCourses) if in_degree[i] == 0])\n\n        topological_order = []\n\n        # Process the courses in the queue.\n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n\n            # For each neighbor of the current course, decrement its in-degree.\n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                # If a neighbor's in-degree becomes 0, add it to the queue.\n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n        \n        # If the length of the topological order is equal to the number of courses,\n        # a valid order was found. Otherwise, a cycle exists.\n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n\n```\n\n=== DESIGN ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        \n        queue = collections.deque()\n        for i in range(numCourses):\n            if in_degree[i] == 0:\n                queue.append(i)\n        \n        topological_order = []\n        \n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            \n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n                        \n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        \n        queue = collections.deque()\n        for i in range(numCourses):\n            if in_degree[i] == 0:\n                queue.append(i)\n        \n        topological_order = []\n        \n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            \n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n                        \n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n```\n\n=== VERIFICATION ===\nAn elegant explanation of the method, followed by the complete, runnable code for the solution.\nThis problem asks for a valid ordering of courses given a set of prerequisites. This is a classic graph problem that can be modeled as finding a **topological sort** of a directed graph. Each course is a node, and a prerequisite `[a, b]` (must take `b` before `a`) corresponds to a directed edge from `b` to `a`.\nA topological sort is a linear ordering of nodes such that for every directed edge from node `u` to node `v`, `u` comes before `v` in the ordering. Such an ordering is only possible if the graph is a **Directed Acyclic Graph (DAG)**. If a cycle exists (e.g., you must take course A before B, and B before A), it's impossible to complete all courses.\n**Kahn's algorithm** is a standard and intuitive algorithm for topological sorting that fits this problem perfectly. It works as follows:\n1.  **Graph Representation**: We first build a representation of the course dependencies. An adjacency list is suitable, where `adj[course]` stores a list of courses that depend on it. We also maintain an `in_degree` array, where `in_degree[course]` counts how many prerequisites a course has.\n2.  **Initialization**: We identify all courses with an in-degree of 0. These are the courses with no prerequisites, so they can be taken first. We add all such courses to a queue.\n3.  **Processing**: We process the courses in the queue one by one. For each course we \"take\" (i.e., dequeue):\n    *   Add it to our result list, which will form the final topological order.\n    *   For each of its \"neighbor\" courses (i.e., courses that have it as a prerequisite), we decrement their in-degree, signifying that one of their prerequisites has been met.\n    *   If a neighbor's in-degree becomes 0, it means all its prerequisites are now satisfied, and it can be taken. We add it to the queue.\n4.  **Completion and Cycle Detection**: We repeat this process until the queue is empty. If the number of courses in our result list equals the total number of courses, we have successfully found a valid topological sort. If the count is less, it means some courses were never added to the queue because their in-degrees never reached zero. This can only happen if there is a cycle in the graph, making a full sort impossible. In this case, we return an empty list.\nThis BFS-based approach naturally simulates the order of taking courses and efficiently detects impossible scenarios (cycles).\n```python\nimport collections\nfrom typing import List\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        \"\"\"\n        Finds a valid course order using Kahn's algorithm for topological sorting.\n        \"\"\"\n        # Adjacency list to represent the graph, and an array to store in-degrees.\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n        # Build the graph and in-degree array from the prerequisites.\n        # For a prerequisite [a, b], the edge is b -> a.\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        # Initialize a queue with all courses that have an in-degree of 0.\n        queue = collections.deque([i for i in range(numCourses) if in_degree[i] == 0])\n        topological_order = []\n        # Process the courses in the queue.\n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            # For each neighbor of the current course, decrement its in-degree.\n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                # If a neighbor's in-degree becomes 0, add it to the queue.\n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n        \n        # If the length of the topological order is equal to the number of courses,\n        # a valid order was found. Otherwise, a cycle exists.\n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n```\n### Verification Report\n\n**1. Correctness**\nThe solution correctly implements Kahn's algorithm for topological sorting.\n-   **Graph Construction**: The adjacency list (`adj`) and `in_degree` array are built correctly. For each prerequisite `[a, b]`, an edge `b -> a` is created, and the in-degree of `a` is incremented.\n-   **Initialization**: The queue is correctly initialized with all nodes that have an in-degree of 0 (i.e., courses with no prerequisites).\n-   **Processing**: The `while` loop correctly processes nodes from the queue, adds them to the `topological_order`, and updates the in-degrees of their neighbors. New nodes are added to the queue as their in-degrees become 0.\n-   **Cycle Detection**: The final check `len(topological_order) == numCourses` is a reliable way to detect cycles. If the graph contains a cycle, not all nodes will be visited, and the length will be less than `numCourses`. In this case, an empty list is correctly returned.\n\n**2. Edge Cases**\nThe solution handles edge cases properly:\n-   **No prerequisites**: `in_degree` for all courses will be 0. All courses will be added to the queue and then to the result, producing a valid ordering.\n-   **No courses** (`numCourses = 0`): Although the constraint is `numCourses >= 1`, if `numCourses` were 0, the code would correctly return `[]`.\n-   **Disconnected components**: Courses with no prerequisites and no courses depending on them are handled correctly as they are added to the initial queue and processed.\n-   **Graph with cycles**: As verified, the algorithm correctly detects cycles and returns `[]`.\n\n**3. Complexity**\n-   **Time Complexity**: O(V + E), where V is `numCourses` and E is `len(prerequisites)`. Building the graph takes O(E), initializing the queue takes O(V), and the main processing loop visits each vertex and edge once, taking O(V + E). This is optimal.\n-   **Space Complexity**: O(V + E). The adjacency list requires O(E) space, the `in_degree` array requires O(V) space, and the queue and result list can take up to O(V) space.\n\n**4. Code Quality**\n-   **Readability**: The code is clean, well-structured, and uses descriptive variable names (`adj`, `in_degree`, `topological_order`).\n-   **Best Practices**: It correctly uses `collections.deque` for an efficient queue, and the logic is a standard, easy-to-follow implementation of Kahn's algorithm. The code is concise and Pythonic.\n\n**5. Test Cases**\n-   **Example 1**: `numCourses = 2, prerequisites = [[1,0]]`. Correctly returns `[0,1]`.\n-   **Example 2**: `numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]`. Correctly returns a valid order like `[0,1,2,3]` or `[0,2,1,3]`. The logic correctly handles multiple valid topological sorts.\n-   **Example 3**: `numCourses = 1, prerequisites = []`. Correctly returns `[0]`.\n\n**6. Potential Issues**\nNo bugs or logical errors were identified. The solution is robust and correct. The provided \"Design\" and \"Implemented\" code snippets are functionally identical and equally valid implementations of the described algorithm.\n\n**Conclusion**: The provided solution is **correct**, **efficient**, and of **high quality**. It passes all checks and correctly solves the problem.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        \n        queue = collections.deque()\n        for i in range(numCourses):\n            if in_degree[i] == 0:\n                queue.append(i)\n        \n        topological_order = []\n        \n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            \n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n                        \n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        \n        queue = collections.deque()\n        for i in range(numCourses):\n            if in_degree[i] == 0:\n                queue.append(i)\n        \n        topological_order = []\n        \n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            \n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n                        \n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 210258352832,
+      "SolvedAt": "2025-11-21T10:35:14.85605+01:00",
+      "PromptTokens": 6967,
+      "OutputTokens": 24171
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "210",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:\n        adj = {i: [] for i in range(numCourses)}\n        in_degree = [0] * numCourses\n        for course, prereq in prerequisites:\n            adj[prereq].append(course)\n            in_degree[course] += 1\n        \n        queue = collections.deque()\n        for i in range(numCourses):\n            if in_degree[i] == 0:\n                queue.append(i)\n        \n        topological_order = []\n        \n        while queue:\n            course = queue.popleft()\n            topological_order.append(course)\n            \n            for neighbor in adj[course]:\n                in_degree[neighbor] -= 1\n                \n                if in_degree[neighbor] == 0:\n                    queue.append(neighbor)\n                        \n        if len(topological_order) == numCourses:\n            return topological_order\n        else:\n            return []\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:55:04+01:00"
+    }
+  }
+}

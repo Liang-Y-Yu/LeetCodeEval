@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "72",
+        "questionId": "72",
+        "Content": "<p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>\n\n<p>You have the following three operations permitted on a word:</p>\n\n<ul>\n\t<li>Insert a character</li>\n\t<li>Delete a character</li>\n\t<li>Replace a character</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;horse&quot;, word2 = &quot;ros&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> \nhorse -&gt; rorse (replace &#39;h&#39; with &#39;r&#39;)\nrorse -&gt; rose (remove &#39;r&#39;)\nrose -&gt; ros (remove &#39;e&#39;)\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;intention&quot;, word2 = &quot;execution&quot;\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> \nintention -&gt; inention (remove &#39;t&#39;)\ninention -&gt; enention (replace &#39;i&#39; with &#39;e&#39;)\nenention -&gt; exention (replace &#39;n&#39; with &#39;x&#39;)\nexention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)\nexection -&gt; execution (insert &#39;u&#39;)\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>\n\t<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"horse\"\n\"ros\"",
+        "ExampleTestcases": "\"horse\"\n\"ros\"\n\"intention\"\n\"execution\"",
+        "Difficulty": "Medium",
+        "Title": "Edit Distance",
+        "TitleSlug": "edit-distance",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.3M\", \"totalSubmission\": \"2.2M\", \"totalAcceptedRaw\": 1315464, \"totalSubmissionRaw\": 2204070, \"acRate\": \"59.7%\"}",
+        "Likes": 16101,
+        "Dislikes": 306,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minDistance(String word1, String word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minDistance(word1: string, word2: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinDistance(string word1, string word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minDistance(char* word1, char* word2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minDistance(word1 string, word2 string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minDistance(word1: String, word2: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minDistance(_ word1: String, _ word2: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_distance(word1: String, word2: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef min_distance(word1, word2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return Integer\n     */\n    function minDistance($word1, $word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minDistance(String word1, String word2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minDistance(word1: String, word2: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_distance(word1 :: String.t, word2 :: String.t) :: integer\n  def min_distance(word1, word2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_distance(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> integer().\nmin_distance(Word1, Word2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-distance word1 word2)\n  (-> string? string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:34:47.262077+01:00",
+    "AcRate": "59.7",
+    "TotalSubmissions": 2204070,
+    "TotalAccepted": 1315464,
+    "AcceptanceRate": 0.5968340388463161,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/edit-distance/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        if m == 0:\n            return n\n        if n == 0:\n            return m\n\n        dp = [j for j in range(n + 1)]\n\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n\n        return dp[n]\n\n=== DESIGN ===\nclass Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        dp = [j for j in range(n + 1)]\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n        return dp[n]\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        dp = [j for j in range(n + 1)]\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n        return dp[n]\n\n=== VERIFICATION ===\nclass Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        dp = [j for j in range(n + 1)]\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n        return dp[n]\n\n",
+      "TypedCode": "class Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        dp = [j for j in range(n + 1)]\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n        return dp[n]",
+      "Model": "openai/gpt-5.1",
+      "Latency": 32110073459,
+      "SolvedAt": "2025-11-19T15:30:44.464571+01:00",
+      "PromptTokens": 3380,
+      "OutputTokens": 2193
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "72",
+        "typed_code": "class Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        m, n = len(word1), len(word2)\n        dp = [j for j in range(n + 1)]\n        for i in range(1, m + 1):\n            prev = dp[0]\n            dp[0] = i\n            for j in range(1, n + 1):\n                temp = dp[j]\n                if word1[i - 1] == word2[j - 1]:\n                    dp[j] = prev\n                else:\n                    dp[j] = 1 + min(prev, dp[j], dp[j - 1])\n                prev = temp\n        return dp[n]"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:37:16+01:00"
+    }
+  }
+}

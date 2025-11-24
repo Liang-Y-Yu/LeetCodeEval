@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "841",
+        "questionId": "871",
+        "Content": "<p>There are <code>n</code> rooms labeled from <code>0</code> to <code>n - 1</code>&nbsp;and all the rooms are locked except for room <code>0</code>. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.</p>\n\n<p>When you visit a room, you may find a set of <strong>distinct keys</strong> in it. Each key has a number on it, denoting which room it unlocks, and you can take all of them with you to unlock the other rooms.</p>\n\n<p>Given an array <code>rooms</code> where <code>rooms[i]</code> is the set of keys that you can obtain if you visited room <code>i</code>, return <code>true</code> <em>if you can visit <strong>all</strong> the rooms, or</em> <code>false</code> <em>otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> rooms = [[1],[2],[3],[]]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> \nWe visit room 0 and pick up key 1.\nWe then visit room 1 and pick up key 2.\nWe then visit room 2 and pick up key 3.\nWe then visit room 3.\nSince we were able to visit every room, we return true.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> rooms = [[1,3],[3,0,1],[2],[0]]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> We can not enter room number 2 since the only key that unlocks it is in that room.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == rooms.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 1000</code></li>\n\t<li><code>0 &lt;= rooms[i].length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= sum(rooms[i].length) &lt;= 3000</code></li>\n\t<li><code>0 &lt;= rooms[i][j] &lt; n</code></li>\n\t<li>All the values of <code>rooms[i]</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[[1],[2],[3],[]]",
+        "ExampleTestcases": "[[1],[2],[3],[]]\n[[1,3],[3,0,1],[2],[0]]",
+        "Difficulty": "Medium",
+        "Title": "Keys and Rooms",
+        "TitleSlug": "keys-and-rooms",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"636.9K\", \"totalSubmission\": \"846.9K\", \"totalAcceptedRaw\": 636945, \"totalSubmissionRaw\": 846890, \"acRate\": \"75.2%\"}",
+        "Likes": 6575,
+        "Dislikes": 297,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI0",
+            "Name": "Graph",
+            "Slug": "graph"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool canVisitAllRooms(vector<vector<int>>& rooms) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean canVisitAllRooms(List<List<Integer>> rooms) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def canVisitAllRooms(self, rooms):\n        \"\"\"\n        :type rooms: List[List[int]]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} rooms\n * @return {boolean}\n */\nvar canVisitAllRooms = function(rooms) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function canVisitAllRooms(rooms: number[][]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CanVisitAllRooms(IList<IList<int>> rooms) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func canVisitAllRooms(rooms [][]int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun canVisitAllRooms(rooms: List<List<Int>>): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func canVisitAllRooms(_ rooms: [[Int]]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn can_visit_all_rooms(rooms: Vec<Vec<i32>>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} rooms\n# @return {Boolean}\ndef can_visit_all_rooms(rooms)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $rooms\n     * @return Boolean\n     */\n    function canVisitAllRooms($rooms) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool canVisitAllRooms(List<List<int>> rooms) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def canVisitAllRooms(rooms: List[List[Int]]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec can_visit_all_rooms(rooms :: [[integer]]) :: boolean\n  def can_visit_all_rooms(rooms) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec can_visit_all_rooms(Rooms :: [[integer()]]) -> boolean().\ncan_visit_all_rooms(Rooms) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (can-visit-all-rooms rooms)\n  (-> (listof (listof exact-integer?)) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:56:10.326741+01:00",
+    "AcRate": "75.2",
+    "TotalSubmissions": 846890,
+    "TotalAccepted": 636945,
+    "AcceptanceRate": 0.752098855813624,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/keys-and-rooms/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: There are n rooms labeled from 0 to n - 1\u00a0and all the rooms are locked except for room 0. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.\nWhen you visit a room, you may find a set of distinct keys in it. Each key has a number on it, denoting which room it unlocks, and you can take all of them with you to unlock the other rooms.\nGiven an array rooms where rooms[i] is the set of keys that you can obtain if you visited room i, return true if you can visit all the rooms, or false otherwise.\n\u00a0\nExample 1:\nInput: rooms = [[1],[2],[3],[]]\nOutput: true\nExplanation: \nWe visit room 0 and pick up key 1.\nWe then visit room 1 and pick up key 2.\nWe then visit room 2 and pick up key 3.\nWe then visit room 3.\nSince we were able to visit every room, we return true.\nExample 2:\nInput: rooms = [[1,3],[3,0,1],[2],[0]]\nOutput: false\nExplanation: We can not enter room number 2 since the only key that unlocks it is in that room.\n\u00a0\nConstraints:\n\tn == rooms.length\n\t2 <= n <= 1000\n\t0 <= rooms[i].length <= 1000\n\t1 <= sum(rooms[i].length) <= 3000\n\t0 <= rooms[i][j] < n\n\tAll the values of rooms[i] are unique.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to determine if we can visit every room in a set of rooms, starting from room 0. Each room contains keys to other rooms, and we can only enter a room if we have the key for it. The goal is to check whether we can collect all the keys necessary to unlock every room.\n\n### Approach\n1. **Problem Analysis**: The problem is essentially about traversing a graph where each node (room) has directed edges (keys) to other nodes. We start at node 0 and need to see if we can reach all nodes in the graph.\n2. **Key Insight**: This problem can be solved using a graph traversal algorithm such as Depth-First Search (DFS) or Breadth-First Search (BFS). We start from room 0 and use the keys found in each room to unlock and visit other rooms.\n3. **Algorithm Selection**:\n   - We'll use BFS to traverse the graph. We start by visiting room 0 and mark it as visited.\n   - We maintain a queue to keep track of rooms we have keys for but haven't visited yet.\n   - For each room we visit, we collect all keys found in that room. For each key, if the corresponding room hasn't been visited, we add it to the queue and mark it as visited.\n   - After processing, if the number of visited rooms equals the total number of rooms, we return true; otherwise, false.\n4. **Complexity Analysis**:\n   - **Time Complexity**: O(n + k), where n is the number of rooms and k is the total number of keys. Each room and key is processed once.\n   - **Space Complexity**: O(n) for the visited array and the queue.\n\n### Solution Code\n```python\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        n = len(rooms)\n        visited = [False] * n\n        queue = deque()\n        visited[0] = True\n        queue.append(0)\n        count = 1\n        \n        while queue:\n            room = queue.popleft()\n            for key in rooms[room]:\n                if not visited[key]:\n                    visited[key] = True\n                    count += 1\n                    queue.append(key)\n        \n        return count == n\n```\n\n### Explanation\n1. **Initialization**: We initialize a visited array to keep track of which rooms have been visited. Initially, only room 0 is visited.\n2. **BFS Setup**: We start BFS from room 0, adding it to the queue.\n3. **Processing Rooms**: For each room we process, we check all keys in that room. For each key (which corresponds to a room number), if that room hasn't been visited, we mark it as visited, increment the count of visited rooms, and add it to the queue.\n4. **Result Check**: After processing all reachable rooms, we check if the count of visited rooms equals the total number of rooms. If yes, return true; otherwise, false.\n\nThis approach efficiently checks all reachable rooms from room 0 using BFS, ensuring we determine whether every room is accessible.",
+      "TypedCode": "\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        n = len(rooms)\n        visited = [False] * n\n        queue = deque()\n        visited[0] = True\n        queue.append(0)\n        count = 1\n        \n        while queue:\n            room = queue.popleft()\n            for key in rooms[room]:\n                if not visited[key]:\n                    visited[key] = True\n                    count += 1\n                    queue.append(key)\n        \n        return count == n\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 7411439708,
+      "SolvedAt": "2025-11-20T21:18:42.014081+01:00",
+      "PromptTokens": 540,
+      "OutputTokens": 669
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "871",
+        "typed_code": "\nfrom collections import deque\nfrom typing import List\n\nclass Solution:\n    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:\n        n = len(rooms)\n        visited = [False] * n\n        queue = deque()\n        visited[0] = True\n        queue.append(0)\n        count = 1\n        \n        while queue:\n            room = queue.popleft()\n            for key in rooms[room]:\n                if not visited[key]:\n                    visited[key] = True\n                    count += 1\n                    queue.append(key)\n        \n        return count == n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T23:00:20+01:00"
+    }
+  }
+}

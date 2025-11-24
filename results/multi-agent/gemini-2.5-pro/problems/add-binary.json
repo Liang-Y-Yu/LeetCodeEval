@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "67",
+        "questionId": "67",
+        "Content": "<p>Given two binary strings <code>a</code> and <code>b</code>, return <em>their sum as a binary string</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> a = \"11\", b = \"1\"\n<strong>Output:</strong> \"100\"\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> a = \"1010\", b = \"1011\"\n<strong>Output:</strong> \"10101\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= a.length, b.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>a</code> and <code>b</code> consist&nbsp;only of <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code> characters.</li>\n\t<li>Each string does not contain leading zeros except for the zero itself.</li>\n</ul>\n",
+        "SampleTestCase": "\"11\"\n\"1\"",
+        "ExampleTestcases": "\"11\"\n\"1\"\n\"1010\"\n\"1011\"",
+        "Difficulty": "Easy",
+        "Title": "Add Binary",
+        "TitleSlug": "add-binary",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.1M\", \"totalSubmission\": \"3.6M\", \"totalAcceptedRaw\": 2056320, \"totalSubmissionRaw\": 3643832, \"acRate\": \"56.4%\"}",
+        "Likes": 10260,
+        "Dislikes": 1081,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string addBinary(string a, string b) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String addBinary(String a, String b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def addBinary(self, a, b):\n        \"\"\"\n        :type a: str\n        :type b: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} a\n * @param {string} b\n * @return {string}\n */\nvar addBinary = function(a, b) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function addBinary(a: string, b: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string AddBinary(string a, string b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* addBinary(char* a, char* b) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func addBinary(a string, b string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun addBinary(a: String, b: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func addBinary(_ a: String, _ b: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn add_binary(a: String, b: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} a\n# @param {String} b\n# @return {String}\ndef add_binary(a, b)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $a\n     * @param String $b\n     * @return String\n     */\n    function addBinary($a, $b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String addBinary(String a, String b) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def addBinary(a: String, b: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec add_binary(a :: String.t, b :: String.t) :: String.t\n  def add_binary(a, b) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec add_binary(A :: unicode:unicode_binary(), B :: unicode:unicode_binary()) -> unicode:unicode_binary().\nadd_binary(A, B) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (add-binary a b)\n  (-> string? string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:35:22.219927+01:00",
+    "AcRate": "56.4",
+    "TotalSubmissions": 3643832,
+    "TotalAccepted": 2056320,
+    "AcceptanceRate": 0.5643289811385377,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/add-binary/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        # Pointers for traversing the strings from the end\n        i, j = len(a) - 1, len(b) - 1\n        \n        # Variable to hold the carry-over\n        carry = 0\n        \n        # List to store result digits in reverse order, which is efficient\n        result = []\n        \n        # Loop until both strings are fully traversed and there's no carry left\n        while i >= 0 or j >= 0 or carry:\n            # Add the digit from string 'a' if the pointer is valid\n            if i >= 0:\n                carry += int(a[i])\n                i -= 1\n            \n            # Add the digit from string 'b' if the pointer is valid\n            if j >= 0:\n                carry += int(b[j])\n                j -= 1\n            \n            # The current digit of the sum is the total modulo 2\n            result.append(str(carry % 2))\n            \n            # The new carry is the total integer-divided by 2\n            carry //= 2\n            \n        # The result list was built in reverse order, so we reverse it and join\n        return \"\".join(reversed(result))\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        # Pointers for traversing the strings from the end\n        i, j = len(a) - 1, len(b) - 1\n        \n        # Variable to hold the carry-over\n        carry = 0\n        \n        # List to store result digits in reverse order, which is efficient\n        result = []\n        \n        # Loop until both strings are fully traversed and there's no carry left\n        while i >= 0 or j >= 0 or carry:\n            # Add the digit from string 'a' if the pointer is valid\n            if i >= 0:\n                carry += int(a[i])\n                i -= 1\n            \n            # Add the digit from string 'b' if the pointer is valid\n            if j >= 0:\n                carry += int(b[j])\n                j -= 1\n            \n            # The current digit of the sum is the total modulo 2\n            result.append(str(carry % 2))\n            \n            # The new carry is the total integer-divided by 2\n            carry //= 2\n            \n        # The result list was built in reverse order, so we reverse it and join\n        return \"\".join(reversed(result))\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i, j = len(a) - 1, len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            if i >= 0:\n                carry += int(a[i])\n                i -= 1\n            \n            if j >= 0:\n                carry += int(b[j])\n                j -= 1\n            \n            result.append(str(carry % 2))\n            carry //= 2\n            \n        return \"\".join(reversed(result))\n\n```\n\n=== VERIFICATION ===\nAn elegant and effective approach is to simulate the process of binary addition, much like one would do by hand. This avoids the limitations of fixed-size integer types and demonstrates a fundamental understanding of the algorithm.\n\nThe core idea is to iterate through the strings from right to left, adding corresponding digits along with a carry from the previous position.\n\n1.  **Initialization**: We use two pointers, `i` and `j`, to track our position in strings `a` and `b` respectively, starting from the last character. A `carry` variable is initialized to 0. A `result` list will store the digits of our sum in reverse order. Using a list and appending is more efficient than prepending to a string.\n2.  **Iteration**: We loop as long as there are digits in either string to process (`i >= 0` or `j >= 0`) or if a final `carry` remains. In each iteration:\n    *   We calculate the sum for the current position. This sum starts with the `carry` from the previous position.\n    *   If pointer `i` is valid (i.e., `i >= 0`), we add the integer value of `a[i]` to the sum and decrement `i`.\n    *   Similarly, if pointer `j` is valid, we add the integer value of `b[j]` to the sum and decrement `j`.\n    *   The current digit of the final result is `sum % 2`. We append this to our `result` list.\n    *   The new `carry` for the next (more significant) position is `sum // 2`.\n3.  **Finalization**: After the loop concludes, the `result` list contains all the digits of the sum but in reverse order. We reverse this list and join its elements to form the final binary string.\n\nThis method correctly handles inputs of varying lengths and ensures that any carry from the most significant bit is properly accounted for, resulting in a correct sum for all valid inputs.\n\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i, j = len(a) - 1, len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            # Sum the carry and the bits from a and b, if they exist\n            current_sum = carry\n            if i >= 0:\n                current_sum += int(a[i])\n                i -= 1\n            if j >= 0:\n                current_sum += int(b[j])\n                j -= 1\n            \n            # The current digit is the sum modulo 2\n            result.append(str(current_sum % 2))\n            \n            # The new carry is the sum integer-divided by 2\n            carry = current_sum // 2\n            \n        # The result was built in reverse, so reverse it and join to form the final string\n        return \"\".join(reversed(result))\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i, j = len(a) - 1, len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            if i >= 0:\n                carry += int(a[i])\n                i -= 1\n            \n            if j >= 0:\n                carry += int(b[j])\n                j -= 1\n            \n            result.append(str(carry % 2))\n            carry //= 2\n            \n        return \"\".join(reversed(result))\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 138443054334,
+      "SolvedAt": "2025-11-21T08:10:59.325178+01:00",
+      "PromptTokens": 3746,
+      "OutputTokens": 16515
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "67",
+        "typed_code": "\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i, j = len(a) - 1, len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            if i >= 0:\n                carry += int(a[i])\n                i -= 1\n            \n            if j >= 0:\n                carry += int(b[j])\n                j -= 1\n            \n            result.append(str(carry % 2))\n            carry //= 2\n            \n        return \"\".join(reversed(result))\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:36:22+01:00"
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1425",
+        "questionId": "1286",
+        "Content": "<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return the maximum sum of a <strong>non-empty</strong> subsequence of that array such that for every two <strong>consecutive</strong> integers in the subsequence, <code>nums[i]</code> and <code>nums[j]</code>, where <code>i &lt; j</code>, the condition <code>j - i &lt;= k</code> is satisfied.</p>\n\n<p>A <em>subsequence</em> of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [10,2,-10,5,20], k = 2\n<strong>Output:</strong> 37\n<b>Explanation:</b> The subsequence is [10, 2, 5, 20].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-1,-2,-3], k = 1\n<strong>Output:</strong> -1\n<b>Explanation:</b> The subsequence must be non-empty, so we choose the largest number.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [10,-2,-10,-5,20], k = 2\n<strong>Output:</strong> 23\n<b>Explanation:</b> The subsequence is [10, -2, -5, 20].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,2,-10,5,20]\n2",
+        "ExampleTestcases": "[10,2,-10,5,20]\n2\n[-1,-2,-3]\n1\n[10,-2,-10,-5,20]\n2",
+        "Difficulty": "Hard",
+        "Title": "Constrained Subsequence Sum",
+        "TitleSlug": "constrained-subsequence-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"88.8K\", \"totalSubmission\": \"157.6K\", \"totalAcceptedRaw\": 88847, \"totalSubmissionRaw\": 157638, \"acRate\": \"56.4%\"}",
+        "Likes": 2219,
+        "Dislikes": 108,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjM0",
+            "Name": "Queue",
+            "Slug": "queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcx",
+            "Name": "Monotonic Queue",
+            "Slug": "monotonic-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int constrainedSubsetSum(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int constrainedSubsetSum(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def constrainedSubsetSum(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar constrainedSubsetSum = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function constrainedSubsetSum(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int ConstrainedSubsetSum(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int constrainedSubsetSum(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func constrainedSubsetSum(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun constrainedSubsetSum(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func constrainedSubsetSum(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn constrained_subset_sum(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef constrained_subset_sum(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function constrainedSubsetSum($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int constrainedSubsetSum(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def constrainedSubsetSum(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec constrained_subset_sum(nums :: [integer], k :: integer) :: integer\n  def constrained_subset_sum(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec constrained_subset_sum(Nums :: [integer()], K :: integer()) -> integer().\nconstrained_subset_sum(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (constrained-subset-sum nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:35:49.392471+01:00",
+    "AcRate": "56.4",
+    "TotalSubmissions": 157638,
+    "TotalAccepted": 88847,
+    "AcceptanceRate": 0.5636141031984674,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/constrained-subsequence-sum/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer array nums and an integer k, return the maximum sum of a non-empty subsequence of that array such that for every two consecutive integers in the subsequence, nums[i] and nums[j], where i < j, the condition j - i <= k is satisfied.\nA subsequence of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.\n\u00a0\nExample 1:\nInput: nums = [10,2,-10,5,20], k = 2\nOutput: 37\nExplanation: The subsequence is [10, 2, 5, 20].\nExample 2:\nInput: nums = [-1,-2,-3], k = 1\nOutput: -1\nExplanation: The subsequence must be non-empty, so we choose the largest number.\nExample 3:\nInput: nums = [10,-2,-10,-5,20], k = 2\nOutput: 23\nExplanation: The subsequence is [10, -2, -5, 20].\n\u00a0\nConstraints:\n\t1 <= k <= nums.length <= 10^5\n\t-10^4 <= nums[i] <= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the maximum sum of a subsequence where consecutive elements in the subsequence are at most k positions apart in the original array.\n\nThis is a dynamic programming problem. Let me think through the approach:\n\n1. `dp[i]` represents the maximum sum of a subsequence ending at index `i`\n2. For each position `i`, I can either:\n   - Start a new subsequence with just `nums[i]`\n   - Extend a previous subsequence ending at some index `j` where `i - k <= j < i`\n3. So `dp[i] = nums[i] + max(0, max(dp[j] for j in range(max(0, i-k), i)))`\n\nThe key optimization is finding the maximum `dp[j]` in a sliding window efficiently. I can use a monotonic deque to maintain the maximum in the sliding window of size k.\n\nHere's my solution:\n\n```python\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dq = deque()\n        \n        for i in range(n):\n            if dq and dq[0] < i - k:\n                dq.popleft()\n            \n            dp[i] = nums[i]\n            if dq:\n                dp[i] = max(dp[i], nums[i] + dp[dq[0]])\n            \n            while dq and dp[dq[-1]] <= dp[i]:\n                dq.pop()\n            dq.append(i)\n        \n        return max(dp)\n```\n\nThe algorithm works as follows:\n1. Use a deque to maintain indices of elements in decreasing order of their `dp` values\n2. For each position `i`:\n   - Remove indices that are too far away (more than k positions back)\n   - Calculate `dp[i]` as `nums[i]` plus the best previous value (if positive)\n   - Maintain the deque by removing elements with smaller or equal `dp` values from the back\n   - Add current index to the deque\n3. Return the maximum value in the `dp` array\n\nTime complexity: O(n) - each element is added and removed from deque at most once\nSpace complexity: O(n) - for the dp array and deque",
+      "TypedCode": "\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dq = deque()\n        \n        for i in range(n):\n            if dq and dq[0] < i - k:\n                dq.popleft()\n            \n            dp[i] = nums[i]\n            if dq:\n                dp[i] = max(dp[i], nums[i] + dp[dq[0]])\n            \n            while dq and dp[dq[-1]] <= dp[i]:\n                dq.pop()\n            dq.append(i)\n        \n        return max(dp)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 10077505542,
+      "SolvedAt": "2025-11-19T21:36:32.941238+01:00",
+      "PromptTokens": 517,
+      "OutputTokens": 575
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1286",
+        "typed_code": "\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dq = deque()\n        \n        for i in range(n):\n            if dq and dq[0] < i - k:\n                dq.popleft()\n            \n            dp[i] = nums[i]\n            if dq:\n                dp[i] = max(dp[i], nums[i] + dp[dq[0]])\n            \n            while dq and dp[dq[-1]] <= dp[i]:\n                dq.pop()\n            dq.append(i)\n        \n        return max(dp)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:50:17+01:00"
+    }
+  }
+}

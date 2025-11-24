@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1903",
+        "questionId": "2032",
+        "Content": "<p>You are given a string <code>num</code>, representing a large integer. Return <em>the <strong>largest-valued odd</strong> integer (as a string) that is a <strong>non-empty substring</strong> of </em><code>num</code><em>, or an empty string </em><code>&quot;&quot;</code><em> if no odd integer exists</em>.</p>\n\n<p>A <strong>substring</strong> is a contiguous sequence of characters within a string.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = &quot;52&quot;\n<strong>Output:</strong> &quot;5&quot;\n<strong>Explanation:</strong> The only non-empty substrings are &quot;5&quot;, &quot;2&quot;, and &quot;52&quot;. &quot;5&quot; is the only odd number.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = &quot;4206&quot;\n<strong>Output:</strong> &quot;&quot;\n<strong>Explanation:</strong> There are no odd numbers in &quot;4206&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = &quot;35427&quot;\n<strong>Output:</strong> &quot;35427&quot;\n<strong>Explanation:</strong> &quot;35427&quot; is already an odd number.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= num.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>num</code> only consists of digits and does not contain any leading zeros.</li>\n</ul>\n",
+        "SampleTestCase": "\"52\"",
+        "ExampleTestcases": "\"52\"\n\"4206\"\n\"35427\"",
+        "Difficulty": "Easy",
+        "Title": "Largest Odd Number in String",
+        "TitleSlug": "largest-odd-number-in-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"499.3K\", \"totalSubmission\": \"751.4K\", \"totalAcceptedRaw\": 499276, \"totalSubmissionRaw\": 751440, \"acRate\": \"66.4%\"}",
+        "Likes": 2468,
+        "Dislikes": 144,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string largestOddNumber(string num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String largestOddNumber(String num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def largestOddNumber(self, num: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def largestOddNumber(self, num):\n        \"\"\"\n        :type num: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} num\n * @return {string}\n */\nvar largestOddNumber = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function largestOddNumber(num: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string LargestOddNumber(string num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* largestOddNumber(char* num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func largestOddNumber(num string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun largestOddNumber(num: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func largestOddNumber(_ num: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn largest_odd_number(num: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} num\n# @return {String}\ndef largest_odd_number(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $num\n     * @return String\n     */\n    function largestOddNumber($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String largestOddNumber(String num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def largestOddNumber(num: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec largest_odd_number(num :: String.t) :: String.t\n  def largest_odd_number(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec largest_odd_number(Num :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlargest_odd_number(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (largest-odd-number num)\n  (-> string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:59:06.369044+01:00",
+    "AcRate": "66.4",
+    "TotalSubmissions": 751440,
+    "TotalAccepted": 499276,
+    "AcceptanceRate": 0.6644256361119983,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/largest-odd-number-in-string/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string \"\" if no odd integer exists.\nA substring is a contiguous sequence of characters within a string.\n\u00a0\nExample 1:\nInput: num = \"52\"\nOutput: \"5\"\nExplanation: The only non-empty substrings are \"5\", \"2\", and \"52\". \"5\" is the only odd number.\nExample 2:\nInput: num = \"4206\"\nOutput: \"\"\nExplanation: There are no odd numbers in \"4206\".\nExample 3:\nInput: num = \"35427\"\nOutput: \"35427\"\nExplanation: \"35427\" is already an odd number.\n\u00a0\nConstraints:\n\t1 <= num.length <= 10^5\n\tnum only consists of digits and does not contain any leading zeros.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def largestOddNumber(self, num: str) -> str:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def largestOddNumber(self, num: str) -> str:\n        n = len(num)\n        for i in range(n - 1, -1, -1):\n            if int(num[i]) % 2 == 1:\n                return num[:i+1]\n        return \"\"\n```",
+      "TypedCode": "\nclass Solution:\n    def largestOddNumber(self, num: str) -> str:\n        n = len(num)\n        for i in range(n - 1, -1, -1):\n            if int(num[i]) % 2 == 1:\n                return num[:i+1]\n        return \"\"\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 2847755542,
+      "SolvedAt": "2025-11-20T21:19:03.025928+01:00",
+      "PromptTokens": 391,
+      "OutputTokens": 69
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2032",
+        "typed_code": "\nclass Solution:\n    def largestOddNumber(self, num: str) -> str:\n        n = len(num)\n        for i in range(n - 1, -1, -1):\n            if int(num[i]) % 2 == 1:\n                return num[:i+1]\n        return \"\"\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T23:03:18+01:00"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "818",
+        "questionId": "836",
+        "Content": "<p>Your car starts at position <code>0</code> and speed <code>+1</code> on an infinite number line. Your car can go into negative positions. Your car drives automatically according to a sequence of instructions <code>&#39;A&#39;</code> (accelerate) and <code>&#39;R&#39;</code> (reverse):</p>\n\n<ul>\n\t<li>When you get an instruction <code>&#39;A&#39;</code>, your car does the following:\n\n\t<ul>\n\t\t<li><code>position += speed</code></li>\n\t\t<li><code>speed *= 2</code></li>\n\t</ul>\n\t</li>\n\t<li>When you get an instruction <code>&#39;R&#39;</code>, your car does the following:\n\t<ul>\n\t\t<li>If your speed is positive then <code>speed = -1</code></li>\n\t\t<li>otherwise <code>speed = 1</code></li>\n\t</ul>\n\tYour position stays the same.</li>\n</ul>\n\n<p>For example, after commands <code>&quot;AAR&quot;</code>, your car goes to positions <code>0 --&gt; 1 --&gt; 3 --&gt; 3</code>, and your speed goes to <code>1 --&gt; 2 --&gt; 4 --&gt; -1</code>.</p>\n\n<p>Given a target position <code>target</code>, return <em>the length of the shortest sequence of instructions to get there</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = 3\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> \nThe shortest instruction sequence is &quot;AA&quot;.\nYour position goes from 0 --&gt; 1 --&gt; 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = 6\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> \nThe shortest instruction sequence is &quot;AAARA&quot;.\nYour position goes from 0 --&gt; 1 --&gt; 3 --&gt; 7 --&gt; 7 --&gt; 6.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= target &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "3",
+        "ExampleTestcases": "3\n6",
+        "Difficulty": "Hard",
+        "Title": "Race Car",
+        "TitleSlug": "race-car",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"102.8K\", \"totalSubmission\": \"231.3K\", \"totalAcceptedRaw\": 102825, \"totalSubmissionRaw\": 231291, \"acRate\": \"44.5%\"}",
+        "Likes": 2006,
+        "Dislikes": 189,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int racecar(int target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int racecar(int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def racecar(self, target: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def racecar(self, target):\n        \"\"\"\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} target\n * @return {number}\n */\nvar racecar = function(target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function racecar(target: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Racecar(int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int racecar(int target) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func racecar(target int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun racecar(target: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func racecar(_ target: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn racecar(target: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} target\n# @return {Integer}\ndef racecar(target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $target\n     * @return Integer\n     */\n    function racecar($target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int racecar(int target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def racecar(target: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec racecar(target :: integer) :: integer\n  def racecar(target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec racecar(Target :: integer()) -> integer().\nracecar(Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (racecar target)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:57:54.08534+01:00",
+    "AcRate": "44.5",
+    "TotalSubmissions": 231291,
+    "TotalAccepted": 102825,
+    "AcceptanceRate": 0.4445698276197517,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/race-car/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective way to solve this problem is through dynamic programming with memoization. The problem asks for the shortest sequence of instructions, which can be thought of as the minimum number of steps. Let `dp[i]` be the minimum number of steps to reach position `i`. Our goal is to compute `dp[target]`.\n\nWe can define a recursive function, say `solve(t)`, that computes `dp[t]`.\n\n**Base Case**: To reach position 0, it takes 0 steps. So, `dp[0] = 0`.\n\n**Recursive Step**: To find `solve(t)` for `t > 0`, we consider the patterns of moves. Any sequence of moves must start with one or more 'A's.\n\nLet's say we start with `m` instructions of 'A'. This takes `m` steps and brings the car to position `2^m - 1`.\nThere are two main scenarios based on `m`, which we can choose as `t.bit_length()` (the number of bits in `t`'s binary representation, equivalent to `floor(log2(t)) + 1`):\n\n1.  **Exact Hit**: If `t` is exactly `2^m - 1` for some `m`, then the shortest path is simply `m` 'A's. `solve(t) = m`.\n\n2.  **Overshoot**: We can use `m` 'A's to go past the target `t` to position `2^m - 1`. This takes `m` steps. Then, we must reverse ('R'), taking one more step. Now, we are at position `2^m - 1` with speed -1, and we need to travel backwards to `t`. This is equivalent to solving a new subproblem for a target distance of `(2^m - 1) - t`. The total steps for this strategy are `m (for A's) + 1 (for R) + solve((2^m - 1) - t)`.\n\n3.  **Undershoot**: We can use `m-1` 'A's to land at position `2^(m-1) - 1`, which is less than `t`. This takes `m-1` steps. From here, we are moving forward but need to cover the remaining distance `t - (2^(m-1) - 1)`. A simple strategy of just accelerating further is covered by the `m` 'A's case. The other option is to reverse.\n    A sequence of `(m-1) 'A's -> 'R' -> j 'A's -> 'R'` allows us to make a controlled backward jump and then resume moving forward.\n    - `m-1` 'A's: `m-1` steps, to position `p_under = 2^(m-1) - 1`.\n    - 'R': `1` step, speed becomes -1.\n    - `j` 'A's: `j` steps, moving backwards by `p_back = 2^j - 1`.\n    - 'R': `1` step, speed becomes 1.\n    The total prefix cost is `(m-1) + 1 + j + 1 = m + j + 1` steps. The new position is `p_under - p_back`. The remaining distance to cover is `t - (p_under - p_back)`. We can solve this as a subproblem.\n    We can try this for all reasonable `j` (i.e., `j < m-1`) and take the minimum. The case `j=0` corresponds to two consecutive 'R's.\n\nBy taking the minimum of all these strategies, we can find the shortest path. We use a memoization table (a dictionary or an array) to store the results of `solve(t)` to avoid re-computing for the same subproblems.\n\n```python\nclass Solution:\n    def racecar(self, target: int) -> int:\n        dp = {0: 0}\n\n        def solve(t):\n            if t in dp:\n                return dp[t]\n\n            m = t.bit_length()\n\n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n\n            # Overshoot case\n            ans = m + 1 + solve((1 << m) - 1 - t)\n\n            # Undershoot case\n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                pos_after_backward = (1 << j) - 1\n                \n                # Steps for prefix: (m-1) A's + R + j A's + R\n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                remaining_dist = t - (pos_undershoot - pos_after_backward)\n                \n                current_total_steps = prefix_steps + solve(remaining_dist)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n\n        return solve(target)\n```\n\n=== DESIGN ===\nAn elegant and effective way to solve this problem is through dynamic programming with memoization. The problem asks for the shortest sequence of instructions, which can be thought of as the minimum number of steps. Let `dp[i]` be the minimum number of steps to reach position `i`. Our goal is to compute `dp[target]`.\nWe can define a recursive function, say `solve(t)`, that computes `dp[t]`.\n**Base Case**: To reach position 0, it takes 0 steps. So, `dp[0] = 0`.\n**Recursive Step**: To find `solve(t)` for `t > 0`, we consider the patterns of moves. Any sequence of moves must start with one or more 'A's.\nLet's say we start with `m` instructions of 'A'. This takes `m` steps and brings the car to position `2^m - 1`.\nThere are two main scenarios based on `m`, which we can choose as `t.bit_length()` (the number of bits in `t`'s binary representation, equivalent to `floor(log2(t)) + 1`):\n1.  **Exact Hit**: If `t` is exactly `2^m - 1` for some `m`, then the shortest path is simply `m` 'A's. `solve(t) = m`.\n2.  **Overshoot**: We can use `m` 'A's to go past the target `t` to position `2^m - 1`. This takes `m` steps. Then, we must reverse ('R'), taking one more step. Now, we are at position `2^m - 1` with speed -1, and we need to travel backwards to `t`. This is equivalent to solving a new subproblem for a target distance of `(2^m - 1) - t`. The total steps for this strategy are `m (for A's) + 1 (for R) + solve((2^m - 1) - t)`.\n3.  **Undershoot**: We can use `m-1` 'A's to land at position `2^(m-1) - 1`, which is less than `t`. This takes `m-1` steps. From here, we are moving forward but need to cover the remaining distance `t - (2^(m-1) - 1)`. A simple strategy of just accelerating further is covered by the `m` 'A's case. The other option is to reverse.\n    A sequence of `(m-1) 'A's -> 'R' -> j 'A's -> 'R'` allows us to make a controlled backward jump and then resume moving forward.\n    - `m-1` 'A's: `m-1` steps, to position `p_under = 2^(m-1) - 1`.\n    - 'R': `1` step, speed becomes -1.\n    - `j` 'A's: `j` steps, moving backwards by `p_back = 2^j - 1`.\n    - 'R': `1` step, speed becomes 1.\n    The total prefix cost is `(m-1) + 1 + j + 1 = m + j + 1` steps. The new position is `p_under - p_back`. The remaining distance to cover is `t - (p_under - p_back)`. We can solve this as a subproblem.\n    We can try this for all reasonable `j` (i.e., `j < m-1`) and take the minimum. The case `j=0` corresponds to two consecutive 'R's.\nBy taking the minimum of all these strategies, we can find the shortest path. We use a memoization table (a dictionary or an array) to store the results of `solve(t)` to avoid re-computing for the same subproblems.\n```python\nimport sys\n\nclass Solution:\n    def racecar(self, target: int) -> int:\n        \n        # In Python, the default recursion limit is often 1000.\n        # For a target of 10^4, the recursion depth is small (logarithmic),\n        # but to be safe for all possible platforms, we can increase it.\n        # sys.setrecursionlimit(2000) # This is usually not needed for this problem's constraints.\n\n        dp = {0: 0}\n\n        def solve(t):\n            if t in dp:\n                return dp[t]\n\n            m = t.bit_length()\n            \n            # Scenario 1: Exact Hit\n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n\n            # Scenario 2: Overshoot\n            # Action: m 'A's, then 'R', then solve subproblem\n            # Steps: m ('A's) + 1 ('R') + solve(new_target)\n            ans = m + 1 + solve((1 << m) - 1 - t)\n\n            # Scenario 3: Undershoot\n            # Action: (m-1) 'A's, 'R', j 'A's, 'R', then solve subproblem\n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                dist_backward = (1 << j) - 1\n                \n                # Steps for the prefix maneuver\n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                # The new target for the subproblem\n                new_target = t - (pos_undershoot - dist_backward)\n                \n                current_total_steps = prefix_steps + solve(new_target)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n\n        return solve(target)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def racecar(self, target: int) -> int:\n        dp = {0: 0}\n        \n        def solve(t):\n            if t in dp:\n                return dp[t]\n            \n            m = t.bit_length()\n            \n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n            \n            ans = m + 1 + solve((1 << m) - 1 - t)\n            \n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                pos_after_backward = (1 << j) - 1\n                \n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                remaining_dist = t - (pos_undershoot - pos_after_backward)\n                \n                current_total_steps = prefix_steps + solve(remaining_dist)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n            \n        return solve(target)\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def racecar(self, target: int) -> int:\n        dp = {0: 0}\n        \n        def solve(t):\n            if t in dp:\n                return dp[t]\n            \n            m = t.bit_length()\n            \n            # Case 1: Exact hit (A...A m times)\n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n            \n            # Case 2: Overshoot and come back (A...A m times, R, ...)\n            # Cost = m (for A's) + 1 (for R) + cost to reach original target from overshoot position\n            ans = m + 1 + solve((1 << m) - 1 - t)\n            \n            # Case 3: Undershoot, turn back, turn forward again (...)\n            # (A...A m-1 times, R, A...A j times, R, ...)\n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                dist_backward = (1 << j) - 1\n                \n                # Cost for the prefix of moves: (m-1)A's + R + j A's + R\n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                # Position after prefix: pos_undershoot - dist_backward\n                # The remaining distance to cover is the subproblem\n                remaining_dist = t - (pos_undershoot - dist_backward)\n                \n                current_total_steps = prefix_steps + solve(remaining_dist)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n            \n        return solve(target)\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def racecar(self, target: int) -> int:\n        dp = {0: 0}\n        \n        def solve(t):\n            if t in dp:\n                return dp[t]\n            \n            m = t.bit_length()\n            \n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n            \n            ans = m + 1 + solve((1 << m) - 1 - t)\n            \n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                pos_after_backward = (1 << j) - 1\n                \n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                remaining_dist = t - (pos_undershoot - pos_after_backward)\n                \n                current_total_steps = prefix_steps + solve(remaining_dist)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n            \n        return solve(target)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 455226199083,
+      "SolvedAt": "2025-11-21T16:01:53.642117+01:00",
+      "PromptTokens": 9165,
+      "OutputTokens": 49303
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "836",
+        "typed_code": "\nclass Solution:\n    def racecar(self, target: int) -> int:\n        dp = {0: 0}\n        \n        def solve(t):\n            if t in dp:\n                return dp[t]\n            \n            m = t.bit_length()\n            \n            if (1 << m) - 1 == t:\n                dp[t] = m\n                return m\n            \n            ans = m + 1 + solve((1 << m) - 1 - t)\n            \n            pos_undershoot = (1 << (m - 1)) - 1\n            for j in range(m - 1):\n                pos_after_backward = (1 << j) - 1\n                \n                prefix_steps = (m - 1) + 1 + j + 1\n                \n                remaining_dist = t - (pos_undershoot - pos_after_backward)\n                \n                current_total_steps = prefix_steps + solve(remaining_dist)\n                ans = min(ans, current_total_steps)\n            \n            dp[t] = ans\n            return ans\n            \n        return solve(target)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:26:52+01:00"
+    }
+  }
+}

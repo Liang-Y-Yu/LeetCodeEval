@@ -1,0 +1,58 @@
+[
+  {
+    "file": "binary-trees-with-factors.json",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "language": "python3",
+    "lines_of_code": 21,
+    "cyclomatic_complexity": 6,
+    "duplication_score": 0,
+    "problem_id": "843",
+    "title": "Binary Trees With Factors",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "permutation-sequence.json",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "language": "python3",
+    "lines_of_code": 15,
+    "cyclomatic_complexity": 2,
+    "duplication_score": 0,
+    "problem_id": "60",
+    "title": "Permutation Sequence",
+    "status": "Runtime Error",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "regular-expression-matching.json",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "language": "python3",
+    "lines_of_code": 20,
+    "cyclomatic_complexity": 8,
+    "duplication_score": 0,
+    "problem_id": "10",
+    "title": "Regular Expression Matching",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "sliding-window-median.json",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "language": "python3",
+    "lines_of_code": 115,
+    "cyclomatic_complexity": 25,
+    "duplication_score": 0,
+    "problem_id": "480",
+    "title": "Sliding Window Median",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

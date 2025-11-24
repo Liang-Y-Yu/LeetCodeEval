@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1641",
+        "questionId": "1761",
+        "Content": "<p>Given an integer <code>n</code>, return <em>the number of strings of length </em><code>n</code><em> that consist only of vowels (</em><code>a</code><em>, </em><code>e</code><em>, </em><code>i</code><em>, </em><code>o</code><em>, </em><code>u</code><em>) and are <strong>lexicographically sorted</strong>.</em></p>\n\n<p>A string <code>s</code> is <strong>lexicographically sorted</strong> if for all valid <code>i</code>, <code>s[i]</code> is the same as or comes before <code>s[i+1]</code> in the alphabet.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> The 5 sorted strings that consist of vowels only are <code>[&quot;a&quot;,&quot;e&quot;,&quot;i&quot;,&quot;o&quot;,&quot;u&quot;].</code>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 15\n<strong>Explanation:</strong> The 15 sorted strings that consist of vowels only are\n[&quot;aa&quot;,&quot;ae&quot;,&quot;ai&quot;,&quot;ao&quot;,&quot;au&quot;,&quot;ee&quot;,&quot;ei&quot;,&quot;eo&quot;,&quot;eu&quot;,&quot;ii&quot;,&quot;io&quot;,&quot;iu&quot;,&quot;oo&quot;,&quot;ou&quot;,&quot;uu&quot;].\nNote that &quot;ea&quot; is not a valid string since &#39;e&#39; comes after &#39;a&#39; in the alphabet.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 33\n<strong>Output:</strong> 66045\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 50</code>&nbsp;</li>\n</ul>\n",
+        "SampleTestCase": "1",
+        "ExampleTestcases": "1\n2\n33",
+        "Difficulty": "Medium",
+        "Title": "Count Sorted Vowel Strings",
+        "TitleSlug": "count-sorted-vowel-strings",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"202.2K\", \"totalSubmission\": \"255.6K\", \"totalAcceptedRaw\": 202190, \"totalSubmissionRaw\": 255639, \"acRate\": \"79.1%\"}",
+        "Likes": 3922,
+        "Dislikes": 93,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU2",
+            "Name": "Combinatorics",
+            "Slug": "combinatorics"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countVowelStrings(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countVowelStrings(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countVowelStrings(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countVowelStrings(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar countVowelStrings = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countVowelStrings(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountVowelStrings(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countVowelStrings(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countVowelStrings(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countVowelStrings(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countVowelStrings(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_vowel_strings(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef count_vowel_strings(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function countVowelStrings($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countVowelStrings(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countVowelStrings(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_vowel_strings(n :: integer) :: integer\n  def count_vowel_strings(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_vowel_strings(N :: integer()) -> integer().\ncount_vowel_strings(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-vowel-strings n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:11:32.512082+01:00",
+    "AcRate": "79.1",
+    "TotalSubmissions": 255639,
+    "TotalAccepted": 202190,
+    "AcceptanceRate": 0.7909200082929444,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-sorted-vowel-strings/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: Dynamic Programming, Combinatorics\n\nKey Patterns & Algorithms: \n- This problem can be solved using dynamic programming where we define the state as the number of valid strings of a certain length ending with a particular vowel.\n- Alternatively, it can be solved using combinatorial mathematics (stars and bars theorem) since the problem is equivalent to combinations with repetition.\n\nConstraints Analysis:\n- n can be up to 50, so an O(n) or O(n^2) solution would be acceptable.\n- The combinatorial approach can compute in constant time (if precomputation is allowed) while the DP approach would be O(n).\n\nEdge Cases:\n- n = 1 (returns 5)\n- n = 0 (but constraint says n>=1, so not needed)\n- Large n (like 50) to ensure no integer overflow and efficient computation.\n\nInput/Output Analysis:\n- Input: integer n (length of string)\n- Output: integer (number of lexicographically sorted vowel strings)\n\nDifficulty Assessment: \n- Medium. The problem requires recognizing the combinatorial nature or formulating the DP state correctly.\n- The combinatorial solution is non-trivial to derive but efficient. The DP solution is more intuitive.\n\nSolution:\nWe'll use dynamic programming with state:\ndp[i][j] = number of strings of length i ending with vowel j (where j=0,1,2,3,4 for a,e,i,o,u)\nAlternatively, we can optimize space to O(1) by using a 5-element array.\n\nAlternatively, we can use combinatorial mathematics: the answer is C(n+4, 4) because we are choosing n items from 5 types with repetition and sorted order (which is equivalent to combinations with repetition).\n\nWe'll implement the combinatorial solution for efficiency and simplicity.\n\nThe number of combinations with repetition is: (n + k - 1) choose (k - 1) for k categories. Here k=5.\nSo answer = C(n+4, 4) = (n+4)*(n+3)*(n+2)*(n+1) / 24\n\nWe'll compute this integer value.\n\nLet's code accordingly.\n```python\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Combinatorial Mathematics (Combinations with Repetition)\n**Step-by-Step Approach**:\n1. Recognize that the problem is equivalent to counting the number of combinations with repetition for 5 vowels taken n at a time with sorted order.\n2. Use the stars and bars theorem which states the number of non-negative integer solutions to x1 + x2 + ... + x5 = n (where each xi represents the count of a vowel) is C(n+5-1, 5-1) = C(n+4,4).\n3. Compute the value of the binomial coefficient C(n+4,4) which simplifies to (n+4)*(n+3)*(n+2)*(n+1)/24.\n4. Since n is an integer and the product is divisible by 24 (as the numerator has four consecutive integers), integer division can be used.\n\n**Data Structures**: None needed, just integer arithmetic.\n**Time Complexity**: O(1) - Constant time computation.\n**Space Complexity**: O(1) - Only a few integer variables used.\n**Pseudocode**:\n1. Compute numerator = (n+4)*(n+3)*(n+2)*(n+1)\n2. Return numerator // 24\n\n```python\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n```\n\n=== VERIFICATION ===\nThe solution is correct and meets all requirements. Let's verify each aspect:\n\n1. **Correctness**: The combinatorial formula C(n+4,4) is the exact mathematical solution for counting combinations with repetition for 5 vowels. The code implements this with integer arithmetic.\n\n2. **Edge Cases**:\n   - n = 1: (1+4)*(1+3)*(1+2)*(1+1)//24 = 5*4*3*2//24 = 120//24 = 5 \u2713\n   - n = 2: (2+4)*(2+3)*(2+2)*(2+1)//24 = 6*5*4*3//24 = 360//24 = 15 \u2713\n   - n = 33: (33+4)*(33+3)*(33+2)*(33+1)//24 = 37*36*35*34//24 = 1585080//24 = 66045 \u2713\n\n3. **Complexity**: O(1) time and O(1) space, which is optimal.\n\n4. **Code Quality**: The code is concise and readable, using a single expression without unnecessary variables.\n\n5. **Test Cases**: All provided examples (n=1, n=2, n=33) produce correct outputs.\n\n6. **Potential Issues**: None. The formula handles all n in [1,50] without overflow (since n<=50, maximum value is 54*53*52*51=7590024, which fits in integers).\n\nThe solution is valid and requires no changes.\n\n```python\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 38706604791,
+      "SolvedAt": "2025-11-20T23:44:36.405844+01:00",
+      "PromptTokens": 4520,
+      "OutputTokens": 1251
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1761",
+        "typed_code": "\nclass Solution:\n    def countVowelStrings(self, n: int) -> int:\n        return (n + 4) * (n + 3) * (n + 2) * (n + 1) // 24\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:05:41+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "719",
+        "questionId": "719",
+        "Content": "<p>The <strong>distance of a pair</strong> of integers <code>a</code> and <code>b</code> is defined as the absolute difference between <code>a</code> and <code>b</code>.</p>\n\n<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>smallest <strong>distance among all the pairs</strong></em> <code>nums[i]</code> <em>and</em> <code>nums[j]</code> <em>where</em> <code>0 &lt;= i &lt; j &lt; nums.length</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,1], k = 1\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> Here are all the pairs:\n(1,3) -&gt; 2\n(1,1) -&gt; 0\n(3,1) -&gt; 2\nThen the 1<sup>st</sup> smallest distance pair is (1,1), and its distance is 0.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,1], k = 2\n<strong>Output:</strong> 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,6,1], k = 3\n<strong>Output:</strong> 5\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= n * (n - 1) / 2</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,1]\n1",
+        "ExampleTestcases": "[1,3,1]\n1\n[1,1,1]\n2\n[1,6,1]\n3",
+        "Difficulty": "Hard",
+        "Title": "Find K-th Smallest Pair Distance",
+        "TitleSlug": "find-k-th-smallest-pair-distance",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.4K\", \"totalSubmission\": \"445.4K\", \"totalAcceptedRaw\": 205366, \"totalSubmissionRaw\": 445354, \"acRate\": \"46.1%\"}",
+        "Likes": 3883,
+        "Dislikes": 124,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int smallestDistancePair(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int smallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestDistancePair(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar smallestDistancePair = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestDistancePair(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int SmallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int smallestDistancePair(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestDistancePair(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestDistancePair(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestDistancePair(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_distance_pair(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef smallest_distance_pair(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function smallestDistancePair($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int smallestDistancePair(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestDistancePair(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_distance_pair(nums :: [integer], k :: integer) :: integer\n  def smallest_distance_pair(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_distance_pair(Nums :: [integer()], K :: integer()) -> integer().\nsmallest_distance_pair(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-distance-pair nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:03.033477+01:00",
+    "AcRate": "46.1",
+    "TotalSubmissions": 445354,
+    "TotalAccepted": 205366,
+    "AcceptanceRate": 0.46112979786866176,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: The distance of a pair of integers a and b is defined as the absolute difference between a and b.\nGiven an integer array nums and an integer k, return the k^th smallest distance among all the pairs nums[i] and nums[j] where 0 <= i < j < nums.length.\n\u00a0\nExample 1:\nInput: nums = [1,3,1], k = 1\nOutput: 0\nExplanation: Here are all the pairs:\n(1,3) -> 2\n(1,1) -> 0\n(3,1) -> 2\nThen the 1^st smallest distance pair is (1,1), and its distance is 0.\nExample 2:\nInput: nums = [1,1,1], k = 2\nOutput: 0\nExample 3:\nInput: nums = [1,6,1], k = 3\nOutput: 5\n\u00a0\nConstraints:\n\tn == nums.length\n\t2 <= n <= 10^4\n\t0 <= nums[i] <= 10^6\n\t1 <= k <= n * (n - 1) / 2\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        \n        def count_pairs(max_dist):\n            count = 0\n            j = 0\n            for i in range(len(nums)):\n                while j < len(nums) and nums[j] - nums[i] <= max_dist:\n                    j += 1\n                count += j - i - 1\n            return count\n        \n        left, right = 0, nums[-1] - nums[0]\n        while left < right:\n            mid = (left + right) // 2\n            if count_pairs(mid) >= k:\n                right = mid\n            else:\n                left = mid + 1\n        return left\n```",
+      "TypedCode": "\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        \n        def count_pairs(max_dist):\n            count = 0\n            j = 0\n            for i in range(len(nums)):\n                while j < len(nums) and nums[j] - nums[i] <= max_dist:\n                    j += 1\n                count += j - i - 1\n            return count\n        \n        left, right = 0, nums[-1] - nums[0]\n        while left < right:\n            mid = (left + right) // 2\n            if count_pairs(mid) >= k:\n                right = mid\n            else:\n                left = mid + 1\n        return left\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 2780504833,
+      "SolvedAt": "2025-11-20T21:16:27.817644+01:00",
+      "PromptTokens": 454,
+      "OutputTokens": 165
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "719",
+        "typed_code": "\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        \n        def count_pairs(max_dist):\n            count = 0\n            j = 0\n            for i in range(len(nums)):\n                while j < len(nums) and nums[j] - nums[i] <= max_dist:\n                    j += 1\n                count += j - i - 1\n            return count\n        \n        left, right = 0, nums[-1] - nums[0]\n        while left < right:\n            mid = (left + right) // 2\n            if count_pairs(mid) >= k:\n                right = mid\n            else:\n                left = mid + 1\n        return left\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:53:14+01:00"
+    }
+  }
+}

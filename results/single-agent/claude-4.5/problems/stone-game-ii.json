@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1140",
+        "questionId": "1240",
+        "Content": "<p>Alice and Bob continue their games with piles of stones. There are a number of piles <strong>arranged in a row</strong>, and each pile has a positive integer number of stones <code>piles[i]</code>. The objective of the game is to end with the most stones.</p>\n\n<p>Alice and Bob take turns, with Alice starting first.</p>\n\n<p>On each player&#39;s turn, that player can take <strong>all the stones</strong> in the <strong>first</strong> <code>X</code> remaining piles, where <code>1 &lt;= X &lt;= 2M</code>. Then, we set <code>M = max(M, X)</code>. Initially, M = 1.</p>\n\n<p>The game continues until all the stones have been taken.</p>\n\n<p>Assuming Alice and Bob play optimally, return the maximum number of stones Alice can get.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">piles = [2,7,9,4,4]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">10</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>If Alice takes one pile at the beginning, Bob takes two piles, then Alice takes 2 piles again. Alice can get <code>2 + 4 + 4 = 10</code> stones in total.</li>\n\t<li>If Alice takes two piles at the beginning, then Bob can take all three piles left. In this case, Alice get <code>2 + 7 = 9</code> stones in total.</li>\n</ul>\n\n<p>So we return 10 since it&#39;s larger.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">piles = [1,2,3,4,5,100]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">104</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= piles.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= piles[i]&nbsp;&lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[2,7,9,4,4]",
+        "ExampleTestcases": "[2,7,9,4,4]\n[1,2,3,4,5,100]",
+        "Difficulty": "Medium",
+        "Title": "Stone Game II",
+        "TitleSlug": "stone-game-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"192.6K\", \"totalSubmission\": \"264.1K\", \"totalAcceptedRaw\": 192619, \"totalSubmissionRaw\": 264121, \"acRate\": \"72.9%\"}",
+        "Likes": 3414,
+        "Dislikes": 932,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcz",
+            "Name": "Game Theory",
+            "Slug": "game-theory"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int stoneGameII(vector<int>& piles) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int stoneGameII(int[] piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def stoneGameII(self, piles):\n        \"\"\"\n        :type piles: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} piles\n * @return {number}\n */\nvar stoneGameII = function(piles) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function stoneGameII(piles: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int StoneGameII(int[] piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int stoneGameII(int* piles, int pilesSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func stoneGameII(piles []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun stoneGameII(piles: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func stoneGameII(_ piles: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn stone_game_ii(piles: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} piles\n# @return {Integer}\ndef stone_game_ii(piles)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $piles\n     * @return Integer\n     */\n    function stoneGameII($piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int stoneGameII(List<int> piles) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def stoneGameII(piles: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec stone_game_ii(piles :: [integer]) :: integer\n  def stone_game_ii(piles) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec stone_game_ii(Piles :: [integer()]) -> integer().\nstone_game_ii(Piles) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (stone-game-ii piles)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:37:58.324717+01:00",
+    "AcRate": "72.9",
+    "TotalSubmissions": 264121,
+    "TotalAccepted": 192619,
+    "AcceptanceRate": 0.7292831694564234,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/stone-game-ii/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Alice and Bob continue their games with piles of stones. There are a number of piles arranged in a row, and each pile has a positive integer number of stones piles[i]. The objective of the game is to end with the most stones.\nAlice and Bob take turns, with Alice starting first.\nOn each player's turn, that player can take all the stones in the first X remaining piles, where 1 <= X <= 2M. Then, we set M = max(M, X). Initially, M = 1.\nThe game continues until all the stones have been taken.\nAssuming Alice and Bob play optimally, return the maximum number of stones Alice can get.\n\u00a0\nExample 1:\nInput: piles = [2,7,9,4,4]\nOutput: 10\nExplanation:\n\tIf Alice takes one pile at the beginning, Bob takes two piles, then Alice takes 2 piles again. Alice can get 2 + 4 + 4 = 10 stones in total.\n\tIf Alice takes two piles at the beginning, then Bob can take all three piles left. In this case, Alice get 2 + 7 = 9 stones in total.\nSo we return 10 since it's larger.\nExample 2:\nInput: piles = [1,2,3,4,5,100]\nOutput: 104\n\u00a0\nConstraints:\n\t1 <= piles.length <= 100\n\t1 <= piles[i]\u00a0<= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the maximum stones Alice can get when both players play optimally.\n\nKey observations:\n1. This is a game theory problem where both players play optimally\n2. Alice goes first with M=1\n3. On each turn, a player can take 1 to 2M piles from the front\n4. After taking X piles, M becomes max(M, X)\n5. We need to find Alice's maximum stones\n\nThis is a minimax problem that can be solved with dynamic programming. I'll use memoization where the state is (current_index, current_M).\n\nFor each state, the current player will try all possible moves (taking 1 to 2M piles) and choose the one that maximizes their stones. Since both play optimally, when it's the opponent's turn, they will minimize what the current player gets from the remaining piles.\n\nLet me think about it differently: I'll calculate the maximum stones the current player can get from index i with parameter M. The current player wants to maximize their stones, which means minimizing what the opponent gets from what's left.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        \n        suffix_sum = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sum[i] = suffix_sum[i + 1] + piles[i]\n        \n        memo = {}\n        \n        def dp(i, M):\n            if i >= n:\n                return 0\n            \n            if i + 2 * M >= n:\n                return suffix_sum[i]\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n            \n            max_stones = 0\n            for X in range(1, 2 * M + 1):\n                if i + X > n:\n                    break\n                opponent_gets = dp(i + X, max(M, X))\n                current_gets = suffix_sum[i] - opponent_gets\n                max_stones = max(max_stones, current_gets)\n            \n            memo[(i, M)] = max_stones\n            return max_stones\n        \n        return dp(0, 1)\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        \n        suffix_sum = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sum[i] = suffix_sum[i + 1] + piles[i]\n        \n        memo = {}\n        \n        def dp(i, M):\n            if i >= n:\n                return 0\n            \n            if i + 2 * M >= n:\n                return suffix_sum[i]\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n            \n            max_stones = 0\n            for X in range(1, 2 * M + 1):\n                if i + X > n:\n                    break\n                opponent_gets = dp(i + X, max(M, X))\n                current_gets = suffix_sum[i] - opponent_gets\n                max_stones = max(max_stones, current_gets)\n            \n            memo[(i, M)] = max_stones\n            return max_stones\n        \n        return dp(0, 1)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 8763744500,
+      "SolvedAt": "2025-11-19T21:54:09.010334+01:00",
+      "PromptTokens": 579,
+      "OutputTokens": 552
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1240",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        \n        suffix_sum = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sum[i] = suffix_sum[i + 1] + piles[i]\n        \n        memo = {}\n        \n        def dp(i, M):\n            if i >= n:\n                return 0\n            \n            if i + 2 * M >= n:\n                return suffix_sum[i]\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n            \n            max_stones = 0\n            for X in range(1, 2 * M + 1):\n                if i + X > n:\n                    break\n                opponent_gets = dp(i + X, max(M, X))\n                current_gets = suffix_sum[i] - opponent_gets\n                max_stones = max(max_stones, current_gets)\n            \n            memo[(i, M)] = max_stones\n            return max_stones\n        \n        return dp(0, 1)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T23:03:27+01:00"
+    }
+  }
+}

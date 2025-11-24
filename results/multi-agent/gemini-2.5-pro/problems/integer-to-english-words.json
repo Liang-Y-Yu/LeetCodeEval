@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "273",
+        "questionId": "273",
+        "Content": "<p>Convert a non-negative integer <code>num</code> to its English words representation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 123\n<strong>Output:</strong> &quot;One Hundred Twenty Three&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 12345\n<strong>Output:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 1234567\n<strong>Output:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "123",
+        "ExampleTestcases": "123\n12345\n1234567",
+        "Difficulty": "Hard",
+        "Title": "Integer to English Words",
+        "TitleSlug": "integer-to-english-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"565.3K\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 565337, \"totalSubmissionRaw\": 1629894, \"acRate\": \"34.7%\"}",
+        "Likes": 3800,
+        "Dislikes": 6823,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string numberToWords(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String numberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberToWords(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {string}\n */\nvar numberToWords = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberToWords(num: number): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string NumberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* numberToWords(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberToWords(num int) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberToWords(num: Int): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberToWords(_ num: Int) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_to_words(num: i32) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {String}\ndef number_to_words(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return String\n     */\n    function numberToWords($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String numberToWords(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberToWords(num: Int): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_to_words(num :: integer) :: String.t\n  def number_to_words(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_to_words(Num :: integer()) -> unicode:unicode_binary().\nnumber_to_words(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-to-words num)\n  (-> exact-integer? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:25:00.534343+01:00",
+    "AcRate": "34.7",
+    "TotalSubmissions": 1629894,
+    "TotalAccepted": 565337,
+    "AcceptanceRate": 0.3468550715568006,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-to-english-words/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective way to solve this problem is to break it down. A large number like `1,234,567,890` is read in chunks: \"One Billion\", \"Two Hundred Thirty Four Million\", \"Five Hundred Sixty Seven Thousand\", \"Eight Hundred Ninety\". Notice a repeating pattern: we process a number from 1-999, then append a scale (Thousand, Million, etc.).\n\nThis suggests a strategy:\n1.  Iteratively process the number in chunks of 1000 from right to left (using `num % 1000`).\n2.  For each non-zero chunk, convert the three-digit number to words.\n3.  Append the appropriate scale word (\"Thousand\", \"Million\", \"Billion\") based on the chunk's position.\n4.  Combine the words for all chunks, ensuring correct spacing.\n\nA helper function to convert any number less than 1000 into words is the core of this approach. This helper will handle the rules for hundreds, tens (including special \"teen\" numbers), and ones.\n\nBy building a list of word strings for each part and then joining them, we can easily manage the spacing. The special case of `num = 0` must also be handled separately.\n\n```python\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n\n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            \"\"\"Converts a number from 1-999 to its English words representation.\"\"\"\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                # Prepend the words for the current chunk to the overall result\n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n\n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                \n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                \n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                \n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                \n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 333155426708,
+      "SolvedAt": "2025-11-21T11:53:07.121983+01:00",
+      "PromptTokens": 5609,
+      "OutputTokens": 40433
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "273",
+        "typed_code": "\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        less_than_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\", \"Ten\", \n            \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\", \"Seventeen\", \n            \"Eighteen\", \"Nineteen\"\n        ]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        thousands = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n\n        def helper_three_digits(n):\n            words = []\n            if n >= 100:\n                words.append(less_than_20[n // 100])\n                words.append(\"Hundred\")\n                n %= 100\n            \n            if n > 0:\n                if n < 20:\n                    words.append(less_than_20[n])\n                else:\n                    words.append(tens[n // 10])\n                    if n % 10 != 0:\n                        words.append(less_than_20[n % 10])\n            return words\n\n        result_words = []\n        i = 0\n        while num > 0:\n            chunk = num % 1000\n            if chunk > 0:\n                chunk_as_words = helper_three_digits(chunk)\n                if i > 0:\n                    chunk_as_words.append(thousands[i])\n                \n                result_words = chunk_as_words + result_words\n            \n            num //= 1000\n            i += 1\n            \n        return \" \".join(result_words)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:16:42+01:00"
+    }
+  }
+}

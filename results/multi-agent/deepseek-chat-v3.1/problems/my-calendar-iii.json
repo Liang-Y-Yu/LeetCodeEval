@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "732",
+        "questionId": "732",
+        "Content": "<p>A <code>k</code>-booking happens when <code>k</code> events have some non-empty intersection (i.e., there is some time that is common to all <code>k</code> events.)</p>\n\n<p>You are given some events <code>[startTime, endTime)</code>, after each given event, return an integer <code>k</code> representing the maximum <code>k</code>-booking between all the previous events.</p>\n\n<p>Implement the <code>MyCalendarThree</code> class:</p>\n\n<ul>\n\t<li><code>MyCalendarThree()</code> Initializes the object.</li>\n\t<li><code>int book(int startTime, int endTime)</code> Returns an integer <code>k</code> representing the largest integer such that there exists a <code>k</code>-booking in the calendar.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;MyCalendarThree&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;]\n[[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]]\n<strong>Output</strong>\n[null, 1, 1, 2, 3, 3, 3]\n\n<strong>Explanation</strong>\nMyCalendarThree myCalendarThree = new MyCalendarThree();\nmyCalendarThree.book(10, 20); // return 1\nmyCalendarThree.book(50, 60); // return 1\nmyCalendarThree.book(10, 40); // return 2\nmyCalendarThree.book(5, 15); // return 3\nmyCalendarThree.book(5, 10); // return 3\nmyCalendarThree.book(25, 55); // return 3\n\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= startTime &lt; endTime &lt;= 10<sup>9</sup></code></li>\n\t<li>At most <code>400</code> calls will be made to <code>book</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"MyCalendarThree\",\"book\",\"book\",\"book\",\"book\",\"book\",\"book\"]\n[[],[10,20],[50,60],[10,40],[5,15],[5,10],[25,55]]",
+        "ExampleTestcases": "[\"MyCalendarThree\",\"book\",\"book\",\"book\",\"book\",\"book\",\"book\"]\n[[],[10,20],[50,60],[10,40],[5,15],[5,10],[25,55]]",
+        "Difficulty": "Hard",
+        "Title": "My Calendar III",
+        "TitleSlug": "my-calendar-iii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"106K\", \"totalSubmission\": \"149.2K\", \"totalAcceptedRaw\": 106014, \"totalSubmissionRaw\": 149240, \"acRate\": \"71.0%\"}",
+        "Likes": 2053,
+        "Dislikes": 275,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI5",
+            "Name": "Segment Tree",
+            "Slug": "segment-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class MyCalendarThree {\npublic:\n    MyCalendarThree() {\n        \n    }\n    \n    int book(int startTime, int endTime) {\n        \n    }\n};\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree* obj = new MyCalendarThree();\n * int param_1 = obj->book(startTime,endTime);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class MyCalendarThree {\n\n    public MyCalendarThree() {\n        \n    }\n    \n    public int book(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree obj = new MyCalendarThree();\n * int param_1 = obj.book(startTime,endTime);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class MyCalendarThree:\n\n    def __init__(self):\n        \n\n    def book(self, startTime: int, endTime: int) -> int:\n        \n\n\n# Your MyCalendarThree object will be instantiated and called as such:\n# obj = MyCalendarThree()\n# param_1 = obj.book(startTime,endTime)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class MyCalendarThree(object):\n\n    def __init__(self):\n        \n\n    def book(self, startTime, endTime):\n        \"\"\"\n        :type startTime: int\n        :type endTime: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your MyCalendarThree object will be instantiated and called as such:\n# obj = MyCalendarThree()\n# param_1 = obj.book(startTime,endTime)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "\nvar MyCalendarThree = function() {\n    \n};\n\n/** \n * @param {number} startTime \n * @param {number} endTime\n * @return {number}\n */\nMyCalendarThree.prototype.book = function(startTime, endTime) {\n    \n};\n\n/** \n * Your MyCalendarThree object will be instantiated and called as such:\n * var obj = new MyCalendarThree()\n * var param_1 = obj.book(startTime,endTime)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class MyCalendarThree {\n    constructor() {\n        \n    }\n\n    book(startTime: number, endTime: number): number {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * var obj = new MyCalendarThree()\n * var param_1 = obj.book(startTime,endTime)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class MyCalendarThree {\n\n    public MyCalendarThree() {\n        \n    }\n    \n    public int Book(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree obj = new MyCalendarThree();\n * int param_1 = obj.Book(startTime,endTime);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} MyCalendarThree;\n\n\nMyCalendarThree* myCalendarThreeCreate() {\n    \n}\n\nint myCalendarThreeBook(MyCalendarThree* obj, int startTime, int endTime) {\n    \n}\n\nvoid myCalendarThreeFree(MyCalendarThree* obj) {\n    \n}\n\n/**\n * Your MyCalendarThree struct will be instantiated and called as such:\n * MyCalendarThree* obj = myCalendarThreeCreate();\n * int param_1 = myCalendarThreeBook(obj, startTime, endTime);\n \n * myCalendarThreeFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type MyCalendarThree struct {\n    \n}\n\n\nfunc Constructor() MyCalendarThree {\n    \n}\n\n\nfunc (this *MyCalendarThree) Book(startTime int, endTime int) int {\n    \n}\n\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * obj := Constructor();\n * param_1 := obj.Book(startTime,endTime);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class MyCalendarThree() {\n\n    fun book(startTime: Int, endTime: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * var obj = MyCalendarThree()\n * var param_1 = obj.book(startTime,endTime)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass MyCalendarThree {\n\n    init() {\n        \n    }\n    \n    func book(_ startTime: Int, _ endTime: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * let obj = MyCalendarThree()\n * let ret_1: Int = obj.book(startTime, endTime)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct MyCalendarThree {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl MyCalendarThree {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn book(&self, start_time: i32, end_time: i32) -> i32 {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * let obj = MyCalendarThree::new();\n * let ret_1: i32 = obj.book(startTime, endTime);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class MyCalendarThree\n    def initialize()\n        \n    end\n\n\n=begin\n    :type start_time: Integer\n    :type end_time: Integer\n    :rtype: Integer\n=end\n    def book(start_time, end_time)\n        \n    end\n\n\nend\n\n# Your MyCalendarThree object will be instantiated and called as such:\n# obj = MyCalendarThree.new()\n# param_1 = obj.book(start_time, end_time)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class MyCalendarThree {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $startTime\n     * @param Integer $endTime\n     * @return Integer\n     */\n    function book($startTime, $endTime) {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * $obj = MyCalendarThree();\n * $ret_1 = $obj->book($startTime, $endTime);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class MyCalendarThree {\n\n  MyCalendarThree() {\n    \n  }\n  \n  int book(int startTime, int endTime) {\n    \n  }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree obj = MyCalendarThree();\n * int param1 = obj.book(startTime,endTime);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class MyCalendarThree() {\n\n    def book(startTime: Int, endTime: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * val obj = new MyCalendarThree()\n * val param_1 = obj.book(startTime,endTime)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule MyCalendarThree do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec book(start_time :: integer, end_time :: integer) :: integer\n  def book(start_time, end_time) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# MyCalendarThree.init_()\n# param_1 = MyCalendarThree.book(start_time, end_time)\n\n# MyCalendarThree.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec my_calendar_three_init_() -> any().\nmy_calendar_three_init_() ->\n  .\n\n-spec my_calendar_three_book(StartTime :: integer(), EndTime :: integer()) -> integer().\nmy_calendar_three_book(StartTime, EndTime) ->\n  .\n\n\n%% Your functions will be called as such:\n%% my_calendar_three_init_(),\n%% Param_1 = my_calendar_three_book(StartTime, EndTime),\n\n%% my_calendar_three_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define my-calendar-three%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; book : exact-integer? exact-integer? -> exact-integer?\n    (define/public (book start-time end-time)\n      )))\n\n;; Your my-calendar-three% object will be instantiated and called as such:\n;; (define obj (new my-calendar-three%))\n;; (define param_1 (send obj book start-time end-time))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:04:05.230908+01:00",
+    "AcRate": "71.0",
+    "TotalSubmissions": 149240,
+    "TotalAccepted": 106014,
+    "AcceptanceRate": 0.7103591530420799,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "multi",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/my-calendar-iii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n**1. Problem Type Classification:**\nThis problem falls under the category of **Interval Overlap** and requires maintaining a data structure to efficiently track and query the maximum number of overlapping events (intervals) after each insertion. It is similar to problems like \"My Calendar I\" and \"My Calendar II\" but generalized to k bookings.\n\n**2. Key Patterns & Algorithms:**\n- **Sweep-line Algorithm**: The problem can be solved by tracking all start and end points. For each event [start, end), we can mark start as +1 and end as -1. Then, by processing these points in sorted order, we can compute the maximum number of concurrent events.\n- **Segment Tree with Lazy Propagation**: Since the constraints allow up to 400 calls (so at most 800 distinct points), a segment tree might be overkill but is feasible. However, the sweep-line with a sorted list is simpler.\n- **Balanced BST or Fenwick Tree**: Alternatively, we can use a balanced BST to maintain the intervals, but the sweep-line is more straightforward.\n- **Differential Array**: The sweep-line essentially uses a differential array, but we need to maintain sorted keys and update counts.\n\nGiven the constraints (400 calls, so 800 points), we can use a simple approach: maintain a sorted list of all start and end points with their deltas (+1 for start, -1 for end). For each book operation, we add two points (start, +1) and (end, -1). Then, we traverse the sorted list to compute the maximum overlapping count. However, we need to avoid sorting the entire list each time (which would be O(n log n) per operation). Instead, we can insert the new points in sorted order (using bisect) to maintain a sorted list.\n\n**3. Constraints Analysis:**\n- At most 400 calls to `book`, so the total number of events is 400, and the total points (start and\n\n=== DESIGN ===\nI'll design a solution using a sweep-line approach with a sorted list of events. Here's the plan:\n\n1. **Algorithm Choice**: Sweep-line algorithm with sorted list of points\n   - For each event [start, end), we add +1 at start and -1 at end\n   - Maintain all points in sorted order\n   - For each book operation, compute the maximum overlap by scanning all points\n\n2. **Step-by-Step Approach**:\n   - Initialize an empty sorted list to store (time, delta) pairs\n   - For each book(startTime, endTime):\n     * Insert (startTime, +1) into the sorted list\n     * Insert (endTime, -1) into the sorted list\n     * Scan through all points in sorted order, maintaining a running count\n     * Track the maximum running count encountered\n   - Return the maximum count\n\n3. **Data Structures**:\n   - A list to store (time, delta) pairs, maintained in sorted order\n\n4. **Time Complexity**:\n   - Each book operation: O(n) for scanning all points, O(n) for insertion (using bisect)\n   - Total: O(n\u00b2) per operation, which is acceptable for n=400\n\n5. **Space Complexity**:\n   - O(n) to store all points\n\n6. **Pseudocode**:\n   ```\n   Initialize list events\n   For book(start, end):\n      Insert (start, 1) into events at correct position\n      Insert (end, -1) into events at correct position\n      current = 0, max_k = 0\n      For each (time, delta) in events:\n          current += delta\n          max_k = max(max_k, current)\n      Return max_k\n   ```\n\nHere's the implementation:\n\n```python\nimport bisect\n\nclass MyCalendarThree:\n\n    def __init__(self):\n        self.events = []\n\n    def book(self, startTime: int, endTime: int) -> int:\n        bisect.insort(self.events, (startTime, 1))\n        bisect.insort(self.events, (endTime, -1))\n        \n        current = 0\n        max_k = 0\n        for _, delta in self.events:\n            current += delta\n            if current > max_k:\n                max_k = current\n        return max_k\n```\n\n=== IMPLEMENTATION ===\n```python\nimport bisect\n\nclass MyCalendarThree:\n\n    def __init__(self):\n        self.events = []\n\n    def book(self, startTime: int, endTime: int) -> int:\n        bisect.insort(self.events, (startTime, 1))\n        bisect.insort(self.events, (endTime, -1))\n        \n        current = 0\n        max_k = 0\n        for _, delta in self.events:\n            current += delta\n            if current > max_k:\n                max_k = current\n        return max_k\n```\n\n=== VERIFICATION ===\n```python\nimport bisect\n\nclass MyCalendarThree:\n\n    def __init__(self):\n        self.events = []\n        self.max_k = 0\n\n    def book(self, startTime: int, endTime: int) -> int:\n        bisect.insort(self.events, (startTime, 1))\n        bisect.insort(self.events, (endTime, -1))\n        \n        current = 0\n        self.max_k = 0\n        for _, delta in self.events:\n            current += delta\n            if current > self.max_k:\n                self.max_k = current\n        return self.max_k\n\n# Your MyCalendarThree object will be instantiated and called as such:\n# obj = MyCalendarThree()\n# param_1 = obj.book(startTime,endTime)\n```\n\n",
+      "TypedCode": "\nimport bisect\n\nclass MyCalendarThree:\n\n    def __init__(self):\n        self.events = []\n\n    def book(self, startTime: int, endTime: int) -> int:\n        bisect.insort(self.events, (startTime, 1))\n        bisect.insort(self.events, (endTime, -1))\n        \n        current = 0\n        max_k = 0\n        for _, delta in self.events:\n            current += delta\n            if current > max_k:\n                max_k = current\n        return max_k\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 31758963084,
+      "SolvedAt": "2025-11-21T00:16:48.650913+01:00",
+      "PromptTokens": 5402,
+      "OutputTokens": 1207
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "732",
+        "typed_code": "\nimport bisect\n\nclass MyCalendarThree:\n\n    def __init__(self):\n        self.events = []\n\n    def book(self, startTime: int, endTime: int) -> int:\n        bisect.insort(self.events, (startTime, 1))\n        bisect.insort(self.events, (endTime, -1))\n        \n        current = 0\n        max_k = 0\n        for _, delta in self.events:\n            current += delta\n            if current > max_k:\n                max_k = current\n        return max_k\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:39:13+01:00"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "sliding-window-median.json",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "language": "python3",
+    "lines_of_code": 64,
+    "cyclomatic_complexity": 18,
+    "duplication_score": 0,
+    "problem_id": "480",
+    "title": "Sliding Window Median",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

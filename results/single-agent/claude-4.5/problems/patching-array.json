@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "330",
+        "questionId": "330",
+        "Content": "<p>Given a sorted integer array <code>nums</code> and an integer <code>n</code>, add/patch elements to the array such that any number in the range <code>[1, n]</code> inclusive can be formed by the sum of some elements in the array.</p>\n\n<p>Return <em>the minimum number of patches required</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3], n = 6\n<strong>Output:</strong> 1\nExplanation:\nCombinations of nums are [1], [3], [1,3], which form possible sums of: 1, 3, 4.\nNow if we add/patch 2 to nums, the combinations are: [1], [2], [3], [1,3], [2,3], [1,2,3].\nPossible sums are 1, 2, 3, 4, 5, 6, which now covers the range [1, 6].\nSo we only need 1 patch.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,5,10], n = 20\n<strong>Output:</strong> 2\nExplanation: The two patches can be [2, 4].\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,2], n = 5\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>nums</code> is sorted in <strong>ascending order</strong>.</li>\n\t<li><code>1 &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3]\n6",
+        "ExampleTestcases": "[1,3]\n6\n[1,5,10]\n20\n[1,2,2]\n5",
+        "Difficulty": "Hard",
+        "Title": "Patching Array",
+        "TitleSlug": "patching-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"177K\", \"totalSubmission\": \"328.6K\", \"totalAcceptedRaw\": 176972, \"totalSubmissionRaw\": 328648, \"acRate\": \"53.8%\"}",
+        "Likes": 2413,
+        "Dislikes": 202,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minPatches(vector<int>& nums, int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minPatches(int[] nums, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minPatches(self, nums, n):\n        \"\"\"\n        :type nums: List[int]\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} n\n * @return {number}\n */\nvar minPatches = function(nums, n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minPatches(nums: number[], n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinPatches(int[] nums, int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minPatches(int* nums, int numsSize, int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minPatches(nums []int, n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minPatches(nums: IntArray, n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minPatches(_ nums: [Int], _ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_patches(nums: Vec<i32>, n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} n\n# @return {Integer}\ndef min_patches(nums, n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $n\n     * @return Integer\n     */\n    function minPatches($nums, $n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minPatches(List<int> nums, int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minPatches(nums: Array[Int], n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_patches(nums :: [integer], n :: integer) :: integer\n  def min_patches(nums, n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_patches(Nums :: [integer()], N :: integer()) -> integer().\nmin_patches(Nums, N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-patches nums n)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:22:26.994463+01:00",
+    "AcRate": "53.8",
+    "TotalSubmissions": 328648,
+    "TotalAccepted": 176972,
+    "AcceptanceRate": 0.5384849443781797,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/patching-array/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a sorted integer array nums and an integer n, add/patch elements to the array such that any number in the range [1, n] inclusive can be formed by the sum of some elements in the array.\nReturn the minimum number of patches required.\n\u00a0\nExample 1:\nInput: nums = [1,3], n = 6\nOutput: 1\nExplanation:\nCombinations of nums are [1], [3], [1,3], which form possible sums of: 1, 3, 4.\nNow if we add/patch 2 to nums, the combinations are: [1], [2], [3], [1,3], [2,3], [1,2,3].\nPossible sums are 1, 2, 3, 4, 5, 6, which now covers the range [1, 6].\nSo we only need 1 patch.\nExample 2:\nInput: nums = [1,5,10], n = 20\nOutput: 2\nExplanation: The two patches can be [2, 4].\nExample 3:\nInput: nums = [1,2,2], n = 5\nOutput: 0\n\u00a0\nConstraints:\n\t1 <= nums.length <= 1000\n\t1 <= nums[i] <= 10^4\n\tnums is sorted in ascending order.\n\t1 <= n <= 2^31 - 1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the minimum number of patches to make all numbers in [1, n] formable as sums of subsets.\n\nKey insight: If I can form all numbers in [1, miss-1], and I have a number `num`:\n- If `num <= miss`, I can now form all numbers in [1, miss + num - 1]\n- If `num > miss`, there's a gap and I need to patch with `miss` to extend coverage to [1, 2*miss - 1]\n\nThe strategy:\n1. Track `miss` = the smallest number we can't form yet (initially 1)\n2. For each element in nums (if it's <= miss), use it to extend our range\n3. If there's a gap (num > miss or we've exhausted nums), patch with `miss`\n4. Continue until miss > n\n\nLet me trace through Example 1: nums = [1,3], n = 6\n- miss = 1\n- nums[0] = 1 <= 1, use it: miss = 1 + 1 = 2 (can form [1,1])\n- nums[1] = 3 > 2, need patch: add 2, miss = 2 + 2 = 4 (can form [1,3])\n- nums[1] = 3 <= 4, use it: miss = 4 + 3 = 7 (can form [1,6])\n- miss = 7 > 6, done. Patches = 1 \u2713\n\nLet me trace through Example 2: nums = [1,5,10], n = 20\n- miss = 1\n- nums[0] = 1 <= 1, use it: miss = 2\n- nums[1] = 5 > 2, patch with 2: miss = 4, patches = 1\n- nums[1] = 5 > 4, patch with 4: miss = 8, patches = 2\n- nums[1] = 5 <= 8, use it: miss = 13\n- nums[2] = 10 <= 13, use it: miss = 23\n- miss = 23 > 20, done. Patches = 2 \u2713\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        miss = 1\n        patches = 0\n        i = 0\n        \n        while miss <= n:\n            if i < len(nums) and nums[i] <= miss:\n                miss += nums[i]\n                i += 1\n            else:\n                miss += miss\n                patches += 1\n        \n        return patches\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        miss = 1\n        patches = 0\n        i = 0\n        \n        while miss <= n:\n            if i < len(nums) and nums[i] <= miss:\n                miss += nums[i]\n                i += 1\n            else:\n                miss += miss\n                patches += 1\n        \n        return patches\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 10806736667,
+      "SolvedAt": "2025-11-19T21:49:36.771341+01:00",
+      "PromptTokens": 561,
+      "OutputTokens": 651
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "330",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minPatches(self, nums: List[int], n: int) -> int:\n        miss = 1\n        patches = 0\n        i = 0\n        \n        while miss <= n:\n            if i < len(nums) and nums[i] <= miss:\n                miss += nums[i]\n                i += 1\n            else:\n                miss += miss\n                patches += 1\n        \n        return patches\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:28:31+01:00"
+    }
+  }
+}

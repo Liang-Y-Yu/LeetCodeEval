@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1106",
+        "questionId": "1197",
+        "Content": "<p>A <strong>boolean expression</strong> is an expression that evaluates to either <code>true</code> or <code>false</code>. It can be in one of the following shapes:</p>\n\n<ul>\n\t<li><code>&#39;t&#39;</code> that evaluates to <code>true</code>.</li>\n\t<li><code>&#39;f&#39;</code> that evaluates to <code>false</code>.</li>\n\t<li><code>&#39;!(subExpr)&#39;</code> that evaluates to <strong>the logical NOT</strong> of the inner expression <code>subExpr</code>.</li>\n\t<li><code>&#39;&amp;(subExpr<sub>1</sub>, subExpr<sub>2</sub>, ..., subExpr<sub>n</sub>)&#39;</code> that evaluates to <strong>the logical AND</strong> of the inner expressions <code>subExpr<sub>1</sub>, subExpr<sub>2</sub>, ..., subExpr<sub>n</sub></code> where <code>n &gt;= 1</code>.</li>\n\t<li><code>&#39;|(subExpr<sub>1</sub>, subExpr<sub>2</sub>, ..., subExpr<sub>n</sub>)&#39;</code> that evaluates to <strong>the logical OR</strong> of the inner expressions <code>subExpr<sub>1</sub>, subExpr<sub>2</sub>, ..., subExpr<sub>n</sub></code> where <code>n &gt;= 1</code>.</li>\n</ul>\n\n<p>Given a string <code>expression</code> that represents a <strong>boolean expression</strong>, return <em>the evaluation of that expression</em>.</p>\n\n<p>It is <strong>guaranteed</strong> that the given expression is valid and follows the given rules.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> expression = &quot;&amp;(|(f))&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> \nFirst, evaluate |(f) --&gt; f. The expression is now &quot;&amp;(f)&quot;.\nThen, evaluate &amp;(f) --&gt; f. The expression is now &quot;f&quot;.\nFinally, return false.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> expression = &quot;|(f,f,f,t)&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> The evaluation of (false OR false OR false OR true) is true.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> expression = &quot;!(&amp;(f,t))&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> \nFirst, evaluate &amp;(f,t) --&gt; (false AND true) --&gt; false --&gt; f. The expression is now &quot;!(f)&quot;.\nThen, evaluate !(f) --&gt; NOT false --&gt; true. We return true.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= expression.length &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li>expression[i] is one following characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;&amp;&#39;</code>, <code>&#39;|&#39;</code>, <code>&#39;!&#39;</code>, <code>&#39;t&#39;</code>, <code>&#39;f&#39;</code>, and <code>&#39;,&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"&(|(f))\"",
+        "ExampleTestcases": "\"&(|(f))\"\n\"|(f,f,f,t)\"\n\"!(&(f,t))\"",
+        "Difficulty": "Hard",
+        "Title": "Parsing A Boolean Expression",
+        "TitleSlug": "parsing-a-boolean-expression",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"142.4K\", \"totalSubmission\": \"204.1K\", \"totalAcceptedRaw\": 142390, \"totalSubmissionRaw\": 204063, \"acRate\": \"69.8%\"}",
+        "Likes": 1891,
+        "Dislikes": 84,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool parseBoolExpr(string expression) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean parseBoolExpr(String expression) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def parseBoolExpr(self, expression):\n        \"\"\"\n        :type expression: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} expression\n * @return {boolean}\n */\nvar parseBoolExpr = function(expression) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function parseBoolExpr(expression: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool ParseBoolExpr(string expression) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool parseBoolExpr(char* expression) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func parseBoolExpr(expression string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun parseBoolExpr(expression: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func parseBoolExpr(_ expression: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn parse_bool_expr(expression: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} expression\n# @return {Boolean}\ndef parse_bool_expr(expression)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $expression\n     * @return Boolean\n     */\n    function parseBoolExpr($expression) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool parseBoolExpr(String expression) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def parseBoolExpr(expression: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec parse_bool_expr(expression :: String.t) :: boolean\n  def parse_bool_expr(expression) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec parse_bool_expr(Expression :: unicode:unicode_binary()) -> boolean().\nparse_bool_expr(Expression) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (parse-bool-expr expression)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:52.410882+01:00",
+    "AcRate": "69.8",
+    "TotalSubmissions": 204063,
+    "TotalAccepted": 142390,
+    "AcceptanceRate": 0.6977747068307336,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/parsing-a-boolean-expression/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and robust way to solve this expression-parsing problem is to use a stack. The nested structure of the expression, particularly the use of parentheses, suggests a Last-In, First-Out (LIFO) evaluation order, which is a classic use case for a stack.\n\nThe overall strategy is as follows:\n1. Iterate through the `expression` string character by character.\n2. Push relevant characters onto a stack. We will push operators (`!`, `&`, `|`), open parentheses `(`, and the boolean values `True`/`False` for `'t'` and `'f'`. Commas are ignored as they are just separators.\n3. When a closing parenthesis `)` is encountered, it signifies the end of a sub-expression. This is our cue to evaluate.\n4. To evaluate, we pop values from the stack until we find the matching open parenthesis `(`. These popped values will be the boolean results of the inner expressions.\n5. After collecting the boolean operands and popping the `(`, the next item on the stack will be the operator (`!`, `&`, or `|`) for this sub-expression.\n6. We pop the operator, apply it to the collected boolean values, and push the single resulting boolean back onto the stack.\n7. After iterating through the entire expression, the stack will contain a single boolean value: the final result of the evaluation.\n\nThis approach correctly handles the nesting and the \"short-circuiting\" nature of `AND` and `OR` logic (via Python's `all()` and `any()` built-in functions) and processes the string in a single pass, resulting in an efficient `O(N)` time complexity, where N is the length of the expression.\n\n```python\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        \"\"\"\n        Parses and evaluates a boolean expression string.\n\n        The method uses a stack to handle the nested structure of the expression.\n        It iterates through the expression string, pushing operators, parentheses, \n        and boolean values onto the stack. When a closing parenthesis is found,\n        it evaluates the corresponding sub-expression and pushes the result\n        back onto the stack.\n\n        - 't' is pushed as True, 'f' as False.\n        - '!', '&', '|', and '(' are pushed as-is.\n        - ',' is ignored.\n        - ')' triggers evaluation of the containing sub-expression.\n        \"\"\"\n        stack = []\n        for char in expression:\n            if char == ')':\n                # A sub-expression has ended, time to evaluate.\n                sub_values = []\n                while stack[-1] != '(':\n                    sub_values.append(stack.pop())\n                \n                stack.pop()  # Pop the opening parenthesis '('.\n                \n                operator = stack.pop()\n                \n                if operator == '!':\n                    # '!' has one operand.\n                    result = not sub_values[0]\n                elif operator == '&':\n                    # 'all' implements logical AND.\n                    result = all(sub_values)\n                else:  # operator == '|'\n                    # 'any' implements logical OR.\n                    result = any(sub_values)\n                \n                stack.append(result)\n\n            elif char == ',':\n                # Commas are separators, so we can ignore them.\n                continue\n            \n            elif char == 't':\n                stack.append(True)\n\n            elif char == 'f':\n                stack.append(False)\n\n            else:  # This handles '(', '!', '&', '|'\n                stack.append(char)\n        \n        # The final result is the only item left on the stack.\n        return stack[0]\n\n```\n\n=== DESIGN ===\nAn elegant and robust way to solve this expression-parsing problem is to use a stack. The nested structure of the expression, particularly the use of parentheses, suggests a Last-In, First-Out (LIFO) evaluation order, which is a classic use case for a stack.\nThe overall strategy is as follows:\n1. Iterate through the `expression` string character by character.\n2. Push relevant characters onto a stack. We will push operators (`!`, `&`, `|`), open parentheses `(`, and the boolean values `True`/`False` for `'t'` and `'f'`. Commas are ignored as they are just separators.\n3. When a closing parenthesis `)` is encountered, it signifies the end of a sub-expression. This is our cue to evaluate.\n4. To evaluate, we pop values from the stack until we find the matching open parenthesis `(`. These popped values will be the boolean results of the inner expressions.\n5. After collecting the boolean operands and popping the `(`, the next item on the stack will be the operator (`!`, `&`, or `|`) for this sub-expression.\n6. We pop the operator, apply it to the collected boolean values, and push the single resulting boolean back onto the stack.\n7. After iterating through the entire expression, the stack will contain a single boolean value: the final result of the evaluation.\nThis approach correctly handles the nesting and the \"short-circuiting\" nature of `AND` and `OR` logic (via Python's `all()` and `any()` built-in functions) and processes the string in a single pass, resulting in an efficient `O(N)` time complexity, where N is the length of the expression.\n\n**1. Algorithm Choice**\nThe chosen approach is iterative evaluation using a stack. This method is well-suited for parsing expressions with nested structures, such as this boolean expression grammar, as it naturally handles the \"last-in, first-out\" order of evaluation required by parentheses.\n\n**2. Step-by-Step Approach**\n1.  Initialize an empty stack. This stack will store boolean values (`True`/`False`), operators (`'!'`, `'&'`, `'|'`), and opening parentheses (`'('`).\n2.  Iterate through the input `expression` string, character by character.\n3.  For each character, perform the following actions:\n    *   If the character is a `','`, ignore it.\n    *   If the character is a `')'`, it marks the end of a sub-expression. Trigger the evaluation process:\n        a. Create an empty list to hold the boolean operands for the current sub-expression.\n        b. Pop from the stack and add to the operands list until an opening parenthesis `'('` is on top of the stack.\n        c. Pop the `'('` to discard it.\n        d. Pop the operator (`'!'`, `'&'`, or `'|'`) which will now be on top of the stack.\n        e. Apply the operator to the collected operands: `not` for `'!'`, `all()` for `'&'`, `any()` for `'|'`.\n        f. Push the single boolean result of this evaluation back onto the stack.\n    *   For all other characters (`'t'`, `'f'`, `'!'`, `'&'`, `'|'`, `'('`):\n        a. If `'t'`, push `True`.\n        b. If `'f'`, push `False`.\n        c. Otherwise (it's an operator or `'('`), push the character itself onto the stack.\n4.  After the loop completes, the stack will contain a single boolean value, which is the final result of the entire expression.\n5.  Pop this value from the stack and return it.\n\n**3. Data Structures**\n*   **Stack**: A stack is the core data structure, implemented using a standard list in Python. It is used to manage the nested evaluation order, storing intermediate boolean results, operators, and parentheses.\n\n**4. Time Complexity**\nThe time complexity is **O(N)**, where N is the length of the `expression` string. Each character is processed once. While the evaluation at a `')'` involves a loop, each element (character or intermediate result) is pushed onto the stack once and popped from the stack once over the entire execution of the algorithm. Thus, the total number of operations is proportional to N.\n\n**5. Space Complexity**\nThe space complexity is **O(N)**. In the worst-case scenario of deeply nested expressions, like `&(&(...&t)...)`, the stack depth can grow linearly with the length of the expression string, as it needs to hold all the operators and parentheses until the innermost expression is evaluated.\n\n**6. Pseudocode**\n```pseudocode\nfunction parseBoolExpr(expression):\n  stack = new Stack()\n\n  for each character c in expression:\n    if c is ')':\n      operands = new List()\n      while stack.peek() is not '(':\n        operands.add(stack.pop())\n      \n      stack.pop() // Pop the '('\n      \n      operator = stack.pop()\n      \n      if operator is '!':\n        result = not operands[0]\n      else if operator is '&':\n        result = all(operands)\n      else if operator is '|':\n        result = any(operands)\n      \n      stack.push(result)\n\n    else if c is not ',':\n      if c is 't':\n        stack.push(True)\n      else if c is 'f':\n        stack.push(False)\n      else: // '(', '!', '&', '|'\n        stack.push(c)\n  \n  return stack.pop()\n```\n```python\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        stack = []\n        for char in expression:\n            if char == ')':\n                operands = []\n                while stack and stack[-1] != '(':\n                    operands.append(stack.pop())\n                \n                stack.pop()  # Pop the opening parenthesis '('\n                \n                operator = stack.pop()\n                \n                if operator == '!':\n                    result = not operands[0]\n                elif operator == '&':\n                    result = all(operands)\n                else:  # operator == '|'\n                    result = any(operands)\n                \n                stack.append(result)\n\n            elif char != ',':\n                if char == 't':\n                    stack.append(True)\n                elif char == 'f':\n                    stack.append(False)\n                else:\n                    stack.append(char)\n\n        return stack.pop()\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        stack = []\n        for char in expression:\n            if char == ')':\n                operands = []\n                while stack[-1] != '(':\n                    operands.append(stack.pop())\n                \n                stack.pop()\n                \n                operator = stack.pop()\n                \n                if operator == '!':\n                    result = not operands[0]\n                elif operator == '&':\n                    result = all(operands)\n                else:\n                    result = any(operands)\n                \n                stack.append(result)\n            elif char != ',':\n                if char == 't':\n                    stack.append(True)\n                elif char == 'f':\n                    stack.append(False)\n                else:\n                    stack.append(char)\n        \n        return stack.pop()\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        stack = []\n        for char in expression:\n            if char == ')':\n                operands = []\n                while stack[-1] != '(':\n                    operands.append(stack.pop())\n                \n                # Pop the opening parenthesis '('\n                stack.pop()\n                \n                # Pop the operator\n                operator = stack.pop()\n                \n                if operator == '!':\n                    result = not operands[0]\n                elif operator == '&':\n                    result = all(operands)\n                else:  # operator == '|'\n                    result = any(operands)\n                \n                stack.append(result)\n            elif char != ',':\n                if char == 't':\n                    stack.append(True)\n                elif char == 'f':\n                    stack.append(False)\n                else:  # '(', '!', '&', '|'\n                    stack.append(char)\n        \n        return stack.pop()\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        stack = []\n        for char in expression:\n            if char == ')':\n                operands = []\n                while stack[-1] != '(':\n                    operands.append(stack.pop())\n                \n                stack.pop()\n                \n                operator = stack.pop()\n                \n                if operator == '!':\n                    result = not operands[0]\n                elif operator == '&':\n                    result = all(operands)\n                else:\n                    result = any(operands)\n                \n                stack.append(result)\n            elif char != ',':\n                if char == 't':\n                    stack.append(True)\n                elif char == 'f':\n                    stack.append(False)\n                else:\n                    stack.append(char)\n        \n        return stack.pop()\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 318429616166,
+      "SolvedAt": "2025-11-21T15:28:45.191409+01:00",
+      "PromptTokens": 8835,
+      "OutputTokens": 34831
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1197",
+        "typed_code": "\nclass Solution:\n    def parseBoolExpr(self, expression: str) -> bool:\n        stack = []\n        for char in expression:\n            if char == ')':\n                operands = []\n                while stack[-1] != '(':\n                    operands.append(stack.pop())\n                \n                stack.pop()\n                \n                operator = stack.pop()\n                \n                if operator == '!':\n                    result = not operands[0]\n                elif operator == '&':\n                    result = all(operands)\n                else:\n                    result = any(operands)\n                \n                stack.append(result)\n            elif char != ',':\n                if char == 't':\n                    stack.append(True)\n                elif char == 'f':\n                    stack.append(False)\n                else:\n                    stack.append(char)\n        \n        return stack.pop()\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:54:40+01:00"
+    }
+  }
+}

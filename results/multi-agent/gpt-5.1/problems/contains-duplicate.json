@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "217",
+        "questionId": "217",
+        "Content": "<p>Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and return <code>false</code> if every element is distinct.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3,1]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The element 1 occurs at the indices 0 and 3.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3,4]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>All elements are distinct.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,1,1,3,3,4,3,2,4,2]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,1]",
+        "ExampleTestcases": "[1,2,3,1]\n[1,2,3,4]\n[1,1,1,3,3,4,3,2,4,2]",
+        "Difficulty": "Easy",
+        "Title": "Contains Duplicate",
+        "TitleSlug": "contains-duplicate",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"5.8M\", \"totalSubmission\": \"9M\", \"totalAcceptedRaw\": 5767842, \"totalSubmissionRaw\": 9048840, \"acRate\": \"63.7%\"}",
+        "Likes": 13424,
+        "Dislikes": 1343,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool containsDuplicate(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean containsDuplicate(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def containsDuplicate(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar containsDuplicate = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function containsDuplicate(nums: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool ContainsDuplicate(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool containsDuplicate(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func containsDuplicate(nums []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun containsDuplicate(nums: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func containsDuplicate(_ nums: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn contains_duplicate(nums: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Boolean}\ndef contains_duplicate(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Boolean\n     */\n    function containsDuplicate($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool containsDuplicate(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def containsDuplicate(nums: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec contains_duplicate(nums :: [integer]) :: boolean\n  def contains_duplicate(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec contains_duplicate(Nums :: [integer()]) -> boolean().\ncontains_duplicate(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (contains-duplicate nums)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:27:12.137186+01:00",
+    "AcRate": "63.7",
+    "TotalSubmissions": 9048840,
+    "TotalAccepted": 5767842,
+    "AcceptanceRate": 0.6374123092020635,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nfrom typing import List\n\nANALYSIS = \"\"\"\n1. Problem Type Classification:\n   - Primary category: Array / Hashing\n   - Also touches on: Set operations, Frequency checking\n\n2. Key Patterns & Algorithms:\n   - Hash set for membership checking:\n     - Traverse the array once.\n     - Maintain a set of seen values.\n     - For each number, check if it is already in the set:\n       - If yes, a duplicate exists \u2192 return True.\n       - If no, add it to the set and continue.\n   - Alternative pattern (less optimal for this constraint but valid conceptually):\n     - Sorting:\n       - Sort the array and then check adjacent elements for equality.\n       - If any adjacent pair is equal, there is a duplicate.\n\n3. Constraints Analysis:\n   - n = nums.length, with 1 <= n <= 10^5\n   - Values are in range [-10^9, 10^9], but value range does not restrict hashing.\n   - Desired complexity:\n     - Time: O(n) is ideal due to n up to 10^5.\n       - Single pass with average O(1) set operations achieves O(n).\n       - Sorting would be O(n log n), which is still acceptable but not optimal.\n     - Space: O(n) in worst case for the set (all elements distinct).\n   - Python's built-in set structure is appropriate and efficient for these constraints.\n\n4. Edge Cases:\n   - Minimum size:\n     - nums has length 1 \u2192 cannot have duplicates \u2192 must return False.\n   - All elements distinct:\n     - E.g., [1, 2, 3, 4] \u2192 should return False after scanning all elements.\n   - All elements identical:\n     - E.g., [5, 5, 5, 5] \u2192 detect duplicate as soon as second element is processed.\n   - Duplicates far apart:\n     - E.g., [1, 2, 3, 1] \u2192 duplicate appears after some distinct elements.\n   - Negative and mixed values:\n     - E.g., [-1, -2, -3, -1], [0, -1, 1, 0] \u2192 set membership still works normally.\n   - Large input size close to 10^5:\n     - Must still run efficiently within time and memory limits using O(n) time and space.\n\n5. Input/Output Analysis:\n   - Input:\n     - A single parameter nums: List[int] given to the method.\n     - No explicit I/O; this is a function in a class (LeetCode style).\n   - Output:\n     - A boolean:\n       - True if any value appears at least twice in nums.\n       - False if every element is distinct.\n\n6. Difficulty Assessment:\n   - Difficulty level: Easy.\n   - What can be tricky:\n     - Recognizing that a hash set is the simplest and most efficient tool.\n     - Avoiding unnecessary nested loops (which would be O(n^2) and too slow for n=10^5).\n     - Understanding that sorting is a valid but less optimal alternative.\n   - Conceptually straightforward, focused on basic data structure usage (set) and complexity awareness.\n\"\"\"\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False\n\n=== DESIGN ===\nfrom typing import List\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False\n\n=== IMPLEMENTATION ===\nfrom typing import List\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False\n\n=== VERIFICATION ===\nfrom typing import List\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False\n\n",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False",
+      "Model": "openai/gpt-5.1",
+      "Latency": 29153858125,
+      "SolvedAt": "2025-11-19T15:23:21.272216+01:00",
+      "PromptTokens": 4396,
+      "OutputTokens": 1804
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "217",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        seen = set()\n        for x in nums:\n            if x in seen:\n                return True\n            seen.add(x)\n        return False"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:54:37+01:00"
+    }
+  }
+}

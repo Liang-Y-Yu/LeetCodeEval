@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "352",
+        "questionId": "352",
+        "Content": "<p>Given a data stream input of non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code>, summarize the numbers seen so far as a list of disjoint intervals.</p>\n\n<p>Implement the <code>SummaryRanges</code> class:</p>\n\n<ul>\n\t<li><code>SummaryRanges()</code> Initializes the object with an empty stream.</li>\n\t<li><code>void addNum(int value)</code> Adds the integer <code>value</code> to the stream.</li>\n\t<li><code>int[][] getIntervals()</code> Returns a summary of the integers in the stream currently as a list of disjoint intervals <code>[start<sub>i</sub>, end<sub>i</sub>]</code>. The answer should be sorted by <code>start<sub>i</sub></code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;SummaryRanges&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;]\n[[], [1], [], [3], [], [7], [], [2], [], [6], []]\n<strong>Output</strong>\n[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]\n\n<strong>Explanation</strong>\nSummaryRanges summaryRanges = new SummaryRanges();\nsummaryRanges.addNum(1);      // arr = [1]\nsummaryRanges.getIntervals(); // return [[1, 1]]\nsummaryRanges.addNum(3);      // arr = [1, 3]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3]]\nsummaryRanges.addNum(7);      // arr = [1, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3], [7, 7]]\nsummaryRanges.addNum(2);      // arr = [1, 2, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [7, 7]]\nsummaryRanges.addNum(6);      // arr = [1, 2, 3, 6, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [6, 7]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= value &lt;= 10<sup>4</sup></code></li>\n\t<li>At most <code>3 * 10<sup>4</sup></code> calls will be made to <code>addNum</code> and <code>getIntervals</code>.</li>\n\t<li>At most <code>10<sup>2</sup></code>&nbsp;calls will be made to&nbsp;<code>getIntervals</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong> What if there are lots of merges and the number of disjoint intervals is small compared to the size of the data stream?</p>\n",
+        "SampleTestCase": "[\"SummaryRanges\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\"]\n[[],[1],[],[3],[],[7],[],[2],[],[6],[]]",
+        "ExampleTestcases": "[\"SummaryRanges\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\"]\n[[],[1],[],[3],[],[7],[],[2],[],[6],[]]",
+        "Difficulty": "Hard",
+        "Title": "Data Stream as Disjoint Intervals",
+        "TitleSlug": "data-stream-as-disjoint-intervals",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"125.3K\", \"totalSubmission\": \"209.8K\", \"totalAcceptedRaw\": 125278, \"totalSubmissionRaw\": 209830, \"acRate\": \"59.7%\"}",
+        "Likes": 1795,
+        "Dislikes": 371,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIz",
+            "Name": "Union Find",
+            "Slug": "union-find"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYz",
+            "Name": "Data Stream",
+            "Slug": "data-stream"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class SummaryRanges {\npublic:\n    SummaryRanges() {\n        \n    }\n    \n    void addNum(int value) {\n        \n    }\n    \n    vector<vector<int>> getIntervals() {\n        \n    }\n};\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges* obj = new SummaryRanges();\n * obj->addNum(value);\n * vector<vector<int>> param_2 = obj->getIntervals();\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class SummaryRanges {\n\n    public SummaryRanges() {\n        \n    }\n    \n    public void addNum(int value) {\n        \n    }\n    \n    public int[][] getIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = new SummaryRanges();\n * obj.addNum(value);\n * int[][] param_2 = obj.getIntervals();\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class SummaryRanges:\n\n    def __init__(self):\n        \n\n    def addNum(self, value: int) -> None:\n        \n\n    def getIntervals(self) -> List[List[int]]:\n        \n\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges()\n# obj.addNum(value)\n# param_2 = obj.getIntervals()"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class SummaryRanges(object):\n\n    def __init__(self):\n        \n\n    def addNum(self, value):\n        \"\"\"\n        :type value: int\n        :rtype: None\n        \"\"\"\n        \n\n    def getIntervals(self):\n        \"\"\"\n        :rtype: List[List[int]]\n        \"\"\"\n        \n\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges()\n# obj.addNum(value)\n# param_2 = obj.getIntervals()"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "\nvar SummaryRanges = function() {\n    \n};\n\n/** \n * @param {number} value\n * @return {void}\n */\nSummaryRanges.prototype.addNum = function(value) {\n    \n};\n\n/**\n * @return {number[][]}\n */\nSummaryRanges.prototype.getIntervals = function() {\n    \n};\n\n/** \n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = new SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class SummaryRanges {\n    constructor() {\n        \n    }\n\n    addNum(value: number): void {\n        \n    }\n\n    getIntervals(): number[][] {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = new SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class SummaryRanges {\n\n    public SummaryRanges() {\n        \n    }\n    \n    public void AddNum(int value) {\n        \n    }\n    \n    public int[][] GetIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = new SummaryRanges();\n * obj.AddNum(value);\n * int[][] param_2 = obj.GetIntervals();\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} SummaryRanges;\n\n\nSummaryRanges* summaryRangesCreate() {\n    \n}\n\nvoid summaryRangesAddNum(SummaryRanges* obj, int value) {\n    \n}\n\nint** summaryRangesGetIntervals(SummaryRanges* obj, int* retSize, int** retColSize) {\n    \n}\n\nvoid summaryRangesFree(SummaryRanges* obj) {\n    \n}\n\n/**\n * Your SummaryRanges struct will be instantiated and called as such:\n * SummaryRanges* obj = summaryRangesCreate();\n * summaryRangesAddNum(obj, value);\n \n * int** param_2 = summaryRangesGetIntervals(obj, retSize, retColSize);\n \n * summaryRangesFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type SummaryRanges struct {\n    \n}\n\n\nfunc Constructor() SummaryRanges {\n    \n}\n\n\nfunc (this *SummaryRanges) AddNum(value int)  {\n    \n}\n\n\nfunc (this *SummaryRanges) GetIntervals() [][]int {\n    \n}\n\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * obj := Constructor();\n * obj.AddNum(value);\n * param_2 := obj.GetIntervals();\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class SummaryRanges() {\n\n    fun addNum(value: Int) {\n        \n    }\n\n    fun getIntervals(): Array<IntArray> {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass SummaryRanges {\n\n    init() {\n        \n    }\n    \n    func addNum(_ value: Int) {\n        \n    }\n    \n    func getIntervals() -> [[Int]] {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * let obj = SummaryRanges()\n * obj.addNum(value)\n * let ret_2: [[Int]] = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct SummaryRanges {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl SummaryRanges {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn add_num(&self, value: i32) {\n        \n    }\n    \n    fn get_intervals(&self) -> Vec<Vec<i32>> {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * let obj = SummaryRanges::new();\n * obj.add_num(value);\n * let ret_2: Vec<Vec<i32>> = obj.get_intervals();\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class SummaryRanges\n    def initialize()\n        \n    end\n\n\n=begin\n    :type value: Integer\n    :rtype: Void\n=end\n    def add_num(value)\n        \n    end\n\n\n=begin\n    :rtype: Integer[][]\n=end\n    def get_intervals()\n        \n    end\n\n\nend\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges.new()\n# obj.add_num(value)\n# param_2 = obj.get_intervals()"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class SummaryRanges {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $value\n     * @return NULL\n     */\n    function addNum($value) {\n        \n    }\n  \n    /**\n     * @return Integer[][]\n     */\n    function getIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * $obj = SummaryRanges();\n * $obj->addNum($value);\n * $ret_2 = $obj->getIntervals();\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class SummaryRanges {\n\n  SummaryRanges() {\n    \n  }\n  \n  void addNum(int value) {\n    \n  }\n  \n  List<List<int>> getIntervals() {\n    \n  }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = SummaryRanges();\n * obj.addNum(value);\n * List<List<int>> param2 = obj.getIntervals();\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class SummaryRanges() {\n\n    def addNum(value: Int): Unit = {\n        \n    }\n\n    def getIntervals(): Array[Array[Int]] = {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * val obj = new SummaryRanges()\n * obj.addNum(value)\n * val param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule SummaryRanges do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec add_num(value :: integer) :: any\n  def add_num(value) do\n    \n  end\n\n  @spec get_intervals() :: [[integer]]\n  def get_intervals() do\n    \n  end\nend\n\n# Your functions will be called as such:\n# SummaryRanges.init_()\n# SummaryRanges.add_num(value)\n# param_2 = SummaryRanges.get_intervals()\n\n# SummaryRanges.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec summary_ranges_init_() -> any().\nsummary_ranges_init_() ->\n  .\n\n-spec summary_ranges_add_num(Value :: integer()) -> any().\nsummary_ranges_add_num(Value) ->\n  .\n\n-spec summary_ranges_get_intervals() -> [[integer()]].\nsummary_ranges_get_intervals() ->\n  .\n\n\n%% Your functions will be called as such:\n%% summary_ranges_init_(),\n%% summary_ranges_add_num(Value),\n%% Param_2 = summary_ranges_get_intervals(),\n\n%% summary_ranges_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define summary-ranges%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; add-num : exact-integer? -> void?\n    (define/public (add-num value)\n      )\n    ; get-intervals : -> (listof (listof exact-integer?))\n    (define/public (get-intervals)\n      )))\n\n;; Your summary-ranges% object will be instantiated and called as such:\n;; (define obj (new summary-ranges%))\n;; (send obj add-num value)\n;; (define param_2 (send obj get-intervals))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:21:39.253726+01:00",
+    "AcRate": "59.7",
+    "TotalSubmissions": 209830,
+    "TotalAccepted": 125278,
+    "AcceptanceRate": 0.5970452270885955,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "multi",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "multi",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and robust solution for this problem involves maintaining the intervals in a sorted list and using binary search to efficiently find the location to add a new number. The `bisect` module in Python is perfectly suited for this.\n\nWhen adding a new number, `value`, we first use `bisect_left` to find the index `i` where an interval starting with `value` would be inserted. This effectively splits the existing intervals into two groups: those that start before `value` (ending at index `i-1`) and those that start at or after `value` (starting at index `i`).\n\nThe new `value` can only interact with its immediate neighbors: the interval at `i-1` (if it exists) and the interval at `i` (if it exists). This leads to a concise set of cases to handle:\n\n1.  **Duplicate/Contained**: The `value` is already part of an existing interval. For instance, it's within `intervals[i-1]` or it's the starting point of `intervals[i]`. In this case, no action is needed.\n\n2.  **Merge/Extend**:\n    -   If `value` is `intervals[i-1][1] + 1`, it extends the previous interval.\n    -   If `value` is `intervals[i][0] - 1`, it extends the next interval.\n    -   If both conditions are true, `value` bridges the two intervals, merging them into a single, larger interval.\n\n3.  **New Interval**: If `value` cannot be merged with any neighbor, it's a new, standalone number, forming the interval `[value, value]`.\n\nBy analyzing these cases, we can update our list of intervals. The main performance consideration is that inserting into or deleting from a Python list takes O(N) time, where N is the number of intervals. However, binary search itself is O(log N). Given the problem constraints and the \"follow-up\" hint that the number of disjoint intervals is often small, this approach provides a good balance between implementation simplicity and performance.\n\n```python\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        # Find the index where the new value or an interval starting with it would be inserted.\n        i = bisect.bisect_left(self.intervals, [value, value])\n\n        # Identify potential neighbors: the interval just before and just after the insertion point.\n        prev_interval = self.intervals[i-1] if i > 0 else None\n        curr_interval = self.intervals[i] if i < len(self.intervals) else None\n\n        # Case 1: The value is already covered by an existing interval.\n        # Check if it's within the preceding interval.\n        # bisect_left ensures prev_interval[0] < value, so we only check the end.\n        if prev_interval and prev_interval[1] >= value:\n            return\n        # Check if it's the start of the current interval.\n        if curr_interval and curr_interval[0] == value:\n            return\n\n        # Determine if the new value can merge with its neighbors.\n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_curr = curr_interval and curr_interval[0] - 1 == value\n\n        # Case 2: Merge with both neighbors. (e.g., [1,2], value=3, [4,5] -> [1,5])\n        if merge_prev and merge_curr:\n            prev_interval[1] = curr_interval[1]\n            self.intervals.pop(i)\n        # Case 3: Merge with the previous interval only. (e.g., [1,2], value=3 -> [1,3])\n        elif merge_prev:\n            prev_interval[1] = value\n        # Case 4: Merge with the current interval only. (e.g., value=3, [4,5] -> [3,5])\n        elif merge_curr:\n            curr_interval[0] = value\n        # Case 5: No merge is possible; insert a new interval.\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n\n```\n\n=== DESIGN ===\n```python\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        # Find the index where an interval starting with `value` would be inserted.\n        i = bisect.bisect_left(self.intervals, [value, value])\n        \n        # Identify potential neighbors: the interval just before and just after the insertion point.\n        prev_interval = self.intervals[i-1] if i > 0 else None\n        next_interval = self.intervals[i] if i < len(self.intervals) else None\n\n        # Case 1: The value is already covered by an existing interval.\n        # Check if it's within the preceding interval.\n        if prev_interval and prev_interval[1] >= value:\n            return\n            \n        # Check if it's the start of the next interval (which means it's covered).\n        if next_interval and next_interval[0] == value:\n            return\n\n        # Determine if the new value can merge with its neighbors.\n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_next = next_interval and next_interval[0] - 1 == value\n        \n        # Case 2: Merge with both neighbors.\n        if merge_prev and merge_next:\n            prev_interval[1] = next_interval[1]\n            self.intervals.pop(i)\n        # Case 3: Merge with the previous interval only.\n        elif merge_prev:\n            prev_interval[1] = value\n        # Case 4: Merge with the next interval only.\n        elif merge_next:\n            next_interval[0] = value\n        # Case 5: No merge is possible; insert a new interval.\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n=== IMPLEMENTATION ===\n```python\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        i = bisect.bisect_left(self.intervals, [value, value])\n        \n        prev_interval = self.intervals[i-1] if i > 0 else None\n        next_interval = self.intervals[i] if i < len(self.intervals) else None\n        \n        if prev_interval and prev_interval[1] >= value:\n            return\n            \n        if next_interval and next_interval[0] == value:\n            return\n\n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_next = next_interval and next_interval[0] - 1 == value\n        \n        if merge_prev and merge_next:\n            prev_interval[1] = next_interval[1]\n            self.intervals.pop(i)\n        elif merge_prev:\n            prev_interval[1] = value\n        elif merge_next:\n            next_interval[0] = value\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n=== VERIFICATION ===\n```python\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        i = bisect.bisect_left(self.intervals, [value, value])\n        \n        prev_interval = self.intervals[i-1] if i > 0 else None\n        next_interval = self.intervals[i] if i < len(self.intervals) else None\n        \n        if prev_interval and prev_interval[1] >= value:\n            return\n            \n        if next_interval and next_interval[0] == value:\n            return\n            \n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_next = next_interval and next_interval[0] - 1 == value\n        \n        if merge_prev and merge_next:\n            prev_interval[1] = next_interval[1]\n            self.intervals.pop(i)\n        elif merge_prev:\n            prev_interval[1] = value\n        elif merge_next:\n            next_interval[0] = value\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n",
+      "TypedCode": "\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        i = bisect.bisect_left(self.intervals, [value, value])\n        \n        prev_interval = self.intervals[i-1] if i > 0 else None\n        next_interval = self.intervals[i] if i < len(self.intervals) else None\n        \n        if prev_interval and prev_interval[1] >= value:\n            return\n            \n        if next_interval and next_interval[0] == value:\n            return\n\n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_next = next_interval and next_interval[0] - 1 == value\n        \n        if merge_prev and merge_next:\n            prev_interval[1] = next_interval[1]\n            self.intervals.pop(i)\n        elif merge_prev:\n            prev_interval[1] = value\n        elif merge_next:\n            next_interval[0] = value\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 377889918750,
+      "SolvedAt": "2025-11-21T10:44:26.782248+01:00",
+      "PromptTokens": 8399,
+      "OutputTokens": 42346
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "352",
+        "typed_code": "\nimport bisect\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        i = bisect.bisect_left(self.intervals, [value, value])\n        \n        prev_interval = self.intervals[i-1] if i > 0 else None\n        next_interval = self.intervals[i] if i < len(self.intervals) else None\n        \n        if prev_interval and prev_interval[1] >= value:\n            return\n            \n        if next_interval and next_interval[0] == value:\n            return\n\n        merge_prev = prev_interval and prev_interval[1] + 1 == value\n        merge_next = next_interval and next_interval[0] - 1 == value\n        \n        if merge_prev and merge_next:\n            prev_interval[1] = next_interval[1]\n            self.intervals.pop(i)\n        elif merge_prev:\n            prev_interval[1] = value\n        elif merge_next:\n            next_interval[0] = value\n        else:\n            self.intervals.insert(i, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:35:48+01:00"
+    }
+  }
+}

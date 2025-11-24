@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "135",
+        "questionId": "135",
+        "Content": "<p>There are <code>n</code> children standing in a line. Each child is assigned a rating value given in the integer array <code>ratings</code>.</p>\n\n<p>You are giving candies to these children subjected to the following requirements:</p>\n\n<ul>\n\t<li>Each child must have at least one candy.</li>\n\t<li>Children with a higher rating get more candies than their neighbors.</li>\n</ul>\n\n<p>Return <em>the minimum number of candies you need to have to distribute the candies to the children</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> ratings = [1,0,2]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 2, 1, 2 candies respectively.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> ratings = [1,2,2]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 1, 2, 1 candies respectively.\nThe third child gets 1 candy because it satisfies the above two conditions.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == ratings.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= ratings[i] &lt;= 2 * 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1,0,2]",
+        "ExampleTestcases": "[1,0,2]\n[1,2,2]",
+        "Difficulty": "Hard",
+        "Title": "Candy",
+        "TitleSlug": "candy",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"950.9K\", \"totalSubmission\": \"2M\", \"totalAcceptedRaw\": 950854, \"totalSubmissionRaw\": 2001437, \"acRate\": \"47.5%\"}",
+        "Likes": 9112,
+        "Dislikes": 836,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int candy(vector<int>& ratings) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int candy(int[] ratings) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def candy(self, ratings: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def candy(self, ratings):\n        \"\"\"\n        :type ratings: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} ratings\n * @return {number}\n */\nvar candy = function(ratings) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function candy(ratings: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Candy(int[] ratings) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int candy(int* ratings, int ratingsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func candy(ratings []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun candy(ratings: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func candy(_ ratings: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn candy(ratings: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} ratings\n# @return {Integer}\ndef candy(ratings)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $ratings\n     * @return Integer\n     */\n    function candy($ratings) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int candy(List<int> ratings) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def candy(ratings: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec candy(ratings :: [integer]) :: integer\n  def candy(ratings) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec candy(Ratings :: [integer()]) -> integer().\ncandy(Ratings) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (candy ratings)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:40.051555+01:00",
+    "AcRate": "47.5",
+    "TotalSubmissions": 2001437,
+    "TotalAccepted": 950854,
+    "AcceptanceRate": 0.4750856509597854,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/candy/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: This problem belongs to the **Greedy** and **Array** categories. It can also be solved using **Dynamic Programming** or a two-pass greedy approach.\n\n**Key Patterns & Algorithms**: The key pattern is to traverse the array from left to right and then from right to left to satisfy the constraints. Specifically:\n1. **Left Pass**: Traverse from left to right, ensuring that for each child, if their rating is higher than the left neighbor, they get one more candy.\n2. **Right Pass**: Traverse from right to left, ensuring that for each child, if their rating is higher than the right neighbor, they get at least one more candy than the right neighbor (but we take the maximum of the current value and the right neighbor's value + 1 to avoid breaking the left pass condition).\n\n**Constraints Analysis**: The constraints require an efficient solution. With n up to 20,000, an O(n) solution is necessary. The two-pass greedy approach runs in O(n) time and O(n) space.\n\n**Edge Cases**:\n- Single child: returns 1.\n- All children have the same rating: each gets 1 candy.\n- Strictly increasing ratings: candies increase from 1 to n.\n- Strictly decreasing ratings: candies decrease from n to 1.\n- Alternating high and low ratings.\n\n**Input/Output Analysis**: The input is a list of integers `ratings`, and the output is an integer representing the minimum total candies.\n\n**Difficulty Assessment**: The challenge is to satisfy both neighbor constraints with minimal candies. The greedy two-pass method is non-trivial but efficient.\n\nSolution code:\n```python\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n```\n\n=== VERIFICATION ===\nAfter reviewing the provided solution code for the \"candy\" problem, I can confirm that it is correct, efficient, and handles all edge cases properly. Below is my verification report:\n\n### Verification Report:\n1. **Correctness**: The code correctly implements the standard two-pass greedy algorithm:\n   - First pass (left to right): Ensures that each child with a higher rating than their left neighbor gets one more candy.\n   - Second pass (right to left): Ensures that each child with a higher rating than their right neighbor gets at least one more candy (taking the max to preserve the left pass condition).\n   This satisfies both neighbor constraints with minimal candies.\n\n2. **Edge Cases**:\n   - Single child: Returns 1 (correct).\n   - All same ratings: Each gets 1 candy (total = n, correct).\n   - Strictly increasing: Candies are 1, 2, ..., n (total = n*(n+1)/2, correct).\n   - Strictly decreasing: Candies are n, n-1, ..., 1 (same total as increasing, correct).\n   - Alternating ratings: Handled correctly by the max operation in the right pass.\n\n3. **Complexity**:\n   - Time: O(n) (two linear passes).\n   - Space: O(n) (for the candies array).\n   This meets the constraints (n up to 20,000).\n\n4. **Code Quality**:\n   - Clean, readable, and concise.\n   - Uses meaningful variable names.\n   - Follows Python best practices.\n\n5. **Test Cases**:\n   - Example 1: ratings = [1,0,2] -> candies = [1,1,1] after init.\n        Left pass: i=1: 0>1? no; i=2: 2>0 -> candies[2]=1+1=2 -> [1,1,2].\n        Right pass: i=1: 0>2? no; i=0: 1>0 -> max(1, 1+1)=2 -> [2,1,2] (total=5, correct).\n   - Example 2: ratings = [1,2,2] -> candies = [1,1,1] after init.\n        Left pass: i=1: 2>1 -> candies[1]=2; i=2: 2==2? no -> [1,2,1].\n        Right pass: i=1: 2>2? no; i=0: 1<2? no -> total=4 (correct).\n\n6. **Potential Issues**: None. The solution is optimal and correct.\n\n### Final Code:\n```python\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 28822817125,
+      "SolvedAt": "2025-11-20T23:36:57.747378+01:00",
+      "PromptTokens": 4164,
+      "OutputTokens": 1442
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "135",
+        "typed_code": "\nclass Solution:\n    def candy(self, ratings: List[int]) -> int:\n        n = len(ratings)\n        candies = [1] * n\n        \n        for i in range(1, n):\n            if ratings[i] > ratings[i-1]:\n                candies[i] = candies[i-1] + 1\n        \n        for i in range(n-2, -1, -1):\n            if ratings[i] > ratings[i+1]:\n                candies[i] = max(candies[i], candies[i+1] + 1)\n        \n        return sum(candies)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:09:35+01:00"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1049",
+        "questionId": "1130",
+        "Content": "<p>You are given an array of integers <code>stones</code> where <code>stones[i]</code> is the weight of the <code>i<sup>th</sup></code> stone.</p>\n\n<p>We are playing a game with the stones. On each turn, we choose any two stones and smash them together. Suppose the stones have weights <code>x</code> and <code>y</code> with <code>x &lt;= y</code>. The result of this smash is:</p>\n\n<ul>\n\t<li>If <code>x == y</code>, both stones are destroyed, and</li>\n\t<li>If <code>x != y</code>, the stone of weight <code>x</code> is destroyed, and the stone of weight <code>y</code> has new weight <code>y - x</code>.</li>\n</ul>\n\n<p>At the end of the game, there is <strong>at most one</strong> stone left.</p>\n\n<p>Return <em>the smallest possible weight of the left stone</em>. If there are no stones left, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [2,7,4,1,8,1]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong>\nWe can combine 2 and 4 to get 2, so the array converts to [2,7,1,8,1] then,\nwe can combine 7 and 8 to get 1, so the array converts to [2,1,1,1] then,\nwe can combine 2 and 1 to get 1, so the array converts to [1,1,1] then,\nwe can combine 1 and 1 to get 0, so the array converts to [1], then that&#39;s the optimal value.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [31,26,33,21,40]\n<strong>Output:</strong> 5\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= stones.length &lt;= 30</code></li>\n\t<li><code>1 &lt;= stones[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,7,4,1,8,1]",
+        "ExampleTestcases": "[2,7,4,1,8,1]\n[31,26,33,21,40]",
+        "Difficulty": "Medium",
+        "Title": "Last Stone Weight II",
+        "TitleSlug": "last-stone-weight-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"123.4K\", \"totalSubmission\": \"210.3K\", \"totalAcceptedRaw\": 123427, \"totalSubmissionRaw\": 210309, \"acRate\": \"58.7%\"}",
+        "Likes": 3326,
+        "Dislikes": 137,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int lastStoneWeightII(vector<int>& stones) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int lastStoneWeightII(int[] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def lastStoneWeightII(self, stones):\n        \"\"\"\n        :type stones: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} stones\n * @return {number}\n */\nvar lastStoneWeightII = function(stones) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function lastStoneWeightII(stones: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LastStoneWeightII(int[] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int lastStoneWeightII(int* stones, int stonesSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func lastStoneWeightII(stones []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun lastStoneWeightII(stones: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func lastStoneWeightII(_ stones: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn last_stone_weight_ii(stones: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} stones\n# @return {Integer}\ndef last_stone_weight_ii(stones)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $stones\n     * @return Integer\n     */\n    function lastStoneWeightII($stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int lastStoneWeightII(List<int> stones) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def lastStoneWeightII(stones: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec last_stone_weight_ii(stones :: [integer]) :: integer\n  def last_stone_weight_ii(stones) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec last_stone_weight_ii(Stones :: [integer()]) -> integer().\nlast_stone_weight_ii(Stones) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (last-stone-weight-ii stones)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:44:49.944708+01:00",
+    "AcRate": "58.7",
+    "TotalSubmissions": 210309,
+    "TotalAccepted": 123427,
+    "AcceptanceRate": 0.5868840610720416,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/last-stone-weight-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        for stone in stones:\n            for s in range(target, stone - 1, -1):\n                dp[s] = dp[s] or dp[s - stone]\n        \n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        return total_sum - 2 * s1\n\n```\n\n=== DESIGN ===\nAn elegant and effective way to solve this problem is by reframing it. The core operation, smashing two stones of weights `x` and `y` (`x <= y`) to get a new stone of weight `y - x`, is mathematically equivalent to partitioning the stones into two groups. One group's weights are effectively added, while the other's are subtracted. The final stone's weight is the absolute difference between the total weights of these two groups.\n\nOur goal is to minimize this final weight. Let the two partitions be `S1` and `S2`. We want to minimize `|sum(S1) - sum(S2)|`. Let the total weight of all stones be `TotalSum`. Since `sum(S1) + sum(S2) = TotalSum`, we can write `sum(S2) = TotalSum - sum(S1)`. The expression to minimize becomes `|sum(S1) - (TotalSum - sum(S1))|`, which simplifies to `|2 * sum(S1) - TotalSum|`.\n\nTo minimize this value, `2 * sum(S1)` should be as close as possible to `TotalSum`, meaning `sum(S1)` should be as close as possible to `TotalSum / 2`. This transforms the problem into the classic **0/1 Knapsack** or **Subset Sum** problem: find a subset of `stones` whose sum is as large as possible but does not exceed `TotalSum / 2`.\n\nThis subset sum problem can be solved efficiently using dynamic programming.\n\n### 1. Algorithm Choice\nThe problem is best modeled as the **Partition Problem**, a variant of the **0/1 Knapsack problem**. The most suitable algorithm for this is **Dynamic Programming**, which allows us to systematically find all possible subset sums that can be formed from the given stones.\n\n### 2. Step-by-Step Approach\n1.  **Calculate Total Sum**: First, compute the sum of all stone weights, `total_sum`.\n2.  **Define Target**: The goal is to create a partition with a sum (`s1`) as close to `total_sum / 2` as possible. We define `target = total_sum // 2`.\n3.  **Initialize DP Structure**: A 1D boolean array `dp` of size `target + 1` is used. `dp[i]` will be `True` if a subset with a sum of `i` is achievable. We initialize `dp[0] = True`, as a sum of 0 is always possible with an empty subset.\n4.  **Populate DP Table**: Iterate through each `stone`. For each `stone`, update the `dp` array by iterating backwards from `target` down to `stone`. This backward iteration is crucial to ensure each stone is considered only once per subset. The update rule is `dp[s] = dp[s] or dp[s - stone]`.\n5.  **Find Maximum Subset Sum**: After processing all stones, find the largest index `i` (from `target` down to `0`) for which `dp[i]` is `True`. This index is our optimal `s1`, the largest possible subset sum less than or equal to `target`.\n6.  **Calculate Minimum Difference**: The two partitions have sums `s1` and `total_sum - s1`. The smallest possible final weight is their difference: `(total_sum - s1) - s1 = total_sum - 2 * s1`.\n\n### 3. Data Structures\n*   `stones: List[int]`: The input array containing the weights of the stones.\n*   `dp: List[bool]`: A 1D boolean array of size `(total_sum // 2) + 1` used as the dynamic programming table to track achievable subset sums.\n\n### 4. Time Complexity\nThe time complexity is determined by the nested loops used to populate the DP table. The outer loop runs `N` times (where `N` is the number of stones), and the inner loop runs up to `target` times (where `target = total_sum / 2`).\n*   **Time Complexity**: `O(N * total_sum)`.\nGiven the constraints (`N <= 30`, `stones[i] <= 100`), the maximum `total_sum` is `30 * 100 = 3000`. The complexity is well within acceptable limits.\n\n### 5. Space Complexity\nThe space complexity is dominated by the size of the DP array.\n*   **Space Complexity**: `O(total_sum)`.\nThis is also efficient given the problem's constraints.\n\n### 6. Pseudocode\n```pseudocode\nfunction lastStoneWeightII(stones):\n    // Calculate the total sum of all stones\n    total_sum = sum(stones)\n    \n    // The target is to find a subset sum as close to half the total as possible\n    target = floor(total_sum / 2)\n    \n    // dp[i] is true if a subset sum of 'i' is possible\n    dp = new boolean array of size (target + 1), initialized to false\n    dp[0] = true // A sum of 0 is always possible (empty subset)\n    \n    // Iterate through each stone to build up the possible subset sums\n    for each stone in stones:\n        // Iterate backwards to prevent using the same stone multiple times in one subset\n        for s from target down to stone:\n            // If sum 's - stone' was possible, now 's' is also possible\n            dp[s] = dp[s] OR dp[s - stone]\n            \n    // Find the largest subset sum s1 that is less than or equal to the target\n    s1 = 0\n    for i from target down to 0:\n        if dp[i] is true:\n            s1 = i\n            break // Found the largest possible sum\n            \n    // The minimum weight is the difference between the two partitions\n    // (total_sum - s1) - s1\n    result = total_sum - 2 * s1\n    \n    return result\n```\n\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        # dp[i] will be True if a subset of stones can sum up to i.\n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        # This is a 0/1 knapsack problem. For each stone, we can either\n        # include it in our subset or not.\n        for stone in stones:\n            # We iterate backwards from the target to avoid using the same stone\n            # multiple times in the same subset computation.\n            for s in range(target, stone - 1, -1):\n                # If a sum of `s - stone` was achievable, then by adding the\n                # current stone, a sum of `s` is now also achievable.\n                if dp[s - stone]:\n                    dp[s] = True\n        \n        # We need to find the largest achievable sum `s1` that is less than\n        # or equal to the target. This `s1` represents the sum of one partition\n        # of the stones.\n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        # The two partitions have sums `s1` and `total_sum - s1`.\n        # The difference is (total_sum - s1) - s1 = total_sum - 2 * s1.\n        # This is the minimal possible weight of the last stone.\n        return total_sum - 2 * s1\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def lastStoneWeightII(self, stones: list[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        # dp[i] will be True if a subset of stones can sum up to i.\n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        # This is a 0/1 knapsack problem. For each stone, we can either\n        # include it in our subset 's1' or not.\n        for stone in stones:\n            # We iterate backwards from the target to avoid using the same stone\n            # multiple times in the same subset computation. If we iterate forward,\n            # dp[s] would be updated based on dp[s-stone] which might have just been\n            # updated using the current stone, leading to incorrect results.\n            for s in range(target, stone - 1, -1):\n                dp[s] = dp[s] or dp[s - stone]\n        \n        # We need to find the largest achievable sum `s1` that is less than\n        # or equal to the target. This `s1` represents the sum of one partition\n        # of the stones. This is the sum closest to half of the total sum.\n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        # The two partitions have sums `s1` and `s2 = total_sum - s1`.\n        # The difference is `s2 - s1 = (total_sum - s1) - s1 = total_sum - 2 * s1`.\n        # This is the minimal possible weight of the last stone.\n        return total_sum - 2 * s1\n```\n\n=== VERIFICATION ===\n```python\nimport math\nfrom typing import List\n\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        # dp[i] will be True if a subset of stones can sum up to i.\n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        # This is the 0/1 knapsack problem. For each stone, we can either\n        # include it in our subset 's1' or not.\n        for stone in stones:\n            # We iterate backwards from the target to avoid using the same stone\n            # multiple times in the same subset computation. If we iterate forward,\n            # dp[s] would be updated based on dp[s-stone] which might have just been\n            # updated using the current stone, leading to incorrect results.\n            for s in range(target, stone - 1, -1):\n                dp[s] = dp[s] or dp[s - stone]\n        \n        # We need to find the largest achievable sum `s1` that is less than\n        # or equal to the target. This `s1` represents the sum of one partition\n        # of the stones. This is the sum closest to half of the total sum.\n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        # The two partitions have sums `s1` and `s2 = total_sum - s1`.\n        # The difference is `s2 - s1 = (total_sum - s1) - s1 = total_sum - 2 * s1`.\n        # This is the minimal possible weight of the last stone.\n        return total_sum - 2 * s1\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def lastStoneWeightII(self, stones: list[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        # dp[i] will be True if a subset of stones can sum up to i.\n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        # This is a 0/1 knapsack problem. For each stone, we can either\n        # include it in our subset 's1' or not.\n        for stone in stones:\n            # We iterate backwards from the target to avoid using the same stone\n            # multiple times in the same subset computation. If we iterate forward,\n            # dp[s] would be updated based on dp[s-stone] which might have just been\n            # updated using the current stone, leading to incorrect results.\n            for s in range(target, stone - 1, -1):\n                dp[s] = dp[s] or dp[s - stone]\n        \n        # We need to find the largest achievable sum `s1` that is less than\n        # or equal to the target. This `s1` represents the sum of one partition\n        # of the stones. This is the sum closest to half of the total sum.\n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        # The two partitions have sums `s1` and `s2 = total_sum - s1`.\n        # The difference is `s2 - s1 = (total_sum - s1) - s1 = total_sum - 2 * s1`.\n        # This is the minimal possible weight of the last stone.\n        return total_sum - 2 * s1\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 291007977999,
+      "SolvedAt": "2025-11-21T12:32:03.081993+01:00",
+      "PromptTokens": 7434,
+      "OutputTokens": 38585
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1130",
+        "typed_code": "\nclass Solution:\n    def lastStoneWeightII(self, stones: list[int]) -> int:\n        total_sum = sum(stones)\n        target = total_sum // 2\n        \n        # dp[i] will be True if a subset of stones can sum up to i.\n        dp = [False] * (target + 1)\n        dp[0] = True\n        \n        # This is a 0/1 knapsack problem. For each stone, we can either\n        # include it in our subset 's1' or not.\n        for stone in stones:\n            # We iterate backwards from the target to avoid using the same stone\n            # multiple times in the same subset computation. If we iterate forward,\n            # dp[s] would be updated based on dp[s-stone] which might have just been\n            # updated using the current stone, leading to incorrect results.\n            for s in range(target, stone - 1, -1):\n                dp[s] = dp[s] or dp[s - stone]\n        \n        # We need to find the largest achievable sum `s1` that is less than\n        # or equal to the target. This `s1` represents the sum of one partition\n        # of the stones. This is the sum closest to half of the total sum.\n        s1 = 0\n        for i in range(target, -1, -1):\n            if dp[i]:\n                s1 = i\n                break\n        \n        # The two partitions have sums `s1` and `s2 = total_sum - s1`.\n        # The difference is `s2 - s1 = (total_sum - s1) - s1 = total_sum - 2 * s1`.\n        # This is the minimal possible weight of the last stone.\n        return total_sum - 2 * s1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:11:51+01:00"
+    }
+  }
+}

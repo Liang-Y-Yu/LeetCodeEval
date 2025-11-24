@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "383",
+        "questionId": "383",
+        "Content": "<p>Given two strings <code>ransomNote</code> and <code>magazine</code>, return <code>true</code><em> if </em><code>ransomNote</code><em> can be constructed by using the letters from </em><code>magazine</code><em> and </em><code>false</code><em> otherwise</em>.</p>\n\n<p>Each letter in <code>magazine</code> can only be used once in <code>ransomNote</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> ransomNote = \"a\", magazine = \"b\"\n<strong>Output:</strong> false\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> ransomNote = \"aa\", magazine = \"ab\"\n<strong>Output:</strong> false\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> ransomNote = \"aa\", magazine = \"aab\"\n<strong>Output:</strong> true\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= ransomNote.length, magazine.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>ransomNote</code> and <code>magazine</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"a\"\n\"b\"",
+        "ExampleTestcases": "\"a\"\n\"b\"\n\"aa\"\n\"ab\"\n\"aa\"\n\"aab\"",
+        "Difficulty": "Easy",
+        "Title": "Ransom Note",
+        "TitleSlug": "ransom-note",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.8M\", \"totalSubmission\": \"2.7M\", \"totalAcceptedRaw\": 1793533, \"totalSubmissionRaw\": 2749669, \"acRate\": \"65.2%\"}",
+        "Likes": 5539,
+        "Dislikes": 538,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool canConstruct(string ransomNote, string magazine) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean canConstruct(String ransomNote, String magazine) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def canConstruct(self, ransomNote, magazine):\n        \"\"\"\n        :type ransomNote: str\n        :type magazine: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} ransomNote\n * @param {string} magazine\n * @return {boolean}\n */\nvar canConstruct = function(ransomNote, magazine) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function canConstruct(ransomNote: string, magazine: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CanConstruct(string ransomNote, string magazine) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool canConstruct(char* ransomNote, char* magazine) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func canConstruct(ransomNote string, magazine string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun canConstruct(ransomNote: String, magazine: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn can_construct(ransom_note: String, magazine: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} ransom_note\n# @param {String} magazine\n# @return {Boolean}\ndef can_construct(ransom_note, magazine)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $ransomNote\n     * @param String $magazine\n     * @return Boolean\n     */\n    function canConstruct($ransomNote, $magazine) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool canConstruct(String ransomNote, String magazine) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def canConstruct(ransomNote: String, magazine: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec can_construct(ransom_note :: String.t, magazine :: String.t) :: boolean\n  def can_construct(ransom_note, magazine) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec can_construct(RansomNote :: unicode:unicode_binary(), Magazine :: unicode:unicode_binary()) -> boolean().\ncan_construct(RansomNote, Magazine) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (can-construct ransomNote magazine)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:20:10.458225+01:00",
+    "AcRate": "65.2",
+    "TotalSubmissions": 2749669,
+    "TotalAccepted": 1793533,
+    "AcceptanceRate": 0.6522723280511218,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/ransom-note/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient solution can be implemented by leveraging frequency counting, a common pattern for problems involving character analysis in strings.\n\nFirst, we can handle a simple edge case: if the `ransomNote` is longer than the `magazine`, it's impossible to construct it, so we can return `false` immediately.\n\nThe core of the solution involves ensuring that the `magazine` contains at least as many of each character as the `ransomNote` requires. A hash map (or a frequency map) is the ideal data structure for this task. Python's `collections.Counter` is perfectly suited for this, as it's designed for counting hashable objects.\n\nThe algorithm is as follows:\n1.  Create a frequency map of all characters in the `magazine`.\n2.  Iterate through each character in the `ransomNote`.\n3.  For each character, check if it's available in our `magazine` frequency map (i.e., its count is greater than zero).\n4.  If a required character's count is zero, the note cannot be constructed, so we return `false`.\n5.  If the character is available, we \"use\" it by decrementing its count in the map.\n6.  If we successfully process every character in the `ransomNote`, it means the note can be constructed, and we return `true`.\n\nThis approach has a time complexity of O(M + N), where M and N are the lengths of the `magazine` and `ransomNote` respectively, because it involves one pass over each string. The space complexity is O(1) because the frequency map will store at most 26 key-value pairs, corresponding to the lowercase English alphabet.\n\n```python\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        # If the ransom note is longer than the magazine, it's impossible to form.\n        if len(ransomNote) > len(magazine):\n            return False\n\n        # Count the frequency of each character in the magazine.\n        # collections.Counter is a hash map subclass for counting hashable objects.\n        magazine_counts = collections.Counter(magazine)\n\n        # Iterate through each character in the ransom note.\n        for char in ransomNote:\n            # If a character is needed but not available in the magazine\n            # (or its count has been exhausted), return False.\n            # Counter returns 0 for missing items, so this check covers both cases.\n            if magazine_counts[char] == 0:\n                return False\n            \n            # Decrement the count of the character used.\n            magazine_counts[char] -= 1\n            \n        # If the loop completes, it means all characters in the ransomNote\n        # were found in the magazine.\n        return True\n\n```\n\n=== DESIGN ===\n```python\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        if len(ransomNote) > len(magazine):\n            return False\n\n        magazine_counts = collections.Counter(magazine)\n        \n        for char in ransomNote:\n            if magazine_counts[char] == 0:\n                return False\n            magazine_counts[char] -= 1\n            \n        return True\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        if len(ransomNote) > len(magazine):\n            return False\n        \n        magazine_counts = collections.Counter(magazine)\n        \n        for char in ransomNote:\n            if magazine_counts[char] == 0:\n                return False\n            magazine_counts[char] -= 1\n            \n        return True\n```\n\n=== VERIFICATION ===\n```python\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        if len(ransomNote) > len(magazine):\n            return False\n        \n        magazine_counts = collections.Counter(magazine)\n        \n        for char in ransomNote:\n            if magazine_counts[char] == 0:\n                return False\n            magazine_counts[char] -= 1\n            \n        return True\n```\n\n",
+      "TypedCode": "\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        if len(ransomNote) > len(magazine):\n            return False\n        \n        magazine_counts = collections.Counter(magazine)\n        \n        for char in ransomNote:\n            if magazine_counts[char] == 0:\n                return False\n            magazine_counts[char] -= 1\n            \n        return True\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 168030175374,
+      "SolvedAt": "2025-11-21T16:12:45.796547+01:00",
+      "PromptTokens": 4311,
+      "OutputTokens": 19035
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "383",
+        "typed_code": "\nimport collections\n\nclass Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        if len(ransomNote) > len(magazine):\n            return False\n        \n        magazine_counts = collections.Counter(magazine)\n        \n        for char in ransomNote:\n            if magazine_counts[char] == 0:\n                return False\n            magazine_counts[char] -= 1\n            \n        return True\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:34:33+01:00"
+    }
+  }
+}

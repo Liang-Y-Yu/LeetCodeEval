@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "127",
+        "questionId": "127",
+        "Content": "<p>A <strong>transformation sequence</strong> from word <code>beginWord</code> to word <code>endWord</code> using a dictionary <code>wordList</code> is a sequence of words <code>beginWord -&gt; s<sub>1</sub> -&gt; s<sub>2</sub> -&gt; ... -&gt; s<sub>k</sub></code> such that:</p>\n\n<ul>\n\t<li>Every adjacent pair of words differs by a single letter.</li>\n\t<li>Every <code>s<sub>i</sub></code> for <code>1 &lt;= i &lt;= k</code> is in <code>wordList</code>. Note that <code>beginWord</code> does not need to be in <code>wordList</code>.</li>\n\t<li><code>s<sub>k</sub> == endWord</code></li>\n</ul>\n\n<p>Given two words, <code>beginWord</code> and <code>endWord</code>, and a dictionary <code>wordList</code>, return <em>the <strong>number of words</strong> in the <strong>shortest transformation sequence</strong> from</em> <code>beginWord</code> <em>to</em> <code>endWord</code><em>, or </em><code>0</code><em> if no such sequence exists.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> One shortest transformation sequence is &quot;hit&quot; -&gt; &quot;hot&quot; -&gt; &quot;dot&quot; -&gt; &quot;dog&quot; -&gt; cog&quot;, which is 5 words long.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The endWord &quot;cog&quot; is not in wordList, therefore there is no valid transformation sequence.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= beginWord.length &lt;= 10</code></li>\n\t<li><code>endWord.length == beginWord.length</code></li>\n\t<li><code>1 &lt;= wordList.length &lt;= 5000</code></li>\n\t<li><code>wordList[i].length == beginWord.length</code></li>\n\t<li><code>beginWord</code>, <code>endWord</code>, and <code>wordList[i]</code> consist of lowercase English letters.</li>\n\t<li><code>beginWord != endWord</code></li>\n\t<li>All the words in <code>wordList</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+        "ExampleTestcases": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\n\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Ladder",
+        "TitleSlug": "word-ladder",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"3.4M\", \"totalAcceptedRaw\": 1495346, \"totalSubmissionRaw\": 3383525, \"acRate\": \"44.2%\"}",
+        "Likes": 13201,
+        "Dislikes": 1956,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int ladderLength(String beginWord, String endWord, List<String> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def ladderLength(self, beginWord, endWord, wordList):\n        \"\"\"\n        :type beginWord: str\n        :type endWord: str\n        :type wordList: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {number}\n */\nvar ladderLength = function(beginWord, endWord, wordList) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function ladderLength(beginWord: string, endWord: string, wordList: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LadderLength(string beginWord, string endWord, IList<string> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int ladderLength(char* beginWord, char* endWord, char** wordList, int wordListSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func ladderLength(beginWord string, endWord string, wordList []string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun ladderLength(beginWord: String, endWord: String, wordList: List<String>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn ladder_length(begin_word: String, end_word: String, word_list: Vec<String>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} begin_word\n# @param {String} end_word\n# @param {String[]} word_list\n# @return {Integer}\ndef ladder_length(begin_word, end_word, word_list)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $beginWord\n     * @param String $endWord\n     * @param String[] $wordList\n     * @return Integer\n     */\n    function ladderLength($beginWord, $endWord, $wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int ladderLength(String beginWord, String endWord, List<String> wordList) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec ladder_length(begin_word :: String.t, end_word :: String.t, word_list :: [String.t]) :: integer\n  def ladder_length(begin_word, end_word, word_list) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec ladder_length(BeginWord :: unicode:unicode_binary(), EndWord :: unicode:unicode_binary(), WordList :: [unicode:unicode_binary()]) -> integer().\nladder_length(BeginWord, EndWord, WordList) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (ladder-length beginWord endWord wordList)\n  (-> string? string? (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:31:17.264845+01:00",
+    "AcRate": "44.2",
+    "TotalSubmissions": 3383525,
+    "TotalAccepted": 1495346,
+    "AcceptanceRate": 0.44194915066387863,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-ladder/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is by modeling it as a graph traversal. Each word can be considered a node in a graph, and an edge exists between two words if they differ by exactly one letter. The problem then becomes finding the shortest path from the `beginWord` node to the `endWord` node.\n\nBreadth-First Search (BFS) is the ideal algorithm for finding the shortest path in an unweighted graph, which is precisely our scenario. A standard BFS starting from `beginWord` would explore the graph level by level until it reaches `endWord`.\n\nFor enhanced performance, especially with a large `wordList` or a long transformation sequence, a Bidirectional BFS is preferable. This approach involves running two simultaneous BFS searches, one starting from `beginWord` and the other from `endWord`. The search frontiers expand towards each other, and the path is found when they meet. By always expanding the smaller of the two frontiers, this method significantly prunes the search space, leading to a much faster solution in practice.\n\nThe implementation will follow these steps:\n1. First, handle the edge case: If `endWord` is not in `wordList`, no valid transformation sequence can exist, so return 0.\n2. Convert `wordList` into a set for efficient O(1) average time complexity lookups.\n3. Initialize two sets, `begin_set` and `end_set`, to act as the frontiers for our bidirectional search, containing `beginWord` and `endWord` respectively.\n4. Maintain a `visited` set to keep track of all words that have been included in any frontier to avoid cycles and redundant processing.\n5. In a loop, iteratively expand the smaller of the two frontiers. For each word in the smaller frontier, generate all possible one-letter-different \"neighbor\" words.\n6. If a generated neighbor is present in the other frontier, the two searches have met, and we have found the shortest path. The length of this path is the sum of the levels traversed from both ends.\n7. If a neighbor is in the `word_set` but has not been visited, add it to the `visited` set and a temporary set for the next level's frontier.\n8. If one of the frontiers becomes empty before the two searches meet, it means no transformation sequence exists, and we should return 0.\n\n```python\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:\n        if endWord not in wordList:\n            return 0\n        \n        word_set = set(wordList)\n        \n        # Bi-directional BFS\n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        dist = 1\n        \n        while begin_set and end_set:\n            # Optimization: always expand the smaller frontier\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            dist += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                word_chars = list(word)\n                for i in range(len(word_chars)):\n                    original_char = word_chars[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        word_chars[i] = c\n                        neighbor = \"\".join(word_chars)\n                        \n                        if neighbor in end_set:\n                            return dist\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n                    \n                    word_chars[i] = original_char\n            \n            begin_set = next_level_set\n        \n        return 0\n\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by modeling it as a graph traversal. Each word can be considered a node in a graph, and an edge exists between two words if they differ by exactly one letter. The problem then becomes finding the shortest path from the `beginWord` node to the `endWord` node.\nBreadth-First Search (BFS) is the ideal algorithm for finding the shortest path in an unweighted graph, which is precisely our scenario. A standard BFS starting from `beginWord` would explore the graph level by level until it reaches `endWord`.\nFor enhanced performance, especially with a large `wordList` or a long transformation sequence, a Bidirectional BFS is preferable. This approach involves running two simultaneous BFS searches, one starting from `beginWord` and the other from `endWord`. The search frontiers expand towards each other, and the path is found when they meet. By always expanding the smaller of the two frontiers, this method significantly prunes the search space, leading to a much faster solution in practice.\nThe implementation will follow these steps:\n1. First, handle the edge case: If `endWord` is not in `wordList`, no valid transformation sequence can exist, so return 0.\n2. Convert `wordList` into a set for efficient O(1) average time complexity lookups.\n3. Initialize two sets, `begin_set` and `end_set`, to act as the frontiers for our bidirectional search, containing `beginWord` and `endWord` respectively.\n4. Maintain a `visited` set to keep track of all words that have been included in any frontier to avoid cycles and redundant processing.\n5. In a loop, iteratively expand the smaller of the two frontiers. For each word in the smaller frontier, generate all possible one-letter-different \"neighbor\" words.\n6. If a generated neighbor is present in the other frontier, the two searches have met, and we have found the shortest path. The length of this path is the sum of the levels traversed from both ends.\n7. If a neighbor is in the `word_set` but has not been visited, add it to the `visited` set and a temporary set for the next level's frontier.\n8. If one of the frontiers becomes empty before the two searches meet, it means no transformation sequence exists, and we should return 0.\nAn elegant and efficient way to solve this problem is by modeling it as a graph traversal. Each word can be considered a node in a graph, and an edge exists between two words if they differ by exactly one letter. The problem then becomes finding the shortest path from the `beginWord` node to the `endWord` node.\nBreadth-First Search (BFS) is the ideal algorithm for finding the shortest path in an unweighted graph, which is precisely our scenario. A standard BFS starting from `beginWord` would explore the graph level by level until it reaches `endWord`.\nFor enhanced performance, especially with a large `wordList` or a long transformation sequence, a Bidirectional BFS is preferable. This approach involves running two simultaneous BFS searches, one starting from `beginWord` and the other from `endWord`. The search frontiers expand towards each other, and the path is found when they meet. By always expanding the smaller of the two frontiers, this method significantly prunes the search space, leading to a much faster solution in practice.\nThe implementation will follow these steps:\n1. First, handle the edge case: If `endWord` is not in `wordList`, no valid transformation sequence can exist, so return 0.\n2. Convert `wordList` into a set for efficient O(1) average time complexity lookups.\n3. Initialize two sets, `begin_set` and `end_set`, to act as the frontiers for our bidirectional search, containing `beginWord` and `endWord` respectively.\n4. Maintain a `visited` set to keep track of all words that have been included in any frontier to avoid cycles and redundant processing.\n5. In a loop, iteratively expand the smaller of the two frontiers. For each word in the smaller frontier, generate all possible one-letter-different \"neighbor\" words.\n6. If a generated neighbor is present in the other frontier, the two searches have met, and we have found the shortest path. The length of this path is the sum of the levels traversed from both ends.\n7. If a neighbor is in the `word_set` but has not been visited, add it to the `visited` set and a temporary set for the next level's frontier.\n8. If one of the frontiers becomes empty before the two searches meet, it means no transformation sequence exists, and we should return 0.\nfrom typing import List\n\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        word_set = set(wordList)\n        if endWord not in word_set:\n            return 0\n        \n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        length = 1\n        \n        while begin_set and end_set:\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            length += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                for i in range(len(word)):\n                    original_char = word[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        neighbor = word[:i] + c + word[i+1:]\n                        \n                        if neighbor in end_set:\n                            return length\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n            \n            begin_set = next_level_set\n            \n        return 0\n\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:\n        if endWord not in wordList:\n            return 0\n        \n        word_set = set(wordList)\n        \n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        length = 1\n        \n        while begin_set and end_set:\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            length += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                for i in range(len(word)):\n                    original_char = word[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        neighbor = word[:i] + c + word[i+1:]\n                        \n                        if neighbor in end_set:\n                            return length\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n            \n            begin_set = next_level_set\n            \n        return 0\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is by modeling it as a graph traversal. Each word can be considered a node in a graph, and an edge exists between two words if they differ by exactly one letter. The problem then becomes finding the shortest path from the `beginWord` node to the `endWord` node.\n\nBreadth-First Search (BFS) is the ideal algorithm for finding the shortest path in an unweighted graph. For enhanced performance, a Bidirectional BFS is preferable. This approach involves running two simultaneous BFS searches, one starting from `beginWord` and the other from `endWord`. The search frontiers expand towards each other, and the path is found when they meet. By always expanding the smaller of the two frontiers, this method significantly prunes the search space.\n\n**Verification Report:**\n\n1.  **Correctness**: The solution correctly implements the Bidirectional BFS algorithm. It initializes two search frontiers (`begin_set`, `end_set`), correctly expands the smaller frontier at each step, generates neighbors, and checks for a meeting point. The `length` variable is correctly updated to track the number of words in the sequence. `visited` set correctly prevents cycles and redundant computations. The logic is sound.\n\n2.  **Edge Cases**: The primary edge case where `endWord` is not in `wordList` is handled properly at the start, returning 0 as required. If no path exists, the `while` loop will terminate when one of the frontiers becomes empty, and the function will correctly return 0. The case where `beginWord` is one step away from `endWord` is also handled, returning a length of 2.\n\n3.  **Complexity**:\n    *   **Time Complexity**: O(N * L\u00b2), where N is the number of words in `wordList` and L is the length of each word. For each word visited (at most N), we generate all possible neighbors by iterating through its length (L) and the 26 letters of the alphabet. String slicing and concatenation to form a neighbor takes O(L). This results in O(L * 26 * L) = O(L\u00b2) work per word.\n    *   **Space Complexity**: O(N * L). This is dominated by the space required for `word_set`, `visited`, `begin_set`, and `end_set`, which in the worst case can store all N words of length L.\n    *   The complexity is well within acceptable limits for the given constraints.\n\n4.  **Code Quality**: The code is clean, well-structured, and readable. It uses descriptive variable names and appropriate data structures (sets for O(1) lookups). The logic is self-contained and adheres to Python best practices.\n\n5.  **Test Cases**:\n    *   For **Example 1** (`hit` -> `cog`), the algorithm correctly explores from both ends. `length` starts at 1. It increments as levels are explored. When the frontiers meet (e.g., from `dog` to `dot`), the `length` will be 5, which is the correct total path length. The function `return length` correctly yields 5.\n    *   For **Example 2**, the check `if endWord not in word_set` fails immediately as `\"cog\"` is not in the list, and the function correctly returns 0.\n\n6.  **Potential Issues**: No bugs or logical errors were found. The implementation is robust. The method of generating neighbors by creating new strings with slicing is efficient and clear for the given constraints.\n\n**Conclusion**: The provided solution is deemed correct, efficient, and of high quality. It effectively solves the problem using an optimized search algorithm.\n\n```python\nfrom typing import List\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:\n        word_set = set(wordList)\n        if endWord not in word_set:\n            return 0\n        \n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        length = 1\n        \n        while begin_set and end_set:\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            length += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                for i in range(len(word)):\n                    original_char = word[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        neighbor = word[:i] + c + word[i+1:]\n                        \n                        if neighbor in end_set:\n                            return length\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n            \n            begin_set = next_level_set\n            \n        return 0\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:\n        if endWord not in wordList:\n            return 0\n        \n        word_set = set(wordList)\n        \n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        length = 1\n        \n        while begin_set and end_set:\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            length += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                for i in range(len(word)):\n                    original_char = word[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        neighbor = word[:i] + c + word[i+1:]\n                        \n                        if neighbor in end_set:\n                            return length\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n            \n            begin_set = next_level_set\n            \n        return 0\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 346100844998,
+      "SolvedAt": "2025-11-21T19:13:10.943021+01:00",
+      "PromptTokens": 8695,
+      "OutputTokens": 42839
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "127",
+        "typed_code": "\nclass Solution:\n    def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:\n        if endWord not in wordList:\n            return 0\n        \n        word_set = set(wordList)\n        \n        begin_set = {beginWord}\n        end_set = {endWord}\n        \n        visited = {beginWord, endWord}\n        \n        length = 1\n        \n        while begin_set and end_set:\n            if len(begin_set) > len(end_set):\n                begin_set, end_set = end_set, begin_set\n            \n            length += 1\n            next_level_set = set()\n            \n            for word in begin_set:\n                for i in range(len(word)):\n                    original_char = word[i]\n                    for char_code in range(ord('a'), ord('z') + 1):\n                        c = chr(char_code)\n                        if c == original_char:\n                            continue\n                        \n                        neighbor = word[:i] + c + word[i+1:]\n                        \n                        if neighbor in end_set:\n                            return length\n                        \n                        if neighbor in word_set and neighbor not in visited:\n                            visited.add(neighbor)\n                            next_level_set.add(neighbor)\n            \n            begin_set = next_level_set\n            \n        return 0\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:05:10+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "204",
+        "questionId": "204",
+        "Content": "<p>Given an integer <code>n</code>, return <em>the number of prime numbers that are strictly less than</em> <code>n</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are 4 prime numbers less than 10, they are 2, 3, 5, 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 0\n<strong>Output:</strong> 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 5 * 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "10",
+        "ExampleTestcases": "10\n0\n1",
+        "Difficulty": "Medium",
+        "Title": "Count Primes",
+        "TitleSlug": "count-primes",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.2M\", \"totalSubmission\": \"3.3M\", \"totalAcceptedRaw\": 1170961, \"totalSubmissionRaw\": 3301700, \"acRate\": \"35.5%\"}",
+        "Likes": 8638,
+        "Dislikes": 1559,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY3",
+            "Name": "Number Theory",
+            "Slug": "number-theory"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countPrimes(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countPrimes(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countPrimes(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countPrimes(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar countPrimes = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countPrimes(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountPrimes(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countPrimes(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countPrimes(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countPrimes(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countPrimes(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_primes(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef count_primes(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function countPrimes($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countPrimes(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countPrimes(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_primes(n :: integer) :: integer\n  def count_primes(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_primes(N :: integer()) -> integer().\ncount_primes(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-primes n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:27:46.725697+01:00",
+    "AcRate": "35.5",
+    "TotalSubmissions": 3301700,
+    "TotalAccepted": 1170961,
+    "AcceptanceRate": 0.35465396613865585,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-primes/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer n, return the number of prime numbers that are strictly less than n.\n\u00a0\nExample 1:\nInput: n = 10\nOutput: 4\nExplanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.\nExample 2:\nInput: n = 0\nOutput: 0\nExample 3:\nInput: n = 1\nOutput: 0\n\u00a0\nConstraints:\n\t0 <= n <= 5 * 10^6\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def countPrimes(self, n: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to count prime numbers strictly less than n.\n\nGiven the constraint that n can be up to 5 * 10^6, I need an efficient algorithm. The Sieve of Eratosthenes is the optimal approach for finding all primes up to a given number.\n\nThe algorithm works by:\n1. Creating a boolean array where index i represents whether i is prime\n2. Starting from 2, marking all multiples of each prime as composite\n3. Counting the remaining primes\n\nLet me trace through Example 1 (n=10):\n- Primes less than 10: 2, 3, 5, 7\n- Count: 4 \u2713\n\nHere's my solution:\n\n```python\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        \n        is_prime = [True] * n\n        is_prime[0] = False\n        is_prime[1] = False\n        \n        i = 2\n        while i * i < n:\n            if is_prime[i]:\n                for j in range(i * i, n, i):\n                    is_prime[j] = False\n            i += 1\n        \n        return sum(is_prime)\n```",
+      "TypedCode": "\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        \n        is_prime = [True] * n\n        is_prime[0] = False\n        is_prime[1] = False\n        \n        i = 2\n        while i * i < n:\n            if is_prime[i]:\n                for j in range(i * i, n, i):\n                    is_prime[j] = False\n            i += 1\n        \n        return sum(is_prime)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 4587056042,
+      "SolvedAt": "2025-11-19T21:37:37.45494+01:00",
+      "PromptTokens": 351,
+      "OutputTokens": 309
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "204",
+        "typed_code": "\nclass Solution:\n    def countPrimes(self, n: int) -> int:\n        if n <= 2:\n            return 0\n        \n        is_prime = [True] * n\n        is_prime[0] = False\n        is_prime[1] = False\n        \n        i = 2\n        while i * i < n:\n            if is_prime[i]:\n                for j in range(i * i, n, i):\n                    is_prime[j] = False\n            i += 1\n        \n        return sum(is_prime)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T23:03:53+01:00"
+    }
+  }
+}

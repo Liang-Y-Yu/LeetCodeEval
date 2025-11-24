@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "765",
+        "questionId": "770",
+        "Content": "<p>There are <code>n</code> couples sitting in <code>2n</code> seats arranged in a row and want to hold hands.</p>\n\n<p>The people and seats are represented by an integer array <code>row</code> where <code>row[i]</code> is the ID of the person sitting in the <code>i<sup>th</sup></code> seat. The couples are numbered in order, the first couple being <code>(0, 1)</code>, the second couple being <code>(2, 3)</code>, and so on with the last couple being <code>(2n - 2, 2n - 1)</code>.</p>\n\n<p>Return <em>the minimum number of swaps so that every couple is sitting side by side</em>. A swap consists of choosing any two people, then they stand up and switch seats.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> row = [0,2,1,3]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> We only need to swap the second (row[1]) and third (row[2]) person.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> row = [3,2,0,1]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All couples are already seated side by side.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2n == row.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 30</code>\u200b\u200b\u200b\u200b\u200b\u200b\u200b</li>\n\t<li><code>0 &lt;= row[i] &lt; 2n</code></li>\n\t<li>All the elements of <code>row</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[0,2,1,3]",
+        "ExampleTestcases": "[0,2,1,3]\n[3,2,0,1]",
+        "Difficulty": "Hard",
+        "Title": "Couples Holding Hands",
+        "TitleSlug": "couples-holding-hands",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"78.7K\", \"totalSubmission\": \"133.6K\", \"totalAcceptedRaw\": 78698, \"totalSubmissionRaw\": 133607, \"acRate\": \"58.9%\"}",
+        "Likes": 2456,
+        "Dislikes": 128,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIz",
+            "Name": "Union Find",
+            "Slug": "union-find"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI0",
+            "Name": "Graph",
+            "Slug": "graph"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minSwapsCouples(vector<int>& row) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minSwapsCouples(int[] row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minSwapsCouples(self, row):\n        \"\"\"\n        :type row: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} row\n * @return {number}\n */\nvar minSwapsCouples = function(row) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minSwapsCouples(row: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinSwapsCouples(int[] row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minSwapsCouples(int* row, int rowSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minSwapsCouples(row []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minSwapsCouples(row: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minSwapsCouples(_ row: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_swaps_couples(row: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} row\n# @return {Integer}\ndef min_swaps_couples(row)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $row\n     * @return Integer\n     */\n    function minSwapsCouples($row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minSwapsCouples(List<int> row) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minSwapsCouples(row: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_swaps_couples(row :: [integer]) :: integer\n  def min_swaps_couples(row) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_swaps_couples(Row :: [integer()]) -> integer().\nmin_swaps_couples(Row) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-swaps-couples row)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:02:38.356027+01:00",
+    "AcRate": "58.9",
+    "TotalSubmissions": 133607,
+    "TotalAccepted": 78698,
+    "AcceptanceRate": 0.5890260240855644,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/couples-holding-hands/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it thoroughly and then provide a solution.\n\n## Analysis\n\n1. **Problem Type Classification**: Graph/Union-Find, Greedy, Array manipulation\n\n2. **Key Patterns & Algorithms**: \n   - Union-Find (Disjoint Set Union) to find connected components\n   - Greedy approach: iterate through pairs and swap to fix couples\n   - Graph cycle detection (couples form cycles when mismatched)\n\n3. **Constraints Analysis**: \n   - n \u2264 30, so 2n \u2264 60 seats\n   - O(n) or O(n\u00b2) solutions are acceptable\n   - Space: O(n) is fine\n\n4. **Edge Cases**:\n   - All couples already seated correctly (return 0)\n   - Minimum case: n=1 (one couple)\n   - Maximum misalignment requiring n-1 swaps\n\n5. **Input/Output Analysis**:\n   - Input: List of integers representing person IDs in seat order\n   - Output: Single integer (minimum swaps needed)\n   - Couples: (0,1), (2,3), (4,5), etc. - person i's partner is i^1 (XOR with 1)\n\n6. **Difficulty Assessment**: \n   - Understanding that this is a graph/cycle problem is key\n   - The insight that each cycle of k couples requires k-1 swaps\n   - Greedy solution is simpler but requires careful implementation\n\n## Solution Approach\n\nI'll use a greedy approach: iterate through pairs of seats (0-1, 2-3, 4-5, ...) and for each pair, if they're not a couple, swap one person to make them a couple.\n\nThe key insight: person i's partner is `i ^ 1` (XOR with 1), which flips the last bit:\n- 0's partner is 1, 1's partner is 0\n- 2's partner is 3, 3's partner is 2\n- etc.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n```\n\n=== DESIGN ===\nLooking at this problem, I need to find the minimum number of swaps to seat all couples together.\n\n## Solution Design\n\n**Algorithm Choice**: Greedy approach with position tracking\n\n**Step-by-Step Approach**:\n1. Create a position map to track where each person is currently sitting\n2. Iterate through pairs of seats (0-1, 2-3, 4-5, etc.)\n3. For each pair, check if they form a couple (person i's partner is i^1)\n4. If not a couple, find the partner of the first person and swap them into the correct position\n5. Update the position map after each swap\n6. Count the total swaps needed\n\n**Data Structures**:\n- Dictionary/HashMap to store person -> seat position mapping for O(1) lookups\n- The input array itself (modified in-place)\n\n**Time Complexity**: O(n) where n is the number of couples\n- Single pass through all pairs: O(n)\n- Each swap involves O(1) dictionary lookups and updates\n\n**Space Complexity**: O(n) for the position dictionary\n\n**Pseudocode**:\n```\nfunction minSwapsCouples(row):\n    n = length of row\n    swaps = 0\n    pos = dictionary mapping each person to their position\n    \n    for i from 0 to n-1 step 2:\n        person1 = row[i]\n        partner = person1 XOR 1  # Find partner ID\n        \n        if row[i+1] == partner:\n            continue  # Already a couple\n        \n        # Need to swap\n        swaps += 1\n        person2 = row[i+1]  # Current person at i+1\n        partner_pos = pos[partner]  # Where partner currently is\n        \n        # Swap partner into position i+1\n        swap row[i+1] with row[partner_pos]\n        \n        # Update positions\n        pos[person2] = partner_pos\n        pos[partner] = i+1\n    \n    return swaps\n```\n\nHere's the implementation:\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 30082437042,
+      "SolvedAt": "2025-11-19T23:28:54.739085+01:00",
+      "PromptTokens": 6428,
+      "OutputTokens": 1838
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "770",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row)\n        swaps = 0\n        \n        pos = {person: i for i, person in enumerate(row)}\n        \n        for i in range(0, n, 2):\n            person1 = row[i]\n            partner = person1 ^ 1\n            \n            if row[i + 1] == partner:\n                continue\n            \n            swaps += 1\n            \n            person2 = row[i + 1]\n            partner_pos = pos[partner]\n            \n            row[i + 1], row[partner_pos] = row[partner_pos], row[i + 1]\n            \n            pos[person2] = partner_pos\n            pos[partner] = i + 1\n        \n        return swaps\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:10:42+01:00"
+    }
+  }
+}

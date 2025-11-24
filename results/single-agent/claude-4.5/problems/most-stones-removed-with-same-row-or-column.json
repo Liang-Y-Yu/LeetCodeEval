@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "947",
+        "questionId": "984",
+        "Content": "<p>On a 2D plane, we place <code>n</code> stones at some integer coordinate points. Each coordinate point may have at most one stone.</p>\n\n<p>A stone can be removed if it shares either <strong>the same row or the same column</strong> as another stone that has not been removed.</p>\n\n<p>Given an array <code>stones</code> of length <code>n</code> where <code>stones[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents the location of the <code>i<sup>th</sup></code> stone, return <em>the largest possible number of stones that can be removed</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> One way to remove 5 stones is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,1].\n2. Remove stone [2,1] because it shares the same column as [0,1].\n3. Remove stone [1,2] because it shares the same row as [1,0].\n4. Remove stone [1,0] because it shares the same column as [0,0].\n5. Remove stone [0,1] because it shares the same row as [0,0].\nStone [0,0] cannot be removed since it does not share a row/column with another stone still on the plane.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [[0,0],[0,2],[1,1],[2,0],[2,2]]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> One way to make 3 moves is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,0].\n2. Remove stone [2,0] because it shares the same column as [0,0].\n3. Remove stone [0,2] because it shares the same row as [0,0].\nStones [0,0] and [1,1] cannot be removed since they do not share a row/column with another stone still on the plane.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [[0,0]]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> [0,0] is the only stone on the plane, so you cannot remove it.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= stones.length &lt;= 1000</code></li>\n\t<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>4</sup></code></li>\n\t<li>No two stones are at the same coordinate point.</li>\n</ul>\n",
+        "SampleTestCase": "[[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]",
+        "ExampleTestcases": "[[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]\n[[0,0],[0,2],[1,1],[2,0],[2,2]]\n[[0,0]]",
+        "Difficulty": "Medium",
+        "Title": "Most Stones Removed with Same Row or Column",
+        "TitleSlug": "most-stones-removed-with-same-row-or-column",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"377.9K\", \"totalSubmission\": \"604.2K\", \"totalAcceptedRaw\": 377871, \"totalSubmissionRaw\": 604197, \"acRate\": \"62.5%\"}",
+        "Likes": 6321,
+        "Dislikes": 706,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIz",
+            "Name": "Union Find",
+            "Slug": "union-find"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI0",
+            "Name": "Graph",
+            "Slug": "graph"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int removeStones(vector<vector<int>>& stones) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int removeStones(int[][] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def removeStones(self, stones):\n        \"\"\"\n        :type stones: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} stones\n * @return {number}\n */\nvar removeStones = function(stones) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function removeStones(stones: number[][]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int RemoveStones(int[][] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int removeStones(int** stones, int stonesSize, int* stonesColSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func removeStones(stones [][]int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun removeStones(stones: Array<IntArray>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func removeStones(_ stones: [[Int]]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn remove_stones(stones: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} stones\n# @return {Integer}\ndef remove_stones(stones)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $stones\n     * @return Integer\n     */\n    function removeStones($stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int removeStones(List<List<int>> stones) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def removeStones(stones: Array[Array[Int]]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec remove_stones(stones :: [[integer]]) :: integer\n  def remove_stones(stones) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec remove_stones(Stones :: [[integer()]]) -> integer().\nremove_stones(Stones) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (remove-stones stones)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:47:48.809537+01:00",
+    "AcRate": "62.5",
+    "TotalSubmissions": 604197,
+    "TotalAccepted": 377871,
+    "AcceptanceRate": 0.6254102552644254,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: On a 2D plane, we place n stones at some integer coordinate points. Each coordinate point may have at most one stone.\nA stone can be removed if it shares either the same row or the same column as another stone that has not been removed.\nGiven an array stones of length n where stones[i] = [xi, yi] represents the location of the i^th stone, return the largest possible number of stones that can be removed.\n\u00a0\nExample 1:\nInput: stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]\nOutput: 5\nExplanation: One way to remove 5 stones is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,1].\n2. Remove stone [2,1] because it shares the same column as [0,1].\n3. Remove stone [1,2] because it shares the same row as [1,0].\n4. Remove stone [1,0] because it shares the same column as [0,0].\n5. Remove stone [0,1] because it shares the same row as [0,0].\nStone [0,0] cannot be removed since it does not share a row/column with another stone still on the plane.\nExample 2:\nInput: stones = [[0,0],[0,2],[1,1],[2,0],[2,2]]\nOutput: 3\nExplanation: One way to make 3 moves is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,0].\n2. Remove stone [2,0] because it shares the same column as [0,0].\n3. Remove stone [0,2] because it shares the same row as [0,0].\nStones [0,0] and [1,1] cannot be removed since they do not share a row/column with another stone still on the plane.\nExample 3:\nInput: stones = [[0,0]]\nOutput: 0\nExplanation: [0,0] is the only stone on the plane, so you cannot remove it.\n\u00a0\nConstraints:\n\t1 <= stones.length <= 1000\n\t0 <= xi, yi <= 10^4\n\tNo two stones are at the same coordinate point.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to understand what's being asked:\n\n1. Stones can be removed if they share a row or column with another stone\n2. We want to find the maximum number of stones that can be removed\n3. The key insight: stones that are connected (directly or indirectly through shared rows/columns) form a connected component, and from each component, we can remove all stones except one\n\nThis is essentially a graph connectivity problem. Stones that share rows or columns are connected. The answer is: `total stones - number of connected components`.\n\nI can solve this using Union-Find (Disjoint Set Union):\n- Treat each unique row and column as nodes\n- When a stone is at position (x, y), it connects row x with column y\n- Count the number of connected components\n- Answer = total stones - number of components\n\nHere's my approach:\n1. Use Union-Find to group stones that are connected\n2. For each stone at (x, y), union the row x and column y\n3. Count distinct components\n4. Return stones.length - component count\n\n```python\nclass Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        parent = {}\n        \n        def find(x):\n            if x not in parent:\n                parent[x] = x\n            if parent[x] != x:\n                parent[x] = find(parent[x])\n            return parent[x]\n        \n        def union(x, y):\n            root_x = find(x)\n            root_y = find(y)\n            if root_x != root_y:\n                parent[root_x] = root_y\n        \n        for x, y in stones:\n            union(x, ~y)\n        \n        unique_roots = set()\n        for x, y in stones:\n            unique_roots.add(find(x))\n        \n        return len(stones) - len(unique_roots)\n```\n\nWait, I need to be more careful. I'm using `~y` (bitwise NOT) to distinguish column indices from row indices since they might overlap. For example, row 0 and column 0 should be different nodes.\n\nLet me trace through Example 1:\n- stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]\n- Stone [0,0]: union(0, ~0)\n- Stone [0,1]: union(0, ~1) - connects to component with row 0\n- Stone [1,0]: union(1, ~0) - connects row 1 to col 0, which connects to row 0\n- Stone [1,2]: union(1, ~2) - connects to row 1\n- Stone [2,1]: union(2, ~1) - connects row 2 to col 1, which connects to row 0\n- Stone [2,2]: union(2, ~2) - connects to row 2\n\nAll stones should be in one component, so answer = 6 - 1 = 5 \u2713\n\nLet me verify Example 2:\n- stones = [[0,0],[0,2],[1,1],[2,0],[2,2]]\n- Stone [0,0]: union(0, ~0)\n- Stone [0,2]: union(0, ~2) - same component\n- Stone [1,1]: union(1, ~1) - new component\n- Stone [2,0]: union(2, ~0) - connects to first component\n- Stone [2,2]: union(2, ~2) - connects to first component\n\n2 components (one with 4 stones, one with 1 stone), answer = 5 - 2 = 3 \u2713\n\nThe solution looks correct!\n\n```python\nfrom typing import List\n\nclass Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        parent = {}\n        \n        def find(x):\n            if x not in parent:\n                parent[x] = x\n            if parent[x] != x:\n                parent[x] = find(parent[x])\n            return parent[x]\n        \n        def union(x, y):\n            root_x = find(x)\n            root_y = find(y)\n            if root_x != root_y:\n                parent[root_x] = root_y\n        \n        for x, y in stones:\n            union(x, ~y)\n        \n        unique_roots = set()\n        for x, y in stones:\n            unique_roots.add(find(x))\n        \n        return len(stones) - len(unique_roots)\n```",
+      "TypedCode": "\nclass Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        parent = {}\n        \n        def find(x):\n            if x not in parent:\n                parent[x] = x\n            if parent[x] != x:\n                parent[x] = find(parent[x])\n            return parent[x]\n        \n        def union(x, y):\n            root_x = find(x)\n            root_y = find(y)\n            if root_x != root_y:\n                parent[root_x] = root_y\n        \n        for x, y in stones:\n            union(x, ~y)\n        \n        unique_roots = set()\n        for x, y in stones:\n            unique_roots.add(find(x))\n        \n        return len(stones) - len(unique_roots)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 15879702209,
+      "SolvedAt": "2025-11-19T21:47:09.686743+01:00",
+      "PromptTokens": 760,
+      "OutputTokens": 1094
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "984",
+        "typed_code": "\nclass Solution:\n    def removeStones(self, stones: List[List[int]]) -> int:\n        parent = {}\n        \n        def find(x):\n            if x not in parent:\n                parent[x] = x\n            if parent[x] != x:\n                parent[x] = find(parent[x])\n            return parent[x]\n        \n        def union(x, y):\n            root_x = find(x)\n            root_y = find(y)\n            if root_x != root_y:\n                parent[root_x] = root_y\n        \n        for x, y in stones:\n            union(x, ~y)\n        \n        unique_roots = set()\n        for x, y in stones:\n            unique_roots.add(find(x))\n        \n        return len(stones) - len(unique_roots)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:54:16+01:00"
+    }
+  }
+}

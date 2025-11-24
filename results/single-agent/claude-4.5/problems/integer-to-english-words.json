@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "273",
+        "questionId": "273",
+        "Content": "<p>Convert a non-negative integer <code>num</code> to its English words representation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 123\n<strong>Output:</strong> &quot;One Hundred Twenty Three&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 12345\n<strong>Output:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 1234567\n<strong>Output:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "123",
+        "ExampleTestcases": "123\n12345\n1234567",
+        "Difficulty": "Hard",
+        "Title": "Integer to English Words",
+        "TitleSlug": "integer-to-english-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"565.3K\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 565337, \"totalSubmissionRaw\": 1629894, \"acRate\": \"34.7%\"}",
+        "Likes": 3800,
+        "Dislikes": 6823,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string numberToWords(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String numberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberToWords(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {string}\n */\nvar numberToWords = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberToWords(num: number): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string NumberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* numberToWords(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberToWords(num int) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberToWords(num: Int): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberToWords(_ num: Int) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_to_words(num: i32) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {String}\ndef number_to_words(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return String\n     */\n    function numberToWords($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String numberToWords(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberToWords(num: Int): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_to_words(num :: integer) :: String.t\n  def number_to_words(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_to_words(Num :: integer()) -> unicode:unicode_binary().\nnumber_to_words(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-to-words num)\n  (-> exact-integer? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:25:00.534343+01:00",
+    "AcRate": "34.7",
+    "TotalSubmissions": 1629894,
+    "TotalAccepted": 565337,
+    "AcceptanceRate": 0.3468550715568006,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-to-english-words/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Convert a non-negative integer num to its English words representation.\n\u00a0\nExample 1:\nInput: num = 123\nOutput: \"One Hundred Twenty Three\"\nExample 2:\nInput: num = 12345\nOutput: \"Twelve Thousand Three Hundred Forty Five\"\nExample 3:\nInput: num = 1234567\nOutput: \"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\"\n\u00a0\nConstraints:\n\t0 <= num <= 2^31 - 1\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def numberToWords(self, num: int) -> str:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to convert a number to its English words representation.\n\nLet me break down the approach:\n1. Handle the special case of 0\n2. Break the number into groups of three digits (ones, thousands, millions, billions)\n3. Convert each group of three digits to words\n4. Add the appropriate scale word (Thousand, Million, Billion)\n\nHere's my solution:\n\n```python\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        ones = [\"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\"]\n        teens = [\"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \n                 \"Sixteen\", \"Seventeen\", \"Eighteen\", \"Nineteen\"]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        \n        def helper(n):\n            if n == 0:\n                return \"\"\n            elif n < 10:\n                return ones[n]\n            elif n < 20:\n                return teens[n - 10]\n            elif n < 100:\n                return tens[n // 10] + (\" \" + ones[n % 10] if n % 10 != 0 else \"\")\n            else:\n                return ones[n // 100] + \" Hundred\" + (\" \" + helper(n % 100) if n % 100 != 0 else \"\")\n        \n        billion = num // 1000000000\n        million = (num % 1000000000) // 1000000\n        thousand = (num % 1000000) // 1000\n        remainder = num % 1000\n        \n        result = []\n        \n        if billion > 0:\n            result.append(helper(billion) + \" Billion\")\n        \n        if million > 0:\n            result.append(helper(million) + \" Million\")\n        \n        if thousand > 0:\n            result.append(helper(thousand) + \" Thousand\")\n        \n        if remainder > 0:\n            result.append(helper(remainder))\n        \n        return \" \".join(result)\n```",
+      "TypedCode": "\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        ones = [\"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\"]\n        teens = [\"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \n                 \"Sixteen\", \"Seventeen\", \"Eighteen\", \"Nineteen\"]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        \n        def helper(n):\n            if n == 0:\n                return \"\"\n            elif n < 10:\n                return ones[n]\n            elif n < 20:\n                return teens[n - 10]\n            elif n < 100:\n                return tens[n // 10] + (\" \" + ones[n % 10] if n % 10 != 0 else \"\")\n            else:\n                return ones[n // 100] + \" Hundred\" + (\" \" + helper(n % 100) if n % 100 != 0 else \"\")\n        \n        billion = num // 1000000000\n        million = (num % 1000000000) // 1000000\n        thousand = (num % 1000000) // 1000\n        remainder = num % 1000\n        \n        result = []\n        \n        if billion > 0:\n            result.append(helper(billion) + \" Billion\")\n        \n        if million > 0:\n            result.append(helper(million) + \" Million\")\n        \n        if thousand > 0:\n            result.append(helper(thousand) + \" Thousand\")\n        \n        if remainder > 0:\n            result.append(helper(remainder))\n        \n        return \" \".join(result)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 7403529959,
+      "SolvedAt": "2025-11-19T21:41:15.29301+01:00",
+      "PromptTokens": 349,
+      "OutputTokens": 564
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "273",
+        "typed_code": "\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        ones = [\"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\"]\n        teens = [\"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \n                 \"Sixteen\", \"Seventeen\", \"Eighteen\", \"Nineteen\"]\n        tens = [\"\", \"\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"]\n        \n        def helper(n):\n            if n == 0:\n                return \"\"\n            elif n < 10:\n                return ones[n]\n            elif n < 20:\n                return teens[n - 10]\n            elif n < 100:\n                return tens[n // 10] + (\" \" + ones[n % 10] if n % 10 != 0 else \"\")\n            else:\n                return ones[n // 100] + \" Hundred\" + (\" \" + helper(n % 100) if n % 100 != 0 else \"\")\n        \n        billion = num // 1000000000\n        million = (num % 1000000000) // 1000000\n        thousand = (num % 1000000) // 1000\n        remainder = num % 1000\n        \n        result = []\n        \n        if billion > 0:\n            result.append(helper(billion) + \" Billion\")\n        \n        if million > 0:\n            result.append(helper(million) + \" Million\")\n        \n        if thousand > 0:\n            result.append(helper(thousand) + \" Thousand\")\n        \n        if remainder > 0:\n            result.append(helper(remainder))\n        \n        return \" \".join(result)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:39:56+01:00"
+    }
+  }
+}

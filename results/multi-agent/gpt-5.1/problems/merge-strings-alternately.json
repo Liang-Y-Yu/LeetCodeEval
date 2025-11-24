@@ -1,0 +1,172 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1768",
+        "questionId": "1894",
+        "Content": "<p>You are given two strings <code>word1</code> and <code>word2</code>. Merge the strings by adding letters in alternating order, starting with <code>word1</code>. If a string is longer than the other, append the additional letters onto the end of the merged string.</p>\r\n\r\n<p>Return <em>the merged string.</em></p>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong class=\"example\">Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;abc&quot;, word2 = &quot;pqr&quot;\r\n<strong>Output:</strong> &quot;apbqcr&quot;\r\n<strong>Explanation:</strong>&nbsp;The merged string will be merged as so:\r\nword1:  a   b   c\r\nword2:    p   q   r\r\nmerged: a p b q c r\r\n</pre>\r\n\r\n<p><strong class=\"example\">Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;\r\n<strong>Output:</strong> &quot;apbqrs&quot;\r\n<strong>Explanation:</strong>&nbsp;Notice that as word2 is longer, &quot;rs&quot; is appended to the end.\r\nword1:  a   b \r\nword2:    p   q   r   s\r\nmerged: a p b q   r   s\r\n</pre>\r\n\r\n<p><strong class=\"example\">Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;abcd&quot;, word2 = &quot;pq&quot;\r\n<strong>Output:</strong> &quot;apbqcd&quot;\r\n<strong>Explanation:</strong>&nbsp;Notice that as word1 is longer, &quot;cd&quot; is appended to the end.\r\nword1:  a   b   c   d\r\nword2:    p   q \r\nmerged: a p b q c   d\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong>Constraints:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= word1.length, word2.length &lt;= 100</code></li>\r\n\t<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>\r\n</ul>",
+        "SampleTestCase": "\"abc\"\n\"pqr\"",
+        "ExampleTestcases": "\"abc\"\n\"pqr\"\n\"ab\"\n\"pqrs\"\n\"abcd\"\n\"pq\"",
+        "Difficulty": "Easy",
+        "Title": "Merge Strings Alternately",
+        "TitleSlug": "merge-strings-alternately",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.9M\", \"totalSubmission\": \"2.3M\", \"totalAcceptedRaw\": 1875826, \"totalSubmissionRaw\": 2284795, \"acRate\": \"82.1%\"}",
+        "Likes": 4765,
+        "Dislikes": 139,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string mergeAlternately(string word1, string word2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String mergeAlternately(String word1, String word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def mergeAlternately(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {string}\n */\nvar mergeAlternately = function(word1, word2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function mergeAlternately(word1: string, word2: string): string {\n\n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string MergeAlternately(string word1, string word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\nchar * mergeAlternately(char * word1, char * word2){\n\n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func mergeAlternately(word1 string, word2 string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun mergeAlternately(word1: String, word2: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func mergeAlternately(_ word1: String, _ word2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn merge_alternately(word1: String, word2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word1\n# @param {String} word2\n# @return {String}\ndef merge_alternately(word1, word2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return String\n     */\n    function mergeAlternately($word1, $word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def mergeAlternately(word1: String, word2: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (merge-alternately word1 word2)\n  (-> string? string? string?)\n\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:05:31.02768+01:00",
+    "AcRate": "82.1",
+    "TotalSubmissions": 2284795,
+    "TotalAccepted": 1875826,
+    "AcceptanceRate": 0.821004072575439,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/merge-strings-alternately/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)\n\n=== DESIGN ===\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)\n\n=== VERIFICATION ===\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)\n\n",
+      "TypedCode": "class Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)",
+      "Model": "openai/gpt-5.1",
+      "Latency": 30405979667,
+      "SolvedAt": "2025-11-19T15:56:43.962246+01:00",
+      "PromptTokens": 3373,
+      "OutputTokens": 1395
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1894",
+        "typed_code": "class Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        res = []\n        i = j = 0\n        n1, n2 = len(word1), len(word2)\n        while i < n1 or j < n2:\n            if i < n1:\n                res.append(word1[i])\n                i += 1\n            if j < n2:\n                res.append(word2[j])\n                j += 1\n        return \"\".join(res)"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:10:03+01:00"
+    }
+  }
+}

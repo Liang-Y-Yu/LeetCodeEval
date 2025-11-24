@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "828",
+        "questionId": "855",
+        "Content": "<p>Let&#39;s define a function <code>countUniqueChars(s)</code> that returns the number of unique characters in&nbsp;<code>s</code>.</p>\n\n<ul>\n\t<li>For example, calling <code>countUniqueChars(s)</code> if <code>s = &quot;LEETCODE&quot;</code> then <code>&quot;L&quot;</code>, <code>&quot;T&quot;</code>, <code>&quot;C&quot;</code>, <code>&quot;O&quot;</code>, <code>&quot;D&quot;</code> are the unique characters since they appear only once in <code>s</code>, therefore <code>countUniqueChars(s) = 5</code>.</li>\n</ul>\n\n<p>Given a string <code>s</code>, return the sum of <code>countUniqueChars(t)</code> where <code>t</code> is a substring of <code>s</code>. The test cases are generated such that the answer fits in a 32-bit integer.</p>\n\n<p>Notice that some substrings can be repeated so in this case you have to count the repeated ones too.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ABC&quot;\n<strong>Output:</strong> 10\n<strong>Explanation: </strong>All possible substrings are: &quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;AB&quot;,&quot;BC&quot; and &quot;ABC&quot;.\nEvery substring is composed with only unique letters.\nSum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ABA&quot;\n<strong>Output:</strong> 8\n<strong>Explanation: </strong>The same as example 1, except <code>countUniqueChars</code>(&quot;ABA&quot;) = 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;LEETCODE&quot;\n<strong>Output:</strong> 92\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of uppercase English letters only.</li>\n</ul>\n",
+        "SampleTestCase": "\"ABC\"",
+        "ExampleTestcases": "\"ABC\"\n\"ABA\"\n\"LEETCODE\"",
+        "Difficulty": "Hard",
+        "Title": "Count Unique Characters of All Substrings of a Given String",
+        "TitleSlug": "count-unique-characters-of-all-substrings-of-a-given-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"81.7K\", \"totalSubmission\": \"153.4K\", \"totalAcceptedRaw\": 81688, \"totalSubmissionRaw\": 153356, \"acRate\": \"53.3%\"}",
+        "Likes": 2235,
+        "Dislikes": 254,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int uniqueLetterString(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int uniqueLetterString(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def uniqueLetterString(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar uniqueLetterString = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function uniqueLetterString(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int UniqueLetterString(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int uniqueLetterString(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func uniqueLetterString(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun uniqueLetterString(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func uniqueLetterString(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn unique_letter_string(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef unique_letter_string(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function uniqueLetterString($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int uniqueLetterString(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def uniqueLetterString(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec unique_letter_string(s :: String.t) :: integer\n  def unique_letter_string(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec unique_letter_string(S :: unicode:unicode_binary()) -> integer().\nunique_letter_string(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (unique-letter-string s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:57:19.668358+01:00",
+    "AcRate": "53.3",
+    "TotalSubmissions": 153356,
+    "TotalAccepted": 81688,
+    "AcceptanceRate": 0.5326690837006703,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**: String, Combinatorics, Contribution Counting.\n\n2. **Key Patterns & Algorithms**:  \n   - Instead of enumerating all substrings (O(n\u00b2) is too slow for n \u2264 10\u2075), we count **how many substrings** have a particular character as unique.  \n   - For each character at index `i`, find the previous occurrence (`prev`) and next occurrence (`next`) of the same character.  \n   - The number of substrings where `s[i]` is unique = `(i - prev) * (next - i)`.  \n   - Sum over all characters.\n\n3. **Constraints Analysis**:  \n   - n \u2264 10\u2075 \u2192 O(n log n) or O(n) solution needed.  \n   - O(n) is achievable by preprocessing nearest same-character indices.\n\n4. **Edge Cases**:  \n   - All characters same (e.g., \"AAAA\").  \n   - All characters unique (e.g., \"ABCD\").  \n   - Single character string.\n\n5. **Input/Output Analysis**:  \n   - Input: string `s` of uppercase letters.  \n   - Output: integer sum.\n\n6. **Difficulty Assessment**: Medium/Hard.  \n   - Requires insight to avoid brute force.  \n   - Needs careful indexing to avoid double-counting or off-by-one errors.\n\n---\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n - 1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total\n```\n\n=== DESIGN ===\n**Solution Code:**\n\n```python\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n - 1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total\n```\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n-1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total\n\n=== VERIFICATION ===\n\nVerification Report:\n\n1. **Correctness**: The code correctly implements the designed algorithm. For each character in the string, it calculates the number of substrings where that character is unique by finding the left and right boundaries (previous and next occurrence of the same character). The formula `(i - left[i]) * (right[i] - i)` accurately counts these substrings.\n\n2. **Edge Cases**:\n   - All same characters (\"AAAA\"): For each 'A', the left boundary is the previous occurrence and the right boundary is the next occurrence. The total sum should be computed correctly.\n   - All unique characters (\"ABCD\"): Each character has no duplicates, so left[i] = -1 and right[i] = n. The total should be the sum of all substring lengths.\n   - Single character (\"A\"): The only substring is \"A\", so the result is 1.\n   The code handles these cases correctly.\n\n3. **Complexity**: The solution runs in O(n) time with O(n) space, which is optimal for the problem constraints (n \u2264 10^5). The three loops (two for preprocessing and one for summation) are all linear.\n\n4. **Code Quality**: The code is clean and readable. Variable names are descriptive (e.g., `left`, `right`, `last_occurrence`). The logic is straightforward and follows best practices.\n\n5. **Test Cases**:\n   - Example 1 (\"ABC\"): The code returns 10, which matches the expected output.\n   - Example 2 (\"ABA\"): The code returns 8, which matches the expected output.\n   - Example 3 (\"LEETCODE\"): The code returns 92, which matches the expected output.\n\n6. **Potential Issues**: There are no bugs or logical errors. The code correctly initializes `left` with -1 and `right` with n (the boundaries), and the dictionary `last_occurrence` is properly updated. The indices are managed without off-by-one errors.\n\nConclusion: The solution is correct and efficient. It passes all verification criteria.\n\nFinal Code:\n```python\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n-1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total\n```\n\n",
+      "TypedCode": "class Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n-1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 37796319957,
+      "SolvedAt": "2025-11-20T23:45:14.208176+01:00",
+      "PromptTokens": 4603,
+      "OutputTokens": 1467
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "855",
+        "typed_code": "class Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        n = len(s)\n        left = [-1] * n\n        right = [n] * n\n        \n        last_occurrence = {}\n        for i in range(n):\n            if s[i] in last_occurrence:\n                left[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        last_occurrence.clear()\n        for i in range(n-1, -1, -1):\n            if s[i] in last_occurrence:\n                right[i] = last_occurrence[s[i]]\n            last_occurrence[s[i]] = i\n        \n        total = 0\n        for i in range(n):\n            total += (i - left[i]) * (right[i] - i)\n        \n        return total"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:55:57+01:00"
+    }
+  }
+}

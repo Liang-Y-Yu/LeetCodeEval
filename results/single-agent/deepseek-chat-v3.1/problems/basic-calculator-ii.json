@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "227",
+        "questionId": "227",
+        "Content": "<p>Given a string <code>s</code> which represents an expression, <em>evaluate this expression and return its value</em>.&nbsp;</p>\n\n<p>The integer division should truncate toward zero.</p>\n\n<p>You may assume that the given expression is always valid. All intermediate results will be in the range of <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>.</p>\n\n<p><strong>Note:</strong> You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code>eval()</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"3+2*2\"\n<strong>Output:</strong> 7\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \" 3/2 \"\n<strong>Output:</strong> 1\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \" 3+5 / 2 \"\n<strong>Output:</strong> 5\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of integers and operators <code>(&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;)</code> separated by some number of spaces.</li>\n\t<li><code>s</code> represents <strong>a valid expression</strong>.</li>\n\t<li>All the integers in the expression are non-negative integers in the range <code>[0, 2<sup>31</sup> - 1]</code>.</li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit integer</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "\"3+2*2\"",
+        "ExampleTestcases": "\"3+2*2\"\n\" 3/2 \"\n\" 3+5 / 2 \"",
+        "Difficulty": "Medium",
+        "Title": "Basic Calculator II",
+        "TitleSlug": "basic-calculator-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"900.2K\", \"totalSubmission\": \"1.9M\", \"totalAcceptedRaw\": 900177, \"totalSubmissionRaw\": 1941487, \"acRate\": \"46.4%\"}",
+        "Likes": 6518,
+        "Dislikes": 947,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int calculate(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int calculate(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def calculate(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function calculate(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Calculate(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int calculate(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func calculate(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun calculate(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func calculate(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn calculate(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef calculate(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function calculate($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int calculate(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def calculate(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec calculate(s :: String.t) :: integer\n  def calculate(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec calculate(S :: unicode:unicode_binary()) -> integer().\ncalculate(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (calculate s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:26:24.964965+01:00",
+    "AcRate": "46.4",
+    "TotalSubmissions": 1941487,
+    "TotalAccepted": 900177,
+    "AcceptanceRate": 0.46365337496465336,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/basic-calculator-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string s which represents an expression, evaluate this expression and return its value.\u00a0\nThe integer division should truncate toward zero.\nYou may assume that the given expression is always valid. All intermediate results will be in the range of [-2^31, 2^31 - 1].\nNote: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().\n\u00a0\nExample 1:\nInput: s = \"3+2*2\"\nOutput: 7\nExample 2:\nInput: s = \" 3/2 \"\nOutput: 1\nExample 3:\nInput: s = \" 3+5 / 2 \"\nOutput: 5\n\u00a0\nConstraints:\n\t1 <= s.length <= 3 * 10^5\n\ts consists of integers and operators ('+', '-', '*', '/') separated by some number of spaces.\n\ts represents a valid expression.\n\tAll the integers in the expression are non-negative integers in the range [0, 2^31 - 1].\n\tThe answer is guaranteed to fit in a 32-bit integer.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def calculate(self, s: str) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to evaluate a mathematical expression given as a string without using the built-in `eval()` function. The expression includes integers, the operators '+', '-', '*', and '/', and possibly spaces. The challenge is to correctly handle the operator precedence, where multiplication and division have higher precedence than addition and subtraction, and truncate integer division towards zero.\n\n### Approach\n1. **Problem Analysis**: The expression consists of integers and operators. The operators include '+', '-', '*', and '/'. The key point is that multiplication and division have higher precedence and should be evaluated first. Also, integer division truncates toward zero.\n\n2. **Intuition**: We can use a stack to help manage the operations. The idea is to process the expression from left to right. For numbers that are to be added or subtracted, we can push them directly to the stack. However, for multiplication and division, we need to compute them immediately and then push the result back to the stack. This ensures that multiplication and division are handled with higher precedence.\n\n3. **Algorithm Selection**:\n   - **Initialization**: Initialize a stack to store numbers (intermediate results), a variable `num` to accumulate the current number, and a variable `sign` to remember the last operator encountered (initially '+').\n   - **Iterate through each character**:\n        - If the character is a digit, update `num` by multiplying the current value by 10 and adding the digit.\n        - If the character is an operator or we reach the end of the string:\n            - Check the last `sign` (operator) to decide the operation:\n                - For '+', push `num` to the stack.\n                - For '-', push `-num` to the stack.\n                - For '*', pop the top of the stack, multiply it with `num`, and push the result.\n                - For '/', pop the top of the stack, divide it by `num` (truncating toward zero), and push the result.\n            - Reset `num` to 0 and update `sign` to the current operator.\n   - After processing all characters, the stack contains numbers that need to be summed up to get the final result.\n\n4. **Complexity Analysis**:\n   - **Time Complexity**: O(n), where n is the length of the string. Each character is processed exactly once.\n   - **Space Complexity**: O(n), due to the stack which, in the worst case, might store all the numbers.\n\n### Solution Code\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack[-1] = stack[-1] * num\n                elif sign == '/':\n                    # Truncate towards zero\n                    temp = stack[-1]\n                    if temp < 0:\n                        stack[-1] = -(-temp // num)\n                    else:\n                        stack[-1] = temp // num\n                sign = char\n                num = 0\n        return sum(stack)\n```\n\n### Explanation\n1. **Initialization**: The stack is initialized to store intermediate results. `num` accumulates the current number being parsed, and `sign` stores the last encountered operator (default '+').\n2. **Processing Characters**:\n   - For each digit, update `num`.\n   - When an operator or the end of the string is reached, process the last stored `sign`:\n        - For '+', push `num` (as a positive value).\n        - For '-', push `-num` (as a negative value).\n        - For '*', multiply the top of the stack by `num` and replace the top with the result.\n        - For '/', divide the top of the stack by `num` with truncation toward zero (handling negative numbers correctly) and replace the top with the result.\n   - Reset `num` to 0 and update `sign` to the current operator.\n3. **Final Result**: After processing all characters, the stack contains numbers to be summed. The sum is the result of the expression.\n\nThis approach efficiently handles operator precedence by immediately processing multiplication and division, while deferring addition and subtraction until the end by storing them in the stack. The solution ensures correctness and efficiency within the given constraints.",
+      "TypedCode": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack[-1] = stack[-1] * num\n                elif sign == '/':\n                    # Truncate towards zero\n                    temp = stack[-1]\n                    if temp < 0:\n                        stack[-1] = -(-temp // num)\n                    else:\n                        stack[-1] = temp // num\n                sign = char\n                num = 0\n        return sum(stack)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 8191289417,
+      "SolvedAt": "2025-11-20T21:12:22.364758+01:00",
+      "PromptTokens": 435,
+      "OutputTokens": 971
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "227",
+        "typed_code": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = '+'\n        n = len(s)\n        for i, char in enumerate(s):\n            if char.isdigit():\n                num = num * 10 + int(char)\n            if char in '+-*/' or i == n-1:\n                if sign == '+':\n                    stack.append(num)\n                elif sign == '-':\n                    stack.append(-num)\n                elif sign == '*':\n                    stack[-1] = stack[-1] * num\n                elif sign == '/':\n                    # Truncate towards zero\n                    temp = stack[-1]\n                    if temp < 0:\n                        stack[-1] = -(-temp // num)\n                    else:\n                        stack[-1] = temp // num\n                sign = char\n                num = 0\n        return sum(stack)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:44:29+01:00"
+    }
+  }
+}

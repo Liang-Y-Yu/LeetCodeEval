@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "480",
+        "questionId": "480",
+        "Content": "<p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.</p>\n\n<ul>\n\t<li>For examples, if <code>arr = [2,<u>3</u>,4]</code>, the median is <code>3</code>.</li>\n\t<li>For examples, if <code>arr = [1,<u>2,3</u>,4]</code>, the median is <code>(2 + 3) / 2 = 2.5</code>.</li>\n</ul>\n\n<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. There is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>\n\n<p>Return <em>the median array for each window in the original array</em>. Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3\n<strong>Output:</strong> [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\n<strong>Explanation:</strong> \nWindow position                Median\n---------------                -----\n[<strong>1  3  -1</strong>] -3  5  3  6  7        1\n 1 [<strong>3  -1  -3</strong>] 5  3  6  7       -1\n 1  3 [<strong>-1  -3  5</strong>] 3  6  7       -1\n 1  3  -1 [<strong>-3  5  3</strong>] 6  7        3\n 1  3  -1  -3 [<strong>5  3  6</strong>] 7        5\n 1  3  -1  -3  5 [<strong>3  6  7</strong>]       6\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,2,3,1,4,2], k = 3\n<strong>Output:</strong> [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,-1,-3,5,3,6,7]\n3",
+        "ExampleTestcases": "[1,3,-1,-3,5,3,6,7]\n3\n[1,2,3,4,2,3,1,4,2]\n3",
+        "Difficulty": "Hard",
+        "Title": "Sliding Window Median",
+        "TitleSlug": "sliding-window-median",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.6K\", \"totalSubmission\": \"529.8K\", \"totalAcceptedRaw\": 205634, \"totalSubmissionRaw\": 529797, \"acRate\": \"38.8%\"}",
+        "Likes": 3499,
+        "Dislikes": 231,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<double> medianSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public double[] medianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def medianSlidingWindow(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: List[float]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number[]}\n */\nvar medianSlidingWindow = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function medianSlidingWindow(nums: number[], k: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public double[] MedianSlidingWindow(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\ndouble* medianSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func medianSlidingWindow(nums []int, k int) []float64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun medianSlidingWindow(nums: IntArray, k: Int): DoubleArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func medianSlidingWindow(_ nums: [Int], _ k: Int) -> [Double] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn median_sliding_window(nums: Vec<i32>, k: i32) -> Vec<f64> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Float[]}\ndef median_sliding_window(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Float[]\n     */\n    function medianSlidingWindow($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<double> medianSlidingWindow(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def medianSlidingWindow(nums: Array[Int], k: Int): Array[Double] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec median_sliding_window(nums :: [integer], k :: integer) :: [float]\n  def median_sliding_window(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec median_sliding_window(Nums :: [integer()], K :: integer()) -> [float()].\nmedian_sliding_window(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (median-sliding-window nums k)\n  (-> (listof exact-integer?) exact-integer? (listof flonum?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:15:09.240796+01:00",
+    "AcRate": "38.8",
+    "TotalSubmissions": 529797,
+    "TotalAccepted": 205634,
+    "AcceptanceRate": 0.38813734317106363,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sliding-window-median/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient solution to this problem uses a combination of the **Sliding Window** pattern and the **Two Heaps** data structure pattern to maintain and find the median in `O(log k)` time for each window.\n\n### Analysis of the Approach\n\n1.  **Core Idea**: The challenge is to efficiently calculate the median of `k` elements as the window slides. Sorting the window at each step (`O(k log k)`) would be too slow, leading to an overall complexity of `O(n * k log k)`. A better approach is to use a data structure that can maintain the window's elements in a semi-sorted state, allowing for quick median calculation, additions, and removals.\n\n2.  **Two Heaps for Median Finding**: A standard pattern for finding the median of a dynamic set of numbers is to use two heaps:\n    *   A **max-heap (`small`)** to store the smaller half of the numbers.\n    *   A **min-heap (`large`)** to store the larger half of the numbers.\n\n    We maintain an invariant where the heaps are balanced in size (or differ by at most one). Specifically, `small` will hold `ceil(k/2)` elements, and `large` will hold `floor(k/2)` elements. With this setup, the median is always available at the top of the heaps:\n    *   If `k` is odd, the median is the top element of `small` (the largest in the smaller half).\n    *   If `k` is even, the median is the average of the tops of `small` and `large`.\n\n3.  **Handling Sliding Window Dynamics**: As the window slides, a new element enters and an old one leaves.\n    *   **Addition**: Adding an element to this two-heap structure can be done in `O(log k)` time by placing it in the correct heap and rebalancing.\n    *   **Removal**: Standard heaps do not support efficient removal of an arbitrary element. This is the trickiest part. We solve this using **lazy removal**. Instead of immediately removing an element from a heap, we add it to a hash map (`to_remove`) that tracks elements pending removal. When we need to access a heap's top element (e.g., to calculate the median), we first check if it's in `to_remove`. If so, we pop it and decrement its count in the map, repeating until a valid element is at the top.\n\n4.  **Balancing Logic**: With lazy removal, we can't rely on `len()` for heap sizes. The key is to use a `balance` factor that tracks the net effect of additions and removals on the ideal heap sizes.\n    *   An element leaving `small` decrements the balance. An element leaving `large` increments it.\n    *   An element entering `small` increments the balance. An element entering `large` decrements it.\n    *   After an element is added and another is removed, we adjust the heaps based on the final `balance` value to restore the size invariant. For example, if `balance` is negative, `small` is relatively smaller than `large`, so we move an element from `large` to `small`.\n\n5.  **Complexity**:\n    *   **Time**: `O(N log k)`. The initial window setup takes `O(k log k)`. Each of the subsequent `N-k` slides involves an addition, a removal (lazy), and balancing, all taking `O(log k)` time.\n    *   **Space**: `O(k)`. The heaps and the `to_remove` map store at most `k` elements (plus some lazily-retained elements).\n\nThis approach is efficient enough for the given constraints.\n\n```python\nimport heapq\nfrom collections import defaultdict\n\nclass Solution:\n    def medianSlidingWindow(self, nums: list[int], k: int) -> list[float]:\n        \"\"\"\n        Solves the sliding window median problem using two heaps and lazy removal.\n        \n        - A max-heap `small` stores the smaller half of the window's elements.\n        - A min-heap `large` stores the larger half.\n        - The heaps are balanced to maintain `len(small) >= len(large)`.\n        - Lazy removal is handled with a hash map `to_remove`.\n        - A `balance` factor tracks size discrepancies during slides to rebalance efficiently.\n        \"\"\"\n        \n        small, large = [], []  # small is a max-heap (values are negated), large is a min-heap\n        to_remove = defaultdict(int)\n        result = []\n\n        # Initialize heaps for the first window\n        initial_window = nums[:k]\n        for i in range(k):\n            heapq.heappush(small, -initial_window[i])\n        \n        # Balance the initial heaps\n        for _ in range(k // 2):\n            val = heapq.heappop(small)\n            heapq.heappush(large, -val)\n\n        # Loop from the end of the first window. `i` is the index of the new element being added.\n        # In each iteration, we calculate the median for the window ending at i-1,\n        # then update the heaps for the window ending at i.\n        for i in range(k, len(nums) + 1):\n            # 1. Clean up invalid elements from the top of the heaps\n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            # 2. Calculate and append the median of the current valid window\n            if k % 2 == 1:\n                result.append(float(-small[0]))\n            else:\n                result.append((-small[0] + large[0]) / 2.0)\n\n            # 3. If we have processed all windows, break the loop\n            if i == len(nums):\n                break\n\n            # 4. Prepare for the next window: remove old element, add new element\n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            # `balance` will track the net change in required heap sizes.\n            # -1 means `small` is one element short.\n            # +1 means `large` is one element short.\n            balance = 0\n            \n            # Mark the outgoing element for lazy removal\n            to_remove[out_num] += 1\n            # Adjust balance based on which heap `out_num` was in\n            if small and out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n\n            # Add the incoming element to the appropriate heap\n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n\n            # 5. Rebalance the heaps based on the net change\n            if balance < 0:  # `small` is short, so move an element from `large`\n                heapq.heappush(small, -heapq.heappop(large))\n            if balance > 0:  # `large` is short, so move an element from `small`\n                heapq.heappush(large, -heapq.heappop(small))\n                \n        return result\n\n```\n\n=== DESIGN ===\nAn efficient solution can be designed using the **Two Heaps with Lazy Removal** approach, tailored for the sliding window context.\n\n### 1. Algorithm Choice\nThe chosen algorithm is the **Two Heaps with Lazy Removal** pattern. This approach is ideal for maintaining the median of a dynamically changing set of numbers, as required by the sliding window. It offers logarithmic time complexity for additions and removals, which is efficient enough for the given constraints.\n\n### 2. Data Structures\n*   **Max-Heap (`small_heap`)**: To store the smaller half of the numbers in the window. In Python, this is implemented using a min-heap with negated values.\n*   **Min-Heap (`large_heap`)**: To store the larger half of the numbers in the window.\n*   **Hash Map (`to_remove`)**: To facilitate lazy removal. It stores elements that have slid out of the window but have not yet been physically removed from the heaps, mapping each number to its count of pending removals.\n\n### 3. Step-by-Step Approach\n1.  **Initialization**:\n    *   Create `small_heap`, `large_heap`, and the `to_remove` map.\n    *   Populate `small_heap` with the first `k` elements from `nums` (as negated values).\n    *   Balance the heaps by moving the `k // 2` largest elements from `small_heap` to `large_heap`. This establishes the core invariant: `small_heap` contains `ceil(k/2)` elements and `large_heap` contains `floor(k/2)` elements.\n\n2.  **Sliding and Calculation Loop**:\n    *   Iterate from `i = k` to `len(nums)`. In each iteration, `i` represents the right boundary of the next window. The current window (for which we are about to calculate the median) is `nums[i-k:i]`.\n    *   **a. Clean Heaps**: Before any calculation, purge invalid \"zombie\" elements from the tops of both heaps. Check if `small_heap.top()` or `large_heap.top()` exists in the `to_remove` map with a positive count. If so, pop the element and decrement its count in the map. Repeat until the tops are valid.\n    *   **b. Find and Store Median**: Calculate the median of the current window using the valid tops of the heaps.\n        *   If `k` is odd, the median is the top of `small_heap`.\n        *   If `k` is even, the median is the average of the tops of `small_heap` and `large_heap`.\n        *   Append the calculated median to the `result` list.\n    *   **c. Termination Check**: If the loop index `i` has reached the end of `nums`, it means the last window's median has been calculated. Break the loop.\n    *   **d. Prepare for Next Slide**:\n        *   Identify the element leaving the window (`out_num = nums[i-k]`) and the element entering (`in_num = nums[i]`).\n        *   Use a `balance` counter, initialized to `0`, to track the net flow of elements between the two partitions (small half vs. large half).\n    *   **e. Update State and Balance**:\n        *   **Removal**: Mark `out_num` for lazy removal by incrementing its count in `to_remove`. Update the `balance` factor: if `out_num` belonged to the `small` partition, decrement `balance`; if it belonged to `large`, increment `balance`.\n        *   **Addition**: Add `in_num` to the appropriate heap. If `in_num` is smaller than or equal to the top of `small_heap`, add it to `small_heap` and increment `balance`; otherwise, add it to `large_heap` and decrement `balance`.\n    *   **f. Rebalance Heaps**: The `balance` counter will now be `0`, `+2`, or `-2`.\n        *   If `balance` is positive (`+2`), `small_heap` has a surplus. Move one element from `small_heap` to `large_heap` to restore balance.\n        *   If `balance` is negative (`-2`), `small_heap` has a deficit. Move one element from `large_heap` to `small_heap`.\n\n3.  **Return Result**: After the loop finishes, return the `result` list containing the medians of all windows.\n\n### 4. Time Complexity\n**O(N log k)**: The main loop runs approximately `N` times. Inside the loop, heap push/pop operations take `O(log k)` time. The heap cleanup (lazy removal) might pop multiple elements in one iteration, but since each of the `N` numbers is pushed and popped from the heaps at most once over the entire algorithm, the amortized cost per slide remains `O(log k)`.\n\n### 5. Space Complexity\n**O(k)**: The two heaps store the `k` elements of the current window. The `to_remove` hash map can, in the worst case, store up to `N-k` distinct elements if they are all unique. However, the number of elements in the heaps with pending removals is bounded. The total space is dominated by the elements related to the window, making it proportional to `k`.\n\n### 6. Pseudocode\n\n```pseudocode\nfunction medianSlidingWindow(nums, k):\n    small_heap = max_heap() // Stores the smaller half\n    large_heap = min_heap() // Stores the larger half\n    to_remove = hash_map(default=0)\n    result = []\n\n    # Initialize heaps with the first k elements\n    for i from 0 to k-1:\n        push -nums[i] to small_heap\n    for _ from 0 to (k // 2) - 1:\n        push -pop(small_heap) to large_heap\n\n    # Loop through all windows\n    for i from k to len(nums):\n        # 1. Clean tops of heaps\n        while small_heap is not empty and to_remove[-small_heap.top()] > 0:\n            to_remove[-small_heap.top()] -= 1\n            pop(small_heap)\n        while large_heap is not empty and to_remove[large_heap.top()] > 0:\n            to_remove[large_heap.top()] -= 1\n            pop(large_heap)\n        \n        # 2. Calculate and record median for the window ending at i-1\n        if k is odd:\n            result.append(float(-small_heap.top()))\n        else:\n            result.append((-small_heap.top() + large_heap.top()) / 2.0)\n            \n        # 3. Stop if this was the last window\n        if i == len(nums):\n            break\n            \n        # 4. Slide window: process out_num = nums[i-k] and in_num = nums[i]\n        out_num = nums[i-k]\n        in_num = nums[i]\n        \n        balance = 0\n        \n        # Determine balance change from removing out_num\n        to_remove[out_num] += 1\n        if out_num <= -small_heap.top():\n            balance -= 1\n        else:\n            balance += 1\n            \n        # Add in_num and determine balance change\n        if small_heap is not empty and in_num <= -small_heap.top():\n            push -in_num to small_heap\n            balance += 1\n        else:\n            push in_num to large_heap\n            balance -= 1\n            \n        # 5. Rebalance based on the net change\n        if balance < 0: // small_heap is short by one\n            push -pop(large_heap) to small_heap\n        if balance > 0: // small_heap has one extra\n            push -pop(small_heap) to large_heap\n            \n    return result\n```\n\n```python\nimport heapq\nfrom collections import defaultdict\nfrom typing import List\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        small = []\n        large = []\n        to_remove = defaultdict(int)\n        result = []\n\n        for i in range(k):\n            heapq.heappush(small, -nums[i])\n        \n        for _ in range(k // 2):\n            val = -heapq.heappop(small)\n            heapq.heappush(large, val)\n            \n        for i in range(k, len(nums) + 1):\n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            if k % 2 == 1:\n                median = float(-small[0])\n            else:\n                median = (-small[0] + large[0]) / 2.0\n            result.append(median)\n\n            if i == len(nums):\n                break\n\n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            balance = 0\n            \n            to_remove[out_num] += 1\n            if out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n            \n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n            \n            if balance < 0:\n                val = heapq.heappop(large)\n                heapq.heappush(small, -val)\n            \n            if balance > 0:\n                val = -heapq.heappop(small)\n                heapq.heappush(large, val)\n                \n        return result\n```\n\n=== IMPLEMENTATION ===\nAn elegant and efficient solution to this problem uses a combination of the **Sliding Window** pattern and the **Two Heaps** data structure pattern to maintain and find the median in `O(log k)` time for each window.\n### Analysis of the Approach\n1.  **Core Idea**: The challenge is to efficiently calculate the median of `k` elements as the window slides. Sorting the window at each step (`O(k log k)`) would be too slow, leading to an overall complexity of `O(n * k log k)`. A better approach is to use a data structure that can maintain the window's elements in a semi-sorted state, allowing for quick median calculation, additions, and removals.\n2.  **Two Heaps for Median Finding**: A standard pattern for finding the median of a dynamic set of numbers is to use two heaps:\n    *   A **max-heap (`small`)** to store the smaller half of the numbers.\n    *   A **min-heap (`large`)** to store the larger half of the numbers.\n    We maintain an invariant where the heaps are balanced in size (or differ by at most one). Specifically, `small` will hold `ceil(k/2)` elements, and `large` will hold `floor(k/2)` elements. With this setup, the median is always available at the top of the heaps:\n    *   If `k` is odd, the median is the top element of `small` (the largest in the smaller half).\n    *   If `k` is even, the median is the average of the tops of `small` and `large`.\n3.  **Handling Sliding Window Dynamics**: As the window slides, a new element enters and an old one leaves.\n    *   **Addition**: Adding an element to this two-heap structure can be done in `O(log k)` time by placing it in the correct heap and rebalancing.\n    *   **Removal**: Standard heaps do not support efficient removal of an arbitrary element. This is the trickiest part. We solve this using **lazy removal**. Instead of immediately removing an element from a heap, we add it to a hash map (`to_remove`) that tracks elements pending removal. When we need to access a heap's top element (e.g., to calculate the median), we first check if it's in `to_remove`. If so, we pop it and decrement its count in the map, repeating until a valid element is at the top.\n4.  **Balancing Logic**: With lazy removal, we can't rely on `len()` for heap sizes. The key is to use a `balance` factor that tracks the net effect of additions and removals on the ideal heap sizes.\n    *   An element leaving `small` decrements the balance. An element leaving `large` increments it.\n    *   An element entering `small` increments the balance. An element entering `large` decrements it.\n    *   After an element is added and another is removed, we adjust the heaps based on the final `balance` value to restore the size invariant. For example, if `balance` is negative, `small` is relatively smaller than `large`, so we move an element from `large` to `small`.\n5.  **Complexity**:\n    *   **Time**: `O(N log k)`. The initial window setup takes `O(k log k)`. Each of the subsequent `N-k` slides involves an addition, a removal (lazy), and balancing, all taking `O(log k)` time.\n    *   **Space**: `O(k)`. The heaps and the `to_remove` map store at most `k` elements (plus some lazily-retained elements).\nThis approach is efficient enough for the given constraints.\n```python\nimport heapq\nfrom collections import defaultdict\n\nclass Solution:\n    def medianSlidingWindow(self, nums: list[int], k: int) -> list[float]:\n        small = []\n        large = []\n        to_remove = defaultdict(int)\n        result = []\n\n        for i in range(k):\n            heapq.heappush(small, -nums[i])\n        \n        for _ in range(k // 2):\n            val = -heapq.heappop(small)\n            heapq.heappush(large, val)\n\n        for i in range(k, len(nums) + 1):\n            \n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n                \n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            if k % 2 == 1:\n                result.append(float(-small[0]))\n            else:\n                result.append((-small[0] + large[0]) / 2.0)\n\n            if i == len(nums):\n                break\n\n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            balance = 0\n            \n            to_remove[out_num] += 1\n            if out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n            \n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n            \n            if balance > 0:\n                val = -heapq.heappop(small)\n                heapq.heappush(large, val)\n            \n            if balance < 0:\n                val = heapq.heappop(large)\n                heapq.heappush(small, -val)\n                \n        return result\n```\n\n=== VERIFICATION ===\n```python\nimport heapq\nfrom collections import defaultdict\nfrom typing import List\n\nclass Solution:\n    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:\n        small = []\n        large = []\n        to_remove = defaultdict(int)\n        result = []\n\n        for i in range(k):\n            heapq.heappush(small, -nums[i])\n        \n        for _ in range(k // 2):\n            val = -heapq.heappop(small)\n            heapq.heappush(large, val)\n        \n        for i in range(k, len(nums) + 1):\n            \n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n                \n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            if k % 2 == 1:\n                result.append(float(-small[0]))\n            else:\n                result.append((-small[0] + large[0]) / 2.0)\n\n            if i == len(nums):\n                break\n                \n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            balance = 0\n            \n            to_remove[out_num] += 1\n            if out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n            \n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n            \n            if balance > 0:\n                val = -heapq.heappop(small)\n                heapq.heappush(large, val)\n            \n            if balance < 0:\n                val = heapq.heappop(large)\n                heapq.heappush(small, -val)\n                \n        return result\n```\n\n",
+      "TypedCode": "\nimport heapq\nfrom collections import defaultdict\n\nclass Solution:\n    def medianSlidingWindow(self, nums: list[int], k: int) -> list[float]:\n        small = []\n        large = []\n        to_remove = defaultdict(int)\n        result = []\n\n        for i in range(k):\n            heapq.heappush(small, -nums[i])\n        \n        for _ in range(k // 2):\n            val = -heapq.heappop(small)\n            heapq.heappush(large, val)\n\n        for i in range(k, len(nums) + 1):\n            \n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n                \n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            if k % 2 == 1:\n                result.append(float(-small[0]))\n            else:\n                result.append((-small[0] + large[0]) / 2.0)\n\n            if i == len(nums):\n                break\n\n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            balance = 0\n            \n            to_remove[out_num] += 1\n            if out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n            \n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n            \n            if balance > 0:\n                val = -heapq.heappop(small)\n                heapq.heappush(large, val)\n            \n            if balance < 0:\n                val = heapq.heappop(large)\n                heapq.heappush(small, -val)\n                \n        return result\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 644291739083,
+      "SolvedAt": "2025-11-21T17:20:32.56694+01:00",
+      "PromptTokens": 14034,
+      "OutputTokens": 77037
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "480",
+        "typed_code": "\nimport heapq\nfrom collections import defaultdict\n\nclass Solution:\n    def medianSlidingWindow(self, nums: list[int], k: int) -> list[float]:\n        small = []\n        large = []\n        to_remove = defaultdict(int)\n        result = []\n\n        for i in range(k):\n            heapq.heappush(small, -nums[i])\n        \n        for _ in range(k // 2):\n            val = -heapq.heappop(small)\n            heapq.heappush(large, val)\n\n        for i in range(k, len(nums) + 1):\n            \n            while small and to_remove[-small[0]] > 0:\n                to_remove[-small[0]] -= 1\n                heapq.heappop(small)\n                \n            while large and to_remove[large[0]] > 0:\n                to_remove[large[0]] -= 1\n                heapq.heappop(large)\n\n            if k % 2 == 1:\n                result.append(float(-small[0]))\n            else:\n                result.append((-small[0] + large[0]) / 2.0)\n\n            if i == len(nums):\n                break\n\n            out_num = nums[i - k]\n            in_num = nums[i]\n            \n            balance = 0\n            \n            to_remove[out_num] += 1\n            if out_num <= -small[0]:\n                balance -= 1\n            else:\n                balance += 1\n            \n            if small and in_num <= -small[0]:\n                heapq.heappush(small, -in_num)\n                balance += 1\n            else:\n                heapq.heappush(large, in_num)\n                balance -= 1\n            \n            if balance > 0:\n                val = -heapq.heappop(small)\n                heapq.heappush(large, val)\n            \n            if balance < 0:\n                val = heapq.heappop(large)\n                heapq.heappush(small, -val)\n                \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:44:23+01:00"
+    }
+  }
+}

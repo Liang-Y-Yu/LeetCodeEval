@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1832",
+        "questionId": "1960",
+        "Content": "<p>A <strong>pangram</strong> is a sentence where every letter of the English alphabet appears at least once.</p>\n\n<p>Given a string <code>sentence</code> containing only lowercase English letters, return<em> </em><code>true</code><em> if </em><code>sentence</code><em> is a <strong>pangram</strong>, or </em><code>false</code><em> otherwise.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> sentence = &quot;thequickbrownfoxjumpsoverthelazydog&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> sentence contains at least one of every letter of the English alphabet.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> sentence = &quot;leetcode&quot;\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= sentence.length &lt;= 1000</code></li>\n\t<li><code>sentence</code> consists of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"thequickbrownfoxjumpsoverthelazydog\"",
+        "ExampleTestcases": "\"thequickbrownfoxjumpsoverthelazydog\"\n\"leetcode\"",
+        "Difficulty": "Easy",
+        "Title": "Check if the Sentence Is Pangram",
+        "TitleSlug": "check-if-the-sentence-is-pangram",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"498.6K\", \"totalSubmission\": \"593.2K\", \"totalAcceptedRaw\": 498584, \"totalSubmissionRaw\": 593216, \"acRate\": \"84.0%\"}",
+        "Likes": 2961,
+        "Dislikes": 64,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkIfPangram(string sentence) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkIfPangram(String sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkIfPangram(self, sentence):\n        \"\"\"\n        :type sentence: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} sentence\n * @return {boolean}\n */\nvar checkIfPangram = function(sentence) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkIfPangram(sentence: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckIfPangram(string sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkIfPangram(char* sentence) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkIfPangram(sentence string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkIfPangram(sentence: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkIfPangram(_ sentence: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_if_pangram(sentence: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} sentence\n# @return {Boolean}\ndef check_if_pangram(sentence)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $sentence\n     * @return Boolean\n     */\n    function checkIfPangram($sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkIfPangram(String sentence) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkIfPangram(sentence: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_if_pangram(sentence :: String.t) :: boolean\n  def check_if_pangram(sentence) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_if_pangram(Sentence :: unicode:unicode_binary()) -> boolean().\ncheck_if_pangram(Sentence) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-if-pangram sentence)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:02:37.233656+01:00",
+    "AcRate": "84.0",
+    "TotalSubmissions": 593216,
+    "TotalAccepted": 498584,
+    "AcceptanceRate": 0.8404763189125041,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: A pangram is a sentence where every letter of the English alphabet appears at least once.\nGiven a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.\n\u00a0\nExample 1:\nInput: sentence = \"thequickbrownfoxjumpsoverthelazydog\"\nOutput: true\nExplanation: sentence contains at least one of every letter of the English alphabet.\nExample 2:\nInput: sentence = \"leetcode\"\nOutput: false\n\u00a0\nConstraints:\n\t1 <= sentence.length <= 1000\n\tsentence consists of lowercase English letters.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        seen = set()\n        for char in sentence:\n            seen.add(char)\n        return len(seen) == 26\n```",
+      "TypedCode": "\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        seen = set()\n        for char in sentence:\n            seen.add(char)\n        return len(seen) == 26\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 1474824791,
+      "SolvedAt": "2025-11-20T21:13:35.703607+01:00",
+      "PromptTokens": 328,
+      "OutputTokens": 50
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1960",
+        "typed_code": "\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        seen = set()\n        for char in sentence:\n            seen.add(char)\n        return len(seen) == 26\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:41:14+01:00"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "309",
+        "questionId": "309",
+        "Content": "<p>You are given an array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i<sup>th</sup></code> day.</p>\n\n<p>Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times) with the following restrictions:</p>\n\n<ul>\n\t<li>After you sell your stock, you cannot buy stock on the next day (i.e., cooldown one day).</li>\n</ul>\n\n<p><strong>Note:</strong> You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [1,2,3,0,2]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> transactions = [buy, sell, cooldown, buy, sell]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [1]\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= prices.length &lt;= 5000</code></li>\n\t<li><code>0 &lt;= prices[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,0,2]",
+        "ExampleTestcases": "[1,2,3,0,2]\n[1]",
+        "Difficulty": "Medium",
+        "Title": "Best Time to Buy and Sell Stock with Cooldown",
+        "TitleSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"711.8K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 711815, \"totalSubmissionRaw\": 1161056, \"acRate\": \"61.3%\"}",
+        "Likes": 9930,
+        "Dislikes": 347,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxProfit(vector<int>& prices) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxProfit(int[] prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxProfit(self, prices):\n        \"\"\"\n        :type prices: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxProfit(prices: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxProfit(int[] prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxProfit(int* prices, int pricesSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxProfit(prices []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxProfit(prices: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxProfit(_ prices: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_profit(prices: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} prices\n# @return {Integer}\ndef max_profit(prices)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $prices\n     * @return Integer\n     */\n    function maxProfit($prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxProfit(List<int> prices) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxProfit(prices: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_profit(prices :: [integer]) :: integer\n  def max_profit(prices) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_profit(Prices :: [integer()]) -> integer().\nmax_profit(Prices) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-profit prices)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:23:34.061883+01:00",
+    "AcRate": "61.3",
+    "TotalSubmissions": 1161056,
+    "TotalAccepted": 711815,
+    "AcceptanceRate": 0.6130755105696882,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient solution for this problem uses Dynamic Programming with space optimization. The problem can be modeled as a finite state machine where on any given day, we can be in one of three states:\n\n1.  **`hold`**: We are holding a share of the stock.\n2.  **`sold`**: We have just sold a share, so we are in a cooldown period.\n3.  **`rest`**: We are not holding a share and are not in a cooldown period, so we are free to buy.\n\nLet's define `hold`, `sold`, and `rest` as the maximum profit achievable ending in each of these states. We can establish recurrence relations for each state for day `i` based on the states of day `i-1`:\n\n*   **`hold[i]`**: To be holding a stock on day `i`, we could have either been holding on day `i-1` and did nothing, OR we were in the `rest` state on day `i-1` and bought the stock on day `i`.\n    `hold[i] = max(hold[i-1], rest[i-1] - prices[i])`\n\n*   **`sold[i]`**: To have sold on day `i`, we must have been holding on day `i-1`.\n    `sold[i] = hold[i-1] + prices[i]`\n\n*   **`rest[i]`**: To be in the `rest` state on day `i`, we could have either been `rest`ing on day `i-1` and did nothing, OR we were in the `sold` state on day `i-1` and our cooldown period is now over.\n    `rest[i] = max(rest[i-1], sold[i-1])`\n\nThe final maximum profit will be the maximum of the profits in the `sold` and `rest` states on the last day, as holding a stock at the end is never optimal (profit is not realized).\n\nSince the calculations for day `i` only depend on the values from day `i-1`, we can optimize the space complexity from O(N) to O(1) by only storing the values for the previous day.\n\nWe initialize the states before the first day as follows:\n- `hold = -infinity`: It's impossible to hold a stock before any trading.\n- `sold = -infinity`: It's impossible to have sold a stock before any trading.\n- `rest = 0`: The initial state with zero profit.\n\nWe can then iterate through the prices one by one, updating these three state variables. Python's tuple assignment provides a concise way to handle the state transitions, as all expressions on the right-hand side are evaluated with the old state values before any variables on the left-hand side are updated.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        \"\"\"\n        Calculates the maximum profit from stock trading with a cooldown period.\n\n        This solution uses dynamic programming with space optimization, modeling the problem\n        as a state machine with three states: holding a stock, just sold (cooldown),\n        and resting (free to buy).\n\n        States:\n        - hold: Maximum profit if ending the day holding a stock.\n        - sold: Maximum profit if ending the day by selling a stock.\n        - rest: Maximum profit if ending the day with no stock and not in cooldown.\n\n        Transitions (for each price in prices):\n        - A new `hold` value is the max of keeping the old `hold` or buying from the `rest` state.\n        - A new `sold` value is achieved by selling from the `hold` state.\n        - A new `rest` value is the max of staying in `rest` or finishing a cooldown from the `sold` state.\n\n        The space is optimized to O(1) by using variables instead of DP arrays, and tuple\n        assignment elegantly handles simultaneous state updates.\n        \"\"\"\n        \n        # Initial states before any transactions\n        # hold: Can't hold before day one, so profit is negative infinity.\n        # sold: Can't have sold before day one, so profit is negative infinity.\n        # rest: Initial state with 0 profit.\n        hold, sold, rest = -float('inf'), -float('inf'), 0\n        \n        for price in prices:\n            # The tuple assignment evaluates all right-hand side expressions\n            # with the values from the previous day before updating any variables.\n            # This is equivalent to using temporary variables for old state values.\n            hold, sold, rest = max(hold, rest - price), hold + price, max(rest, sold)\n            \n        # The final max profit is when we are not holding a stock,\n        # which can be either the 'rest' or 'sold' state.\n        return max(rest, sold)\n\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        hold, sold, rest = -float('inf'), -float('inf'), 0\n        \n        for price in prices:\n            hold, sold, rest = max(hold, rest - price), hold + price, max(rest, sold)\n            \n        return max(rest, sold)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maxProfit(self, prices: list[int]) -> int:\n        hold, sold, rest = -float('inf'), -float('inf'), 0\n        \n        for price in prices:\n            hold, sold, rest = max(hold, rest - price), hold + price, max(rest, sold)\n            \n        return max(rest, sold)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\nclass Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        hold, sold, rest = -float('inf'), 0, 0\n        \n        for price in prices:\n            # Previous state values before the update\n            prev_sold = sold\n            \n            # Update sold: Must have held stock yesterday and sell today\n            sold = hold + price\n            \n            # Update hold: Can either keep holding or buy today (from rest state)\n            hold = max(hold, rest - price)\n            \n            # Update rest: Can either keep resting or yesterday was a sold day (cooldown)\n            rest = max(rest, prev_sold)\n            \n        return max(rest, sold)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maxProfit(self, prices: list[int]) -> int:\n        hold, sold, rest = -float('inf'), -float('inf'), 0\n        \n        for price in prices:\n            hold, sold, rest = max(hold, rest - price), hold + price, max(rest, sold)\n            \n        return max(rest, sold)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 331423790208,
+      "SolvedAt": "2025-11-21T08:47:28.6237+01:00",
+      "PromptTokens": 5900,
+      "OutputTokens": 38509
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "309",
+        "typed_code": "\nclass Solution:\n    def maxProfit(self, prices: list[int]) -> int:\n        hold, sold, rest = -float('inf'), -float('inf'), 0\n        \n        for price in prices:\n            hold, sold, rest = max(hold, rest - price), hold + price, max(rest, sold)\n            \n        return max(rest, sold)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:16:18+01:00"
+    }
+  }
+}

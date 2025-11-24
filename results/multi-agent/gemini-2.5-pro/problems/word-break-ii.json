@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "140",
+        "questionId": "140",
+        "Content": "<p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>\n\n<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsanddog&quot;, wordDict = [&quot;cat&quot;,&quot;cats&quot;,&quot;and&quot;,&quot;sand&quot;,&quot;dog&quot;]\n<strong>Output:</strong> [&quot;cats and dog&quot;,&quot;cat sand dog&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pineapplepenapple&quot;, wordDict = [&quot;apple&quot;,&quot;pen&quot;,&quot;applepen&quot;,&quot;pine&quot;,&quot;pineapple&quot;]\n<strong>Output:</strong> [&quot;pine apple pen apple&quot;,&quot;pineapple pen apple&quot;,&quot;pine applepen apple&quot;]\n<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;,&quot;dog&quot;,&quot;sand&quot;,&quot;and&quot;,&quot;cat&quot;]\n<strong>Output:</strong> []\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>\n\t<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>\n\t<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>\n\t<li>Input is generated in a way that the length of the answer doesn&#39;t exceed&nbsp;10<sup>5</sup>.</li>\n</ul>\n",
+        "SampleTestCase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+        "ExampleTestcases": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\n\"pineapplepenapple\"\n[\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\n\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Break II",
+        "TitleSlug": "word-break-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"784.4K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 784415, \"totalSubmissionRaw\": 1437245, \"acRate\": \"54.6%\"}",
+        "Likes": 7493,
+        "Dislikes": 545,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> wordBreak(String s, List<String> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def wordBreak(self, s, wordDict):\n        \"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function wordBreak(s: string, wordDict: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func wordBreak(s string, wordDict []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun wordBreak(s: String, wordDict: List<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn word_break(s: String, word_dict: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String[]} word_dict\n# @return {String[]}\ndef word_break(s, word_dict)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $wordDict\n     * @return String[]\n     */\n    function wordBreak($s, $wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> wordBreak(String s, List<String> wordDict) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec word_break(s :: String.t, word_dict :: [String.t]) :: [String.t]\n  def word_break(s, word_dict) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_break(S :: unicode:unicode_binary(), WordDict :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nword_break(S, WordDict) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (word-break s wordDict)\n  (-> string? (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:09.102829+01:00",
+    "AcRate": "54.6",
+    "TotalSubmissions": 1437245,
+    "TotalAccepted": 784415,
+    "AcceptanceRate": 0.5457768160612839,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-break-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the \"Word Break II\" problem:\n\n### 1. Problem Type Classification\nThis problem falls into the following categories:\n- **String Manipulation**: The core task is to partition a string based on a given dictionary.\n- **Dynamic Programming**: The problem exhibits optimal substructure and overlapping subproblems. The solution for breaking a string `s` can be built upon the solutions for breaking its suffixes.\n- **Backtracking / Recursion with Memoization**: This is the most direct way to implement the DP approach. We recursively explore all possible ways to partition the string, and use memoization to store and retrieve results for subproblems (substrings) that have already been solved, avoiding redundant computations.\n\n### 2. Key Patterns & Algorithms\n- **Top-Down Dynamic Programming (Recursion with Memoization)**: This is the primary pattern. A function, say `solve(substring)`, is defined to find all possible sentences for a given `substring`.\n    -   **Base Case**: If the `substring` is empty, it signifies a successful partition.\n    -   **Recursive Step**: Iterate through all prefixes of the `substring`. If a prefix is a word in the dictionary, recursively call the function on the remaining suffix and combine the results.\n    -   **Memoization**: A hash map (or dictionary in Python) is used to cache the results for each `substring` to prevent re-computation. The key can be the substring itself or its starting index in the original string.\n-   **Path Finding in a Directed Acyclic Graph (DAG)**: The problem can be modeled as finding all paths from a start node to an end node in a DAG. The nodes are the indices `0` to `n` (where `n` is the length of `s`), and a directed edge exists from `i` to `j` if the substring `s[i:j]` is a valid word in the dictionary. The goal is to find all paths from node `0` to node `n`.\n-   **Pruning (Optimization)**: Before starting the expensive recursive search for all sentences, a preliminary check can determine if the string `s` is breakable *at all*. This can be done using a simpler boolean DP approach (like in the \"Word Break I\" problem). If the string is not breakable, we can return an empty list immediately, significantly speeding up cases with no solution.\n\n### 3. Constraints Analysis\n-   `s.length <= 20`: This is a critical constraint. A small input size for `s` suggests that a solution with a time complexity that is exponential in `s.length` might be acceptable. Without memoization, a naive recursive solution would be too slow (`~O(2^n)`).\n-   `wordDict.length <= 1000`, `wordDict[i].length <= 10`: The dictionary size and word length are moderate. Using a hash set for the dictionary provides fast lookups (average `O(L)` where `L` is word length).\n-   `len(answer) <= 10^5`: The number of possible sentences can be large but is bounded. This implies that the total runtime will be dominated by the construction of the output, and a solution whose complexity is proportional to the output size is likely intended.\n\n-   **Time Complexity**: With memoization, each subproblem (i.e., `dfs(i)` for each starting index `i`) is solved only once. The work inside each `dfs(i)` involves a loop and string operations. The overall complexity becomes roughly `O(n^2 * L + total_output_length)`, where `n` is `s.length` and `L` is max word length. The `n^2 * L` term can be attributed to the preliminary DP check and the loops within the memoized recursion, while the output generation part dominates if the number of solutions is large.\n-   **Space Complexity**: Space is needed for the recursion stack, the memoization table, and the final output. The memoization table can store lists of strings for each of the `n` suffixes, so its size is also related to the size of the intermediate and final results. The total space complexity will be `O(n^2 + total_output_length)`.\n\n### 4. Edge Cases\n-   **No Solution**: The input string `s` cannot be segmented into dictionary words (e.g., \"catsandog\"). The function must return an empty list. The DP pre-check is very effective for this.\n-   **String is a Dictionary Word**: If `s` itself is in `wordDict`, one of the results must be `s` itself.\n-   **Empty `wordDict`**: If the dictionary is empty and `s` is not, no solution is possible.\n-   **Overlapping Words**: The dictionary may contain words that are prefixes of other words (e.g., \"pine\", \"pineapple\"), leading to multiple branching possibilities in the search.\n\n### 5. Input/Output Analysis\n-   **Input**:\n    -   `s`: A non-empty string of lowercase English letters.\n    -   `wordDict`: A list of unique, non-empty strings of lowercase English letters.\n-   **Output**:\n    -   A `List[str]`, where each string is a space-separated sequence of words from `wordDict` that reconstructs `s`.\n    -   The order of the sentences in the output list does not matter.\n    -   If no such sentence can be formed, an empty list `[]` should be returned.\n\n### 6. Difficulty Assessment\n-   **Medium to Hard**: The problem is more complex than its predecessor, \"Word Break I\". While \"Word Break I\" only requires a boolean answer (is it possible?), this problem requires generating *all* valid solutions.\n-   **Challenges**:\n    -   Designing a recursive structure that can explore all possibilities without getting trapped in cycles or exponential re-computation (hence the need for memoization).\n    -   Managing the state and logistics of constructing the output sentences (e.g., handling spaces correctly, combining results from subproblems).\n    -   Identifying the need for and implementing the DP pre-check optimization, which is crucial for passing test cases that are designed to time out naive backtracking solutions.\n\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        dp = [False] * (n + 1)\n        dp[n] = True\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                if s[i:j+1] in word_set and dp[j+1]:\n                    dp[i] = True\n                    break\n        \n        if not dp[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            if start_index in memo:\n                return memo[start_index]\n            \n            if start_index == n:\n                return [\"\"]\n\n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                if word in word_set and dp[end_index + 1]:\n                    list_of_tails = dfs(end_index + 1)\n                    for tail in list_of_tails:\n                        if tail:\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            sentences.append(word)\n            \n            memo[start_index] = sentences\n            return sentences\n\n        return dfs(0)\n```\n\n=== DESIGN ===\nAn elegant and efficient solution for this problem uses a combination of Dynamic Programming for optimization and a recursive (backtracking) approach with memoization to find all possible sentences.\n\n### 1. Algorithm Choice\n\nThe chosen algorithm is **Top-Down Dynamic Programming with Memoization**, often implemented as a recursive backtracking function. This approach is augmented with a crucial optimization: a preliminary \"Word Break I\"-style bottom-up DP check to quickly determine if the string is breakable at all. This pre-check prunes entire branches of the search space, especially for inputs with no solutions.\n\n### 2. Step-by-Step Approach\n\n1.  **Preprocessing**: Convert the `wordDict` list into a hash set for constant-time average word lookups.\n2.  **Pruning (Pre-check)**: Create a boolean DP array, `breakable`, of size `n+1` (where `n` is the length of `s`). `breakable[i]` will be `True` if the suffix `s[i:]` can be segmented.\n    *   Initialize `breakable[n]` to `True`, as an empty string is always valid.\n    *   Iterate backwards from `i = n-1` to `0`. For each `i`, check prefixes `s[i:j+1]`. If a prefix is a valid word and the remaining suffix `s[j+1:]` is breakable (i.e., `breakable[j+1]` is `True`), then mark `breakable[i]` as `True` and move to the next `i`.\n    *   If `breakable[0]` is `False` after this process, no solution exists. Return an empty list immediately.\n3.  **Recursive Backtracking (DFS)**: Define a recursive helper function, `dfs(start_index)`, that returns all possible valid sentences for the suffix `s[start_index:]`.\n    *   **Memoization**: Use a dictionary `memo` to cache the results for each `start_index` to avoid re-computation.\n    *   **Base Case**: If `start_index` reaches the end of the string (`n`), it signifies a successful segmentation. Return a list containing a single empty string `[\"\"]`, which serves as a sentinel for the calling function.\n    *   **Recursive Step**: Iterate through all possible end indices `end_index` from `start_index`.\n        *   Form a `word` from `s[start_index : end_index+1]`.\n        *   If `word` is in the dictionary and `breakable[end_index+1]` is `True` (an additional pruning step), recursively call `dfs(end_index + 1)`.\n        *   For each string `tail` returned from the recursive call, form a new sentence by prepending the current `word` (e.g., `word + \" \" + tail`). If `tail` is the empty sentinel string, the new sentence is just the `word`.\n    *   Store the list of generated sentences in `memo` and return it.\n4.  **Initiate Search**: Call `dfs(0)` to start the process from the beginning of the string and return the result.\n\n### 3. Data Structures\n\n*   **`set`**: To store `wordDict` for efficient `O(1)` average time complexity lookups.\n*   **`list[bool]`**: The `breakable` array for the initial DP optimization.\n*   **`dict`**: The `memo` dictionary for memoization, mapping start indices to lists of generated sentences.\n\n### 4. Time Complexity\n\n*   **O(n\u00b2 * L + total_output_length)** where `n` is the length of `s` and `L` is the max word length. The `n\u00b2 * L` term comes from the pre-check DP. The recursive part is bounded by the number of subproblems (`n`) and the work done for each, which is dominated by constructing the output sentences.\n\n### 5. Space Complexity\n\n*   **O(n\u00b2 + total_output_length)**. This includes space for the `breakable` array (`O(n)`), recursion stack (`O(n)`), and the `memo` cache, which stores intermediate sentence lists.\n\n### 6. Pseudocode\n\n```pseudocode\nfunction wordBreak(s, wordDict):\n    word_set = new Set(wordDict)\n    n = length(s)\n    \n    // Step 2: Pruning pre-check\n    breakable = new Array(n + 1) filled with false\n    breakable[n] = true\n    for i from n-1 down to 0:\n        for j from i to n-1:\n            if s[i to j] is in word_set and breakable[j+1]:\n                breakable[i] = true\n                break\n    if not breakable[0]:\n        return []\n\n    memo = new Map()\n\n    // Step 3: Recursive backtracking with memoization\n    function dfs(start):\n        if start is in memo: return memo[start]\n        if start == n: return [\"\"] // Base case\n\n        results = []\n        for end from start to n-1:\n            word = s[start to end]\n            if word is in word_set and breakable[end+1]:\n                tails = dfs(end + 1)\n                for tail in tails:\n                    if tail == \"\":\n                        results.append(word)\n                    else:\n                        results.append(word + \" \" + tail)\n        \n        memo[start] = results\n        return results\n\n    // Step 4: Initiate search\n    return dfs(0)\n```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        breakable = [False] * (n + 1)\n        breakable[n] = True\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                if s[i:j+1] in word_set and breakable[j+1]:\n                    breakable[i] = True\n                    break\n        \n        if not breakable[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            if start_index in memo:\n                return memo[start_index]\n            \n            if start_index == n:\n                return [\"\"]\n            \n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                if word in word_set and breakable[end_index + 1]:\n                    list_of_tails = dfs(end_index + 1)\n                    for tail in list_of_tails:\n                        if tail:\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            sentences.append(word)\n            \n            memo[start_index] = sentences\n            return sentences\n            \n        return dfs(0)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: list[str]) -> list[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        breakable = [False] * (n + 1)\n        breakable[n] = True\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                if s[i:j+1] in word_set and breakable[j+1]:\n                    breakable[i] = True\n                    break\n        \n        if not breakable[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            if start_index in memo:\n                return memo[start_index]\n            \n            if start_index == n:\n                return [\"\"]\n            \n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                if word in word_set and breakable[end_index + 1]:\n                    list_of_tails = dfs(end_index + 1)\n                    \n                    for tail in list_of_tails:\n                        if tail:\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            sentences.append(word)\n            \n            memo[start_index] = sentences\n            return sentences\n            \n        return dfs(0)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        # This part is an optimization.\n        # We use a DP array to check if a solution is possible at all for any suffix s[i:].\n        # breakable[i] is True if s[i:] can be segmented.\n        breakable = [False] * (n + 1)\n        breakable[n] = True  # An empty string can always be segmented.\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                # Check if s[i:j+1] is a word and the rest of the string s[j+1:] is breakable.\n                if s[i:j+1] in word_set and breakable[j+1]:\n                    breakable[i] = True\n                    break  # Found a way to break s[i:], so we can move to the next i.\n        \n        # If the entire string s[0:] is not breakable, return early.\n        if not breakable[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            # If we've already computed the results for this suffix, return them.\n            if start_index in memo:\n                return memo[start_index]\n            \n            # Base case: if we've reached the end of the string, it means we've found a valid\n            # segmentation. Return a list with an empty string to signal this to the caller.\n            if start_index == n:\n                return [\"\"]\n            \n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                # We check if the current prefix is a valid word AND if the remaining suffix\n                # is breakable (using our pre-computed DP array). This prunes the search.\n                if word in word_set and breakable[end_index + 1]:\n                    # Recursively find all segmentations for the rest of the string.\n                    list_of_tails = dfs(end_index + 1)\n                    \n                    # For each valid tail, prepend the current word.\n                    for tail in list_of_tails:\n                        if tail:\n                            # If the tail is not empty, add a space.\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            # If the tail is empty, it means this is the last word.\n                            sentences.append(word)\n            \n            # Memoize the results for the current start_index and return.\n            memo[start_index] = sentences\n            return sentences\n            \n        # Start the DFS from the beginning of the string.\n        return dfs(0)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: list[str]) -> list[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        breakable = [False] * (n + 1)\n        breakable[n] = True\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                if s[i:j+1] in word_set and breakable[j+1]:\n                    breakable[i] = True\n                    break\n        \n        if not breakable[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            if start_index in memo:\n                return memo[start_index]\n            \n            if start_index == n:\n                return [\"\"]\n            \n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                if word in word_set and breakable[end_index + 1]:\n                    list_of_tails = dfs(end_index + 1)\n                    \n                    for tail in list_of_tails:\n                        if tail:\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            sentences.append(word)\n            \n            memo[start_index] = sentences\n            return sentences\n            \n        return dfs(0)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 389989235001,
+      "SolvedAt": "2025-11-21T18:58:10.136395+01:00",
+      "PromptTokens": 11372,
+      "OutputTokens": 44625
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "140",
+        "typed_code": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: list[str]) -> list[str]:\n        word_set = set(wordDict)\n        n = len(s)\n        \n        breakable = [False] * (n + 1)\n        breakable[n] = True\n        \n        for i in range(n - 1, -1, -1):\n            for j in range(i, n):\n                if s[i:j+1] in word_set and breakable[j+1]:\n                    breakable[i] = True\n                    break\n        \n        if not breakable[0]:\n            return []\n            \n        memo = {}\n        \n        def dfs(start_index):\n            if start_index in memo:\n                return memo[start_index]\n            \n            if start_index == n:\n                return [\"\"]\n            \n            sentences = []\n            for end_index in range(start_index, n):\n                word = s[start_index : end_index + 1]\n                \n                if word in word_set and breakable[end_index + 1]:\n                    list_of_tails = dfs(end_index + 1)\n                    \n                    for tail in list_of_tails:\n                        if tail:\n                            sentences.append(word + \" \" + tail)\n                        else:\n                            sentences.append(word)\n            \n            memo[start_index] = sentences\n            return sentences\n            \n        return dfs(0)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:55:53+01:00"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2306",
+        "questionId": "2390",
+        "Content": "<p>You are given an array of strings <code>ideas</code> that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:</p>\n\n<ol>\n\t<li>Choose 2 <strong>distinct</strong> names from <code>ideas</code>, call them <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code>.</li>\n\t<li>Swap the first letters of <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code> with each other.</li>\n\t<li>If <strong>both</strong> of the new names are not found in the original <code>ideas</code>, then the name <code>idea<sub>A</sub> idea<sub>B</sub></code> (the <strong>concatenation</strong> of <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code>, separated by a space) is a valid company name.</li>\n\t<li>Otherwise, it is not a valid name.</li>\n</ol>\n\n<p>Return <em>the number of <strong>distinct</strong> valid names for the company</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> ideas = [&quot;coffee&quot;,&quot;donuts&quot;,&quot;time&quot;,&quot;toffee&quot;]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> The following selections are valid:\n- (&quot;coffee&quot;, &quot;donuts&quot;): The company name created is &quot;doffee conuts&quot;.\n- (&quot;donuts&quot;, &quot;coffee&quot;): The company name created is &quot;conuts doffee&quot;.\n- (&quot;donuts&quot;, &quot;time&quot;): The company name created is &quot;tonuts dime&quot;.\n- (&quot;donuts&quot;, &quot;toffee&quot;): The company name created is &quot;tonuts doffee&quot;.\n- (&quot;time&quot;, &quot;donuts&quot;): The company name created is &quot;dime tonuts&quot;.\n- (&quot;toffee&quot;, &quot;donuts&quot;): The company name created is &quot;doffee tonuts&quot;.\nTherefore, there are a total of 6 distinct company names.\n\nThe following are some examples of invalid selections:\n- (&quot;coffee&quot;, &quot;time&quot;): The name &quot;toffee&quot; formed after swapping already exists in the original array.\n- (&quot;time&quot;, &quot;toffee&quot;): Both names are still the same after swapping and exist in the original array.\n- (&quot;coffee&quot;, &quot;toffee&quot;): Both names formed after swapping already exist in the original array.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> ideas = [&quot;lack&quot;,&quot;back&quot;]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> There are no valid selections. Therefore, 0 is returned.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= ideas.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= ideas[i].length &lt;= 10</code></li>\n\t<li><code>ideas[i]</code> consists of lowercase English letters.</li>\n\t<li>All the strings in <code>ideas</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"coffee\",\"donuts\",\"time\",\"toffee\"]",
+        "ExampleTestcases": "[\"coffee\",\"donuts\",\"time\",\"toffee\"]\n[\"lack\",\"back\"]",
+        "Difficulty": "Hard",
+        "Title": "Naming a Company",
+        "TitleSlug": "naming-a-company",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"64.7K\", \"totalSubmission\": \"139.4K\", \"totalAcceptedRaw\": 64738, \"totalSubmissionRaw\": 139401, \"acRate\": \"46.4%\"}",
+        "Likes": 1963,
+        "Dislikes": 74,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long distinctNames(vector<string>& ideas) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long distinctNames(String[] ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def distinctNames(self, ideas):\n        \"\"\"\n        :type ideas: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} ideas\n * @return {number}\n */\nvar distinctNames = function(ideas) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function distinctNames(ideas: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long DistinctNames(string[] ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long distinctNames(char** ideas, int ideasSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func distinctNames(ideas []string) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun distinctNames(ideas: Array<String>): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func distinctNames(_ ideas: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn distinct_names(ideas: Vec<String>) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} ideas\n# @return {Integer}\ndef distinct_names(ideas)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $ideas\n     * @return Integer\n     */\n    function distinctNames($ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int distinctNames(List<String> ideas) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def distinctNames(ideas: Array[String]): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec distinct_names(ideas :: [String.t]) :: integer\n  def distinct_names(ideas) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec distinct_names(Ideas :: [unicode:unicode_binary()]) -> integer().\ndistinct_names(Ideas) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (distinct-names ideas)\n  (-> (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:40:41.526786+01:00",
+    "AcRate": "46.4",
+    "TotalSubmissions": 139401,
+    "TotalAccepted": 64738,
+    "AcceptanceRate": 0.46440125967532514,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/naming-a-company/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem is presented below, followed by the complete Python solution.\n\n### Problem Analysis\n\n1.  **Problem Type Classification**: This problem falls under the categories of **String Manipulation**, **Hashing**, and **Combinatorics**. It requires processing strings, efficiently grouping and looking them up (which suggests hashing), and counting valid pairs based on specific criteria (combinatorics).\n\n2.  **Key Patterns & Algorithms**:\n    *   **Grouping by Property**: A brute-force `O(N^2)` check of all pairs of ideas is too slow. The key insight is that the validity of a swap only depends on the first letters and the suffixes. This suggests grouping all ideas by their initial letter. SinceThere are only 26 possible initial letters, this drastically reduces the complexity.\n    *   **Suffix Analysis**: For any two groups of ideas (e.g., those starting with 'a' and 'b'), the problem transforms into analyzing their suffixes. A swap between `A = charA + suffixA` and `B = charB + suffixB` is valid only if the new name `charB + suffixA` does not already exist (i.e., `suffixA` is not a suffix for any idea starting with `charB`), and similarly, `suffixB` is not a suffix for any idea starting with `charA`.\n    *   **Set Operations**: To efficiently manage and compare the sets of suffixes for each initial letter, hash sets are the ideal data structure. They provide `O(1)` average time complexity for additions and lookups. The number of common suffixes between two groups can be found quickly using set intersection (`&`).\n    *   **Combinatorial Counting**: For any two groups `i` and `j`, we count the number of suffixes unique to each group relative to the other (`unique_i`, `unique_j`). The number of valid pairs formed by swapping between these groups is `unique_i * unique_j`. Since the problem asks for the total number of distinct company names, which corresponds to ordered pairs `(ideaA, ideaB)`, we consider swaps in both directions. This yields `2 * unique_i * unique_j` valid names for each pair of initial-letter groups.\n\n3.  **Constraints Analysis**:\n    *   `ideas.length <= 5 * 10^4`: This constraint makes an `O(N^2)` approach infeasible (approx `2.5 * 10^9` operations). The solution must be more efficient, ideally `O(N*L)` or `O(N log N)`.\n    *   `ideas[i].length <= 10`: The small string length (`L`) means that string operations like slicing and hashing are very fast.\n    *   The total time complexity of the optimized grouping approach is `O(N*L + A^2*... )` where `A=26` is the alphabet size. Preprocessing is `O(N*L)`. The counting part involves `A*(A-1)/2` pairs of groups. For each pair, set intersection takes time proportional to the size of the sets. The total work for intersections across all pairs sums up to `O(A*N*L)`. Thus, the overall time complexity is `O(N*L)`, which is efficient enough (`5e4 * 10` is approx `5e5`).\n    *   Space complexity is `O(N*L)` to store all the suffixes in the groups, which is also acceptable.\n\n4.  **Edge Cases**:\n    *   Ideas with length 1: The suffix will be an empty string, which the set-based logic handles correctly.\n    *   All ideas starting with the same letter: No pairs with different initial letters can be formed, correctly resulting in 0. The algorithm handles this as loops over pairs of different groups `(i, j)` will not find two non-empty groups to compare.\n    *   No common suffixes between any two groups: `num_common` will be 0, and the formula correctly simplifies.\n    *   One group of suffixes is a complete subset of another: This correctly results in one of the `unique` counts being 0, contributing 0 to the total.\n\n5.  **Input/Output Analysis**:\n    *   **Input**: `ideas: List[str]`, a list of unique strings.\n    *   **Output**: `int`, the total number of distinct ordered pairs `(ideaA, ideaB)` that form a valid company name. Each such pair generates a unique name, so counting the pairs is equivalent to counting the names.\n\n6.  **Difficulty Assessment**: **Medium-Hard**. The brute-force solution is easy to conceptualize but fails on performance. The primary challenge is the logical leap from a naive pair-wise comparison to a more abstract, group-based approach. Correctly formulating the counting logic using set properties (`len(S_A) - len(S_A & S_B)`) requires a clear understanding of the problem constraints and strong problem-solving skills.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        \n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            index = ord(idea[0]) - ord('a')\n            suffix = idea[1:]\n            groups[index].add(suffix)\n\n        total_names = 0\n        \n        for i in range(26):\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this is to group ideas by their first letter. For any two groups of ideas, say those starting with 'a' and 'b', we can determine how many valid company names can be formed by swapping their initial letters.\n\nA swap between `ideaA = 'a' + suffixA` and `ideaB = 'b' + suffixB` is valid if and only if `'b' + suffixA` and `'a' + suffixB` do not exist in the original `ideas` list. This is equivalent to saying that `suffixA` does not appear with the initial letter 'b', and `suffixB` does not appear with the initial letter 'a'.\n\nThis leads to the following algorithm:\n\n1.  **Group Suffixes**: First, we process the `ideas` list and group all suffixes by their initial letter. A list of 26 sets is an ideal data structure for this, where `groups[0]` holds all suffixes of ideas starting with 'a', `groups[1]` for 'b', and so on.\n\n2.  **Count Valid Pairs**: We then iterate through every unique pair of initial letters (e.g., 'a' and 'b', 'a' and 'c', etc.). For each pair of letters, say `i` and `j`:\n    *   Let `suffixes_i` and `suffixes_j` be the sets of suffixes for these letters.\n    *   We find the number of suffixes that are common to both sets. Let this be `num_common`. These common suffixes cannot participate in a valid swap between these two groups, because if a `suffix` is in both groups, swapping would create a name that already exists.\n    *   The number of suffixes that are unique to group `i` (relative to group `j`) is `unique_i = len(suffixes_i) - num_common`.\n    *   Similarly, the number of unique suffixes in group `j` is `unique_j = len(suffixes_j) - num_common`.\n    *   Any of the `unique_i` ideas can be swapped with any of the `unique_j` ideas to form a valid pair. This gives `unique_i * unique_j` valid ordered pairs `(idea_from_group_i, idea_from_group_j)`.\n    *   Since the problem counts distinct company names, and we are forming them from ordered pairs, `(ideaA, ideaB)` is different from `(ideaB, ideaA)`. So, for each pair of groups, we contribute `2 * unique_i * unique_j` to the total count.\n\n3.  **Sum and Return**: Summing these counts over all pairs of different initial letters gives the total number of distinct company names.\n\nThis approach has a time complexity of `O(N*L)` (where `N` is the number of ideas and `L` is their max length) because grouping takes `O(N*L)` and the counting phase is dominated by a constant number of set operations. The space complexity is also `O(N*L)` to store the suffixes.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        # Group suffixes by their initial letter.\n        # An array of 26 sets, one for each lowercase letter.\n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            # ord(char) - ord('a') gives the 0-based index of the letter.\n            index = ord(idea[0]) - ord('a')\n            # The suffix is the string from the second character onwards.\n            suffix = idea[1:]\n            groups[index].add(suffix)\n\n        total_names = 0\n        \n        # Iterate through all unique pairs of initial letters.\n        # i iterates from 0 to 24 ('a' to 'y'), j iterates from i+1 to 25 ('b' to 'z').\n        for i in range(26):\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                # Calculate the number of common suffixes between the two groups.\n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                # Calculate the number of unique suffixes in each group (relative to the other).\n                # These are the suffixes that can be safely swapped.\n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                # For each pair of unique suffixes, we can form two distinct company names\n                # by swapping in both directions.\n                # (idea_from_i, idea_from_j) and (idea_from_j, idea_from_i)\n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def distinctNames(self, ideas: list[str]) -> int:\n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            index = ord(idea[0]) - ord('a')\n            suffix = idea[1:]\n            groups[index].add(suffix)\n        \n        total_names = 0\n        \n        for i in range(26):\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        # Group suffixes by their initial letter.\n        # An array of 26 sets, one for each lowercase letter.\n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            # ord(char) - ord('a') gives the 0-based index of the letter.\n            index = ord(idea[0]) - ord('a')\n            # The suffix is the string from the second character onwards.\n            suffix = idea[1:]\n            groups[index].add(suffix)\n        \n        total_names = 0\n        \n        # Iterate through all unique pairs of initial letters.\n        # i iterates from 0 to 24 ('a' to 'y'), j iterates from i+1 to 25 ('b' to 'z').\n        for i in range(26):\n            if not groups[i]:\n                continue\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                # Calculate the number of common suffixes between the two groups.\n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                # Calculate the number of unique suffixes in each group (relative to the other).\n                # These are the suffixes that can be safely swapped.\n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                # For each pair of unique suffixes, we can form two distinct company names\n                # by swapping in both directions.\n                # (idea_from_i, idea_from_j) and (idea_from_j, idea_from_i)\n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def distinctNames(self, ideas: list[str]) -> int:\n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            index = ord(idea[0]) - ord('a')\n            suffix = idea[1:]\n            groups[index].add(suffix)\n        \n        total_names = 0\n        \n        for i in range(26):\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 348973436542,
+      "SolvedAt": "2025-11-21T14:43:49.592495+01:00",
+      "PromptTokens": 9918,
+      "OutputTokens": 38867
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2390",
+        "typed_code": "\nclass Solution:\n    def distinctNames(self, ideas: list[str]) -> int:\n        groups = [set() for _ in range(26)]\n        for idea in ideas:\n            index = ord(idea[0]) - ord('a')\n            suffix = idea[1:]\n            groups[index].add(suffix)\n        \n        total_names = 0\n        \n        for i in range(26):\n            for j in range(i + 1, 26):\n                \n                suffixes_i = groups[i]\n                suffixes_j = groups[j]\n                \n                num_common = len(suffixes_i.intersection(suffixes_j))\n                \n                unique_in_i = len(suffixes_i) - num_common\n                unique_in_j = len(suffixes_j) - num_common\n                \n                total_names += 2 * unique_in_i * unique_in_j\n                \n        return total_names\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:40:40+01:00"
+    }
+  }
+}

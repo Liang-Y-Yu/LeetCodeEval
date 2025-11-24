@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "352",
+        "questionId": "352",
+        "Content": "<p>Given a data stream input of non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code>, summarize the numbers seen so far as a list of disjoint intervals.</p>\n\n<p>Implement the <code>SummaryRanges</code> class:</p>\n\n<ul>\n\t<li><code>SummaryRanges()</code> Initializes the object with an empty stream.</li>\n\t<li><code>void addNum(int value)</code> Adds the integer <code>value</code> to the stream.</li>\n\t<li><code>int[][] getIntervals()</code> Returns a summary of the integers in the stream currently as a list of disjoint intervals <code>[start<sub>i</sub>, end<sub>i</sub>]</code>. The answer should be sorted by <code>start<sub>i</sub></code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;SummaryRanges&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;, &quot;addNum&quot;, &quot;getIntervals&quot;]\n[[], [1], [], [3], [], [7], [], [2], [], [6], []]\n<strong>Output</strong>\n[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]\n\n<strong>Explanation</strong>\nSummaryRanges summaryRanges = new SummaryRanges();\nsummaryRanges.addNum(1);      // arr = [1]\nsummaryRanges.getIntervals(); // return [[1, 1]]\nsummaryRanges.addNum(3);      // arr = [1, 3]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3]]\nsummaryRanges.addNum(7);      // arr = [1, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3], [7, 7]]\nsummaryRanges.addNum(2);      // arr = [1, 2, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [7, 7]]\nsummaryRanges.addNum(6);      // arr = [1, 2, 3, 6, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [6, 7]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= value &lt;= 10<sup>4</sup></code></li>\n\t<li>At most <code>3 * 10<sup>4</sup></code> calls will be made to <code>addNum</code> and <code>getIntervals</code>.</li>\n\t<li>At most <code>10<sup>2</sup></code>&nbsp;calls will be made to&nbsp;<code>getIntervals</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong> What if there are lots of merges and the number of disjoint intervals is small compared to the size of the data stream?</p>\n",
+        "SampleTestCase": "[\"SummaryRanges\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\"]\n[[],[1],[],[3],[],[7],[],[2],[],[6],[]]",
+        "ExampleTestcases": "[\"SummaryRanges\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\"]\n[[],[1],[],[3],[],[7],[],[2],[],[6],[]]",
+        "Difficulty": "Hard",
+        "Title": "Data Stream as Disjoint Intervals",
+        "TitleSlug": "data-stream-as-disjoint-intervals",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"125.3K\", \"totalSubmission\": \"209.8K\", \"totalAcceptedRaw\": 125278, \"totalSubmissionRaw\": 209830, \"acRate\": \"59.7%\"}",
+        "Likes": 1795,
+        "Dislikes": 371,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIz",
+            "Name": "Union Find",
+            "Slug": "union-find"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYz",
+            "Name": "Data Stream",
+            "Slug": "data-stream"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class SummaryRanges {\npublic:\n    SummaryRanges() {\n        \n    }\n    \n    void addNum(int value) {\n        \n    }\n    \n    vector<vector<int>> getIntervals() {\n        \n    }\n};\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges* obj = new SummaryRanges();\n * obj->addNum(value);\n * vector<vector<int>> param_2 = obj->getIntervals();\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class SummaryRanges {\n\n    public SummaryRanges() {\n        \n    }\n    \n    public void addNum(int value) {\n        \n    }\n    \n    public int[][] getIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = new SummaryRanges();\n * obj.addNum(value);\n * int[][] param_2 = obj.getIntervals();\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class SummaryRanges:\n\n    def __init__(self):\n        \n\n    def addNum(self, value: int) -> None:\n        \n\n    def getIntervals(self) -> List[List[int]]:\n        \n\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges()\n# obj.addNum(value)\n# param_2 = obj.getIntervals()"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class SummaryRanges(object):\n\n    def __init__(self):\n        \n\n    def addNum(self, value):\n        \"\"\"\n        :type value: int\n        :rtype: None\n        \"\"\"\n        \n\n    def getIntervals(self):\n        \"\"\"\n        :rtype: List[List[int]]\n        \"\"\"\n        \n\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges()\n# obj.addNum(value)\n# param_2 = obj.getIntervals()"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "\nvar SummaryRanges = function() {\n    \n};\n\n/** \n * @param {number} value\n * @return {void}\n */\nSummaryRanges.prototype.addNum = function(value) {\n    \n};\n\n/**\n * @return {number[][]}\n */\nSummaryRanges.prototype.getIntervals = function() {\n    \n};\n\n/** \n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = new SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class SummaryRanges {\n    constructor() {\n        \n    }\n\n    addNum(value: number): void {\n        \n    }\n\n    getIntervals(): number[][] {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = new SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class SummaryRanges {\n\n    public SummaryRanges() {\n        \n    }\n    \n    public void AddNum(int value) {\n        \n    }\n    \n    public int[][] GetIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = new SummaryRanges();\n * obj.AddNum(value);\n * int[][] param_2 = obj.GetIntervals();\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} SummaryRanges;\n\n\nSummaryRanges* summaryRangesCreate() {\n    \n}\n\nvoid summaryRangesAddNum(SummaryRanges* obj, int value) {\n    \n}\n\nint** summaryRangesGetIntervals(SummaryRanges* obj, int* retSize, int** retColSize) {\n    \n}\n\nvoid summaryRangesFree(SummaryRanges* obj) {\n    \n}\n\n/**\n * Your SummaryRanges struct will be instantiated and called as such:\n * SummaryRanges* obj = summaryRangesCreate();\n * summaryRangesAddNum(obj, value);\n \n * int** param_2 = summaryRangesGetIntervals(obj, retSize, retColSize);\n \n * summaryRangesFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type SummaryRanges struct {\n    \n}\n\n\nfunc Constructor() SummaryRanges {\n    \n}\n\n\nfunc (this *SummaryRanges) AddNum(value int)  {\n    \n}\n\n\nfunc (this *SummaryRanges) GetIntervals() [][]int {\n    \n}\n\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * obj := Constructor();\n * obj.AddNum(value);\n * param_2 := obj.GetIntervals();\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class SummaryRanges() {\n\n    fun addNum(value: Int) {\n        \n    }\n\n    fun getIntervals(): Array<IntArray> {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass SummaryRanges {\n\n    init() {\n        \n    }\n    \n    func addNum(_ value: Int) {\n        \n    }\n    \n    func getIntervals() -> [[Int]] {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * let obj = SummaryRanges()\n * obj.addNum(value)\n * let ret_2: [[Int]] = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct SummaryRanges {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl SummaryRanges {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn add_num(&self, value: i32) {\n        \n    }\n    \n    fn get_intervals(&self) -> Vec<Vec<i32>> {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * let obj = SummaryRanges::new();\n * obj.add_num(value);\n * let ret_2: Vec<Vec<i32>> = obj.get_intervals();\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class SummaryRanges\n    def initialize()\n        \n    end\n\n\n=begin\n    :type value: Integer\n    :rtype: Void\n=end\n    def add_num(value)\n        \n    end\n\n\n=begin\n    :rtype: Integer[][]\n=end\n    def get_intervals()\n        \n    end\n\n\nend\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges.new()\n# obj.add_num(value)\n# param_2 = obj.get_intervals()"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class SummaryRanges {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $value\n     * @return NULL\n     */\n    function addNum($value) {\n        \n    }\n  \n    /**\n     * @return Integer[][]\n     */\n    function getIntervals() {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * $obj = SummaryRanges();\n * $obj->addNum($value);\n * $ret_2 = $obj->getIntervals();\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class SummaryRanges {\n\n  SummaryRanges() {\n    \n  }\n  \n  void addNum(int value) {\n    \n  }\n  \n  List<List<int>> getIntervals() {\n    \n  }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = SummaryRanges();\n * obj.addNum(value);\n * List<List<int>> param2 = obj.getIntervals();\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class SummaryRanges() {\n\n    def addNum(value: Int): Unit = {\n        \n    }\n\n    def getIntervals(): Array[Array[Int]] = {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * val obj = new SummaryRanges()\n * obj.addNum(value)\n * val param_2 = obj.getIntervals()\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule SummaryRanges do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec add_num(value :: integer) :: any\n  def add_num(value) do\n    \n  end\n\n  @spec get_intervals() :: [[integer]]\n  def get_intervals() do\n    \n  end\nend\n\n# Your functions will be called as such:\n# SummaryRanges.init_()\n# SummaryRanges.add_num(value)\n# param_2 = SummaryRanges.get_intervals()\n\n# SummaryRanges.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec summary_ranges_init_() -> any().\nsummary_ranges_init_() ->\n  .\n\n-spec summary_ranges_add_num(Value :: integer()) -> any().\nsummary_ranges_add_num(Value) ->\n  .\n\n-spec summary_ranges_get_intervals() -> [[integer()]].\nsummary_ranges_get_intervals() ->\n  .\n\n\n%% Your functions will be called as such:\n%% summary_ranges_init_(),\n%% summary_ranges_add_num(Value),\n%% Param_2 = summary_ranges_get_intervals(),\n\n%% summary_ranges_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define summary-ranges%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; add-num : exact-integer? -> void?\n    (define/public (add-num value)\n      )\n    ; get-intervals : -> (listof (listof exact-integer?))\n    (define/public (get-intervals)\n      )))\n\n;; Your summary-ranges% object will be instantiated and called as such:\n;; (define obj (new summary-ranges%))\n;; (send obj add-num value)\n;; (define param_2 (send obj get-intervals))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:21:39.253726+01:00",
+    "AcRate": "59.7",
+    "TotalSubmissions": 209830,
+    "TotalAccepted": 125278,
+    "AcceptanceRate": 0.5970452270885955,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "multi",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "multi",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to maintain a data structure that efficiently stores disjoint intervals and can merge them as new numbers are added.\n\n## Analysis\n\n1. **Problem Type**: Interval Management, Data Stream Processing\n2. **Key Patterns**: Binary Search, Interval Merging, Sorted Container\n3. **Constraints**: Up to 30k operations, values 0-10^4, only 100 getIntervals calls\n4. **Edge Cases**: Duplicates, merging adjacent intervals, merging with left/right/both neighbors\n5. **Difficulty**: Managing interval merges efficiently while maintaining sorted order\n\n## Solution Approach\n\nI'll maintain a sorted list of intervals. When adding a number:\n- Check if it already exists in any interval (skip if so)\n- Find where it should be inserted\n- Check if it merges with left neighbor, right neighbor, or both\n- Update intervals accordingly\n\nSince getIntervals is called at most 100 times and we need to maintain sorted intervals anyway, I'll keep intervals sorted and return them directly.\n\n```python\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n=== DESIGN ===\nLooking at this problem, I need to maintain disjoint intervals efficiently as numbers are added to a stream.\n\n## Solution Design\n\n**Algorithm Choice**: Maintain a sorted list of intervals with binary search for insertion point and interval merging logic.\n\n**Step-by-Step Approach**:\n1. Use a list to store intervals sorted by start position\n2. For `addNum(value)`:\n   - Handle empty case\n   - Binary search to find where value belongs\n   - Check if value already exists in an interval\n   - Determine if value should merge with left neighbor, right neighbor, or both\n   - Update intervals accordingly\n3. For `getIntervals()`: Return the stored intervals\n\n**Data Structures**: List of intervals (each interval is [start, end])\n\n**Time Complexity**: \n- `addNum`: O(n) worst case (due to list insertion), O(log n) for search\n- `getIntervals`: O(1) \n\n**Space Complexity**: O(k) where k is number of disjoint intervals\n\nHere's my implementation:\n\n```python\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 28313780083,
+      "SolvedAt": "2025-11-19T23:29:48.176175+01:00",
+      "PromptTokens": 8087,
+      "OutputTokens": 1976
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "352",
+        "typed_code": "\nfrom typing import List\n\nclass SummaryRanges:\n\n    def __init__(self):\n        self.intervals = []\n\n    def addNum(self, value: int) -> None:\n        if not self.intervals:\n            self.intervals.append([value, value])\n            return\n        \n        left, right = 0, len(self.intervals) - 1\n        pos = len(self.intervals)\n        \n        while left <= right:\n            mid = (left + right) // 2\n            if self.intervals[mid][0] <= value <= self.intervals[mid][1]:\n                return\n            elif value < self.intervals[mid][0]:\n                pos = mid\n                right = mid - 1\n            else:\n                left = mid + 1\n        \n        merge_left = pos > 0 and self.intervals[pos - 1][1] + 1 == value\n        merge_right = pos < len(self.intervals) and self.intervals[pos][0] - 1 == value\n        \n        if merge_left and merge_right:\n            self.intervals[pos - 1][1] = self.intervals[pos][1]\n            self.intervals.pop(pos)\n        elif merge_left:\n            self.intervals[pos - 1][1] = value\n        elif merge_right:\n            self.intervals[pos][0] = value\n        else:\n            self.intervals.insert(pos, [value, value])\n\n    def getIntervals(self) -> List[List[int]]:\n        return self.intervals\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T10:34:04+01:00"
+    }
+  }
+}

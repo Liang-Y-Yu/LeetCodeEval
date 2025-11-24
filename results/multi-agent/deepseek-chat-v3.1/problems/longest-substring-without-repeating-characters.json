@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "3",
+        "questionId": "3",
+        "Content": "<p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword=\"substring-nonempty\"><strong>substring</strong></span> without duplicate characters.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabcbb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The answer is &quot;abc&quot;, with the length of 3. Note that <code>&quot;bca&quot;</code> and <code>&quot;cab&quot;</code> are also correct answers.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;bbbbb&quot;\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The answer is &quot;b&quot;, with the length of 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pwwkew&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The answer is &quot;wke&quot;, with the length of 3.\nNotice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>\n</ul>\n",
+        "SampleTestCase": "\"abcabcbb\"",
+        "ExampleTestcases": "\"abcabcbb\"\n\"bbbbb\"\n\"pwwkew\"",
+        "Difficulty": "Medium",
+        "Title": "Longest Substring Without Repeating Characters",
+        "TitleSlug": "longest-substring-without-repeating-characters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"8.5M\", \"totalSubmission\": \"22.4M\", \"totalAcceptedRaw\": 8472213, \"totalSubmissionRaw\": 22354917, \"acRate\": \"37.9%\"}",
+        "Likes": 43600,
+        "Dislikes": 2132,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int lengthOfLongestSubstring(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def lengthOfLongestSubstring(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar lengthOfLongestSubstring = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function lengthOfLongestSubstring(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LengthOfLongestSubstring(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int lengthOfLongestSubstring(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func lengthOfLongestSubstring(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun lengthOfLongestSubstring(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func lengthOfLongestSubstring(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn length_of_longest_substring(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef length_of_longest_substring(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function lengthOfLongestSubstring($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int lengthOfLongestSubstring(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def lengthOfLongestSubstring(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec length_of_longest_substring(s :: String.t) :: integer\n  def length_of_longest_substring(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec length_of_longest_substring(S :: unicode:unicode_binary()) -> integer().\nlength_of_longest_substring(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (length-of-longest-substring s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:39:39.872207+01:00",
+    "AcRate": "37.9",
+    "TotalSubmissions": 22354917,
+    "TotalAccepted": 8472213,
+    "AcceptanceRate": 0.37898655584362045,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: String, Sliding Window\n\nKey Patterns & Algorithms: Sliding Window technique with HashSet/Dictionary to track characters in current window\n\nConstraints Analysis: With n up to 50,000, O(n) time complexity is required. O(min(n, m)) space where m is character set size.\n\nEdge Cases: Empty string, all same characters, string with no duplicates, string with mixed case/special characters\n\nInput/Output Analysis: Input is a string, output is an integer representing longest substring length\n\nDifficulty Assessment: Maintaining optimal sliding window boundaries while efficiently checking for duplicates\n\n```python\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Sliding Window technique with a HashSet to track characters in the current window.\n\n**Step-by-Step Approach**:\n1. Initialize a set to store characters in the current window.\n2. Use two pointers, `left` and `right`, to represent the current window boundaries.\n3. Traverse the string with the `right` pointer.\n4. If the character at `right` is already in the set, remove the character at `left` from the set and increment `left` until the duplicate is removed.\n5. Add the character at `right` to the set.\n6. Update the maximum length of the substring without duplicates.\n\n**Data Structures**: HashSet (to store characters in the current window for O(1) lookups).\n\n**Time Complexity**: O(n) - Each character is visited at most twice (once by `right` and once by `left`).\n\n**Space Complexity**: O(min(n, m)) - where m is the size of the character set (number of distinct characters).\n\n**Pseudocode**:\n```\nfunction lengthOfLongestSubstring(s):\n    char_set = empty set\n    left = 0\n    max_length = 0\n    for right from 0 to len(s)-1:\n        while s[right] is in char_set:\n            remove s[left] from char_set\n            left += 1\n        add s[right] to char_set\n        max_length = max(max_length, right - left + 1)\n    return max_length\n```\n\n```python\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n```\n\n=== IMPLEMENTATION ===\n\n```python\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n```\n\n=== VERIFICATION ===\nVerification Report:\n\n1. **Correctness**: The code correctly implements the sliding window algorithm with a set to track characters. It efficiently expands the window with `right` and contracts from `left` when a duplicate is found, ensuring the window always contains unique characters.\n\n2. **Edge Cases**: \n   - Empty string (`s = \"\"`): Returns 0 (correct).\n   - All same characters (`s = \"bbbbb\"`): Returns 1 (correct).\n   - No duplicates (`s = \"abc\"`): Returns 3 (correct).\n   - Mixed case/special characters: Handled since set stores all characters.\n\n3. **Complexity**: \n   - Time: O(n) - Each character is processed at most twice (once by `right`, once by `left`).\n   - Space: O(min(n, m)) - Set size is bounded by the number of distinct characters (which is at most 256 for extended ASCII, or Unicode might be larger but still acceptable).\n\n4. **Code Quality**: The code is clean, readable, and follows Python best practices. Variable names are descriptive, and the logic is straightforward.\n\n5. **Test Cases**:\n   - Example 1: `s = \"abcabcbb\"` -> `right` moves to 0,1,2 (adds 'a','b','c'), then at right=3 ('a' is in set) so remove s[0] ('a') and left=1. Then add 'a'. Then window is \"bca\". Continues correctly. Max length becomes 3.\n   - Example 2: `s = \"bbbbb\"` -> Always removes and adds same character, window size never exceeds 1.\n   - Example 3: `s = \"pwwkew\"` -> At right=2 ('w' is duplicate), remove s[0] ('p') and left=1. Then 'w' is still in set? Actually, after removing 'p', set has 'w' (from index1) so remove s[1] ('w') and left=2. Then add 'w'. Then window is \"w\". Then proceed to right=3 ('k') not in set, add. Then right=4 ('e') not in set, add. Then right=5 ('w') is in set? Current set has {'w','k','e'}? Actually, at right=5, 'w' is not in the set? Wait, no: after right=4, set has {'w','k','e'}? But index2 is 'w', index3 is 'k', index4 is 'e'. So at right=5, 'w' is not in the set? Actually, it is: because the set still contains 'w' from index2? But the window is from left=2 to right=4: \"wke\". So when right=5, we check if 'w' is in set? It is (from index2). So we remove s[2] ('w') and left becomes 3. Then set becomes {'k','e'}. Then we add 'w'. Then window becomes \"kew\". So max length is 3. Correct.\n\n6. **Potential Issues**: None found. The algorithm is optimal and handles all cases.\n\nThe solution is correct and meets all requirements.\n\nFinal code:\n```python\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 56968956167,
+      "SolvedAt": "2025-11-21T00:02:42.131776+01:00",
+      "PromptTokens": 3782,
+      "OutputTokens": 1541
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "3",
+        "typed_code": "\nclass Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_set = set()\n        left = 0\n        max_length = 0\n        \n        for right in range(len(s)):\n            while s[right] in char_set:\n                char_set.remove(s[left])\n                left += 1\n            char_set.add(s[right])\n            max_length = max(max_length, right - left + 1)\n        \n        return max_length\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:07:26+01:00"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2306",
+        "questionId": "2390",
+        "Content": "<p>You are given an array of strings <code>ideas</code> that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:</p>\n\n<ol>\n\t<li>Choose 2 <strong>distinct</strong> names from <code>ideas</code>, call them <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code>.</li>\n\t<li>Swap the first letters of <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code> with each other.</li>\n\t<li>If <strong>both</strong> of the new names are not found in the original <code>ideas</code>, then the name <code>idea<sub>A</sub> idea<sub>B</sub></code> (the <strong>concatenation</strong> of <code>idea<sub>A</sub></code> and <code>idea<sub>B</sub></code>, separated by a space) is a valid company name.</li>\n\t<li>Otherwise, it is not a valid name.</li>\n</ol>\n\n<p>Return <em>the number of <strong>distinct</strong> valid names for the company</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> ideas = [&quot;coffee&quot;,&quot;donuts&quot;,&quot;time&quot;,&quot;toffee&quot;]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> The following selections are valid:\n- (&quot;coffee&quot;, &quot;donuts&quot;): The company name created is &quot;doffee conuts&quot;.\n- (&quot;donuts&quot;, &quot;coffee&quot;): The company name created is &quot;conuts doffee&quot;.\n- (&quot;donuts&quot;, &quot;time&quot;): The company name created is &quot;tonuts dime&quot;.\n- (&quot;donuts&quot;, &quot;toffee&quot;): The company name created is &quot;tonuts doffee&quot;.\n- (&quot;time&quot;, &quot;donuts&quot;): The company name created is &quot;dime tonuts&quot;.\n- (&quot;toffee&quot;, &quot;donuts&quot;): The company name created is &quot;doffee tonuts&quot;.\nTherefore, there are a total of 6 distinct company names.\n\nThe following are some examples of invalid selections:\n- (&quot;coffee&quot;, &quot;time&quot;): The name &quot;toffee&quot; formed after swapping already exists in the original array.\n- (&quot;time&quot;, &quot;toffee&quot;): Both names are still the same after swapping and exist in the original array.\n- (&quot;coffee&quot;, &quot;toffee&quot;): Both names formed after swapping already exist in the original array.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> ideas = [&quot;lack&quot;,&quot;back&quot;]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> There are no valid selections. Therefore, 0 is returned.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= ideas.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= ideas[i].length &lt;= 10</code></li>\n\t<li><code>ideas[i]</code> consists of lowercase English letters.</li>\n\t<li>All the strings in <code>ideas</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"coffee\",\"donuts\",\"time\",\"toffee\"]",
+        "ExampleTestcases": "[\"coffee\",\"donuts\",\"time\",\"toffee\"]\n[\"lack\",\"back\"]",
+        "Difficulty": "Hard",
+        "Title": "Naming a Company",
+        "TitleSlug": "naming-a-company",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"64.7K\", \"totalSubmission\": \"139.4K\", \"totalAcceptedRaw\": 64738, \"totalSubmissionRaw\": 139401, \"acRate\": \"46.4%\"}",
+        "Likes": 1963,
+        "Dislikes": 74,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long distinctNames(vector<string>& ideas) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long distinctNames(String[] ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def distinctNames(self, ideas):\n        \"\"\"\n        :type ideas: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} ideas\n * @return {number}\n */\nvar distinctNames = function(ideas) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function distinctNames(ideas: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long DistinctNames(string[] ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long distinctNames(char** ideas, int ideasSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func distinctNames(ideas []string) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun distinctNames(ideas: Array<String>): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func distinctNames(_ ideas: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn distinct_names(ideas: Vec<String>) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} ideas\n# @return {Integer}\ndef distinct_names(ideas)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $ideas\n     * @return Integer\n     */\n    function distinctNames($ideas) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int distinctNames(List<String> ideas) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def distinctNames(ideas: Array[String]): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec distinct_names(ideas :: [String.t]) :: integer\n  def distinct_names(ideas) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec distinct_names(Ideas :: [unicode:unicode_binary()]) -> integer().\ndistinct_names(Ideas) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (distinct-names ideas)\n  (-> (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:40:41.526786+01:00",
+    "AcRate": "46.4",
+    "TotalSubmissions": 139401,
+    "TotalAccepted": 64738,
+    "AcceptanceRate": 0.46440125967532514,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/naming-a-company/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array of strings ideas that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:\n\tChoose 2 distinct names from ideas, call them ideaA and ideaB.\n\tSwap the first letters of ideaA and ideaB with each other.\n\tIf both of the new names are not found in the original ideas, then the name ideaA ideaB (the concatenation of ideaA and ideaB, separated by a space) is a valid company name.\n\tOtherwise, it is not a valid name.\nReturn the number of distinct valid names for the company.\n\u00a0\nExample 1:\nInput: ideas = [\"coffee\",\"donuts\",\"time\",\"toffee\"]\nOutput: 6\nExplanation: The following selections are valid:\n- (\"coffee\", \"donuts\"): The company name created is \"doffee conuts\".\n- (\"donuts\", \"coffee\"): The company name created is \"conuts doffee\".\n- (\"donuts\", \"time\"): The company name created is \"tonuts dime\".\n- (\"donuts\", \"toffee\"): The company name created is \"tonuts doffee\".\n- (\"time\", \"donuts\"): The company name created is \"dime tonuts\".\n- (\"toffee\", \"donuts\"): The company name created is \"doffee tonuts\".\nTherefore, there are a total of 6 distinct company names.\nThe following are some examples of invalid selections:\n- (\"coffee\", \"time\"): The name \"toffee\" formed after swapping already exists in the original array.\n- (\"time\", \"toffee\"): Both names are still the same after swapping and exist in the original array.\n- (\"coffee\", \"toffee\"): Both names formed after swapping already exist in the original array.\nExample 2:\nInput: ideas = [\"lack\",\"back\"]\nOutput: 0\nExplanation: There are no valid selections. Therefore, 0 is returned.\n\u00a0\nConstraints:\n\t2 <= ideas.length <= 5 * 10^4\n\t1 <= ideas[i].length <= 10\n\tideas[i] consists of lowercase English letters.\n\tAll the strings in ideas are unique.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        groups = [set() for _ in range(26)]\n        \n        for idea in ideas:\n            groups[ord(idea[0]) - ord('a')].add(idea[1:])\n        \n        answer = 0\n        for i in range(25):\n            for j in range(i + 1, 26):\n                common = len(groups[i] & groups[j])\n                answer += 2 * (len(groups[i]) - common) * (len(groups[j]) - common)\n        \n        return answer\n```",
+      "TypedCode": "\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        groups = [set() for _ in range(26)]\n        \n        for idea in ideas:\n            groups[ord(idea[0]) - ord('a')].add(idea[1:])\n        \n        answer = 0\n        for i in range(25):\n            for j in range(i + 1, 26):\n                common = len(groups[i] & groups[j])\n                answer += 2 * (len(groups[i]) - common) * (len(groups[j]) - common)\n        \n        return answer\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 3939001459,
+      "SolvedAt": "2025-11-20T21:23:33.075269+01:00",
+      "PromptTokens": 670,
+      "OutputTokens": 135
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2390",
+        "typed_code": "\nclass Solution:\n    def distinctNames(self, ideas: List[str]) -> int:\n        groups = [set() for _ in range(26)]\n        \n        for idea in ideas:\n            groups[ord(idea[0]) - ord('a')].add(idea[1:])\n        \n        answer = 0\n        for i in range(25):\n            for j in range(i + 1, 26):\n                common = len(groups[i] & groups[j])\n                answer += 2 * (len(groups[i]) - common) * (len(groups[j]) - common)\n        \n        return answer\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:10:08+01:00"
+    }
+  }
+}

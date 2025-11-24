@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "713",
+        "questionId": "713",
+        "Content": "<p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than </em><code>k</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [10,5,2,6], k = 100\n<strong>Output:</strong> 8\n<strong>Explanation:</strong> The 8 subarrays that have product less than 100 are:\n[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]\nNote that [10, 5, 2] is not included as the product of 100 is not strictly less than k.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3], k = 0\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>\n\t<li><code>0 &lt;= k &lt;= 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,5,2,6]\n100",
+        "ExampleTestcases": "[10,5,2,6]\n100\n[1,2,3]\n0",
+        "Difficulty": "Medium",
+        "Title": "Subarray Product Less Than K",
+        "TitleSlug": "subarray-product-less-than-k",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"548.5K\", \"totalSubmission\": \"1M\", \"totalAcceptedRaw\": 548479, \"totalSubmissionRaw\": 1026034, \"acRate\": \"53.5%\"}",
+        "Likes": 7347,
+        "Dislikes": 233,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numSubarrayProductLessThanK(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numSubarrayProductLessThanK(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numSubarrayProductLessThanK(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar numSubarrayProductLessThanK = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numSubarrayProductLessThanK(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumSubarrayProductLessThanK(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numSubarrayProductLessThanK(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numSubarrayProductLessThanK(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numSubarrayProductLessThanK(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn num_subarray_product_less_than_k(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef num_subarray_product_less_than_k(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function numSubarrayProductLessThanK($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numSubarrayProductLessThanK(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numSubarrayProductLessThanK(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec num_subarray_product_less_than_k(nums :: [integer], k :: integer) :: integer\n  def num_subarray_product_less_than_k(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec num_subarray_product_less_than_k(Nums :: [integer()], K :: integer()) -> integer().\nnum_subarray_product_less_than_k(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (num-subarray-product-less-than-k nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:22.156634+01:00",
+    "AcRate": "53.5",
+    "TotalSubmissions": 1026034,
+    "TotalAccepted": 548479,
+    "AcceptanceRate": 0.5345622074902001,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/subarray-product-less-than-k/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it first and then provide the solution.\n\n## Analysis\n\n1. **Problem Type Classification**: Array, Sliding Window\n2. **Key Patterns & Algorithms**: Two Pointers/Sliding Window technique\n3. **Constraints Analysis**: With n up to 3\u00d710^4, we need O(n) or O(n log n) solution. O(n\u00b2) might be acceptable but tight.\n4. **Edge Cases**: \n   - k \u2264 1 (product can't be less than k)\n   - Single element arrays\n   - All elements \u2265 k\n   - Product overflow (but bounded by constraints)\n5. **Input/Output Analysis**: \n   - Input: array of positive integers, integer k\n   - Output: count of subarrays with product < k\n6. **Difficulty Assessment**: \n   - Need to count all valid subarrays efficiently\n   - Sliding window insight: for window [left, right], all subarrays ending at right starting from any position in [left, right] are valid\n\n## Solution Approach\n\nUsing sliding window with two pointers:\n- Maintain a window [left, right] where product < k\n- For each right position, count how many valid subarrays end at right\n- When product \u2265 k, shrink window from left\n- For window of length (right - left + 1), there are (right - left + 1) subarrays ending at right\n\n```python\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 15047322666,
+      "SolvedAt": "2025-11-20T00:02:16.800376+01:00",
+      "PromptTokens": 4458,
+      "OutputTokens": 905
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "713",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:\n        if k <= 1:\n            return 0\n        \n        count = 0\n        product = 1\n        left = 0\n        \n        for right in range(len(nums)):\n            product *= nums[right]\n            \n            while product >= k:\n                product //= nums[left]\n                left += 1\n            \n            count += right - left + 1\n        \n        return count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T10:03:20+01:00"
+    }
+  }
+}

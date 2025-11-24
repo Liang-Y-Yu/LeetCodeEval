@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "140",
+        "questionId": "140",
+        "Content": "<p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>\n\n<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsanddog&quot;, wordDict = [&quot;cat&quot;,&quot;cats&quot;,&quot;and&quot;,&quot;sand&quot;,&quot;dog&quot;]\n<strong>Output:</strong> [&quot;cats and dog&quot;,&quot;cat sand dog&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pineapplepenapple&quot;, wordDict = [&quot;apple&quot;,&quot;pen&quot;,&quot;applepen&quot;,&quot;pine&quot;,&quot;pineapple&quot;]\n<strong>Output:</strong> [&quot;pine apple pen apple&quot;,&quot;pineapple pen apple&quot;,&quot;pine applepen apple&quot;]\n<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;,&quot;dog&quot;,&quot;sand&quot;,&quot;and&quot;,&quot;cat&quot;]\n<strong>Output:</strong> []\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>\n\t<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>\n\t<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>\n\t<li>Input is generated in a way that the length of the answer doesn&#39;t exceed&nbsp;10<sup>5</sup>.</li>\n</ul>\n",
+        "SampleTestCase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+        "ExampleTestcases": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\n\"pineapplepenapple\"\n[\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\n\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Break II",
+        "TitleSlug": "word-break-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"784.4K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 784415, \"totalSubmissionRaw\": 1437245, \"acRate\": \"54.6%\"}",
+        "Likes": 7493,
+        "Dislikes": 545,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> wordBreak(String s, List<String> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def wordBreak(self, s, wordDict):\n        \"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function wordBreak(s: string, wordDict: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func wordBreak(s string, wordDict []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun wordBreak(s: String, wordDict: List<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn word_break(s: String, word_dict: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String[]} word_dict\n# @return {String[]}\ndef word_break(s, word_dict)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $wordDict\n     * @return String[]\n     */\n    function wordBreak($s, $wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> wordBreak(String s, List<String> wordDict) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec word_break(s :: String.t, word_dict :: [String.t]) :: [String.t]\n  def word_break(s, word_dict) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_break(S :: unicode:unicode_binary(), WordDict :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nword_break(S, WordDict) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (word-break s wordDict)\n  (-> string? (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:09.102829+01:00",
+    "AcRate": "54.6",
+    "TotalSubmissions": 1437245,
+    "TotalAccepted": 784415,
+    "AcceptanceRate": 0.5457768160612839,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-break-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string s and a dictionary of strings wordDict, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in any order.\nNote that the same word in the dictionary may be reused multiple times in the segmentation.\n\u00a0\nExample 1:\nInput: s = \"catsanddog\", wordDict = [\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\nOutput: [\"cats and dog\",\"cat sand dog\"]\nExample 2:\nInput: s = \"pineapplepenapple\", wordDict = [\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\nOutput: [\"pine apple pen apple\",\"pineapple pen apple\",\"pine applepen apple\"]\nExplanation: Note that you are allowed to reuse a dictionary word.\nExample 3:\nInput: s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]\nOutput: []\n\u00a0\nConstraints:\n\t1 <= s.length <= 20\n\t1 <= wordDict.length <= 1000\n\t1 <= wordDict[i].length <= 10\n\ts and wordDict[i] consist of only lowercase English letters.\n\tAll the strings of wordDict are unique.\n\tInput is generated in a way that the length of the answer doesn't exceed\u00a010^5.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and effective way to solve this problem is with a recursive approach, enhanced by memoization to handle overlapping subproblems. This is a form of top-down dynamic programming.\n\nThe core idea is to break down the problem: for a given string `s`, we try every possible prefix. If a prefix is a valid word from the dictionary, we then recursively solve the same problem for the remaining suffix of the string.\n\nHere's a step-by-step breakdown of the logic:\n\n1.  **Preprocessing**: The `wordDict` is converted into a hash set. This allows for very fast lookups (average O(1) time) to check if a prefix is a valid word.\n\n2.  **Recursion with Memoization**: A helper function, let's call it `solve`, is defined to perform the recursion. This function takes a substring and returns a list of all possible sentences that can be formed from it.\n    *   To avoid recomputing solutions for the same substring multiple times, a memoization table (a hash map) is used. It stores the results for each substring that has already been processed.\n\n3.  **Base Case**: The base case for the recursion is an empty string. If `solve` is called with an empty string, it means we've successfully found a valid segmentation for the string or substring that led to this call. We return a list containing a single empty string `[\"\"]`. This special value acts as a signal to the caller that a valid sequence of words was found.\n\n4.  **Recursive Step**: For a non-empty substring, the function iterates through all its possible prefixes.\n    *   If a prefix is found in our `word_set`, it means we have a valid first word.\n    *   The `solve` function is then called recursively on the remaining suffix of the string.\n    *   The list of sentences returned from the recursive call is then combined with the current prefix. If the recursive call returned `[\"\"]` (our base case sentinel), it means the current prefix is the last word in a sentence. Otherwise, the prefix is joined with each of the suffix's sentences, separated by a space.\n\n5.  **Main Function Call**: The process starts by calling the `solve` function with the original input string `s`. The final list of sentences for the entire string `s` is then returned.\n\nThis approach explores all possible segmentations and, thanks to memoization, does so efficiently by ensuring that the solution for each unique substring is computed only once.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n\n        def solve(substring: str) -> List[str]:\n            if substring in memo:\n                return memo[substring]\n\n            if not substring:\n                return [\"\"]\n\n            results = []\n            for i in range(1, len(substring) + 1):\n                prefix = substring[:i]\n                if prefix in word_set:\n                    suffix = substring[i:]\n                    suffix_results = solve(suffix)\n                    for suffix_sentence in suffix_results:\n                        if suffix_sentence:\n                            results.append(prefix + \" \" + suffix_sentence)\n                        else:\n                            results.append(prefix)\n            \n            memo[substring] = results\n            return results\n        \n        return solve(s)\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n\n        def solve(substring: str) -> List[str]:\n            if substring in memo:\n                return memo[substring]\n\n            if not substring:\n                return [\"\"]\n\n            results = []\n            for i in range(1, len(substring) + 1):\n                prefix = substring[:i]\n                if prefix in word_set:\n                    suffix = substring[i:]\n                    suffix_results = solve(suffix)\n                    for suffix_sentence in suffix_results:\n                        if suffix_sentence:\n                            results.append(prefix + \" \" + suffix_sentence)\n                        else:\n                            results.append(prefix)\n            \n            memo[substring] = results\n            return results\n        \n        return solve(s)\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 94621584666,
+      "SolvedAt": "2025-11-20T19:34:34.470819+01:00",
+      "PromptTokens": 514,
+      "OutputTokens": 13221
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "140",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n\n        def solve(substring: str) -> List[str]:\n            if substring in memo:\n                return memo[substring]\n\n            if not substring:\n                return [\"\"]\n\n            results = []\n            for i in range(1, len(substring) + 1):\n                prefix = substring[:i]\n                if prefix in word_set:\n                    suffix = substring[i:]\n                    suffix_results = solve(suffix)\n                    for suffix_sentence in suffix_results:\n                        if suffix_sentence:\n                            results.append(prefix + \" \" + suffix_sentence)\n                        else:\n                            results.append(prefix)\n            \n            memo[substring] = results\n            return results\n        \n        return solve(s)\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:03:32+01:00"
+    }
+  }
+}

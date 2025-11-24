@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "905",
+        "questionId": "941",
+        "Content": "<p>Given an integer array <code>nums</code>, move all the even integers at the beginning of the array followed by all the odd integers.</p>\n\n<p>Return <em><strong>any array</strong> that satisfies this condition</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,1,2,4]\n<strong>Output:</strong> [2,4,3,1]\n<strong>Explanation:</strong> The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0]\n<strong>Output:</strong> [0]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 5000</code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 5000</code></li>\n</ul>\n",
+        "SampleTestCase": "[3,1,2,4]",
+        "ExampleTestcases": "[3,1,2,4]\n[0]",
+        "Difficulty": "Easy",
+        "Title": "Sort Array By Parity",
+        "TitleSlug": "sort-array-by-parity",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"961K\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 960965, \"totalSubmissionRaw\": 1258294, \"acRate\": \"76.4%\"}",
+        "Likes": 5618,
+        "Dislikes": 157,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> sortArrayByParity(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] sortArrayByParity(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def sortArrayByParity(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar sortArrayByParity = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function sortArrayByParity(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SortArrayByParity(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sortArrayByParity(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func sortArrayByParity(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun sortArrayByParity(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func sortArrayByParity(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn sort_array_by_parity(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef sort_array_by_parity(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function sortArrayByParity($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> sortArrayByParity(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def sortArrayByParity(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec sort_array_by_parity(nums :: [integer]) :: [integer]\n  def sort_array_by_parity(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec sort_array_by_parity(Nums :: [integer()]) -> [integer()].\nsort_array_by_parity(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (sort-array-by-parity nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:51:21.932369+01:00",
+    "AcRate": "76.4",
+    "TotalSubmissions": 1258294,
+    "TotalAccepted": 960965,
+    "AcceptanceRate": 0.7637046667948826,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sort-array-by-parity/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            elif nums[left] % 2 == 0:\n                left += 1\n            elif nums[right] % 2 == 1:\n                right -= 1\n        return nums\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Two-pointer technique (in-place swap)\n\n**Step-by-Step Approach**:\n1. Initialize two pointers: `left` at the start and `right` at the end of the array\n2. Move `left` pointer until an odd number is found\n3. Move `right` pointer until an even number is found\n4. Swap elements when `left` points to odd and `right` points to even\n5. Continue until pointers cross each other\n\n**Data Structures**: Original array (modified in-place)\n\n**Time Complexity**: O(n) - single pass through the array\n\n**Space Complexity**: O(1) - only using constant extra space\n\n**Pseudocode**:\n```\nleft = 0, right = n-1\nwhile left < right:\n    if nums[left] is odd and nums[right] is even:\n        swap nums[left] and nums[right]\n        left++, right--\n    else:\n        if nums[left] is even: left++\n        if nums[right] is odd: right--\n```\n\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            else:\n                if nums[left] % 2 == 0:\n                    left += 1\n                if nums[right] % 2 == 1:\n                    right -= 1\n        return nums\n```\n\n=== IMPLEMENTATION ===\n\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            else:\n                if nums[left] % 2 == 0:\n                    left += 1\n                if nums[right] % 2 == 1:\n                    right -= 1\n        return nums\n```\n\n=== VERIFICATION ===\nI have reviewed the provided solution for the problem of moving all even integers to the beginning and odd integers to the end of the array.\n\n**Verification Report:**\n\n1. **Correctness**: The code correctly implements the two-pointer algorithm as designed. It efficiently partitions the array by swapping elements when an odd is found at the left and an even at the right.\n\n2. **Edge Cases**: \n   - Single element array (e.g., [0]): Handled correctly - loop doesn't run and returns [0].\n   - All even numbers: The left pointer moves right until it passes the right pointer, no swaps occur.\n   - All odd numbers: The right pointer moves left until it passes the left pointer, no swaps occur.\n   - Mixed numbers: Correctly partitions even and odd.\n   - Already sorted: Efficiently handles without unnecessary swaps.\n\n3. **Complexity**: \n   - Time Complexity: O(n) - Each element is visited at most once by the pointers.\n   - Space Complexity: O(1) - Only constant extra space is used for pointers.\n\n4. **Code Quality**: \n   - The code is clean and readable with appropriate variable names.\n   - The logic is straightforward and follows the algorithm design.\n\n5. **Test Cases**:\n   - Example 1: nums = [3,1,2,4] \n        left=0 (odd), right=3 (even) -> swap -> [4,1,2,3]; left=1, right=2\n        left=1 (odd), right=2 (even) -> swap -> [4,2,1,3]; left=2, right=1 -> loop ends.\n        Result: [4,2,1,3] (which is acceptable as per problem).\n   - Example 2: nums = [0] -> returns [0] correctly.\n\n6. **Potential Issues**: \n   - The code might do an extra check in the `else` block when both conditions are true (e.g., when left is even and right is odd), but this is acceptable as it efficiently handles the movement.\n   - The solution is optimal and meets all requirements.\n\nThe solution is correct and efficient. No changes are needed.\n\n```python\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            else:\n                if nums[left] % 2 == 0:\n                    left += 1\n                if nums[right] % 2 == 1:\n                    right -= 1\n        return nums\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            else:\n                if nums[left] % 2 == 0:\n                    left += 1\n                if nums[right] % 2 == 1:\n                    right -= 1\n        return nums\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 29740104543,
+      "SolvedAt": "2025-11-21T00:39:11.382023+01:00",
+      "PromptTokens": 3265,
+      "OutputTokens": 1223
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "941",
+        "typed_code": "\nclass Solution:\n    def sortArrayByParity(self, nums: List[int]) -> List[int]:\n        left, right = 0, len(nums) - 1\n        while left < right:\n            if nums[left] % 2 == 1 and nums[right] % 2 == 0:\n                nums[left], nums[right] = nums[right], nums[left]\n                left += 1\n                right -= 1\n            else:\n                if nums[left] % 2 == 0:\n                    left += 1\n                if nums[right] % 2 == 1:\n                    right -= 1\n        return nums\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:45:19+01:00"
+    }
+  }
+}

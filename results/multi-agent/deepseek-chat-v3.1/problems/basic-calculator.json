@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "224",
+        "questionId": "224",
+        "Content": "<p>Given a string <code>s</code> representing a valid expression, implement a basic calculator to evaluate it, and return <em>the result of the evaluation</em>.</p>\n\n<p><strong>Note:</strong> You are <strong>not</strong> allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code>eval()</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;1 + 1&quot;\n<strong>Output:</strong> 2\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot; 2-1 + 2 &quot;\n<strong>Output:</strong> 3\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(1+(4+5+2)-3)+(6+8)&quot;\n<strong>Output:</strong> 23\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of digits, <code>&#39;+&#39;</code>, <code>&#39;-&#39;</code>, <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, and <code>&#39; &#39;</code>.</li>\n\t<li><code>s</code> represents a valid expression.</li>\n\t<li><code>&#39;+&#39;</code> is <strong>not</strong> used as a unary operation (i.e., <code>&quot;+1&quot;</code> and <code>&quot;+(2 + 3)&quot;</code> is invalid).</li>\n\t<li><code>&#39;-&#39;</code> could be used as a unary operation (i.e., <code>&quot;-1&quot;</code> and <code>&quot;-(2 + 3)&quot;</code> is valid).</li>\n\t<li>There will be no two consecutive operators in the input.</li>\n\t<li>Every number and running calculation will fit in a signed 32-bit integer.</li>\n</ul>\n",
+        "SampleTestCase": "\"1 + 1\"",
+        "ExampleTestcases": "\"1 + 1\"\n\" 2-1 + 2 \"\n\"(1+(4+5+2)-3)+(6+8)\"",
+        "Difficulty": "Hard",
+        "Title": "Basic Calculator",
+        "TitleSlug": "basic-calculator",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"653.5K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 653528, \"totalSubmissionRaw\": 1411091, \"acRate\": \"46.3%\"}",
+        "Likes": 6827,
+        "Dislikes": 549,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int calculate(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int calculate(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def calculate(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar calculate = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function calculate(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Calculate(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int calculate(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func calculate(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun calculate(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func calculate(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn calculate(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef calculate(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function calculate($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int calculate(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def calculate(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec calculate(s :: String.t) :: integer\n  def calculate(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec calculate(S :: unicode:unicode_binary()) -> integer().\ncalculate(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (calculate s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:26:31.048602+01:00",
+    "AcRate": "46.3",
+    "TotalSubmissions": 1411091,
+    "TotalAccepted": 653528,
+    "AcceptanceRate": 0.46313667934952457,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/basic-calculator/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Stack-based iterative parsing with sign propagation  \n**Step-by-Step Approach**:  \n1. Iterate through each character in the string  \n2. Accumulate digits into a number  \n3. When encountering `+` or `-`, apply the current sign to the number and update the result  \n4. For `(`, push current result and sign to the stack, then reset them  \n5. For `)`, compute the inner expression result, then combine with the previous result and sign from the stack  \n6. Handle unary `-` by toggling the sign when needed  \n\n**Data Structures**: Stack (list) to store intermediate results and signs  \n\n**Time Complexity**: O(n) \u2014 single pass through the string  \n**Space Complexity**: O(n) \u2014 stack space for nested parentheses  \n\n**Pseudocode**:  \n```\nInitialize stack, result = 0, sign = 1, num = 0  \nFor each char in s:  \n    If digit: build num  \n    If + or -: update result with sign * num, reset num, update sign  \n    If (: push result and sign to stack, reset both  \n    If ): update result with sign * num, reset num, pop sign and result from stack, combine  \nFinally, add last num to result  \nReturn result  \n```\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n```\n\n=== VERIFICATION ===\nLooking at the provided solution, I can see it implements a stack-based approach to evaluate mathematical expressions with parentheses, handling unary minus correctly. Let me verify it against the requirements:\n\n**Verification Report:**\n\n1. **Correctness**: The algorithm correctly handles:\n   - Digit accumulation\n   - Binary + and - operations\n   - Parentheses with proper nesting\n   - Unary minus (through sign propagation)\n   - Whitespace (ignored implicitly)\n\n2. **Edge Cases**: Handles:\n   - Single numbers (\"123\")\n   - Nested parentheses\n   - Consecutive parentheses (\"((()))\")\n   - Expressions starting with minus (\"-2+1\")\n   - Large numbers within 32-bit range\n\n3. **Complexity**: \n   - Time: O(n) - single pass through string\n   - Space: O(n) - stack depth for nested parentheses\n\n4. **Code Quality**: \n   - Clean, readable code\n   - Good variable names\n   - Proper initialization and reset of variables\n\n5. **Test Cases**:\n   - \"1 + 1\" \u2192 2 \u2713\n   - \" 2-1 + 2 \" \u2192 3 \u2713  \n   - \"(1+(4+5+2)-3)+(6+8)\" \u2192 23 \u2713\n\n6. **Potential Issues**: \n   - The code implicitly handles spaces by skipping them in the condition checks\n   - Unary minus is handled correctly through sign propagation\n   - No issues with operator precedence since we're evaluating left-to-right with parentheses\n\nThe solution is correct and well-implemented. No changes needed.\n\n```python\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 34072607916,
+      "SolvedAt": "2025-11-20T23:34:16.739483+01:00",
+      "PromptTokens": 4159,
+      "OutputTokens": 1400
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "224",
+        "typed_code": "\nclass Solution:\n    def calculate(self, s: str) -> int:\n        stack = []\n        num = 0\n        sign = 1\n        result = 0\n        \n        for char in s:\n            if char.isdigit():\n                num = num * 10 + int(char)\n            elif char == '+':\n                result += sign * num\n                num = 0\n                sign = 1\n            elif char == '-':\n                result += sign * num\n                num = 0\n                sign = -1\n            elif char == '(':\n                stack.append(result)\n                stack.append(sign)\n                result = 0\n                sign = 1\n            elif char == ')':\n                result += sign * num\n                num = 0\n                prev_sign = stack.pop()\n                prev_result = stack.pop()\n                result = prev_result + prev_sign * result\n                \n        result += sign * num\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:13:43+01:00"
+    }
+  }
+}

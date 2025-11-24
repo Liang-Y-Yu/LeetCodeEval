@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "679",
+        "questionId": "679",
+        "Content": "<p>You are given an integer array <code>cards</code> of length <code>4</code>. You have four cards, each containing a number in the range <code>[1, 9]</code>. You should arrange the numbers on these cards in a mathematical expression using the operators <code>[&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;]</code> and the parentheses <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> to get the value 24.</p>\n\n<p>You are restricted with the following rules:</p>\n\n<ul>\n\t<li>The division operator <code>&#39;/&#39;</code> represents real division, not integer division.\n\n\t<ul>\n\t\t<li>For example, <code>4 / (1 - 2 / 3) = 4 / (1 / 3) = 12</code>.</li>\n\t</ul>\n\t</li>\n\t<li>Every operation done is between two numbers. In particular, we cannot use <code>&#39;-&#39;</code> as a unary operator.\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 1, 1, 1]</code>, the expression <code>&quot;-1 - 1 - 1 - 1&quot;</code> is <strong>not allowed</strong>.</li>\n\t</ul>\n\t</li>\n\t<li>You cannot concatenate numbers together\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 2, 1, 2]</code>, the expression <code>&quot;12 + 12&quot;</code> is not valid.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return <code>true</code> if you can get such expression that evaluates to <code>24</code>, and <code>false</code> otherwise.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [4,1,8,7]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> (8-4) * (7-1) = 24\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [1,2,1,2]\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>cards.length == 4</code></li>\n\t<li><code>1 &lt;= cards[i] &lt;= 9</code></li>\n</ul>\n",
+        "SampleTestCase": "[4,1,8,7]",
+        "ExampleTestcases": "[4,1,8,7]\n[1,2,1,2]",
+        "Difficulty": "Hard",
+        "Title": "24 Game",
+        "TitleSlug": "24-game",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"164.2K\", \"totalSubmission\": \"277.3K\", \"totalAcceptedRaw\": 164151, \"totalSubmissionRaw\": 277296, \"acRate\": \"59.2%\"}",
+        "Likes": 1872,
+        "Dislikes": 288,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool judgePoint24(vector<int>& cards) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean judgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def judgePoint24(self, cards):\n        \"\"\"\n        :type cards: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} cards\n * @return {boolean}\n */\nvar judgePoint24 = function(cards) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function judgePoint24(cards: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool JudgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool judgePoint24(int* cards, int cardsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func judgePoint24(cards []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun judgePoint24(cards: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func judgePoint24(_ cards: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn judge_point24(cards: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} cards\n# @return {Boolean}\ndef judge_point24(cards)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $cards\n     * @return Boolean\n     */\n    function judgePoint24($cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool judgePoint24(List<int> cards) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def judgePoint24(cards: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec judge_point24(cards :: [integer]) :: boolean\n  def judge_point24(cards) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec judge_point24(Cards :: [integer()]) -> boolean().\njudge_point24(Cards) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (judge-point24 cards)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:06:56.163065+01:00",
+    "AcRate": "59.2",
+    "TotalSubmissions": 277296,
+    "TotalAccepted": 164151,
+    "AcceptanceRate": 0.5919703133114073,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/24-game/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\nThis problem requires determining if four given numbers (each between 1 and 9) can be arranged with the operators '+', '-', '*', '/' and parentheses to form an expression that evaluates to 24. The constraints specify real division (so floating-point precision must be handled), no unary '-', and no number concatenation.\n\n**1. Problem Type Classification:**\nThis is a combinatorial problem involving permutations of numbers and combinations of operators, with recursion/backtracking to explore all possible expressions.\n\n**2. Key Patterns & Algorithms:**\n- **Recursion/Backtracking**: We need to consider all possible ways to combine two numbers at a time with an operator, reducing the problem size until one number remains.\n- **Permutations**: The order of numbers matters, so we must consider all permutations of the four numbers.\n- **Floating-point Precision**: Due to real division, we must handle floating-point comparisons with a tolerance (e.g., 1e-6) to avoid precision issues.\n\n**3. Constraints Analysis:**\n- The array has exactly 4 elements, each between 1 and 9.\n- The number of permutations of 4 numbers is 4! = 24.\n- For each permutation, we generate expressions by combining numbers with operators. There are 4 operators and we combine numbers in different orders (which is handled by the recursion).\n- The recursion depth is 3 (since we start with 4 numbers and combine two at a time until one remains).\n- The total number of expressions to evaluate is manageable: 24 * (4^3 * number of ways to combine expressions) but effectively we have a binary expression tree with 4 leaves and 3 internal nodes. The exact count is not huge due to the small input size.\n\n**4. Edge Cases:**\n- Division by zero: must avoid.\n- Floating-point precision: compare with tolerance (e.g., abs(value - 24) < 1e-6).\n- All same numbers: e.g., [1,1,1,1] -> no solution (but actually  (1+1+1+1)! = 24, but factorial not allowed; so no solution).\n- Numbers that lead to exact 24: e.g., [6,4,3,2] -> 6*4*(3-2)=24.\n\n**5. Input/Output Analysis:**\n- Input: list of 4 integers.\n- Output: boolean (True if expression evaluates to 24 exists, else False).\n\n**6. Difficulty Assessment:**\n- The challenge lies in generating all possible expressions without missing any, and handling parentheses implicitly (by considering all orders of operations). The recursion must correctly combine numbers and operators.\n\n**Solution Approach:**\nWe will use a recursive method that:\n- Takes a list of numbers and returns if any expression from these numbers evaluates to 24.\n- Base case: if the list has one number, check if it is approximately 24.\n- For every pair of indices (i, j), combine them with every operator (+, -, *, /) to form a new number, and recurse on the smaller list (without the two numbers and with the new result).\n- Also, note that for subtraction and division, the order matters: so we should consider both a-b and b-a, and a/b and b/a (if divisor not zero).\n\nHowever, to avoid code duplication, we can generate all pairs and for each operator, compute the result and create a new list without the two numbers and with the new result. Then recurse.\n\nBut since the input size is small, we can also generate all permutations of the four numbers to account for order. Actually, the recursion already considers different orders by picking pairs arbitrarily. However, to be safe, we should consider all permutations of the input list? Actually, no need: because the recursion explores all possible binary trees. But to account for all orders, we should start with all permutations? Alternatively, the recursion without permutations might miss some orders? Actually, the problem is symmetric: the recursion that picks any two numbers and combines them will generate all possible expression trees. So it is sufficient.\n\nBut to be efficient, we can:\n- Define a function that takes a list of numbers.\n- If len(nums)==1: return abs(nums[0]-24) < 1e-6\n- For each pair (i,j) (i<j):\n   - a = nums[i], b = nums[j]\n   - new_nums = [nums[k] for k in range(len(nums)) if k != i and k != j]\n   - For each operator in ['+','-','*','/']:\n        if operator is '+': result = a+b\n        if '-': result = a-b (and also consider b-a? Actually, we should consider both? But note: when we pick the pair (i,j), we are effectively considering the two orders? Actually no: because we are taking a and b in fixed order. So we must consider both orders for non-commutative operators.\n\nSo for non-commutative operators (- and /), we need to consider both orders. Alternatively, we can generate two results for subtraction: a-b and b-a, and similarly for division: a/b and b/a (if not zero).\n\nSo the plan:\nFor a list of n numbers:\n   for i in range(n):\n      for j in range(i+1, n):\n          a = nums[i], b = nums[j]\n          new_nums = [nums[k] for k in range(n) if k != i and k != j]\n          for op in ['+','*','-','/']:\n             if op == '+': \n                 new_val = a+b\n                 if recurse(new_nums + [new_val]): return True\n             if op == '*':\n                 new_val = a*b\n                 if recurse(new_nums + [new_val]): return True\n             if op == '-':\n                 new_val1 = a-b\n                 if recurse(new_nums + [new_val1]): return True\n                 new_val2 = b-a\n                 if recurse(new_nums + [new_val2]): return True\n             if op == '/':\n                 if abs(b) > 1e-6:\n                     new_val1 = a/b\n                     if recurse(new_nums + [new_val1]): return True\n                 if abs(a) > 1e-6:\n                     new_val2 = b/a\n                     if recurse(new_nums + [new_val2]): return True\n   return False\n\nBut wait: the above does not require permutations of the original list? Actually, it does: because the initial order of numbers might matter? For example, when we have more than two numbers, the order in which we combine might matter. But the recursion above considers every pair arbitrarily, so it should cover all possible expression trees. So it is correct.\n\nHowever, to avoid missing any, we should also consider that the operators are applied in different orders. This method does exactly that: it considers every possible way to combine two numbers and reduces the problem size.\n\nSo we implement the recursive function as described.\n\nBut note: the input has exactly 4 numbers. So the recursion depth is 3.\n\nWe'll write a helper function that takes a list of numbers and returns whether that list can be combined to form 24.\n\nCode Implementation:\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            for i in range(n):\n                for j in range(i+1, n):\n                    a = nums[i]\n                    b = nums[j]\n                    new_nums = []\n                    for k in range(n):\n                        if k != i and k != j:\n                            new_nums.append(nums[k])\n                    # Try all operations\n                    # Addition\n                    if dfs(new_nums + [a+b]):\n                        return True\n                    # Multiplication\n                    if dfs(new_nums + [a*b]):\n                        return True\n                    # Subtraction (both orders)\n                    if dfs(new_nums + [a-b]):\n                        return True\n                    if dfs(new_nums + [b-a]):\n                        return True\n                    # Division (both orders, avoid division by zero)\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a/b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b/a]):\n                            return True\n            return False\n        return dfs(cards)\n\nThis should work.\n\nLet's test with example1: [4,1,8,7]. One way is (8-4)*(7-1)=24. So the recursion should eventually compute:\nFirst combine 8 and 4: 8-4=4 -> new list [1,7,4]\nThen combine 7 and 1: 7-1=6 -> new list [4,6]\nThen combine 4 and 6: 4*6=24 -> base case returns True.\n\nSo it works.\n\nAnother test: [1,2,1,2] -> returns false.\n\nWe'll code accordingly.\n```\n\n```python\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            for i in range(n):\n                for j in range(i+1, n):\n                    a = nums[i]\n                    b = nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        return dfs(cards)\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            \n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        \n        return dfs(cards)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            \n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        \n        return dfs(cards)\n```\n\n=== VERIFICATION ===\n<final answer>\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            \n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        \n        return dfs(cards)\n</final_answer>\n\n",
+      "TypedCode": "\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            \n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        \n        return dfs(cards)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 60978550792,
+      "SolvedAt": "2025-11-20T23:30:56.433333+01:00",
+      "PromptTokens": 8858,
+      "OutputTokens": 2926
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "679",
+        "typed_code": "\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        def dfs(nums):\n            n = len(nums)\n            if n == 1:\n                return abs(nums[0] - 24) < 1e-6\n            \n            for i in range(n):\n                for j in range(i + 1, n):\n                    a, b = nums[i], nums[j]\n                    new_nums = [nums[k] for k in range(n) if k != i and k != j]\n                    \n                    if dfs(new_nums + [a + b]):\n                        return True\n                    if dfs(new_nums + [a * b]):\n                        return True\n                    if dfs(new_nums + [a - b]):\n                        return True\n                    if dfs(new_nums + [b - a]):\n                        return True\n                    if abs(b) > 1e-6:\n                        if dfs(new_nums + [a / b]):\n                            return True\n                    if abs(a) > 1e-6:\n                        if dfs(new_nums + [b / a]):\n                            return True\n            return False\n        \n        return dfs(cards)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:35:59+01:00"
+    }
+  }
+}

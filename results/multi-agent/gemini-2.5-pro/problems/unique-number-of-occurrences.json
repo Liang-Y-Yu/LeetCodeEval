@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1207",
+        "questionId": "1319",
+        "Content": "<p>Given an array of integers <code>arr</code>, return <code>true</code> <em>if the number of occurrences of each value in the array is <strong>unique</strong> or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,2,2,1,1,3]\n<strong>Output:</strong> true\n<strong>Explanation:</strong>&nbsp;The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,2]\n<strong>Output:</strong> false\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [-3,0,1,-3,1,1,1,-3,10,0]\n<strong>Output:</strong> true\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 1000</code></li>\n\t<li><code>-1000 &lt;= arr[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,2,1,1,3]",
+        "ExampleTestcases": "[1,2,2,1,1,3]\n[1,2]\n[-3,0,1,-3,1,1,1,-3,10,0]",
+        "Difficulty": "Easy",
+        "Title": "Unique Number of Occurrences",
+        "TitleSlug": "unique-number-of-occurrences",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"920.4K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 920434, \"totalSubmissionRaw\": 1172196, \"acRate\": \"78.5%\"}",
+        "Likes": 5466,
+        "Dislikes": 153,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool uniqueOccurrences(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean uniqueOccurrences(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def uniqueOccurrences(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {boolean}\n */\nvar uniqueOccurrences = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function uniqueOccurrences(arr: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool UniqueOccurrences(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool uniqueOccurrences(int* arr, int arrSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func uniqueOccurrences(arr []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun uniqueOccurrences(arr: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func uniqueOccurrences(_ arr: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn unique_occurrences(arr: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Boolean}\ndef unique_occurrences(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Boolean\n     */\n    function uniqueOccurrences($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool uniqueOccurrences(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def uniqueOccurrences(arr: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec unique_occurrences(arr :: [integer]) :: boolean\n  def unique_occurrences(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec unique_occurrences(Arr :: [integer()]) -> boolean().\nunique_occurrences(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (unique-occurrences arr)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:34:05.037293+01:00",
+    "AcRate": "78.5",
+    "TotalSubmissions": 1172196,
+    "TotalAccepted": 920434,
+    "AcceptanceRate": 0.7852219253435432,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/unique-number-of-occurrences/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        \"\"\"\n        Solves the problem of determining if the number of occurrences of each value\n        in an array is unique.\n\n        The problem can be broken down into two main steps:\n        1. Count the frequency of each number in the input array.\n        2. Check if all the collected frequencies are unique.\n\n        A hash map (or Python's `collections.Counter`) is an ideal data structure\n        for the first step. It allows us to iterate through the array once and\n        store each number and its corresponding frequency in O(N) time, where N\n        is the length of the array.\n\n        For the second step, we need to check the uniqueness of the frequencies\n        (the values from our hash map). A hash set is perfect for this. We can\n        compare the number of frequencies with the number of unique frequencies.\n        If we have M distinct numbers in the input array, we will have M\n        frequency counts. If we add these M counts to a set, the size of the\n        set will also be M if and only if all the counts are unique. If any\n        counts are duplicated, the set size will be smaller than M.\n\n        This approach leads to an efficient solution with O(N) time complexity\n        and O(M) space complexity, where M is the number of unique elements in\n        the array.\n        \"\"\"\n        counts = collections.Counter(arr)\n        \n        # The values of the counter are the frequencies of the elements.\n        frequencies = counts.values()\n        \n        # To check if all frequencies are unique, we can compare the number of\n        # frequencies with the number of unique frequencies (the size of a set\n        # made from them).\n        return len(frequencies) == len(set(frequencies))\n\n```\n\n=== DESIGN ===\nTo solve this problem, we need to perform two main tasks: first, count the occurrences of each number in the input array, and second, determine if all of those counts are unique. A two-step approach using appropriate data structures is ideal for this.\n\n1.  **Frequency Counting**: A hash map (or `collections.Counter` in Python) is an excellent choice for counting the occurrences of each number. We can iterate through the input array once, and for each number, increment its count in the hash map. This process takes time proportional to the number of elements in the array.\n\n2.  **Uniqueness Check**: Once we have the frequency counts (which are the values in our hash map), we need to check if these counts themselves are unique. A hash set is the perfect tool for this. We can take all the frequency counts and insert them into a hash set. The size of the resulting set will tell us the number of unique frequencies. If this size is equal to the total number of frequencies we had, it means all the frequencies were unique. Otherwise, at least one frequency value was duplicated.\n\nThis approach is efficient, with a time complexity of O(N) where N is the number of elements in the array, and a space complexity of O(M) where M is the number of unique elements in the array.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        \"\"\"\n        Determines if the number of occurrences of each value in the array is unique.\n        \"\"\"\n        \n        # Step 1: Count the frequency of each number in the array.\n        # collections.Counter is a highly efficient way to do this, resulting\n        # in a dictionary-like object mapping elements to their counts.\n        # For arr = [1,2,2,1,1,3], counts will be {1: 3, 2: 2, 3: 1}.\n        counts = collections.Counter(arr)\n        \n        # Step 2: Extract the frequency counts.\n        # .values() gives us a collection of the counts.\n        # For our example, frequencies would be [3, 2, 1].\n        frequencies = counts.values()\n        \n        # Step 3: Check if all frequency counts are unique.\n        # We can do this by comparing the number of frequencies with the\n        # number of unique frequencies. The latter is found by converting\n        # the list of frequencies to a set.\n        # If len([3, 2, 1]) == len({3, 2, 1}), which means 3 == 3, the occurrences are unique.\n        # If arr = [1, 2], frequencies would be [1, 1].\n        # len([1, 1]) != len({1}), which is 2 != 1, so occurrences are not unique.\n        return len(frequencies) == len(set(frequencies))\n\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        counts = collections.Counter(arr)\n        frequencies = counts.values()\n        return len(frequencies) == len(set(frequencies))\n```\n\n=== VERIFICATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        counts = collections.Counter(arr)\n        frequencies = counts.values()\n        return len(frequencies) == len(set(frequencies))\n\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        counts = collections.Counter(arr)\n        frequencies = counts.values()\n        return len(frequencies) == len(set(frequencies))\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 186630734583,
+      "SolvedAt": "2025-11-21T18:41:39.814499+01:00",
+      "PromptTokens": 4882,
+      "OutputTokens": 20096
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1319",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def uniqueOccurrences(self, arr: List[int]) -> bool:\n        counts = collections.Counter(arr)\n        frequencies = counts.values()\n        return len(frequencies) == len(set(frequencies))\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:21:39+01:00"
+    }
+  }
+}

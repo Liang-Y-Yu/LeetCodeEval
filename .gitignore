@@ -45,3 +45,4 @@ leetgptsolver
 config.yaml
 config.production
 .venv
+playwright_profile

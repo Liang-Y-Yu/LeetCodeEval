@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "739",
+        "questionId": "739",
+        "Content": "<p>Given an array of integers <code>temperatures</code> represents the daily temperatures, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is the number of days you have to wait after the</em> <code>i<sup>th</sup></code> <em>day to get a warmer temperature</em>. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> temperatures = [73,74,75,71,69,72,76,73]\n<strong>Output:</strong> [1,1,4,2,1,1,0,0]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> temperatures = [30,40,50,60]\n<strong>Output:</strong> [1,1,1,0]\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> temperatures = [30,60,90]\n<strong>Output:</strong> [1,1,0]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;=&nbsp;temperatures.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>30 &lt;=&nbsp;temperatures[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[73,74,75,71,69,72,76,73]",
+        "ExampleTestcases": "[73,74,75,71,69,72,76,73]\n[30,40,50,60]\n[30,60,90]",
+        "Difficulty": "Medium",
+        "Title": "Daily Temperatures",
+        "TitleSlug": "daily-temperatures",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"2.2M\", \"totalAcceptedRaw\": 1495318, \"totalSubmissionRaw\": 2201698, \"acRate\": \"67.9%\"}",
+        "Likes": 14288,
+        "Dislikes": 361,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> dailyTemperatures(vector<int>& temperatures) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] dailyTemperatures(int[] temperatures) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def dailyTemperatures(self, temperatures):\n        \"\"\"\n        :type temperatures: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} temperatures\n * @return {number[]}\n */\nvar dailyTemperatures = function(temperatures) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function dailyTemperatures(temperatures: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] DailyTemperatures(int[] temperatures) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* dailyTemperatures(int* temperatures, int temperaturesSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func dailyTemperatures(temperatures []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun dailyTemperatures(temperatures: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func dailyTemperatures(_ temperatures: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn daily_temperatures(temperatures: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} temperatures\n# @return {Integer[]}\ndef daily_temperatures(temperatures)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $temperatures\n     * @return Integer[]\n     */\n    function dailyTemperatures($temperatures) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> dailyTemperatures(List<int> temperatures) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def dailyTemperatures(temperatures: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec daily_temperatures(temperatures :: [integer]) :: [integer]\n  def daily_temperatures(temperatures) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec daily_temperatures(Temperatures :: [integer()]) -> [integer()].\ndaily_temperatures(Temperatures) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (daily-temperatures temperatures)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:03:44.837089+01:00",
+    "AcRate": "67.9",
+    "TotalSubmissions": 2201698,
+    "TotalAccepted": 1495318,
+    "AcceptanceRate": 0.6791658074813167,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/daily-temperatures/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []  # This stack will store indices of temperatures\n\n        for i, temp in enumerate(temperatures):\n            # While the stack is not empty and the current temperature is\n            # greater than the temperature at the index stored at the top of the stack\n            while stack and temp > temperatures[stack[-1]]:\n                # We've found the next warmer day for the index at the top of the stack\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            \n            # Push the current index onto the stack\n            stack.append(i)\n            \n        return answer\n\n```\n\n=== DESIGN ===\nMy approach is to use a **monotonic stack** to efficiently find the next warmer day for each day. A monotonic stack maintains its elements in a specific order (either increasing or decreasing). For this problem, we will maintain a stack of indices corresponding to temperatures that are in a strictly decreasing order.\n\n### 1. Algorithm Choice\nThe chosen algorithm is the **Monotonic Stack** approach. This is ideal for \"next greater element\" type problems. It allows for a single pass through the input array, resulting in a highly efficient time complexity.\n\n### 2. Step-by-Step Approach\n1.  Initialize an `answer` array of the same length as the `temperatures` array, filling it with zeros. This ensures that any day without a future warmer day will have the correct default value of 0.\n2.  Initialize an empty `stack`. This stack will store the *indices* of the days we have visited but have not yet found a warmer day for.\n3.  Iterate through the `temperatures` array from left to right, processing each day's temperature. Let the current index be `i` and the current temperature be `temp`.\n4.  For each `temp`, look at the index at the top of the stack. While the stack is not empty and the current `temp` is greater than the temperature at the index on top of the stack (`temperatures[stack.top()]`):\n    a. We have found the next warmer day for the day represented by the index at the top of the stack.\n    b. Pop the index from the stack (let's call it `prev_index`).\n    c. Calculate the number of days waited: `i - prev_index`.\n    d. Update the result for that day: `answer[prev_index] = i - prev_index`.\n5.  After the `while` loop, push the current index `i` onto the stack. This index will now wait for a future warmer day.\n6.  After iterating through all the temperatures, the `answer` array will be fully populated. Return the `answer` array.\n\n### 3. Data Structures\n*   **Array (List in Python)**: An integer array named `answer` to store the output values.\n*   **Stack (List in Python)**: A stack to store the indices of days awaiting a warmer temperature. Using a Python list as a stack is efficient, with `append()` for push and `pop()` for pop operations.\n\n### 4. Time Complexity\n*   **O(N)**, where N is the length of the `temperatures` array. Each index is pushed onto the stack exactly once and popped at most once. This means every element is processed a constant number of times over the entire course of the algorithm, leading to a linear time complexity.\n\n### 5. Space Complexity\n*   **O(N)**, where N is the length of the `temperatures` array. In the worst-case scenario (e.g., a strictly decreasing temperature list like `[90, 80, 70]`), the stack could hold all N indices. The `answer` array also requires O(N) space.\n\n### 6. Pseudocode\n```\nfunction dailyTemperatures(temperatures):\n  n = length of temperatures\n  answer = new array of size n, initialized with 0\n  stack = new empty stack\n\n  for i from 0 to n-1:\n    current_temp = temperatures[i]\n    \n    // Check if current temp is the warmer day for any previous day on the stack\n    while stack is not empty AND current_temp > temperatures[stack.peek()]:\n      prev_index = stack.pop()\n      answer[prev_index] = i - prev_index\n\n    // Push current day's index to wait for its own warmer day\n    stack.push(i)\n\n  return answer\n```\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []  # This stack will store indices\n\n        for i, temp in enumerate(temperatures):\n            # While the stack is not empty and the current temperature is\n            # warmer than the temperature at the index on top of the stack\n            while stack and temp > temperatures[stack[-1]]:\n                # We've found the next warmer day for the index at the top of the stack\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            \n            # Push the current index onto the stack to await its next warmer day\n            stack.append(i)\n            \n        return answer\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []\n        for i, temp in enumerate(temperatures):\n            while stack and temp > temperatures[stack[-1]]:\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            stack.append(i)\n        return answer\n```\n\n=== VERIFICATION ===\nAn excellent and thorough analysis has been provided for the \"Daily Temperatures\" problem. The chosen Monotonic Stack approach is optimal for this type of problem, offering a single-pass solution with linear time and space complexity. The implemented code is a direct and effective realization of this design.\n\n### Verification Report\n\n**1. Correctness**\nThe implementation is **correct**. It accurately follows the logic of the monotonic stack algorithm. It initializes an `answer` array with zeros, which correctly serves as the default value for days without a future warmer temperature. The `while` loop condition `stack and temp > temperatures[stack[-1]]` correctly identifies the next warmer day for the indices stored on the stack. The calculation `i - prev_index` correctly determines the waiting period.\n\n**2. Edge Cases**\nThe solution robustly handles all relevant edge cases:\n*   **Single-element array**: The loop runs once, and the function correctly returns `[0]`.\n*   **Strictly increasing temperatures**: The code correctly calculates a wait of 1 day for each element except the last (e.g., `[30,40,50]` -> `[1,1,0]`).\n*   **Strictly decreasing temperatures**: The code correctly determines that no day has a future warmer day and returns all zeros (e.g., `[50,40,30]` -> `[0,0,0]`).\n*   **Large inputs**: The `O(N)` time complexity ensures the solution will pass within typical time limits for inputs up to `10^5`.\n\n**3. Complexity**\nThe complexity analysis is accurate:\n*   **Time Complexity**: `O(N)`. Each index is pushed onto the stack once and popped at most once. This results in amortized constant time work for each element, leading to a total linear time complexity.\n*   **Space Complexity**: `O(N)`. In the worst-case scenario (e.g., a strictly decreasing temperature array), the stack can grow to the size of the input array. The `answer` array also requires `O(N)` space.\n\n**4. Code Quality**\nThe code is of high quality:\n*   **Readability**: It is clean, well-structured, and easy to understand. Variable names like `stack`, `prev_index`, and `answer` are descriptive.\n*   **Pythonic**: The use of `enumerate` and a list as a stack are standard, efficient Python idioms.\n*   **Best Practices**: The logic is self-contained and follows the provided function signature.\n\n**5. Test Cases**\nThe code passes all provided sample test cases, as demonstrated by a manual walkthrough:\n*   `[73,74,75,71,69,72,76,73]` -> `[1,1,4,2,1,1,0,0]`\n*   `[30,40,50,60]` -> `[1,1,1,0]`\n*   `[30,60,90]` -> `[1,1,0]`\n\n**6. Potential Issues**\nThere are no bugs, logical errors, or performance issues in the provided implementation. The solution is optimal and ready for use.\n\n**Conclusion:** The solution is verified as **correct, efficient, and well-implemented**.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []  # This stack will store indices of temperatures\n        \n        for i, temp in enumerate(temperatures):\n            # While the stack is not empty and the current temperature is\n            # warmer than the temperature at the index on top of the stack\n            while stack and temp > temperatures[stack[-1]]:\n                # We've found the next warmer day for the index at the top of the stack\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            \n            # Push the current index onto the stack to await its next warmer day\n            stack.append(i)\n            \n        return answer\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []\n        for i, temp in enumerate(temperatures):\n            while stack and temp > temperatures[stack[-1]]:\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            stack.append(i)\n        return answer\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 174023608751,
+      "SolvedAt": "2025-11-21T10:38:08.885715+01:00",
+      "PromptTokens": 5213,
+      "OutputTokens": 19885
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "739",
+        "typed_code": "\nclass Solution:\n    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:\n        n = len(temperatures)\n        answer = [0] * n\n        stack = []\n        for i, temp in enumerate(temperatures):\n            while stack and temp > temperatures[stack[-1]]:\n                prev_index = stack.pop()\n                answer[prev_index] = i - prev_index\n            stack.append(i)\n        return answer\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:32:06+01:00"
+    }
+  }
+}

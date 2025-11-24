@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "857",
+        "questionId": "887",
+        "Content": "<p>There are <code>n</code> workers. You are given two integer arrays <code>quality</code> and <code>wage</code> where <code>quality[i]</code> is the quality of the <code>i<sup>th</sup></code> worker and <code>wage[i]</code> is the minimum wage expectation for the <code>i<sup>th</sup></code> worker.</p>\n\n<p>We want to hire exactly <code>k</code> workers to form a <strong>paid group</strong>. To hire a group of <code>k</code> workers, we must pay them according to the following rules:</p>\n\n<ol>\n\t<li>Every worker in the paid group must be paid at least their minimum wage expectation.</li>\n\t<li>In the group, each worker&#39;s pay must be directly proportional to their quality. This means if a worker&rsquo;s quality is double that of another worker in the group, then they must be paid twice as much as the other worker.</li>\n</ol>\n\n<p>Given the integer <code>k</code>, return <em>the least amount of money needed to form a paid group satisfying the above conditions</em>. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> quality = [10,20,5], wage = [70,50,30], k = 2\n<strong>Output:</strong> 105.00000\n<strong>Explanation:</strong> We pay 70 to 0<sup>th</sup> worker and 35 to 2<sup>nd</sup> worker.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> quality = [3,1,10,10,1], wage = [4,8,2,2,7], k = 3\n<strong>Output:</strong> 30.66667\n<strong>Explanation:</strong> We pay 4 to 0<sup>th</sup> worker, 13.33333 to 2<sup>nd</sup> and 3<sup>rd</sup> workers separately.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == quality.length == wage.length</code></li>\n\t<li><code>1 &lt;= k &lt;= n &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= quality[i], wage[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,20,5]\n[70,50,30]\n2",
+        "ExampleTestcases": "[10,20,5]\n[70,50,30]\n2\n[3,1,10,10,1]\n[4,8,2,2,7]\n3",
+        "Difficulty": "Hard",
+        "Title": "Minimum Cost to Hire K Workers",
+        "TitleSlug": "minimum-cost-to-hire-k-workers",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"155.1K\", \"totalSubmission\": \"244K\", \"totalAcceptedRaw\": 155088, \"totalSubmissionRaw\": 243955, \"acRate\": \"63.6%\"}",
+        "Likes": 3030,
+        "Dislikes": 405,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public double mincostToHireWorkers(int[] quality, int[] wage, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def mincostToHireWorkers(self, quality, wage, k):\n        \"\"\"\n        :type quality: List[int]\n        :type wage: List[int]\n        :type k: int\n        :rtype: float\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} quality\n * @param {number[]} wage\n * @param {number} k\n * @return {number}\n */\nvar mincostToHireWorkers = function(quality, wage, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function mincostToHireWorkers(quality: number[], wage: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public double MincostToHireWorkers(int[] quality, int[] wage, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "double mincostToHireWorkers(int* quality, int qualitySize, int* wage, int wageSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func mincostToHireWorkers(quality []int, wage []int, k int) float64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun mincostToHireWorkers(quality: IntArray, wage: IntArray, k: Int): Double {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func mincostToHireWorkers(_ quality: [Int], _ wage: [Int], _ k: Int) -> Double {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn mincost_to_hire_workers(quality: Vec<i32>, wage: Vec<i32>, k: i32) -> f64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} quality\n# @param {Integer[]} wage\n# @param {Integer} k\n# @return {Float}\ndef mincost_to_hire_workers(quality, wage, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $quality\n     * @param Integer[] $wage\n     * @param Integer $k\n     * @return Float\n     */\n    function mincostToHireWorkers($quality, $wage, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  double mincostToHireWorkers(List<int> quality, List<int> wage, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def mincostToHireWorkers(quality: Array[Int], wage: Array[Int], k: Int): Double = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec mincost_to_hire_workers(quality :: [integer], wage :: [integer], k :: integer) :: float\n  def mincost_to_hire_workers(quality, wage, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec mincost_to_hire_workers(Quality :: [integer()], Wage :: [integer()], K :: integer()) -> float().\nmincost_to_hire_workers(Quality, Wage, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (mincost-to-hire-workers quality wage k)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? flonum?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:54:44.803768+01:00",
+    "AcRate": "63.6",
+    "TotalSubmissions": 243955,
+    "TotalAccepted": 155088,
+    "AcceptanceRate": 0.6357238015207722,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: Greedy, Sorting, Heap (Priority Queue)\n\n**Key Patterns & Algorithms**:\n1. **Greedy Ratio Calculation**: For each worker, compute the wage-to-quality ratio (wage[i]/quality[i]). This ratio represents the \"unit cost\" per quality point. To satisfy the proportionality condition, if we choose a worker with ratio r, then every other worker j in the group must be paid at least quality[j] * r. Thus, the total cost for a group with captain (worker with maximum ratio in the group) having ratio r is r * (sum of qualities of all workers in the group).\n2. **Sorting by Ratio**: Sort workers by their ratio. This allows us to consider each worker as a potential captain (the one with the highest ratio in the group) and efficiently form groups.\n3. **Heap for Quality Management**: Use a max-heap (or min-heap with negative qualities) to maintain the k-1 smallest quality workers from the first i-1 workers (with lower ratios). This minimizes the sum of qualities for the group when combined with the captain.\n\n**Constraints Analysis**:\n- n up to 10,000. Requires an efficient solution, likely O(n log n).\n- Sorting and heap operations (each insertion and removal is O(log k)) will be efficient since k <= n.\n\n**Edge Cases**:\n- k = 1: Simply choose the worker with the smallest wage.\n- k = n: All workers must be hired, and the total cost is determined by the worker with the highest ratio (since that forces the unit cost to be high) multiplied by the total quality.\n- Workers with the same ratio.\n- Workers with very high quality but low wage (or vice versa) that might not be intuitive.\n\n**Input/Output Analysis**:\n- Input: Two lists (quality and wage) and an integer k.\n- Output: A float representing the minimum total cost to hire k workers.\n\n**Difficulty Assessment**:\n- The problem is challenging because it requires insight into the proportionality condition and how the ratio affects the entire group. The greedy approach of sorting by ratio and using a heap to track the smallest qualities is non-trivial.\n\n**Solution Code**:\n```python\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: list, wage: list, k: int) -> float:\n        workers = sorted([(w / q, q, w) for q, w in zip(quality, wage)])\n        min_cost = float('inf')\n        heap = []\n        total_quality = 0\n        for ratio, q, w in workers:\n            heapq.heappush(heap, -q)\n            total_quality += q\n            if len(heap) > k:\n                total_quality += heapq.heappop(heap)\n            if len(heap) == k:\n                min_cost = min(min_cost, total_quality * ratio)\n        return min_cost\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def mincostToHireWorkers(self, quality: list, wage: list, k: int) -> float:\n        workers = []\n        n = len(quality)\n        for i in range(n):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i], wage[i]))\n        \n        workers.sort(key=lambda x: x[0])\n        \n        max_heap = []\n        total_quality = 0\n        min_cost = float('inf')\n        \n        for i in range(n):\n            ratio, q, w = workers[i]\n            total_quality += q\n            heapq.heappush(max_heap, -q)\n            \n            if len(max_heap) > k:\n                popped = heapq.heappop(max_heap)\n                total_quality += popped\n            \n            if len(max_heap) == k:\n                cost = total_quality * ratio\n                if cost < min_cost:\n                    min_cost = cost\n        \n        return min_cost\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        n = len(quality)\n        for i in range(n):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort(key=lambda x: x[0])\n        \n        max_heap = []\n        total_quality = 0\n        min_cost = float('inf')\n        \n        for ratio, q in workers:\n            total_quality += q\n            heapq.heappush(max_heap, -q)\n            \n            if len(max_heap) > k:\n                total_quality += heapq.heappop(max_heap)\n            \n            if len(max_heap) == k:\n                cost = total_quality * ratio\n                if cost < min_cost:\n                    min_cost = cost\n        \n        return min_cost\n```\n\n=== VERIFICATION ===\nAfter reviewing the implemented solution, I have identified several issues that need to be addressed:\n\n1. **Incorrect Handling of Heap Popping**: When popping from the max-heap (which stores negative qualities), the code adds the popped value to `total_quality`. However, since the heap stores negative qualities, this operation actually subtracts the quality instead of adding it. This is incorrect because we want to remove the largest quality from the total when we exceed k workers.\n\n2. **Incomplete Worker Information**: The implemented code only stores (ratio, quality) for each worker, but the original design included storing wage as well. While wage isn't directly used in the calculation after ratio is computed, this isn't a functional issue.\n\n3. **Efficiency**: The algorithm is generally efficient with O(n log n) sorting and O(n log k) heap operations, which meets the constraints.\n\n4. **Edge Cases**: The code should handle k=1 and k=n correctly, but the heap popping issue might cause problems.\n\nLet me verify with the examples:\n\n**Example 1**: quality = [10,20,5], wage = [70,50,30], k=2\n- Workers with ratios: \n  - Worker0: 70/10 = 7.0\n  - Worker1: 50/20 = 2.5\n  - Worker2: 30/5 = 6.0\n- Sorted by ratio: [2.5, 6.0, 7.0] with qualities [20,5,10]\n\nProcess:\n1. Process worker0 (ratio=2.5, q=20): \n   total_quality=20, heap=[-20]\n   len(heap)=1 < k -> skip\n2. Process worker1 (ratio=6.0, q=5):\n   total_quality=25, heap=[-20, -5]\n   len(heap)=2 == k -> cost=25*6.0=150.0\n3. Process worker2 (ratio=7.0, q=10):\n   total_quality=35, heap=[-20,-5,-10]\n   len>k: pop largest (which is -20) -> total_quality=35 + (-20)=15? This is wrong! Should be 35 - 20 = 15.\n   Now heap=[-10,-5] (largest quality removed)\n   total_quality=15, cost=15*7.0=105.0 -> correct.\n\nBut wait: the popping operation is actually correct because we are storing negative qualities. When we push -q, the heap is a min-heap for negative qualities, which is equivalent to a max-heap for positive qualities. When we pop, we get the largest quality (as a negative number). So adding this negative number to total_quality is correct (since it subtracts the value).\n\nHowever, the code has a mistake: it does `total_quality += popped` where popped is negative. This is correct because it subtracts the quality. But in the implemented code, the variable name `max_heap` is misleading because it actually stores negative qualities.\n\nBut there is a critical issue: when we push a new worker, we always add its quality to total_quality. Then when we pop, we subtract the largest quality. This is correct.\n\nSo why did I think it was wrong? Actually, the code is correct in this aspect. Let me recheck the implemented code:\n\n```python\nheapq.heappush(max_heap, -q)\ntotal_quality += q\nif len(max_heap) > k:\n    total_quality += heapq.heappop(max_heap)   # popping negative quality: equivalent to subtracting\n```\n\nThis is correct. The issue I thought existed doesn't.\n\nBut wait: in the initial implementation, the code was:\n\n```python\nif len(max_heap) > k:\n    popped = heapq.heappop(max_heap)\n    total_quality += popped\n```\n\nThis is correct because popped is negative. So it subtracts.\n\nHowever, the implemented code I was given to verify has:\n\n```python\nif len(max_heap) > k:\n    total_quality += heapq.heappop(max_heap)\n```\n\nThis is the same. So it is correct.\n\nBut there is another issue: the code doesn't initialize the heap properly. The heap should be a min-heap for negative qualities to simulate a max-heap for positive qualities. This is done correctly.\n\nNow test with Example 2:\nquality = [3,1,10,10,1], wage = [4,8,2,2,7], k=3\nRatios:\nw0: 4/3 \u22481.333\nw1: 8/1=8.0\nw2: 2/10=0.2\nw3: 2/10=0.2\nw4: 7/1=7.0\n\nSort by ratio: [0.2, 0.2, 1.333, 7.0, 8.0] with qualities [10,10,3,1,1]\n\nProcess:\n1. w2: ratio=0.2, q=10 -> total_quality=10, heap=[-10]\n2. w3: ratio=0.2, q=10 -> total_quality=20, heap=[-10,-10]\n3. w0: ratio=1.333, q=3 -> total_quality=23, heap=[-10,-10,-3]\n   Now len==3, so cost=23*1.333\u224830.666 -> correct.\n4. w4: ratio=7.0, q=1 -> total_quality=24, heap=[-10,-10,-3,-1]\n   len>3: pop largest (-10) -> total_quality=24 + (-10)=14\n   heap=[-10,-3,-1] -> cost=14*7.0=98.0\n5. w1: ratio=8.0, q=1 -> total_quality=15, heap=[-10,-3,-1,-1]\n   pop largest (-10) -> total_quality=15 + (-10)=5\n   cost=5*8.0=40.0\n\nSo the minimum cost is 30.666, which is found at step 3.\n\nSo the code works for the examples.\n\nBut there is a subtle issue: when we have multiple workers with the same ratio, we might include more than k workers with the same ratio. However, the algorithm still works because we always remove the largest quality when we exceed k.\n\nTherefore, the implemented code is correct.\n\nHowever, I notice that the implemented code does not store the wage, which is acceptable since it is not used. Also, the variable name `max_heap` is misleading because it is actually a min-heap of negative qualities. But this is a minor code quality issue.\n\nFinal verdict: The code is correct and efficient.\n\nOne improvement: we can use a max-heap by storing negative qualities, but the variable name should be changed to avoid confusion. Alternatively, we can use a min-heap with negative qualities without changing the name, but it's better to name it appropriately.\n\nBut since the problem requires not changing the code unnecessarily, and the code is correct, we can leave it as is.\n\nTherefore, the solution is valid.\n```python\nfrom typing import List\nimport heapq\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        n = len(quality)\n        for i in range(n):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort(key=lambda x: x[0])\n        \n        heap = []\n        total_quality = 0\n        min_cost = float('inf')\n        \n        for ratio, q in workers:\n            total_quality += q\n            heapq.heappush(heap, -q)\n            \n            if len(heap) > k:\n                total_quality += heapq.heappop(heap)\n            \n            if len(heap) == k:\n                cost = total_quality * ratio\n                if cost < min_cost:\n                    min_cost = cost\n        \n        return min_cost\n```\n\n",
+      "TypedCode": "\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        n = len(quality)\n        for i in range(n):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort(key=lambda x: x[0])\n        \n        max_heap = []\n        total_quality = 0\n        min_cost = float('inf')\n        \n        for ratio, q in workers:\n            total_quality += q\n            heapq.heappush(max_heap, -q)\n            \n            if len(max_heap) > k:\n                total_quality += heapq.heappop(max_heap)\n            \n            if len(max_heap) == k:\n                cost = total_quality * ratio\n                if cost < min_cost:\n                    min_cost = cost\n        \n        return min_cost\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 84281589583,
+      "SolvedAt": "2025-11-21T00:12:31.138102+01:00",
+      "PromptTokens": 5376,
+      "OutputTokens": 2772
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "887",
+        "typed_code": "\nfrom typing import List\nimport heapq\n\nclass Solution:\n    def mincostToHireWorkers(self, quality: List[int], wage: List[int], k: int) -> float:\n        workers = []\n        n = len(quality)\n        for i in range(n):\n            ratio = wage[i] / quality[i]\n            workers.append((ratio, quality[i]))\n        \n        workers.sort(key=lambda x: x[0])\n        \n        max_heap = []\n        total_quality = 0\n        min_cost = float('inf')\n        \n        for ratio, q in workers:\n            total_quality += q\n            heapq.heappush(max_heap, -q)\n            \n            if len(max_heap) > k:\n                total_quality += heapq.heappop(max_heap)\n            \n            if len(max_heap) == k:\n                cost = total_quality * ratio\n                if cost < min_cost:\n                    min_cost = cost\n        \n        return min_cost\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:47:20+01:00"
+    }
+  }
+}

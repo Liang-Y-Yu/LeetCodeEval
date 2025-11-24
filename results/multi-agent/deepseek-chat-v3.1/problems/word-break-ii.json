@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "140",
+        "questionId": "140",
+        "Content": "<p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>\n\n<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsanddog&quot;, wordDict = [&quot;cat&quot;,&quot;cats&quot;,&quot;and&quot;,&quot;sand&quot;,&quot;dog&quot;]\n<strong>Output:</strong> [&quot;cats and dog&quot;,&quot;cat sand dog&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pineapplepenapple&quot;, wordDict = [&quot;apple&quot;,&quot;pen&quot;,&quot;applepen&quot;,&quot;pine&quot;,&quot;pineapple&quot;]\n<strong>Output:</strong> [&quot;pine apple pen apple&quot;,&quot;pineapple pen apple&quot;,&quot;pine applepen apple&quot;]\n<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;,&quot;dog&quot;,&quot;sand&quot;,&quot;and&quot;,&quot;cat&quot;]\n<strong>Output:</strong> []\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>\n\t<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>\n\t<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>\n\t<li>Input is generated in a way that the length of the answer doesn&#39;t exceed&nbsp;10<sup>5</sup>.</li>\n</ul>\n",
+        "SampleTestCase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+        "ExampleTestcases": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\n\"pineapplepenapple\"\n[\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\n\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Break II",
+        "TitleSlug": "word-break-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"784.4K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 784415, \"totalSubmissionRaw\": 1437245, \"acRate\": \"54.6%\"}",
+        "Likes": 7493,
+        "Dislikes": 545,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<string> wordBreak(string s, vector<string>& wordDict) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<String> wordBreak(String s, List<String> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def wordBreak(self, s, wordDict):\n        \"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string[]} wordDict\n * @return {string[]}\n */\nvar wordBreak = function(s, wordDict) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function wordBreak(s: string, wordDict: string[]): string[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** wordBreak(char* s, char** wordDict, int wordDictSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func wordBreak(s string, wordDict []string) []string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun wordBreak(s: String, wordDict: List<String>): List<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn word_break(s: String, word_dict: Vec<String>) -> Vec<String> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String[]} word_dict\n# @return {String[]}\ndef word_break(s, word_dict)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $wordDict\n     * @return String[]\n     */\n    function wordBreak($s, $wordDict) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<String> wordBreak(String s, List<String> wordDict) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def wordBreak(s: String, wordDict: List[String]): List[String] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec word_break(s :: String.t, word_dict :: [String.t]) :: [String.t]\n  def word_break(s, word_dict) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_break(S :: unicode:unicode_binary(), WordDict :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nword_break(S, WordDict) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (word-break s wordDict)\n  (-> string? (listof string?) (listof string?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:09.102829+01:00",
+    "AcRate": "54.6",
+    "TotalSubmissions": 1437245,
+    "TotalAccepted": 784415,
+    "AcceptanceRate": 0.5457768160612839,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-break-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: This problem falls under the categories of String, Backtracking, and Dynamic Programming (specifically using memoization to avoid recomputation).\n\nKey Patterns & Algorithms: \n1. The problem requires generating all possible sentences, indicating a need for exhaustive search (backtracking).\n2. To avoid repeated calculations and improve efficiency, memoization is used where we store results for substrings.\n3. The approach involves recursively breaking the string into prefixes (that are in the dictionary) and processing the remaining suffix.\n4. Alternatively, dynamic programming can be used to build solutions bottom-up, but generating all sentences favors a top-down recursive approach with memo.\n\nConstraints Analysis:\n- The string length is at most 20, which makes backtracking feasible.\n- The dictionary has up to 1000 words, each up to 10 characters.\n- The total output should not exceed 10^5 sentences, so generating all solutions is acceptable.\n\nEdge Cases:\n- The entire string is a single word in the dictionary.\n- No segmentation is possible (return empty list).\n- The dictionary contains words that are prefixes of each other (e.g., \"cat\" and \"cats\").\n- The string starts or ends with a word in the dictionary.\n- The dictionary has words that are not used in any segmentation.\n\nInput/Output Analysis:\n- Input: a string `s` and a list `wordDict` of strings.\n- Output: a list of strings, each being a space-separated sentence.\n\nDifficulty Assessment:\nThe challenge lies in efficiently generating all valid segmentations without redundant computations. The recursive backtracking without memo would be exponential. The constraints are small enough to allow a recursive solution with memoization, but careful implementation is needed to avoid TLE.\n\nSolution Approach:\nWe will use a recursive DFS with memoization. The function will take the current substring and return all possible sentences for that substring. We memoize results to avoid recomputing for the same substring.\n\nSteps:\n1. Convert wordDict to a set for O(1) lookups.\n2. Define a recursive function that takes a string and returns a list of sentences.\n3. If the string is empty, return a list with an empty string.\n4. If the string is in memo, return the stored value.\n5. Iterate over all prefixes of the string. If the prefix is in the dictionary, recursively process the suffix.\n6. For each sentence from the suffix, combine with the prefix (with space if needed).\n7. Store the result in memo and return.\n\nImplementation:\n\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(s):\n            if s in memo:\n                return memo[s]\n            if not s:\n                return [\"\"]\n            res = []\n            for i in range(1, len(s)+1):\n                prefix = s[:i]\n                if prefix in word_set:\n                    suffixes = dfs(s[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[s] = res\n            return res\n        \n        return dfs(s)\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(sub):\n            if sub in memo:\n                return memo[sub]\n            if not sub:\n                return [\"\"]\n            res = []\n            for i in range(1, len(sub) + 1):\n                prefix = sub[:i]\n                if prefix in word_set:\n                    suffixes = dfs(sub[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[sub] = res\n            return res\n        \n        return dfs(s)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(sub):\n            if sub in memo:\n                return memo[sub]\n            if not sub:\n                return [\"\"]\n            res = []\n            for i in range(1, len(sub) + 1):\n                prefix = sub[:i]\n                if prefix in word_set:\n                    suffixes = dfs(sub[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[sub] = res\n            return res\n        \n        return dfs(s)\n```\n\n=== VERIFICATION ===\n\nAfter reviewing the provided solution, I can confirm that it is correct and well-implemented. Here's my verification report:\n\n### 1. **Correctness**\nThe code correctly implements the designed algorithm using DFS with memoization. It checks all possible prefixes of the current substring, and if a prefix is found in the dictionary, it recursively processes the suffix. The results are combined to form complete sentences. The base case handles empty strings appropriately.\n\n### 2. **Edge Cases**\n- **Entire string is a single word**: Handled correctly (e.g., if s=\"cat\" and wordDict contains \"cat\", it returns [\"cat\"]).\n- **No segmentation possible**: Returns an empty list when no valid segmentation exists (e.g., Example 3).\n- **Dictionary words are prefixes of each other**: Correctly considers all possibilities (e.g., \"cat\" and \"cats\" in Example 1).\n- **Empty string**: Returns [\"\"] as base case, which is appropriate.\n\n### 3. **Complexity**\n- **Time Complexity**: O(2^N) in worst-case without memo, but with memoization it becomes efficient. The constraints (s.length <= 20) make this acceptable.\n- **Space Complexity**: O(2^N) for storing all possible sentences, but the problem states the answer doesn't exceed 10^5, so it's acceptable.\n\n### 4. **Code Quality**\n- The code is clean and readable.\n- Uses meaningful variable names (`word_set`, `memo`, `dfs`, `prefix`, `suffixes`).\n- Follows Python best practices (using set for O(1) lookups, memoization dictionary).\n- Properly handles string concatenation with spaces.\n\n### 5. **Test Cases**\n- **Example 1**: \n  Input: s = \"catsanddog\", wordDict = [\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]\n  Output: [\"cats and dog\",\"cat sand dog\"] \u2705\n- **Example 2**:\n  Input: s = \"pineapplepenapple\", wordDict = [\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]\n  Output: [\"pine apple pen apple\",\"pineapple pen apple\",\"pine applepen apple\"] \u2705\n- **Example 3**:\n  Input: s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]\n  Output: [] \u2705\n\n### 6. **Potential Issues**\nNone identified. The solution is efficient and correct for the given constraints.\n\n### Final Verification\nThe solution is valid and meets all requirements. It correctly solves the problem, handles edge cases, and operates within acceptable time and memory limits. The code is well-structured and follows good coding practices.\n\n```python\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(sub):\n            if sub in memo:\n                return memo[sub]\n            if not sub:\n                return [\"\"]\n            res = []\n            for i in range(1, len(sub) + 1):\n                prefix = sub[:i]\n                if prefix in word_set:\n                    suffixes = dfs(sub[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[sub] = res\n            return res\n        \n        return dfs(s)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(sub):\n            if sub in memo:\n                return memo[sub]\n            if not sub:\n                return [\"\"]\n            res = []\n            for i in range(1, len(sub) + 1):\n                prefix = sub[:i]\n                if prefix in word_set:\n                    suffixes = dfs(sub[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[sub] = res\n            return res\n        \n        return dfs(s)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 23954772458,
+      "SolvedAt": "2025-11-21T00:49:49.704336+01:00",
+      "PromptTokens": 5011,
+      "OutputTokens": 1708
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "140",
+        "typed_code": "\nclass Solution:\n    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:\n        word_set = set(wordDict)\n        memo = {}\n        \n        def dfs(sub):\n            if sub in memo:\n                return memo[sub]\n            if not sub:\n                return [\"\"]\n            res = []\n            for i in range(1, len(sub) + 1):\n                prefix = sub[:i]\n                if prefix in word_set:\n                    suffixes = dfs(sub[i:])\n                    for suf in suffixes:\n                        if suf:\n                            res.append(prefix + \" \" + suf)\n                        else:\n                            res.append(prefix)\n            memo[sub] = res\n            return res\n        \n        return dfs(s)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:20:01+01:00"
+    }
+  }
+}

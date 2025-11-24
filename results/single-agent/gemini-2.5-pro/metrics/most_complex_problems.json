@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 23,
+    "lines_of_code": 82,
+    "status": "Accepted"
+  },
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 21,
+    "lines_of_code": 60,
+    "status": "Accepted"
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "problem_id": "1122",
+    "cyclomatic_complexity": 19,
+    "lines_of_code": 68,
+    "status": "Accepted"
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "problem_id": "1220",
+    "cyclomatic_complexity": 18,
+    "lines_of_code": 58,
+    "status": "Accepted"
+  },
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 17,
+    "lines_of_code": 66,
+    "status": "Accepted"
+  },
+  {
+    "title": "Strange Printer",
+    "problem_id": "664",
+    "cyclomatic_complexity": 16,
+    "lines_of_code": 47,
+    "status": "Accepted"
+  },
+  {
+    "title": "Backspace String Compare",
+    "problem_id": "874",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 44,
+    "status": "Accepted"
+  },
+  {
+    "title": "Course Schedule II",
+    "problem_id": "210",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 50,
+    "status": "Accepted"
+  },
+  {
+    "title": "Stone Game III",
+    "problem_id": "1522",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 42,
+    "status": "Accepted"
+  },
+  {
+    "title": "Valid Parenthesis String",
+    "problem_id": "678",
+    "cyclomatic_complexity": 13,
+    "lines_of_code": 51,
+    "status": "Accepted"
+  }
+]

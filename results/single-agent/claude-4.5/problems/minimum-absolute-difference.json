@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1200",
+        "questionId": "1306",
+        "Content": "<p>Given an array of <strong>distinct</strong> integers <code>arr</code>, find all pairs of elements with the minimum absolute difference of any two elements.</p>\n\n<p>Return a list of pairs in ascending order(with respect to pairs), each pair <code>[a, b]</code> follows</p>\n\n<ul>\n\t<li><code>a, b</code> are from <code>arr</code></li>\n\t<li><code>a &lt; b</code></li>\n\t<li><code>b - a</code> equals to the minimum absolute difference of any two elements in <code>arr</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [4,2,1,3]\n<strong>Output:</strong> [[1,2],[2,3],[3,4]]\n<strong>Explanation: </strong>The minimum absolute difference is 1. List all pairs with difference equal to 1 in ascending order.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,3,6,10,15]\n<strong>Output:</strong> [[1,3]]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [3,8,-10,23,19,-4,-14,27]\n<strong>Output:</strong> [[-14,-10],[19,23],[23,27]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>6</sup> &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[4,2,1,3]",
+        "ExampleTestcases": "[4,2,1,3]\n[1,3,6,10,15]\n[3,8,-10,23,19,-4,-14,27]",
+        "Difficulty": "Easy",
+        "Title": "Minimum Absolute Difference",
+        "TitleSlug": "minimum-absolute-difference",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"266.3K\", \"totalSubmission\": \"375.2K\", \"totalAcceptedRaw\": 266333, \"totalSubmissionRaw\": 375176, \"acRate\": \"71.0%\"}",
+        "Likes": 2491,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<vector<int>> minimumAbsDifference(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<List<Integer>> minimumAbsDifference(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minimumAbsDifference(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: List[List[int]]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number[][]}\n */\nvar minimumAbsDifference = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minimumAbsDifference(arr: number[]): number[][] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<IList<int>> MinimumAbsDifference(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** minimumAbsDifference(int* arr, int arrSize, int* returnSize, int** returnColumnSizes) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minimumAbsDifference(arr []int) [][]int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minimumAbsDifference(arr: IntArray): List<List<Int>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minimumAbsDifference(_ arr: [Int]) -> [[Int]] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn minimum_abs_difference(arr: Vec<i32>) -> Vec<Vec<i32>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer[][]}\ndef minimum_abs_difference(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer[][]\n     */\n    function minimumAbsDifference($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<List<int>> minimumAbsDifference(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minimumAbsDifference(arr: Array[Int]): List[List[Int]] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec minimum_abs_difference(arr :: [integer]) :: [[integer]]\n  def minimum_abs_difference(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec minimum_abs_difference(Arr :: [integer()]) -> [[integer()]].\nminimum_abs_difference(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (minimum-abs-difference arr)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:34:49.507285+01:00",
+    "AcRate": "71.0",
+    "TotalSubmissions": 375176,
+    "TotalAccepted": 266333,
+    "AcceptanceRate": 0.7098881591573022,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-absolute-difference/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an array of distinct integers arr, find all pairs of elements with the minimum absolute difference of any two elements.\nReturn a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows\n\ta, b are from arr\n\ta < b\n\tb - a equals to the minimum absolute difference of any two elements in arr\n\u00a0\nExample 1:\nInput: arr = [4,2,1,3]\nOutput: [[1,2],[2,3],[3,4]]\nExplanation: The minimum absolute difference is 1. List all pairs with difference equal to 1 in ascending order.\nExample 2:\nInput: arr = [1,3,6,10,15]\nOutput: [[1,3]]\nExample 3:\nInput: arr = [3,8,-10,23,19,-4,-14,27]\nOutput: [[-14,-10],[19,23],[23,27]]\n\u00a0\nConstraints:\n\t2 <= arr.length <= 10^5\n\t-10^6 <= arr[i] <= 10^6\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to:\n\n1. Find the minimum absolute difference between any two elements in the array\n2. Find all pairs that have this minimum difference\n3. Return pairs in ascending order where each pair [a, b] has a < b\n\nMy approach:\n1. Sort the array first\n2. Find the minimum difference by checking consecutive elements (since after sorting, the minimum difference will always be between consecutive elements)\n3. Collect all pairs of consecutive elements that have this minimum difference\n4. Return the list of pairs\n\nLet me trace through Example 1:\n- arr = [4,2,1,3]\n- After sorting: [1,2,3,4]\n- Differences between consecutive elements: 2-1=1, 3-2=1, 4-3=1\n- Minimum difference = 1\n- Pairs with difference 1: [1,2], [2,3], [3,4]\n\nThis matches the expected output.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        \n        min_diff = float('inf')\n        for i in range(len(arr) - 1):\n            diff = arr[i + 1] - arr[i]\n            min_diff = min(min_diff, diff)\n        \n        result = []\n        for i in range(len(arr) - 1):\n            if arr[i + 1] - arr[i] == min_diff:\n                result.append([arr[i], arr[i + 1]])\n        \n        return result\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        \n        min_diff = float('inf')\n        for i in range(len(arr) - 1):\n            diff = arr[i + 1] - arr[i]\n            min_diff = min(min_diff, diff)\n        \n        result = []\n        for i in range(len(arr) - 1):\n            if arr[i + 1] - arr[i] == min_diff:\n                result.append([arr[i], arr[i + 1]])\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 5382466083,
+      "SolvedAt": "2025-11-19T21:45:32.244646+01:00",
+      "PromptTokens": 486,
+      "OutputTokens": 389
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1306",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        \n        min_diff = float('inf')\n        for i in range(len(arr) - 1):\n            diff = arr[i + 1] - arr[i]\n            min_diff = min(min_diff, diff)\n        \n        result = []\n        for i in range(len(arr) - 1):\n            if arr[i + 1] - arr[i] == min_diff:\n                result.append([arr[i], arr[i + 1]])\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:19:42+01:00"
+    }
+  }
+}

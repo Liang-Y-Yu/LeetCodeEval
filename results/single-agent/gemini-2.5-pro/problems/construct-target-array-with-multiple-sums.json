@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1354",
+        "questionId": "1479",
+        "Content": "<p>You are given an array <code>target</code> of n integers. From a starting array <code>arr</code> consisting of <code>n</code> 1&#39;s, you may perform the following procedure :</p>\n\n<ul>\n\t<li>let <code>x</code> be the sum of all elements currently in your array.</li>\n\t<li>choose index <code>i</code>, such that <code>0 &lt;= i &lt; n</code> and set the value of <code>arr</code> at index <code>i</code> to <code>x</code>.</li>\n\t<li>You may repeat this procedure as many times as needed.</li>\n</ul>\n\n<p>Return <code>true</code> <em>if it is possible to construct the</em> <code>target</code> <em>array from</em> <code>arr</code><em>, otherwise, return</em> <code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [9,3,5]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> Start with arr = [1, 1, 1] \n[1, 1, 1], sum = 3 choose index 1\n[1, 3, 1], sum = 5 choose index 2\n[1, 3, 5], sum = 9 choose index 0\n[9, 3, 5] Done\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [1,1,1,2]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> Impossible to create target array from [1,1,1,1].\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [8,5]\n<strong>Output:</strong> true\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == target.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= target[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[9,3,5]",
+        "ExampleTestcases": "[9,3,5]\n[1,1,1,2]\n[8,5]",
+        "Difficulty": "Hard",
+        "Title": "Construct Target Array With Multiple Sums",
+        "TitleSlug": "construct-target-array-with-multiple-sums",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"71.5K\", \"totalSubmission\": \"196.7K\", \"totalAcceptedRaw\": 71522, \"totalSubmissionRaw\": 196703, \"acRate\": \"36.4%\"}",
+        "Likes": 2078,
+        "Dislikes": 171,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isPossible(vector<int>& target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isPossible(int[] target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isPossible(self, target: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isPossible(self, target):\n        \"\"\"\n        :type target: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} target\n * @return {boolean}\n */\nvar isPossible = function(target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isPossible(target: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsPossible(int[] target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isPossible(int* target, int targetSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isPossible(target []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isPossible(target: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isPossible(_ target: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_possible(target: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} target\n# @return {Boolean}\ndef is_possible(target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $target\n     * @return Boolean\n     */\n    function isPossible($target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isPossible(List<int> target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isPossible(target: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_possible(target :: [integer]) :: boolean\n  def is_possible(target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_possible(Target :: [integer()]) -> boolean().\nis_possible(Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-possible target)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:25:47.226174+01:00",
+    "AcRate": "36.4",
+    "TotalSubmissions": 196703,
+    "TotalAccepted": 71522,
+    "AcceptanceRate": 0.36360401214013005,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/construct-target-array-with-multiple-sums/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array target of n integers. From a starting array arr consisting of n 1's, you may perform the following procedure :\n\tlet x be the sum of all elements currently in your array.\n\tchoose index i, such that 0 <= i < n and set the value of arr at index i to x.\n\tYou may repeat this procedure as many times as needed.\nReturn true if it is possible to construct the target array from arr, otherwise, return false.\n\u00a0\nExample 1:\nInput: target = [9,3,5]\nOutput: true\nExplanation: Start with arr = [1, 1, 1] \n[1, 1, 1], sum = 3 choose index 1\n[1, 3, 1], sum = 5 choose index 2\n[1, 3, 5], sum = 9 choose index 0\n[9, 3, 5] Done\nExample 2:\nInput: target = [1,1,1,2]\nOutput: false\nExplanation: Impossible to create target array from [1,1,1,1].\nExample 3:\nInput: target = [8,5]\nOutput: true\n\u00a0\nConstraints:\n\tn == target.length\n\t1 <= n <= 5 * 10^4\n\t1 <= target[i] <= 10^9\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def isPossible(self, target: List[int]) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient approach to this problem is to work backward from the `target` array to the starting array of all ones.\n\nThe core idea is based on a key observation: in the forward process, a new element `arr[i]` is set to the sum of all current elements. This new element `arr[i]` will be strictly larger than any other element in the array (as long as `n > 1` and all elements are positive). Therefore, the largest element in any given array state (other than the initial `[1, 1, ..., 1]`) must have been the one created in the most recent step.\n\nThis allows us to reverse the process:\n1.  Identify the largest element, `max_val`, in the current array.\n2.  This `max_val` must have been the sum of the elements in the *previous* state.\n3.  The other elements in the current array were also present in the previous state. Their sum is `rest_sum = total_sum - max_val`.\n4.  The value that was replaced by `max_val` must have been `prev_val = max_val - rest_sum`.\n5.  We can then \"revert\" the array to its previous state by replacing `max_val` with `prev_val`.\n\nWe repeat this process until the array becomes `[1, 1, ..., 1]`. If at any point we encounter an invalid state (e.g., producing a non-positive element), the `target` is impossible to form.\n\nTo make this process efficient, especially for large numbers, we can optimize the repeated subtraction of `rest_sum` from `max_val`. This is equivalent to the modulo operation (`max_val % rest_sum`).\n\nHere is the detailed algorithm:\n1.  Use a max-heap to efficiently retrieve the largest element at each step.\n2.  Calculate the initial sum of the `target` array.\n3.  In a loop, while the largest element is greater than 1:\n    a.  Extract the largest element `max_val` and calculate the sum of the rest, `rest_sum`.\n    b.  Handle several termination and impossibility conditions:\n        - If `rest_sum` is 1, it implies the state is of the form `[X, 1]`, which is always reducible to `[1, 1]`. Thus, it's possible.\n        - If `max_val <= rest_sum`, the previous value would be non-positive, which is not allowed. Impossible.\n        - If `rest_sum` is 0 (for `n > 1`), it would contradict that all elements are positive. Impossible.\n    c.  Calculate the new value `prev_val = max_val % rest_sum`. If `prev_val` becomes 0, it implies an impossible path (as `rest_sum` would have to be greater than 1 at this point).\n    d.  Update the total sum and push `prev_val` back into the heap.\n4.  If the loop completes, it means the largest element has become 1, so all elements are 1, and the `target` is possible.\n\nThis approach is efficient, with a time complexity dominated by heap operations and being roughly logarithmic with respect to the values in the `target` array.\n\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def isPossible(self, target: List[int]) -> bool:\n        if len(target) == 1:\n            return target[0] == 1\n\n        total_sum = sum(target)\n        \n        # Use a max-heap. In Python, this is a min-heap of negative numbers.\n        pq = [-num for num in target]\n        heapq.heapify(pq)\n\n        # Loop as long as the largest element is greater than 1\n        while -pq[0] > 1:\n            max_val = -heapq.heappop(pq)\n            rest_sum = total_sum - max_val\n            \n            if rest_sum == 1:\n                return True\n            \n            if max_val <= rest_sum or rest_sum == 0:\n                return False\n            \n            prev_val = max_val % rest_sum\n\n            if prev_val == 0:\n                return False\n\n            total_sum = total_sum - max_val + prev_val\n            heapq.heappush(pq, -prev_val)\n            \n        return True\n\n```",
+      "TypedCode": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def isPossible(self, target: List[int]) -> bool:\n        if len(target) == 1:\n            return target[0] == 1\n\n        total_sum = sum(target)\n        \n        # Use a max-heap. In Python, this is a min-heap of negative numbers.\n        pq = [-num for num in target]\n        heapq.heapify(pq)\n\n        # Loop as long as the largest element is greater than 1\n        while -pq[0] > 1:\n            max_val = -heapq.heappop(pq)\n            rest_sum = total_sum - max_val\n            \n            if rest_sum == 1:\n                return True\n            \n            if max_val <= rest_sum or rest_sum == 0:\n                return False\n            \n            prev_val = max_val % rest_sum\n\n            if prev_val == 0:\n                return False\n\n            total_sum = total_sum - max_val + prev_val\n            heapq.heappush(pq, -prev_val)\n            \n        return True\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 164113007833,
+      "SolvedAt": "2025-11-20T12:38:57.660887+01:00",
+      "PromptTokens": 527,
+      "OutputTokens": 20092
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1479",
+        "typed_code": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def isPossible(self, target: List[int]) -> bool:\n        if len(target) == 1:\n            return target[0] == 1\n\n        total_sum = sum(target)\n        \n        # Use a max-heap. In Python, this is a min-heap of negative numbers.\n        pq = [-num for num in target]\n        heapq.heapify(pq)\n\n        # Loop as long as the largest element is greater than 1\n        while -pq[0] > 1:\n            max_val = -heapq.heappop(pq)\n            rest_sum = total_sum - max_val\n            \n            if rest_sum == 1:\n                return True\n            \n            if max_val <= rest_sum or rest_sum == 0:\n                return False\n            \n            prev_val = max_val % rest_sum\n\n            if prev_val == 0:\n                return False\n\n            total_sum = total_sum - max_val + prev_val\n            heapq.heappush(pq, -prev_val)\n            \n        return True\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:47:12+01:00"
+    }
+  }
+}

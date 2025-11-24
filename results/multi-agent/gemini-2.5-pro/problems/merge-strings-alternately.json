@@ -1,0 +1,172 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1768",
+        "questionId": "1894",
+        "Content": "<p>You are given two strings <code>word1</code> and <code>word2</code>. Merge the strings by adding letters in alternating order, starting with <code>word1</code>. If a string is longer than the other, append the additional letters onto the end of the merged string.</p>\r\n\r\n<p>Return <em>the merged string.</em></p>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong class=\"example\">Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;abc&quot;, word2 = &quot;pqr&quot;\r\n<strong>Output:</strong> &quot;apbqcr&quot;\r\n<strong>Explanation:</strong>&nbsp;The merged string will be merged as so:\r\nword1:  a   b   c\r\nword2:    p   q   r\r\nmerged: a p b q c r\r\n</pre>\r\n\r\n<p><strong class=\"example\">Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;\r\n<strong>Output:</strong> &quot;apbqrs&quot;\r\n<strong>Explanation:</strong>&nbsp;Notice that as word2 is longer, &quot;rs&quot; is appended to the end.\r\nword1:  a   b \r\nword2:    p   q   r   s\r\nmerged: a p b q   r   s\r\n</pre>\r\n\r\n<p><strong class=\"example\">Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;abcd&quot;, word2 = &quot;pq&quot;\r\n<strong>Output:</strong> &quot;apbqcd&quot;\r\n<strong>Explanation:</strong>&nbsp;Notice that as word1 is longer, &quot;cd&quot; is appended to the end.\r\nword1:  a   b   c   d\r\nword2:    p   q \r\nmerged: a p b q c   d\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong>Constraints:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= word1.length, word2.length &lt;= 100</code></li>\r\n\t<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>\r\n</ul>",
+        "SampleTestCase": "\"abc\"\n\"pqr\"",
+        "ExampleTestcases": "\"abc\"\n\"pqr\"\n\"ab\"\n\"pqrs\"\n\"abcd\"\n\"pq\"",
+        "Difficulty": "Easy",
+        "Title": "Merge Strings Alternately",
+        "TitleSlug": "merge-strings-alternately",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.9M\", \"totalSubmission\": \"2.3M\", \"totalAcceptedRaw\": 1875826, \"totalSubmissionRaw\": 2284795, \"acRate\": \"82.1%\"}",
+        "Likes": 4765,
+        "Dislikes": 139,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string mergeAlternately(string word1, string word2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String mergeAlternately(String word1, String word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def mergeAlternately(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {string}\n */\nvar mergeAlternately = function(word1, word2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function mergeAlternately(word1: string, word2: string): string {\n\n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string MergeAlternately(string word1, string word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\nchar * mergeAlternately(char * word1, char * word2){\n\n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func mergeAlternately(word1 string, word2 string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun mergeAlternately(word1: String, word2: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func mergeAlternately(_ word1: String, _ word2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn merge_alternately(word1: String, word2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word1\n# @param {String} word2\n# @return {String}\ndef merge_alternately(word1, word2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return String\n     */\n    function mergeAlternately($word1, $word2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def mergeAlternately(word1: String, word2: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (merge-alternately word1 word2)\n  (-> string? string? string?)\n\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:05:31.02768+01:00",
+    "AcRate": "82.1",
+    "TotalSubmissions": 2284795,
+    "TotalAccepted": 1875826,
+    "AcceptanceRate": 0.821004072575439,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/merge-strings-alternately/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the \"Merge Strings Alternately\" problem is provided below, followed by the Python solution.\n\n### 1. Problem Type Classification\nThis problem falls under the **String** manipulation category. It involves iterating through strings and constructing a new one based on specific rules.\n\n### 2. Key Patterns & Algorithms\n*   **Two Pointers / Simultaneous Iteration**: The core of the problem requires processing two strings at the same time. This can be effectively handled using pointers or indices for each string, advancing them as characters are processed.\n*   **String Builder Pattern**: Since a new string is constructed character by character, it's more efficient to build a list of characters first and then join them into a final string at the end. In Python, this is typically done by appending to a list and calling `''.join()`. This avoids the creation of multiple intermediate string objects that would result from repeated string concatenation.\n\n### 3. Constraints Analysis\n*   **Input Size**: `1 <= word1.length, word2.length <= 100`.\n*   **Time Complexity**: The constraints are very small, so a solution with linear time complexity relative to the string lengths is more than sufficient. An algorithm that iterates through each character of both strings once will have a time complexity of O(N + M), where N and M are the lengths of `word1` and `word2`, respectively. This is well within typical time limits.\n*   **Space Complexity**: The solution requires constructing a new merged string. The length of this string will be `N + M`. Therefore, the space complexity will be O(N + M) to store the result, which is acceptable given the constraints.\n\n### 4. Edge Cases\n*   **Strings of Equal Length**: e.g., `word1 = \"abc\"`, `word2 = \"pqr\"`. The merging should be a simple alternating sequence with no leftover characters.\n*   **`word1` is Longer**: e.g., `word1 = \"abcd\"`, `word2 = \"pq\"`. After the alternating part (`\"apbq\"`), the remainder of `word1` (`\"cd\"`) must be appended.\n*   **`word2` is Longer**: e.g., `word1 = \"ab\"`, `word2 = \"pqrs\"`. After the alternating part (`\"apbq\"`), the remainder of `word2` (`\"rs\"`) must be appended.\n*   **Single-Character Strings**: e.g., `word1 = \"a\"`, `word2 = \"b\"`. The result should be `\"ab\"`.\n*   **Empty Strings**: The constraints state `1 <= word1.length, word2.length`, so we do not need to handle empty input strings.\n\n### 5. Input/Output Analysis\n*   **Input**: Two non-empty strings, `word1` and `word2`, composed of lowercase English letters.\n*   **Output**: A single string representing the merged result.\n\n### 6. Difficulty Assessment\nThis problem is of **Easy** difficulty. The logic is straightforward and does not require complex algorithms or data structures. The main challenge lies in correctly implementing the iteration and handling the leftover part of the longer string without off-by-one errors. It serves as a good introductory problem for string manipulation and basic loop control flow. A clean and efficient implementation can be achieved with a single loop that iterates up to the length of the longer string, conditionally adding characters from each input string.\n\n```python\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        len1, len2 = len(word1), len(word2)\n        max_len = max(len1, len2)\n        \n        merged_list = []\n        \n        for i in range(max_len):\n            if i < len1:\n                merged_list.append(word1[i])\n            \n            if i < len2:\n                merged_list.append(word2[i])\n                \n        return \"\".join(merged_list)\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        # Determine the lengths of the two input strings\n        len1 = len(word1)\n        len2 = len(word2)\n        \n        # Use a list to build the merged string efficiently. This avoids\n        # the performance cost of repeated string concatenation.\n        merged_chars = []\n        \n        # Iterate up to the length of the longer string. This single loop\n        # handles both the alternating merge and appending the remainder\n        # of the longer string.\n        for i in range(max(len1, len2)):\n            # If the current index is within the bounds of word1,\n            # append its character to the result list.\n            if i < len1:\n                merged_chars.append(word1[i])\n            \n            # If the current index is within the bounds of word2,\n            # append its character to the result list.\n            if i < len2:\n                merged_chars.append(word2[i])\n                \n        # Join the list of characters into a single string and return it.\n        return \"\".join(merged_chars)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        len1 = len(word1)\n        len2 = len(word2)\n        \n        merged_chars = []\n        \n        for i in range(max(len1, len2)):\n            if i < len1:\n                merged_chars.append(word1[i])\n            \n            if i < len2:\n                merged_chars.append(word2[i])\n                \n        return \"\".join(merged_chars)\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        len1 = len(word1)\n        len2 = len(word2)\n        \n        merged_chars = []\n        \n        max_len = max(len1, len2)\n        \n        for i in range(max_len):\n            if i < len1:\n                merged_chars.append(word1[i])\n            \n            if i < len2:\n                merged_chars.append(word2[i])\n                \n        return \"\".join(merged_chars)\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        len1 = len(word1)\n        len2 = len(word2)\n        \n        merged_chars = []\n        \n        for i in range(max(len1, len2)):\n            if i < len1:\n                merged_chars.append(word1[i])\n            \n            if i < len2:\n                merged_chars.append(word2[i])\n                \n        return \"\".join(merged_chars)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 170076794582,
+      "SolvedAt": "2025-11-21T13:40:00.599053+01:00",
+      "PromptTokens": 6205,
+      "OutputTokens": 20138
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1894",
+        "typed_code": "\nclass Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        len1 = len(word1)\n        len2 = len(word2)\n        \n        merged_chars = []\n        \n        for i in range(max(len1, len2)):\n            if i < len1:\n                merged_chars.append(word1[i])\n            \n            if i < len2:\n                merged_chars.append(word2[i])\n                \n        return \"\".join(merged_chars)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:38:02+01:00"
+    }
+  }
+}

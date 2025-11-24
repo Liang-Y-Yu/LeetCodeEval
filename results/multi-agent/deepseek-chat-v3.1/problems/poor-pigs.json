@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "458",
+        "questionId": "458",
+        "Content": "<p>There are <code>buckets</code> buckets of liquid, where <strong>exactly one</strong> of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have <code>minutesToTest</code> minutes to determine which bucket is poisonous.</p>\n\n<p>You can feed the pigs according to these steps:</p>\n\n<ol>\n\t<li>Choose some live pigs to feed.</li>\n\t<li>For each pig, choose which buckets to feed it. The pig will consume all the chosen buckets simultaneously and will take no time. Each pig can feed from any number of buckets, and each bucket can be fed from by any number of pigs.</li>\n\t<li>Wait for <code>minutesToDie</code> minutes. You may <strong>not</strong> feed any other pigs during this time.</li>\n\t<li>After <code>minutesToDie</code> minutes have passed, any pigs that have been fed the poisonous bucket will die, and all others will survive.</li>\n\t<li>Repeat this process until you run out of time.</li>\n</ol>\n\n<p>Given <code>buckets</code>, <code>minutesToDie</code>, and <code>minutesToTest</code>, return <em>the <strong>minimum</strong> number of pigs needed to figure out which bucket is poisonous within the allotted time</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> buckets = 4, minutesToDie = 15, minutesToTest = 15\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> We can determine the poisonous bucket as follows:\nAt time 0, feed the first pig buckets 1 and 2, and feed the second pig buckets 2 and 3.\nAt time 15, there are 4 possible outcomes:\n- If only the first pig dies, then bucket 1 must be poisonous.\n- If only the second pig dies, then bucket 3 must be poisonous.\n- If both pigs die, then bucket 2 must be poisonous.\n- If neither pig dies, then bucket 4 must be poisonous.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> buckets = 4, minutesToDie = 15, minutesToTest = 30\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> We can determine the poisonous bucket as follows:\nAt time 0, feed the first pig bucket 1, and feed the second pig bucket 2.\nAt time 15, there are 2 possible outcomes:\n- If either pig dies, then the poisonous bucket is the one it was fed.\n- If neither pig dies, then feed the first pig bucket 3, and feed the second pig bucket 4.\nAt time 30, one of the two pigs must die, and the poisonous bucket is the one it was fed.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= buckets &lt;= 1000</code></li>\n\t<li><code>1 &lt;=&nbsp;minutesToDie &lt;=&nbsp;minutesToTest &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "4\n15\n15",
+        "ExampleTestcases": "4\n15\n15\n4\n15\n30",
+        "Difficulty": "Hard",
+        "Title": "Poor Pigs",
+        "TitleSlug": "poor-pigs",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"129.3K\", \"totalSubmission\": \"218.6K\", \"totalAcceptedRaw\": 129255, \"totalSubmissionRaw\": 218597, \"acRate\": \"59.1%\"}",
+        "Likes": 1853,
+        "Dislikes": 3366,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU2",
+            "Name": "Combinatorics",
+            "Slug": "combinatorics"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def poorPigs(self, buckets, minutesToDie, minutesToTest):\n        \"\"\"\n        :type buckets: int\n        :type minutesToDie: int\n        :type minutesToTest: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} buckets\n * @param {number} minutesToDie\n * @param {number} minutesToTest\n * @return {number}\n */\nvar poorPigs = function(buckets, minutesToDie, minutesToTest) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function poorPigs(buckets: number, minutesToDie: number, minutesToTest: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int PoorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func poorPigs(buckets int, minutesToDie int, minutesToTest int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun poorPigs(buckets: Int, minutesToDie: Int, minutesToTest: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func poorPigs(_ buckets: Int, _ minutesToDie: Int, _ minutesToTest: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn poor_pigs(buckets: i32, minutes_to_die: i32, minutes_to_test: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} buckets\n# @param {Integer} minutes_to_die\n# @param {Integer} minutes_to_test\n# @return {Integer}\ndef poor_pigs(buckets, minutes_to_die, minutes_to_test)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $buckets\n     * @param Integer $minutesToDie\n     * @param Integer $minutesToTest\n     * @return Integer\n     */\n    function poorPigs($buckets, $minutesToDie, $minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def poorPigs(buckets: Int, minutesToDie: Int, minutesToTest: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec poor_pigs(buckets :: integer, minutes_to_die :: integer, minutes_to_test :: integer) :: integer\n  def poor_pigs(buckets, minutes_to_die, minutes_to_test) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec poor_pigs(Buckets :: integer(), MinutesToDie :: integer(), MinutesToTest :: integer()) -> integer().\npoor_pigs(Buckets, MinutesToDie, MinutesToTest) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (poor-pigs buckets minutesToDie minutesToTest)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:16:08.197224+01:00",
+    "AcRate": "59.1",
+    "TotalSubmissions": 218597,
+    "TotalAccepted": 129255,
+    "AcceptanceRate": 0.5912935676152921,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/poor-pigs/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: \nThis problem falls under the category of **Combinatorics** and **Information Theory**. It involves using pigs to test buckets of liquid in a way that minimizes the number of pigs while maximizing the amount of information gained per test.\n\n**Key Patterns & Algorithms**: \nThe key insight is to model the problem as finding the minimum number of pigs such that the number of \"states\" (possible outcomes from the tests) is at least the number of buckets. Each pig can be considered a \"digit\" in a base system, where the base is determined by the number of tests (which is `minutesToTest // minutesToDie + 1`). Specifically:\n- Let `tests = minutesToTest // minutesToDie` (number of tests that can be run).\n- Each pig can have `tests + 1` states: it can die in one of the `tests` rounds or not die at all.\n- So, `n` pigs can represent `(tests + 1) ** n` distinct states.\n- We need the smallest `n` such that `(tests + 1) ** n >= buckets`.\n\nThis is similar to representing the buckets as numbers in a base-`(tests+1)` system, and each pig corresponds to a digit in that representation.\n\n**Constraints Analysis**:\n- `buckets` can be up to 1000.\n- `minutesToDie` and `minutesToTest` are at most 100.\n- The number of tests `tests = minutesToTest // minutesToDie` is at most 100 (if `minutesToDie=1` and `minutesToTest=100`), but usually smaller.\n- The number of pigs `n` needed is logarithmic in `buckets` with base `(tests+1)`. So even for the worst-case (1000 buckets and only 1 test), we need at most 10 pigs (since 2^10=1024).\n- The solution should be efficient with constant time or logarithmic time in `buckets`.\n\n**Edge Cases**:\n- If `buckets == 1`: no pig is needed (since we know it's the only one).\n- If `minutesToTest < minutesToDie`: only one test can be run (so `tests=0`, but actually we can run one test at time 0? Actually, we can always run at least one test at time0. So `tests = minutesToTest // minutesToDie` but if `minutesToTest < minutesToDie`, then we can only run one test? Actually, the problem says: \"wait for minutesToDie minutes\" and we cannot feed during that time. So if `minutesToTest < minutesToDie`, we can only do one round (at time0). So `tests = minutesToTest // minutesToDie` would be 0? But that is incorrect. Actually, we can always do at least one test at time0. So the number of tests is actually `minutesToTest // minutesToDie + 1`? Wait no: if we have T total time, we can do:\n  Round0 at time0, then wait -> ends at time0 + minutesToDie.\n  Then if there is time left, we can do another round? But the problem says: \"repeat until you run out of time\". So the number of tests is actually `floor(minutesToTest / minutesToDie) + 1`? Actually, no: because the first test is at time0, and we wait minutesToDie. Then if we have at least minutesToDie time left, we can do another test? Actually, the problem says: \"after minutesToDie minutes have passed\", and then we can do the next test. So the number of tests we can run is `1 + (minutesToTest - minutesToDie) // minutesToDie`? Actually, it's simpler: we can run `tests = minutesToTest // minutesToDie` rounds? But wait: at time0 we feed, then wait minutesToDie -> that uses minutesToDie time. Then we can do another feed if we have at least minutesToDie time left? Actually, the problem says: \"wait for minutesToDie minutes. You may not feed any other pigs during this time.\" So each test round (feeding and waiting) takes minutesToDie time. So the number of rounds we can do is `minutesToTest // minutesToDie`. However, we can also do one additional feeding at the very end without waiting? But no, because we need to wait to see the outcome. So actually, the number of tests is `minutesToTest // minutesToDie`. But in the example: minutesToTest=30, minutesToDie=15 -> tests=2. So that matches.\n\nSo the formula is: `tests = minutesToTest // minutesToDie`.\nBut each pig can have `tests + 1` outcomes (it can die in any of the tests, or not die at all). So the base is `base = tests + 1`.\n\nTherefore, we need the smallest `n` such that `(tests+1)**n >= buckets`.\n\nBut note: if `minutesToTest < minutesToDie`, then `tests=0`, so base=1. Then we need n such that 1**n >= buckets. So for buckets>1, it's impossible? But actually, we can still do one test at time0. So we should define `tests = (minutesToTest // minutesToDie) + 1`? Wait, no: because if minutesToTest=10, minutesToDie=15, then we can only do one test (at time0) and we wait 15 minutes, but we don't have to wait the full 15? Actually, the problem says: \"wait for minutesToDie minutes\", so we must wait the full time. So if minutesToTest=10 and minutesToDie=15, we cannot even finish the first test? But the problem says: \"within the allotted time\". So we might not get the result for the first test? Actually, the problem states: \"after minutesToDie minutes have passed, any pigs that have been fed the poisonous bucket will die\". So if we don't wait the full minutesToDie, we don't get the result. So if minutesToTest < minutesToDie, we cannot get any result from the test? Then we cannot determine the poisonous bucket. But the problem assumes we can always determine it within the allotted time. So the constraints say: minutesToDie <= minutesToTest. So we don't have to worry about minutesToTest < minutesToDie.\n\nSo we can safely use: `tests = minutesToTest // minutesToDie`, and base = tests + 1.\n\n**Input/Output Analysis**:\n- Input: three integers: buckets, minutesToDie, minutesToTest.\n- Output: an integer, the minimum number of pigs.\n\n**Difficulty Assessment**:\nThe challenge is to recognize the combinatorial pattern and the information-theoretic approach. It is not obvious that the problem can be reduced to a base-representation. Once that insight is gained, the solution is straightforward.\n\n**Solution Code**:\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        while base ** pigs < buckets:\n            pigs += 1\n        return pigs\n```\n\n=== DESIGN ===\n**Algorithm Choice**: \nThe problem is solved using a combinatorial approach based on information theory. The key insight is that each pig can represent multiple states (outcomes) based on the number of tests that can be conducted. The number of tests is determined by the given time constraints. The solution involves finding the minimum number of pigs such that the number of possible outcomes (states) is at least the number of buckets.\n\n**Step-by-Step Approach**:\n1. Calculate the number of tests that can be performed: `tests = minutesToTest // minutesToDie`.\n2. Each pig can have `tests + 1` possible outcomes: it can die in one of the `tests` rounds or survive all rounds.\n3. The total number of unique states (outcomes) for `n` pigs is `(tests + 1) ** n`.\n4. We need the smallest integer `n` such that `(tests + 1) ** n >= buckets`.\n5. Iterate starting from `n=0` until the condition is satisfied.\n\n**Data Structures**:\nNo complex data structures are needed. Only integer variables are used for calculations.\n\n**Time Complexity**:\nThe loop runs at most `log(base)(buckets)` times, which is logarithmic in the number of buckets. Since `buckets` is at most 1000 and `base` is at least 2, the loop runs at most 10 times. Thus, the time complexity is O(log(buckets)).\n\n**Space Complexity**:\nOnly constant space is used for storing variables. Hence, the space complexity is O(1).\n\n**Pseudocode**:\n```\nfunction poorPigs(buckets, minutesToDie, minutesToTest):\n    tests = minutesToTest // minutesToDie\n    base = tests + 1\n    pigs = 0\n    while base^pigs < buckets:\n        pigs += 1\n    return pigs\n```\n\nNow, here is the code solution:\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        while base ** pigs < buckets:\n            pigs += 1\n        return pigs\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        total = 1\n        while total < buckets:\n            pigs += 1\n            total *= base\n        return pigs\n```\n\n=== VERIFICATION ===\nI have reviewed the problem statement and the provided solution code. The solution is correct and efficiently solves the problem using the combinatorial approach based on information theory. Here's my verification report:\n\n1. **Correctness**: The code correctly implements the algorithm. It calculates the number of tests as `minutesToTest // minutesToDie`, and the base as `tests + 1`. Then it iterates to find the smallest number of pigs such that `base ** pigs >= buckets`.\n\n2. **Edge Cases**:\n   - If `buckets == 1`: The loop doesn't run (since `total=1 >=1`), so returns 0 pigs. Correct.\n   - If `minutesToTest == minutesToDie`: Then `tests=1`, base=2. So it uses binary encoding.\n   - The constraints guarantee `minutesToDie <= minutesToTest`, so no issue with invalid test count.\n\n3. **Complexity**: The solution runs in O(log(buckets)) time and uses O(1) space, which is optimal.\n\n4. **Code Quality**: The code is clean, readable, and efficient. It uses a while loop with multiplication to avoid exponentiation (which is a good practice to prevent large exponent calculations, though not necessary here due to small inputs). Alternatively, we could use exponentiation without issues because the numbers are small.\n\n5. **Test Cases**:\n   - Example 1: buckets=4, minutesToDie=15, minutesToTest=15 -> tests=1, base=2. We need n such that 2^n >=4 -> n=2. Correct.\n   - Example 2: buckets=4, minutesToDie=15, minutesToTest=30 -> tests=2, base=3. 3^1=3 <4, 3^2=9>=4 -> n=2. Correct.\n\n6. **Potential Issues**: None. The solution is correct and efficient.\n\nFinal code (with the improved loop using multiplication to avoid exponentiation) is already provided. However, the original solution using exponentiation is also acceptable. The current code is efficient and clear.\n\nTherefore, the solution is valid and meets all requirements.\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        total = 1\n        while total < buckets:\n            pigs += 1\n            total *= base\n        return pigs\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        total = 1\n        while total < buckets:\n            pigs += 1\n            total *= base\n        return pigs\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 51287377668,
+      "SolvedAt": "2025-11-21T00:27:17.167545+01:00",
+      "PromptTokens": 9388,
+      "OutputTokens": 2687
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "458",
+        "typed_code": "\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        tests = minutesToTest // minutesToDie\n        base = tests + 1\n        pigs = 0\n        total = 1\n        while total < buckets:\n            pigs += 1\n            total *= base\n        return pigs\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:55:04+01:00"
+    }
+  }
+}

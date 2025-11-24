@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "433",
+        "questionId": "433",
+        "Content": "<p>A gene string can be represented by an 8-character long string, with choices from <code>&#39;A&#39;</code>, <code>&#39;C&#39;</code>, <code>&#39;G&#39;</code>, and <code>&#39;T&#39;</code>.</p>\n\n<p>Suppose we need to investigate a mutation from a gene string <code>startGene</code> to a gene string <code>endGene</code> where one mutation is defined as one single character changed in the gene string.</p>\n\n<ul>\n\t<li>For example, <code>&quot;AACCGGTT&quot; --&gt; &quot;AACCGGTA&quot;</code> is one mutation.</li>\n</ul>\n\n<p>There is also a gene bank <code>bank</code> that records all the valid gene mutations. A gene must be in <code>bank</code> to make it a valid gene string.</p>\n\n<p>Given the two gene strings <code>startGene</code> and <code>endGene</code> and the gene bank <code>bank</code>, return <em>the minimum number of mutations needed to mutate from </em><code>startGene</code><em> to </em><code>endGene</code>. If there is no such a mutation, return <code>-1</code>.</p>\n\n<p>Note that the starting point is assumed to be valid, so it might not be included in the bank.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> startGene = &quot;AACCGGTT&quot;, endGene = &quot;AACCGGTA&quot;, bank = [&quot;AACCGGTA&quot;]\n<strong>Output:</strong> 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> startGene = &quot;AACCGGTT&quot;, endGene = &quot;AAACGGTA&quot;, bank = [&quot;AACCGGTA&quot;,&quot;AACCGCTA&quot;,&quot;AAACGGTA&quot;]\n<strong>Output:</strong> 2\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= bank.length &lt;= 10</code></li>\n\t<li><code>startGene.length == endGene.length == bank[i].length == 8</code></li>\n\t<li><code>startGene</code>, <code>endGene</code>, and <code>bank[i]</code> consist of only the characters <code>[&#39;A&#39;, &#39;C&#39;, &#39;G&#39;, &#39;T&#39;]</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"AACCGGTT\"\n\"AACCGGTA\"\n[\"AACCGGTA\"]",
+        "ExampleTestcases": "\"AACCGGTT\"\n\"AACCGGTA\"\n[\"AACCGGTA\"]\n\"AACCGGTT\"\n\"AAACGGTA\"\n[\"AACCGGTA\",\"AACCGCTA\",\"AAACGGTA\"]",
+        "Difficulty": "Medium",
+        "Title": "Minimum Genetic Mutation",
+        "TitleSlug": "minimum-genetic-mutation",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"257.7K\", \"totalSubmission\": \"459.5K\", \"totalAcceptedRaw\": 257676, \"totalSubmissionRaw\": 459533, \"acRate\": \"56.1%\"}",
+        "Likes": 3250,
+        "Dislikes": 344,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minMutation(string startGene, string endGene, vector<string>& bank) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minMutation(String startGene, String endGene, String[] bank) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minMutation(self, startGene, endGene, bank):\n        \"\"\"\n        :type startGene: str\n        :type endGene: str\n        :type bank: List[str]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} startGene\n * @param {string} endGene\n * @param {string[]} bank\n * @return {number}\n */\nvar minMutation = function(startGene, endGene, bank) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minMutation(startGene: string, endGene: string, bank: string[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinMutation(string startGene, string endGene, string[] bank) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minMutation(char* startGene, char* endGene, char** bank, int bankSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minMutation(startGene string, endGene string, bank []string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minMutation(startGene: String, endGene: String, bank: Array<String>): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minMutation(_ startGene: String, _ endGene: String, _ bank: [String]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_mutation(start_gene: String, end_gene: String, bank: Vec<String>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} start_gene\n# @param {String} end_gene\n# @param {String[]} bank\n# @return {Integer}\ndef min_mutation(start_gene, end_gene, bank)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $startGene\n     * @param String $endGene\n     * @param String[] $bank\n     * @return Integer\n     */\n    function minMutation($startGene, $endGene, $bank) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minMutation(String startGene, String endGene, List<String> bank) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minMutation(startGene: String, endGene: String, bank: Array[String]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_mutation(start_gene :: String.t, end_gene :: String.t, bank :: [String.t]) :: integer\n  def min_mutation(start_gene, end_gene, bank) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_mutation(StartGene :: unicode:unicode_binary(), EndGene :: unicode:unicode_binary(), Bank :: [unicode:unicode_binary()]) -> integer().\nmin_mutation(StartGene, EndGene, Bank) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-mutation startGene endGene bank)\n  (-> string? string? (listof string?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:17:40.58955+01:00",
+    "AcRate": "56.1",
+    "TotalSubmissions": 459533,
+    "TotalAccepted": 257676,
+    "AcceptanceRate": 0.5607344847921695,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-genetic-mutation/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nTo solve this problem, we can model the relationship between gene strings as a graph. Each valid gene string (from the `startGene` and the `bank`) is a node, and an edge exists between two nodes if they are one mutation apart. The problem then becomes finding the shortest path from the `startGene` node to the `endGene` node in this unweighted graph.\n\nBreadth-First Search (BFS) is the ideal algorithm for finding the shortest path in an unweighted graph. We can start a BFS from `startGene`, exploring its neighbors (valid gene strings one mutation away), then their neighbors, and so on, level by level. The number of levels we traverse to reach `endGene` will be the minimum number of mutations.\n\nThe overall algorithm is as follows:\n1.  Handle edge cases:\n    - If `startGene` equals `endGene`, 0 mutations are needed.\n    - For any mutation path to exist, `endGene` must be a valid gene string within the `bank`. If it's not, a path is impossible. We can convert the `bank` to a set for efficient lookups to check this.\n2.  Initialize a queue for BFS with the starting state `(startGene, 0)`, representing the gene and the number of mutations to reach it.\n3.  Use a `visited` set to keep track of genes we've already processed to avoid cycles and redundant explorations. Add `startGene` to it.\n4.  Begin the BFS loop:\n    - Dequeue a `(current_gene, mutation_count)`.\n    - Generate all possible one-character mutations of `current_gene`.\n    - For each `next_gene` generated:\n        - If it's a valid, unvisited gene (i.e., it's in the `bank` set and not in the `visited` set):\n            - If this `next_gene` is our `endGene`, we've found the shortest path. Return `mutation_count + 1`.\n            - Otherwise, add it to the `visited` set and enqueue it with an incremented mutation count: `(next_gene, mutation_count + 1)`.\n5.  If the queue becomes empty and we haven't reached `endGene`, it means no such mutation path exists. Return -1.\n\nThis approach guarantees finding the shortest path because BFS explores the graph layer by layer, ensuring that we find a path of length `k` before finding any path of length `k+1`.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n\n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n\n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n\n        while queue:\n            current_gene, mutations = queue.popleft()\n\n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n\n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n        \n        return -1\n```\n\n=== DESIGN ===\nTo solve this problem, we will model the set of all valid gene strings (the `startGene` plus the `bank`) as nodes in a graph. An edge will exist between two gene strings if one can be transformed into the other by a single character mutation. The problem is then reduced to finding the shortest path from the `startGene` node to the `endGene` node.\n\n### 1. Algorithm Choice\nBreadth-First Search (BFS) is the ideal algorithm for this task. Since each mutation has a uniform cost of 1, BFS is guaranteed to find the shortest path in terms of the number of mutations from the `startGene` to the `endGene` in this unweighted graph.\n\n### 2. Step-by-Step Approach\n1.  **Initial Checks & Setup**:\n    *   If `startGene` and `endGene` are identical, 0 mutations are needed. Return 0.\n    *   Convert the `bank` list to a set for efficient O(1) average time lookups.\n    *   If `endGene` is not in the `bank` set, it's impossible to reach. Return -1.\n\n2.  **BFS Initialization**:\n    *   Initialize a queue and add the starting state, which is a tuple containing the `startGene` and its mutation count (initially 0): `(startGene, 0)`.\n    *   Initialize a `visited` set to keep track of genes that have already been enqueued, preventing cycles and redundant work. Add `startGene` to this set.\n\n3.  **BFS Traversal**:\n    *   While the queue is not empty, dequeue the current `(gene, mutation_count)`.\n    *   Generate all possible one-character mutations for the `current_gene`. For each of the 8 positions in the gene, try substituting each of the 4 characters ('A', 'C', 'G', 'T').\n    *   For each `next_gene` generated:\n        *   Check if it is a valid, unvisited next step by verifying it's in the `bank_set` and not in the `visited` set.\n        *   If it is a valid move:\n            *   If `next_gene` is the `endGene`, we have found the shortest path. Return `mutation_count + 1`.\n            *   Otherwise, add `next_gene` to the `visited` set and enqueue the new state `(next_gene, mutation_count + 1)`.\n\n4.  **No Path Found**:\n    *   If the BFS loop completes (i.e., the queue becomes empty) and `endGene` has not been reached, it means no valid mutation path exists. Return -1.\n\n### 3. Data Structures\n*   **Set (`bank_set`)**: To store the genes from the `bank` for efficient O(1) average time complexity lookups to validate mutations.\n*   **Queue (`collections.deque`)**: To manage the nodes to visit in a level-order fashion, which is the core of the BFS algorithm. It will store `(gene, mutation_count)` tuples.\n*   **Set (`visited`)**: To store already processed genes to avoid cycles and redundant computations.\n\n### 4. Time Complexity\nLet `N` be the number of genes in the `bank` and `L` be the length of a gene string (fixed at 8).\nThe complexity is determined by the BFS traversal. In the worst case, we visit every valid gene (`N` genes + `startGene`). For each gene, we generate `L * 3` potential mutations. Each generation involves string slicing and concatenation, taking `O(L)` time. Set lookups also take `O(L)` on average for strings. Therefore, the total time complexity is approximately `O(N * L^2)`. Given the small constraints (`N <= 10`, `L = 8`), this is very efficient.\n\n### 5. Space Complexity\nThe space complexity is determined by the storage required for the `bank_set`, `visited` set, and the `queue`. All these data structures can store up to `N` genes of length `L` in the worst case. Thus, the space complexity is `O(N * L)`.\n\n### 6. Pseudocode\n```pseudocode\nfunction minMutation(startGene, endGene, bank):\n    // 1. Initial Checks & Setup\n    if startGene == endGene:\n        return 0\n    \n    bank_set = create a set from bank\n    if endGene is not in bank_set:\n        return -1\n\n    // 2. BFS Initialization\n    queue = create a queue with (startGene, 0)\n    visited = create a set with startGene\n\n    // 3. BFS Traversal\n    while queue is not empty:\n        current_gene, mutations = dequeue from queue\n\n        for each position i in current_gene:\n            for each character c in \"ACGT\":\n                if character at current_gene[i] is c:\n                    continue\n\n                next_gene = current_gene with character c at position i\n                \n                if next_gene is in bank_set and next_gene is not in visited:\n                    if next_gene == endGene:\n                        return mutations + 1\n                    \n                    add next_gene to visited\n                    enqueue (next_gene, mutations + 1)\n\n    // 4. No Path Found\n    return -1\n```\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n        \n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n\n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n\n        while queue:\n            current_gene, mutations = queue.popleft()\n\n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n                    \n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n        \n        return -1\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n        \n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n            \n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n        \n        while queue:\n            current_gene, mutations = queue.popleft()\n            \n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n                    \n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n                        \n        return -1\n```\n\n=== VERIFICATION ===\nAn excellent and thorough analysis. The proposed BFS approach is indeed an optimal way to solve this problem, framing it as a shortest path search on an unweighted graph. The implementation details align perfectly with this design.\n\n**Verification Report:**\n\n1.  **Correctness**: The code correctly implements the Breadth-First Search (BFS) algorithm. It systematically explores the \"gene graph\" level by level, guaranteeing that the first time `endGene` is reached, it will be via the shortest possible path (i.e., the minimum number of mutations). The logic for generating neighbors (one-character mutations), checking their validity against the `bank`, and avoiding cycles with a `visited` set is all implemented correctly.\n\n2.  **Edge Cases**: The solution handles the specified edge cases flawlessly:\n    *   If `startGene` is the same as `endGene`, it correctly returns `0` immediately.\n    *   If `endGene` is not present in the `bank`, a mutation path is impossible, and the code correctly returns `-1`.\n    *   If no mutation path exists between `startGene` and `endGene`, the BFS queue will become empty, and the function will correctly return `-1` as the final step.\n\n3.  **Complexity**: The complexity analysis is accurate.\n    *   **Time Complexity**: `O(N * L^2)`, where `N` is the number of genes in the `bank` and `L` is the length of a gene string. For each gene processed by the BFS (at most `N+1`), it generates `L * 3` potential mutations. Each mutation generation and set lookup takes `O(L)` time. Given the small constraints (`N <= 10`, `L=8`), this is highly efficient.\n    *   **Space Complexity**: `O(N * L)`. The space is dominated by the `bank_set`, `visited` set, and the `queue`, all of which store gene strings.\n\n4.  **Code Quality**: The code is of high quality. It is clean, readable, and follows Python best practices.\n    *   Variable names (`current_gene`, `mutations`, `bank_set`) are clear and self-explanatory.\n    *   The use of `collections.deque` for the queue and `set` for `bank_set` and `visited` is idiomatic and efficient.\n    *   The overall structure is logical and easy to follow.\n\n5.  **Test Cases**: The code correctly solves the provided examples.\n    *   **Example 1**: \"AACCGGTT\" -> \"AACCGGTA\" is a single mutation, which is present in the bank. The code finds this path of length 1.\n    *   **Example 2**: \"AACCGGTT\" -> \"AACCGGTA\" -> \"AAACGGTA\" is a path of length 2. The BFS correctly explores the first level to find \"AACCGGTA\" and then the second level to find the `endGene` \"AAACGGTA\", returning 2.\n\n6.  **Potential Issues**: There are no apparent bugs or logical errors in the implementation. The solution is robust and complete.\n\n**Conclusion**: The solution is verified as correct, efficient, and well-implemented. It is a textbook example of solving a shortest path problem on an unweighted graph using BFS.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n        \n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n            \n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n        \n        while queue:\n            current_gene, mutations = queue.popleft()\n            \n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n                    \n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n                        \n        return -1\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n        \n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n            \n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n        \n        while queue:\n            current_gene, mutations = queue.popleft()\n            \n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n                    \n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n                        \n        return -1\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 203128355958,
+      "SolvedAt": "2025-11-21T14:07:16.832636+01:00",
+      "PromptTokens": 8511,
+      "OutputTokens": 25537
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "433",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minMutation(self, startGene: str, endGene: str, bank: List[str]) -> int:\n        if startGene == endGene:\n            return 0\n        \n        bank_set = set(bank)\n        if endGene not in bank_set:\n            return -1\n            \n        queue = collections.deque([(startGene, 0)])\n        visited = {startGene}\n        \n        while queue:\n            current_gene, mutations = queue.popleft()\n            \n            for i in range(len(current_gene)):\n                for char in \"ACGT\":\n                    if current_gene[i] == char:\n                        continue\n                    \n                    next_gene = current_gene[:i] + char + current_gene[i+1:]\n                    \n                    if next_gene in bank_set and next_gene not in visited:\n                        if next_gene == endGene:\n                            return mutations + 1\n                        \n                        visited.add(next_gene)\n                        queue.append((next_gene, mutations + 1))\n                        \n        return -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:53:02+01:00"
+    }
+  }
+}

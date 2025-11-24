@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1140",
+        "questionId": "1240",
+        "Content": "<p>Alice and Bob continue their games with piles of stones. There are a number of piles <strong>arranged in a row</strong>, and each pile has a positive integer number of stones <code>piles[i]</code>. The objective of the game is to end with the most stones.</p>\n\n<p>Alice and Bob take turns, with Alice starting first.</p>\n\n<p>On each player&#39;s turn, that player can take <strong>all the stones</strong> in the <strong>first</strong> <code>X</code> remaining piles, where <code>1 &lt;= X &lt;= 2M</code>. Then, we set <code>M = max(M, X)</code>. Initially, M = 1.</p>\n\n<p>The game continues until all the stones have been taken.</p>\n\n<p>Assuming Alice and Bob play optimally, return the maximum number of stones Alice can get.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">piles = [2,7,9,4,4]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">10</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>If Alice takes one pile at the beginning, Bob takes two piles, then Alice takes 2 piles again. Alice can get <code>2 + 4 + 4 = 10</code> stones in total.</li>\n\t<li>If Alice takes two piles at the beginning, then Bob can take all three piles left. In this case, Alice get <code>2 + 7 = 9</code> stones in total.</li>\n</ul>\n\n<p>So we return 10 since it&#39;s larger.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">piles = [1,2,3,4,5,100]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">104</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= piles.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= piles[i]&nbsp;&lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[2,7,9,4,4]",
+        "ExampleTestcases": "[2,7,9,4,4]\n[1,2,3,4,5,100]",
+        "Difficulty": "Medium",
+        "Title": "Stone Game II",
+        "TitleSlug": "stone-game-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"192.6K\", \"totalSubmission\": \"264.1K\", \"totalAcceptedRaw\": 192619, \"totalSubmissionRaw\": 264121, \"acRate\": \"72.9%\"}",
+        "Likes": 3414,
+        "Dislikes": 932,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcz",
+            "Name": "Game Theory",
+            "Slug": "game-theory"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int stoneGameII(vector<int>& piles) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int stoneGameII(int[] piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def stoneGameII(self, piles):\n        \"\"\"\n        :type piles: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} piles\n * @return {number}\n */\nvar stoneGameII = function(piles) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function stoneGameII(piles: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int StoneGameII(int[] piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int stoneGameII(int* piles, int pilesSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func stoneGameII(piles []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun stoneGameII(piles: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func stoneGameII(_ piles: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn stone_game_ii(piles: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} piles\n# @return {Integer}\ndef stone_game_ii(piles)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $piles\n     * @return Integer\n     */\n    function stoneGameII($piles) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int stoneGameII(List<int> piles) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def stoneGameII(piles: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec stone_game_ii(piles :: [integer]) :: integer\n  def stone_game_ii(piles) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec stone_game_ii(Piles :: [integer()]) -> integer().\nstone_game_ii(Piles) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (stone-game-ii piles)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:37:58.324717+01:00",
+    "AcRate": "72.9",
+    "TotalSubmissions": 264121,
+    "TotalAccepted": 192619,
+    "AcceptanceRate": 0.7292831694564234,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/stone-game-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Alice and Bob continue their games with piles of stones. There are a number of piles arranged in a row, and each pile has a positive integer number of stones piles[i]. The objective of the game is to end with the most stones.\nAlice and Bob take turns, with Alice starting first.\nOn each player's turn, that player can take all the stones in the first X remaining piles, where 1 <= X <= 2M. Then, we set M = max(M, X). Initially, M = 1.\nThe game continues until all the stones have been taken.\nAssuming Alice and Bob play optimally, return the maximum number of stones Alice can get.\n\u00a0\nExample 1:\nInput: piles = [2,7,9,4,4]\nOutput: 10\nExplanation:\n\tIf Alice takes one pile at the beginning, Bob takes two piles, then Alice takes 2 piles again. Alice can get 2 + 4 + 4 = 10 stones in total.\n\tIf Alice takes two piles at the beginning, then Bob can take all three piles left. In this case, Alice get 2 + 7 = 9 stones in total.\nSo we return 10 since it's larger.\nExample 2:\nInput: piles = [1,2,3,4,5,100]\nOutput: 104\n\u00a0\nConstraints:\n\t1 <= piles.length <= 100\n\t1 <= piles[i]\u00a0<= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and effective way to solve this game theory problem is through recursion with memoization, a technique also known as top-down dynamic programming. The core idea is to define a function that calculates the maximum score a player can achieve from any given game state, assuming optimal play from both sides.\n\n### Game State and Recurrence Relation\n\nA game state can be uniquely identified by two parameters:\n1.  `i`: The index of the first pile in the remaining row of piles.\n2.  `M`: The current value of `M`, which determines the number of piles a player can take.\n\nLet's define a function `solve(i, M)` that returns the maximum number of stones the *current* player can obtain from the subgame starting at `piles[i]` with the given `M`.\n\nWhen it's a player's turn at state `(i, M)`, they want to maximize their final score. They can choose to take `X` piles, where `1 <= X <= 2*M`. After taking `X` piles, they will have gathered `sum(piles[i:i+X])` stones in this turn. The game then transitions to the opponent's turn, with the new state being `(i + X, max(M, X))`.\n\nThe total number of stones available in the current subgame (from `piles[i]` onwards) is fixed. Let this be `total_remaining`. The current player's score for this subgame will be `total_remaining - opponent's_score`. To maximize their own score, the current player must make a move `X` that **minimizes** the score their opponent can get in the subsequent subgame.\n\nThis leads to the following recurrence relation:\n`solve(i, M) = max_{1<=X<=2M} (stones_taken_now + stones_from_future_turns)`\n\n`solve(i, M) = sum(piles[i:]) - min_{1<=X<=2M} (solve(i+X, max(M, X)))`\n\n### Implementation Steps\n\n1.  **State Representation**: We'll use a recursive helper function `solve(i, M)`. To avoid recomputing results for the same state, we use a dictionary or a 2D array for memoization (caching).\n\n2.  **Suffix Sums**: To quickly calculate `sum(piles[i:])` in O(1) time, we can precompute the suffix sums of the `piles` array.\n\n3.  **Base Cases**:\n    *   If `i >= len(piles)`, there are no piles left, so the score is 0.\n\n4.  **Optimization**:\n    *   If a player can take all remaining piles (i.e., `2*M >= len(piles) - i`), they will do so to maximize their score. In this case, their score is simply the sum of all remaining piles, and the opponent gets nothing.\n\n5.  **Recursive Step**: For a general state `(i, M)`, we iterate through all possible moves `X` (from 1 to `2*M`). For each `X`, we recursively find the opponent's score `solve(i+X, max(M, X))`. We find the `X` that minimizes this opponent's score. The current player's maximum score is then `total_remaining - min_opponent_score`.\n\nThe final answer is the result of the initial call for Alice, which is `solve(0, 1)`.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        memo = {}\n\n        suffix_sums = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sums[i] = suffix_sums[i + 1] + piles[i]\n\n        def solve(i, M):\n            if i >= n:\n                return 0\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n\n            if i + 2 * M >= n:\n                return suffix_sums[i]\n\n            min_opponent_score = float('inf')\n            for X in range(1, 2 * M + 1):\n                opponent_score = solve(i + X, max(M, X))\n                min_opponent_score = min(min_opponent_score, opponent_score)\n            \n            my_score = suffix_sums[i] - min_opponent_score\n            memo[(i, M)] = my_score\n            return my_score\n\n        return solve(0, 1)\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        memo = {}\n\n        suffix_sums = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sums[i] = suffix_sums[i + 1] + piles[i]\n\n        def solve(i, M):\n            if i >= n:\n                return 0\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n\n            if i + 2 * M >= n:\n                return suffix_sums[i]\n\n            min_opponent_score = float('inf')\n            for X in range(1, 2 * M + 1):\n                opponent_score = solve(i + X, max(M, X))\n                min_opponent_score = min(min_opponent_score, opponent_score)\n            \n            my_score = suffix_sums[i] - min_opponent_score\n            memo[(i, M)] = my_score\n            return my_score\n\n        return solve(0, 1)\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 173689200834,
+      "SolvedAt": "2025-11-20T19:04:40.07635+01:00",
+      "PromptTokens": 551,
+      "OutputTokens": 20978
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1240",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameII(self, piles: List[int]) -> int:\n        n = len(piles)\n        memo = {}\n\n        suffix_sums = [0] * (n + 1)\n        for i in range(n - 1, -1, -1):\n            suffix_sums[i] = suffix_sums[i + 1] + piles[i]\n\n        def solve(i, M):\n            if i >= n:\n                return 0\n            \n            if (i, M) in memo:\n                return memo[(i, M)]\n\n            if i + 2 * M >= n:\n                return suffix_sums[i]\n\n            min_opponent_score = float('inf')\n            for X in range(1, 2 * M + 1):\n                opponent_score = solve(i + X, max(M, X))\n                min_opponent_score = min(min_opponent_score, opponent_score)\n            \n            my_score = suffix_sums[i] - min_opponent_score\n            memo[(i, M)] = my_score\n            return my_score\n\n        return solve(0, 1)\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:46:30+01:00"
+    }
+  }
+}

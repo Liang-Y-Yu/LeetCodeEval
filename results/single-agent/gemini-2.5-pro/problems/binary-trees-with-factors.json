@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "823",
+        "questionId": "843",
+        "Content": "<p>Given an array of unique integers, <code>arr</code>, where each integer <code>arr[i]</code> is strictly greater than <code>1</code>.</p>\n\n<p>We make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node&#39;s value should be equal to the product of the values of its children.</p>\n\n<p>Return <em>the number of binary trees we can make</em>. The answer may be too large so return the answer <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [2,4]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> We can make these trees: <code>[2], [4], [4, 2, 2]</code></pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [2,4,5,10]\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> We can make these trees: <code>[2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2]</code>.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 1000</code></li>\n\t<li><code>2 &lt;= arr[i] &lt;= 10<sup>9</sup></code></li>\n\t<li>All the values of <code>arr</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[2,4]",
+        "ExampleTestcases": "[2,4]\n[2,4,5,10]",
+        "Difficulty": "Medium",
+        "Title": "Binary Trees With Factors",
+        "TitleSlug": "binary-trees-with-factors",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"157.1K\", \"totalSubmission\": \"296.3K\", \"totalAcceptedRaw\": 157065, \"totalSubmissionRaw\": 296267, \"acRate\": \"53.0%\"}",
+        "Likes": 3358,
+        "Dislikes": 260,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numFactoredBinaryTrees(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numFactoredBinaryTrees(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numFactoredBinaryTrees(self, arr: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numFactoredBinaryTrees(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar numFactoredBinaryTrees = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numFactoredBinaryTrees(arr: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumFactoredBinaryTrees(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numFactoredBinaryTrees(int* arr, int arrSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numFactoredBinaryTrees(arr []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numFactoredBinaryTrees(arr: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numFactoredBinaryTrees(_ arr: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn num_factored_binary_trees(arr: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer}\ndef num_factored_binary_trees(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function numFactoredBinaryTrees($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numFactoredBinaryTrees(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numFactoredBinaryTrees(arr: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec num_factored_binary_trees(arr :: [integer]) :: integer\n  def num_factored_binary_trees(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec num_factored_binary_trees(Arr :: [integer()]) -> integer().\nnum_factored_binary_trees(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (num-factored-binary-trees arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:57:39.817181+01:00",
+    "AcRate": "53.0",
+    "TotalSubmissions": 296267,
+    "TotalAccepted": 157065,
+    "AcceptanceRate": 0.530146793264184,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/binary-trees-with-factors/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an array of unique integers, arr, where each integer arr[i] is strictly greater than 1.\nWe make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node's value should be equal to the product of the values of its children.\nReturn the number of binary trees we can make. The answer may be too large so return the answer modulo 10^9 + 7.\n\u00a0\nExample 1:\nInput: arr = [2,4]\nOutput: 3\nExplanation: We can make these trees: [2], [4], [4, 2, 2]\nExample 2:\nInput: arr = [2,4,5,10]\nOutput: 7\nExplanation: We can make these trees: [2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2].\n\u00a0\nConstraints:\n\t1 <= arr.length <= 1000\n\t2 <= arr[i] <= 10^9\n\tAll the values of arr are unique.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def numFactoredBinaryTrees(self, arr: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient way to solve this problem is by using dynamic programming. The core idea is to calculate the number of possible binary trees for each number in the input array `arr` when it serves as the root.\n\nLet's define `dp[x]` as the number of valid binary trees with `x` as the root. A tree rooted at `x` can be one of two types:\n1.  A single-node tree (a leaf). This is always a valid tree, so `dp[x]` is at least 1.\n2.  A non-leaf node. In this case, `x` has two children, `l` and `r`, such that `x = l * r`. The numbers `l` and `r` must also be present in `arr`. The number of ways to form the left subtree (rooted at `l`) is `dp[l]`, and the number of ways to form the right subtree (rooted at `r`) is `dp[r]`. Therefore, for a specific pair of children `(l, r)`, we can form `dp[l] * dp[r]` distinct trees.\n\nCombining these, the recurrence relation for `dp[x]` is:\n`dp[x] = 1 + \u03a3 (dp[l] * dp[r])` for all pairs `(l, r)` in `arr` such that `l * r = x`.\n\nTo ensure that when we calculate `dp[x]`, the values for its factors `dp[l]` and `dp[r]` are already computed, we should process the numbers in `arr` in increasing order. This is because any factor of a number `x` (where `x > 1`) must be smaller than `x`.\n\nThe overall algorithm is as follows:\n1.  Sort the input array `arr`.\n2.  Create a dictionary `dp` to store the computed results, mapping each number to the count of trees it can root.\n3.  Iterate through each number `num` in the sorted `arr`.\n    a. Initialize the count of ways for `num` to be `1` (for the single-node tree).\n    b. Iterate through the numbers `factor1` for which `dp` values have already been computed (i.e., numbers smaller than `num`).\n    c. If `factor1` is a divisor of `num`, calculate the other factor, `factor2 = num / factor1`.\n    d. If `factor2` also exists in our `dp` map, it means we've found a valid pair of children. We add the product `dp[factor1] * dp[factor2]` to our count for `num`.\n    e. All calculations are done modulo `10^9 + 7` to prevent overflow.\n4.  After computing `dp[num]` for all `num` in `arr`, the total number of trees is the sum of all values in the `dp` dictionary, also taken modulo `10^9 + 7`.\n\nThis approach has a time complexity of O(N^2) due to the nested loops and a space complexity of O(N) to store the `dp` values, where N is the length of `arr`.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def numFactoredBinaryTrees(self, arr: List[int]) -> int:\n        MOD = 10**9 + 7\n        \n        # Sort the array to process numbers in increasing order.\n        # This ensures that when calculating dp[num], dp values for its factors\n        # (which are smaller) have already been computed.\n        arr.sort()\n        \n        # dp[x] will store the number of valid binary trees with x as the root.\n        dp = {}\n        \n        for num in arr:\n            # Base case: A single-node tree is always possible.\n            ways = 1\n            \n            # Iterate through previously computed values. These are potential factors.\n            for factor1 in dp:\n                # If factor1 is a divisor of num, then num can be a root with\n                # factor1 as one of its children.\n                if num % factor1 == 0:\n                    factor2 = num // factor1\n                    \n                    # If the other factor, factor2, is also in our set of available numbers\n                    # (checked by seeing if it's a key in dp), we've found a valid pair of children.\n                    if factor2 in dp:\n                        # The number of new trees from this pair of children is the product\n                        # of the number of trees that can be formed with each child as a root.\n                        num_new_trees = dp[factor1] * dp[factor2]\n                        ways = (ways + num_new_trees) % MOD\n            \n            dp[num] = ways\n            \n        # The total number of trees is the sum of trees for each possible root.\n        return sum(dp.values()) % MOD\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def numFactoredBinaryTrees(self, arr: List[int]) -> int:\n        MOD = 10**9 + 7\n        \n        # Sort the array to process numbers in increasing order.\n        # This ensures that when calculating dp[num], dp values for its factors\n        # (which are smaller) have already been computed.\n        arr.sort()\n        \n        # dp[x] will store the number of valid binary trees with x as the root.\n        dp = {}\n        \n        for num in arr:\n            # Base case: A single-node tree is always possible.\n            ways = 1\n            \n            # Iterate through previously computed values. These are potential factors.\n            for factor1 in dp:\n                # If factor1 is a divisor of num, then num can be a root with\n                # factor1 as one of its children.\n                if num % factor1 == 0:\n                    factor2 = num // factor1\n                    \n                    # If the other factor, factor2, is also in our set of available numbers\n                    # (checked by seeing if it's a key in dp), we've found a valid pair of children.\n                    if factor2 in dp:\n                        # The number of new trees from this pair of children is the product\n                        # of the number of trees that can be formed with each child as a root.\n                        num_new_trees = dp[factor1] * dp[factor2]\n                        ways = (ways + num_new_trees) % MOD\n            \n            dp[num] = ways\n            \n        # The total number of trees is the sum of trees for each possible root.\n        return sum(dp.values()) % MOD\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 157062162292,
+      "SolvedAt": "2025-11-20T12:14:12.132025+01:00",
+      "PromptTokens": 482,
+      "OutputTokens": 19976
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "843",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def numFactoredBinaryTrees(self, arr: List[int]) -> int:\n        MOD = 10**9 + 7\n        \n        # Sort the array to process numbers in increasing order.\n        # This ensures that when calculating dp[num], dp values for its factors\n        # (which are smaller) have already been computed.\n        arr.sort()\n        \n        # dp[x] will store the number of valid binary trees with x as the root.\n        dp = {}\n        \n        for num in arr:\n            # Base case: A single-node tree is always possible.\n            ways = 1\n            \n            # Iterate through previously computed values. These are potential factors.\n            for factor1 in dp:\n                # If factor1 is a divisor of num, then num can be a root with\n                # factor1 as one of its children.\n                if num % factor1 == 0:\n                    factor2 = num // factor1\n                    \n                    # If the other factor, factor2, is also in our set of available numbers\n                    # (checked by seeing if it's a key in dp), we've found a valid pair of children.\n                    if factor2 in dp:\n                        # The number of new trees from this pair of children is the product\n                        # of the number of trees that can be formed with each child as a root.\n                        num_new_trees = dp[factor1] * dp[factor2]\n                        ways = (ways + num_new_trees) % MOD\n            \n            dp[num] = ways\n            \n        # The total number of trees is the sum of trees for each possible root.\n        return sum(dp.values()) % MOD\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:41:51+01:00"
+    }
+  }
+}

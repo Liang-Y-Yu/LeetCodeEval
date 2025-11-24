@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1323",
+        "questionId": "1448",
+        "Content": "<p>You are given a positive integer <code>num</code> consisting only of digits <code>6</code> and <code>9</code>.</p>\n\n<p>Return <em>the maximum number you can get by changing <strong>at most</strong> one digit (</em><code>6</code><em> becomes </em><code>9</code><em>, and </em><code>9</code><em> becomes </em><code>6</code><em>)</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9669\n<strong>Output:</strong> 9969\n<strong>Explanation:</strong> \nChanging the first digit results in 6669.\nChanging the second digit results in 9969.\nChanging the third digit results in 9699.\nChanging the fourth digit results in 9666.\nThe maximum number is 9969.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9996\n<strong>Output:</strong> 9999\n<strong>Explanation:</strong> Changing the last digit 6 to 9 results in the maximum number.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9999\n<strong>Output:</strong> 9999\n<strong>Explanation:</strong> It is better not to apply any change.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= num &lt;= 10<sup>4</sup></code></li>\n\t<li><code>num</code>&nbsp;consists of only <code>6</code> and <code>9</code> digits.</li>\n</ul>\n",
+        "SampleTestCase": "9669",
+        "ExampleTestcases": "9669\n9996\n9999",
+        "Difficulty": "Easy",
+        "Title": "Maximum 69 Number",
+        "TitleSlug": "maximum-69-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"467K\", \"totalSubmission\": \"552.8K\", \"totalAcceptedRaw\": 467008, \"totalSubmissionRaw\": 552820, \"acRate\": \"84.5%\"}",
+        "Likes": 3270,
+        "Dislikes": 238,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximum69Number (int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximum69Number (int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximum69Number (self, num: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximum69Number (self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximum69Number  = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximum69Number (num: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Maximum69Number (int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximum69Number (int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximum69Number (num int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximum69Number (num: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximum69Number (_ num: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum69_number (num: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {Integer}\ndef maximum69_number (num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer\n     */\n    function maximum69Number ($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximum69Number (int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximum69Number (num: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum69_number (num :: integer) :: integer\n  def maximum69_number (num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum69_number (Num :: integer()) -> integer().\nmaximum69_number (Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum69-number  num)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:27:29.360089+01:00",
+    "AcRate": "84.5",
+    "TotalSubmissions": 552820,
+    "TotalAccepted": 467008,
+    "AcceptanceRate": 0.8447740675084114,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-69-number/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n1. **Problem Type Classification**: This problem is a String/Simulation problem because it involves manipulating digits of a number to maximize its value by changing at most one digit.\n2. **Key Patterns & Algorithms**: The solution requires scanning the digits from left to right and making the first possible change from 6 to 9 (since changing a 9 to 6 would decrease the number). Alternatively, if no 6 is found, the number remains unchanged.\n3. **Constraints Analysis**: The number has at most 5 digits (since num <= 10^4). So, any solution that processes each digit is efficient (O(n) where n is the number of digits).\n4. **Edge Cases**: \n   - All digits are 9 (no change needed).\n   - All digits are 6 (change the first digit to 9).\n   - Multiple 6s (only change the leftmost 6 to maximize the number).\n5. **Input/Output Analysis**: The input is an integer with digits 6 and 9. The output is also an integer after at most one digit flip.\n6. **Difficulty Assessment**: This is an easy problem because the solution is straightforward: find the first occurrence of '6' and flip it to '9'. If none, return the original number.\n\n**Solution Code:**\n```python\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i, char in enumerate(s):\n            if char == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i in range(len(s)):\n            if s[i] == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i in range(len(s)):\n            if s[i] == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n```\n\n=== VERIFICATION ===\n**Verification Report:**\n\n**1. Correctness:**\nThe code correctly implements the designed algorithm. It converts the number to a list of characters, scans from left to right, and flips the first '6' to '9'. This ensures the number is maximized because changing a digit at a higher place value (leftmost) has a greater impact. The code breaks after the first change, adhering to the \"at most one digit\" constraint.\n\n**2. Edge Cases:**\n- All digits are 9 (e.g., 9999): The loop finds no '6', so no change is made. Returns 9999 \u2713.\n- All digits are 6 (e.g., 6666): The first digit is flipped to 9, resulting in 9666. This is correct because changing the first digit gives the maximum value (9666 > 6666 and any other single change) \u2713.\n- Multiple 6s (e.g., 9669): The first '6' (at index 1) is flipped to '9', resulting in 9969. This matches the example \u2713.\n\n**3. Complexity:**\n- Time: O(n), where n is the number of digits. This is optimal since we must at least scan until the first '6'.\n- Space: O(n) for storing the list of characters. This is acceptable given the constraint (max 5 digits).\n\n**4. Code Quality:**\n- The code is clean, readable, and follows Python best practices.\n- It uses a list of characters for mutability (strings are immutable in Python).\n- The loop breaks immediately after the first change to avoid unnecessary operations.\n- The variable names are clear (`s` for the list of digits).\n\n**5. Test Cases:**\n- Example 1 (num=9669): Changes the second digit (index1) from '6' to '9', returns 9969 \u2713.\n- Example 2 (num=9996): Changes the last digit (index3) from '6' to '9', returns 9999 \u2713.\n- Example 3 (num=9999): No change, returns 9999 \u2713.\n\n**6. Potential Issues:**\n- There are no bugs or logical errors. The solution is efficient and handles all cases correctly.\n- No improvements are needed; the code is concise and optimal.\n\n**Final Verdict:** The solution is correct and meets all requirements. It is ready for submission.\n\n```python\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i in range(len(s)):\n            if s[i] == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i in range(len(s)):\n            if s[i] == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 13021741751,
+      "SolvedAt": "2025-11-21T00:04:48.96702+01:00",
+      "PromptTokens": 3487,
+      "OutputTokens": 1046
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1448",
+        "typed_code": "\nclass Solution:\n    def maximum69Number (self, num: int) -> int:\n        s = list(str(num))\n        for i in range(len(s)):\n            if s[i] == '6':\n                s[i] = '9'\n                break\n        return int(''.join(s))\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:26:27+01:00"
+    }
+  }
+}

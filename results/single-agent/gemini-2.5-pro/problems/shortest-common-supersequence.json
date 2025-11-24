@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1092",
+        "questionId": "1170",
+        "Content": "<p>Given two strings <code>str1</code> and <code>str2</code>, return <em>the shortest string that has both </em><code>str1</code><em> and </em><code>str2</code><em> as <strong>subsequences</strong></em>. If there are multiple valid strings, return <strong>any</strong> of them.</p>\n\n<p>A string <code>s</code> is a <strong>subsequence</strong> of string <code>t</code> if deleting some number of characters from <code>t</code> (possibly <code>0</code>) results in the string <code>s</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> str1 = &quot;abac&quot;, str2 = &quot;cab&quot;\n<strong>Output:</strong> &quot;cabac&quot;\n<strong>Explanation:</strong> \nstr1 = &quot;abac&quot; is a subsequence of &quot;cabac&quot; because we can delete the first &quot;c&quot;.\nstr2 = &quot;cab&quot; is a subsequence of &quot;cabac&quot; because we can delete the last &quot;ac&quot;.\nThe answer provided is the shortest such string that satisfies these properties.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> str1 = &quot;aaaaaaaa&quot;, str2 = &quot;aaaaaaaa&quot;\n<strong>Output:</strong> &quot;aaaaaaaa&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= str1.length, str2.length &lt;= 1000</code></li>\n\t<li><code>str1</code> and <code>str2</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abac\"\n\"cab\"",
+        "ExampleTestcases": "\"abac\"\n\"cab\"\n\"aaaaaaaa\"\n\"aaaaaaaa\"",
+        "Difficulty": "Hard",
+        "Title": "Shortest Common Supersequence ",
+        "TitleSlug": "shortest-common-supersequence",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"287K\", \"totalSubmission\": \"465.8K\", \"totalAcceptedRaw\": 286999, \"totalSubmissionRaw\": 465772, \"acRate\": \"61.6%\"}",
+        "Likes": 5802,
+        "Dislikes": 101,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string shortestCommonSupersequence(string str1, string str2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String shortestCommonSupersequence(String str1, String str2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def shortestCommonSupersequence(self, str1: str, str2: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def shortestCommonSupersequence(self, str1, str2):\n        \"\"\"\n        :type str1: str\n        :type str2: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} str1\n * @param {string} str2\n * @return {string}\n */\nvar shortestCommonSupersequence = function(str1, str2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function shortestCommonSupersequence(str1: string, str2: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string ShortestCommonSupersequence(string str1, string str2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* shortestCommonSupersequence(char* str1, char* str2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func shortestCommonSupersequence(str1 string, str2 string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun shortestCommonSupersequence(str1: String, str2: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func shortestCommonSupersequence(_ str1: String, _ str2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn shortest_common_supersequence(str1: String, str2: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} str1\n# @param {String} str2\n# @return {String}\ndef shortest_common_supersequence(str1, str2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $str1\n     * @param String $str2\n     * @return String\n     */\n    function shortestCommonSupersequence($str1, $str2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String shortestCommonSupersequence(String str1, String str2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def shortestCommonSupersequence(str1: String, str2: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec shortest_common_supersequence(str1 :: String.t, str2 :: String.t) :: String.t\n  def shortest_common_supersequence(str1, str2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec shortest_common_supersequence(Str1 :: unicode:unicode_binary(), Str2 :: unicode:unicode_binary()) -> unicode:unicode_binary().\nshortest_common_supersequence(Str1, Str2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (shortest-common-supersequence str1 str2)\n  (-> string? string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:40:51.005103+01:00",
+    "AcRate": "61.6",
+    "TotalSubmissions": 465772,
+    "TotalAccepted": 286999,
+    "AcceptanceRate": 0.6161791606193588,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/shortest-common-supersequence/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given two strings str1 and str2, return the shortest string that has both str1 and str2 as subsequences. If there are multiple valid strings, return any of them.\nA string s is a subsequence of string t if deleting some number of characters from t (possibly 0) results in the string s.\n\u00a0\nExample 1:\nInput: str1 = \"abac\", str2 = \"cab\"\nOutput: \"cabac\"\nExplanation: \nstr1 = \"abac\" is a subsequence of \"cabac\" because we can delete the first \"c\".\nstr2 = \"cab\" is a subsequence of \"cabac\" because we can delete the last \"ac\".\nThe answer provided is the shortest such string that satisfies these properties.\nExample 2:\nInput: str1 = \"aaaaaaaa\", str2 = \"aaaaaaaa\"\nOutput: \"aaaaaaaa\"\n\u00a0\nConstraints:\n\t1 <= str1.length, str2.length <= 1000\n\tstr1 and str2 consist of lowercase English letters.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def shortestCommonSupersequence(self, str1: str, str2: str) -> str:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def shortestCommonSupersequence(self, str1: str, str2: str) -> str:\n        m, n = len(str1), len(str2)\n\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if str1[i - 1] == str2[j - 1]:\n                    dp[i][j] = 1 + dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n\n        res = []\n        i, j = m, n\n        while i > 0 and j > 0:\n            if str1[i - 1] == str2[j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n                j -= 1\n            elif dp[i - 1][j] > dp[i][j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n            else:\n                res.append(str2[j - 1])\n                j -= 1\n        \n        while i > 0:\n            res.append(str1[i - 1])\n            i -= 1\n        while j > 0:\n            res.append(str2[j - 1])\n            j -= 1\n            \n        return \"\".join(reversed(res))\n```",
+      "TypedCode": "\nclass Solution:\n    def shortestCommonSupersequence(self, str1: str, str2: str) -> str:\n        m, n = len(str1), len(str2)\n\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if str1[i - 1] == str2[j - 1]:\n                    dp[i][j] = 1 + dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n\n        res = []\n        i, j = m, n\n        while i > 0 and j > 0:\n            if str1[i - 1] == str2[j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n                j -= 1\n            elif dp[i - 1][j] > dp[i][j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n            else:\n                res.append(str2[j - 1])\n                j -= 1\n        \n        while i > 0:\n            res.append(str1[i - 1])\n            i -= 1\n        while j > 0:\n            res.append(str2[j - 1])\n            j -= 1\n            \n        return \"\".join(reversed(res))\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 102595301625,
+      "SolvedAt": "2025-11-20T18:44:31.704976+01:00",
+      "PromptTokens": 450,
+      "OutputTokens": 13454
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1170",
+        "typed_code": "\nclass Solution:\n    def shortestCommonSupersequence(self, str1: str, str2: str) -> str:\n        m, n = len(str1), len(str2)\n\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if str1[i - 1] == str2[j - 1]:\n                    dp[i][j] = 1 + dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n\n        res = []\n        i, j = m, n\n        while i > 0 and j > 0:\n            if str1[i - 1] == str2[j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n                j -= 1\n            elif dp[i - 1][j] > dp[i][j - 1]:\n                res.append(str1[i - 1])\n                i -= 1\n            else:\n                res.append(str2[j - 1])\n                j -= 1\n        \n        while i > 0:\n            res.append(str1[i - 1])\n            i -= 1\n        while j > 0:\n            res.append(str2[j - 1])\n            j -= 1\n            \n        return \"\".join(reversed(res))\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:36:14+01:00"
+    }
+  }
+}

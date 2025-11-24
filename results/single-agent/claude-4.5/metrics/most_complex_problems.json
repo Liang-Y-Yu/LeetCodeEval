@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 22,
+    "lines_of_code": 48,
+    "status": "Wrong Answer"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 16,
+    "lines_of_code": 66,
+    "status": "Accepted"
+  },
+  {
+    "title": "24 Game",
+    "problem_id": "679",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 36,
+    "status": "Accepted"
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "problem_id": "352",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 52,
+    "status": "Accepted"
+  },
+  {
+    "title": "Integer to English Words",
+    "problem_id": "273",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 43,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 43,
+    "status": "Accepted"
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "problem_id": "1220",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 36,
+    "status": "Wrong Answer"
+  },
+  {
+    "title": "Basic Calculator II",
+    "problem_id": "227",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 30,
+    "status": "Accepted"
+  },
+  {
+    "title": "Regular Expression Matching",
+    "problem_id": "10",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 23,
+    "status": "Accepted"
+  },
+  {
+    "title": "Construct Target Array With Multiple Sums",
+    "problem_id": "1479",
+    "cyclomatic_complexity": 8,
+    "lines_of_code": 37,
+    "status": "Accepted"
+  }
+]

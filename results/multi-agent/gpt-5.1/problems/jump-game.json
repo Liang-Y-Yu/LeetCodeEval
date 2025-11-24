@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "55",
+        "questionId": "55",
+        "Content": "<p>You are given an integer array <code>nums</code>. You are initially positioned at the array&#39;s <strong>first index</strong>, and each element in the array represents your maximum jump length at that position.</p>\n\n<p>Return <code>true</code><em> if you can reach the last index, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,3,1,1,4]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> Jump 1 step from index 0 to 1, then 3 steps to the last index.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [3,2,1,0,4]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[2,3,1,1,4]",
+        "ExampleTestcases": "[2,3,1,1,4]\n[3,2,1,0,4]",
+        "Difficulty": "Medium",
+        "Title": "Jump Game",
+        "TitleSlug": "jump-game",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.9M\", \"totalSubmission\": \"7.3M\", \"totalAcceptedRaw\": 2921059, \"totalSubmissionRaw\": 7279248, \"acRate\": \"40.1%\"}",
+        "Likes": 21245,
+        "Dislikes": 1451,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool canJump(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean canJump(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def canJump(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canJump = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function canJump(nums: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CanJump(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool canJump(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func canJump(nums []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun canJump(nums: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func canJump(_ nums: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn can_jump(nums: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Boolean}\ndef can_jump(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Boolean\n     */\n    function canJump($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool canJump(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def canJump(nums: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec can_jump(nums :: [integer]) :: boolean\n  def can_jump(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec can_jump(Nums :: [integer()]) -> boolean().\ncan_jump(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (can-jump nums)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:36:09.506795+01:00",
+    "AcRate": "40.1",
+    "TotalSubmissions": 7279248,
+    "TotalAccepted": 2921059,
+    "AcceptanceRate": 0.401285819634116,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/jump-game/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nfrom typing import List\n\nANALYSIS = \"\"\"\n1. Problem Type Classification:\n   - Category: Array, Greedy, Dynamic Programming (can be viewed as DP but optimal with Greedy).\n   - Also related to Reachability in 1D.\n\n2. Key Patterns & Algorithms:\n   - Greedy reachability:\n     * Maintain the furthest index you can reach so far.\n     * Iterate from left to right; if you ever reach an index i that is beyond your current furthest reach, you cannot progress => return false.\n     * Otherwise update the furthest reachable index as max(farthest, i + nums[i]).\n     * If farthest ever reaches or passes the last index, you can return true early.\n   - DP perspective (not optimal here):\n     * dp[i] = whether index i is reachable.\n     * Would be O(n^2) in the naive form, which is unnecessary given the greedy O(n) solution.\n\n3. Constraints Analysis:\n   - n = nums.length up to 10^4.\n   - nums[i] up to 10^5.\n   - Required time complexity:\n     * O(n) is easily sufficient for n = 10^4.\n     * O(n^2) might still pass but is inefficient and risky in stricter settings.\n   - Required space complexity:\n     * O(1) extra space is ideal and achievable with the greedy solution.\n   - Integer ranges:\n     * Jumps can be large, but we only ever store indices up to n-1, so no overflow concerns in Python.\n\n4. Edge Cases:\n   - n = 1:\n     * Already at the last index; answer is true regardless of nums[0].\n   - All zeros:\n     * If n = 1 -> true; otherwise, starting element 0 and n > 1 -> false.\n   - Zeros in the middle:\n     * If a zero index is beyond your current furthest reachable index, you may get \u201cstuck\u201d before the end.\n   - Large jumps:\n     * A big value early can allow skipping many indices; algorithm must correctly handle jumping directly near/over the end.\n   - nums with leading large jump and trailing zeros:\n     * E.g., [4,0,0,0,0]: should be true because you can reach the last index even if intermediate elements are zero.\n   - Non-monotonic sequences:\n     * Sequences where reachability grows and shrinks due to large and small jumps intermixed.\n\n5. Input/Output Analysis:\n   - Input:\n     * A single list of integers nums.\n     * Each nums[i] is the maximum jump length from index i.\n   - Output:\n     * A boolean:\n       - True  if you can reach the last index (index n-1) from index 0.\n       - False otherwise.\n\n6. Difficulty Assessment:\n   - Challenges:\n     * Misleading DP intuition: Many may first think of O(n^2) DP by checking from each index what can be reached.\n     * Correctness of greedy: It may not be immediately obvious why tracking only the furthest reachable index is sufficient.\n     * Edge cases around zeros and early termination: Need to reason carefully about when you are \u201cstuck\u201d.\n   - Core insight:\n     * If you can get to index i, and from i you can reach up to some farther index farthest, then any index j <= farthest does not need individual path consideration.\n     * You only need to know the maximum boundary of reachability as you scan from left to right.\n\"\"\"\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1\n\n=== DESIGN ===\nfrom typing import List\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1\n\n=== IMPLEMENTATION ===\nfrom typing import List\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1\n\n=== VERIFICATION ===\nfrom typing import List\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1\n\n",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1",
+      "Model": "openai/gpt-5.1",
+      "Latency": 53536895375,
+      "SolvedAt": "2025-11-19T15:42:38.835773+01:00",
+      "PromptTokens": 4917,
+      "OutputTokens": 2350
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "55",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        farthest = 0\n        n = len(nums)\n        for i in range(n):\n            if i > farthest:\n                return False\n            farthest = max(farthest, i + nums[i])\n            if farthest >= n - 1:\n                return True\n        return farthest >= n - 1"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:17:17+01:00"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1358",
+        "questionId": "1460",
+        "Content": "<p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>Return the number of substrings containing <b>at least</b>&nbsp;one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabc&quot;\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>and<em> &quot;</em>abc<em>&quot; </em>(<strong>again</strong>)<em>. </em>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aaacb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>and<em> &quot;</em>acb<em>&quot;.</em><em> </em>\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abc&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= s.length &lt;= 5 x 10^4</code></li>\n\t<li><code>s</code>&nbsp;only consists of&nbsp;<em>a</em>, <em>b</em> or <em>c&nbsp;</em>characters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abcabc\"",
+        "ExampleTestcases": "\"abcabc\"\n\"aaacb\"\n\"abc\"",
+        "Difficulty": "Medium",
+        "Title": "Number of Substrings Containing All Three Characters",
+        "TitleSlug": "number-of-substrings-containing-all-three-characters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"398.7K\", \"totalSubmission\": \"543.6K\", \"totalAcceptedRaw\": 398744, \"totalSubmissionRaw\": 543555, \"acRate\": \"73.4%\"}",
+        "Likes": 4289,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numberOfSubstrings(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numberOfSubstrings(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberOfSubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar numberOfSubstrings = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberOfSubstrings(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumberOfSubstrings(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numberOfSubstrings(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberOfSubstrings(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberOfSubstrings(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberOfSubstrings(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_of_substrings(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef number_of_substrings(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function numberOfSubstrings($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numberOfSubstrings(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberOfSubstrings(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_of_substrings(s :: String.t) :: integer\n  def number_of_substrings(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_of_substrings(S :: unicode:unicode_binary()) -> integer().\nnumber_of_substrings(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-of-substrings s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:55.23111+01:00",
+    "AcRate": "73.4",
+    "TotalSubmissions": 543555,
+    "TotalAccepted": 398744,
+    "AcceptanceRate": 0.7335853777446625,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Analysis:\n\nThis problem requires counting the number of substrings that contain at least one occurrence of each of the characters 'a', 'b', and 'c'. Given the constraints (string length up to 50,000), a brute-force approach is infeasible. Instead, we can use a sliding window technique to efficiently traverse the string and count valid substrings.\n\n**Key Insight:**\nFor each starting index `i`, we can find the smallest index `j` (where `j >= i`) such that the substring `s[i:j+1]` contains all three characters. Then, every substring starting at `i` and ending at any index from `j` to `n-1` will also contain all three characters. So, for each `i`, we can count `n - j` such substrings.\n\nWe can maintain a sliding window [left, right] and use a frequency dictionary to track counts of 'a', 'b', and 'c'. As we move the right pointer, we expand the window until it contains all three. Then, for the current left, all substrings starting at left and ending at right or beyond are valid. We then increment left to shrink the window and continue.\n\n**Algorithm:**\n1. Initialize `left = 0`, `count = 0`, and a frequency dictionary `freq = {'a':0, 'b':0, 'c':0}`.\n2. Iterate `right` from 0 to n-1:\n   - Increment `freq[s[right]]`.\n   - While the current window [left, right] contains all three characters (i.e., all frequencies >= 1):\n        * Add `n - right` to `count` (because all substrings starting at `left` and ending at `right` to `n-1` are valid).\n        * Decrement `freq[s[left]]` and move `left` forward.\n3. Return `count`.\n\nThis approach ensures each substring is counted exactly once. The time complexity is O(n) since each character is processed at most twice (by right and left pointers). Space complexity is O(1) as we use a fixed-size dictionary.\n\n**Edge Cases:**\n- Very short strings (e.g., \"abc\").\n- Strings with many repetitions of one character (e.g., \"aaacb\").\n- Strings that don't have all three characters initially.\n\n**Solution Code:**\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Sliding Window Technique  \n**Step-by-Step Approach**:\n1. Initialize a frequency dictionary to count occurrences of 'a', 'b', and 'c'.\n2. Use two pointers (left and right) to represent the current window.\n3. Expand the right pointer to include new characters until the window has all three.\n4. Once the window has all three, every substring starting at the left pointer and ending at any index from right to the end is valid. Add these to the count.\n5. Shrink the window from the left until it no longer contains all three, updating the frequency dictionary.\n6. Repeat until the right pointer traverses the entire string.\n\n**Data Structures**: A dictionary (or list) to store frequencies of 'a', 'b', and 'c'.\n\n**Time Complexity**: O(n) - Each character is processed at most twice (by both pointers).\n\n**Space Complexity**: O(1) - Fixed-size dictionary for three characters.\n\n**Pseudocode**:\n```\nn = length of s\nfreq = {'a':0, 'b':0, 'c':0}\nleft = 0\ncount = 0\nfor right from 0 to n-1:\n    increment freq[s[right]]\n    while all frequencies are at least 1:\n        count += (n - right)\n        decrement freq[s[left]]\n        left += 1\nreturn count\n```\n\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n```\n\n=== VERIFICATION ===\nI'll verify the provided solution step by step.\n\n**1. Correctness:**\nThe code implements the sliding window algorithm correctly. It uses a frequency dictionary to track counts of 'a', 'b', and 'c'. For each right pointer, it expands the window and checks if all three characters are present. When they are, it counts all substrings starting from the current left pointer that end at right or beyond (which are valid) and then shrinks the window from the left.\n\n**2. Edge Cases:**\n- Example 1: \"abcabc\" -> Expected 10. The code will count correctly.\n- Example 2: \"aaacb\" -> Expected 3. The code will handle repeated 'a's properly.\n- Example 3: \"abc\" -> Expected 1. The code will work for the minimal case.\n- Also, if the string doesn't have all three characters at all (though constraints say it consists of a,b,c, but it might not have all), the while loop won't execute and return 0, which is correct.\n\n**3. Complexity:**\n- Time Complexity: O(n) - Each character is processed at most twice (once by right pointer and once by left pointer).\n- Space Complexity: O(1) - The dictionary has fixed size (3 entries).\n\n**4. Code Quality:**\n- The code is clean, readable, and uses appropriate variable names.\n- It follows Python best practices (like using a dictionary for frequencies).\n- No unnecessary operations.\n\n**5. Test Cases Walkthrough:**\n- Example 1: s = \"abcabc\"\n  - When right=2: window \"abc\" -> valid. Count += (6-2)=4 (substrings: \"abc\", \"abca\", \"abcab\", \"abcabc\").\n  - Then shrink: left becomes 1, window \"bca\" -> valid. Count += (6-2)=4? Actually, after shrinking, we continue.\n  - Actually, the algorithm will count all valid windows correctly. Detailed tracing might be lengthy, but the total is 10.\n- Example 2: s = \"aaacb\"\n  - The valid substrings are \"aaacb\", \"aacb\", \"acb\". The code will count them correctly.\n- Example 3: s = \"abc\"\n  - Right=2: window \"abc\" -> valid. Count += (3-2)=1. Then shrink to \"bc\" which is invalid. So returns 1.\n\n**6. Potential Issues:**\n- There is a subtle point: when the window becomes valid, we count n - right substrings. This is correct because for a fixed left, the first valid ending is at right, so all endings from right to n-1 are valid.\n- The while loop condition checks all frequencies > 0. This is correct.\n- The code might not count overlapping windows? Actually, it does because for each left, it finds the minimal right that makes the window valid, and then counts all longer substrings.\n\n**Conclusion:**\nThe solution is correct, efficient, and handles all edge cases. It meets the problem requirements and constraints.\n\nTherefore, the code is valid and does not require any changes.\n\nFinal code:\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 46380153168,
+      "SolvedAt": "2025-11-21T00:20:40.024197+01:00",
+      "PromptTokens": 5213,
+      "OutputTokens": 1970
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1460",
+        "typed_code": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        freq = {'a':0, 'b':0, 'c':0}\n        left = 0\n        count = 0\n        for right in range(n):\n            freq[s[right]] += 1\n            while freq['a'] > 0 and freq['b'] > 0 and freq['c'] > 0:\n                count += n - right\n                freq[s[left]] -= 1\n                left += 1\n        return count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:45:32+01:00"
+    }
+  }
+}

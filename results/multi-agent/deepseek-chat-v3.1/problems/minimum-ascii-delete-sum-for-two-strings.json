@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "712",
+        "questionId": "712",
+        "Content": "<p>Given two strings <code>s1</code> and&nbsp;<code>s2</code>, return <em>the lowest <strong>ASCII</strong> sum of deleted characters to make two strings equal</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;sea&quot;, s2 = &quot;eat&quot;\n<strong>Output:</strong> 231\n<strong>Explanation:</strong> Deleting &quot;s&quot; from &quot;sea&quot; adds the ASCII value of &quot;s&quot; (115) to the sum.\nDeleting &quot;t&quot; from &quot;eat&quot; adds 116 to the sum.\nAt the end, both strings are equal, and 115 + 116 = 231 is the minimum sum possible to achieve this.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;delete&quot;, s2 = &quot;leet&quot;\n<strong>Output:</strong> 403\n<strong>Explanation:</strong> Deleting &quot;dee&quot; from &quot;delete&quot; to turn the string into &quot;let&quot;,\nadds 100[d] + 101[e] + 101[e] to the sum.\nDeleting &quot;e&quot; from &quot;leet&quot; adds 101[e] to the sum.\nAt the end, both strings are equal to &quot;let&quot;, and the answer is 100+101+101+101 = 403.\nIf instead we turned both strings into &quot;lee&quot; or &quot;eet&quot;, we would get answers of 433 or 417, which are higher.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s1.length, s2.length &lt;= 1000</code></li>\n\t<li><code>s1</code> and <code>s2</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"sea\"\n\"eat\"",
+        "ExampleTestcases": "\"sea\"\n\"eat\"\n\"delete\"\n\"leet\"",
+        "Difficulty": "Medium",
+        "Title": "Minimum ASCII Delete Sum for Two Strings",
+        "TitleSlug": "minimum-ascii-delete-sum-for-two-strings",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"173.1K\", \"totalSubmission\": \"261.8K\", \"totalAcceptedRaw\": 173102, \"totalSubmissionRaw\": 261829, \"acRate\": \"66.1%\"}",
+        "Likes": 4118,
+        "Dislikes": 110,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minimumDeleteSum(string s1, string s2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minimumDeleteSum(String s1, String s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minimumDeleteSum(self, s1, s2):\n        \"\"\"\n        :type s1: str\n        :type s2: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {number}\n */\nvar minimumDeleteSum = function(s1, s2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minimumDeleteSum(s1: string, s2: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinimumDeleteSum(string s1, string s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minimumDeleteSum(char* s1, char* s2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minimumDeleteSum(s1 string, s2 string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minimumDeleteSum(s1: String, s2: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minimumDeleteSum(_ s1: String, _ s2: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn minimum_delete_sum(s1: String, s2: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s1\n# @param {String} s2\n# @return {Integer}\ndef minimum_delete_sum(s1, s2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @return Integer\n     */\n    function minimumDeleteSum($s1, $s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minimumDeleteSum(String s1, String s2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minimumDeleteSum(s1: String, s2: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec minimum_delete_sum(s1 :: String.t, s2 :: String.t) :: integer\n  def minimum_delete_sum(s1, s2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec minimum_delete_sum(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> integer().\nminimum_delete_sum(S1, S2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (minimum-delete-sum s1 s2)\n  (-> string? string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:31.160425+01:00",
+    "AcRate": "66.1",
+    "TotalSubmissions": 261829,
+    "TotalAccepted": 173102,
+    "AcceptanceRate": 0.6611261548567958,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nThis problem is a classic dynamic programming problem similar to the \"Longest Common Subsequence\" (LCS) but with a twist of minimizing the ASCII sum of deleted characters.\n\n**Analysis:**\n1. **Problem Type Classification**: Dynamic Programming (String Alignment/Edit Distance variant).\n2. **Key Patterns & Algorithms**: We need to find the longest common subsequence (LCS) with the maximum ASCII sum (so that the sum of deleted characters is minimized). Alternatively, we can use a DP table where `dp[i][j]` represents the minimum ASCII sum of deleted characters to make `s1[:i]` and `s2[:j]` equal.\n3. **Constraints Analysis**: The string lengths are up to 1000. A 2D DP solution with O(n*m) time and space is acceptable (1000*1000 = 1e6).\n4. **Edge Cases**: One string is empty, both strings are empty, strings are identical, strings have no common characters.\n5. **Input/Output Analysis**: Two strings as input, integer output.\n6. **Difficulty Assessment**: The challenge is recognizing the similarity to LCS and adapting it to minimize the deletion cost.\n\n**Solution Design:**\nLet `dp[i][j]` be the minimum deletion cost to make `s1[0:i]` and `s2[0:j]` equal. We can compute:\n- If `s1[i-1] == s2[j-1]`, then `dp[i][j] = dp[i-1][j-1]` (no deletion cost for matching characters).\n- Otherwise, we have two choices: delete `s1[i-1]` (cost + ord(s1[i-1])) or delete `s2[j-1]` (cost + ord(s2[j-1])). So `dp[i][j] = min(dp[i-1][j] + ord(s1[i-1]), dp[i][j-1] + ord(s2[j-1]))`.\n\nBase cases:\n- `dp[0][j]`: cost to make s1 (empty) and s2[0:j] equal -> we need to delete all characters in s2[0:j], so cumulative ASCII sum of s2[0:j].\n- Similarly, `dp[i][0]`: cumulative ASCII sum of s1[0:i].\n\nWe'll build a 2D DP table of size (len(s1)+1) x (len(s2)+1).\n\n```python\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n+1) for _ in range(m+1)]\n        \n        for i in range(1, m+1):\n            dp[i][0] = dp[i-1][0] + ord(s1[i-1])\n        for j in range(1, n+1):\n            dp[0][j] = dp[0][j-1] + ord(s2[j-1])\n            \n        for i in range(1, m+1):\n            for j in range(1, n+1):\n                if s1[i-1] == s2[j-1]:\n                    dp[i][j] = dp[i-1][j-1]\n                else:\n                    dp[i][j] = min(dp[i-1][j] + ord(s1[i-1]), dp[i][j-1] + ord(s2[j-1]))\n        \n        return dp[m][n]\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for i in range(1, m + 1):\n            dp[i][0] = dp[i - 1][0] + ord(s1[i - 1])\n        for j in range(1, n + 1):\n            dp[0][j] = dp[0][j - 1] + ord(s2[j - 1])\n            \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if s1[i - 1] == s2[j - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = min(dp[i - 1][j] + ord(s1[i - 1]), dp[i][j - 1] + ord(s2[j - 1]))\n        \n        return dp[m][n]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for i in range(1, m + 1):\n            dp[i][0] = dp[i - 1][0] + ord(s1[i - 1])\n        for j in range(1, n + 1):\n            dp[0][j] = dp[0][j - 1] + ord(s2[j - 1])\n            \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if s1[i - 1] == s2[j - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = min(dp[i - 1][j] + ord(s1[i - 1]), dp[i][j - 1] + ord(s2[j - 1]))\n        \n        return dp[m][n]\n```\n\n=== VERIFICATION ===\n**Verification Report:**\n\nThe provided solution has been thoroughly reviewed for correctness, edge cases, complexity, code quality, and potential issues. Here are the findings:\n\n1. **Correctness**: The code correctly implements the dynamic programming algorithm as designed. It initializes the DP table with base cases (deleting all characters from one string to match an empty string) and then fills the table by comparing characters from both strings. When characters match, it carries over the previous cost without additional deletion; otherwise, it chooses the minimum cost between deleting from `s1` or `s2`.\n\n2. **Edge Cases**: The solution handles all edge cases:\n   - Both strings empty: returns 0 (correctly handled by base cases).\n   - One string empty: returns the sum of ASCII values of all characters in the other string (base cases).\n   - Identical strings: returns 0 (since no deletions are needed).\n   - No common characters: deletes all characters from both strings (sum of all ASCII values).\n\n3. **Complexity**: The solution uses a 2D DP table of size (m+1) x (n+1). The time complexity is O(m*n), which is acceptable for the constraints (m, n <= 1000). The space complexity is O(m*n), which is also acceptable (1e6 elements).\n\n4. **Code Quality**: The code is clean, readable, and follows best practices:\n   - Variable names are clear (`m`, `n`, `dp`).\n   - The logic is straightforward and well-structured.\n   - Proper indexing (0-indexed strings with 1-indexed DP table) is used.\n\n5. **Test Cases**:\n   - Example 1: s1 = \"sea\", s2 = \"eat\"\n        dp[3][3] = 231 (correct).\n   - Example 2: s1 = \"delete\", s2 = \"leet\"\n        dp[6][4] = 403 (correct).\n\n6. **Potential Issues**: None identified. The solution is optimal and correct.\n\n**Conclusion**: The solution is valid and ready for use. No changes are required.\n\nFinal code:\n```python\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for i in range(1, m + 1):\n            dp[i][0] = dp[i - 1][0] + ord(s1[i - 1])\n        for j in range(1, n + 1):\n            dp[0][j] = dp[0][j - 1] + ord(s2[j - 1])\n            \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if s1[i - 1] == s2[j - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = min(dp[i - 1][j] + ord(s1[i - 1]), dp[i][j - 1] + ord(s2[j - 1]))\n        \n        return dp[m][n]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for i in range(1, m + 1):\n            dp[i][0] = dp[i - 1][0] + ord(s1[i - 1])\n        for j in range(1, n + 1):\n            dp[0][j] = dp[0][j - 1] + ord(s2[j - 1])\n            \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if s1[i - 1] == s2[j - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = min(dp[i - 1][j] + ord(s1[i - 1]), dp[i][j - 1] + ord(s2[j - 1]))\n        \n        return dp[m][n]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 41899940750,
+      "SolvedAt": "2025-11-21T00:11:06.850519+01:00",
+      "PromptTokens": 5672,
+      "OutputTokens": 1972
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "712",
+        "typed_code": "\nclass Solution:\n    def minimumDeleteSum(self, s1: str, s2: str) -> int:\n        m, n = len(s1), len(s2)\n        dp = [[0] * (n + 1) for _ in range(m + 1)]\n        \n        for i in range(1, m + 1):\n            dp[i][0] = dp[i - 1][0] + ord(s1[i - 1])\n        for j in range(1, n + 1):\n            dp[0][j] = dp[0][j - 1] + ord(s2[j - 1])\n            \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if s1[i - 1] == s2[j - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                else:\n                    dp[i][j] = min(dp[i - 1][j] + ord(s1[i - 1]), dp[i][j - 1] + ord(s2[j - 1]))\n        \n        return dp[m][n]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:43:44+01:00"
+    }
+  }
+}

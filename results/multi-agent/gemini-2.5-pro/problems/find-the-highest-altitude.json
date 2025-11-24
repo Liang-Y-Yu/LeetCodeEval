@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1732",
+        "questionId": "1833",
+        "Content": "<p>There is a biker going on a road trip. The road trip consists of <code>n + 1</code> points at different altitudes. The biker starts his trip on point <code>0</code> with altitude equal <code>0</code>.</p>\n\n<p>You are given an integer array <code>gain</code> of length <code>n</code> where <code>gain[i]</code> is the <strong>net gain in altitude</strong> between points <code>i</code>\u200b\u200b\u200b\u200b\u200b\u200b and <code>i + 1</code> for all (<code>0 &lt;= i &lt; n)</code>. Return <em>the <strong>highest altitude</strong> of a point.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> gain = [-5,1,5,0,-7]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> gain = [-4,-3,-2,-1,4,3,2]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == gain.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 100</code></li>\n\t<li><code>-100 &lt;= gain[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[-5,1,5,0,-7]",
+        "ExampleTestcases": "[-5,1,5,0,-7]\n[-4,-3,-2,-1,4,3,2]",
+        "Difficulty": "Easy",
+        "Title": "Find the Highest Altitude",
+        "TitleSlug": "find-the-highest-altitude",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"657K\", \"totalSubmission\": \"783.7K\", \"totalAcceptedRaw\": 656956, \"totalSubmissionRaw\": 783685, \"acRate\": \"83.8%\"}",
+        "Likes": 3171,
+        "Dislikes": 414,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int largestAltitude(vector<int>& gain) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int largestAltitude(int[] gain) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def largestAltitude(self, gain):\n        \"\"\"\n        :type gain: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} gain\n * @return {number}\n */\nvar largestAltitude = function(gain) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function largestAltitude(gain: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LargestAltitude(int[] gain) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int largestAltitude(int* gain, int gainSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func largestAltitude(gain []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun largestAltitude(gain: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func largestAltitude(_ gain: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn largest_altitude(gain: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} gain\n# @return {Integer}\ndef largest_altitude(gain)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $gain\n     * @return Integer\n     */\n    function largestAltitude($gain) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int largestAltitude(List<int> gain) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def largestAltitude(gain: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec largest_altitude(gain :: [integer]) :: integer\n  def largest_altitude(gain) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec largest_altitude(Gain :: [integer()]) -> integer().\nlargest_altitude(Gain) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (largest-altitude gain)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:07:35.075537+01:00",
+    "AcRate": "83.8",
+    "TotalSubmissions": 783685,
+    "TotalAccepted": 656956,
+    "AcceptanceRate": 0.8382908949386552,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-the-highest-altitude/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def largestAltitude(self, gain: list[int]) -> int:\n        max_altitude = 0\n        current_altitude = 0\n        \n        for altitude_gain in gain:\n            current_altitude += altitude_gain\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n```\n\n=== DESIGN ===\nAn elegant and efficient approach to this problem is to simulate the biker's journey step by step. We can track the current altitude as we traverse the `gain` array and simultaneously keep a record of the highest altitude encountered so far. This method avoids the need to store all the intermediate altitudes, making it highly memory-efficient.\n\n### 1. Algorithm Choice\nThe chosen algorithm is a **single-pass iterative approach**. This is essentially a form of calculating a running prefix sum, where at each step, we also check if the new sum (current altitude) is the maximum seen yet.\n\n### 2. Step-by-Step Approach\n1.  Initialize a variable `current_altitude` to `0`. This represents the altitude at the starting point (point 0).\n2.  Initialize another variable `max_altitude` to `0`. Since the trip starts at an altitude of 0, this is our initial highest point.\n3.  Iterate through each `altitude_gain` value in the input `gain` list.\n4.  For each `altitude_gain`, add it to `current_altitude` to compute the altitude of the next point.\n5.  After updating `current_altitude`, compare it with `max_altitude`. If `current_altitude` is greater, update `max_altitude` with the new higher value.\n6.  After the loop has processed all the gains, the `max_altitude` variable will hold the highest altitude reached during the entire trip.\n7.  Return the final `max_altitude`.\n\n### 3. Data Structures\n*   **Integer variables**: Two integer variables are sufficient: `current_altitude` to track the altitude at the current point, and `max_altitude` to store the maximum altitude found so far. No other complex data structures are required.\n\n### 4. Time Complexity\n*   The solution involves a single loop that iterates through the `gain` array of length `n` exactly once. The operations inside the loop (addition and comparison) are constant time operations, O(1).\n*   Therefore, the overall time complexity is **O(n)**, where `n` is the length of the `gain` array.\n\n### 5. Space Complexity\n*   The solution uses a fixed number of variables to store the current and maximum altitudes, regardless of the input size. It does not create any data structures that scale with the input.\n*   Therefore, the space complexity is **O(1)** (constant space).\n\n### 6. Pseudocode\n```pseudocode\nFUNCTION largestAltitude(gain):\n  // The biker starts at point 0 with altitude 0.\n  current_altitude = 0\n  max_altitude = 0\n  \n  // Iterate through the net gains between points.\n  FOR EACH g IN gain:\n    // Update the current altitude with the gain.\n    current_altitude = current_altitude + g\n    \n    // Check if the new altitude is the highest one seen so far.\n    IF current_altitude > max_altitude THEN\n      max_altitude = current_altitude\n    END IF\n  END FOR\n  \n  // Return the highest altitude reached.\n  RETURN max_altitude\nEND FUNCTION\n```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        \"\"\"\n        Calculates the highest altitude reached during a road trip.\n\n        The biker starts at altitude 0. The `gain` array contains the net\n        change in altitude between consecutive points. This function iterates\n        through the gains, calculating the altitude at each point and keeping\n        track of the maximum altitude encountered.\n\n        Args:\n            gain: A list of integers representing the net altitude gain\n                  between points.\n\n        Returns:\n            The highest altitude reached during the trip.\n        \"\"\"\n        # The trip starts at altitude 0, so this is our initial maximum.\n        max_altitude = 0\n        # This variable will track the altitude as we move from point to point.\n        current_altitude = 0\n        \n        # Iterate through each altitude gain to simulate the trip.\n        for altitude_gain in gain:\n            # Calculate the altitude of the next point.\n            current_altitude += altitude_gain\n            \n            # If the new altitude is higher than any seen before, update the max.\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        max_altitude = 0\n        current_altitude = 0\n        \n        for altitude_gain in gain:\n            current_altitude += altitude_gain\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n```\n\n=== VERIFICATION ===\nAn elegant and efficient approach to this problem is to simulate the biker's journey step by step. We can track the current altitude as we traverse the `gain` array and simultaneously keep a record of the highest altitude encountered so far. This method avoids the need to store all the intermediate altitudes, making it highly memory-efficient.\n\n### 1. Algorithm Choice\nThe chosen algorithm is a **single-pass iterative approach**. This is essentially a form of calculating a running prefix sum, where at each step, we also check if the new sum (current altitude) is the maximum seen yet.\n\n### 2. Step-by-Step Approach\n1. Initialize a variable `current_altitude` to `0`. This represents the altitude at the starting point (point 0).\n2. Initialize another variable `max_altitude` to `0`. Since the trip starts at an altitude of 0, this is our initial highest point.\n3. Iterate through each `altitude_gain` value in the input `gain` list.\n4. For each `altitude_gain`, add it to `current_altitude` to compute the altitude of the next point.\n5. After updating `current_altitude`, compare it with `max_altitude`. If `current_altitude` is greater, update `max_altitude` with the new higher value. A more concise way to do this is `max_altitude = max(max_altitude, current_altitude)`.\n6. After the loop has processed all the gains, the `max_altitude` variable will hold the highest altitude reached during the entire trip.\n7. Return the final `max_altitude`.\n\n### 3. Data Structures\n- **Integer variables**: Two integer variables are sufficient: `current_altitude` to track the altitude at the current point, and `max_altitude` to store the maximum altitude found so far. No other complex data structures are required.\n\n### 4. Time Complexity\n- The solution involves a single loop that iterates through the `gain` array of length `n` exactly once. The operations inside the loop (addition and comparison) are constant time operations, O(1).\n- Therefore, the overall time complexity is **O(n)**, where `n` is the length of the `gain` array.\n\n### 5. Space Complexity\n- The solution uses a fixed number of variables to store the current and maximum altitudes, regardless of the input size. It does not create any data structures that scale with the input.\n- Therefore, the space complexity is **O(1)** (constant space).\n\n### 6. Verification Report\n- **1. Correctness:** The provided solution is correct. It correctly initializes `max_altitude` to 0 (the starting altitude) and then iteratively computes each subsequent altitude by adding the gain. It continuously updates `max_altitude` with the highest point reached. The logic correctly mirrors the problem of finding the maximum value in a sequence defined by a starting point and a series of changes.\n- **2. Edge Cases:** The solution handles edge cases properly. For an input where all gains are negative (e.g., `[-4,-3,-2]`), the starting altitude of 0 will be correctly returned as the maximum. For inputs with only one gain, it functions as expected. The constraints on `n` and `gain[i]` are well within the limits of standard integer types.\n- **3. Complexity:** The time complexity is O(n) and the space complexity is O(1), as analyzed. This is optimal.\n- **4. Code Quality:** The code is clean, readable, and uses descriptive variable names (`max_altitude`, `current_altitude`). It follows Python's standard conventions.\n- **5. Test Cases:** The code correctly produces the output `1` for `[-5,1,5,0,-7]` and `0` for `[-4,-3,-2,-1,4,3,2]`, matching the examples.\n- **6. Potential Issues:** There are no bugs or logical errors in the provided code. The solution is robust and efficient. While `max_altitude = max(max_altitude, current_altitude)` is a more concise alternative to the `if` statement, the current implementation is perfectly clear and correct. No fixes are necessary.\n\nThe provided solution is valid and well-implemented.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        max_altitude = 0\n        current_altitude = 0\n        \n        for altitude_gain in gain:\n            current_altitude += altitude_gain\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        max_altitude = 0\n        current_altitude = 0\n        \n        for altitude_gain in gain:\n            current_altitude += altitude_gain\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 201387205958,
+      "SolvedAt": "2025-11-21T11:19:14.446225+01:00",
+      "PromptTokens": 4801,
+      "OutputTokens": 21703
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1833",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def largestAltitude(self, gain: List[int]) -> int:\n        max_altitude = 0\n        current_altitude = 0\n        \n        for altitude_gain in gain:\n            current_altitude += altitude_gain\n            if current_altitude > max_altitude:\n                max_altitude = current_altitude\n                \n        return max_altitude\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:37:13+01:00"
+    }
+  }
+}

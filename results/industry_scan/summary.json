@@ -1,0 +1,123 @@
+{
+  "total_projects": 10,
+  "total_files": 27206,
+  "total_patterns": {
+    "hash_map": 96528,
+    "sorting": 309,
+    "string_ops": 11076,
+    "tree_graph": 89
+  },
+  "total_pattern_loc": 106709,
+  "projects": [
+    {
+      "project_id": "Project 1",
+      "total_files": 1265,
+      "patterns": {
+        "hash_map": 885,
+        "sorting": 6,
+        "string_ops": 27,
+        "tree_graph": 0
+      },
+      "pattern_loc": 909
+    },
+    {
+      "project_id": "Project 2",
+      "total_files": 329,
+      "patterns": {
+        "hash_map": 259,
+        "sorting": 4,
+        "string_ops": 24,
+        "tree_graph": 0
+      },
+      "pattern_loc": 272
+    },
+    {
+      "project_id": "Project 3",
+      "total_files": 254,
+      "patterns": {
+        "hash_map": 1370,
+        "sorting": 0,
+        "string_ops": 8,
+        "tree_graph": 0
+      },
+      "pattern_loc": 1368
+    },
+    {
+      "project_id": "Project 4",
+      "total_files": 21459,
+      "patterns": {
+        "hash_map": 89461,
+        "sorting": 277,
+        "string_ops": 10743,
+        "tree_graph": 88
+      },
+      "pattern_loc": 99399
+    },
+    {
+      "project_id": "Project 5",
+      "total_files": 643,
+      "patterns": {
+        "hash_map": 341,
+        "sorting": 0,
+        "string_ops": 29,
+        "tree_graph": 0
+      },
+      "pattern_loc": 358
+    },
+    {
+      "project_id": "Project 6",
+      "total_files": 458,
+      "patterns": {
+        "hash_map": 348,
+        "sorting": 7,
+        "string_ops": 8,
+        "tree_graph": 0
+      },
+      "pattern_loc": 359
+    },
+    {
+      "project_id": "Project 7",
+      "total_files": 273,
+      "patterns": {
+        "hash_map": 209,
+        "sorting": 7,
+        "string_ops": 29,
+        "tree_graph": 0
+      },
+      "pattern_loc": 225
+    },
+    {
+      "project_id": "Project 8",
+      "total_files": 792,
+      "patterns": {
+        "hash_map": 144,
+        "sorting": 0,
+        "string_ops": 2,
+        "tree_graph": 0
+      },
+      "pattern_loc": 145
+    },
+    {
+      "project_id": "Project 9",
+      "total_files": 856,
+      "patterns": {
+        "hash_map": 2252,
+        "sorting": 2,
+        "string_ops": 81,
+        "tree_graph": 1
+      },
+      "pattern_loc": 2313
+    },
+    {
+      "project_id": "Project 10",
+      "total_files": 877,
+      "patterns": {
+        "hash_map": 1259,
+        "sorting": 6,
+        "string_ops": 125,
+        "tree_graph": 0
+      },
+      "pattern_loc": 1361
+    }
+  ]
+}

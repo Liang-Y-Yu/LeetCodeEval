@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1049",
+        "questionId": "1130",
+        "Content": "<p>You are given an array of integers <code>stones</code> where <code>stones[i]</code> is the weight of the <code>i<sup>th</sup></code> stone.</p>\n\n<p>We are playing a game with the stones. On each turn, we choose any two stones and smash them together. Suppose the stones have weights <code>x</code> and <code>y</code> with <code>x &lt;= y</code>. The result of this smash is:</p>\n\n<ul>\n\t<li>If <code>x == y</code>, both stones are destroyed, and</li>\n\t<li>If <code>x != y</code>, the stone of weight <code>x</code> is destroyed, and the stone of weight <code>y</code> has new weight <code>y - x</code>.</li>\n</ul>\n\n<p>At the end of the game, there is <strong>at most one</strong> stone left.</p>\n\n<p>Return <em>the smallest possible weight of the left stone</em>. If there are no stones left, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [2,7,4,1,8,1]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong>\nWe can combine 2 and 4 to get 2, so the array converts to [2,7,1,8,1] then,\nwe can combine 7 and 8 to get 1, so the array converts to [2,1,1,1] then,\nwe can combine 2 and 1 to get 1, so the array converts to [1,1,1] then,\nwe can combine 1 and 1 to get 0, so the array converts to [1], then that&#39;s the optimal value.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> stones = [31,26,33,21,40]\n<strong>Output:</strong> 5\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= stones.length &lt;= 30</code></li>\n\t<li><code>1 &lt;= stones[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,7,4,1,8,1]",
+        "ExampleTestcases": "[2,7,4,1,8,1]\n[31,26,33,21,40]",
+        "Difficulty": "Medium",
+        "Title": "Last Stone Weight II",
+        "TitleSlug": "last-stone-weight-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"123.4K\", \"totalSubmission\": \"210.3K\", \"totalAcceptedRaw\": 123427, \"totalSubmissionRaw\": 210309, \"acRate\": \"58.7%\"}",
+        "Likes": 3326,
+        "Dislikes": 137,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int lastStoneWeightII(vector<int>& stones) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int lastStoneWeightII(int[] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def lastStoneWeightII(self, stones):\n        \"\"\"\n        :type stones: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} stones\n * @return {number}\n */\nvar lastStoneWeightII = function(stones) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function lastStoneWeightII(stones: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int LastStoneWeightII(int[] stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int lastStoneWeightII(int* stones, int stonesSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func lastStoneWeightII(stones []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun lastStoneWeightII(stones: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func lastStoneWeightII(_ stones: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn last_stone_weight_ii(stones: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} stones\n# @return {Integer}\ndef last_stone_weight_ii(stones)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $stones\n     * @return Integer\n     */\n    function lastStoneWeightII($stones) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int lastStoneWeightII(List<int> stones) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def lastStoneWeightII(stones: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec last_stone_weight_ii(stones :: [integer]) :: integer\n  def last_stone_weight_ii(stones) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec last_stone_weight_ii(Stones :: [integer()]) -> integer().\nlast_stone_weight_ii(Stones) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (last-stone-weight-ii stones)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:44:49.944708+01:00",
+    "AcRate": "58.7",
+    "TotalSubmissions": 210309,
+    "TotalAccepted": 123427,
+    "AcceptanceRate": 0.5868840610720416,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/last-stone-weight-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an array of integers stones where stones[i] is the weight of the i^th stone.\nWe are playing a game with the stones. On each turn, we choose any two stones and smash them together. Suppose the stones have weights x and y with x <= y. The result of this smash is:\n\tIf x == y, both stones are destroyed, and\n\tIf x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.\nAt the end of the game, there is at most one stone left.\nReturn the smallest possible weight of the left stone. If there are no stones left, return 0.\n\u00a0\nExample 1:\nInput: stones = [2,7,4,1,8,1]\nOutput: 1\nExplanation:\nWe can combine 2 and 4 to get 2, so the array converts to [2,7,1,8,1] then,\nwe can combine 7 and 8 to get 1, so the array converts to [2,1,1,1] then,\nwe can combine 2 and 1 to get 1, so the array converts to [1,1,1] then,\nwe can combine 1 and 1 to get 0, so the array converts to [1], then that's the optimal value.\nExample 2:\nInput: stones = [31,26,33,21,40]\nOutput: 5\n\u00a0\nConstraints:\n\t1 <= stones.length <= 30\n\t1 <= stones[i] <= 100\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to find the smallest possible weight of the last stone after repeatedly smashing two stones together until at most one remains. The key insight is recognizing that the problem can be transformed into a partition problem, where we want to partition the stones into two subsets such that the difference between the sums of the subsets is minimized. This minimized difference will be the weight of the last stone.\n\n### Approach\n1. **Problem Analysis**: The problem involves smashing stones such that we aim to minimize the last stone's weight. Notice that the process is similar to assigning positive and negative signs to the stones and then summing them up. Essentially, we are partitioning the array into two subsets, S1 and S2, such that the absolute difference |sum(S1) - sum(S2)| is minimized. This is because each smash operation can be thought of as subtracting one stone's weight from another.\n\n2. **Dynamic Programming (DP) Setup**: We use dynamic programming to determine if it's possible to achieve a particular sum with a subset of the stones. Let `total` be the sum of all stones. We want to find a subset of stones with sum `s` such that `s` is as close as possible to `total/2`. Then the answer will be `total - 2 * s` (since the difference between the two subsets is (total - s) - s = total - 2s).\n\n3. **DP Array**: Create a boolean array `dp` of size `(total // 2) + 1`, where `dp[j]` will be `True` if a subset of stones exists that sums to `j`. Initialize `dp[0]` to `True`.\n\n4. **DP Processing**: For each stone, update the `dp` array backwards from `total//2` down to the stone's weight. For each `j` from `total//2` down to `stone`, set `dp[j] = dp[j] or dp[j - stone]`.\n\n5. **Result Extraction**: After processing all stones, find the largest `s` (which is the sum of one subset) such that `dp[s]` is `True`. The result is `total - 2 * s`.\n\n### Solution Code\n```python\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total = sum(stones)\n        n = len(stones)\n        target = total // 2\n        dp = [False] * (target + 1)\n        dp[0] = True\n        for stone in stones:\n            for j in range(target, stone - 1, -1):\n                dp[j] = dp[j] or dp[j - stone]\n        for s in range(target, -1, -1):\n            if dp[s]:\n                return total - 2 * s\n        return 0\n```\n\n### Explanation\n1. **Initialization**: Calculate the total sum of all stones. The goal is to partition the stones into two subsets with sums as close as possible to half of the total sum. Initialize a DP array of size `target + 1` (where `target` is half the total sum) to keep track of achievable sums.\n2. **DP Array Update**: For each stone, iterate backwards through the DP array from `target` down to the stone's weight. This backward iteration ensures that each stone is only used once. Update the DP array to mark which sums are achievable.\n3. **Result Calculation**: After processing all stones, the largest achievable sum `s` (which is closest to `target`) is found. The result is the difference between the total sum and twice this value, which represents the minimal possible weight of the last stone.\n\nThis approach efficiently narrows down the problem to a subset-sum problem solved via dynamic programming, ensuring optimal performance even for the upper constraint limits. The solution efficiently minimizes the last stone's weight by leveraging the properties of subset partitioning.",
+      "TypedCode": "\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total = sum(stones)\n        n = len(stones)\n        target = total // 2\n        dp = [False] * (target + 1)\n        dp[0] = True\n        for stone in stones:\n            for j in range(target, stone - 1, -1):\n                dp[j] = dp[j] or dp[j - stone]\n        for s in range(target, -1, -1):\n            if dp[s]:\n                return total - 2 * s\n        return 0\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 20651433167,
+      "SolvedAt": "2025-11-20T21:19:24.682494+01:00",
+      "PromptTokens": 540,
+      "OutputTokens": 820
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1130",
+        "typed_code": "\nclass Solution:\n    def lastStoneWeightII(self, stones: List[int]) -> int:\n        total = sum(stones)\n        n = len(stones)\n        target = total // 2\n        dp = [False] * (target + 1)\n        dp[0] = True\n        for stone in stones:\n            for j in range(target, stone - 1, -1):\n                dp[j] = dp[j] or dp[j - stone]\n        for s in range(target, -1, -1):\n            if dp[s]:\n                return total - 2 * s\n        return 0\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:42:53+01:00"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1047",
+        "questionId": "1128",
+        "Content": "<p>You are given a string <code>s</code> consisting of lowercase English letters. A <strong>duplicate removal</strong> consists of choosing two <strong>adjacent</strong> and <strong>equal</strong> letters and removing them.</p>\n\n<p>We repeatedly make <strong>duplicate removals</strong> on <code>s</code> until we no longer can.</p>\n\n<p>Return <em>the final string after all such duplicate removals have been made</em>. It can be proven that the answer is <strong>unique</strong>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abbaca&quot;\n<strong>Output:</strong> &quot;ca&quot;\n<strong>Explanation:</strong> \nFor example, in &quot;abbaca&quot; we could remove &quot;bb&quot; since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is &quot;aaca&quot;, of which only &quot;aa&quot; is possible, so the final string is &quot;ca&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;azxxzy&quot;\n<strong>Output:</strong> &quot;ay&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abbaca\"",
+        "ExampleTestcases": "\"abbaca\"\n\"azxxzy\"",
+        "Difficulty": "Easy",
+        "Title": "Remove All Adjacent Duplicates In String",
+        "TitleSlug": "remove-all-adjacent-duplicates-in-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"797.3K\", \"totalSubmission\": \"1.1M\", \"totalAcceptedRaw\": 797330, \"totalSubmissionRaw\": 1102496, \"acRate\": \"72.3%\"}",
+        "Likes": 6971,
+        "Dislikes": 270,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string removeDuplicates(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String removeDuplicates(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def removeDuplicates(self, s: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def removeDuplicates(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {string}\n */\nvar removeDuplicates = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function removeDuplicates(s: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string RemoveDuplicates(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* removeDuplicates(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func removeDuplicates(s string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun removeDuplicates(s: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func removeDuplicates(_ s: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn remove_duplicates(s: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {String}\ndef remove_duplicates(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return String\n     */\n    function removeDuplicates($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String removeDuplicates(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def removeDuplicates(s: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec remove_duplicates(s :: String.t) :: String.t\n  def remove_duplicates(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec remove_duplicates(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nremove_duplicates(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (remove-duplicates s)\n  (-> string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:44:34.484778+01:00",
+    "AcRate": "72.3",
+    "TotalSubmissions": 1102496,
+    "TotalAccepted": 797330,
+    "AcceptanceRate": 0.7232044379299335,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        \"\"\"\n        Removes all adjacent duplicate characters from a string until no more removals can be made.\n\n        This solution uses a stack-based approach to efficiently process the string.\n        A stack is a suitable data structure here because we only need to care about\n        the most recently added character to check for an adjacent duplicate.\n\n        Algorithm:\n        1. Initialize an empty list, `stack`, which will be used to build the result string.\n        2. Iterate through each character `char` in the input string `s`.\n        3. For each `char`:\n           a. Check if the `stack` is not empty and its last element (`stack[-1]`) is\n              the same as the current `char`.\n           b. If they are the same, it means we have found an adjacent duplicate pair.\n              We \"remove\" this pair by popping the last element from the `stack`\n              and not adding the current `char`.\n           c. If they are not the same (or if the stack is empty), the current `char`\n              does not form a duplicate pair with the end of our processed string.\n              So, we append `char` to the `stack`.\n        4. After iterating through the entire input string, the `stack` contains the\n           characters of the final, processed string in the correct order.\n        5. Join the characters in the `stack` to form the final result string and return it.\n\n        Example Walkthrough (s = \"abbaca\"):\n        - Start with stack = []\n        - Process 'a': stack = ['a']\n        - Process 'b': stack = ['a', 'b']\n        - Process 'b': stack[-1] ('b') == current 'b'. Pop. stack = ['a']\n        - Process 'a': stack[-1] ('a') == current 'a'. Pop. stack = []\n        - Process 'c': stack = ['c']\n        - Process 'a': stack = ['c', 'a']\n        - End of string. Join stack contents: \"ca\"\n\n        Complexity:\n        - Time: O(N), where N is the length of the string `s`, because we iterate through the\n          string once, and each stack operation (append, pop) takes O(1) amortized time.\n        - Space: O(N), as in the worst case (e.g., a string with no duplicates like \"abc\"),\n          the stack will store all N characters of the string.\n        \"\"\"\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 96768005543,
+      "SolvedAt": "2025-11-21T16:25:00.219589+01:00",
+      "PromptTokens": 3864,
+      "OutputTokens": 10466
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1128",
+        "typed_code": "\nclass Solution:\n    def removeDuplicates(self, s: str) -> str:\n        stack = []\n        for char in s:\n            if stack and stack[-1] == char:\n                stack.pop()\n            else:\n                stack.append(char)\n        return \"\".join(stack)\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:20:49+01:00"
+    }
+  }
+}

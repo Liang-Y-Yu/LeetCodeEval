@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "765",
+        "questionId": "770",
+        "Content": "<p>There are <code>n</code> couples sitting in <code>2n</code> seats arranged in a row and want to hold hands.</p>\n\n<p>The people and seats are represented by an integer array <code>row</code> where <code>row[i]</code> is the ID of the person sitting in the <code>i<sup>th</sup></code> seat. The couples are numbered in order, the first couple being <code>(0, 1)</code>, the second couple being <code>(2, 3)</code>, and so on with the last couple being <code>(2n - 2, 2n - 1)</code>.</p>\n\n<p>Return <em>the minimum number of swaps so that every couple is sitting side by side</em>. A swap consists of choosing any two people, then they stand up and switch seats.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> row = [0,2,1,3]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> We only need to swap the second (row[1]) and third (row[2]) person.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> row = [3,2,0,1]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All couples are already seated side by side.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2n == row.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 30</code>\u200b\u200b\u200b\u200b\u200b\u200b\u200b</li>\n\t<li><code>0 &lt;= row[i] &lt; 2n</code></li>\n\t<li>All the elements of <code>row</code> are <strong>unique</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[0,2,1,3]",
+        "ExampleTestcases": "[0,2,1,3]\n[3,2,0,1]",
+        "Difficulty": "Hard",
+        "Title": "Couples Holding Hands",
+        "TitleSlug": "couples-holding-hands",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"78.7K\", \"totalSubmission\": \"133.6K\", \"totalAcceptedRaw\": 78698, \"totalSubmissionRaw\": 133607, \"acRate\": \"58.9%\"}",
+        "Likes": 2456,
+        "Dislikes": 128,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIx",
+            "Name": "Depth-First Search",
+            "Slug": "depth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIz",
+            "Name": "Union Find",
+            "Slug": "union-find"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI0",
+            "Name": "Graph",
+            "Slug": "graph"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minSwapsCouples(vector<int>& row) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minSwapsCouples(int[] row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minSwapsCouples(self, row):\n        \"\"\"\n        :type row: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} row\n * @return {number}\n */\nvar minSwapsCouples = function(row) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minSwapsCouples(row: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinSwapsCouples(int[] row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minSwapsCouples(int* row, int rowSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minSwapsCouples(row []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minSwapsCouples(row: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minSwapsCouples(_ row: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_swaps_couples(row: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} row\n# @return {Integer}\ndef min_swaps_couples(row)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $row\n     * @return Integer\n     */\n    function minSwapsCouples($row) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minSwapsCouples(List<int> row) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minSwapsCouples(row: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_swaps_couples(row :: [integer]) :: integer\n  def min_swaps_couples(row) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_swaps_couples(Row :: [integer()]) -> integer().\nmin_swaps_couples(Row) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-swaps-couples row)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:02:38.356027+01:00",
+    "AcRate": "58.9",
+    "TotalSubmissions": 133607,
+    "TotalAccepted": 78698,
+    "AcceptanceRate": 0.5890260240855644,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/couples-holding-hands/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is by modeling it as a graph problem and finding its connected components. The total number of swaps required is `N - C`, where `N` is the number of couples and `C` is the number of connected components.\n\nLet's define the nodes of our graph to be the `n` couples, indexed from `0` to `n-1`. A person with ID `p` belongs to couple `p // 2`.\n\nWe can iterate through the `n` pairs of adjacent seats. For each seat pair `(2i, 2i+1)`, if the two people sitting there, `row[2i]` and `row[2i+1]`, do not belong to the same couple, it means their respective couples are \"entangled\". For instance, if `row[2i]` belongs to couple `C1` and `row[2i+1]` to `C2`, this entanglement can be represented as an edge between nodes `C1` and `C2` in our graph.\n\nAfter processing all seat pairs, the graph will consist of one or more connected components. A component of size `k` signifies a group of `k` couples that are intermingled among `k` seat pairs. To untangle such a group, `k-1` swaps are necessary. For example, if couple A and B are mixed (_e.g._, `(A1, B1)` and `(A2, B2)`), one swap brings them to `(A1, A2)` and `(B1, B2)`.\n\nThe total number of swaps is the sum of `(k - 1)` for each component of size `k`. This simplifies to `(sum of all k_i) - (number of components)`, which is `n - C`, where `C` is the number of components.\n\nThe Disjoint Set Union (DSU) data structure is perfectly suited for building these components and counting them efficiently. We initialize `n` sets, one for each couple. Then, for each seat pair, we `union` the sets of the two couples present. The DSU structure keeps track of the number of distinct sets, which is our `C`.\n\nThe final algorithm is:\n1. Initialize a DSU structure with `n` sets.\n2. Iterate through the `row` array in steps of 2. For each pair of people `(row[i], row[i+1])`, find their couple IDs, `c1 = row[i] // 2` and `c2 = row[i+1] // 2`.\n3. Perform a `union` operation on `c1` and `c2`.\n4. The DSU will maintain the count of disjoint sets (`C`).\n5. The minimum number of swaps is `n - C`.\n\nThis approach has a time complexity of nearly `O(n)` due to the efficiency of the DSU with path compression.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n\n        for i in range(0, 2 * n, 2):\n            person1 = row[i]\n            person2 = row[i + 1]\n            \n            couple1 = person1 // 2\n            couple2 = person2 // 2\n            \n            union(couple1, couple2)\n            \n        return n - num_components\n\n```\n\n=== DESIGN ===\nTo solve this problem, I will implement the Disjoint Set Union (DSU) based approach as detailed in the provided analysis. This method models the problem by treating each of the `n` couples as a node in a graph. An edge is formed between two couple-nodes if their members are mixed up in the same pair of adjacent seats. The total number of swaps required is `n - C`, where `n` is the number of couples and `C` is the number of connected components (groups of entangled couples).\n\nHere is a breakdown of the design:\n\n1.  **Algorithm Choice**: The Disjoint Set Union (DSU) or Union-Find algorithm will be used. This data structure excels at tracking a partition of a set into disjoint subsets, which directly corresponds to finding the connected components in our graph of couples.\n\n2.  **Step-by-Step Approach**:\n    1.  Calculate `n`, the number of couples, as `len(row) // 2`.\n    2.  Initialize a DSU structure for `n` elements (couples `0` to `n-1`). This involves creating a `parent` array and setting a `num_components` counter to `n`.\n    3.  Iterate through the `row` array in steps of two, processing each adjacent seat pair `(i, i+1)`.\n    4.  For each pair, identify the two people `row[i]` and `row[i+1]`.\n    5.  Calculate their respective couple IDs using integer division by 2 (e.g., `couple_id = person_id // 2`).\n    6.  Use the `union` operation of the DSU to merge the sets of the two couples found in the current seat pair. The `union` operation will only merge and decrement the component count if the two couples are not already in the same component.\n    7.  After iterating through all seat pairs, the final `num_components` count represents `C`.\n    8.  The minimum number of swaps is `n - num_components`.\n\n3.  **Data Structures**:\n    *   A `parent` list of size `n` for the DSU, where `parent[i]` stores the parent of the `i`-th couple's set.\n    *   An integer variable `num_components` to track the number of disjoint sets.\n\n4.  **Time Complexity**: The DSU initialization takes `O(n)`. The main loop runs `n` times. Inside the loop, `find` and `union` operations with path compression have an amortized time complexity that is nearly constant. Thus, the total time complexity is effectively linear, `O(n)`.\n\n5.  **Space Complexity**: The `parent` array requires `O(n)` space. Thus, the space complexity is `O(n)`.\n\n6.  **Pseudocode**:\n    ```\n    function minSwapsCouples(row):\n      n = length(row) / 2\n      parent = array of size n, initialized with parent[i] = i\n      num_components = n\n\n      function find(i):\n        if parent[i] == i:\n          return i\n        parent[i] = find(parent[i]) // Path compression\n        return parent[i]\n\n      function union(i, j):\n        root_i = find(i)\n        root_j = find(j)\n        if root_i != root_j:\n          parent[root_j] = root_i\n          num_components = num_components - 1\n      \n      for i from 0 to length(row)-1, step 2:\n        couple1_id = row[i] / 2\n        couple2_id = row[i+1] / 2\n        union(couple1_id, couple2_id)\n\n      return n - num_components\n    ```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            \n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n\n        for i in range(0, 2 * n, 2):\n            person1 = row[i]\n            person2 = row[i + 1]\n            \n            couple1 = person1 // 2\n            couple2 = person2 // 2\n            \n            if couple1 != couple2:\n                union(couple1, couple2)\n            \n        return n - num_components\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            \n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n\n        for i in range(0, 2 * n, 2):\n            person1 = row[i]\n            person2 = row[i + 1]\n            \n            couple1 = person1 // 2\n            couple2 = person2 // 2\n            \n            union(couple1, couple2)\n            \n        return n - num_components\n```\n\n=== VERIFICATION ===\n**Verification Report**\n\n1.  **Correctness**: The provided solution is correct. It accurately implements the Disjoint Set Union (DSU) algorithm to solve the problem. The core idea that the minimum number of swaps is `n - C` (where `n` is the number of couples and `C` is the number of connected components of \"entangled\" couples) is sound. The code correctly maps each seat pair to a potential connection between two couple-groups and uses `union` to build these components.\n\n2.  **Edge Cases**: The algorithm correctly handles edge cases. If all couples are already seated correctly, each seat pair `(2i, 2i+1)` will contain people from the same couple. The `union` operation will be called with two identical couple IDs, `union(c, c)`, which correctly does not merge any sets. The number of components `C` will remain `n`, leading to `n - n = 0` swaps, which is correct. The constraints (`n` up to 30) are well within the limits for this efficient algorithm.\n\n3.  **Complexity**:\n    *   **Time Complexity**: `O(n * \u03b1(n))`, where `n` is the number of couples and `\u03b1` is the extremely slow-growing inverse Ackermann function. Due to path compression, the `find` and `union` operations are nearly constant time. The overall complexity is effectively linear, `O(n)`, which is highly efficient.\n    *   **Space Complexity**: `O(n)` to store the `parent` array for the DSU structure. This is also efficient.\n\n4.  **Code Quality**: The code is clean, readable, and well-structured. It uses nested functions (`find`, `union`) to encapsulate the DSU logic, which is a good practice for single-use helper functions. Variable names are clear and self-explanatory. The `nonlocal` keyword is used correctly. The implementation of path compression in the `find` function is standard and correct.\n    *   The provided \"Implemented Code\" includes `import collections`, which is not used and should be removed. Otherwise, the code quality is high.\n\n5.  **Test Cases**:\n    *   **Example 1**: `row = [0,2,1,3]`. `n=2`. The first seat pair `(0,2)` links couple 0 and couple 1. `num_components` becomes 1. The second seat pair `(1,3)` also involves couple 0 and 1, which are already linked. The final result is `n - num_components` = `2 - 1 = 1`. This is correct.\n    *   **Example 2**: `row = [3,2,0,1]`. `n=2`. The first pair `(3,2)` belongs to couple 1. The second pair `(0,1)` belongs to couple 0. No links are formed between different couples. `num_components` remains 2. The final result is `n - num_components` = `2 - 2 = 0`. This is correct.\n\n6.  **Potential Issues / Improvements**: There are no bugs or logical errors in the proposed solution. The code is robust. The check `if couple1 != couple2:` present in one of the snippets is redundant, as the `union` function's `if root_i != root_j:` check already handles this case effectively. The version without this explicit check is slightly more concise. The unused `import collections` is the only minor flaw.\n\n**Conclusion**: The solution is valid, correct, and follows best practices. The DSU-based approach is an elegant and efficient way to solve this problem.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            \n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n        \n        for i in range(0, 2 * n, 2):\n            couple1_id = row[i] // 2\n            couple2_id = row[i + 1] // 2\n            union(couple1_id, couple2_id)\n            \n        return n - num_components\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            \n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n\n        for i in range(0, 2 * n, 2):\n            person1 = row[i]\n            person2 = row[i + 1]\n            \n            couple1 = person1 // 2\n            couple2 = person2 // 2\n            \n            union(couple1, couple2)\n            \n        return n - num_components\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 319484792082,
+      "SolvedAt": "2025-11-21T10:31:44.590974+01:00",
+      "PromptTokens": 7864,
+      "OutputTokens": 40041
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "770",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def minSwapsCouples(self, row: List[int]) -> int:\n        n = len(row) // 2\n        \n        parent = list(range(n))\n        num_components = n\n\n        def find(i: int) -> int:\n            if parent[i] == i:\n                return i\n            parent[i] = find(parent[i])\n            return parent[i]\n\n        def union(i: int, j: int) -> None:\n            nonlocal num_components\n            root_i = find(i)\n            root_j = find(j)\n            \n            if root_i != root_j:\n                parent[root_j] = root_i\n                num_components -= 1\n\n        for i in range(0, 2 * n, 2):\n            person1 = row[i]\n            person2 = row[i + 1]\n            \n            couple1 = person1 // 2\n            couple2 = person2 // 2\n            \n            union(couple1, couple2)\n            \n        return n - num_components\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:41:53+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1125",
+        "questionId": "1220",
+        "Content": "<p>In a project, you have a list of required skills <code>req_skills</code>, and a list of people. The <code>i<sup>th</sup></code> person <code>people[i]</code> contains a list of skills that the person has.</p>\n\n<p>Consider a sufficient team: a set of people such that for every required skill in <code>req_skills</code>, there is at least one person in the team who has that skill. We can represent these teams by the index of each person.</p>\n\n<ul>\n\t<li>For example, <code>team = [0, 1, 3]</code> represents the people with skills <code>people[0]</code>, <code>people[1]</code>, and <code>people[3]</code>.</li>\n</ul>\n\n<p>Return <em>any sufficient team of the smallest possible size, represented by the index of each person</em>. You may return the answer in <strong>any order</strong>.</p>\n\n<p>It is <strong>guaranteed</strong> an answer exists.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n<strong>Output:</strong> [0,2]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\n<strong>Output:</strong> [1,2]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= req_skills.length &lt;= 16</code></li>\n\t<li><code>1 &lt;= req_skills[i].length &lt;= 16</code></li>\n\t<li><code>req_skills[i]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>req_skills</code> are <strong>unique</strong>.</li>\n\t<li><code>1 &lt;= people.length &lt;= 60</code></li>\n\t<li><code>0 &lt;= people[i].length &lt;= 16</code></li>\n\t<li><code>1 &lt;= people[i][j].length &lt;= 16</code></li>\n\t<li><code>people[i][j]</code> consists of lowercase English letters.</li>\n\t<li>All the strings of <code>people[i]</code> are <strong>unique</strong>.</li>\n\t<li>Every skill in <code>people[i]</code> is a skill in <code>req_skills</code>.</li>\n\t<li>It is guaranteed a sufficient team exists.</li>\n</ul>\n",
+        "SampleTestCase": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]",
+        "ExampleTestcases": "[\"java\",\"nodejs\",\"reactjs\"]\n[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\n[\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"]\n[[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]",
+        "Difficulty": "Hard",
+        "Title": "Smallest Sufficient Team",
+        "TitleSlug": "smallest-sufficient-team",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"70.9K\", \"totalSubmission\": \"128.1K\", \"totalAcceptedRaw\": 70869, \"totalSubmissionRaw\": 128052, \"acRate\": \"55.3%\"}",
+        "Likes": 2254,
+        "Dislikes": 57,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDc4",
+            "Name": "Bitmask",
+            "Slug": "bitmask"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] smallestSufficientTeam(String[] req_skills, List<List<String>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestSufficientTeam(self, req_skills, people):\n        \"\"\"\n        :type req_skills: List[str]\n        :type people: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} req_skills\n * @param {string[][]} people\n * @return {number[]}\n */\nvar smallestSufficientTeam = function(req_skills, people) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestSufficientTeam(req_skills: string[], people: string[][]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* smallestSufficientTeam(char** req_skills, int req_skillsSize, char*** people, int peopleSize, int* peopleColSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestSufficientTeam(req_skills []string, people [][]string) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestSufficientTeam(req_skills: Array<String>, people: List<List<String>>): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestSufficientTeam(_ req_skills: [String], _ people: [[String]]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_sufficient_team(req_skills: Vec<String>, people: Vec<Vec<String>>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} req_skills\n# @param {String[][]} people\n# @return {Integer[]}\ndef smallest_sufficient_team(req_skills, people)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $req_skills\n     * @param String[][] $people\n     * @return Integer[]\n     */\n    function smallestSufficientTeam($req_skills, $people) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> smallestSufficientTeam(List<String> req_skills, List<List<String>> people) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestSufficientTeam(req_skills: Array[String], people: List[List[String]]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_sufficient_team(req_skills :: [String.t], people :: [[String.t]]) :: [integer]\n  def smallest_sufficient_team(req_skills, people) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_sufficient_team(Req_skills :: [unicode:unicode_binary()], People :: [[unicode:unicode_binary()]]) -> [integer()].\nsmallest_sufficient_team(Req_skills, People) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-sufficient-team req_skills people)\n  (-> (listof string?) (listof (listof string?)) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:06.364913+01:00",
+    "AcRate": "55.3",
+    "TotalSubmissions": 128052,
+    "TotalAccepted": 70869,
+    "AcceptanceRate": 0.5534392278137007,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/smallest-sufficient-team/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the \"Smallest Sufficient Team\" problem is provided below, followed by the complete and clean Python solution.\n\n### Problem Analysis\n\n#### 1. Problem Type Classification\n\nThis problem is a classic example of the **Set Cover** problem, which is a well-known NP-hard problem. The goal is to find the smallest sub-collection of sets (people's skills) whose union covers a universal set (required skills). Given the NP-hard nature, a solution with polynomial time complexity in all input parameters is highly unlikely. The approach must leverage specific constraints to be feasible.\n\n#### 2. Key Patterns & Algorithms\n\nThe most critical constraint is that the number of required skills is small (`req_skills.length <= 16`). This strongly hints at a solution involving **Dynamic Programming with Bitmasking**.\n\n*   **Bitmasking**: The set of required skills can be represented by a bitmask of length `m` (where `m` is the number of required skills). Each bit corresponds to a skill. If the `i`-th bit is 1, the `i`-th skill is covered; if 0, it's not. This reduces the state space of covered skills to `2^m`, which is manageable for `m <= 16` (`2^16 = 65536`).\n\n*   **Dynamic Programming (DP)**: We can build a solution iteratively. The DP state can be defined by the skill mask. Let `dp[mask]` be the smallest team of people required to cover the skills represented by `mask`.\n\n    The DP can be formulated as follows:\n    1.  Initialize a DP table (a dictionary or map is suitable) `dp` where `dp[mask]` stores the optimal team for that `mask`. Start with `dp = {0: []}` (an empty team covers no skills).\n    2.  Iterate through each person one by one. For each person `p`, iterate through all the skill masks already present in our `dp` table.\n    3.  For each existing `mask`, calculate a `new_mask` by taking the bitwise OR of `mask` and person `p`'s skill mask. This represents the new set of skills covered if we add person `p` to the team for `mask`.\n    4.  If this new team for `new_mask` is smaller than any previously found team for `new_mask`, update `dp[new_mask]`.\n    5.  After iterating through all people, `dp[(1<<m) - 1]` will hold the smallest team for the target mask where all skills are covered.\n\nThis approach is essentially a breadth-first search on the state space, where states are skill masks and edges are people. Each level of the search corresponds to an increase in team size, guaranteeing that the first time we reach the target mask, it will be with a team of minimum size.\n\n#### 3. Constraints Analysis\n\n*   `req_skills.length <= 16`: This is the key constraint. Let `m = req_skills.length`. The number of DP states is `2^m`, which is at most `65536`. This makes the DP approach feasible.\n*   `people.length <= 60`: Let `n = people.length`. This is the number of main iterations in our DP.\n*   **Time Complexity**: The DP algorithm iterates through `n` people. For each person, it iterates through all currently discovered skill masks. The number of masks can be up to `2^m`. In each step, we perform constant time bitwise operations and comparisons. To store the teams, we either store lists of people (costing up to `O(m)` to copy) or use a path reconstruction technique. With path reconstruction, the DP update is faster. The overall complexity will be roughly `O(n * 2^m)`. With the given constraints, this is approximately `60 * 2^16`, which is around 4 million operations per main loop, which is acceptable.\n*   **Space Complexity**: The DP table needs to store an entry for each reachable skill mask, up to `2^m` masks. For each entry, we need to store information for path reconstruction. This results in a space complexity of `O(2^m)`.\n\n#### 4. Edge Cases\n\n*   **One required skill**: The algorithm will find a single person with that skill.\n*   **A person with all skills**: The algorithm will find this person and return a team of size 1.\n*   **People with no skills**: They contribute nothing (`skill_mask = 0`). The logic naturally handles this by not creating any new states.\n*   **Identical skill sets**: If multiple people have the same skills, any one of them is an equivalent choice. The algorithm will handle this naturally.\n*   **Suboptimal people**: A person whose skills are a strict subset of another person's is suboptimal. While they could be filtered out in a preprocessing step, the DP algorithm works correctly even without this optimization.\n*   **Guaranteed answer**: The problem guarantees a solution exists, so we don't need to handle cases where the set of required skills is not coverable.\n\n#### 5. Input/Output Analysis\n\n*   **Input**: `req_skills` (a list of strings) and `people` (a list of lists of strings). The strings are lowercase English letters.\n*   **Output**: A list of integers representing the indices of the people in the smallest sufficient team. The order of indices is not important.\n\n#### 6. Difficulty Assessment\n\nThis problem is **Hard**. The main challenges are:\n1.  Recognizing it as a Set Cover variant and knowing that a greedy approach is not optimal.\n2.  Identifying the small `req_skills` length as the key to a feasible solution.\n3.  Correctly formulating and implementing the Dynamic Programming with Bitmasking strategy. The state transitions can be subtle, and an incorrect implementation might lead to wrong answers or exceeding time limits.\n\nIt requires familiarity with advanced algorithmic techniques and a solid understanding of how to apply them based on problem constraints.\n\n```python\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: list[str], people: list[list[str]]) -> list[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n\n        people_skill_masks = []\n        for p_skills in people:\n            mask = 0\n            for skill in p_skills:\n                if skill in skill_to_idx:\n                    mask |= (1 << skill_to_idx[skill])\n            people_skill_masks.append(mask)\n\n        # dp[mask] -> size of the smallest team for this mask\n        dp = {0: 0}\n        # path[mask] -> (previous_mask, person_index) to reconstruct the team\n        path = {}\n\n        for i, p_mask in enumerate(people_skill_masks):\n            if p_mask == 0:\n                continue\n\n            # Use list(dp.items()) to iterate over a snapshot of the dictionary,\n            # as its size may change during the loop.\n            for skill_mask, team_size in list(dp.items()):\n                new_skill_mask = skill_mask | p_mask\n\n                if new_skill_mask not in dp or (team_size + 1) < dp[new_skill_mask]:\n                    dp[new_skill_mask] = team_size + 1\n                    path[new_skill_mask] = (skill_mask, i)\n\n        target_mask = (1 << num_skills) - 1\n        \n        # Reconstruct the team from the path\n        team = []\n        current_mask = target_mask\n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n        \n        return team\n\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n\n        dp = {0: 0}\n        path = {}\n        \n        for i, p_skills in enumerate(people):\n            person_skill_mask = 0\n            for skill in p_skills:\n                if skill in skill_to_idx:\n                    person_skill_mask |= (1 << skill_to_idx[skill])\n            \n            if person_skill_mask == 0:\n                continue\n            \n            for prev_mask, team_size in list(dp.items()):\n                new_mask = prev_mask | person_skill_mask\n                \n                if new_mask not in dp or team_size + 1 < dp[new_mask]:\n                    dp[new_mask] = team_size + 1\n                    path[new_mask] = (prev_mask, i)\n\n        target_mask = (1 << num_skills) - 1\n        team = []\n        current_mask = target_mask\n        \n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n            \n        return team\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n        \n        # dp[mask] -> size of the smallest team for this mask\n        dp = {0: 0}\n        # path[mask] -> (previous_mask, person_index) to reconstruct the team\n        path = {}\n        \n        for i, p_skills in enumerate(people):\n            person_skill_mask = 0\n            for skill in p_skills:\n                # The problem statement guarantees skill is in req_skills,\n                # but checking is safer.\n                if skill in skill_to_idx:\n                    person_skill_mask |= (1 << skill_to_idx[skill])\n            \n            if person_skill_mask == 0:\n                continue\n            \n            # Use list(dp.items()) to iterate over a snapshot of the dictionary,\n            # as its size may change during the loop.\n            for prev_mask, team_size in list(dp.items()):\n                new_mask = prev_mask | person_skill_mask\n                \n                # If we found a better team for new_mask\n                if new_mask not in dp or (team_size + 1) < dp[new_mask]:\n                    dp[new_mask] = team_size + 1\n                    path[new_mask] = (prev_mask, i)\n                    \n        target_mask = (1 << num_skills) - 1\n        \n        # Reconstruct the team from the path\n        team = []\n        current_mask = target_mask\n        \n        # Backtrack from the target mask to mask 0\n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n            \n        return team\n```\n\n=== VERIFICATION ===\nAn evaluation of the provided Python solution for the \"Smallest Sufficient Team\" problem is as follows:\n\n### Verification Report\n\n1.  **Correctness**: The solution is **correct**. It accurately implements the Dynamic Programming with Bitmasking approach, which is the standard and most efficient way to solve this problem given the constraints.\n    *   The state representation (`dp[mask]` storing the minimum team size) is correct.\n    *   The state transition logic is sound: for each person, it explores adding them to all previously achievable skill subsets and updates the `dp` table if a smaller team is found for a resulting skill subset.\n    *   The use of a separate `path` dictionary to store backtracking information is a correct and memory-efficient way to reconstruct the final team.\n    *   The reconstruction logic correctly backtracks from the final `target_mask` to the initial `0` mask, collecting the person indices along the way.\n\n2.  **Edge Cases**: The code handles edge cases well.\n    *   It correctly ignores people who possess no required skills (`person_skill_mask == 0`).\n    *   The initialization `dp = {0: 0}` correctly establishes the base case: an empty team covers no skills.\n    *   The problem guarantees that a solution exists, so the `target_mask` will always be a key in the `dp` and `path` dictionaries by the end of the main loop, preventing KeyErrors during reconstruction.\n\n3.  **Complexity**: The solution meets the expected complexity for this approach.\n    *   **Time Complexity**: `O(num_people * 2^num_skills)`. This is due to the nested loops: iterating through each person and, for each person, iterating through all currently known DP states (at most `2^num_skills`). This is efficient enough for the given constraints (`60 * 2^16`).\n    *   **Space Complexity**: `O(2^num_skills)`. Both the `dp` and `path` dictionaries store up to `2^num_skills` entries. This is also within acceptable limits.\n\n4.  **Code Quality**: The code quality is high.\n    *   **Readability**: The variable names (`num_skills`, `skill_to_idx`, `person_skill_mask`, `prev_mask`, `new_mask`) are clear and descriptive.\n    *   **Structure**: The code is logically divided into three main parts: initialization, DP table computation, and result reconstruction, making it easy to follow.\n    *   **Best Practices**: It correctly uses `list(dp.items())` to create a static copy for safe iteration while modifying the dictionary. The problem guarantees that all skills in `people` are in `req_skills`, so skipping the `if skill in skill_to_idx` check (as done in the \"Design\" version) is a valid micro-optimization based on the problem statement.\n\n5.  **Test Cases**: The logic was walked through with the provided examples, and it produces the correct outputs. The algorithm correctly identifies the smallest team size and can reconstruct one such team.\n\n6.  **Potential Issues**: There are no apparent bugs or logical errors. The chosen implementation (storing team size in `dp` and using `path` for reconstruction) is more memory-efficient than storing the entire team list in the `dp` state, which is a critical optimization for this problem. The solution is robust and well-crafted.\n\n### Final Conclusion\nThe provided solution is **correct, efficient, and well-written**. It perfectly addresses the problem using the most appropriate algorithm for the given constraints.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n\n        dp = {0: 0}\n        path = {}\n\n        for i, p_skills in enumerate(people):\n            person_skill_mask = 0\n            for skill in p_skills:\n                person_skill_mask |= (1 << skill_to_idx[skill])\n\n            if person_skill_mask == 0:\n                continue\n\n            for prev_mask, team_size in list(dp.items()):\n                new_mask = prev_mask | person_skill_mask\n\n                if new_mask not in dp or (team_size + 1) < dp[new_mask]:\n                    dp[new_mask] = team_size + 1\n                    path[new_mask] = (prev_mask, i)\n\n        target_mask = (1 << num_skills) - 1\n\n        team = []\n        current_mask = target_mask\n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n\n        return team\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n        \n        # dp[mask] -> size of the smallest team for this mask\n        dp = {0: 0}\n        # path[mask] -> (previous_mask, person_index) to reconstruct the team\n        path = {}\n        \n        for i, p_skills in enumerate(people):\n            person_skill_mask = 0\n            for skill in p_skills:\n                # The problem statement guarantees skill is in req_skills,\n                # but checking is safer.\n                if skill in skill_to_idx:\n                    person_skill_mask |= (1 << skill_to_idx[skill])\n            \n            if person_skill_mask == 0:\n                continue\n            \n            # Use list(dp.items()) to iterate over a snapshot of the dictionary,\n            # as its size may change during the loop.\n            for prev_mask, team_size in list(dp.items()):\n                new_mask = prev_mask | person_skill_mask\n                \n                # If we found a better team for new_mask\n                if new_mask not in dp or (team_size + 1) < dp[new_mask]:\n                    dp[new_mask] = team_size + 1\n                    path[new_mask] = (prev_mask, i)\n                    \n        target_mask = (1 << num_skills) - 1\n        \n        # Reconstruct the team from the path\n        team = []\n        current_mask = target_mask\n        \n        # Backtrack from the target mask to mask 0\n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n            \n        return team\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 390634010709,
+      "SolvedAt": "2025-11-21T17:27:03.207926+01:00",
+      "PromptTokens": 7370,
+      "OutputTokens": 42830
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1220",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:\n        num_skills = len(req_skills)\n        skill_to_idx = {skill: i for i, skill in enumerate(req_skills)}\n        \n        # dp[mask] -> size of the smallest team for this mask\n        dp = {0: 0}\n        # path[mask] -> (previous_mask, person_index) to reconstruct the team\n        path = {}\n        \n        for i, p_skills in enumerate(people):\n            person_skill_mask = 0\n            for skill in p_skills:\n                # The problem statement guarantees skill is in req_skills,\n                # but checking is safer.\n                if skill in skill_to_idx:\n                    person_skill_mask |= (1 << skill_to_idx[skill])\n            \n            if person_skill_mask == 0:\n                continue\n            \n            # Use list(dp.items()) to iterate over a snapshot of the dictionary,\n            # as its size may change during the loop.\n            for prev_mask, team_size in list(dp.items()):\n                new_mask = prev_mask | person_skill_mask\n                \n                # If we found a better team for new_mask\n                if new_mask not in dp or (team_size + 1) < dp[new_mask]:\n                    dp[new_mask] = team_size + 1\n                    path[new_mask] = (prev_mask, i)\n                    \n        target_mask = (1 << num_skills) - 1\n        \n        # Reconstruct the team from the path\n        team = []\n        current_mask = target_mask\n        \n        # Backtrack from the target mask to mask 0\n        while current_mask != 0:\n            prev_mask, person_idx = path[current_mask]\n            team.append(person_idx)\n            current_mask = prev_mask\n            \n        return team\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:36:48+01:00"
+    }
+  }
+}

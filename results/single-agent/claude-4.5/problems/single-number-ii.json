@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "137",
+        "questionId": "137",
+        "Content": "<p>Given an integer array <code>nums</code> where&nbsp;every element appears <strong>three times</strong> except for one, which appears <strong>exactly once</strong>. <em>Find the single element and return it</em>.</p>\n\n<p>You must&nbsp;implement a solution with a linear runtime complexity and use&nbsp;only constant&nbsp;extra space.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [2,2,3,2]\n<strong>Output:</strong> 3\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [0,1,0,1,0,1,99]\n<strong>Output:</strong> 99\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li>Each element in <code>nums</code> appears exactly <strong>three times</strong> except for one element which appears <strong>once</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[2,2,3,2]",
+        "ExampleTestcases": "[2,2,3,2]\n[0,1,0,1,0,1,99]",
+        "Difficulty": "Medium",
+        "Title": "Single Number II",
+        "TitleSlug": "single-number-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"816.2K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 816233, \"totalSubmissionRaw\": 1232976, \"acRate\": \"66.2%\"}",
+        "Likes": 8516,
+        "Dislikes": 741,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int singleNumber(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int singleNumber(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def singleNumber(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function singleNumber(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int SingleNumber(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int singleNumber(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func singleNumber(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun singleNumber(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func singleNumber(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn single_number(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef single_number(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function singleNumber($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int singleNumber(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def singleNumber(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec single_number(nums :: [integer]) :: integer\n  def single_number(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec single_number(Nums :: [integer()]) -> integer().\nsingle_number(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (single-number nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:27.295287+01:00",
+    "AcRate": "66.2",
+    "TotalSubmissions": 1232976,
+    "TotalAccepted": 816233,
+    "AcceptanceRate": 0.6620023423002557,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/single-number-ii/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer array nums where\u00a0every element appears three times except for one, which appears exactly once. Find the single element and return it.\nYou must\u00a0implement a solution with a linear runtime complexity and use\u00a0only constant\u00a0extra space.\n\u00a0\nExample 1:\nInput: nums = [2,2,3,2]\nOutput: 3\nExample 2:\nInput: nums = [0,1,0,1,0,1,99]\nOutput: 99\n\u00a0\nConstraints:\n\t1 <= nums.length <= 3 * 10^4\n\t-2^31 <= nums[i] <= 2^31 - 1\n\tEach element in nums appears exactly three times except for one element which appears once.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the single element that appears once while all others appear three times, using O(n) time and O(1) space.\n\nThe key insight is to use bit manipulation. For each bit position, if we count how many numbers have that bit set, the count modulo 3 will give us the bit value of the single number (since all other numbers appear exactly 3 times).\n\nHowever, a more elegant approach uses two variables to track the bits:\n- `ones`: tracks bits that have appeared once\n- `twos`: tracks bits that have appeared twice\n- When a bit appears three times, we clear it from both `ones` and `twos`\n\nHere's how it works:\n1. For each number, update `twos` with bits that were in `ones` and are now appearing again\n2. Update `ones` with the current number\n3. Clear bits that have appeared three times from both `ones` and `twos`\n\n```python\nfrom typing import List\n\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ones = 0\n        twos = 0\n        \n        for num in nums:\n            twos |= ones & num\n            ones ^= num\n            threes = ones & twos\n            ones &= ~threes\n            twos &= ~threes\n        \n        return ones\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ones = 0\n        twos = 0\n        \n        for num in nums:\n            twos |= ones & num\n            ones ^= num\n            threes = ones & twos\n            ones &= ~threes\n            twos &= ~threes\n        \n        return ones\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 7727671167,
+      "SolvedAt": "2025-11-19T21:53:03.666308+01:00",
+      "PromptTokens": 394,
+      "OutputTokens": 317
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "137",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ones = 0\n        twos = 0\n        \n        for num in nums:\n            twos |= ones & num\n            ones ^= num\n            threes = ones & twos\n            ones &= ~threes\n            twos &= ~threes\n        \n        return ones\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:40:21+01:00"
+    }
+  }
+}

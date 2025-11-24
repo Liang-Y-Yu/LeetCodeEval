@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1482",
+        "questionId": "1605",
+        "Content": "<p>You are given an integer array <code>bloomDay</code>, an integer <code>m</code> and an integer <code>k</code>.</p>\n\n<p>You want to make <code>m</code> bouquets. To make a bouquet, you need to use <code>k</code> <strong>adjacent flowers</strong> from the garden.</p>\n\n<p>The garden consists of <code>n</code> flowers, the <code>i<sup>th</sup></code> flower will bloom in the <code>bloomDay[i]</code> and then can be used in <strong>exactly one</strong> bouquet.</p>\n\n<p>Return <em>the minimum number of days you need to wait to be able to make </em><code>m</code><em> bouquets from the garden</em>. If it is impossible to make m bouquets return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> bloomDay = [1,10,3,10,2], m = 3, k = 1\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> Let us see what happened in the first three days. x means flower bloomed and _ means flower did not bloom in the garden.\nWe need 3 bouquets each should contain 1 flower.\nAfter day 1: [x, _, _, _, _]   // we can only make one bouquet.\nAfter day 2: [x, _, _, _, x]   // we can only make two bouquets.\nAfter day 3: [x, _, x, _, x]   // we can make 3 bouquets. The answer is 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> bloomDay = [1,10,3,10,2], m = 3, k = 2\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> We need 3 bouquets each has 2 flowers, that means we need 6 flowers. We only have 5 flowers so it is impossible to get the needed bouquets and we return -1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> bloomDay = [7,7,7,7,12,7,7], m = 2, k = 3\n<strong>Output:</strong> 12\n<strong>Explanation:</strong> We need 2 bouquets each should have 3 flowers.\nHere is the garden after the 7 and 12 days:\nAfter day 7: [x, x, x, x, _, x, x]\nWe can make one bouquet of the first three flowers that bloomed. We cannot make another bouquet from the last three flowers that bloomed because they are not adjacent.\nAfter day 12: [x, x, x, x, x, x, x]\nIt is obvious that we can make two bouquets in different ways.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>bloomDay.length == n</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= bloomDay[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= m &lt;= 10<sup>6</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= n</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,10,3,10,2]\n3\n1",
+        "ExampleTestcases": "[1,10,3,10,2]\n3\n1\n[1,10,3,10,2]\n3\n2\n[7,7,7,7,12,7,7]\n2\n3",
+        "Difficulty": "Medium",
+        "Title": "Minimum Number of Days to Make m Bouquets",
+        "TitleSlug": "minimum-number-of-days-to-make-m-bouquets",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"444.6K\", \"totalSubmission\": \"795.5K\", \"totalAcceptedRaw\": 444584, \"totalSubmissionRaw\": 795465, \"acRate\": \"55.9%\"}",
+        "Likes": 5467,
+        "Dislikes": 305,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minDays(vector<int>& bloomDay, int m, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minDays(int[] bloomDay, int m, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minDays(self, bloomDay, m, k):\n        \"\"\"\n        :type bloomDay: List[int]\n        :type m: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} bloomDay\n * @param {number} m\n * @param {number} k\n * @return {number}\n */\nvar minDays = function(bloomDay, m, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minDays(bloomDay: number[], m: number, k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinDays(int[] bloomDay, int m, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minDays(int* bloomDay, int bloomDaySize, int m, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minDays(bloomDay []int, m int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minDays(bloomDay: IntArray, m: Int, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minDays(_ bloomDay: [Int], _ m: Int, _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_days(bloom_day: Vec<i32>, m: i32, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} bloom_day\n# @param {Integer} m\n# @param {Integer} k\n# @return {Integer}\ndef min_days(bloom_day, m, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $bloomDay\n     * @param Integer $m\n     * @param Integer $k\n     * @return Integer\n     */\n    function minDays($bloomDay, $m, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minDays(List<int> bloomDay, int m, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minDays(bloomDay: Array[Int], m: Int, k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_days(bloom_day :: [integer], m :: integer, k :: integer) :: integer\n  def min_days(bloom_day, m, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_days(BloomDay :: [integer()], M :: integer(), K :: integer()) -> integer().\nmin_days(BloomDay, M, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-days bloomDay m k)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:18:45.866712+01:00",
+    "AcRate": "55.9",
+    "TotalSubmissions": 795465,
+    "TotalAccepted": 444584,
+    "AcceptanceRate": 0.558898254480084,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an integer array bloomDay, an integer m and an integer k.\nYou want to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.\nThe garden consists of n flowers, the i^th flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.\nReturn the minimum number of days you need to wait to be able to make m bouquets from the garden. If it is impossible to make m bouquets return -1.\n\u00a0\nExample 1:\nInput: bloomDay = [1,10,3,10,2], m = 3, k = 1\nOutput: 3\nExplanation: Let us see what happened in the first three days. x means flower bloomed and _ means flower did not bloom in the garden.\nWe need 3 bouquets each should contain 1 flower.\nAfter day 1: [x, _, _, _, _]   // we can only make one bouquet.\nAfter day 2: [x, _, _, _, x]   // we can only make two bouquets.\nAfter day 3: [x, _, x, _, x]   // we can make 3 bouquets. The answer is 3.\nExample 2:\nInput: bloomDay = [1,10,3,10,2], m = 3, k = 2\nOutput: -1\nExplanation: We need 3 bouquets each has 2 flowers, that means we need 6 flowers. We only have 5 flowers so it is impossible to get the needed bouquets and we return -1.\nExample 3:\nInput: bloomDay = [7,7,7,7,12,7,7], m = 2, k = 3\nOutput: 12\nExplanation: We need 2 bouquets each should have 3 flowers.\nHere is the garden after the 7 and 12 days:\nAfter day 7: [x, x, x, x, _, x, x]\nWe can make one bouquet of the first three flowers that bloomed. We cannot make another bouquet from the last three flowers that bloomed because they are not adjacent.\nAfter day 12: [x, x, x, x, x, x, x]\nIt is obvious that we can make two bouquets in different ways.\n\u00a0\nConstraints:\n\tbloomDay.length == n\n\t1 <= n <= 10^5\n\t1 <= bloomDay[i] <= 10^9\n\t1 <= m <= 10^6\n\t1 <= k <= n\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and effective way to solve this problem is by using binary search on the number of days.\n\n### Method Explanation\n\n1.  **Feasibility Check**: A crucial initial observation is that to make `m` bouquets, each requiring `k` flowers, we need a total of `m * k` flowers. If the garden has fewer flowers than this (`n < m * k`), it's impossible. In this case, we can immediately return `-1`.\n\n2.  **Monotonic Property**: The problem asks for the *minimum* number of days. This suggests a search problem. Let's consider a function, `can_make(day)`, which returns `True` if we can make `m` bouquets by a given `day`, and `False` otherwise. This function has a monotonic property: if we can make the bouquets on day `d`, we can certainly also make them on any day `d' > d` (since more flowers will have bloomed). This property (`False, False, ..., True, True, ...`) makes the problem a perfect fit for binary search on the answer (the number of days).\n\n3.  **Binary Search**:\n    *   **Search Space**: The minimum possible answer is the earliest day any flower blooms (`min(bloomDay)`), and the maximum is the day the last flower blooms (`max(bloomDay)`). We will binary search within this range `[low, high]` to find the smallest day `d` for which `can_make(d)` is `True`.\n    *   **Iteration**: In each step of the binary search, we pick a `mid` day.\n        *   If `can_make(mid)` is `True`, it means `mid` is a possible answer, but there might be an even smaller number of days that also works. So, we record `mid` as a potential answer and try to find a better one in the lower half of the search range by setting `high = mid`.\n        *   If `can_make(mid)` is `False`, we haven't waited long enough. We must search in the upper half by setting `low = mid + 1`.\n    *   **Termination**: The loop continues until `low` and `high` converge. The final value of `low` will be the minimum number of days required.\n\n4.  **`can_make(day)` Helper Function**: This function checks if `m` bouquets can be formed by a specific `day`.\n    *   It iterates through the `bloomDay` array.\n    *   It keeps a count of consecutive flowers that have bloomed by the given `day`.\n    *   When an unbloomed flower is encountered (or the end of the array is reached), it breaks the sequence of adjacent bloomed flowers. We can then calculate how many bouquets can be formed from the completed sequence of adjacent flowers (`count // k`) and add this to our total.\n    *   After the loop, the function returns `True` if the total number of bouquets we could make is at least `m`.\n\n### Complexity Analysis\n\n*   **Time Complexity**: `O(N * log(D))`, where `N` is the number of flowers and `D` is the range of bloom days (`max(bloomDay) - min(bloomDay)`). The `log(D)` factor comes from the binary search, and for each day we test, we scan the entire `bloomDay` array once, which takes `O(N)` time.\n*   **Space Complexity**: `O(1)`, as we only use a few variables to store state during the search, requiring constant extra space.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        n = len(bloomDay)\n        \n        # If the total flowers required is more than available, it is impossible.\n        if m * k > n:\n            return -1\n\n        def can_make(day: int) -> bool:\n            \"\"\"Checks if it's possible to make m bouquets by a given day.\"\"\"\n            bouquets = 0\n            flowers = 0\n            for d in bloomDay:\n                if d <= day:\n                    flowers += 1\n                else:\n                    bouquets += flowers // k\n                    flowers = 0\n            \n            bouquets += flowers // k\n            return bouquets >= m\n\n        # Binary search for the minimum number of days.\n        low, high = min(bloomDay), max(bloomDay)\n        \n        # When the loop terminates, 'low' will be the first day that works.\n        while low < high:\n            mid = low + (high - low) // 2\n            if can_make(mid):\n                # This day works, try to find an even earlier day.\n                high = mid\n            else:\n                # This day does not work, we need to wait longer.\n                low = mid + 1\n        \n        return low\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        n = len(bloomDay)\n        \n        # If the total flowers required is more than available, it is impossible.\n        if m * k > n:\n            return -1\n\n        def can_make(day: int) -> bool:\n            \"\"\"Checks if it's possible to make m bouquets by a given day.\"\"\"\n            bouquets = 0\n            flowers = 0\n            for d in bloomDay:\n                if d <= day:\n                    flowers += 1\n                else:\n                    bouquets += flowers // k\n                    flowers = 0\n            \n            bouquets += flowers // k\n            return bouquets >= m\n\n        # Binary search for the minimum number of days.\n        low, high = min(bloomDay), max(bloomDay)\n        \n        # When the loop terminates, 'low' will be the first day that works.\n        while low < high:\n            mid = low + (high - low) // 2\n            if can_make(mid):\n                # This day works, try to find an even earlier day.\n                high = mid\n            else:\n                # This day does not work, we need to wait longer.\n                low = mid + 1\n        \n        return low\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 106822029000,
+      "SolvedAt": "2025-11-20T17:29:59.942486+01:00",
+      "PromptTokens": 793,
+      "OutputTokens": 13786
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1605",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        n = len(bloomDay)\n        \n        # If the total flowers required is more than available, it is impossible.\n        if m * k > n:\n            return -1\n\n        def can_make(day: int) -> bool:\n            \"\"\"Checks if it's possible to make m bouquets by a given day.\"\"\"\n            bouquets = 0\n            flowers = 0\n            for d in bloomDay:\n                if d <= day:\n                    flowers += 1\n                else:\n                    bouquets += flowers // k\n                    flowers = 0\n            \n            bouquets += flowers // k\n            return bouquets >= m\n\n        # Binary search for the minimum number of days.\n        low, high = min(bloomDay), max(bloomDay)\n        \n        # When the loop terminates, 'low' will be the first day that works.\n        while low < high:\n            mid = low + (high - low) // 2\n            if can_make(mid):\n                # This day works, try to find an even earlier day.\n                high = mid\n            else:\n                # This day does not work, we need to wait longer.\n                low = mid + 1\n        \n        return low\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:13:35+01:00"
+    }
+  }
+}

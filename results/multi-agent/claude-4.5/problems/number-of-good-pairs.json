@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1512",
+        "questionId": "1635",
+        "Content": "<p>Given an array of integers <code>nums</code>, return <em>the number of <strong>good pairs</strong></em>.</p>\n\n<p>A pair <code>(i, j)</code> is called <em>good</em> if <code>nums[i] == nums[j]</code> and <code>i</code> &lt; <code>j</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,1,1,3]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,1,1]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> Each pair in the array are <em>good</em>.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3]\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,1,1,3]",
+        "ExampleTestcases": "[1,2,3,1,1,3]\n[1,1,1,1]\n[1,2,3]",
+        "Difficulty": "Easy",
+        "Title": "Number of Good Pairs",
+        "TitleSlug": "number-of-good-pairs",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"992.2K\", \"totalSubmission\": \"1.1M\", \"totalAcceptedRaw\": 992198, \"totalSubmissionRaw\": 1106298, \"acRate\": \"89.7%\"}",
+        "Likes": 5779,
+        "Dislikes": 284,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numIdenticalPairs(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numIdenticalPairs(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numIdenticalPairs(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar numIdenticalPairs = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numIdenticalPairs(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumIdenticalPairs(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numIdenticalPairs(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numIdenticalPairs(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numIdenticalPairs(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numIdenticalPairs(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn num_identical_pairs(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef num_identical_pairs(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function numIdenticalPairs($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numIdenticalPairs(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numIdenticalPairs(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec num_identical_pairs(nums :: [integer]) :: integer\n  def num_identical_pairs(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec num_identical_pairs(Nums :: [integer()]) -> integer().\nnum_identical_pairs(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (num-identical-pairs nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:17:26.794427+01:00",
+    "AcRate": "89.7",
+    "TotalSubmissions": 1106298,
+    "TotalAccepted": 992198,
+    "AcceptanceRate": 0.8968632321490232,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-good-pairs/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to:\n\n1. **Problem Type Classification**: Array, Hash Map/Dictionary, Counting\n2. **Key Patterns & Algorithms**: Frequency counting, combinatorics (pairs from same elements)\n3. **Constraints Analysis**: With n \u2264 100, O(n\u00b2) brute force is acceptable, but O(n) with hash map is better\n4. **Edge Cases**: \n   - Single element array (no pairs)\n   - All elements identical\n   - All elements unique\n   - Array with only 2 elements\n5. **Input/Output Analysis**: Input is list of integers, output is count of valid pairs\n6. **Difficulty Assessment**: Easy - straightforward counting problem\n\n**Solution Approach**:\nFor each unique value in the array, if it appears k times, the number of pairs is k*(k-1)/2 (combination formula). I'll use a hash map to count frequencies, then calculate pairs for each frequency.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 12322497084,
+      "SolvedAt": "2025-11-19T23:48:44.17905+01:00",
+      "PromptTokens": 3678,
+      "OutputTokens": 640
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1635",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        count = {}\n        for num in nums:\n            count[num] = count.get(num, 0) + 1\n        \n        result = 0\n        for freq in count.values():\n            result += freq * (freq - 1) // 2\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T10:33:39+01:00"
+    }
+  }
+}

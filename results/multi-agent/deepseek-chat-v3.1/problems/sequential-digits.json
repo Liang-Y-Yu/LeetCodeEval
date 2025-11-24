@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1291",
+        "questionId": "1212",
+        "Content": "<p>An&nbsp;integer has <em>sequential digits</em> if and only if each digit in the number is one more than the previous digit.</p>\n\n<p>Return a <strong>sorted</strong> list of all the integers&nbsp;in the range <code>[low, high]</code>&nbsp;inclusive that have sequential digits.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> low = 100, high = 300\n<strong>Output:</strong> [123,234]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> low = 1000, high = 13000\n<strong>Output:</strong> [1234,2345,3456,4567,5678,6789,12345]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>10 &lt;= low &lt;= high &lt;= 10^9</code></li>\n</ul>\n",
+        "SampleTestCase": "100\n300",
+        "ExampleTestcases": "100\n300\n1000\n13000",
+        "Difficulty": "Medium",
+        "Title": "Sequential Digits",
+        "TitleSlug": "sequential-digits",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"232.4K\", \"totalSubmission\": \"355.9K\", \"totalAcceptedRaw\": 232449, \"totalSubmissionRaw\": 355875, \"acRate\": \"65.3%\"}",
+        "Likes": 2911,
+        "Dislikes": 177,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY2",
+            "Name": "Enumeration",
+            "Slug": "enumeration"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> sequentialDigits(int low, int high) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<Integer> sequentialDigits(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def sequentialDigits(self, low, high):\n        \"\"\"\n        :type low: int\n        :type high: int\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} low\n * @param {number} high\n * @return {number[]}\n */\nvar sequentialDigits = function(low, high) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function sequentialDigits(low: number, high: number): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<int> SequentialDigits(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sequentialDigits(int low, int high, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func sequentialDigits(low int, high int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun sequentialDigits(low: Int, high: Int): List<Int> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func sequentialDigits(_ low: Int, _ high: Int) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn sequential_digits(low: i32, high: i32) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} low\n# @param {Integer} high\n# @return {Integer[]}\ndef sequential_digits(low, high)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $low\n     * @param Integer $high\n     * @return Integer[]\n     */\n    function sequentialDigits($low, $high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> sequentialDigits(int low, int high) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def sequentialDigits(low: Int, high: Int): List[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec sequential_digits(low :: integer, high :: integer) :: [integer]\n  def sequential_digits(low, high) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec sequential_digits(Low :: integer(), High :: integer()) -> [integer()].\nsequential_digits(Low, High) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (sequential-digits low high)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:39:25.347942+01:00",
+    "AcRate": "65.3",
+    "TotalSubmissions": 355875,
+    "TotalAccepted": 232449,
+    "AcceptanceRate": 0.6531759747102213,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/sequential-digits/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**: This problem falls under the category of **Enumeration** (generating numbers with a specific property) and **String/Number Manipulation**.\n\n2. **Key Patterns & Algorithms**: \n   - The key observation is that sequential digits numbers are limited and can be generated by starting with a digit (1-9) and building the number by appending the next digit (if <=9) repeatedly.\n   - We can generate all possible sequential numbers by iterating over possible starting digits (1 to 9) and possible lengths (2 to 10, since numbers have at most 10 digits). Alternatively, we can use a sliding window approach over the string \"123456789\".\n   - Since the constraints (low and high) are up to 10^9, the total number of sequential digits numbers is small (only 36 possible) because the maximum length is 10 digits. So we can generate all possible sequential numbers and then filter those within [low, high].\n\n3. **Constraints Analysis**:\n   - The maximum number of sequential digits numbers is 36 (for all lengths from 2 to 10: 8+7+6+5+4+3+2+1 = 36). So generating all and filtering is efficient.\n   - Time complexity: O(1) since we generate a fixed set of numbers (36).\n   - Space complexity: O(1) for storing the result (which has at most 36 elements).\n\n4. **Edge Cases**:\n   - When low is greater than the largest sequential number (123456789) and high is even larger: output should be empty.\n   - When low is 10 and high is 10: output should be empty (since 10 is not sequential).\n   - Sequential numbers with different lengths (from 2 to 10 digits).\n\n5. **Input/Output Analysis**:\n   - Input: two integers `low` and `high`.\n   - Output: a sorted list of integers with sequential digits in the range [low, high].\n\n6. **Difficulty Assessment**: \n   - The problem is **medium** because it requires insight to generate all sequential numbers efficiently without brute-forcing all numbers in the range (which would be too slow for large inputs). However, once the generation pattern is recognized, the implementation is straightforward.\n\n**Solution Approach**:\n- Precompute all sequential numbers by iterating over starting digits (1 to 9) and for each starting digit, generate numbers of length 2 to (10 - starting digit + 1). For example, starting with 1: generate 12, 123, 1234, ... up to 123456789.\n- Collect all generated numbers that are within [low, high] and return them sorted (which they naturally are if generated in increasing order of length and starting digit).\n\nAlternatively, we can generate by sliding a window of different lengths over the string \"123456789\". For each length (from 2 to 10), slide the window from left to right and convert the substring to integer. Then check if it is in [low, high].\n\nWe'll use the sliding window method for clarity.\n\n**Code Implementation**:\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n+1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num > high:\n                    break\n                if num >= low:\n                    result.append(num)\n        return sorted(result)\n```\n\nHowever, note that the generated numbers are already in increasing order? Actually, for the same length they are increasing, and for different lengths: shorter numbers are generated first. So the list `result` is naturally sorted. But to be safe we return sorted(result). Alternatively, we can generate in sorted order by iterating over lengths and then starting index.\n\nBut wait: numbers of different lengths might not be in order? For example, 123 (length=3) is generated before 234 (length=3) and then 1234 (length=4) is generated after. But 1234 is larger than 234? So the list is not sorted. Therefore we need to sort.\n\nBut actually, the numbers generated are:\nFor length=2: 12,23,34,45,56,67,78,89\nFor length=3: 123,234,345,456,567,678,789\netc.\n\nSo within the same length they are sorted. But across lengths: all numbers of length L are less than numbers of length L+1? Actually no: for example, 89 (length=2) is 89, and 123 (length=3) is 123 which is larger. So we cannot rely on the generation order. Therefore we must sort.\n\nBut note: the problem says \"Return a sorted list\". So we sort.\n\nHowever, we can avoid sorting by generating in sorted order. How? By generating all numbers and then sorting. Since there are only 36 numbers, sorting is O(1). So it's acceptable.\n\nAlternatively, we can generate in sorted order by first generating all numbers and then sorting. Or we can generate by increasing value? Actually, the sequential numbers are strictly increasing with length and starting digit? Actually, for two numbers with different lengths: the shorter one might be larger? For example, 89 (length=2) is larger than 123 (length=3)? No, because 89 < 123. So actually, all numbers of length L are less than numbers of length L+1 (because the smallest number of length L+1 is 10^L, which is larger than the largest number of length L which is less than 10^L). Therefore, if we generate by increasing length, the entire list is sorted. So we don't need to sort.\n\nBut wait: the smallest number of length L+1 is 10^L. The largest number of length L is 10^L - 1. So indeed, all numbers of length L are less than all numbers of length L+1. Therefore, if we generate by increasing length, the list is sorted. So we can just collect and return without sorting.\n\nSo we can do:\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n+1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\nBut note: when we generate by length, we are generating all numbers of length 2, then 3, etc. So the result is sorted. However, we break early when num > high. This is efficient.\n\nLet's test with low=1000, high=13000:\nLength=2: numbers are 12,23,...89 (all <1000, so skip).\nLength=3: 123,234,...789 (all <1000? 123<1000? Actually 123<1000, so skip. 234<1000? etc. So we skip all length=2 and length=3.\nLength=4: 1234 (>=1000 and <=13000 -> add), 2345 (add), 3456 (add), 4567 (add), 5678 (add), 6789 (add), 7890? Wait, no: 7890 is not sequential because 9 and 0 are not consecutive. Actually we only generate up to 789? But wait, for length=4, the last number is 6789? Actually the substring from index 5 to 8+1? Wait, no: for length=4, the last start index is 9-4=5? So we generate from start=0 to 5: [0:4] ->1234, [1:5]->2345, [2:6]->3456, [3:7]->4567, [4:8]->5678, [5:9]->6789.\nThen length=5: 12345 (<=13000, add), 23456 (>13000? 23456>13000, so we break after the first one? Actually we check: 12345<=13000 -> add. Then next: 23456>13000 -> break.\nSo we get [1234,2345,3456,4567,5678,6789,12345] which is correct.\n\nTherefore, the code is correct.\n\nFinal code without sorting:\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n+1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\nBut wait: what if low is very large? For example, low=1000000000. Then we skip all numbers with length less than 10. And we generate only the number 123456789. So it's efficient.\n\nWe'll implement this.\n\nNote: we can also start from the minimum length required (e.g., len(str(low))) to max length (len(str(high))), but it doesn't matter much since the total is small.\n\nLet's write the code accordingly.\n```\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(len(str(low)), len(str(high)) + 1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\nBut wait: what if the required length is not exactly the length of low? For example, low=100, which has length=3. But there are sequential numbers of length=2 (like 12) that are less than low? So we should not skip length=2? Actually, we are generating from len(str(low)) to len(str(high)). So for low=100, we generate from length=3 to length=3 (since high=300 has length=3). But we miss length=2? But no, because length=2 numbers are all less than 100? So they are not in the range. So it is correct.\n\nBut what if low=10? Then len(str(low))=2. So we generate length=2. Correct.\n\nWhat if high=1000? Then len(str(high))=4. So we generate length=2,3,4? But wait, we generate from len(str(low)) to len(str(high))). So if low=10 and high=1000, we generate length=2,3,4. Correct.\n\nBut note: the maximum length is 10. So if high=10^9 (which has length=10), we generate up to length=10.\n\nSo this is efficient.\n\nHowever, the first approach (generating all lengths from 2 to 10) is also acceptable since it's only 36 numbers. So we can use either.\n\nWe'll use the first approach for simplicity.\n\nFinal code:\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n+1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\nThis code is efficient and correct.\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Generate all sequential numbers by sliding a window of varying lengths over the string \"123456789\".\n\n**Step-by-Step Approach**:\n1. Use the string \"123456789\" as the base for generating sequential numbers.\n2. Iterate over all possible lengths of sequential numbers (from 2 to 10).\n3. For each length, slide the window from the start to the end of the string, generating each substring of that length.\n4. Convert each substring to an integer and check if it lies within the range [low, high].\n5. If the number is less than low, skip it.\n6. If the number is greater than high, break out of the inner loop (since subsequent numbers will be larger).\n7. Collect all valid numbers and return them.\n\n**Data Structures**: A list to store the result.\n\n**Time Complexity**: O(1) since there are only 36 sequential numbers.\n\n**Space Complexity**: O(1) for storing the result (max 36 elements).\n\n**Pseudocode**:\n```\ns = \"123456789\"\nresult = []\nfor length from 2 to len(s):\n    for start from 0 to len(s) - length:\n        num = integer value of substring(s, start, start+length)\n        if num < low: continue\n        if num > high: break\n        append num to result\nreturn result\n```\n\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n+1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start+length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n + 1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start + length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n + 1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start + length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n + 1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start + length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 89806049541,
+      "SolvedAt": "2025-11-21T00:35:09.119172+01:00",
+      "PromptTokens": 10732,
+      "OutputTokens": 3234
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1212",
+        "typed_code": "\nclass Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        s = \"123456789\"\n        n = len(s)\n        result = []\n        for length in range(2, n + 1):\n            for start in range(0, n - length + 1):\n                num = int(s[start:start + length])\n                if num < low:\n                    continue\n                if num > high:\n                    break\n                result.append(num)\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:10:24+01:00"
+    }
+  }
+}

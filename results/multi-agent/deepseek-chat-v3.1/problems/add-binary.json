@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "67",
+        "questionId": "67",
+        "Content": "<p>Given two binary strings <code>a</code> and <code>b</code>, return <em>their sum as a binary string</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> a = \"11\", b = \"1\"\n<strong>Output:</strong> \"100\"\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> a = \"1010\", b = \"1011\"\n<strong>Output:</strong> \"10101\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= a.length, b.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>a</code> and <code>b</code> consist&nbsp;only of <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code> characters.</li>\n\t<li>Each string does not contain leading zeros except for the zero itself.</li>\n</ul>\n",
+        "SampleTestCase": "\"11\"\n\"1\"",
+        "ExampleTestcases": "\"11\"\n\"1\"\n\"1010\"\n\"1011\"",
+        "Difficulty": "Easy",
+        "Title": "Add Binary",
+        "TitleSlug": "add-binary",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.1M\", \"totalSubmission\": \"3.6M\", \"totalAcceptedRaw\": 2056320, \"totalSubmissionRaw\": 3643832, \"acRate\": \"56.4%\"}",
+        "Likes": 10260,
+        "Dislikes": 1081,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string addBinary(string a, string b) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String addBinary(String a, String b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def addBinary(self, a, b):\n        \"\"\"\n        :type a: str\n        :type b: str\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} a\n * @param {string} b\n * @return {string}\n */\nvar addBinary = function(a, b) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function addBinary(a: string, b: string): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string AddBinary(string a, string b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* addBinary(char* a, char* b) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func addBinary(a string, b string) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun addBinary(a: String, b: String): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func addBinary(_ a: String, _ b: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn add_binary(a: String, b: String) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} a\n# @param {String} b\n# @return {String}\ndef add_binary(a, b)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $a\n     * @param String $b\n     * @return String\n     */\n    function addBinary($a, $b) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String addBinary(String a, String b) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def addBinary(a: String, b: String): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec add_binary(a :: String.t, b :: String.t) :: String.t\n  def add_binary(a, b) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec add_binary(A :: unicode:unicode_binary(), B :: unicode:unicode_binary()) -> unicode:unicode_binary().\nadd_binary(A, B) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (add-binary a b)\n  (-> string? string? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:35:22.219927+01:00",
+    "AcRate": "56.4",
+    "TotalSubmissions": 3643832,
+    "TotalAccepted": 2056320,
+    "AcceptanceRate": 0.5643289811385377,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/add-binary/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**: This problem falls under the category of **String Manipulation** and **Simulation**. It involves processing two binary strings and performing addition similar to how it's done manually.\n\n2. **Key Patterns & Algorithms**: The most relevant technique is **Two Pointers** (to traverse the strings from right to left) along with **Carry Handling**. The algorithm simulates binary addition digit by digit, handling carry-over appropriately.\n\n3. **Constraints Analysis**: The constraints (strings up to 10^4 characters) require an efficient solution. The algorithm must run in O(max(n, m)) time and O(max(n, m)) space, where n and m are the lengths of the strings. This is acceptable as we need to process each digit once.\n\n4. **Edge Cases**:\n   - One string is longer than the other.\n   - Both strings are empty (but constraints say at least length 1).\n   - Addition results in an extra carry (e.g., \"1\" + \"1\" = \"10\").\n   - Strings with leading zeros (but constraints say no leading zeros except for zero itself).\n\n5. **Input/Output Analysis**: The input consists of two binary strings. The output is their sum as a binary string without leading zeros (unless the result is zero).\n\n6. **Difficulty Assessment**: This problem is easy. The challenge lies in handling the carry correctly and efficiently processing the strings from right to left. Also, managing different string lengths and the final carry requires attention.\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n```\n\n=== DESIGN ===\nGiven the problem of adding two binary strings without leading zeros (except for zero itself) and the constraints that the strings can be up to 10^4 characters long, we need an efficient solution.\n\n### Algorithm Choice:\n- We will use a two-pointer technique to traverse both strings from right to left (least significant bit to most significant bit), simulating binary addition digit by digit.\n- We will handle the carry appropriately at each step.\n- Since the strings might be of different lengths, we will pad the shorter string with zeros during the traversal.\n- The result is built in reverse order and then reversed at the end to get the correct binary string.\n\n### Step-by-Step Approach:\n1. Initialize two pointers `i` and `j` to the last index of strings `a` and `b` respectively.\n2. Initialize a `carry` variable to 0.\n3. Create an empty list `result` to collect the digits of the sum (in reverse order).\n4. Loop while there are digits left in `a` or `b` or there is a non-zero carry.\n   - For each iteration, get the current digit of `a` (if exists) and convert to integer. If the pointer is out of bounds, use 0.\n   - Similarly, get the current digit of `b` (if exists) and convert to integer. If the pointer is out of bounds, use 0.\n   - Compute the `total` sum of the two digits and the carry.\n   - The new carry is `total // 2`.\n   - The current digit to be added to the result is `total % 2`.\n   - Append the current digit (as a string) to the result list.\n   - Decrement both pointers.\n5. After the loop, the result list has the digits in reverse order. Reverse the list and join to form the binary string.\n\n### Data Structures:\n- We use a list to collect the digits (which is efficient for appending and later reversing) instead of string concatenation (which is O(n^2) in worst-case.\n\n### Time Complexity:\n- O(max(n, m)) where n and m are the lengths of `a` and `b`. We traverse each digit exactly once.\n\n### Space Complexity:\n- O(max(n, m)) for the result list. The output string has at most max(n, m) + 1 digits.\n\n### Pseudocode:\n```\nfunction addBinary(a, b):\n    i = len(a) - 1\n    j = len(b) - 1\n    carry = 0\n    result = empty list\n    \n    while i >= 0 OR j >= 0 OR carry != 0:\n        digitA = a[i] converted to integer if i >= 0, else 0\n        digitB = b[j] converted to integer if j >= 0, else 0\n        total = digitA + digitB + carry\n        carry = total // 2\n        append (total % 2) as string to result\n        decrement i and j\n    \n    reverse the result list and join into a string\n    return the string\n```\n\nNow, we write the code accordingly.\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n```\n\n=== VERIFICATION ===\nThe solution provided is correct and meets all requirements. Let's verify it step by step:\n\n**1. Correctness:**  \nThe code correctly implements the designed algorithm for binary addition. It processes each digit from right to left, handles carry properly, and builds the result in reverse order before returning the reversed string.\n\n**2. Edge Cases:**  \n- Different lengths: Handled by using `0` when a pointer goes out of bounds.\n- Final carry: The loop continues until both strings are processed and there is no carry left.\n- Leading zeros: The result never has leading zeros because if the final carry is 0, it doesn't add an extra digit. If the result is zero, it would return \"0\" (which is correct).\n\n**3. Complexity:**  \nTime: O(max(n, m)) - We iterate through each digit once.  \nSpace: O(max(n, m)) - The result list holds at most max(n, m) + 1 digits.\n\n**4. Code Quality:**  \nThe code is clean, readable, and efficient. It uses a list to collect digits (avoiding expensive string concatenation) and reverses only once at the end.\n\n**5. Test Cases:**  \nExample 1: a=\"11\", b=\"1\"  \n- i=1, j=0, carry=0 -> digits: 1 and 1 -> total=2 -> carry=1, digit=0 -> result: ['0']  \n- i=0, j=-1, carry=1 -> digits: 1 and 0 -> total=2 -> carry=1, digit=0 -> result: ['0','0']  \n- i=-1, j=-1, carry=1 -> digits: 0 and 0 -> total=1 -> carry=0, digit=1 -> result: ['0','0','1']  \nReversed: \"100\" \u2705\n\nExample 2: a=\"1010\", b=\"1011\"  \n- Step-by-step addition yields \"10101\" \u2705\n\n**6. Potential Issues:**  \nNone. The solution is optimal and handles all constraints.\n\n**Final Verdict:** The solution is valid and correct.\n\n```python\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 46353437667,
+      "SolvedAt": "2025-11-20T23:31:42.79197+01:00",
+      "PromptTokens": 5091,
+      "OutputTokens": 2036
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "67",
+        "typed_code": "\nclass Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        i = len(a) - 1\n        j = len(b) - 1\n        carry = 0\n        result = []\n        \n        while i >= 0 or j >= 0 or carry:\n            digit_a = int(a[i]) if i >= 0 else 0\n            digit_b = int(b[j]) if j >= 0 else 0\n            total = digit_a + digit_b + carry\n            carry = total // 2\n            result.append(str(total % 2))\n            i -= 1\n            j -= 1\n        \n        return ''.join(result)[::-1]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T00:52:55+01:00"
+    }
+  }
+}

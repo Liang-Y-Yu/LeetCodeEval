@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "735",
+        "questionId": "735",
+        "Content": "<p>We are given an array <code>asteroids</code> of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.</p>\n\n<p>For each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed.</p>\n\n<p>Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [5,10,-5]\n<strong>Output:</strong> [5,10]\n<strong>Explanation:</strong> The 10 and -5 collide resulting in 10. The 5 and 10 never collide.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [8,-8]\n<strong>Output:</strong> []\n<strong>Explanation:</strong> The 8 and -8 collide exploding each other.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [10,2,-5]\n<strong>Output:</strong> [10]\n<strong>Explanation:</strong> The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.\n</pre>\n\n<p><strong class=\"example\">Example 4:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [3,5,-6,2,-1,4]\u200b\u200b\u200b\u200b\u200b\u200b\u200b\n<strong>Output:</strong> [-6,2,4]\n<strong>Explanation:</strong> The asteroid -6 makes the asteroid 3 and 5 explode, and then continues going left. On the other side, the asteroid 2 makes the asteroid -1 explode and then continues going right, without reaching asteroid 4.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= asteroids.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>-1000 &lt;= asteroids[i] &lt;= 1000</code></li>\n\t<li><code>asteroids[i] != 0</code></li>\n</ul>\n",
+        "SampleTestCase": "[5,10,-5]",
+        "ExampleTestcases": "[5,10,-5]\n[8,-8]\n[10,2,-5]\n[3,5,-6,2,-1,4]",
+        "Difficulty": "Medium",
+        "Title": "Asteroid Collision",
+        "TitleSlug": "asteroid-collision",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"911.5K\", \"totalSubmission\": \"2M\", \"totalAcceptedRaw\": 911454, \"totalSubmissionRaw\": 1966607, \"acRate\": \"46.3%\"}",
+        "Likes": 9056,
+        "Dislikes": 1285,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> asteroidCollision(vector<int>& asteroids) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] asteroidCollision(int[] asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def asteroidCollision(self, asteroids):\n        \"\"\"\n        :type asteroids: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} asteroids\n * @return {number[]}\n */\nvar asteroidCollision = function(asteroids) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function asteroidCollision(asteroids: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] AsteroidCollision(int[] asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* asteroidCollision(int* asteroids, int asteroidsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func asteroidCollision(asteroids []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun asteroidCollision(asteroids: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func asteroidCollision(_ asteroids: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn asteroid_collision(asteroids: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} asteroids\n# @return {Integer[]}\ndef asteroid_collision(asteroids)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $asteroids\n     * @return Integer[]\n     */\n    function asteroidCollision($asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> asteroidCollision(List<int> asteroids) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def asteroidCollision(asteroids: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec asteroid_collision(asteroids :: [integer]) :: [integer]\n  def asteroid_collision(asteroids) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec asteroid_collision(Asteroids :: [integer()]) -> [integer()].\nasteroid_collision(Asteroids) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (asteroid-collision asteroids)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:04:02.281155+01:00",
+    "AcRate": "46.3",
+    "TotalSubmissions": 1966607,
+    "TotalAccepted": 911454,
+    "AcceptanceRate": 0.46346524750496665,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/asteroid-collision/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it thoroughly and then provide a solution.\n\n## Analysis:\n\n1. **Problem Type Classification**: Stack-based simulation problem\n2. **Key Patterns & Algorithms**: Stack data structure - asteroids moving right are candidates for collision with asteroids moving left\n3. **Constraints Analysis**: With n \u2264 10^4, O(n) time and O(n) space is acceptable\n4. **Edge Cases**: \n   - All asteroids moving same direction\n   - Alternating directions\n   - Equal size collisions\n   - Chain reactions\n5. **Input/Output Analysis**: Array of integers \u2192 Array of integers (surviving asteroids)\n6. **Difficulty Assessment**: Managing the collision logic and chain reactions correctly\n\n## Solution Approach:\n\nUse a stack to track asteroids:\n- If asteroid is moving right (+), push to stack\n- If asteroid is moving left (-):\n  - If stack empty or top is also negative, no collision - add it\n  - Otherwise, handle collisions with positive asteroids on stack\n  - Keep colliding until current asteroid is destroyed, or all conflicting asteroids are destroyed\n\n```python\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 15700328251,
+      "SolvedAt": "2025-11-19T23:20:54.181387+01:00",
+      "PromptTokens": 4966,
+      "OutputTokens": 862
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "735",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        \n        for asteroid in asteroids:\n            if asteroid > 0:\n                stack.append(asteroid)\n            else:\n                while stack and stack[-1] > 0 and stack[-1] < abs(asteroid):\n                    stack.pop()\n                \n                if not stack or stack[-1] < 0:\n                    stack.append(asteroid)\n                elif stack[-1] == abs(asteroid):\n                    stack.pop()\n        \n        return stack\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:12:21+01:00"
+    }
+  }
+}

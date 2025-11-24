@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "567",
+        "questionId": "567",
+        "Content": "<p>Given two strings <code>s1</code> and <code>s2</code>, return <code>true</code> if <code>s2</code> contains a <span data-keyword=\"permutation-string\">permutation</span> of <code>s1</code>, or <code>false</code> otherwise.</p>\n\n<p>In other words, return <code>true</code> if one of <code>s1</code>&#39;s permutations is the substring of <code>s2</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidbaooo&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> s2 contains one permutation of s1 (&quot;ba&quot;).\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidboaoo&quot;\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s1.length, s2.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s1</code> and <code>s2</code> consist of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"ab\"\n\"eidbaooo\"",
+        "ExampleTestcases": "\"ab\"\n\"eidbaooo\"\n\"ab\"\n\"eidboaoo\"",
+        "Difficulty": "Medium",
+        "Title": "Permutation in String",
+        "TitleSlug": "permutation-in-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.4M\", \"totalSubmission\": \"2.8M\", \"totalAcceptedRaw\": 1352397, \"totalSubmissionRaw\": 2818928, \"acRate\": \"48.0%\"}",
+        "Likes": 12687,
+        "Dislikes": 510,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkInclusion(string s1, string s2) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkInclusion(String s1, String s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkInclusion(self, s1, s2):\n        \"\"\"\n        :type s1: str\n        :type s2: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar checkInclusion = function(s1, s2) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkInclusion(s1: string, s2: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckInclusion(string s1, string s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkInclusion(char* s1, char* s2) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkInclusion(s1 string, s2 string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkInclusion(s1: String, s2: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkInclusion(_ s1: String, _ s2: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_inclusion(s1: String, s2: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s1\n# @param {String} s2\n# @return {Boolean}\ndef check_inclusion(s1, s2)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @return Boolean\n     */\n    function checkInclusion($s1, $s2) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkInclusion(String s1, String s2) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkInclusion(s1: String, s2: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_inclusion(s1 :: String.t, s2 :: String.t) :: boolean\n  def check_inclusion(s1, s2) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_inclusion(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> boolean().\ncheck_inclusion(S1, S2) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-inclusion s1 s2)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:10:57.722161+01:00",
+    "AcRate": "48.0",
+    "TotalSubmissions": 2818928,
+    "TotalAccepted": 1352397,
+    "AcceptanceRate": 0.4797557795019951,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Analysis:\n\n1. **Problem Type Classification**: This is a String problem that involves checking for permutations (anagrams) as substrings. It falls under the category of String Matching with a focus on frequency counting and sliding window techniques.\n\n2. **Key Patterns & Algorithms**: \n   - Sliding Window: Since we are checking for contiguous substrings in s2 that are permutations of s1, a fixed-length sliding window (of length len(s1)) is ideal.\n   - Frequency Counting: We need to compare the frequency of characters in the window with the frequency of characters in s1. If they match exactly, we have found a permutation.\n\n3. **Constraints Analysis**:\n   - The lengths of s1 and s2 can be up to 10,000. This requires an efficient solution with O(n) time complexity.\n   - A brute force approach (checking every substring of length len(s1) in s2 and comparing character frequencies) would be O(n * m) which is 10^8 in worst-case, which is too slow in Python.\n   - Instead, we can use a sliding window with two frequency arrays (or dictionaries) and update the window in constant time per shift.\n\n4. **Edge Cases**:\n   - s1 is longer than s2 -> return false.\n   - s1 is empty -> return true (but constraints say at least length 1, so we can ignore).\n   - Characters in s2 not in s1? But we are counting frequencies so it's handled.\n   - Repeated characters in s1 (e.g., \"aab\") must be matched exactly.\n\n5. **Input/Output Analysis**:\n   - Input: two strings s1 and s2.\n   - Output: boolean true if there exists a substring in s2 that is a permutation of s1, else false.\n\n6. **Difficulty Assessment**: The problem is medium difficulty. The challenge is to efficiently check for the permutation without generating all permutations (which is factorial time) and without checking every substring naively. The sliding window with frequency counting is the key insight.\n\nSolution Design:\n- Precompute the frequency of each character in s1.\n- Use a sliding window of length len(s1) over s2.\n- Maintain a frequency array for the current window in s2.\n- Compare the frequency arrays for each window. If they match, return true.\n- To avoid comparing two arrays of size 26 for every window (which would be O(26 * n)), we can use a count of matches (number of characters that have the same frequency in both arrays). This allows updating in constant time per window shift.\n\nImplementation:\n- If len(s1) > len(s2): return false.\n- Initialize two arrays of size 26 (for 'a' to 'z') for s1_freq and window_freq.\n- Populate s1_freq with counts for s1.\n- Initialize the first window (first len(s1) characters of s2) and populate window_freq.\n- Check if the two arrays are equal? But we'll use a match count instead.\n- Alternatively, we can initialize a variable `matches` to 26 (number of letters) and then adjust for each character: for each index i, if s1_freq[i] == window_freq[i], then we decrement matches? Actually, we start with matches=0 and then for each index, if they are equal we increment. Then we want matches==26.\n- Actually, we can do: \n   matches = 0\n   for i in range(26):\n        if s1_freq[i] == window_freq[i]:\n            matches += 1\n   Then if matches==26, return true.\n\n- Then slide the window: for each new character added and old character removed, update window_freq and update the matches count accordingly.\n\nSteps for updating:\n   When adding a new character c (at right index):\n        index = ord(c) - ord('a')\n        window_freq[index] += 1\n        if window_freq[index] == s1_freq[index]:\n            matches += 1\n        elif window_freq[index] == s1_freq[index] + 1:\n            matches -= 1   [because it was equal before, now it becomes one more]\n\n   Similarly, when removing a character c (at left index):\n        index = ord(c) - ord('a')\n        window_freq[index] -= 1\n        if window_freq[index] == s1_freq[index]:\n            matches += 1\n        elif window_freq[index] == s1_freq[index] - 1:\n            matches -= 1\n\nBut note: we need to be careful: initially, we set up the first window and then compute matches for all 26. Then we update for each shift.\n\nAlternatively, we can initialize matches to 26 and then adjust for each character that becomes non-matching? Actually, it's easier to compute the initial matches after the first window.\n\nHowever, to avoid initial O(26) for every window, we use the incremental update.\n\nBut actually, we only have 26 letters, so comparing two arrays of size 26 is constant time. So we can simply compare the arrays for each window? That would be O(26 * n) which is 26 * 10000 = 260000, which is acceptable.\n\nBut for efficiency, we can use the matches method to avoid comparing all 26 each time.\n\nLet's code with the matches method.\n\nAlgorithm:\n   n = len(s1), m = len(s2)\n   if n > m: return False\n\n   s1_freq = [0]*26\n   window_freq = [0]*26\n   for char in s1:\n        s1_freq[ord(char)-ord('a')] += 1\n\n   # initialize the first window\n   for i in range(n):\n        window_freq[ord(s2[i])-ord('a')] += 1\n\n   matches = 0\n   for i in range(26):\n        if s1_freq[i] == window_freq[i]:\n            matches += 1\n\n   if matches == 26:\n        return True\n\n   # now slide the window\n   for i in range(n, m):\n        left_char = s2[i-n]\n        right_char = s2[i]\n        left_index = ord(left_char) - ord('a')\n        right_index = ord(right_char) - ord('a')\n\n        # remove left_char\n        window_freq[left_index] -= 1\n        if window_freq[left_index] == s1_freq[left_index]:\n            matches += 1\n        elif window_freq[left_index] == s1_freq[left_index] - 1:\n            matches -= 1\n\n        # add right_char\n        window_freq[right_index] += 1\n        if window_freq[right_index] == s1_freq[right_index]:\n            matches += 1\n        elif window_freq[right_index] == s1_freq[right_index] + 1:\n            matches -= 1\n\n        if matches == 26:\n            return True\n\n   return False\n\nBut note: when we remove, we might have changed from equal to not equal? Actually, we should check the state before and after.\n\nAlternatively, we can do:\n\n        # remove left_char\n        if window_freq[left_index] == s1_freq[left_index]:\n            matches -= 1   # because we are going to change it\n        window_freq[left_index] -= 1\n        if window_freq[left_index] == s1_freq[left_index]:\n            matches += 1\n\n        # similarly for right\n        if window_freq[right_index] == s1_freq[right_index]:\n            matches -= 1\n        window_freq[right_index] += 1\n        if window_freq[right_index] == s1_freq[right_index]:\n            matches += 1\n\nThis is more straightforward.\n\nSo the update for left_char:\n   before removing, if it was equal, we decrement matches because it will become unequal.\n   then remove, and if it becomes equal again, we increment.\n\nSimilarly for right_char.\n\nCode Implementation:\n\nWe'll use this method.\n\nLet's code accordingly.\n```python\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n = len(s1)\n        m = len(s2)\n        if n > m:\n            return False\n        \n        s1_freq = [0] * 26\n        window_freq = [0] * 26\n        for char in s1:\n            s1_freq[ord(char) - ord('a')] += 1\n        \n        for i in range(n):\n            window_freq[ord(s2[i]) - ord('a')] += 1\n        \n        matches = 0\n        for i in range(26):\n            if s1_freq[i] == window_freq[i]:\n                matches += 1\n        \n        if matches == 26:\n            return True\n        \n        for i in range(n, m):\n            left_char = s2[i - n]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches -= 1\n            window_freq[left_idx] -= 1\n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches += 1\n            \n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches -= 1\n            window_freq[right_idx] += 1\n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches += 1\n            \n            if matches == 26:\n                return True\n        \n        return False\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n = len(s1)\n        m = len(s2)\n        if n > m:\n            return False\n        \n        s1_freq = [0] * 26\n        window_freq = [0] * 26\n        for char in s1:\n            s1_freq[ord(char) - ord('a')] += 1\n        \n        for i in range(n):\n            window_freq[ord(s2[i]) - ord('a')] += 1\n        \n        matches = 0\n        for i in range(26):\n            if s1_freq[i] == window_freq[i]:\n                matches += 1\n        \n        if matches == 26:\n            return True\n        \n        for i in range(n, m):\n            left_char = s2[i - n]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches -= 1\n            window_freq[left_idx] -= 1\n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches += 1\n            \n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches -= 1\n            window_freq[right_idx] += 1\n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches += 1\n            \n            if matches == 26:\n                return True\n        \n        return False\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n = len(s1)\n        m = len(s2)\n        if n > m:\n            return False\n        \n        s1_freq = [0] * 26\n        window_freq = [0] * 26\n        for char in s1:\n            s1_freq[ord(char) - ord('a')] += 1\n        \n        for i in range(n):\n            window_freq[ord(s2[i]) - ord('a')] += 1\n        \n        matches = 0\n        for i in range(26):\n            if s1_freq[i] == window_freq[i]:\n                matches += 1\n        \n        if matches == 26:\n            return True\n        \n        for i in range(n, m):\n            left_char = s2[i - n]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches -= 1\n            window_freq[left_idx] -= 1\n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches += 1\n            \n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches -= 1\n            window_freq[right_idx] += 1\n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches += 1\n            \n            if matches == 26:\n                return True\n        \n        return False\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        s1_len, s2_len = len(s1), len(s2)\n        if s1_len > s2_len:\n            return False\n        \n        s1_count = [0] * 26\n        s2_window_count = [0] * 26\n        \n        for char in s1:\n            s1_count[ord(char) - ord('a')] += 1\n            \n        for i in range(s1_len):\n            s2_window_count[ord(s2[i]) - ord('a')] += 1\n            \n        matches = 0\n        for i in range(26):\n            if s1_count[i] == s2_window_count[i]:\n                matches += 1\n                \n        if matches == 26:\n            return True\n            \n        for i in range(s1_len, s2_len):\n            left_char = s2[i - s1_len]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if s2_window_count[left_idx] == s1_count[left_idx]:\n                matches -= 1\n            s2_window_count[left_idx] -= 1\n            if s2_window_count[left_idx] == s1_count[left_idx]:\n                matches += 1\n                \n            if s2_window_count[right_idx] == s1_count[right_idx]:\n                matches -= 1\n            s2_window_count[right_idx] += 1\n            if s2_window_count[right_idx] == s1_count[right_idx]:\n                matches += 1\n                \n            if matches == 26:\n                return True\n                \n        return False\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n = len(s1)\n        m = len(s2)\n        if n > m:\n            return False\n        \n        s1_freq = [0] * 26\n        window_freq = [0] * 26\n        for char in s1:\n            s1_freq[ord(char) - ord('a')] += 1\n        \n        for i in range(n):\n            window_freq[ord(s2[i]) - ord('a')] += 1\n        \n        matches = 0\n        for i in range(26):\n            if s1_freq[i] == window_freq[i]:\n                matches += 1\n        \n        if matches == 26:\n            return True\n        \n        for i in range(n, m):\n            left_char = s2[i - n]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches -= 1\n            window_freq[left_idx] -= 1\n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches += 1\n            \n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches -= 1\n            window_freq[right_idx] += 1\n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches += 1\n            \n            if matches == 26:\n                return True\n        \n        return False\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 42673681084,
+      "SolvedAt": "2025-11-21T00:26:05.995902+01:00",
+      "PromptTokens": 9327,
+      "OutputTokens": 3158
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "567",
+        "typed_code": "\nclass Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        n = len(s1)\n        m = len(s2)\n        if n > m:\n            return False\n        \n        s1_freq = [0] * 26\n        window_freq = [0] * 26\n        for char in s1:\n            s1_freq[ord(char) - ord('a')] += 1\n        \n        for i in range(n):\n            window_freq[ord(s2[i]) - ord('a')] += 1\n        \n        matches = 0\n        for i in range(26):\n            if s1_freq[i] == window_freq[i]:\n                matches += 1\n        \n        if matches == 26:\n            return True\n        \n        for i in range(n, m):\n            left_char = s2[i - n]\n            right_char = s2[i]\n            left_idx = ord(left_char) - ord('a')\n            right_idx = ord(right_char) - ord('a')\n            \n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches -= 1\n            window_freq[left_idx] -= 1\n            if window_freq[left_idx] == s1_freq[left_idx]:\n                matches += 1\n            \n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches -= 1\n            window_freq[right_idx] += 1\n            if window_freq[right_idx] == s1_freq[right_idx]:\n                matches += 1\n            \n            if matches == 26:\n                return True\n        \n        return False\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:40:35+01:00"
+    }
+  }
+}

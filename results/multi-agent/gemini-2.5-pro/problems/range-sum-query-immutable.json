@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "303",
+        "questionId": "303",
+        "Content": "<p>Given an integer array <code>nums</code>, handle multiple queries of the following type:</p>\n\n<ol>\n\t<li>Calculate the <strong>sum</strong> of the elements of <code>nums</code> between indices <code>left</code> and <code>right</code> <strong>inclusive</strong> where <code>left &lt;= right</code>.</li>\n</ol>\n\n<p>Implement the <code>NumArray</code> class:</p>\n\n<ul>\n\t<li><code>NumArray(int[] nums)</code> Initializes the object with the integer array <code>nums</code>.</li>\n\t<li><code>int sumRange(int left, int right)</code> Returns the <strong>sum</strong> of the elements of <code>nums</code> between indices <code>left</code> and <code>right</code> <strong>inclusive</strong> (i.e. <code>nums[left] + nums[left + 1] + ... + nums[right]</code>).</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;NumArray&quot;, &quot;sumRange&quot;, &quot;sumRange&quot;, &quot;sumRange&quot;]\n[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]\n<strong>Output</strong>\n[null, 1, -1, -3]\n\n<strong>Explanation</strong>\nNumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);\nnumArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1\nnumArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1\nnumArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= left &lt;= right &lt; nums.length</code></li>\n\t<li>At most <code>10<sup>4</sup></code> calls will be made to <code>sumRange</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"NumArray\",\"sumRange\",\"sumRange\",\"sumRange\"]\n[[[-2,0,3,-5,2,-1]],[0,2],[2,5],[0,5]]",
+        "ExampleTestcases": "[\"NumArray\",\"sumRange\",\"sumRange\",\"sumRange\"]\n[[[-2,0,3,-5,2,-1]],[0,2],[2,5],[0,5]]",
+        "Difficulty": "Easy",
+        "Title": "Range Sum Query - Immutable",
+        "TitleSlug": "range-sum-query-immutable",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"816.7K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 816670, \"totalSubmissionRaw\": 1161338, \"acRate\": \"70.3%\"}",
+        "Likes": 3687,
+        "Dislikes": 1996,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class NumArray {\npublic:\n    NumArray(vector<int>& nums) {\n        \n    }\n    \n    int sumRange(int left, int right) {\n        \n    }\n};\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray* obj = new NumArray(nums);\n * int param_1 = obj->sumRange(left,right);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class NumArray {\n\n    public NumArray(int[] nums) {\n        \n    }\n    \n    public int sumRange(int left, int right) {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray obj = new NumArray(nums);\n * int param_1 = obj.sumRange(left,right);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class NumArray:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def sumRange(self, left: int, right: int) -> int:\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class NumArray(object):\n\n    def __init__(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        \"\"\"\n        \n\n    def sumRange(self, left, right):\n        \"\"\"\n        :type left: int\n        :type right: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n */\nvar NumArray = function(nums) {\n    \n};\n\n/** \n * @param {number} left \n * @param {number} right\n * @return {number}\n */\nNumArray.prototype.sumRange = function(left, right) {\n    \n};\n\n/** \n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums)\n * var param_1 = obj.sumRange(left,right)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class NumArray {\n    constructor(nums: number[]) {\n        \n    }\n\n    sumRange(left: number, right: number): number {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums)\n * var param_1 = obj.sumRange(left,right)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class NumArray {\n\n    public NumArray(int[] nums) {\n        \n    }\n    \n    public int SumRange(int left, int right) {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray obj = new NumArray(nums);\n * int param_1 = obj.SumRange(left,right);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} NumArray;\n\n\nNumArray* numArrayCreate(int* nums, int numsSize) {\n    \n}\n\nint numArraySumRange(NumArray* obj, int left, int right) {\n    \n}\n\nvoid numArrayFree(NumArray* obj) {\n    \n}\n\n/**\n * Your NumArray struct will be instantiated and called as such:\n * NumArray* obj = numArrayCreate(nums, numsSize);\n * int param_1 = numArraySumRange(obj, left, right);\n \n * numArrayFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type NumArray struct {\n    \n}\n\n\nfunc Constructor(nums []int) NumArray {\n    \n}\n\n\nfunc (this *NumArray) SumRange(left int, right int) int {\n    \n}\n\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * obj := Constructor(nums);\n * param_1 := obj.SumRange(left,right);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class NumArray(nums: IntArray) {\n\n    fun sumRange(left: Int, right: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = NumArray(nums)\n * var param_1 = obj.sumRange(left,right)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass NumArray {\n\n    init(_ nums: [Int]) {\n        \n    }\n    \n    func sumRange(_ left: Int, _ right: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * let obj = NumArray(nums)\n * let ret_1: Int = obj.sumRange(left, right)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct NumArray {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl NumArray {\n\n    fn new(nums: Vec<i32>) -> Self {\n        \n    }\n    \n    fn sum_range(&self, left: i32, right: i32) -> i32 {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * let obj = NumArray::new(nums);\n * let ret_1: i32 = obj.sum_range(left, right);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class NumArray\n\n=begin\n    :type nums: Integer[]\n=end\n    def initialize(nums)\n        \n    end\n\n\n=begin\n    :type left: Integer\n    :type right: Integer\n    :rtype: Integer\n=end\n    def sum_range(left, right)\n        \n    end\n\n\nend\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray.new(nums)\n# param_1 = obj.sum_range(left, right)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class NumArray {\n    /**\n     * @param Integer[] $nums\n     */\n    function __construct($nums) {\n        \n    }\n  \n    /**\n     * @param Integer $left\n     * @param Integer $right\n     * @return Integer\n     */\n    function sumRange($left, $right) {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * $obj = NumArray($nums);\n * $ret_1 = $obj->sumRange($left, $right);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class NumArray {\n\n  NumArray(List<int> nums) {\n    \n  }\n  \n  int sumRange(int left, int right) {\n    \n  }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray obj = NumArray(nums);\n * int param1 = obj.sumRange(left,right);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class NumArray(_nums: Array[Int]) {\n\n    def sumRange(left: Int, right: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * val obj = new NumArray(nums)\n * val param_1 = obj.sumRange(left,right)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule NumArray do\n  @spec init_(nums :: [integer]) :: any\n  def init_(nums) do\n    \n  end\n\n  @spec sum_range(left :: integer, right :: integer) :: integer\n  def sum_range(left, right) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# NumArray.init_(nums)\n# param_1 = NumArray.sum_range(left, right)\n\n# NumArray.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec num_array_init_(Nums :: [integer()]) -> any().\nnum_array_init_(Nums) ->\n  .\n\n-spec num_array_sum_range(Left :: integer(), Right :: integer()) -> integer().\nnum_array_sum_range(Left, Right) ->\n  .\n\n\n%% Your functions will be called as such:\n%% num_array_init_(Nums),\n%% Param_1 = num_array_sum_range(Left, Right),\n\n%% num_array_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define num-array%\n  (class object%\n    (super-new)\n    \n    ; nums : (listof exact-integer?)\n    (init-field\n      nums)\n    \n    ; sum-range : exact-integer? exact-integer? -> exact-integer?\n    (define/public (sum-range left right)\n      )))\n\n;; Your num-array% object will be instantiated and called as such:\n;; (define obj (new num-array% [nums nums]))\n;; (define param_1 (send obj sum-range left right))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:23:38.379362+01:00",
+    "AcRate": "70.3",
+    "TotalSubmissions": 1161338,
+    "TotalAccepted": 816670,
+    "AcceptanceRate": 0.7032147402392758,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/range-sum-query-immutable/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nimport collections\n\nclass NumArray:\n\n    def __init__(self, nums: list[int]):\n        # We precompute the prefix sums of the array.\n        # self._prefix_sums[i] will store the sum of elements from nums[0] to nums[i-1].\n        # We add a leading 0 to make the sumRange calculation simpler.\n        # This makes self._prefix_sums have a length of len(nums) + 1.\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n\n    def sumRange(self, left: int, right: int) -> int:\n        # The sum of elements from index left to right (inclusive) can be calculated\n        # as the total sum from the beginning up to index 'right' minus the total\n        # sum from the beginning up to index 'left - 1'.\n        #\n        # sum(nums[left]...nums[right]) = sum(nums[0]...nums[right]) - sum(nums[0]...nums[left-1])\n        #\n        # In our prefix sum array:\n        # sum(nums[0]...nums[right]) is stored at self._prefix_sums[right + 1]\n        # sum(nums[0]...nums[left-1]) is stored at self._prefix_sums[left]\n        \n        # This relationship holds due to our 0-padding of the prefix sum array.\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n```\n\n=== DESIGN ===\nAn elegant and efficient way to handle multiple range sum queries on a static array is to use the **Prefix Sum** technique. This approach involves pre-calculating the cumulative sums of the array elements. By doing this, we can answer any range sum query in constant time, which is a significant improvement over the naive approach of iterating through the range for each query.\n\n### 1. Algorithm Choice\nThe **Prefix Sum** algorithm is the most suitable choice. The core idea is to trade a one-time linear preprocessing cost for constant-time query operations. Given that the number of queries is high (up to 10^4), this trade-off is highly beneficial.\n\n### 2. Step-by-Step Approach\n1.  **Initialization (`__init__`)**:\n    *   Create a `prefix_sums` array of size `len(nums) + 1`. This extra space simplifies the logic for calculating range sums.\n    *   Initialize `prefix_sums[0] = 0`. This acts as a base case.\n    *   Iterate through the input `nums` from `i = 0` to `len(nums) - 1`.\n    *   For each index `i`, compute the cumulative sum: `prefix_sums[i + 1] = prefix_sums[i] + nums[i]`.\n    *   After this loop, `prefix_sums[k]` will store the sum of the first `k` elements of `nums` (i.e., sum of `nums[0...k-1]`).\n\n2.  **Query (`sumRange`)**:\n    *   The sum of elements from index `left` to `right` (inclusive) can be expressed as the difference between two prefix sums.\n    *   `sum(nums[left]...nums[right]) = sum(nums[0]...nums[right]) - sum(nums[0]...nums[left-1])`.\n    *   Using our `prefix_sums` array, this translates to: `prefix_sums[right + 1] - prefix_sums[left]`.\n    *   Return this value, which gives the desired range sum in a single operation.\n\n### 3. Data Structures\n*   An integer array (list in Python), `self.prefix_sums`, of size `N+1` (where `N` is the length of `nums`) is used to store the precomputed cumulative sums.\n\n### 4. Time Complexity\n*   **Initialization (`__init__`)**: O(N), as we iterate through the input array once to build the prefix sum array.\n*   **Query (`sumRange`)**: O(1), as each query involves only a couple of array lookups and a subtraction, which are constant-time operations.\n\n### 5. Space Complexity\n*   O(N), for storing the `prefix_sums` array.\n\n### 6. Pseudocode\n```pseudocode\nclass NumArray:\n    prefix_sums: list of integers\n\n    // Constructor: Precomputes the prefix sums\n    function __init__(nums: list of integers):\n        n = length of nums\n        self.prefix_sums = new list of size (n + 1)\n        self.prefix_sums[0] = 0\n        for i from 0 to n-1:\n            self.prefix_sums[i + 1] = self.prefix_sums[i] + nums[i]\n\n    // Query: Computes sum of a range in O(1)\n    function sumRange(left: integer, right: integer) -> integer:\n        // sum(left..right) = sum(0..right) - sum(0..left-1)\n        // sum(0..right) is stored in prefix_sums[right + 1]\n        // sum(0..left-1) is stored in prefix_sums[left]\n        return self.prefix_sums[right + 1] - self.prefix_sums[left]\n```\n\n### Python Implementation\n\n```python\nfrom typing import List\n\nclass NumArray:\n\n    def __init__(self, nums: List[int]):\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n        \n\n    def sumRange(self, left: int, right: int) -> int:\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass NumArray:\n\n    def __init__(self, nums: List[int]):\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n\n    def sumRange(self, left: int, right: int) -> int:\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass NumArray:\n\n    def __init__(self, nums: List[int]):\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n\n    def sumRange(self, left: int, right: int) -> int:\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass NumArray:\n\n    def __init__(self, nums: List[int]):\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n\n    def sumRange(self, left: int, right: int) -> int:\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 194091741875,
+      "SolvedAt": "2025-11-21T16:05:07.739693+01:00",
+      "PromptTokens": 6878,
+      "OutputTokens": 22527
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "303",
+        "typed_code": "\nfrom typing import List\n\nclass NumArray:\n\n    def __init__(self, nums: List[int]):\n        self._prefix_sums = [0] * (len(nums) + 1)\n        for i in range(len(nums)):\n            self._prefix_sums[i + 1] = self._prefix_sums[i] + nums[i]\n\n    def sumRange(self, left: int, right: int) -> int:\n        return self._prefix_sums[right + 1] - self._prefix_sums[left]\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:27:40+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "44",
+        "questionId": "44",
+        "Content": "<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code> where:</p>\n\n<ul>\n\t<li><code>&#39;?&#39;</code> Matches any single character.</li>\n\t<li><code>&#39;*&#39;</code> Matches any sequence of characters (including the empty sequence).</li>\n</ul>\n\n<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;*&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong>&nbsp;&#39;*&#39; matches any sequence.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;cb&quot;, p = &quot;?a&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong>&nbsp;&#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length, p.length &lt;= 2000</code></li>\n\t<li><code>s</code> contains only lowercase English letters.</li>\n\t<li><code>p</code> contains only lowercase English letters, <code>&#39;?&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"aa\"\n\"a\"",
+        "ExampleTestcases": "\"aa\"\n\"a\"\n\"aa\"\n\"*\"\n\"cb\"\n\"?a\"",
+        "Difficulty": "Hard",
+        "Title": "Wildcard Matching",
+        "TitleSlug": "wildcard-matching",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"800.2K\", \"totalSubmission\": \"2.6M\", \"totalAcceptedRaw\": 800213, \"totalSubmissionRaw\": 2592752, \"acRate\": \"30.9%\"}",
+        "Likes": 8960,
+        "Dislikes": 404,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isMatch(string s, string p) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isMatch(String s, String p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isMatch(self, s, p):\n        \"\"\"\n        :type s: str\n        :type p: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} p\n * @return {boolean}\n */\nvar isMatch = function(s, p) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isMatch(s: string, p: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsMatch(string s, string p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isMatch(char* s, char* p) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isMatch(s string, p string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isMatch(s: String, p: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isMatch(_ s: String, _ p: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_match(s: String, p: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} p\n# @return {Boolean}\ndef is_match(s, p)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $p\n     * @return Boolean\n     */\n    function isMatch($s, $p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isMatch(String s, String p) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isMatch(s: String, p: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_match(s :: String.t, p :: String.t) :: boolean\n  def is_match(s, p) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_match(S :: unicode:unicode_binary(), P :: unicode:unicode_binary()) -> boolean().\nis_match(S, P) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-match s p)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:36:43.785545+01:00",
+    "AcRate": "30.9",
+    "TotalSubmissions": 2592752,
+    "TotalAccepted": 800213,
+    "AcceptanceRate": 0.3086346090948922,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/wildcard-matching/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:\n\t'?' Matches any single character.\n\t'*' Matches any sequence of characters (including the empty sequence).\nThe matching should cover the entire input string (not partial).\n\u00a0\nExample 1:\nInput: s = \"aa\", p = \"a\"\nOutput: false\nExplanation: \"a\" does not match the entire string \"aa\".\nExample 2:\nInput: s = \"aa\", p = \"*\"\nOutput: true\nExplanation:\u00a0'*' matches any sequence.\nExample 3:\nInput: s = \"cb\", p = \"?a\"\nOutput: false\nExplanation:\u00a0'?' matches 'c', but the second letter is 'a', which does not match 'b'.\n\u00a0\nConstraints:\n\t0 <= s.length, p.length <= 2000\n\ts contains only lowercase English letters.\n\tp contains only lowercase English letters, '?' or '*'.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        s_len, p_len = len(s), len(p)\n        dp = [[False] * (p_len + 1) for _ in range(s_len + 1)]\n        dp[0][0] = True\n        \n        for j in range(1, p_len + 1):\n            if p[j-1] == '*':\n                dp[0][j] = dp[0][j-1]\n        \n        for i in range(1, s_len + 1):\n            for j in range(1, p_len + 1):\n                if p[j-1] == '?' or s[i-1] == p[j-1]:\n                    dp[i][j] = dp[i-1][j-1]\n                elif p[j-1] == '*':\n                    dp[i][j] = dp[i][j-1] or dp[i-1][j]\n        \n        return dp[s_len][p_len]\n```",
+      "TypedCode": "\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        s_len, p_len = len(s), len(p)\n        dp = [[False] * (p_len + 1) for _ in range(s_len + 1)]\n        dp[0][0] = True\n        \n        for j in range(1, p_len + 1):\n            if p[j-1] == '*':\n                dp[0][j] = dp[0][j-1]\n        \n        for i in range(1, s_len + 1):\n            for j in range(1, p_len + 1):\n                if p[j-1] == '?' or s[i-1] == p[j-1]:\n                    dp[i][j] = dp[i-1][j-1]\n                elif p[j-1] == '*':\n                    dp[i][j] = dp[i][j-1] or dp[i-1][j]\n        \n        return dp[s_len][p_len]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 3549009625,
+      "SolvedAt": "2025-11-20T21:29:28.350557+01:00",
+      "PromptTokens": 418,
+      "OutputTokens": 222
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "44",
+        "typed_code": "\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        s_len, p_len = len(s), len(p)\n        dp = [[False] * (p_len + 1) for _ in range(s_len + 1)]\n        dp[0][0] = True\n        \n        for j in range(1, p_len + 1):\n            if p[j-1] == '*':\n                dp[0][j] = dp[0][j-1]\n        \n        for i in range(1, s_len + 1):\n            for j in range(1, p_len + 1):\n                if p[j-1] == '?' or s[i-1] == p[j-1]:\n                    dp[i][j] = dp[i-1][j-1]\n                elif p[j-1] == '*':\n                    dp[i][j] = dp[i][j-1] or dp[i-1][j]\n        \n        return dp[s_len][p_len]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:17:05+01:00"
+    }
+  }
+}

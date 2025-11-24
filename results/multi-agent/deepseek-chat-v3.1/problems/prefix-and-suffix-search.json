@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "745",
+        "questionId": "746",
+        "Content": "<p>Design a special dictionary that searches the words in it by a prefix and a suffix.</p>\n\n<p>Implement the <code>WordFilter</code> class:</p>\n\n<ul>\n\t<li><code>WordFilter(string[] words)</code> Initializes the object with the <code>words</code> in the dictionary.</li>\n\t<li><code>f(string pref, string suff)</code> Returns <em>the index of the word in the dictionary,</em> which has the prefix <code>pref</code> and the suffix <code>suff</code>. If there is more than one valid index, return <strong>the largest</strong> of them. If there is no such word in the dictionary, return <code>-1</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;WordFilter&quot;, &quot;f&quot;]\n[[[&quot;apple&quot;]], [&quot;a&quot;, &quot;e&quot;]]\n<strong>Output</strong>\n[null, 0]\n<strong>Explanation</strong>\nWordFilter wordFilter = new WordFilter([&quot;apple&quot;]);\nwordFilter.f(&quot;a&quot;, &quot;e&quot;); // return 0, because the word at index 0 has prefix = &quot;a&quot; and suffix = &quot;e&quot;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 7</code></li>\n\t<li><code>1 &lt;= pref.length, suff.length &lt;= 7</code></li>\n\t<li><code>words[i]</code>, <code>pref</code> and <code>suff</code> consist of lowercase English letters only.</li>\n\t<li>At most <code>10<sup>4</sup></code> calls will be made to the function <code>f</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"WordFilter\",\"f\"]\n[[[\"apple\"]],[\"a\",\"e\"]]",
+        "ExampleTestcases": "[\"WordFilter\",\"f\"]\n[[[\"apple\"]],[\"a\",\"e\"]]",
+        "Difficulty": "Hard",
+        "Title": "Prefix and Suffix Search",
+        "TitleSlug": "prefix-and-suffix-search",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"107.5K\", \"totalSubmission\": \"264.6K\", \"totalAcceptedRaw\": 107470, \"totalSubmissionRaw\": 264587, \"acRate\": \"40.6%\"}",
+        "Likes": 2334,
+        "Dislikes": 498,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI3",
+            "Name": "Trie",
+            "Slug": "trie"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class WordFilter {\npublic:\n    WordFilter(vector<string>& words) {\n        \n    }\n    \n    int f(string pref, string suff) {\n        \n    }\n};\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter* obj = new WordFilter(words);\n * int param_1 = obj->f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class WordFilter {\n\n    public WordFilter(String[] words) {\n        \n    }\n    \n    public int f(String pref, String suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class WordFilter:\n\n    def __init__(self, words: List[str]):\n        \n\n    def f(self, pref: str, suff: str) -> int:\n        \n\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter(words)\n# param_1 = obj.f(pref,suff)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class WordFilter(object):\n\n    def __init__(self, words):\n        \"\"\"\n        :type words: List[str]\n        \"\"\"\n        \n\n    def f(self, pref, suff):\n        \"\"\"\n        :type pref: str\n        :type suff: str\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter(words)\n# param_1 = obj.f(pref,suff)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n */\nvar WordFilter = function(words) {\n    \n};\n\n/** \n * @param {string} pref \n * @param {string} suff\n * @return {number}\n */\nWordFilter.prototype.f = function(pref, suff) {\n    \n};\n\n/** \n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class WordFilter {\n    constructor(words: string[]) {\n        \n    }\n\n    f(pref: string, suff: string): number {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class WordFilter {\n\n    public WordFilter(string[] words) {\n        \n    }\n    \n    public int F(string pref, string suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.F(pref,suff);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} WordFilter;\n\n\nWordFilter* wordFilterCreate(char** words, int wordsSize) {\n    \n}\n\nint wordFilterF(WordFilter* obj, char* pref, char* suff) {\n    \n}\n\nvoid wordFilterFree(WordFilter* obj) {\n    \n}\n\n/**\n * Your WordFilter struct will be instantiated and called as such:\n * WordFilter* obj = wordFilterCreate(words, wordsSize);\n * int param_1 = wordFilterF(obj, pref, suff);\n \n * wordFilterFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type WordFilter struct {\n    \n}\n\n\nfunc Constructor(words []string) WordFilter {\n    \n}\n\n\nfunc (this *WordFilter) F(pref string, suff string) int {\n    \n}\n\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * obj := Constructor(words);\n * param_1 := obj.F(pref,suff);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class WordFilter(words: Array<String>) {\n\n    fun f(pref: String, suff: String): Int {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * var obj = WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass WordFilter {\n\n    init(_ words: [String]) {\n        \n    }\n    \n    func f(_ pref: String, _ suff: String) -> Int {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * let obj = WordFilter(words)\n * let ret_1: Int = obj.f(pref, suff)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct WordFilter {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl WordFilter {\n\n    fn new(words: Vec<String>) -> Self {\n        \n    }\n    \n    fn f(&self, pref: String, suff: String) -> i32 {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * let obj = WordFilter::new(words);\n * let ret_1: i32 = obj.f(pref, suff);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class WordFilter\n\n=begin\n    :type words: String[]\n=end\n    def initialize(words)\n        \n    end\n\n\n=begin\n    :type pref: String\n    :type suff: String\n    :rtype: Integer\n=end\n    def f(pref, suff)\n        \n    end\n\n\nend\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter.new(words)\n# param_1 = obj.f(pref, suff)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class WordFilter {\n    /**\n     * @param String[] $words\n     */\n    function __construct($words) {\n        \n    }\n  \n    /**\n     * @param String $pref\n     * @param String $suff\n     * @return Integer\n     */\n    function f($pref, $suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * $obj = WordFilter($words);\n * $ret_1 = $obj->f($pref, $suff);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class WordFilter {\n\n  WordFilter(List<String> words) {\n    \n  }\n  \n  int f(String pref, String suff) {\n    \n  }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = WordFilter(words);\n * int param1 = obj.f(pref,suff);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class WordFilter(_words: Array[String]) {\n\n    def f(pref: String, suff: String): Int = {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * val obj = new WordFilter(words)\n * val param_1 = obj.f(pref,suff)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule WordFilter do\n  @spec init_(words :: [String.t]) :: any\n  def init_(words) do\n    \n  end\n\n  @spec f(pref :: String.t, suff :: String.t) :: integer\n  def f(pref, suff) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# WordFilter.init_(words)\n# param_1 = WordFilter.f(pref, suff)\n\n# WordFilter.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec word_filter_init_(Words :: [unicode:unicode_binary()]) -> any().\nword_filter_init_(Words) ->\n  .\n\n-spec word_filter_f(Pref :: unicode:unicode_binary(), Suff :: unicode:unicode_binary()) -> integer().\nword_filter_f(Pref, Suff) ->\n  .\n\n\n%% Your functions will be called as such:\n%% word_filter_init_(Words),\n%% Param_1 = word_filter_f(Pref, Suff),\n\n%% word_filter_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define word-filter%\n  (class object%\n    (super-new)\n    \n    ; words : (listof string?)\n    (init-field\n      words)\n    \n    ; f : string? string? -> exact-integer?\n    (define/public (f pref suff)\n      )))\n\n;; Your word-filter% object will be instantiated and called as such:\n;; (define obj (new word-filter% [words words]))\n;; (define param_1 (send obj f pref suff))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:03:22.53053+01:00",
+    "AcRate": "40.6",
+    "TotalSubmissions": 264587,
+    "TotalAccepted": 107470,
+    "AcceptanceRate": 0.406180197817731,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/prefix-and-suffix-search/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**:\nThis problem is a combination of **String Processing** and **Data Structure Design**. Specifically, it involves efficient prefix and suffix searches, which suggests the use of **Trie (Prefix Tree)** or **Hash Map** techniques.\n\n**Key Patterns & Algorithms**:\n1. **Trie for Prefix and Suffix**: Since we need to search by both prefix and suffix, we can consider:\n   - Building two tries: one for prefixes (forward) and one for suffixes (reversed).\n   - Alternatively, we can combine both requirements by storing words in a trie that supports both directions.\n2. **Caching Results**: Given that there are up to 10^4 calls to `f`, caching results for (pref, suff) pairs might be beneficial.\n3. **Efficient Lookup**: For each word, we can generate all possible prefixes and suffixes? But note: word length is at most 7, so generating all pairs is feasible? Actually, generating all (prefix, suffix) pairs for each word might lead to 7*7=49 pairs per word, and 10^4 words would give 490000 entries. This is acceptable in space? And then we can store the largest index for each (pref, suff) pair in a dictionary.\n\n**Constraints Analysis**:\n- Number of words: up to 10^4.\n- Length of each word: up to 7.\n- Length of pref and suff: up to 7.\n- Number of calls to `f`: up to 10^4.\nGiven the small word length (max 7), we can precompute for each word all possible prefixes and suffixes. Then, for each (prefix, suffix) pair, we can store the highest index of the word that has that prefix and suffix. However, the total number of distinct (prefix, suffix) pairs might be large, but note that each word has at most 7 prefixes and 7 suffixes, so total pairs per word is 49. For 10^4 words, that would be 490000 pairs. This is acceptable in memory? Yes, because 490000 is about 0.5 million, which is manageable.\n\nAlternatively, we can use two tries: one for prefixes and one for suffixes. Then for a query (pref, suff), we get the set of indices for words with prefix `pref` and the set for words with suffix `suff`, and then find the largest common index. But the sets might be large, and intersecting two sets for each query (which might be 10^4 queries) could be inefficient.\n\nAnother idea: for each word, we can create a tuple (prefix, suffix) and store the index. But we need to store all combinations? Actually, we can create a dictionary where the key is (prefix, suffix) and the value is the maximum index. But we must generate all possible (prefix, suffix) for each word? For a word of length L, there are L prefixes and L suffixes, but actually we need to pair every prefix with every suffix? Not exactly: for a given word, we want to consider all possible ways to split the word? Actually, the problem requires that the word has a given prefix and a given suffix. So for a word \"apple\", we have prefix \"a\" and suffix \"e\", but also prefix \"ap\" and suffix \"le\", etc. However, for the query, we are given two independent strings: pref and suff. So for a word to match, it must start with pref and end with suff.\n\nSo for each word, we can generate all its prefixes (which are all substrings starting at the beginning) and all its suffixes (all substrings ending at the end). Then for each pair (p, s) where p is a prefix and s is a suffix of the same word, we can update a dictionary: `dp[p][s] = max(dp[p][s], index)`. But note: we are iterating over all words, and for each word we iterate over all prefixes and suffixes. The total number of operations is O(10^4 * 7 * 7) = 490000, which is acceptable.\n\nThen for a query (pref, suff), we simply return `dp.get(pref, {}).get(suff, -1)`.\n\nBut wait: the dictionary `dp` would be a dictionary of dictionaries. The outer key is the prefix string, and the inner key is the suffix string. The space might be large, but the total distinct pairs is at most 490000, which is acceptable.\n\nThis approach is straightforward and efficient for both initialization and query.\n\n**Edge Cases**:\n- Empty prefix or empty suffix? But constraints say pref and suff have length at least 1.\n- Multiple words with the same prefix and suffix: we need to store the largest index.\n- No word matches: return -1.\n- Words with duplicate entries? The problem says \"the index of the word\", and we are given an array of words. If the same word appears multiple times, we should take the largest index. So when building, we iterate from index 0 to n-1, and we always update to the largest index.\n\n**Input/Output Analysis**:\n- The constructor takes a list of strings.\n- The method `f` takes two strings (pref and suff) and returns an integer.\n\n**Difficulty Assessment**:\nThe challenge is to design an efficient data structure that supports fast queries for both prefix and suffix. The naive approach (iterating over all words for each query) would be O(n * L) per query, which is 10^4 * 7 = 70000 per query, and with 10^4 queries, that would be 700e6 operations, which is too slow in Python. Therefore, we need a precomputation that allows O(1) or O(log n) queries. The proposed solution with precomputing all (prefix, suffix) pairs for each word and storing the maximum index in a dictionary of dictionaries provides O(1) query time, and the initialization is efficient.\n\n**Solution Code**:\n```python\nclass WordFilter:\n\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = []\n            suffixes = []\n            for i in range(1, n+1):\n                prefixes.append(word[:i])\n            for i in range(n):\n                suffixes.append(word[i:])\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p]:\n                        self.dp[p][s] = idx\n                    else:\n                        if idx > self.dp[p][s]:\n                            self.dp[p][s] = idx\n\n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n```\n\nNote: This solution precomputes for each word all its prefixes and suffixes, and for each (prefix, suffix) pair, it stores the maximum index. The query is then a simple dictionary lookup. The space complexity is O(n * L^2) which is acceptable given the constraints (n=10000, L=7). The initialization time is O(n * L^2) which is about 490000 operations. The query time is O(1).\n\n=== DESIGN ===\n**Algorithm Choice**: Precompute a dictionary of dictionaries where the outer key is a prefix and the inner key is a suffix, storing the maximum index of any word that has that prefix and suffix. This leverages the constraints (small word length) to efficiently preprocess all possible (prefix, suffix) pairs for each word.\n\n**Step-by-Step Approach**:\n1. Initialize an empty dictionary `dp` in the constructor.\n2. For each word in the input list along with its index:\n   - Generate all prefixes of the word (from length 1 to full word).\n   - Generate all suffixes of the word (from full word to single character at the end).\n3. For each prefix and suffix pair from the word:\n   - If the prefix is not in `dp`, add it with an empty inner dictionary.\n   - If the suffix is not in the inner dictionary for the prefix, set the value to the current index.\n   - Otherwise, update the value to the current index if it is larger.\n4. For a query `f(pref, suff)`:\n   - Check if `pref` exists in `dp` and if `suff` exists in the inner dictionary of `pref`.\n   - If found, return the stored index; else return -1.\n\n**Data Structures**: Nested dictionaries (dictionary of dictionaries) for storing the maximum index for each (prefix, suffix) pair.\n\n**Time Complexity**:\n- Initialization: O(n * L\u00b2) where n is the number of words and L is the maximum word length (7). So 10000 * 49 = 490000 operations.\n- Query: O(1) per call.\n\n**Space Complexity**: O(n * L\u00b2) for storing the pairs, which is about 490000 entries in the worst case.\n\n**Pseudocode**:\n```\nclass WordFilter:\n    def __init__(self, words):\n        dp = {}\n        for index, word in enumerate(words):\n            n = len(word)\n            prefixes = [word[0:i] for i in range(1, n+1)]\n            suffixes = [word[i:n] for i in range(0, n)]\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in dp:\n                        dp[p] = {}\n                    if s not in dp[p] or index > dp[p][s]:\n                        dp[p][s] = index\n        self.dp = dp\n\n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n```\n\nHere is the solution code:\n\n```python\nclass WordFilter:\n\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = []\n            suffixes = []\n            for i in range(1, n+1):\n                prefixes.append(word[:i])\n            for i in range(n):\n                suffixes.append(word[i:])\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p] or idx > self.dp[p][s]:\n                        self.dp[p][s] = idx\n\n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n```\n\n=== IMPLEMENTATION ===\n```python\nclass WordFilter:\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = [word[:i] for i in range(1, n+1)]\n            suffixes = [word[i:] for i in range(n)]\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p] or idx > self.dp[p][s]:\n                        self.dp[p][s] = idx\n        \n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n```\n\n=== VERIFICATION ===\nI have reviewed the provided solution code for the WordFilter problem. Here is my verification report:\n\n**1. Correctness:**\nThe code correctly implements the designed algorithm. It precomputes all possible (prefix, suffix) pairs for each word and stores the maximum index in a nested dictionary structure. The query method performs a direct dictionary lookup, which is efficient and correct.\n\n**2. Edge Cases:**\n- Empty prefix/suffix: Handled by constraints (length \u2265 1)\n- Multiple matching words: The code correctly stores the largest index\n- No matching word: Returns -1 as required\n- Duplicate words: The code processes words in order and always updates to the largest index\n\n**3. Complexity:**\n- Initialization: O(n * L\u00b2) = 10000 * 49 = 490000 operations (acceptable)\n- Query: O(1) per call (optimal)\n- Space: O(n * L\u00b2) = ~490000 entries (acceptable)\n\n**4. Code Quality:**\nThe code is clean, readable, and follows Python best practices. The variable names are descriptive, and the logic is straightforward.\n\n**5. Test Cases:**\nThe provided example works correctly:\n- WordFilter([\"apple\"]) creates entries for all (prefix, suffix) pairs of \"apple\"\n- f(\"a\", \"e\") correctly returns 0\n\n**6. Potential Issues:**\nNone found. The solution is efficient and handles all constraints properly.\n\n**Final Code:**\n```python\nclass WordFilter:\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = [word[:i] for i in range(1, n+1)]\n            suffixes = [word[i:] for i in range(n)]\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p] or idx > self.dp[p][s]:\n                        self.dp[p][s] = idx\n        \n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n```\n\n",
+      "TypedCode": "\nclass WordFilter:\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = [word[:i] for i in range(1, n+1)]\n            suffixes = [word[i:] for i in range(n)]\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p] or idx > self.dp[p][s]:\n                        self.dp[p][s] = idx\n        \n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 45681592542,
+      "SolvedAt": "2025-11-21T00:28:26.715384+01:00",
+      "PromptTokens": 9005,
+      "OutputTokens": 2951
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "746",
+        "typed_code": "\nclass WordFilter:\n    def __init__(self, words):\n        self.dp = {}\n        for idx, word in enumerate(words):\n            n = len(word)\n            prefixes = [word[:i] for i in range(1, n+1)]\n            suffixes = [word[i:] for i in range(n)]\n            for p in prefixes:\n                for s in suffixes:\n                    if p not in self.dp:\n                        self.dp[p] = {}\n                    if s not in self.dp[p] or idx > self.dp[p][s]:\n                        self.dp[p][s] = idx\n        \n    def f(self, pref, suff):\n        if pref in self.dp and suff in self.dp[pref]:\n            return self.dp[pref][suff]\n        return -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:06:08+01:00"
+    }
+  }
+}

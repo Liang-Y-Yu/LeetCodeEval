@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1358",
+        "questionId": "1460",
+        "Content": "<p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>Return the number of substrings containing <b>at least</b>&nbsp;one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabc&quot;\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>and<em> &quot;</em>abc<em>&quot; </em>(<strong>again</strong>)<em>. </em>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aaacb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>and<em> &quot;</em>acb<em>&quot;.</em><em> </em>\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abc&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= s.length &lt;= 5 x 10^4</code></li>\n\t<li><code>s</code>&nbsp;only consists of&nbsp;<em>a</em>, <em>b</em> or <em>c&nbsp;</em>characters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abcabc\"",
+        "ExampleTestcases": "\"abcabc\"\n\"aaacb\"\n\"abc\"",
+        "Difficulty": "Medium",
+        "Title": "Number of Substrings Containing All Three Characters",
+        "TitleSlug": "number-of-substrings-containing-all-three-characters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"398.7K\", \"totalSubmission\": \"543.6K\", \"totalAcceptedRaw\": 398744, \"totalSubmissionRaw\": 543555, \"acRate\": \"73.4%\"}",
+        "Likes": 4289,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numberOfSubstrings(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numberOfSubstrings(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberOfSubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar numberOfSubstrings = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberOfSubstrings(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumberOfSubstrings(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numberOfSubstrings(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberOfSubstrings(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberOfSubstrings(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberOfSubstrings(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_of_substrings(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef number_of_substrings(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function numberOfSubstrings($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numberOfSubstrings(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberOfSubstrings(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_of_substrings(s :: String.t) :: integer\n  def number_of_substrings(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_of_substrings(S :: unicode:unicode_binary()) -> integer().\nnumber_of_substrings(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-of-substrings s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:55.23111+01:00",
+    "AcRate": "73.4",
+    "TotalSubmissions": 543555,
+    "TotalAccepted": 398744,
+    "AcceptanceRate": 0.7335853777446625,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is to iterate through the string, and for each character at index `i`, consider it as the `end` of potential substrings. Then, we calculate how many valid substrings end at this index `i`.\n\nA substring `s[j...i]` is valid if it contains at least one 'a', 'b', and 'c'. For this to be true, the starting index `j` must be less than or equal to the most recent positions of 'a', 'b', and 'c'. Let's say the last seen indices of 'a', 'b', and 'c' (up to `i`) are `last_a`, `last_b`, and `last_c`. For the substring `s[j...i]` to contain all three, `j` must be less than or equal to `last_a`, `last_b`, and `last_c`. This is equivalent to `j <= min(last_a, last_b, last_c)`.\n\nThe possible valid starting indices `j` for a substring ending at `i` are `0, 1, ..., min(last_a, last_b, last_c)`. The total number of such starting indices is `min(last_a, last_b, last_c) + 1`.\n\nThe algorithm is as follows:\n1. Initialize a counter for the total number of valid substrings to `0`.\n2. Keep track of the last seen index for each character ('a', 'b', 'c'), initialized to `-1`.\n3. Iterate through the string from left to right with index `i`.\n4. At each index `i`, update the last seen index for the character `s[i]`.\n5. Calculate the minimum of the three last seen indices. Let this be `min_index`. This `min_index` represents the latest possible start of a substring ending at `i` that is *not guaranteed* to have all three characters. Any substring starting at or before `min_index` *is* guaranteed.\n6. The number of valid substrings ending at `i` is `min_index + 1`. Add this to the total counter. If not all three characters have been seen yet, `min_index` will be `-1`, and we correctly add `-1 + 1 = 0` to the count.\n7. After iterating through the entire string, the total counter will hold the result.\n\nThis approach results in a single pass through the string, leading to an O(N) time complexity and O(1) space complexity.\n\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        \"\"\"\n        Calculates the number of substrings containing at least one 'a', 'b', and 'c'.\n\n        This solution uses a single-pass sliding window approach based on the last seen\n        indices of the characters 'a', 'b', and 'c'.\n\n        For each index `i` in the string, we count the number of valid substrings\n        that end at `i`. A substring s[j...i] is valid if it contains 'a', 'b', and 'c'.\n        This is true if the start index `j` is no later than the earliest of the\n        most recent occurrences of 'a', 'b', and 'c'.\n\n        Let `last_indices` be an array storing the last seen index of 'a', 'b', and 'c'.\n        The number of valid start indices `j` for a substring ending at `i` is\n        given by `min(last_indices) + 1`. We accumulate this count for each `i`.\n        \"\"\"\n        # last_indices will store the last seen index of 'a', 'b', 'c' respectively.\n        # Initialized to -1 to indicate that the characters have not been seen yet.\n        last_indices = [-1, -1, -1]\n        \n        count = 0\n        \n        # Iterate through the string, with `i` as the ending index of substrings.\n        for i, char in enumerate(s):\n            # Update the last seen index for the current character.\n            # ord(char) - ord('a') maps 'a'->0, 'b'->1, 'c'->2.\n            last_indices[ord(char) - ord('a')] = i\n            \n            # The number of valid substrings ending at `i` is determined by the\n            # position of the character that was seen least recently. This position\n            # is `min(last_indices)`.\n            # Any substring starting from index 0 up to this position will be valid.\n            # The number of such starting positions is `min(last_indices) + 1`.\n            # If not all characters have been seen, min(last_indices) will be -1,\n            # and we correctly add -1 + 1 = 0 to the count.\n            count += min(last_indices) + 1\n                \n        return count\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        last_indices = [-1, -1, -1]\n        count = 0\n        \n        for i, char in enumerate(s):\n            last_indices[ord(char) - ord('a')] = i\n            \n            count += min(last_indices) + 1\n                \n        return count\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        last_indices = [-1, -1, -1]\n        count = 0\n        \n        for i, char in enumerate(s):\n            last_indices[ord(char) - ord('a')] = i\n            \n            count += min(last_indices) + 1\n                \n        return count\n```\n\n=== VERIFICATION ===\nTo fulfill the request of a Solution Verifier Agent, I have reviewed the provided solution for the \"Number of Substrings Containing All Three Characters\" problem.\n\n### Verification Report\n\n1.  **Correctness**: The logic is sound. The core idea is to iterate through the string and, for each index `i`, count the number of valid substrings that **end** at `i`. A substring `s[j...i]` is valid if it contains 'a', 'b', and 'c'. This is guaranteed if the start index `j` is less than or equal to the minimum of the last seen indices of 'a', 'b', and 'c'. The number of such valid start indices `j` (from `0` to `min(last_indices)`) is `min(last_indices) + 1`. Summing this value for each `i` correctly computes the total count.\n\n2.  **Edge Cases**:\n    *   **Initialization**: `last_indices` are initialized to `-1`. Until all three characters ('a', 'b', 'c') have been encountered, `min(last_indices)` will be `-1`. In this case, `min(last_indices) + 1` evaluates to `0`, correctly adding nothing to the total count for substrings that are not valid.\n    *   **No valid substrings**: If the input string `s` lacks one or more of the required characters (e.g., \"aabb\"), `min(last_indices)` will always be `-1`, resulting in a final count of `0`, which is correct.\n    *   **Minimum length string**: For `s = \"abc\"`, the loop correctly calculates `0 + 0 + 1 = 1`, which is the correct answer.\n\n3.  **Complexity**:\n    *   **Time Complexity**: The solution involves a single loop through the string of length N. All operations inside the loop (list access, `min()`, addition) are constant time, O(1). Therefore, the overall time complexity is **O(N)**.\n    *   **Space Complexity**: The solution uses a fixed-size list `last_indices` (size 3) and a few variables for counting and iteration. The space usage does not depend on the input string size. Therefore, the space complexity is **O(1)**.\n\n4.  **Code Quality**: The code is clean, concise, and highly readable. It uses Python features like `enumerate` effectively. The logic `ord(char) - ord('a')` is a standard and efficient way to map characters 'a', 'b', 'c' to indices 0, 1, 2. The implementation is a direct and elegant translation of the algorithm.\n\n5.  **Test Cases**:\n    *   `s = \"abcabc\"` -> **10**. The code correctly calculates `1 (for i=2) + 2 (for i=3) + 3 (for i=4) + 4 (for i=5) = 10`.\n    *   `s = \"aaacb\"` -> **3**. The code correctly calculates `0 + 0 + 0 + 0 + 3 = 3`.\n    *   `s = \"abc\"` -> **1**. The code correctly calculates `0 + 0 + 1 = 1`.\n\n6.  **Potential Issues**: There are no apparent bugs or logical errors. The solution is robust and correct based on the problem's constraints.\n\n**Conclusion**: The solution is fully correct, highly efficient, and well-written. It is an excellent implementation that solves the problem as required.\n\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        last_indices = [-1, -1, -1]\n        count = 0\n        \n        for i, char in enumerate(s):\n            last_indices[ord(char) - ord('a')] = i\n            \n            count += min(last_indices) + 1\n                \n        return count\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        last_indices = [-1, -1, -1]\n        count = 0\n        \n        for i, char in enumerate(s):\n            last_indices[ord(char) - ord('a')] = i\n            \n            count += min(last_indices) + 1\n                \n        return count\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 304911016333,
+      "SolvedAt": "2025-11-21T15:03:12.539989+01:00",
+      "PromptTokens": 6137,
+      "OutputTokens": 35827
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1460",
+        "typed_code": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        last_indices = [-1, -1, -1]\n        count = 0\n        \n        for i, char in enumerate(s):\n            last_indices[ord(char) - ord('a')] = i\n            \n            count += min(last_indices) + 1\n                \n        return count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:20:23+01:00"
+    }
+  }
+}

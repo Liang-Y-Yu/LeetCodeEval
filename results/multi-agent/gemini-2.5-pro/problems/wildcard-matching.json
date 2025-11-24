@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "44",
+        "questionId": "44",
+        "Content": "<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code> where:</p>\n\n<ul>\n\t<li><code>&#39;?&#39;</code> Matches any single character.</li>\n\t<li><code>&#39;*&#39;</code> Matches any sequence of characters (including the empty sequence).</li>\n</ul>\n\n<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;*&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong>&nbsp;&#39;*&#39; matches any sequence.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;cb&quot;, p = &quot;?a&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong>&nbsp;&#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length, p.length &lt;= 2000</code></li>\n\t<li><code>s</code> contains only lowercase English letters.</li>\n\t<li><code>p</code> contains only lowercase English letters, <code>&#39;?&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"aa\"\n\"a\"",
+        "ExampleTestcases": "\"aa\"\n\"a\"\n\"aa\"\n\"*\"\n\"cb\"\n\"?a\"",
+        "Difficulty": "Hard",
+        "Title": "Wildcard Matching",
+        "TitleSlug": "wildcard-matching",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"800.2K\", \"totalSubmission\": \"2.6M\", \"totalAcceptedRaw\": 800213, \"totalSubmissionRaw\": 2592752, \"acRate\": \"30.9%\"}",
+        "Likes": 8960,
+        "Dislikes": 404,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isMatch(string s, string p) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isMatch(String s, String p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isMatch(self, s, p):\n        \"\"\"\n        :type s: str\n        :type p: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} p\n * @return {boolean}\n */\nvar isMatch = function(s, p) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isMatch(s: string, p: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsMatch(string s, string p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isMatch(char* s, char* p) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isMatch(s string, p string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isMatch(s: String, p: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isMatch(_ s: String, _ p: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_match(s: String, p: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} p\n# @return {Boolean}\ndef is_match(s, p)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $p\n     * @return Boolean\n     */\n    function isMatch($s, $p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isMatch(String s, String p) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isMatch(s: String, p: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_match(s :: String.t, p :: String.t) :: boolean\n  def is_match(s, p) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_match(S :: unicode:unicode_binary(), P :: unicode:unicode_binary()) -> boolean().\nis_match(S, P) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-match s p)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:36:43.785545+01:00",
+    "AcRate": "30.9",
+    "TotalSubmissions": 2592752,
+    "TotalAccepted": 800213,
+    "AcceptanceRate": 0.3086346090948922,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/wildcard-matching/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and robust solution for this problem uses Dynamic Programming. We can build a 2D table, `dp`, where `dp[i][j]` represents whether the first `i` characters of the string `s` match the first `j` characters of the pattern `p`.\n\nLet's define the state transitions:\n1.  **Base Case**: `dp[0][0]` is `true`, as an empty string matches an empty pattern. An empty string (`s`) can also match a pattern consisting only of `*`s.\n\n2.  **Character Match**: If `p[j-1]` is a normal character, it must match `s[i-1]`. The result then depends on the match of the preceding substrings, i.e., `dp[i-1][j-1]`.\n\n3.  **'?' Match**: If `p[j-1]` is `'?'`, it matches any single character in `s`. So, `dp[i][j]` is determined solely by `dp[i-1][j-1]`.\n\n4.  **'*' Match**: This is the most complex case. If `p[j-1]` is `'*'`:\n    *   The `'*'` can match an empty sequence. In this case, the match depends on whether `s[:i]` matches `p[:j-1]` (the pattern without the `*`). This corresponds to `dp[i][j-1]`.\n    *   The `'*'` can match one or more characters. In this case, it matches `s[i-1]`, and we check if `s[:i-1]` matches `p[:j]` (since the `*` can continue to match more characters). This corresponds to `dp[i-1][j]`.\n    *   Therefore, the transition is `dp[i][j] = dp[i][j-1] or dp[i-1][j]`.\n\nAs a minor optimization, consecutive `*` characters in the pattern can be merged into a single `*` (e.g., `a***b` is equivalent to `a*b`), as they have the same matching capability.\n\nThe final answer is found in `dp[len(s)][len(p)]`. While a 2D array of size `(m+1) x (n+1)` works, space can be optimized to `O(n)` by observing that to compute the current row, we only need the previous row. However, for clarity and given the constraints, the standard `O(m*n)` space solution is straightforward and acceptable.\n\n```python\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n\n        dp[0][0] = True\n\n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n\n        return dp[m][n]\n\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n        \n        m, n = len(s), len(p)\n        \n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        \n        dp[0][0] = True\n        \n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n        \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n                \n        return dp[m][n]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n        \n        m, n = len(s), len(p)\n        \n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        \n        dp[0][0] = True\n        \n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n        \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n                \n        return dp[m][n]\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n        \n        m, n = len(s), len(p)\n        \n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        \n        dp[0][0] = True\n        \n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n        \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n                \n        return dp[m][n]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n        \n        m, n = len(s), len(p)\n        \n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        \n        dp[0][0] = True\n        \n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n        \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n                \n        return dp[m][n]\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 338836806917,
+      "SolvedAt": "2025-11-21T18:51:40.140197+01:00",
+      "PromptTokens": 6029,
+      "OutputTokens": 42625
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "44",
+        "typed_code": "\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        if p:\n            new_p = [p[0]]\n            for char in p[1:]:\n                if char == '*' and new_p[-1] == '*':\n                    continue\n                new_p.append(char)\n            p = \"\".join(new_p)\n        \n        m, n = len(s), len(p)\n        \n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        \n        dp[0][0] = True\n        \n        for j in range(1, n + 1):\n            if p[j - 1] == '*':\n                dp[0][j] = dp[0][j - 1]\n        \n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '?' or p[j - 1] == s[i - 1]:\n                    dp[i][j] = dp[i - 1][j - 1]\n                elif p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]\n                \n        return dp[m][n]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:46:29+01:00"
+    }
+  }
+}

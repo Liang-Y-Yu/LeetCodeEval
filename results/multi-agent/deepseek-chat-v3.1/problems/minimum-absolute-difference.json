@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1200",
+        "questionId": "1306",
+        "Content": "<p>Given an array of <strong>distinct</strong> integers <code>arr</code>, find all pairs of elements with the minimum absolute difference of any two elements.</p>\n\n<p>Return a list of pairs in ascending order(with respect to pairs), each pair <code>[a, b]</code> follows</p>\n\n<ul>\n\t<li><code>a, b</code> are from <code>arr</code></li>\n\t<li><code>a &lt; b</code></li>\n\t<li><code>b - a</code> equals to the minimum absolute difference of any two elements in <code>arr</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [4,2,1,3]\n<strong>Output:</strong> [[1,2],[2,3],[3,4]]\n<strong>Explanation: </strong>The minimum absolute difference is 1. List all pairs with difference equal to 1 in ascending order.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,3,6,10,15]\n<strong>Output:</strong> [[1,3]]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [3,8,-10,23,19,-4,-14,27]\n<strong>Output:</strong> [[-14,-10],[19,23],[23,27]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>6</sup> &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[4,2,1,3]",
+        "ExampleTestcases": "[4,2,1,3]\n[1,3,6,10,15]\n[3,8,-10,23,19,-4,-14,27]",
+        "Difficulty": "Easy",
+        "Title": "Minimum Absolute Difference",
+        "TitleSlug": "minimum-absolute-difference",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"266.3K\", \"totalSubmission\": \"375.2K\", \"totalAcceptedRaw\": 266333, \"totalSubmissionRaw\": 375176, \"acRate\": \"71.0%\"}",
+        "Likes": 2491,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<vector<int>> minimumAbsDifference(vector<int>& arr) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<List<Integer>> minimumAbsDifference(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minimumAbsDifference(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: List[List[int]]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} arr\n * @return {number[][]}\n */\nvar minimumAbsDifference = function(arr) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minimumAbsDifference(arr: number[]): number[][] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<IList<int>> MinimumAbsDifference(int[] arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** minimumAbsDifference(int* arr, int arrSize, int* returnSize, int** returnColumnSizes) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minimumAbsDifference(arr []int) [][]int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minimumAbsDifference(arr: IntArray): List<List<Int>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minimumAbsDifference(_ arr: [Int]) -> [[Int]] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn minimum_abs_difference(arr: Vec<i32>) -> Vec<Vec<i32>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} arr\n# @return {Integer[][]}\ndef minimum_abs_difference(arr)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer[][]\n     */\n    function minimumAbsDifference($arr) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<List<int>> minimumAbsDifference(List<int> arr) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minimumAbsDifference(arr: Array[Int]): List[List[Int]] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec minimum_abs_difference(arr :: [integer]) :: [[integer]]\n  def minimum_abs_difference(arr) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec minimum_abs_difference(Arr :: [integer()]) -> [[integer()]].\nminimum_abs_difference(Arr) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (minimum-abs-difference arr)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:34:49.507285+01:00",
+    "AcRate": "71.0",
+    "TotalSubmissions": 375176,
+    "TotalAccepted": 266333,
+    "AcceptanceRate": 0.7098881591573022,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-absolute-difference/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Analysis:\n\n1. **Problem Type Classification**: Array, Sorting\n\n2. **Key Patterns & Algorithms**: \n   - Sorting: Since we need to find pairs with minimum absolute difference, sorting the array first allows us to check consecutive differences efficiently.\n   - One Pass After Sorting: After sorting, the minimum absolute difference must occur between consecutive elements. We can first find the minimum difference, then collect all consecutive pairs with that difference.\n\n3. **Constraints Analysis**:\n   - Array length up to 10^5: Requires an O(n log n) or better solution.\n   - Sorting the array takes O(n log n) time, which is acceptable for n=10^5.\n   - Scanning for consecutive differences is O(n), which is efficient.\n\n4. **Edge Cases**:\n   - Array with exactly two elements.\n   - Negative numbers and zero.\n   - All elements are the same (but note: distinct integers, so no duplicates).\n   - Large values (up to 10^6 in absolute value) but sorting handles that.\n\n5. **Input/Output Analysis**:\n   - Input: List of distinct integers.\n   - Output: List of pairs (each pair as a list) in ascending order (both with respect to the pairs and the elements within the pairs).\n\n6. **Difficulty Assessment**: Easy to Medium. The main challenge is realizing that sorting is the key and then efficiently finding the min difference and collecting pairs. The constraints require an efficient solution.\n\nSolution Code:\n\n```python\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n```\n\n=== DESIGN ===\nBased on the problem analysis and constraints, here is the solution:\n\n```python\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n```\n\n**Algorithm Choice**: Sorting + Linear Scan\n**Step-by-Step Approach**:\n1. Sort the array to arrange elements in ascending order\n2. Initialize min_diff to a large value and an empty result list\n3. Iterate through consecutive elements in the sorted array\n4. For each pair, calculate the absolute difference\n5. If difference is smaller than current min_diff, update min_diff and reset result list\n6. If difference equals current min_diff, add the pair to result list\n7. Return the result list containing all pairs with minimum difference\n\n**Data Structures**: List for storing the result pairs\n**Time Complexity**: O(n log n) due to sorting, O(n) for scanning - overall O(n log n)\n**Space Complexity**: O(n) for the result list (in worst case when all consecutive pairs have same min difference)\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n```\n\n=== VERIFICATION ===\nThe solution provided is correct and efficient. Let me verify it step by step:\n\n**Verification:**\n\n1. **Correctness**: The code correctly implements the designed algorithm:\n   - First, it sorts the array to arrange elements in ascending order.\n   - It initializes `min_diff` to a large value and `result` to an empty list.\n   - It then iterates through consecutive pairs, calculates the difference.\n   - If a smaller difference is found, it updates `min_diff` and resets `result`.\n   - If the same difference is found, it appends the pair.\n   - Finally, it returns the result.\n\n2. **Edge Cases**:\n   - Array with exactly two elements: Works correctly (e.g., [1,2] -> [[1,2]]).\n   - Negative numbers and zero: Handled correctly (e.g., Example 3 with negatives).\n   - All distinct elements: Since the problem states distinct integers, duplicates are not an issue.\n   - Large inputs: The solution uses sorting (O(n log n)) and a single pass (O(n)), which is efficient for n=10^5.\n\n3. **Complexity**:\n   - Time: O(n log n) due to sorting (which is efficient for n=10^5).\n   - Space: O(n) for the result list (worst-case when all consecutive pairs have the same min difference, which is acceptable).\n\n4. **Code Quality**:\n   - The code is clean, readable, and follows Python best practices.\n   - Uses a straightforward approach without unnecessary complexity.\n\n5. **Test Cases**:\n   - Example 1: arr = [4,2,1,3] -> sorted [1,2,3,4]. Differences: 1,1,1. min_diff=1. Result: [[1,2],[2,3],[3,4]].\n   - Example 2: arr = [1,3,6,10,15] -> sorted [1,3,6,10,15]. Differences: 2,3,4,5. min_diff=2. Result: [[1,3]].\n   - Example 3: arr = [3,8,-10,23,19,-4,-14,27] -> sorted [-14,-10,-4,3,8,19,23,27]. Differences: 4,6,7,5,11,4,4. min_diff=4. Result: [[-14,-10],[19,23],[23,27]].\n\n6. **Potential Issues**: None. The solution is optimal and correct.\n\n**Conclusion:** The solution is valid and meets all requirements. No changes are needed.\n\nFinal code:\n```python\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 22213670459,
+      "SolvedAt": "2025-11-21T00:10:24.944756+01:00",
+      "PromptTokens": 4330,
+      "OutputTokens": 1514
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1306",
+        "typed_code": "\nclass Solution:\n    def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:\n        arr.sort()\n        min_diff = float('inf')\n        result = []\n        for i in range(1, len(arr)):\n            diff = arr[i] - arr[i-1]\n            if diff < min_diff:\n                min_diff = diff\n                result = [[arr[i-1], arr[i]]]\n            elif diff == min_diff:\n                result.append([arr[i-1], arr[i]])\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:21:35+01:00"
+    }
+  }
+}

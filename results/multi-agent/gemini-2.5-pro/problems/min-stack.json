@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "155",
+        "questionId": "155",
+        "Content": "<p>Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.</p>\n\n<p>Implement the <code>MinStack</code> class:</p>\n\n<ul>\n\t<li><code>MinStack()</code> initializes the stack object.</li>\n\t<li><code>void push(int val)</code> pushes the element <code>val</code> onto the stack.</li>\n\t<li><code>void pop()</code> removes the element on the top of the stack.</li>\n\t<li><code>int top()</code> gets the top element of the stack.</li>\n\t<li><code>int getMin()</code> retrieves the minimum element in the stack.</li>\n</ul>\n\n<p>You must implement a solution with <code>O(1)</code> time complexity for each function.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input</strong>\n[&quot;MinStack&quot;,&quot;push&quot;,&quot;push&quot;,&quot;push&quot;,&quot;getMin&quot;,&quot;pop&quot;,&quot;top&quot;,&quot;getMin&quot;]\n[[],[-2],[0],[-3],[],[],[],[]]\n\n<strong>Output</strong>\n[null,null,null,null,-3,null,0,-2]\n\n<strong>Explanation</strong>\nMinStack minStack = new MinStack();\nminStack.push(-2);\nminStack.push(0);\nminStack.push(-3);\nminStack.getMin(); // return -3\nminStack.pop();\nminStack.top();    // return 0\nminStack.getMin(); // return -2\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>-2<sup>31</sup> &lt;= val &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li>Methods <code>pop</code>, <code>top</code> and <code>getMin</code> operations will always be called on <strong>non-empty</strong> stacks.</li>\n\t<li>At most <code>3 * 10<sup>4</sup></code> calls will be made to <code>push</code>, <code>pop</code>, <code>top</code>, and <code>getMin</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+        "ExampleTestcases": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+        "Difficulty": "Medium",
+        "Title": "Min Stack",
+        "TitleSlug": "min-stack",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.5M\", \"totalSubmission\": \"4.3M\", \"totalAcceptedRaw\": 2467517, \"totalSubmissionRaw\": 4308870, \"acRate\": \"57.3%\"}",
+        "Likes": 15597,
+        "Dislikes": 978,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class MinStack {\npublic:\n    MinStack() {\n        \n    }\n    \n    void push(int val) {\n        \n    }\n    \n    void pop() {\n        \n    }\n    \n    int top() {\n        \n    }\n    \n    int getMin() {\n        \n    }\n};\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack* obj = new MinStack();\n * obj->push(val);\n * obj->pop();\n * int param_3 = obj->top();\n * int param_4 = obj->getMin();\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class MinStack {\n\n    public MinStack() {\n        \n    }\n    \n    public void push(int val) {\n        \n    }\n    \n    public void pop() {\n        \n    }\n    \n    public int top() {\n        \n    }\n    \n    public int getMin() {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack obj = new MinStack();\n * obj.push(val);\n * obj.pop();\n * int param_3 = obj.top();\n * int param_4 = obj.getMin();\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class MinStack:\n\n    def __init__(self):\n        \n\n    def push(self, val: int) -> None:\n        \n\n    def pop(self) -> None:\n        \n\n    def top(self) -> int:\n        \n\n    def getMin(self) -> int:\n        \n\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class MinStack(object):\n\n    def __init__(self):\n        \n\n    def push(self, val):\n        \"\"\"\n        :type val: int\n        :rtype: None\n        \"\"\"\n        \n\n    def pop(self):\n        \"\"\"\n        :rtype: None\n        \"\"\"\n        \n\n    def top(self):\n        \"\"\"\n        :rtype: int\n        \"\"\"\n        \n\n    def getMin(self):\n        \"\"\"\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "\nvar MinStack = function() {\n    \n};\n\n/** \n * @param {number} val\n * @return {void}\n */\nMinStack.prototype.push = function(val) {\n    \n};\n\n/**\n * @return {void}\n */\nMinStack.prototype.pop = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.top = function() {\n    \n};\n\n/**\n * @return {number}\n */\nMinStack.prototype.getMin = function() {\n    \n};\n\n/** \n * Your MinStack object will be instantiated and called as such:\n * var obj = new MinStack()\n * obj.push(val)\n * obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.getMin()\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class MinStack {\n    constructor() {\n        \n    }\n\n    push(val: number): void {\n        \n    }\n\n    pop(): void {\n        \n    }\n\n    top(): number {\n        \n    }\n\n    getMin(): number {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * var obj = new MinStack()\n * obj.push(val)\n * obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.getMin()\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class MinStack {\n\n    public MinStack() {\n        \n    }\n    \n    public void Push(int val) {\n        \n    }\n    \n    public void Pop() {\n        \n    }\n    \n    public int Top() {\n        \n    }\n    \n    public int GetMin() {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack obj = new MinStack();\n * obj.Push(val);\n * obj.Pop();\n * int param_3 = obj.Top();\n * int param_4 = obj.GetMin();\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} MinStack;\n\n\nMinStack* minStackCreate() {\n    \n}\n\nvoid minStackPush(MinStack* obj, int val) {\n    \n}\n\nvoid minStackPop(MinStack* obj) {\n    \n}\n\nint minStackTop(MinStack* obj) {\n    \n}\n\nint minStackGetMin(MinStack* obj) {\n    \n}\n\nvoid minStackFree(MinStack* obj) {\n    \n}\n\n/**\n * Your MinStack struct will be instantiated and called as such:\n * MinStack* obj = minStackCreate();\n * minStackPush(obj, val);\n \n * minStackPop(obj);\n \n * int param_3 = minStackTop(obj);\n \n * int param_4 = minStackGetMin(obj);\n \n * minStackFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type MinStack struct {\n    \n}\n\n\nfunc Constructor() MinStack {\n    \n}\n\n\nfunc (this *MinStack) Push(val int)  {\n    \n}\n\n\nfunc (this *MinStack) Pop()  {\n    \n}\n\n\nfunc (this *MinStack) Top() int {\n    \n}\n\n\nfunc (this *MinStack) GetMin() int {\n    \n}\n\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Push(val);\n * obj.Pop();\n * param_3 := obj.Top();\n * param_4 := obj.GetMin();\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class MinStack() {\n\n    fun push(`val`: Int) {\n        \n    }\n\n    fun pop() {\n        \n    }\n\n    fun top(): Int {\n        \n    }\n\n    fun getMin(): Int {\n        \n    }\n\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * var obj = MinStack()\n * obj.push(`val`)\n * obj.pop()\n * var param_3 = obj.top()\n * var param_4 = obj.getMin()\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass MinStack {\n\n    init() {\n        \n    }\n    \n    func push(_ val: Int) {\n        \n    }\n    \n    func pop() {\n        \n    }\n    \n    func top() -> Int {\n        \n    }\n    \n    func getMin() -> Int {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * let obj = MinStack()\n * obj.push(val)\n * obj.pop()\n * let ret_3: Int = obj.top()\n * let ret_4: Int = obj.getMin()\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct MinStack {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl MinStack {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn push(&self, val: i32) {\n        \n    }\n    \n    fn pop(&self) {\n        \n    }\n    \n    fn top(&self) -> i32 {\n        \n    }\n    \n    fn get_min(&self) -> i32 {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * let obj = MinStack::new();\n * obj.push(val);\n * obj.pop();\n * let ret_3: i32 = obj.top();\n * let ret_4: i32 = obj.get_min();\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class MinStack\n    def initialize()\n        \n    end\n\n\n=begin\n    :type val: Integer\n    :rtype: Void\n=end\n    def push(val)\n        \n    end\n\n\n=begin\n    :rtype: Void\n=end\n    def pop()\n        \n    end\n\n\n=begin\n    :rtype: Integer\n=end\n    def top()\n        \n    end\n\n\n=begin\n    :rtype: Integer\n=end\n    def get_min()\n        \n    end\n\n\nend\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack.new()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.get_min()"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class MinStack {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $val\n     * @return NULL\n     */\n    function push($val) {\n        \n    }\n  \n    /**\n     * @return NULL\n     */\n    function pop() {\n        \n    }\n  \n    /**\n     * @return Integer\n     */\n    function top() {\n        \n    }\n  \n    /**\n     * @return Integer\n     */\n    function getMin() {\n        \n    }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * $obj = MinStack();\n * $obj->push($val);\n * $obj->pop();\n * $ret_3 = $obj->top();\n * $ret_4 = $obj->getMin();\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class MinStack {\n\n  MinStack() {\n    \n  }\n  \n  void push(int val) {\n    \n  }\n  \n  void pop() {\n    \n  }\n  \n  int top() {\n    \n  }\n  \n  int getMin() {\n    \n  }\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack obj = MinStack();\n * obj.push(val);\n * obj.pop();\n * int param3 = obj.top();\n * int param4 = obj.getMin();\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class MinStack() {\n\n    def push(`val`: Int): Unit = {\n        \n    }\n\n    def pop(): Unit = {\n        \n    }\n\n    def top(): Int = {\n        \n    }\n\n    def getMin(): Int = {\n        \n    }\n\n}\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * val obj = new MinStack()\n * obj.push(`val`)\n * obj.pop()\n * val param_3 = obj.top()\n * val param_4 = obj.getMin()\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule MinStack do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec push(val :: integer) :: any\n  def push(val) do\n    \n  end\n\n  @spec pop() :: any\n  def pop() do\n    \n  end\n\n  @spec top() :: integer\n  def top() do\n    \n  end\n\n  @spec get_min() :: integer\n  def get_min() do\n    \n  end\nend\n\n# Your functions will be called as such:\n# MinStack.init_()\n# MinStack.push(val)\n# MinStack.pop()\n# param_3 = MinStack.top()\n# param_4 = MinStack.get_min()\n\n# MinStack.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_stack_init_() -> any().\nmin_stack_init_() ->\n  .\n\n-spec min_stack_push(Val :: integer()) -> any().\nmin_stack_push(Val) ->\n  .\n\n-spec min_stack_pop() -> any().\nmin_stack_pop() ->\n  .\n\n-spec min_stack_top() -> integer().\nmin_stack_top() ->\n  .\n\n-spec min_stack_get_min() -> integer().\nmin_stack_get_min() ->\n  .\n\n\n%% Your functions will be called as such:\n%% min_stack_init_(),\n%% min_stack_push(Val),\n%% min_stack_pop(),\n%% Param_3 = min_stack_top(),\n%% Param_4 = min_stack_get_min(),\n\n%% min_stack_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define min-stack%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; push : exact-integer? -> void?\n    (define/public (push val)\n      )\n    ; pop : -> void?\n    (define/public (pop)\n      )\n    ; top : -> exact-integer?\n    (define/public (top)\n      )\n    ; get-min : -> exact-integer?\n    (define/public (get-min)\n      )))\n\n;; Your min-stack% object will be instantiated and called as such:\n;; (define obj (new min-stack%))\n;; (send obj push val)\n;; (send obj pop)\n;; (define param_3 (send obj top))\n;; (define param_4 (send obj get-min))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:29:14.221127+01:00",
+    "AcRate": "57.3",
+    "TotalSubmissions": 4308870,
+    "TotalAccepted": 2467517,
+    "AcceptanceRate": 0.5726598853063565,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "multi",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "multi",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/min-stack/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is to augment the stack's data. Instead of just storing the values, we can store a pair `(value, current_minimum)` for each element. This way, the minimum element of the stack at any given point is always available at the top, along with the top value itself.\n\nHere's how each operation works with this approach:\n*   `__init__()`: Initialize an empty list to serve as our stack.\n*   `push(val)`:\n    *   If the stack is empty, the new value `val` is also the first minimum. We push the tuple `(val, val)`.\n    *   If the stack is not empty, we find the current minimum by looking at the top of the stack (`self.stack[-1][1]`). The new minimum will be the smaller of `val` and the current minimum. We then push the tuple `(val, new_minimum)`.\n*   `pop()`: Simply pop the tuple from the top of our list. The new top will hold the minimum for the new state of the stack.\n*   `top()`: The actual value is the first element of the tuple at the top of the stack. We return `self.stack[-1][0]`.\n*   `getMin()`: The minimum value is the second element of the tuple at the top of the stack. We return `self.stack[-1][1]`.\n\nThis design ensures that every operation is completed in O(1) time, as they all involve simple append, pop, or access operations on the end of a list. The space complexity is O(N), where N is the number of elements in the stack, which is optimal for storing the required information.\n\n```python\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n\n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = min(val, self.stack[-1][1])\n            self.stack.append((val, current_min))\n\n    def pop(self) -> None:\n        self.stack.pop()\n\n    def top(self) -> int:\n        return self.stack[-1][0]\n\n    def getMin(self) -> int:\n        return self.stack[-1][1]\n\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()\n```\n\n=== DESIGN ===\n```python\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n        \n\n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = self.stack[-1][1]\n            new_min = min(val, current_min)\n            self.stack.append((val, new_min))\n        \n\n    def pop(self) -> None:\n        self.stack.pop()\n        \n\n    def top(self) -> int:\n        return self.stack[-1][0]\n        \n\n    def getMin(self) -> int:\n        return self.stack[-1][1]\n        \n\n\n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()\n```\n\n=== IMPLEMENTATION ===\n```python\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n        \n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = min(val, self.stack[-1][1])\n            self.stack.append((val, current_min))\n        \n    def pop(self) -> None:\n        self.stack.pop()\n        \n    def top(self) -> int:\n        return self.stack[-1][0]\n        \n    def getMin(self) -> int:\n        return self.stack[-1][1]\n        \n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is to augment the stack's data. Instead of just storing the values, we can store a pair `(value, current_minimum)` for each element. This way, the minimum element of the stack at any given point is always available at the top, along with the top value itself.\n\nHere's how each operation works with this approach:\n\n*   `__init__()`: Initialize an empty list to serve as our stack.\n*   `push(val)`:\n    *   If the stack is empty, the new value `val` is also the first minimum. We push the tuple `(val, val)`.\n    *   If the stack is not empty, we find the current minimum by looking at the top of the stack (`self.stack[-1][1]`). The new minimum will be the smaller of `val` and the current minimum. We then push the tuple `(val, new_minimum)`.\n*   `pop()`: Simply pop the tuple from the top of our list. The new top will hold the minimum for the new state of the stack.\n*   `top()`: The actual value is the first element of the tuple at the top of the stack. We return `self.stack[-1][0]`.\n*   `getMin()`: The minimum value is the second element of the tuple at the top of the stack. We return `self.stack[-1][1]`.\n\nThis design ensures that every operation is completed in O(1) time, as they all involve simple append, pop, or access operations on the end of a list. The space complexity is O(N), where N is the number of elements in the stack, which is optimal for storing the required information.\n\n**Verification Report:**\n\n1.  **Correctness**: The implemented solution correctly follows the described algorithm. The logic for `push` correctly maintains the running minimum at each level of the stack. The `pop`, `top`, and `getMin` operations correctly retrieve information from the top of the stack, which, by design, holds the current state.\n2.  **Edge Cases**: The code correctly handles an initially empty stack. Per the problem constraints, `pop`, `top`, and `getMin` are only called on non-empty stacks, so no explicit empty-check is needed for them. The logic works for negative, positive, and zero values, as well as for duplicate minimums.\n3.  **Complexity**:\n    *   **Time**: All operations (`push`, `pop`, `top`, `getMin`) involve a constant number of actions on a Python list (append, pop from end, access last element), making them O(1). This meets the requirement.\n    *   **Space**: The stack stores two integers for each element pushed. The space complexity is O(N), where N is the number of elements in the stack. This is an acceptable trade-off for the O(1) time complexity of `getMin`.\n4.  **Code Quality**: The code is clean, readable, and uses standard Python features effectively. Variable names and logic are straightforward. It's a high-quality implementation of the described design.\n5.  **Test Cases**: The code passes the provided example test case. The state of the stack and the return values of `getMin` and `top` match the example's explanation at each step.\n6.  **Potential Issues**: There are no bugs or logical errors. While a two-stack approach could be more space-efficient in some scenarios, the current solution is a widely-accepted, correct, and valid approach that perfectly matches the provided analysis. No fixes are necessary.\n\nThe solution is confirmed to be correct and of high quality.\n\n```python\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n\n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = min(val, self.stack[-1][1])\n            self.stack.append((val, current_min))\n\n    def pop(self) -> None:\n        self.stack.pop()\n\n    def top(self) -> int:\n        return self.stack[-1][0]\n\n    def getMin(self) -> int:\n        return self.stack[-1][1]\n```\n\n",
+      "TypedCode": "\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n        \n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = min(val, self.stack[-1][1])\n            self.stack.append((val, current_min))\n        \n    def pop(self) -> None:\n        self.stack.pop()\n        \n    def top(self) -> int:\n        return self.stack[-1][0]\n        \n    def getMin(self) -> int:\n        return self.stack[-1][1]\n        \n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 194885552832,
+      "SolvedAt": "2025-11-21T13:43:15.487531+01:00",
+      "PromptTokens": 5721,
+      "OutputTokens": 22274
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "155",
+        "typed_code": "\nclass MinStack:\n\n    def __init__(self):\n        self.stack = []\n        \n    def push(self, val: int) -> None:\n        if not self.stack:\n            self.stack.append((val, val))\n        else:\n            current_min = min(val, self.stack[-1][1])\n            self.stack.append((val, current_min))\n        \n    def pop(self) -> None:\n        self.stack.pop()\n        \n    def top(self) -> int:\n        return self.stack[-1][0]\n        \n    def getMin(self) -> int:\n        return self.stack[-1][1]\n        \n# Your MinStack object will be instantiated and called as such:\n# obj = MinStack()\n# obj.push(val)\n# obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.getMin()\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:59:29+01:00"
+    }
+  }
+}

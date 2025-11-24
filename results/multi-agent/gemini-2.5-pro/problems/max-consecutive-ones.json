@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "485",
+        "questionId": "485",
+        "Content": "<p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,0,1,1,1]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,0,1,1,0,1]\n<strong>Output:</strong> 2\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[1,1,0,1,1,1]",
+        "ExampleTestcases": "[1,1,0,1,1,1]\n[1,0,1,1,0,1]",
+        "Difficulty": "Easy",
+        "Title": "Max Consecutive Ones",
+        "TitleSlug": "max-consecutive-ones",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.9M\", \"totalSubmission\": \"3M\", \"totalAcceptedRaw\": 1912299, \"totalSubmissionRaw\": 3002602, \"acRate\": \"63.7%\"}",
+        "Likes": 6511,
+        "Dislikes": 486,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int findMaxConsecutiveOnes(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int findMaxConsecutiveOnes(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findMaxConsecutiveOnes(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findMaxConsecutiveOnes = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findMaxConsecutiveOnes(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int FindMaxConsecutiveOnes(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int findMaxConsecutiveOnes(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findMaxConsecutiveOnes(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findMaxConsecutiveOnes(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_max_consecutive_ones(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef find_max_consecutive_ones(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function findMaxConsecutiveOnes($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int findMaxConsecutiveOnes(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findMaxConsecutiveOnes(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_max_consecutive_ones(nums :: [integer]) :: integer\n  def find_max_consecutive_ones(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_max_consecutive_ones(Nums :: [integer()]) -> integer().\nfind_max_consecutive_ones(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-max-consecutive-ones nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:14:52.226924+01:00",
+    "AcRate": "63.7",
+    "TotalSubmissions": 3002602,
+    "TotalAccepted": 1912299,
+    "AcceptanceRate": 0.6368806122156716,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/max-consecutive-ones/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem is presented below, as requested by the persona of a \"Problem Analyzer Agent\".\n\n### 1. Problem Type Classification\nThis problem falls under the **Array** category. It involves a single pass through an array to find a specific property (the longest sub-segment of a particular value).\n\n### 2. Key Patterns & Algorithms\nThe most suitable algorithm is a **single-pass iteration**. We can iterate through the array once, keeping track of the current number of consecutive ones and the maximum number found so far. This can also be viewed as a simple application of the **Sliding Window** pattern, where the window expands as long as we encounter `1`s and resets to zero width when we encounter a `0`.\n\nThe core logic is as follows:\n- Initialize two variables: `max_count` to store the maximum length found so far, and `current_count` to store the length of the current sequence of `1`s. Both start at 0.\n- Iterate through each element of the array `nums`.\n- If the element is `1`, increment `current_count`.\n- If the element is `0`, the consecutive sequence is broken, so reset `current_count` to `0`.\n- After processing each element (whether it's `1` or `0`), update `max_count` by comparing it with `current_count` (`max_count = max(max_count, current_count)`). This approach elegantly handles all cases, including sequences that end at the last element of the array.\n- After the loop, `max_count` will hold the final answer.\n\n### 3. Constraints Analysis\n- `1 <= nums.length <= 10^5`: The array size is up to 100,000 elements.\n- `nums[i]` is either `0` or `1`.\n\nA solution with a time complexity of O(N^2) would be too slow (approx. 10^10 operations). An O(N log N) solution would be acceptable, but an O(N) solution is ideal. The single-pass iterative approach has a time complexity of **O(N)** because it processes each array element exactly once.\nFor space complexity, this approach only uses a few variables to store counts, regardless of the input size. Therefore, its space complexity is **O(1)**. This makes the proposed algorithm highly efficient and well within typical time and memory limits.\n\n### 4. Edge Cases\n- **Array with all `1`s**: `[1, 1, 1, 1]` -> The `current_count` will increment to the array's length, which will become the `max_count`.\n- **Array with all `0`s**: `[0, 0, 0]` -> `current_count` will always be reset to 0, so `max_count` remains 0.\n- **Empty array**: This case is excluded by the constraint `1 <= nums.length`.\n- **Single element array**: `[1]` -> `max_count` becomes 1. `[0]` -> `max_count` remains 0.\n- **Longest sequence at the beginning**: `[1, 1, 0, 1]` -> Handled correctly.\n- **Longest sequence at the end**: `[1, 0, 1, 1, 1]` -> The strategy of updating `max_count` in every iteration correctly handles this without needing a final check after the loop.\n\n### 5. Input/Output Analysis\n- **Input**: A list of integers named `nums`, `List[int]`, containing only `0`s and `1`s.\n- **Output**: A single integer, `int`, representing the maximum number of consecutive `1`s in the list.\n\n### 6. Difficulty Assessment\nThis is generally considered an **Easy** problem. The logic is straightforward, requiring basic loop and conditional programming constructs. The primary challenge is to ensure the implementation correctly handles all cases, particularly the update of the maximum count when a sequence of `1`s terminates either by a `0` or by the end of the array.\n\n***\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                # If the current number is 1, increment the count of the current consecutive sequence.\n                current_count += 1\n            else:\n                # If the current number is 0, the sequence of 1s is broken. Reset the counter.\n                current_count = 0\n            \n            # After each number, update the overall maximum if the current sequence is the new longest.\n            max_count = max(max_count, current_count)\n            \n        return max_count\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: list[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                current_count += 1\n            else:\n                current_count = 0\n            \n            if current_count > max_count:\n                max_count = current_count\n                \n        return max_count\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                current_count += 1\n            else:\n                current_count = 0\n            \n            if current_count > max_count:\n                max_count = current_count\n                \n        return max_count\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                current_count += 1\n            else:\n                current_count = 0\n            \n            if current_count > max_count:\n                max_count = current_count\n                \n        return max_count\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                current_count += 1\n            else:\n                current_count = 0\n            \n            if current_count > max_count:\n                max_count = current_count\n                \n        return max_count\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 140066101042,
+      "SolvedAt": "2025-11-21T12:55:05.694428+01:00",
+      "PromptTokens": 5672,
+      "OutputTokens": 18161
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "485",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:\n        max_count = 0\n        current_count = 0\n        for num in nums:\n            if num == 1:\n                current_count += 1\n            else:\n                current_count = 0\n            \n            if current_count > max_count:\n                max_count = current_count\n                \n        return max_count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:22:28+01:00"
+    }
+  }
+}

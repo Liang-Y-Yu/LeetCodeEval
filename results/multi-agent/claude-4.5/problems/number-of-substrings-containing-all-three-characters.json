@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1358",
+        "questionId": "1460",
+        "Content": "<p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>Return the number of substrings containing <b>at least</b>&nbsp;one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabc&quot;\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>and<em> &quot;</em>abc<em>&quot; </em>(<strong>again</strong>)<em>. </em>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aaacb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>and<em> &quot;</em>acb<em>&quot;.</em><em> </em>\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abc&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= s.length &lt;= 5 x 10^4</code></li>\n\t<li><code>s</code>&nbsp;only consists of&nbsp;<em>a</em>, <em>b</em> or <em>c&nbsp;</em>characters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abcabc\"",
+        "ExampleTestcases": "\"abcabc\"\n\"aaacb\"\n\"abc\"",
+        "Difficulty": "Medium",
+        "Title": "Number of Substrings Containing All Three Characters",
+        "TitleSlug": "number-of-substrings-containing-all-three-characters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"398.7K\", \"totalSubmission\": \"543.6K\", \"totalAcceptedRaw\": 398744, \"totalSubmissionRaw\": 543555, \"acRate\": \"73.4%\"}",
+        "Likes": 4289,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numberOfSubstrings(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numberOfSubstrings(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberOfSubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar numberOfSubstrings = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberOfSubstrings(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumberOfSubstrings(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numberOfSubstrings(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberOfSubstrings(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberOfSubstrings(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberOfSubstrings(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_of_substrings(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef number_of_substrings(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function numberOfSubstrings($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numberOfSubstrings(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberOfSubstrings(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_of_substrings(s :: String.t) :: integer\n  def number_of_substrings(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_of_substrings(S :: unicode:unicode_binary()) -> integer().\nnumber_of_substrings(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-of-substrings s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:55.23111+01:00",
+    "AcRate": "73.4",
+    "TotalSubmissions": 543555,
+    "TotalAccepted": 398744,
+    "AcceptanceRate": 0.7335853777446625,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to find the number of substrings that contain at least one occurrence of 'a', 'b', and 'c'.\n\n## Analysis\n\n1. **Problem Type**: String, Sliding Window\n2. **Key Patterns**: Two pointers/Sliding Window - we need to find valid substrings efficiently\n3. **Constraints**: With s.length up to 5\u00d710^4, we need O(n) or O(n log n) solution\n4. **Key Insight**: If a substring starting at index i and ending at index j contains all three characters, then ANY substring starting at i and ending at j or later will also be valid. This is crucial for optimization.\n5. **Edge Cases**: \n   - Minimum length string \"abc\"\n   - Strings with repeated characters\n   - Strings where valid substrings only appear near the end\n\n## Approach\n\nUse a sliding window with two pointers:\n- Maintain a window with left and right pointers\n- Track the count of each character in the current window\n- When the window contains all three characters (a, b, c):\n  - All substrings from left to right, right+1, right+2, ..., end are valid\n  - That's (n - right) substrings\n  - Move left pointer to find the next valid window\n\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 14943983709,
+      "SolvedAt": "2025-11-19T23:48:59.129163+01:00",
+      "PromptTokens": 4408,
+      "OutputTokens": 923
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1460",
+        "typed_code": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        n = len(s)\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(n):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                result += n - right\n                count[s[left]] -= 1\n                left += 1\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:48:27+01:00"
+    }
+  }
+}

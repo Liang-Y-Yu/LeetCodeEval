@@ -1,0 +1,15 @@
+{
+  "total_problems": 149,
+  "problems_by_model": {
+    "google/gemini-2.5-pro": 149
+  },
+  "acceptance_rate_by_model": {
+    "google/gemini-2.5-pro": 97.98657718120805
+  },
+  "avg_complexity_by_model": {
+    "google/gemini-2.5-pro": 4.530201342281879
+  },
+  "avg_loc_by_model": {
+    "google/gemini-2.5-pro": 23.328859060402685
+  }
+}

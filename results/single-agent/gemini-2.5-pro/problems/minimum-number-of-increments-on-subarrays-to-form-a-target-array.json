@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1526",
+        "questionId": "1633",
+        "Content": "<p>You are given an integer array <code>target</code>. You have an integer array <code>initial</code> of the same size as <code>target</code> with all elements initially zeros.</p>\n\n<p>In one operation you can choose <strong>any</strong> subarray from <code>initial</code> and increment each value by one.</p>\n\n<p>Return <em>the minimum number of operations to form a </em><code>target</code><em> array from </em><code>initial</code>.</p>\n\n<p>The test cases are generated so that the answer fits in a 32-bit integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [1,2,3,2,1]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> We need at least 3 operations to form the target array from the initial array.\n[<strong><u>0,0,0,0,0</u></strong>] increment 1 from index 0 to 4 (inclusive).\n[1,<strong><u>1,1,1</u></strong>,1] increment 1 from index 1 to 3 (inclusive).\n[1,2,<strong><u>2</u></strong>,2,1] increment 1 at index 2.\n[1,2,3,2,1] target array is formed.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [3,1,1,2]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> [<strong><u>0,0,0,0</u></strong>] -&gt; [1,1,1,<strong><u>1</u></strong>] -&gt; [<strong><u>1</u></strong>,1,1,2] -&gt; [<strong><u>2</u></strong>,1,1,2] -&gt; [3,1,1,2]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> target = [3,1,5,4,2]\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> [<strong><u>0,0,0,0,0</u></strong>] -&gt; [<strong><u>1</u></strong>,1,1,1,1] -&gt; [<strong><u>2</u></strong>,1,1,1,1] -&gt; [3,1,<strong><u>1,1,1</u></strong>] -&gt; [3,1,<strong><u>2,2</u></strong>,2] -&gt; [3,1,<strong><u>3,3</u></strong>,2] -&gt; [3,1,<strong><u>4</u></strong>,4,2] -&gt; [3,1,5,4,2].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= target.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= target[i] &lt;= 10<sup>5</sup></code></li>\n\t<li>\u200b\u200b\u200b\u200b\u200b\u200b\u200bThe input is generated such that the answer fits inside a 32 bit integer.</li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,2,1]",
+        "ExampleTestcases": "[1,2,3,2,1]\n[3,1,1,2]\n[3,1,5,4,2]",
+        "Difficulty": "Hard",
+        "Title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+        "TitleSlug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"147.4K\", \"totalSubmission\": \"188.9K\", \"totalAcceptedRaw\": 147369, \"totalSubmissionRaw\": 188904, \"acRate\": \"78.0%\"}",
+        "Likes": 2107,
+        "Dislikes": 108,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minNumberOperations(vector<int>& target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minNumberOperations(int[] target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minNumberOperations(self, target: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minNumberOperations(self, target):\n        \"\"\"\n        :type target: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} target\n * @return {number}\n */\nvar minNumberOperations = function(target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minNumberOperations(target: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinNumberOperations(int[] target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minNumberOperations(int* target, int targetSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minNumberOperations(target []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minNumberOperations(target: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minNumberOperations(_ target: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_number_operations(target: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} target\n# @return {Integer}\ndef min_number_operations(target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $target\n     * @return Integer\n     */\n    function minNumberOperations($target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minNumberOperations(List<int> target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minNumberOperations(target: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_number_operations(target :: [integer]) :: integer\n  def min_number_operations(target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_number_operations(Target :: [integer()]) -> integer().\nmin_number_operations(Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-number-operations target)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:17:14.603784+01:00",
+    "AcRate": "78.0",
+    "TotalSubmissions": 188904,
+    "TotalAccepted": 147369,
+    "AcceptanceRate": 0.7801264134163385,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an integer array target. You have an integer array initial of the same size as target with all elements initially zeros.\nIn one operation you can choose any subarray from initial and increment each value by one.\nReturn the minimum number of operations to form a target array from initial.\nThe test cases are generated so that the answer fits in a 32-bit integer.\n\u00a0\nExample 1:\nInput: target = [1,2,3,2,1]\nOutput: 3\nExplanation: We need at least 3 operations to form the target array from the initial array.\n[0,0,0,0,0] increment 1 from index 0 to 4 (inclusive).\n[1,1,1,1,1] increment 1 from index 1 to 3 (inclusive).\n[1,2,2,2,1] increment 1 at index 2.\n[1,2,3,2,1] target array is formed.\nExample 2:\nInput: target = [3,1,1,2]\nOutput: 4\nExplanation: [0,0,0,0] -> [1,1,1,1] -> [1,1,1,2] -> [2,1,1,2] -> [3,1,1,2]\nExample 3:\nInput: target = [3,1,5,4,2]\nOutput: 7\nExplanation: [0,0,0,0,0] -> [1,1,1,1,1] -> [2,1,1,1,1] -> [3,1,1,1,1] -> [3,1,2,2,2] -> [3,1,3,3,2] -> [3,1,4,4,2] -> [3,1,5,4,2].\n\u00a0\nConstraints:\n\t1 <= target.length <= 10^5\n\t1 <= target[i] <= 10^5\n\t\u200b\u200b\u200b\u200b\u200b\u200b\u200bThe input is generated such that the answer fits inside a 32 bit integer.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minNumberOperations(self, target: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient solution can be found by iterating through the target array from left to right. The key insight is to realize that the minimum number of operations is equivalent to the sum of all upward \"steps\" in the target array's profile.\n\nLet's maintain a variable, say `previous_height`, representing the value we have managed to build up in the `initial` array at the previous position. Initially, `previous_height` is 0, since the `initial` array starts with all zeros.\n\nWhen we consider the `i`-th element, `target[i]`, we compare it with `previous_height`.\n\n1.  If `target[i]` is greater than `previous_height`, it means the \"height\" of our array needs to increase. The operations that contributed to `previous_height` are not sufficient. We need `target[i] - previous_height` additional increments. Each of these increments must come from a new operation that starts at or before index `i` and was not needed for the previous elements. Therefore, we must add `target[i] - previous_height` to our total operation count.\n\n2.  If `target[i]` is less than or equal to `previous_height`, it means the operations that were \"active\" at the previous position are sufficient to achieve the desired height `target[i]`. No new operations need to be started at this position. Some operations that were active at `i-1` are now terminated, but this does not increase the operation count.\n\nAfter processing `target[i]`, the \"built-up\" height that can be carried over to the next position `i+1` is `target[i]`. So, we update `previous_height` to `target[i]` and move to the next element.\n\nThe total number of operations will be the sum of increments required at each step where the target height increases.\n\nFor example, with `target = [1, 2, 3, 2, 1]`:\n- Start with `ops = 0`, `prev_height = 0`.\n- `target[0] = 1`: `1 > 0`, so `ops` becomes `0 + (1-0) = 1`. `prev_height` is now `1`.\n- `target[1] = 2`: `2 > 1`, so `ops` becomes `1 + (2-1) = 2`. `prev_height` is now `2`.\n- `target[2] = 3`: `3 > 2`, so `ops` becomes `2 + (3-2) = 3`. `prev_height` is now `3`.\n- `target[3] = 2`: `2 <= 3`, `ops` is unchanged. `prev_height` is now `2`.\n- `target[4] = 1`: `1 <= 2`, `ops` is unchanged. `prev_height` is now `1`.\nThe final result is 3.\n\nThis approach results in a single pass through the array, leading to a time complexity of O(N) and a space complexity of O(1), where N is the length of the `target` array.\n\n```python\nfrom typing import List\n\nclass Solution:\n  def minNumberOperations(self, target: List[int]) -> int:\n    \"\"\"\n    Calculates the minimum number of operations to form the target array.\n\n    An operation consists of incrementing a contiguous subarray by one.\n    The initial array is all zeros.\n\n    The logic is based on a single pass through the target array.\n    We track the accumulated \"height\" from previous operations.\n    Whenever the current target element is higher than the previous height,\n    it means we need to start new operations. The number of new operations\n    is the difference between the current target height and the previous height.\n    \"\"\"\n    operations = 0\n    previous_height = 0\n    \n    for current_height in target:\n      if current_height > previous_height:\n        operations += current_height - previous_height\n      \n      previous_height = current_height\n      \n    return operations\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n  def minNumberOperations(self, target: List[int]) -> int:\n    \"\"\"\n    Calculates the minimum number of operations to form the target array.\n\n    An operation consists of incrementing a contiguous subarray by one.\n    The initial array is all zeros.\n\n    The logic is based on a single pass through the target array.\n    We track the accumulated \"height\" from previous operations.\n    Whenever the current target element is higher than the previous height,\n    it means we need to start new operations. The number of new operations\n    is the difference between the current target height and the previous height.\n    \"\"\"\n    operations = 0\n    previous_height = 0\n    \n    for current_height in target:\n      if current_height > previous_height:\n        operations += current_height - previous_height\n      \n      previous_height = current_height\n      \n    return operations\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 146475111875,
+      "SolvedAt": "2025-11-20T17:32:27.423085+01:00",
+      "PromptTokens": 686,
+      "OutputTokens": 17207
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1633",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n  def minNumberOperations(self, target: List[int]) -> int:\n    \"\"\"\n    Calculates the minimum number of operations to form the target array.\n\n    An operation consists of incrementing a contiguous subarray by one.\n    The initial array is all zeros.\n\n    The logic is based on a single pass through the target array.\n    We track the accumulated \"height\" from previous operations.\n    Whenever the current target element is higher than the previous height,\n    it means we need to start new operations. The number of new operations\n    is the difference between the current target height and the previous height.\n    \"\"\"\n    operations = 0\n    previous_height = 0\n    \n    for current_height in target:\n      if current_height > previous_height:\n        operations += current_height - previous_height\n      \n      previous_height = current_height\n      \n    return operations\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:45:39+01:00"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "39",
+        "questionId": "39",
+        "Content": "<p>Given an array of <strong>distinct</strong> integers <code>candidates</code> and a target integer <code>target</code>, return <em>a list of all <strong>unique combinations</strong> of </em><code>candidates</code><em> where the chosen numbers sum to </em><code>target</code><em>.</em> You may return the combinations in <strong>any order</strong>.</p>\n\n<p>The <strong>same</strong> number may be chosen from <code>candidates</code> an <strong>unlimited number of times</strong>. Two combinations are unique if the <span data-keyword=\"frequency-array\">frequency</span> of at least one of the chosen numbers is different.</p>\n\n<p>The test cases are generated such that the number of unique combinations that sum up to <code>target</code> is less than <code>150</code> combinations for the given input.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> candidates = [2,3,6,7], target = 7\n<strong>Output:</strong> [[2,2,3],[7]]\n<strong>Explanation:</strong>\n2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.\n7 is a candidate, and 7 = 7.\nThese are the only two combinations.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> candidates = [2,3,5], target = 8\n<strong>Output:</strong> [[2,2,2,2],[2,3,3],[3,5]]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> candidates = [2], target = 1\n<strong>Output:</strong> []\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= candidates.length &lt;= 30</code></li>\n\t<li><code>2 &lt;= candidates[i] &lt;= 40</code></li>\n\t<li>All elements of <code>candidates</code> are <strong>distinct</strong>.</li>\n\t<li><code>1 &lt;= target &lt;= 40</code></li>\n</ul>\n",
+        "SampleTestCase": "[2,3,6,7]\n7",
+        "ExampleTestcases": "[2,3,6,7]\n7\n[2,3,5]\n8\n[2]\n1",
+        "Difficulty": "Medium",
+        "Title": "Combination Sum",
+        "TitleSlug": "combination-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.9M\", \"totalSubmission\": \"3.8M\", \"totalAcceptedRaw\": 2853747, \"totalSubmissionRaw\": 3773877, \"acRate\": \"75.6%\"}",
+        "Likes": 20520,
+        "Dislikes": 516,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<List<Integer>> combinationSum(int[] candidates, int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def combinationSum(self, candidates, target):\n        \"\"\"\n        :type candidates: List[int]\n        :type target: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} candidates\n * @param {number} target\n * @return {number[][]}\n */\nvar combinationSum = function(candidates, target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function combinationSum(candidates: number[], target: number): number[][] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<IList<int>> CombinationSum(int[] candidates, int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nint** combinationSum(int* candidates, int candidatesSize, int target, int* returnSize, int** returnColumnSizes) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func combinationSum(candidates []int, target int) [][]int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn combination_sum(candidates: Vec<i32>, target: i32) -> Vec<Vec<i32>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} candidates\n# @param {Integer} target\n# @return {Integer[][]}\ndef combination_sum(candidates, target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $candidates\n     * @param Integer $target\n     * @return Integer[][]\n     */\n    function combinationSum($candidates, $target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<List<int>> combinationSum(List<int> candidates, int target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def combinationSum(candidates: Array[Int], target: Int): List[List[Int]] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec combination_sum(candidates :: [integer], target :: integer) :: [[integer]]\n  def combination_sum(candidates, target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec combination_sum(Candidates :: [integer()], Target :: integer()) -> [[integer()]].\ncombination_sum(Candidates, Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (combination-sum candidates target)\n  (-> (listof exact-integer?) exact-integer? (listof (listof exact-integer?)))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:37:14.509179+01:00",
+    "AcRate": "75.6",
+    "TotalSubmissions": 3773877,
+    "TotalAccepted": 2853747,
+    "AcceptanceRate": 0.7561844225447729,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/combination-sum/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.\nThe same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.\nThe test cases are generated such that the number of unique combinations that sum up to target is less than 150 combinations for the given input.\n\u00a0\nExample 1:\nInput: candidates = [2,3,6,7], target = 7\nOutput: [[2,2,3],[7]]\nExplanation:\n2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.\n7 is a candidate, and 7 = 7.\nThese are the only two combinations.\nExample 2:\nInput: candidates = [2,3,5], target = 8\nOutput: [[2,2,2,2],[2,3,3],[3,5]]\nExample 3:\nInput: candidates = [2], target = 1\nOutput: []\n\u00a0\nConstraints:\n\t1 <= candidates.length <= 30\n\t2 <= candidates[i] <= 40\n\tAll elements of candidates are distinct.\n\t1 <= target <= 40\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find all unique combinations of numbers from `candidates` that sum to `target`, where numbers can be reused unlimited times.\n\nThis is a classic backtracking problem. The key insight is:\n- At each step, I can either include a candidate number (and potentially use it again) or move to the next candidate\n- To avoid duplicates, I'll only consider candidates from the current index onwards\n- I'll build combinations incrementally and backtrack when the sum exceeds the target\n\nHere's my approach:\n1. Use backtracking with a current combination, current sum, and starting index\n2. Base cases:\n   - If current sum equals target, add the combination to results\n   - If current sum exceeds target, backtrack\n3. For each candidate from the current index onwards:\n   - Add it to the current combination\n   - Recursively explore with the same starting index (to allow reuse)\n   - Remove it from the combination (backtrack)\n\n```python\nclass Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        result = []\n        \n        def backtrack(start, current_sum, current_combination):\n            if current_sum == target:\n                result.append(current_combination[:])\n                return\n            \n            if current_sum > target:\n                return\n            \n            for i in range(start, len(candidates)):\n                current_combination.append(candidates[i])\n                backtrack(i, current_sum + candidates[i], current_combination)\n                current_combination.pop()\n        \n        backtrack(0, 0, [])\n        return result\n```",
+      "TypedCode": "\nclass Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        result = []\n        \n        def backtrack(start, current_sum, current_combination):\n            if current_sum == target:\n                result.append(current_combination[:])\n                return\n            \n            if current_sum > target:\n                return\n            \n            for i in range(start, len(candidates)):\n                current_combination.append(candidates[i])\n                backtrack(i, current_sum + candidates[i], current_combination)\n                current_combination.pop()\n        \n        backtrack(0, 0, [])\n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 6518252708,
+      "SolvedAt": "2025-11-19T21:36:10.924283+01:00",
+      "PromptTokens": 553,
+      "OutputTokens": 387
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "39",
+        "typed_code": "\nclass Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        result = []\n        \n        def backtrack(start, current_sum, current_combination):\n            if current_sum == target:\n                result.append(current_combination[:])\n                return\n            \n            if current_sum > target:\n                return\n            \n            for i in range(start, len(candidates)):\n                current_combination.append(candidates[i])\n                backtrack(i, current_sum + candidates[i], current_combination)\n                current_combination.pop()\n        \n        backtrack(0, 0, [])\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:05:44+01:00"
+    }
+  }
+}

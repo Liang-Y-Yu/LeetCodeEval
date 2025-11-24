@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1402",
+        "questionId": "1503",
+        "Content": "<p>A chef has collected data on the <code>satisfaction</code> level of his <code>n</code> dishes. Chef can cook any dish in 1 unit of time.</p>\n\n<p><strong>Like-time coefficient</strong> of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level i.e. <code>time[i] * satisfaction[i]</code>.</p>\n\n<p>Return the maximum sum of <strong>like-time coefficient </strong>that the chef can obtain after preparing some amount of dishes.</p>\n\n<p>Dishes can be prepared in <strong>any </strong>order and the chef can discard some dishes to get this maximum value.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [-1,-8,0,5,-9]\n<strong>Output:</strong> 14\n<strong>Explanation:</strong> After Removing the second and last dish, the maximum total <strong>like-time coefficient</strong> will be equal to (-1*1 + 0*2 + 5*3 = 14).\nEach dish is prepared in one unit of time.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [4,3,2]\n<strong>Output:</strong> 20\n<strong>Explanation:</strong> Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [-1,-4,-5]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> People do not like the dishes. No dish is prepared.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == satisfaction.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 500</code></li>\n\t<li><code>-1000 &lt;= satisfaction[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[-1,-8,0,5,-7]",
+        "ExampleTestcases": "[-1,-8,0,5,-7]\n[4,3,2]\n[-1,-4,-5]",
+        "Difficulty": "Hard",
+        "Title": "Reducing Dishes",
+        "TitleSlug": "reducing-dishes",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"178.1K\", \"totalSubmission\": \"232.8K\", \"totalAcceptedRaw\": 178117, \"totalSubmissionRaw\": 232798, \"acRate\": \"76.5%\"}",
+        "Likes": 3482,
+        "Dislikes": 317,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxSatisfaction(vector<int>& satisfaction) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxSatisfaction(int[] satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxSatisfaction(self, satisfaction):\n        \"\"\"\n        :type satisfaction: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} satisfaction\n * @return {number}\n */\nvar maxSatisfaction = function(satisfaction) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxSatisfaction(satisfaction: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxSatisfaction(int[] satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxSatisfaction(int* satisfaction, int satisfactionSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxSatisfaction(satisfaction []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxSatisfaction(satisfaction: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxSatisfaction(_ satisfaction: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_satisfaction(satisfaction: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} satisfaction\n# @return {Integer}\ndef max_satisfaction(satisfaction)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $satisfaction\n     * @return Integer\n     */\n    function maxSatisfaction($satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxSatisfaction(List<int> satisfaction) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxSatisfaction(satisfaction: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_satisfaction(satisfaction :: [integer]) :: integer\n  def max_satisfaction(satisfaction) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_satisfaction(Satisfaction :: [integer()]) -> integer().\nmax_satisfaction(Satisfaction) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-satisfaction satisfaction)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:24:06.693594+01:00",
+    "AcRate": "76.5",
+    "TotalSubmissions": 232798,
+    "TotalAccepted": 178117,
+    "AcceptanceRate": 0.76511396146015,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/reducing-dishes/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: A chef has collected data on the satisfaction level of his n dishes. Chef can cook any dish in 1 unit of time.\nLike-time coefficient of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level i.e. time[i] * satisfaction[i].\nReturn the maximum sum of like-time coefficient that the chef can obtain after preparing some amount of dishes.\nDishes can be prepared in any order and the chef can discard some dishes to get this maximum value.\n\u00a0\nExample 1:\nInput: satisfaction = [-1,-8,0,5,-9]\nOutput: 14\nExplanation: After Removing the second and last dish, the maximum total like-time coefficient will be equal to (-1*1 + 0*2 + 5*3 = 14).\nEach dish is prepared in one unit of time.\nExample 2:\nInput: satisfaction = [4,3,2]\nOutput: 20\nExplanation: Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)\nExample 3:\nInput: satisfaction = [-1,-4,-5]\nOutput: 0\nExplanation: People do not like the dishes. No dish is prepared.\n\u00a0\nConstraints:\n\tn == satisfaction.length\n\t1 <= n <= 500\n\t-1000 <= satisfaction[i] <= 1000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient solution can be achieved by recognizing a key property of the problem. To maximize the sum of `time * satisfaction`, we should pair larger satisfaction values with larger time values. This means that if we decide to cook a certain subset of dishes, the optimal order is to cook them in increasing order of their satisfaction levels.\n\nThis insight simplifies the problem: we only need to decide *which* subset of dishes to cook, as the optimal order for any chosen subset is fixed.\n\nLet's sort the `satisfaction` array in ascending order. Now, consider the possible subsets. It can be proven that any optimal subset of dishes must be a suffix of this sorted array. For instance, if we include a dish with satisfaction `s` but exclude a dish with satisfaction `s' > s`, we could always improve (or at least not worsen) our total score by swapping `s` with `s'`.\n\nThis reduces the problem to finding the best suffix of the sorted `satisfaction` array to cook. We can iterate through all possible suffixes, calculate the \"like-time coefficient sum\" for each, and find the maximum among them. The empty suffix (cooking no dishes) gives a sum of 0, which serves as our baseline.\n\nA naive calculation for each suffix would lead to an O(n^2) approach, which is acceptable for the given constraints. However, we can optimize this to a single pass (O(n)) after sorting.\n\nLet's iterate through the sorted `satisfaction` array from right to left (i.e., from the most satisfying dish to the least). As we add dishes one by one, we can maintain a running total of the like-time coefficient sum.\n\nWhen we add a new dish (which will have the smallest satisfaction value in the current set), it's cooked at time 1. All other dishes in our set have their cooking times shifted up by 1. This means the total score increases by the satisfaction of the new dish, plus the sum of satisfactions of all the dishes that were already in our set.\n\nThis leads to the following efficient algorithm:\n1. Sort the `satisfaction` array.\n2. Iterate from the end of the array to the beginning.\n3. Maintain a `suffix_sum` of the satisfactions of dishes considered so far.\n4. Maintain a `total_coeff` which is the like-time coefficient sum for the current set of dishes. In each step, this `total_coeff` increases by the `suffix_sum`.\n5. Keep track of the maximum `total_coeff` found. This will be the answer. Initializing the maximum to 0 covers the case where it's optimal to cook no dishes.\n\nThis approach has a time complexity of O(n log n) dominated by the sorting step, and a space complexity of O(1) (or O(n) depending on the sort implementation).\n\n```python\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort()\n        \n        # The result must be at least 0 (by cooking no dishes).\n        res = 0\n        \n        # total_coeff will store the like-time coefficient sum for the current suffix.\n        total_coeff = 0\n        \n        # suffix_sum will store the sum of satisfaction values for the current suffix.\n        suffix_sum = 0\n        \n        # Iterate from the dish with the highest satisfaction to the lowest.\n        for i in range(len(satisfaction) - 1, -1, -1):\n            # Add the current dish's satisfaction to the running sum of satisfactions.\n            suffix_sum += satisfaction[i]\n            \n            # When adding a new dish (which is the one with the minimum satisfaction \n            # in the current set), it gets a time coefficient of 1. All other dishes' \n            # time coefficients are incremented by 1. This means the total coefficient \n            # sum increases by the sum of satisfactions of all dishes in the new set.\n            total_coeff += suffix_sum\n            \n            # The optimal set of dishes might be any of the suffixes we are considering.\n            # We keep track of the maximum coefficient sum found so far.\n            res = max(res, total_coeff)\n            \n        return res\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort()\n        \n        # The result must be at least 0 (by cooking no dishes).\n        res = 0\n        \n        # total_coeff will store the like-time coefficient sum for the current suffix.\n        total_coeff = 0\n        \n        # suffix_sum will store the sum of satisfaction values for the current suffix.\n        suffix_sum = 0\n        \n        # Iterate from the dish with the highest satisfaction to the lowest.\n        for i in range(len(satisfaction) - 1, -1, -1):\n            # Add the current dish's satisfaction to the running sum of satisfactions.\n            suffix_sum += satisfaction[i]\n            \n            # When adding a new dish (which is the one with the minimum satisfaction \n            # in the current set), it gets a time coefficient of 1. All other dishes' \n            # time coefficients are incremented by 1. This means the total coefficient \n            # sum increases by the sum of satisfactions of all dishes in the new set.\n            total_coeff += suffix_sum\n            \n            # The optimal set of dishes might be any of the suffixes we are considering.\n            # We keep track of the maximum coefficient sum found so far.\n            res = max(res, total_coeff)\n            \n        return res\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 188577053917,
+      "SolvedAt": "2025-11-20T18:30:24.823103+01:00",
+      "PromptTokens": 537,
+      "OutputTokens": 22252
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1503",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort()\n        \n        # The result must be at least 0 (by cooking no dishes).\n        res = 0\n        \n        # total_coeff will store the like-time coefficient sum for the current suffix.\n        total_coeff = 0\n        \n        # suffix_sum will store the sum of satisfaction values for the current suffix.\n        suffix_sum = 0\n        \n        # Iterate from the dish with the highest satisfaction to the lowest.\n        for i in range(len(satisfaction) - 1, -1, -1):\n            # Add the current dish's satisfaction to the running sum of satisfactions.\n            suffix_sum += satisfaction[i]\n            \n            # When adding a new dish (which is the one with the minimum satisfaction \n            # in the current set), it gets a time coefficient of 1. All other dishes' \n            # time coefficients are incremented by 1. This means the total coefficient \n            # sum increases by the sum of satisfactions of all dishes in the new set.\n            total_coeff += suffix_sum\n            \n            # The optimal set of dishes might be any of the suffixes we are considering.\n            # We keep track of the maximum coefficient sum found so far.\n            res = max(res, total_coeff)\n            \n        return res\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:05:11+01:00"
+    }
+  }
+}

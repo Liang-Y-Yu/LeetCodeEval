@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 25,
+    "lines_of_code": 115,
+    "status": "Wrong Answer"
+  },
+  {
+    "title": "Parsing A Boolean Expression",
+    "problem_id": "1197",
+    "cyclomatic_complexity": 20,
+    "lines_of_code": 39,
+    "status": "Accepted"
+  },
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 17,
+    "lines_of_code": 41,
+    "status": "Accepted"
+  },
+  {
+    "title": "24 Game",
+    "problem_id": "679",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 32,
+    "status": "Accepted"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 49,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 49,
+    "status": "Accepted"
+  },
+  {
+    "title": "Permutation in String",
+    "problem_id": "567",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 39,
+    "status": "Accepted"
+  },
+  {
+    "title": "Count of Range Sum",
+    "problem_id": "327",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 49,
+    "status": "Accepted"
+  },
+  {
+    "title": "Couples Holding Hands",
+    "problem_id": "770",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "problem_id": "1381",
+    "cyclomatic_complexity": 9,
+    "lines_of_code": 48,
+    "status": "Accepted"
+  }
+]

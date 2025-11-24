@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "424",
+        "questionId": "424",
+        "Content": "<p>You are given a string <code>s</code> and an integer <code>k</code>. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most <code>k</code> times.</p>\n\n<p>Return <em>the length of the longest substring containing the same letter you can get after performing the above operations</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ABAB&quot;, k = 2\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;AABABBA&quot;, k = 1\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> Replace the one &#39;A&#39; in the middle with &#39;B&#39; and form &quot;AABBBBA&quot;.\nThe substring &quot;BBBB&quot; has the longest repeating letters, which is 4.\nThere may exists other ways to achieve this answer too.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of only uppercase English letters.</li>\n\t<li><code>0 &lt;= k &lt;= s.length</code></li>\n</ul>\n",
+        "SampleTestCase": "\"ABAB\"\n2",
+        "ExampleTestcases": "\"ABAB\"\n2\n\"AABABBA\"\n1",
+        "Difficulty": "Medium",
+        "Title": "Longest Repeating Character Replacement",
+        "TitleSlug": "longest-repeating-character-replacement",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.3M\", \"totalSubmission\": \"2.3M\", \"totalAcceptedRaw\": 1330577, \"totalSubmissionRaw\": 2279045, \"acRate\": \"58.4%\"}",
+        "Likes": 12451,
+        "Dislikes": 713,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int characterReplacement(string s, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int characterReplacement(String s, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def characterReplacement(self, s, k):\n        \"\"\"\n        :type s: str\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar characterReplacement = function(s, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function characterReplacement(s: string, k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CharacterReplacement(string s, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int characterReplacement(char* s, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func characterReplacement(s string, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun characterReplacement(s: String, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func characterReplacement(_ s: String, _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn character_replacement(s: String, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {Integer} k\n# @return {Integer}\ndef character_replacement(s, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $k\n     * @return Integer\n     */\n    function characterReplacement($s, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int characterReplacement(String s, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def characterReplacement(s: String, k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec character_replacement(s :: String.t, k :: integer) :: integer\n  def character_replacement(s, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec character_replacement(S :: unicode:unicode_binary(), K :: integer()) -> integer().\ncharacter_replacement(S, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (character-replacement s k)\n  (-> string? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:17:47.343352+01:00",
+    "AcRate": "58.4",
+    "TotalSubmissions": 2279045,
+    "TotalAccepted": 1330577,
+    "AcceptanceRate": 0.583830946734268,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.\nReturn the length of the longest substring containing the same letter you can get after performing the above operations.\n\u00a0\nExample 1:\nInput: s = \"ABAB\", k = 2\nOutput: 4\nExplanation: Replace the two 'A's with two 'B's or vice versa.\nExample 2:\nInput: s = \"AABABBA\", k = 1\nOutput: 4\nExplanation: Replace the one 'A' in the middle with 'B' and form \"AABBBBA\".\nThe substring \"BBBB\" has the longest repeating letters, which is 4.\nThere may exists other ways to achieve this answer too.\n\u00a0\nConstraints:\n\t1 <= s.length <= 10^5\n\ts consists of only uppercase English letters.\n\t0 <= k <= s.length\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient approach to this problem is using a sliding window. The core idea is to maintain a window `s[left:right+1]` and expand it to the right. We keep track of the character frequencies within this window.\n\nA window is considered \"valid\" if we can make all its characters the same using at most `k` replacements. The number of replacements needed for a window is its total length minus the frequency of its most common character. So, the condition for a window of length `window_len` with `max_freq` as the highest character frequency is: `window_len - max_freq <= k`.\n\nOur goal is to find the maximum possible `window_len` that satisfies this condition.\n\nThe sliding window algorithm proceeds as follows:\n1. Initialize a window with `left` and `right` pointers at the beginning of the string (`0`).\n2. Keep a frequency map (an array of size 26 is sufficient) for characters in the current window.\n3. Also, maintain `max_freq`, the frequency of the most common character seen in any window so far.\n4. Iterate `right` from `0` to `len(s) - 1`, expanding the window one character at a time.\n5. In each step, update the frequency of `s[right]` and update `max_freq`.\n6. Check if the current window `s[left:right+1]` is invalid. The number of characters that need to be replaced is `(right - left + 1) - max_freq`. If this quantity is greater than `k`, the window is invalid.\n7. If the window is invalid, we must shrink it from the left by incrementing the `left` pointer and decrementing the frequency count of the character `s[left]`. A crucial optimization is that we do not need to update `max_freq` when we shrink the window. The logic holds because we are only interested in the maximum possible window length. The window size will only grow again when we find a new, more frequent character that allows a larger valid window.\n8. The length of the current window `right - left + 1` is always a candidate for the maximum length of a valid substring found so far. We update our overall maximum length with this value in each iteration.\n\nThis approach ensures that we check all potential substrings in a single pass, leading to an optimal time complexity of O(N), where N is the length of the string `s`. The space complexity is O(1) as the frequency map's size is constant (26).\n\n```python\nclass Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        left = 0\n        max_len = 0\n        max_freq = 0\n        counts = [0] * 26\n\n        for right in range(len(s)):\n            char_right_idx = ord(s[right]) - ord('A')\n            counts[char_right_idx] += 1\n            max_freq = max(max_freq, counts[char_right_idx])\n            \n            # If the number of replacements needed exceeds k, shrink the window.\n            if (right - left + 1) - max_freq > k:\n                char_left_idx = ord(s[left]) - ord('A')\n                counts[char_left_idx] -= 1\n                left += 1\n            \n            # The window size (right - left + 1) is the length of the current\n            # valid substring, so we update our maximum length.\n            max_len = max(max_len, right - left + 1)\n            \n        return max_len\n\n```",
+      "TypedCode": "\nclass Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        left = 0\n        max_len = 0\n        max_freq = 0\n        counts = [0] * 26\n\n        for right in range(len(s)):\n            char_right_idx = ord(s[right]) - ord('A')\n            counts[char_right_idx] += 1\n            max_freq = max(max_freq, counts[char_right_idx])\n            \n            # If the number of replacements needed exceeds k, shrink the window.\n            if (right - left + 1) - max_freq > k:\n                char_left_idx = ord(s[left]) - ord('A')\n                counts[char_left_idx] -= 1\n                left += 1\n            \n            # The window size (right - left + 1) is the length of the current\n            # valid substring, so we update our maximum length.\n            max_len = max(max_len, right - left + 1)\n            \n        return max_len\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 184885734542,
+      "SolvedAt": "2025-11-20T14:20:14.265758+01:00",
+      "PromptTokens": 437,
+      "OutputTokens": 22413
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "424",
+        "typed_code": "\nclass Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        left = 0\n        max_len = 0\n        max_freq = 0\n        counts = [0] * 26\n\n        for right in range(len(s)):\n            char_right_idx = ord(s[right]) - ord('A')\n            counts[char_right_idx] += 1\n            max_freq = max(max_freq, counts[char_right_idx])\n            \n            # If the number of replacements needed exceeds k, shrink the window.\n            if (right - left + 1) - max_freq > k:\n                char_left_idx = ord(s[left]) - ord('A')\n                counts[char_left_idx] -= 1\n                left += 1\n            \n            # The window size (right - left + 1) is the length of the current\n            # valid substring, so we update our maximum length.\n            max_len = max(max_len, right - left + 1)\n            \n        return max_len\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:47:36+01:00"
+    }
+  }
+}

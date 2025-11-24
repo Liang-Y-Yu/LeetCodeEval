@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 22,
+    "lines_of_code": 60,
+    "status": "Accepted"
+  },
+  {
+    "title": "Asteroid Collision",
+    "problem_id": "735",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 15,
+    "lines_of_code": 60,
+    "status": "Time Limit Exceeded"
+  },
+  {
+    "title": "Word Break II",
+    "problem_id": "140",
+    "cyclomatic_complexity": 14,
+    "lines_of_code": 44,
+    "status": "Accepted"
+  },
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 63,
+    "status": "Accepted"
+  },
+  {
+    "title": "Wildcard Matching",
+    "problem_id": "44",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 29,
+    "status": "Accepted"
+  },
+  {
+    "title": "Backspace String Compare",
+    "problem_id": "874",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 39,
+    "status": "Accepted"
+  },
+  {
+    "title": "Binary Trees With Factors",
+    "problem_id": "843",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 43,
+    "status": "Accepted"
+  },
+  {
+    "title": "Last Stone Weight II",
+    "problem_id": "1130",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 54,
+    "status": "Accepted"
+  }
+]

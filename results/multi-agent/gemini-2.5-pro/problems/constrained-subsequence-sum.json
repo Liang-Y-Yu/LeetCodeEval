@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1425",
+        "questionId": "1286",
+        "Content": "<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return the maximum sum of a <strong>non-empty</strong> subsequence of that array such that for every two <strong>consecutive</strong> integers in the subsequence, <code>nums[i]</code> and <code>nums[j]</code>, where <code>i &lt; j</code>, the condition <code>j - i &lt;= k</code> is satisfied.</p>\n\n<p>A <em>subsequence</em> of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [10,2,-10,5,20], k = 2\n<strong>Output:</strong> 37\n<b>Explanation:</b> The subsequence is [10, 2, 5, 20].\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-1,-2,-3], k = 1\n<strong>Output:</strong> -1\n<b>Explanation:</b> The subsequence must be non-empty, so we choose the largest number.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [10,-2,-10,-5,20], k = 2\n<strong>Output:</strong> 23\n<b>Explanation:</b> The subsequence is [10, -2, -5, 20].\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[10,2,-10,5,20]\n2",
+        "ExampleTestcases": "[10,2,-10,5,20]\n2\n[-1,-2,-3]\n1\n[10,-2,-10,-5,20]\n2",
+        "Difficulty": "Hard",
+        "Title": "Constrained Subsequence Sum",
+        "TitleSlug": "constrained-subsequence-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"88.8K\", \"totalSubmission\": \"157.6K\", \"totalAcceptedRaw\": 88847, \"totalSubmissionRaw\": 157638, \"acRate\": \"56.4%\"}",
+        "Likes": 2219,
+        "Dislikes": 108,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjM0",
+            "Name": "Queue",
+            "Slug": "queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcx",
+            "Name": "Monotonic Queue",
+            "Slug": "monotonic-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int constrainedSubsetSum(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int constrainedSubsetSum(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def constrainedSubsetSum(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar constrainedSubsetSum = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function constrainedSubsetSum(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int ConstrainedSubsetSum(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int constrainedSubsetSum(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func constrainedSubsetSum(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun constrainedSubsetSum(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func constrainedSubsetSum(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn constrained_subset_sum(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef constrained_subset_sum(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function constrainedSubsetSum($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int constrainedSubsetSum(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def constrainedSubsetSum(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec constrained_subset_sum(nums :: [integer], k :: integer) :: integer\n  def constrained_subset_sum(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec constrained_subset_sum(Nums :: [integer()], K :: integer()) -> integer().\nconstrained_subset_sum(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (constrained-subset-sum nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:35:49.392471+01:00",
+    "AcRate": "56.4",
+    "TotalSubmissions": 157638,
+    "TotalAccepted": 88847,
+    "AcceptanceRate": 0.5636141031984674,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/constrained-subsequence-sum/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem is presented below, followed by the complete Python code solution.\n\n### Problem Analysis\n\n1.  **Problem Type Classification**: Dynamic Programming.\n    The problem asks for a maximum sum of a subsequence under certain constraints. The decision at each step `i` depends on the optimal solutions of previous steps `j` where `i - k <= j < i`, which is a classic DP characteristic.\n\n2.  **Key Patterns & Algorithms**:\n    *   **Dynamic Programming (DP)**: We can define `dp[i]` as the maximum sum of a constrained subsequence ending at `nums[i]`. The recurrence relation would be `dp[i] = nums[i] + max(0, max_of_previous_dps_in_window)`. The `max(0, ...)` is used because if all previous valid subsequence sums are negative, it's better to start a new subsequence at `nums[i]` rather than extending a negatively-summed one.\n    *   **Sliding Window Maximum**: The DP recurrence requires finding the maximum value in a sliding window of the `dp` array (`dp[j]` for `i-k <= j < i`). A naive search for this maximum at each step leads to an `O(N*K)` solution, which is too slow. This subproblem can be optimized using a **monotonic deque**. The deque stores indices of `dp` values in decreasing order, allowing `O(1)` amortized time access to the maximum of the current window.\n\n3.  **Constraints Analysis**:\n    *   `nums.length` (N) and `k` can be up to `10^5`.\n    *   An `O(N*K)` solution would be up to `10^10` operations, which is infeasible.\n    *   An `O(N)` solution, like the one using a monotonic deque, is required. It has a time complexity of `O(N)` because each element's index is added to and removed from the deque at most once.\n    *   The space complexity would be `O(N)` for the `dp` array and `O(k)` for the deque, for a total of `O(N)`. This is acceptable given the problem constraints.\n\n4.  **Edge Cases**:\n    *   **All negative numbers**: The subsequence must be non-empty, so the answer is the largest (least negative) number in `nums`. The proposed DP handles this: `dp[i]` will be `nums[i]` if all previous `dp` sums are negative, and the final `max(dp)` will pick the largest `nums[i]`.\n    *   **`k=1`**: The subsequence elements must be adjacent. The sliding window will have a size of 1.\n    *   **`k >= nums.length`**: Any element can follow any previous element. The algorithm naturally handles this as the window expands to include all previous elements.\n    *   **Single element array**: The answer is just that single element.\n\n5.  **Input/Output Analysis**:\n    *   **Input**: `nums: List[int]`, `k: int`.\n    *   **Output**: An integer representing the maximum possible subsequence sum.\n\n6.  **Difficulty Assessment**:\n    *   This problem is **Medium-Hard**. While it appears to be a standard DP problem, the performance constraint requires an optimization (sliding window maximum with a deque) that is a more advanced technique. Recognizing this pattern is the key and main challenge.\n\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dp = [0] * n\n        dq = collections.deque()\n\n        for i in range(n):\n            # Remove indices from the front of the deque that are no longer\n            # in the window of size k, i.e., index < i - k.\n            if dq and dq[0] < i - k:\n                dq.popleft()\n\n            # The maximum of the previous dp values in the window [i-k, i-1]\n            # is dp[dq[0]]. If the deque is empty, there are no valid previous elements.\n            prev_max = dp[dq[0]] if dq else 0\n            \n            # dp[i] is the sum of nums[i] and the best previous subsequence sum.\n            # If the best previous sum is negative, we're better off starting a new\n            # subsequence at nums[i], hence we add max(0, prev_max).\n            dp[i] = nums[i] + max(0, prev_max)\n\n            # Maintain the monotonic decreasing property of the deque based on dp values.\n            # Remove all indices from the back of the deque whose dp values are\n            # smaller than or equal to the current dp[i]. They can never be the\n            # maximum in any future window that includes index i.\n            while dq and dp[dq[-1]] <= dp[i]:\n                dq.pop()\n            \n            # Append the current index to the deque.\n            dq.append(i)\n\n        # The result is the maximum value in the dp array, as the optimal\n        # subsequence can end at any index.\n        return max(dp)\n\n```\n\n=== DESIGN ===\nAn elegant and efficient way to solve this problem is by using Dynamic Programming combined with a Sliding Window Maximum optimization. The core idea is to build up the solution by iteratively finding the maximum subsequence sum ending at each index `i`. A naive DP approach would be too slow, so we use a monotonic deque to find the maximum of previous solutions in constant amortized time.\n\n### 1. Algorithm Choice\nThe chosen algorithm is **Dynamic Programming with a Sliding Window Maximum optimization**.\n\n- **Dynamic Programming (DP)**: We define a state `dp[i]` as the maximum sum of a constrained subsequence that *ends* at index `i`.\n- **Sliding Window Maximum**: The DP calculation for `dp[i]` requires finding the maximum value in a sliding window of the previous `dp` values (i.e., `dp[j]` where `i-k <= j < i`). A monotonic deque is used to track this maximum efficiently, reducing the time complexity from `O(N*K)` to `O(N)`.\n\n### 2. Step-by-Step Approach\n\n1.  **Define the DP state**: Let `dp[i]` be the maximum possible sum of a valid subsequence ending with the element `nums[i]`.\n\n2.  **Establish the Recurrence Relation**: To calculate `dp[i]`, we must include `nums[i]`. We can either start a new subsequence with `nums[i]` or extend a previous one. If we extend, we must choose the best valid subsequence ending at an index `j` such that `i - k <= j < i`. The sum would be `nums[i] + dp[j]`. We want to maximize this, so we need `nums[i] + max(dp[j])` over the valid range of `j`. If all previous valid `dp[j]` are negative, it's better to start a new subsequence, making the sum just `nums[i]`. This leads to the recurrence:\n    `dp[i] = nums[i] + max(0, max(dp[j] for j in [i-k, i-1]))`\n\n3.  **Optimize with a Monotonic Deque**: The `max(dp[j]...)` part is a classic sliding window maximum problem. We use a deque to maintain indices of `dp` values in decreasing order.\n    -   The deque will store indices, not the `dp` values themselves.\n    -   The `dp` value corresponding to the index at the front of the deque will always be the maximum in the current window.\n\n4.  **Iteration**:\n    -   Initialize a `dp` array of the same size as `nums` and an empty deque.\n    -   Iterate through `nums` with index `i` from `0` to `n-1`:\n        a. **Window Management**: Before computing `dp[i]`, remove indices from the *front* of the deque that are no longer in the sliding window of size `k` (i.e., indices less than `i - k`).\n        b. **DP Calculation**: The maximum sum of a previous subsequence in the valid window is `dp[deque.front()]` (if the deque is not empty). Calculate `dp[i]` using the recurrence. If the deque is empty, no valid previous element exists, so the term added to `nums[i]` is 0.\n        c. **Deque Maintenance**: To maintain the decreasing (monotonic) property, remove indices from the *back* of the deque whose corresponding `dp` values are less than or equal to the newly computed `dp[i]`. This is because they can no longer be the maximum in any future window that includes `i`.\n        d. **Add Current Index**: Add the current index `i` to the back of the deque.\n\n5.  **Final Result**: The maximum sum subsequence doesn't necessarily end at the last element. The answer is the maximum value in the entire `dp` array. If all numbers in `nums` are negative, the problem requires a non-empty subsequence, so the answer is the largest number in `nums`, which our DP approach correctly finds.\n\n### 3. Data Structures\n-   **`dp` array (list in Python)**: An array of size `n` to store the maximum subsequence sum ending at each index. `dp[i]` holds the solution for the subproblem ending at `nums[i]`.\n-   **Deque (double-ended queue)**: A deque from Python's `collections` module. It will store indices and maintain them such that `dp[deque[0]] >= dp[deque[1]] >= ...`. This allows `O(1)` access to the index of the maximum `dp` value in the current window.\n\n### 4. Time Complexity\n**O(N)**, where `N` is the number of elements in `nums`. We iterate through the `nums` array once. Each index is pushed onto and popped from the deque at most one time. Therefore, all deque operations have an amortized cost of O(1) per element, leading to a linear time overall.\n\n### 5. Space Complexity\n**O(N)**. The `dp` array requires `O(N)` space. The deque can store at most `k` indices. Since `k <= N`, the total space complexity is `O(N + k)`, which simplifies to `O(N)`.\n\n### 6. Pseudocode\n```\nfunction constrainedSubsetSum(nums, k):\n  n = length of nums\n  // dp[i] = max sum of a valid subsequence ending at index i\n  dp = array of size n, initialized to 0\n  // deque stores indices j such that dp[j] values are monotonically decreasing\n  deque = new empty deque\n\n  for i from 0 to n-1:\n    // 1. Remove indices from the front that are out of the window [i-k, i-1]\n    if deque is not empty and deque.front() < i - k:\n      deque.pop_front()\n\n    // 2. Calculate dp[i]\n    // Get the max from the previous valid window. If window is empty, this is 0.\n    prev_max = 0\n    if deque is not empty:\n      prev_max = dp[deque.front()]\n    \n    // If prev_max is negative, it's better to start a new subsequence.\n    dp[i] = nums[i] + max(0, prev_max)\n\n    // 3. Maintain the monotonic property of the deque\n    // Remove smaller values from the back as they can't be future maximums.\n    while deque is not empty and dp[deque.back()] <= dp[i]:\n      deque.pop_back()\n\n    // 4. Add the current index to the deque\n    deque.push_back(i)\n\n  // 5. The result is the maximum value found in the dp array,\n  // as the subsequence can end at any index.\n  return max(dp)\n```\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        # The dp array is defined as in the analysis.\n        # dp[i] stores the max sum of a valid subsequence ending at nums[i].\n        # In this implementation, we can re-use the nums array as the dp array\n        # to save space, but for clarity, a separate dp array is shown (and then optimized away).\n        # We will modify nums in-place to act as our dp array.\n        \n        # dq will store indices in a sliding window of size k.\n        # The indices in dq will correspond to values in `nums` (our dp array)\n        # that are in monotonically decreasing order.\n        dq = collections.deque()\n        max_sum = float('-inf')\n\n        for i in range(n):\n            # 1. Remove indices from the front of the deque that are outside the\n            # current window of size k, i.e., index < i - k.\n            if dq and dq[0] < i - k:\n                dq.popleft()\n\n            # 2. Calculate the current max sum ending at i.\n            # The max of the previous dp values in the window [i-k, i-1]\n            # is at the front of the deque. If the deque is empty, there are no\n            # valid previous positive sums to extend.\n            prev_max = nums[dq[0]] if dq else 0\n            \n            # dp[i] = nums[i] + max(0, dp[j]) for j in [i-k, i-1].\n            # If prev_max is negative, we are better off starting a new\n            # subsequence at nums[i], hence we add max(0, prev_max).\n            current_sum = nums[i] + max(0, prev_max)\n            \n            # We are using nums as the dp array, so we update it.\n            nums[i] = current_sum\n            \n            # The overall result is the maximum of all possible subsequence sums.\n            max_sum = max(max_sum, nums[i])\n\n            # 3. Maintain the monotonic decreasing property of the deque.\n            # Remove all indices from the back whose dp values (now in nums)\n            # are smaller than or equal to the current dp value. They can never\n            # be the maximum in any future window that includes index i.\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            \n            # 4. Append the current index to the deque.\n            dq.append(i)\n        \n        # The result must be non-empty, if all calculated sums are negative,\n        # the largest of those is the answer. For example, if nums=[-1,-2,-3],\n        # our modified nums will be [-1,-1,-2] and max_sum will be -1.\n        return max_sum\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dq = collections.deque()\n        \n        for i in range(n):\n            # The window for calculating dp[i] is from index i-k to i-1.\n            # Remove indices from the front of the deque that are too old.\n            if dq and dq[0] < i - k:\n                dq.poplet()\n\n            # dp[i] = nums[i] + max(0, max_of_dp_in_window)\n            # We use the nums array in-place for dp values.\n            # The max dp value in the window is at the front of our deque.\n            prev_max = nums[dq[0]] if dq else 0\n            nums[i] += max(0, prev_max)\n            \n            # Maintain the monotonic decreasing property of the deque.\n            # Pop any elements from the back that are smaller than or equal to\n            # the current element, as they can no longer be the maximum.\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            \n            dq.append(i)\n            \n        # The answer is the maximum value in our dp array (the modified nums array),\n        # as the subsequence can end at any position.\n        return max(nums)\n```\n\n=== VERIFICATION ===\n```python\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        # The deque stores indices j such that the DP values (stored in `nums`)\n        # are in monotonically decreasing order.\n        dq = collections.deque()\n        \n        # We iterate through the array, using `nums` in-place to store the DP values.\n        # nums[i] will be updated to be the maximum sum of a valid subsequence ending at i.\n        for i in range(n):\n            # 1. Remove indices from the front of the deque that are no longer\n            # in the sliding window of size k. The window for predecessors of `i` is `[i-k, i-1]`.\n            if dq and dq[0] < i - k:\n                dq.popleft()\n            \n            # 2. Calculate the DP value for the current index `i`.\n            # The recurrence is: dp[i] = nums[i] + max(0, max_val_in_window).\n            # The max value in the window is at the front of the deque.\n            # We add `max(0, ...)` because if the best previous sum is negative,\n            # we are better off starting a new subsequence from `nums[i]`.\n            prev_max = nums[dq[0]] if dq else 0\n            nums[i] += max(0, prev_max)\n            \n            # 3. Maintain the monotonic property of the deque.\n            # Remove indices from the back whose DP values are less than or equal to\n            # the current DP value `nums[i]`. They can never be the maximum in any\n            # future window that includes index `i`.\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            \n            # 4. Add the current index to the deque.\n            dq.append(i)\n            \n        # The result is the maximum value in our modified `nums` array,\n        # as the optimal subsequence can end at any position.\n        return max(nums)\n\n```\n\n",
+      "TypedCode": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dq = collections.deque()\n        \n        for i in range(n):\n            # The window for calculating dp[i] is from index i-k to i-1.\n            # Remove indices from the front of the deque that are too old.\n            if dq and dq[0] < i - k:\n                dq.poplet()\n\n            # dp[i] = nums[i] + max(0, max_of_dp_in_window)\n            # We use the nums array in-place for dp values.\n            # The max dp value in the window is at the front of our deque.\n            prev_max = nums[dq[0]] if dq else 0\n            nums[i] += max(0, prev_max)\n            \n            # Maintain the monotonic decreasing property of the deque.\n            # Pop any elements from the back that are smaller than or equal to\n            # the current element, as they can no longer be the maximum.\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            \n            dq.append(i)\n            \n        # The answer is the maximum value in our dp array (the modified nums array),\n        # as the subsequence can end at any position.\n        return max(nums)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 536174547792,
+      "SolvedAt": "2025-11-21T09:45:02.24826+01:00",
+      "PromptTokens": 11010,
+      "OutputTokens": 64788
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1286",
+        "typed_code": "\nimport collections\nfrom typing import List\n\nclass Solution:\n    def constrainedSubsetSum(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        dq = collections.deque()\n        \n        for i in range(n):\n            # The window for calculating dp[i] is from index i-k to i-1.\n            # Remove indices from the front of the deque that are too old.\n            if dq and dq[0] < i - k:\n                dq.poplet()\n\n            # dp[i] = nums[i] + max(0, max_of_dp_in_window)\n            # We use the nums array in-place for dp values.\n            # The max dp value in the window is at the front of our deque.\n            prev_max = nums[dq[0]] if dq else 0\n            nums[i] += max(0, prev_max)\n            \n            # Maintain the monotonic decreasing property of the deque.\n            # Pop any elements from the back that are smaller than or equal to\n            # the current element, as they can no longer be the maximum.\n            while dq and nums[dq[-1]] <= nums[i]:\n                dq.pop()\n            \n            dq.append(i)\n            \n        # The answer is the maximum value in our dp array (the modified nums array),\n        # as the subsequence can end at any position.\n        return max(nums)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 11,
+        "status_msg": "Runtime Error",
+        "Finished": true,
+        "State": "FAILED"
+      },
+      "SubmittedAt": "2025-11-21T21:29:13+01:00"
+    }
+  }
+}

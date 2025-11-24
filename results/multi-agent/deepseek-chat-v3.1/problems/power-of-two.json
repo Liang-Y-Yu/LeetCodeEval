@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "231",
+        "questionId": "231",
+        "Content": "<p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of two. Otherwise, return <code>false</code></em>.</p>\n\n<p>An integer <code>n</code> is a power of two, if there exists an integer <code>x</code> such that <code>n == 2<sup>x</sup></code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> true\n<strong>Explanation: </strong>2<sup>0</sup> = 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 16\n<strong>Output:</strong> true\n<strong>Explanation: </strong>2<sup>4</sup> = 16\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 3\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>-2<sup>31</sup> &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Could you solve it without loops/recursion?",
+        "SampleTestCase": "1",
+        "ExampleTestcases": "1\n16\n3",
+        "Difficulty": "Easy",
+        "Title": "Power of Two",
+        "TitleSlug": "power-of-two",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2M\", \"totalSubmission\": \"4.1M\", \"totalAcceptedRaw\": 2022152, \"totalSubmissionRaw\": 4079898, \"acRate\": \"49.6%\"}",
+        "Likes": 7793,
+        "Dislikes": 490,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isPowerOfTwo(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isPowerOfTwo(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isPowerOfTwo(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar isPowerOfTwo = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isPowerOfTwo(n: number): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsPowerOfTwo(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isPowerOfTwo(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isPowerOfTwo(n int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isPowerOfTwo(n: Int): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isPowerOfTwo(_ n: Int) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_power_of_two(n: i32) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Boolean}\ndef is_power_of_two(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Boolean\n     */\n    function isPowerOfTwo($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isPowerOfTwo(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isPowerOfTwo(n: Int): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_power_of_two(n :: integer) :: boolean\n  def is_power_of_two(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_power_of_two(N :: integer()) -> boolean().\nis_power_of_two(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-power-of-two n)\n  (-> exact-integer? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:26:07.220442+01:00",
+    "AcRate": "49.6",
+    "TotalSubmissions": 4079898,
+    "TotalAccepted": 2022152,
+    "AcceptanceRate": 0.49563788114310703,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/power-of-two/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: Bit Manipulation, Math\n\n**Key Patterns & Algorithms**:\n- Bitwise operations: checking if a number has exactly one set bit (since powers of two have binary representation with a single 1).\n- Mathematical property: n & (n-1) removes the rightmost set bit; for powers of two, this results in 0.\n- Edge case handling for non-positive numbers.\n\n**Constraints Analysis**:\n- n ranges from -2^31 to 2^31 - 1.\n- Constant time O(1) solution is required since n is a fixed-size integer (32-bit).\n- No loops or recursion needed for optimal solution.\n\n**Edge Cases**:\n- n = 0 (not a power of two).\n- n = 1 (2^0 is a power of two).\n- Negative numbers (none are powers of two since powers of two are positive).\n- Large n values near 2^31.\n\n**Input/Output Analysis**:\n- Input: integer n.\n- Output: boolean true/false.\n\n**Difficulty Assessment**:\n- Easy if using loops/recursion.\n- Slightly tricky for bit manipulation approach due to edge cases (like n=0 and negatives).\n\n```python\nclass Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        return n > 0 and (n & (n - 1)) == 0\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Bit Manipulation using the property that powers of two have exactly one set bit, and `n & (n-1)` removes the rightmost set bit. For a power of two, this operation results in zero.\n\n**Step-by-Step Approach**:\n1. Check if `n` is positive (since powers of two are positive and negative numbers cannot be powers of two).\n2. Use the bitwise operation: `n & (n-1) == 0`. This works because if `n` has exactly one set bit (i.e., is a power of two), subtracting one flips all bits after the set bit (including the set bit). The AND operation then yields zero.\n3. Handle the edge case for `n=0` (which would fail the `n>0` check) and negative numbers.\n\n**Data Structures**: None needed, as we are working with primitive integers.\n\n**Time Complexity**: O(1), since the operations are constant time for 32-bit integers.\n\n**Space Complexity**: O(1), no extra space used.\n\n**Pseudocode**:\n```\nif n <= 0:\n    return false\nreturn (n & (n - 1)) == 0\n```\n\nNow, the code:\n```python\nclass Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        if n <= 0:\n            return False\n        return (n & (n - 1)) == 0\n```\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        if n <= 0:\n            return False\n        return (n & (n - 1)) == 0\n\n=== VERIFICATION ===\nAfter reviewing the implemented solution, I confirm that it is correct and meets all requirements. Here's the verification report:\n\n1. **Correctness**: The code correctly implements the designed algorithm using bit manipulation. It checks if the number is positive and then uses `n & (n-1) == 0` to determine if it's a power of two.\n\n2. **Edge Cases**:\n   - n=0: Returns False (correct, as 0 is not a power of two).\n   - n=1: Returns True (correct, 2^0=1).\n   - Negative numbers: Returns False (correct, powers of two are positive).\n   - Large values (e.g., 2^30): Returns True (correct).\n\n3. **Complexity**: The solution runs in O(1) time and uses O(1) space, which is optimal for this problem.\n\n4. **Code Quality**: The code is clean, readable, and follows best practices. It uses a simple conditional and a bitwise operation without unnecessary complexity.\n\n5. **Test Cases**:\n   - Example 1: n=1 -> returns True (correct).\n   - Example 2: n=16 -> returns True (correct).\n   - Example 3: n=3 -> returns False (correct).\n\n6. **Potential Issues**: None. The solution handles all constraints and edge cases appropriately.\n\nThe solution is valid and requires no changes.\n\n```python\nclass Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        if n <= 0:\n            return False\n        return (n & (n - 1)) == 0\n```\n\n",
+      "TypedCode": "class Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        if n <= 0:\n            return False\n        return (n & (n - 1)) == 0",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 23855158500,
+      "SolvedAt": "2025-11-21T00:27:41.026113+01:00",
+      "PromptTokens": 3562,
+      "OutputTokens": 986
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "231",
+        "typed_code": "class Solution:\n    def isPowerOfTwo(self, n: int) -> bool:\n        if n <= 0:\n            return False\n        return (n & (n - 1)) == 0"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:34:24+01:00"
+    }
+  }
+}

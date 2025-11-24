@@ -1,0 +1,220 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1255",
+        "questionId": "1381",
+        "Content": "<p>Given a list of <code>words</code>, list of&nbsp; single&nbsp;<code>letters</code> (might be repeating)&nbsp;and <code>score</code>&nbsp;of every character.</p>\n\n<p>Return the maximum score of <strong>any</strong> valid set of words formed by using the given letters (<code>words[i]</code> cannot be used two&nbsp;or more times).</p>\n\n<p>It is not necessary to use all characters in <code>letters</code> and each letter can only be used once. Score of letters&nbsp;<code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, <code>&#39;c&#39;</code>, ... ,<code>&#39;z&#39;</code> is given by&nbsp;<code>score[0]</code>, <code>score[1]</code>, ... , <code>score[25]</code> respectively.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;dog&quot;,&quot;cat&quot;,&quot;dad&quot;,&quot;good&quot;], letters = [&quot;a&quot;,&quot;a&quot;,&quot;c&quot;,&quot;d&quot;,&quot;d&quot;,&quot;d&quot;,&quot;g&quot;,&quot;o&quot;,&quot;o&quot;], score = [1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]\n<strong>Output:</strong> 23\n<strong>Explanation:</strong>\nScore  a=1, c=9, d=5, g=3, o=2\nGiven letters, we can form the words &quot;dad&quot; (5+1+5) and &quot;good&quot; (3+2+2+5) with a score of 23.\nWords &quot;dad&quot; and &quot;dog&quot; only get a score of 21.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;xxxz&quot;,&quot;ax&quot;,&quot;bx&quot;,&quot;cx&quot;], letters = [&quot;z&quot;,&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;x&quot;,&quot;x&quot;,&quot;x&quot;], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]\n<strong>Output:</strong> 27\n<strong>Explanation:</strong>\nScore  a=4, b=4, c=4, x=5, z=10\nGiven letters, we can form the words &quot;ax&quot; (4+5), &quot;bx&quot; (4+5) and &quot;cx&quot; (4+5) with a score of 27.\nWord &quot;xxxz&quot; only get a score of 25.</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> words = [&quot;leetcode&quot;], letters = [&quot;l&quot;,&quot;e&quot;,&quot;t&quot;,&quot;c&quot;,&quot;o&quot;,&quot;d&quot;], score = [0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong>\nLetter &quot;e&quot; can only be used once.</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 14</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 15</code></li>\n\t<li><code>1 &lt;= letters.length &lt;= 100</code></li>\n\t<li><code>letters[i].length == 1</code></li>\n\t<li><code>score.length ==&nbsp;26</code></li>\n\t<li><code>0 &lt;= score[i] &lt;= 10</code></li>\n\t<li><code>words[i]</code>, <code>letters[i]</code>&nbsp;contains only lower case English letters.</li>\n</ul>\n",
+        "SampleTestCase": "[\"dog\",\"cat\",\"dad\",\"good\"]\n[\"a\",\"a\",\"c\",\"d\",\"d\",\"d\",\"g\",\"o\",\"o\"]\n[1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]",
+        "ExampleTestcases": "[\"dog\",\"cat\",\"dad\",\"good\"]\n[\"a\",\"a\",\"c\",\"d\",\"d\",\"d\",\"g\",\"o\",\"o\"]\n[1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]\n[\"xxxz\",\"ax\",\"bx\",\"cx\"]\n[\"z\",\"a\",\"b\",\"c\",\"x\",\"x\",\"x\"]\n[4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]\n[\"leetcode\"]\n[\"l\",\"e\",\"t\",\"c\",\"o\",\"d\"]\n[0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]",
+        "Difficulty": "Hard",
+        "Title": "Maximum Score Words Formed by Letters",
+        "TitleSlug": "maximum-score-words-formed-by-letters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"131.4K\", \"totalSubmission\": \"161K\", \"totalAcceptedRaw\": 131445, \"totalSubmissionRaw\": 161020, \"acRate\": \"81.6%\"}",
+        "Likes": 1839,
+        "Dislikes": 119,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYy",
+            "Name": "Counting",
+            "Slug": "counting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDc4",
+            "Name": "Bitmask",
+            "Slug": "bitmask"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxScoreWords(String[] words, char[] letters, int[] score) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxScoreWords(self, words, letters, score):\n        \"\"\"\n        :type words: List[str]\n        :type letters: List[str]\n        :type score: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string[]} words\n * @param {character[]} letters\n * @param {number[]} score\n * @return {number}\n */\nvar maxScoreWords = function(words, letters, score) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxScoreWords(words: string[], letters: string[], score: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxScoreWords(string[] words, char[] letters, int[] score) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxScoreWords(char** words, int wordsSize, char* letters, int lettersSize, int* score, int scoreSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxScoreWords(words []string, letters []byte, score []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxScoreWords(words: Array<String>, letters: CharArray, score: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxScoreWords(_ words: [String], _ letters: [Character], _ score: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_score_words(words: Vec<String>, letters: Vec<char>, score: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String[]} words\n# @param {Character[]} letters\n# @param {Integer[]} score\n# @return {Integer}\ndef max_score_words(words, letters, score)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String[] $letters\n     * @param Integer[] $score\n     * @return Integer\n     */\n    function maxScoreWords($words, $letters, $score) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxScoreWords(List<String> words, List<String> letters, List<int> score) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxScoreWords(words: Array[String], letters: Array[Char], score: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_score_words(words :: [String.t], letters :: [char], score :: [integer]) :: integer\n  def max_score_words(words, letters, score) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_score_words(Words :: [unicode:unicode_binary()], Letters :: [char()], Score :: [integer()]) -> integer().\nmax_score_words(Words, Letters, Score) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-score-words words letters score)\n  (-> (listof string?) (listof char?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:31:03.531057+01:00",
+    "AcRate": "81.6",
+    "TotalSubmissions": 161020,
+    "TotalAccepted": 131445,
+    "AcceptanceRate": 0.8163271643274127,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-score-words-formed-by-letters/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to:\n\n1. **Problem Type Classification**: This is a backtracking/subset generation problem with constraint checking (available letters).\n\n2. **Key Patterns & Algorithms**: \n   - Backtracking to explore all possible subsets of words\n   - Frequency counting to track letter usage\n   - Greedy isn't applicable since we need to explore combinations\n\n3. **Constraints Analysis**: \n   - With `words.length <= 14`, we have at most 2^14 = 16,384 subsets to check\n   - This makes backtracking/brute force feasible\n   - Time complexity: O(2^n * m) where n is number of words, m is average word length\n   - Space complexity: O(26) for letter counting + recursion stack O(n)\n\n4. **Edge Cases**:\n   - Empty word list\n   - Not enough letters to form any word\n   - Words requiring more of a letter than available\n   - All scores being 0\n   - Single word that uses all letters\n\n5. **Input/Output Analysis**:\n   - Input: list of words, list of individual letters, list of 26 scores\n   - Output: single integer (max score)\n\n6. **Difficulty Assessment**: \n   - Managing letter frequency constraints\n   - Exploring all valid combinations efficiently\n   - Proper backtracking implementation\n\nThe approach:\n- Use backtracking to try including/excluding each word\n- Track available letters using a frequency map\n- For each word, check if we have enough letters\n- If yes, subtract letters, add score, recurse\n- Backtrack by restoring letters\n- Track maximum score seen\n\n```python\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        from collections import Counter\n        \n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score = max(max_score, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score\n        \n        return backtrack(0, letter_count)\n```\n\n=== DESIGN ===\n```python\nfrom typing import List\nfrom collections import Counter\n\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score_result = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score_result = max(max_score_result, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score_result\n        \n        return backtrack(0, letter_count)\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\nfrom collections import Counter\n\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score_result = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score_result = max(max_score_result, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score_result\n        \n        return backtrack(0, letter_count)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\nfrom collections import Counter\n\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score_result = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score_result = max(max_score_result, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score_result\n        \n        return backtrack(0, letter_count)\n```\n\n",
+      "TypedCode": "\nfrom typing import List\nfrom collections import Counter\n\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score_result = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score_result = max(max_score_result, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score_result\n        \n        return backtrack(0, letter_count)\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 23459458250,
+      "SolvedAt": "2025-11-19T23:41:20.055316+01:00",
+      "PromptTokens": 7556,
+      "OutputTokens": 1771
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1381",
+        "typed_code": "\nfrom typing import List\nfrom collections import Counter\n\nclass Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        letter_count = Counter(letters)\n        \n        def get_word_score(word):\n            return sum(score[ord(c) - ord('a')] for c in word)\n        \n        def can_form_word(word, available):\n            word_count = Counter(word)\n            for char, count in word_count.items():\n                if available[char] < count:\n                    return False\n            return True\n        \n        def backtrack(index, available):\n            if index == len(words):\n                return 0\n            \n            max_score_result = backtrack(index + 1, available)\n            \n            word = words[index]\n            if can_form_word(word, available):\n                word_count = Counter(word)\n                for char, count in word_count.items():\n                    available[char] -= count\n                \n                current_score = get_word_score(word) + backtrack(index + 1, available)\n                max_score_result = max(max_score_result, current_score)\n                \n                for char, count in word_count.items():\n                    available[char] += count\n            \n            return max_score_result\n        \n        return backtrack(0, letter_count)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T10:01:38+01:00"
+    }
+  }
+}

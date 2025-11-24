@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "862",
+        "questionId": "892",
+        "Content": "<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the length of the shortest non-empty <strong>subarray</strong> of </em><code>nums</code><em> with a sum of at least </em><code>k</code>. If there is no such <strong>subarray</strong>, return <code>-1</code>.</p>\n\n<p>A <strong>subarray</strong> is a <strong>contiguous</strong> part of an array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [1], k = 1\n<strong>Output:</strong> 1\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [1,2], k = 4\n<strong>Output:</strong> -1\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> nums = [2,-1,2], k = 3\n<strong>Output:</strong> 3\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[1]\n1",
+        "ExampleTestcases": "[1]\n1\n[1,2]\n4\n[2,-1,2]\n3",
+        "Difficulty": "Hard",
+        "Title": "Shortest Subarray with Sum at Least K",
+        "TitleSlug": "shortest-subarray-with-sum-at-least-k",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"199.6K\", \"totalSubmission\": \"615.7K\", \"totalAcceptedRaw\": 199551, \"totalSubmissionRaw\": 615707, \"acRate\": \"32.4%\"}",
+        "Likes": 5115,
+        "Dislikes": 143,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjM0",
+            "Name": "Queue",
+            "Slug": "queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcx",
+            "Name": "Monotonic Queue",
+            "Slug": "monotonic-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int shortestSubarray(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int shortestSubarray(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def shortestSubarray(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def shortestSubarray(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar shortestSubarray = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function shortestSubarray(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int ShortestSubarray(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int shortestSubarray(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func shortestSubarray(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun shortestSubarray(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func shortestSubarray(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn shortest_subarray(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef shortest_subarray(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function shortestSubarray($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int shortestSubarray(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def shortestSubarray(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec shortest_subarray(nums :: [integer], k :: integer) :: integer\n  def shortest_subarray(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec shortest_subarray(Nums :: [integer()], K :: integer()) -> integer().\nshortest_subarray(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (shortest-subarray nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:54:35.002874+01:00",
+    "AcRate": "32.4",
+    "TotalSubmissions": 615707,
+    "TotalAccepted": 199551,
+    "AcceptanceRate": 0.32410058680508746,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.\nA subarray is a contiguous part of an array.\n\u00a0\nExample 1:\nInput: nums = [1], k = 1\nOutput: 1\nExample 2:\nInput: nums = [1,2], k = 4\nOutput: -1\nExample 3:\nInput: nums = [2,-1,2], k = 3\nOutput: 3\n\u00a0\nConstraints:\n\t1 <= nums.length <= 10^5\n\t-10^5 <= nums[i] <= 10^5\n\t1 <= k <= 10^9\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def shortestSubarray(self, nums: List[int], k: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the shortest subarray with sum at least k.\n\nKey observations:\n1. We need to handle negative numbers, which makes this more complex than a simple sliding window\n2. We can use prefix sums to calculate subarray sums efficiently\n3. For a subarray from index i to j, the sum is prefix[j] - prefix[i]\n4. We want prefix[j] - prefix[i] >= k, which means prefix[j] >= prefix[i] + k\n5. We need to find the minimum length j - i where this condition holds\n\nThe approach:\n- Use a deque to maintain indices of prefix sums in increasing order\n- For each position j, we want to find the largest i (closest to j) where prefix[j] - prefix[i] >= k\n- We remove elements from the front of deque when they satisfy the condition\n- We remove elements from the back of deque when current prefix sum is smaller (they won't be useful for future iterations)\n\n```python\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def shortestSubarray(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        \n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n        \n        result = float('inf')\n        dq = deque()\n        \n        for i in range(n + 1):\n            while dq and prefix[i] - prefix[dq[0]] >= k:\n                result = min(result, i - dq.popleft())\n            \n            while dq and prefix[i] <= prefix[dq[-1]]:\n                dq.pop()\n            \n            dq.append(i)\n        \n        return result if result != float('inf') else -1\n```",
+      "TypedCode": "\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def shortestSubarray(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        \n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n        \n        result = float('inf')\n        dq = deque()\n        \n        for i in range(n + 1):\n            while dq and prefix[i] - prefix[dq[0]] >= k:\n                result = min(result, i - dq.popleft())\n            \n            while dq and prefix[i] <= prefix[dq[-1]]:\n                dq.pop()\n            \n            dq.append(i)\n        \n        return result if result != float('inf') else -1\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 7391610708,
+      "SolvedAt": "2025-11-19T21:52:54.933852+01:00",
+      "PromptTokens": 412,
+      "OutputTokens": 448
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "892",
+        "typed_code": "\nfrom typing import List\nfrom collections import deque\n\nclass Solution:\n    def shortestSubarray(self, nums: List[int], k: int) -> int:\n        n = len(nums)\n        prefix = [0] * (n + 1)\n        \n        for i in range(n):\n            prefix[i + 1] = prefix[i] + nums[i]\n        \n        result = float('inf')\n        dq = deque()\n        \n        for i in range(n + 1):\n            while dq and prefix[i] - prefix[dq[0]] >= k:\n                result = min(result, i - dq.popleft())\n            \n            while dq and prefix[i] <= prefix[dq[-1]]:\n                dq.pop()\n            \n            dq.append(i)\n        \n        return result if result != float('inf') else -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:04:56+01:00"
+    }
+  }
+}

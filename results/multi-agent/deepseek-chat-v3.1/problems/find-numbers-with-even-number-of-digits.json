@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1295",
+        "questionId": "1421",
+        "Content": "<p>Given an array <code>nums</code> of integers, return how many of them contain an <strong>even number</strong> of digits.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [12,345,2,6,7896]\n<strong>Output:</strong> 2\n<strong>Explanation: \n</strong>12 contains 2 digits (even number of digits).&nbsp;\n345 contains 3 digits (odd number of digits).&nbsp;\n2 contains 1 digit (odd number of digits).&nbsp;\n6 contains 1 digit (odd number of digits).&nbsp;\n7896 contains 4 digits (even number of digits).&nbsp;\nTherefore only 12 and 7896 contain an even number of digits.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [555,901,482,1771]\n<strong>Output:</strong> 1 \n<strong>Explanation: </strong>\nOnly 1771 contains an even number of digits.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 500</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[12,345,2,6,7896]",
+        "ExampleTestcases": "[12,345,2,6,7896]\n[555,901,482,1771]",
+        "Difficulty": "Easy",
+        "Title": "Find Numbers with Even Number of Digits",
+        "TitleSlug": "find-numbers-with-even-number-of-digits",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.3M\", \"totalAcceptedRaw\": 1005392, \"totalSubmissionRaw\": 1264062, \"acRate\": \"79.5%\"}",
+        "Likes": 2859,
+        "Dislikes": 143,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int findNumbers(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int findNumbers(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findNumbers(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findNumbers = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findNumbers(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int FindNumbers(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int findNumbers(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findNumbers(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findNumbers(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findNumbers(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_numbers(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef find_numbers(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function findNumbers($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int findNumbers(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findNumbers(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_numbers(nums :: [integer]) :: integer\n  def find_numbers(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_numbers(Nums :: [integer()]) -> integer().\nfind_numbers(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-numbers nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:29:28.666971+01:00",
+    "AcRate": "79.5",
+    "TotalSubmissions": 1264062,
+    "TotalAccepted": 1005392,
+    "AcceptanceRate": 0.7953660500829864,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: Array\n\nKey Patterns & Algorithms: \n- We can use a simple loop to iterate through each number in the array.\n- For each number, we can either convert it to a string and check the length of the string, or use mathematical operations (like repeated division by 10) to count the digits.\n- Then check if the digit count is even.\n\nConstraints Analysis: \n- The array length is at most 500, and numbers are up to 10^5 (which has 6 digits). \n- Even a naive solution (O(n * d) where d is the number of digits) would be efficient. \n- Since each number has at most 6 digits, the inner loop for counting digits is constant time. So overall time complexity is O(n). Space complexity is O(1).\n\nEdge Cases:\n- Numbers with 1 digit (odd).\n- Numbers with 2 digits (even).\n- The number 0? But constraints say numbers are at least 1.\n- Numbers with maximum digits (like 100000 has 6 digits, which is even).\n\nInput/Output Analysis:\n- Input: a list of integers.\n- Output: an integer (count of numbers with even number of digits).\n\nDifficulty Assessment: \n- This is an easy problem. The main challenge is to count digits efficiently and correctly.\n\nSolution code:\n```python\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Iterate through each number in the array, count its digits using integer division, and check if the digit count is even.\n\n**Step-by-Step Approach**:\n1. Initialize a counter to track numbers with even digits\n2. For each number in the array:\n   - Count the number of digits by repeatedly dividing by 10 until the number becomes 0\n   - Check if the digit count is even\n   - Increment the counter if even\n3. Return the final count\n\n**Data Structures**: \n- Simple integer variables for counting\n- The input list itself\n\n**Time Complexity**: O(n \u00d7 d) where n is the number of elements and d is the average number of digits. Since d \u2264 6, this is effectively O(n).\n\n**Space Complexity**: O(1) - only using a constant amount of extra space.\n\n**Pseudocode**:\n```\nfunction findNumbers(nums):\n    count = 0\n    for each num in nums:\n        digits = 0\n        n = num\n        while n > 0:\n            digits += 1\n            n = n // 10\n        if digits % 2 == 0:\n            count += 1\n    return count\n```\n\n```python\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n```\n\n=== VERIFICATION ===\n\n**Verification Report:**\n\nThe provided solution is correct and meets all requirements. Below is a detailed analysis:\n\n1. **Correctness**: The code correctly implements the designed algorithm. It iterates through each number, counts the digits using integer division, and checks if the count is even. The counter is incremented appropriately.\n\n2. **Edge Cases**: The solution handles all edge cases:\n   - Numbers with 1 digit (e.g., 2, 6) are correctly identified as odd.\n   - Numbers with 2 digits (e.g., 12) are correctly identified as even.\n   - The number 0 is not present due to constraints (minimum value is 1).\n   - The maximum number (100000) has 6 digits (even) and is handled correctly.\n\n3. **Complexity**: The time complexity is O(n * d), but since d (number of digits) is at most 6, it is effectively O(n). The space complexity is O(1). This is efficient for the constraints.\n\n4. **Code Quality**: The code is clean, readable, and follows best practices. It uses meaningful variable names and has a simple structure.\n\n5. **Test Cases**:\n   - Example 1: nums = [12,345,2,6,7896]\n       12: 2 digits (even) -> count=1\n       345: 3 digits (odd) -> count=1\n       2: 1 digit (odd) -> count=1\n       6: 1 digit (odd) -> count=1\n       7896: 4 digits (even) -> count=2\n   Output: 2 (correct).\n   - Example 2: nums = [555,901,482,1771]\n       555: 3 digits (odd) -> count=0\n       901: 3 digits (odd) -> count=0\n       482: 3 digits (odd) -> count=0\n       1771: 4 digits (even) -> count=1\n   Output: 1 (correct).\n\n6. **Potential Issues**: There are no bugs or logical errors. The solution is optimal for the problem.\n\n**Conclusion**: The solution is valid and correct. No changes are needed.\n\nFinal code:\n```python\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 33723316165,
+      "SolvedAt": "2025-11-20T23:52:37.583501+01:00",
+      "PromptTokens": 4013,
+      "OutputTokens": 1329
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1421",
+        "typed_code": "\nclass Solution:\n    def findNumbers(self, nums: List[int]) -> int:\n        count = 0\n        for num in nums:\n            digits = 0\n            n = num\n            while n:\n                digits += 1\n                n //= 10\n            if digits % 2 == 0:\n                count += 1\n        return count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:31:06+01:00"
+    }
+  }
+}

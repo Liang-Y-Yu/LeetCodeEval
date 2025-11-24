@@ -1,0 +1,15 @@
+{
+  "total_problems": 150,
+  "problems_by_model": {
+    "openai/gpt-5.1": 150
+  },
+  "acceptance_rate_by_model": {
+    "openai/gpt-5.1": 99.33333333333333
+  },
+  "avg_complexity_by_model": {
+    "openai/gpt-5.1": 4.6
+  },
+  "avg_loc_by_model": {
+    "openai/gpt-5.1": 20.733333333333334
+  }
+}

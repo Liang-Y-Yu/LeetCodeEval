@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "650",
+        "questionId": "650",
+        "Content": "<p>There is only one character <code>&#39;A&#39;</code> on the screen of a notepad. You can perform one of two operations on this notepad for each step:</p>\n\n<ul>\n\t<li>Copy All: You can copy all the characters present on the screen (a partial copy is not allowed).</li>\n\t<li>Paste: You can paste the characters which are copied last time.</li>\n</ul>\n\n<p>Given an integer <code>n</code>, return <em>the minimum number of operations to get the character</em> <code>&#39;A&#39;</code> <em>exactly</em> <code>n</code> <em>times on the screen</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 3\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> Initially, we have one character &#39;A&#39;.\nIn step 1, we use Copy All operation.\nIn step 2, we use Paste operation to get &#39;AA&#39;.\nIn step 3, we use Paste operation to get &#39;AAA&#39;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "3",
+        "ExampleTestcases": "3\n1",
+        "Difficulty": "Medium",
+        "Title": "2 Keys Keyboard",
+        "TitleSlug": "2-keys-keyboard",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"288.8K\", \"totalSubmission\": \"487.5K\", \"totalAcceptedRaw\": 288788, \"totalSubmissionRaw\": 487487, \"acRate\": \"59.2%\"}",
+        "Likes": 4372,
+        "Dislikes": 246,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minSteps(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minSteps(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minSteps(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minSteps(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar minSteps = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minSteps(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinSteps(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minSteps(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minSteps(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minSteps(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minSteps(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_steps(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef min_steps(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function minSteps($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minSteps(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minSteps(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_steps(n :: integer) :: integer\n  def min_steps(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_steps(N :: integer()) -> integer().\nmin_steps(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-steps n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:08:16.833832+01:00",
+    "AcRate": "59.2",
+    "TotalSubmissions": 487487,
+    "TotalAccepted": 288788,
+    "AcceptanceRate": 0.5924014383973316,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/2-keys-keyboard/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: There is only one character 'A' on the screen of a notepad. You can perform one of two operations on this notepad for each step:\n\tCopy All: You can copy all the characters present on the screen (a partial copy is not allowed).\n\tPaste: You can paste the characters which are copied last time.\nGiven an integer n, return the minimum number of operations to get the character 'A' exactly n times on the screen.\n\u00a0\nExample 1:\nInput: n = 3\nOutput: 3\nExplanation: Initially, we have one character 'A'.\nIn step 1, we use Copy All operation.\nIn step 2, we use Paste operation to get 'AA'.\nIn step 3, we use Paste operation to get 'AAA'.\nExample 2:\nInput: n = 1\nOutput: 0\n\u00a0\nConstraints:\n\t1 <= n <= 1000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minSteps(self, n: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "class Solution:\n    def minSteps(self, n: int) -> int:\n        if n == 1:\n            return 0\n        \n        dp = [float('inf')] * (n + 1)\n        dp[1] = 0\n        \n        for i in range(2, n + 1):\n            for j in range(1, i):\n                if i % j == 0:\n                    dp[i] = min(dp[i], dp[j] + i // j)\n        \n        return dp[n]",
+      "TypedCode": "class Solution:\n    def minSteps(self, n: int) -> int:\n        if n == 1:\n            return 0\n        \n        dp = [float('inf')] * (n + 1)\n        dp[1] = 0\n        \n        for i in range(2, n + 1):\n            for j in range(1, i):\n                if i % j == 0:\n                    dp[i] = min(dp[i], dp[j] + i // j)\n        \n        return dp[n]",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 4574282292,
+      "SolvedAt": "2025-11-20T21:11:29.171347+01:00",
+      "PromptTokens": 394,
+      "OutputTokens": 110
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "650",
+        "typed_code": "class Solution:\n    def minSteps(self, n: int) -> int:\n        if n == 1:\n            return 0\n        \n        dp = [float('inf')] * (n + 1)\n        dp[1] = 0\n        \n        for i in range(2, n + 1):\n            for j in range(1, i):\n                if i % j == 0:\n                    dp[i] = min(dp[i], dp[j] + i // j)\n        \n        return dp[n]"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:37:21+01:00"
+    }
+  }
+}

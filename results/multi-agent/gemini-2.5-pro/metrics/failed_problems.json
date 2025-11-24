@@ -1,0 +1,44 @@
+[
+  {
+    "file": "constrained-subsequence-sum.json",
+    "model": "google/gemini-2.5-pro",
+    "language": "python3",
+    "lines_of_code": 32,
+    "cyclomatic_complexity": 7,
+    "duplication_score": 0,
+    "problem_id": "1286",
+    "title": "Constrained Subsequence Sum",
+    "status": "Runtime Error",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "max-dot-product-of-two-subsequences.json",
+    "model": "google/gemini-2.5-pro",
+    "language": "python3",
+    "lines_of_code": 34,
+    "cyclomatic_complexity": 9,
+    "duplication_score": 0,
+    "problem_id": "1569",
+    "title": "Max Dot Product of Two Subsequences",
+    "status": "Runtime Error",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  },
+  {
+    "file": "word-ladder-ii.json",
+    "model": "google/gemini-2.5-pro",
+    "language": "python3",
+    "lines_of_code": 60,
+    "cyclomatic_complexity": 15,
+    "duplication_score": 0,
+    "problem_id": "126",
+    "title": "Word Ladder II",
+    "status": "Time Limit Exceeded",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

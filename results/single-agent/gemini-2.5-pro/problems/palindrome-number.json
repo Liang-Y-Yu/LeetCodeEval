@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "9",
+        "questionId": "9",
+        "Content": "<p>Given an integer <code>x</code>, return <code>true</code><em> if </em><code>x</code><em> is a </em><span data-keyword=\"palindrome-integer\"><em><strong>palindrome</strong></em></span><em>, and </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = 121\n<strong>Output:</strong> true\n<strong>Explanation:</strong> 121 reads as 121 from left to right and from right to left.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = -121\n<strong>Output:</strong> false\n<strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> x = 10\n<strong>Output:</strong> false\n<strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>-2<sup>31</sup>&nbsp;&lt;= x &lt;= 2<sup>31</sup>&nbsp;- 1</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Could you solve it without converting the integer to a string?",
+        "SampleTestCase": "121",
+        "ExampleTestcases": "121\n-121\n10",
+        "Difficulty": "Easy",
+        "Title": "Palindrome Number",
+        "TitleSlug": "palindrome-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"7.3M\", \"totalSubmission\": \"12.1M\", \"totalAcceptedRaw\": 7270344, \"totalSubmissionRaw\": 12142420, \"acRate\": \"59.9%\"}",
+        "Likes": 15063,
+        "Dislikes": 2881,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isPalindrome(int x) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isPalindrome(int x) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isPalindrome(self, x):\n        \"\"\"\n        :type x: int\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} x\n * @return {boolean}\n */\nvar isPalindrome = function(x) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isPalindrome(x: number): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsPalindrome(int x) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isPalindrome(int x) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isPalindrome(x int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isPalindrome(x: Int): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isPalindrome(_ x: Int) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_palindrome(x: i32) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} x\n# @return {Boolean}\ndef is_palindrome(x)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $x\n     * @return Boolean\n     */\n    function isPalindrome($x) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isPalindrome(int x) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isPalindrome(x: Int): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_palindrome(x :: integer) :: boolean\n  def is_palindrome(x) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_palindrome(X :: integer()) -> boolean().\nis_palindrome(X) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-palindrome x)\n  (-> exact-integer? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:39:15.509684+01:00",
+    "AcRate": "59.9",
+    "TotalSubmissions": 12142420,
+    "TotalAccepted": 7270344,
+    "AcceptanceRate": 0.5987557669723169,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/palindrome-number/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer x, return true if x is a palindrome, and false otherwise.\n\u00a0\nExample 1:\nInput: x = 121\nOutput: true\nExplanation: 121 reads as 121 from left to right and from right to left.\nExample 2:\nInput: x = -121\nOutput: false\nExplanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\nExample 3:\nInput: x = 10\nOutput: false\nExplanation: Reads 01 from right to left. Therefore it is not a palindrome.\n\u00a0\nConstraints:\n\t-2^31\u00a0<= x <= 2^31\u00a0- 1\n\u00a0\nFollow up: Could you solve it without converting the integer to a string?\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "```python\nclass Solution:\n    def isPalindrome(self, x: int) -> bool:\n        # This solution solves the problem without converting the integer to a string,\n        # as requested by the follow-up.\n\n        # Edge Case 1: Negative numbers are not palindromes.\n        # Example: -121 becomes 121- when read from right to left.\n        # Edge Case 2: If a number ends in 0, to be a palindrome, its first digit\n        # must also be 0. This is only possible for the number 0 itself.\n        if x < 0 or (x % 10 == 0 and x != 0):\n            return False\n\n        reverted_number = 0\n        # We reverse the second half of the number and compare it to the first half.\n        # The loop continues as long as the original number (x) is greater than\n        # the reverted half. This means we've processed less than half the digits.\n        while x > reverted_number:\n            # Get the last digit of x and append it to reverted_number.\n            reverted_number = reverted_number * 10 + x % 10\n            # Remove the last digit from x.\n            x //= 10\n\n        # After the loop, we have two scenarios:\n        # 1. The number has an even number of digits (e.g., 1221).\n        #    The loop stops when x = 12 and reverted_number = 12.\n        #    So, we check if x == reverted_number.\n        # 2. The number has an odd number of digits (e.g., 121).\n        #    The loop stops when x = 1 and reverted_number = 12.\n        #    The middle digit (2) is now the last digit of reverted_number.\n        #    This middle digit doesn't affect the palindrome property, so we can\n        #    discard it by using integer division (reverted_number // 10).\n        #    So, we check if x == reverted_number // 10.\n        return x == reverted_number or x == reverted_number // 10\n```",
+      "TypedCode": "\nclass Solution:\n    def isPalindrome(self, x: int) -> bool:\n        # This solution solves the problem without converting the integer to a string,\n        # as requested by the follow-up.\n\n        # Edge Case 1: Negative numbers are not palindromes.\n        # Example: -121 becomes 121- when read from right to left.\n        # Edge Case 2: If a number ends in 0, to be a palindrome, its first digit\n        # must also be 0. This is only possible for the number 0 itself.\n        if x < 0 or (x % 10 == 0 and x != 0):\n            return False\n\n        reverted_number = 0\n        # We reverse the second half of the number and compare it to the first half.\n        # The loop continues as long as the original number (x) is greater than\n        # the reverted half. This means we've processed less than half the digits.\n        while x > reverted_number:\n            # Get the last digit of x and append it to reverted_number.\n            reverted_number = reverted_number * 10 + x % 10\n            # Remove the last digit from x.\n            x //= 10\n\n        # After the loop, we have two scenarios:\n        # 1. The number has an even number of digits (e.g., 1221).\n        #    The loop stops when x = 12 and reverted_number = 12.\n        #    So, we check if x == reverted_number.\n        # 2. The number has an odd number of digits (e.g., 121).\n        #    The loop stops when x = 1 and reverted_number = 12.\n        #    The middle digit (2) is now the last digit of reverted_number.\n        #    This middle digit doesn't affect the palindrome property, so we can\n        #    discard it by using integer division (reverted_number // 10).\n        #    So, we check if x == reverted_number // 10.\n        return x == reverted_number or x == reverted_number // 10\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 64453949833,
+      "SolvedAt": "2025-11-20T18:01:38.226683+01:00",
+      "PromptTokens": 407,
+      "OutputTokens": 7626
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "9",
+        "typed_code": "\nclass Solution:\n    def isPalindrome(self, x: int) -> bool:\n        # This solution solves the problem without converting the integer to a string,\n        # as requested by the follow-up.\n\n        # Edge Case 1: Negative numbers are not palindromes.\n        # Example: -121 becomes 121- when read from right to left.\n        # Edge Case 2: If a number ends in 0, to be a palindrome, its first digit\n        # must also be 0. This is only possible for the number 0 itself.\n        if x < 0 or (x % 10 == 0 and x != 0):\n            return False\n\n        reverted_number = 0\n        # We reverse the second half of the number and compare it to the first half.\n        # The loop continues as long as the original number (x) is greater than\n        # the reverted half. This means we've processed less than half the digits.\n        while x > reverted_number:\n            # Get the last digit of x and append it to reverted_number.\n            reverted_number = reverted_number * 10 + x % 10\n            # Remove the last digit from x.\n            x //= 10\n\n        # After the loop, we have two scenarios:\n        # 1. The number has an even number of digits (e.g., 1221).\n        #    The loop stops when x = 12 and reverted_number = 12.\n        #    So, we check if x == reverted_number.\n        # 2. The number has an odd number of digits (e.g., 121).\n        #    The loop stops when x = 1 and reverted_number = 12.\n        #    The middle digit (2) is now the last digit of reverted_number.\n        #    This middle digit doesn't affect the palindrome property, so we can\n        #    discard it by using integer division (reverted_number // 10).\n        #    So, we check if x == reverted_number // 10.\n        return x == reverted_number or x == reverted_number // 10\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:18:08+01:00"
+    }
+  }
+}

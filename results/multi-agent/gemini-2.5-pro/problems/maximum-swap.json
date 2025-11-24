@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "670",
+        "questionId": "670",
+        "Content": "<p>You are given an integer <code>num</code>. You can swap two digits at most once to get the maximum valued number.</p>\n\n<p>Return <em>the maximum valued number you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 2736\n<strong>Output:</strong> 7236\n<strong>Explanation:</strong> Swap the number 2 and the number 7.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 9973\n<strong>Output:</strong> 9973\n<strong>Explanation:</strong> No swap.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 10<sup>8</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "2736",
+        "ExampleTestcases": "2736\n9973",
+        "Difficulty": "Medium",
+        "Title": "Maximum Swap",
+        "TitleSlug": "maximum-swap",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"500.5K\", \"totalSubmission\": \"964.3K\", \"totalAcceptedRaw\": 500532, \"totalSubmissionRaw\": 964326, \"acRate\": \"51.9%\"}",
+        "Likes": 4255,
+        "Dislikes": 273,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximumSwap(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximumSwap(self, num: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximumSwap(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {number}\n */\nvar maximumSwap = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximumSwap(num: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaximumSwap(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximumSwap(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximumSwap(num int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximumSwap(num: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximumSwap(_ num: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum_swap(num: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {Integer}\ndef maximum_swap(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer\n     */\n    function maximumSwap($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximumSwap(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximumSwap(num: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum_swap(num :: integer) :: integer\n  def maximum_swap(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum_swap(Num :: integer()) -> integer().\nmaximum_swap(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum-swap num)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:07:23.575462+01:00",
+    "AcRate": "51.9",
+    "TotalSubmissions": 964326,
+    "TotalAccepted": 500532,
+    "AcceptanceRate": 0.5190485375277655,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-swap/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient approach to this problem is a greedy one. The goal is to make the number as large as possible, which means we want to have the largest digits in the most significant (leftmost) positions.\n\nThe strategy is as follows:\n1.  Iterate through the digits of the number from left to right.\n2.  For each digit at position `i`, we look for the largest a digit `d` (from 9 down to 0) that exists somewhere to the right of `i`.\n3.  If such a digit `d` is found and it is greater than the digit at `i`, we have found the leftmost digit that we can swap to make the number larger. To maximize the number, we should swap this digit at `i` with the largest possible digit found, `d`.\n4.  If there are multiple occurrences of this largest digit `d` to the right of `i`, which one should we swap with? To maximize the resulting number, we should swap with the *rightmost* occurrence of `d`. This keeps the new smaller digit (which was originally at position `i`) as far to the right as possible, minimizing its negative impact on the number's magnitude.\n5.  Once this single, optimal swap is performed, we are done. We can convert the modified list of digits back to an integer and return it.\n6.  If we iterate through all the digits and find no opportunity for a beneficial swap, it means the number's digits are already in non-increasing order (e.g., 9973), and it's already the maximum possible. In this case, we return the original number.\n\nTo implement this efficiently, we can first make a single pass to find the last-seen index of each digit (0-9). Then, in a second pass, we can apply the greedy strategy described above.\n\nThis approach has a time complexity of O(N) and space complexity of O(N), where N is the number of digits in the input number. Given the problem constraints (num <= 10^8, so N <= 9), this is highly efficient.\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n\n        for i in range(n):\n            current_digit = s[i]\n            \n            for d_char in \"9876543210\":\n                if d_char <= current_digit:\n                    break\n                \n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    return int(\"\".join(s))\n                    \n        return num\n```\n\n=== DESIGN ===\n### 1. Algorithm Choice\nThe chosen approach is a **Greedy Algorithm**. The core idea is to maximize the number by making its most significant digits (leftmost) as large as possible. We iterate through the number from left to right, and for the first digit that is smaller than another digit to its right, we perform a single, optimal swap. This one swap is sufficient to find the maximum possible number.\n\n### 2. Step-by-Step Approach\n1.  **Conversion**: Convert the input integer `num` into a list of its character digits (e.g., `2736` -> `['2', '7', '3', '6']`). A list is used because it is mutable, allowing for easy swapping of elements.\n2.  **Pre-computation**: To efficiently find the best digit to swap with, we first pre-calculate the last (rightmost) index of each digit ('0'-'9') present in the number. This can be stored in a hash map (dictionary). This step takes a single pass over the digits.\n3.  **Greedy Scan and Swap**:\n    a. Iterate through the digit list from left to right (index `i`). This finds the leftmost position we might want to change.\n    b. For each digit `s[i]`, we look for the largest possible digit `d` (from '9' down to '0') that can replace it to make the number larger.\n    c. If we find a digit `d` that is greater than `s[i]`, we then check our pre-computed map to see if `d` exists somewhere to the right of `i` (i.e., `last_occurrence[d] > i`).\n    d. The first time this condition is met, we have found our optimal swap: we are at the leftmost digit `s[i]` that can be improved, and we've found the largest possible digit `d` to swap it with. We use the pre-computed *last* index of `d` for the swap to ensure the smaller original digit is moved as far right as possible.\n    e. Perform the swap between `s[i]` and the digit at `s[last_occurrence[d]]`.\n    f. Immediately after the swap, join the characters back into a string, convert it to an integer, and return the result.\n4.  **No Swap Case**: If the main loop finishes without performing a swap, it implies the digits are already in non-increasing order (e.g., `9973`). In this scenario, the original number is already the maximum, so we return it.\n\n### 3. Data Structures\n*   **List of Characters**: To hold the digits of the number, allowing for modification (swapping). For `num = 2736`, this would be `['2', '7', '3', '6']`.\n*   **Hash Map (Dictionary)**: To store the mapping from a digit character to its last seen index. This provides O(1) lookup time. For `num = 2736`, this would be `{'2': 0, '7': 1, '3': 2, '6': 3}`.\n\n### 4. Time Complexity\nLet N be the number of digits in `num`.\n*   Converting the number to a list of characters: O(N).\n*   Building the `last_occurrence` map: O(N).\n*   The main greedy scan involves a loop of N iterations, with a constant-time inner loop (at most 10 iterations for digits '9'-'0'). This results in O(N * 10) = O(N).\n*   Converting the list back to an integer: O(N).\nThe overall time complexity is **O(N)**. Given `num <= 10^8`, N is at most 9, making this approach very efficient.\n\n### 5. Space Complexity\n*   The list of characters requires O(N) space.\n*   The `last_occurrence` map stores at most 10 key-value pairs (one for each digit '0'-'9'), which is O(1) constant space.\n*   Thus, the dominant factor is the digit list, leading to an overall space complexity of **O(N)**.\n\n### 6. Pseudocode\n```\nfunction maximumSwap(num):\n  // 1. Conversion\n  s = convert num to a list of character digits\n  n = length of s\n\n  // 2. Pre-computation\n  last_occurrence = new HashMap()\n  for i from 0 to n-1:\n    last_occurrence[s[i]] = i\n\n  // 3. Greedy Scan and Swap\n  for i from 0 to n-1:\n    current_digit = s[i]\n    \n    // Iterate from '9' down to find the largest possible replacement\n    for d_char from '9' down to '0':\n      \n      // We only care about digits larger than the current one\n      if d_char <= current_digit:\n        break\n\n      // Check if this larger digit exists and is to the right\n      if d_char is in last_occurrence AND last_occurrence[d_char] > i:\n        // Optimal swap found, perform it\n        swap_index = last_occurrence[d_char]\n        swap s[i] and s[swap_index]\n        \n        // Return immediately after the first and only swap\n        return integer value of s joined as a string\n\n  // 4. No Swap Case\n  return num\n```\n\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n\n        for i in range(n):\n            current_digit = s[i]\n            \n            for d_char in \"9876543210\":\n                if d_char <= current_digit:\n                    break\n                \n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    return int(\"\".join(s))\n                    \n        return num\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n        \n        for i in range(n):\n            current_digit = s[i]\n            \n            # Iterate from '9' down to '0' to find the largest possible digit to swap\n            for d_char in \"9876543210\":\n                # We only need to consider digits larger than the current one\n                if d_char <= current_digit:\n                    break\n                \n                # Check if this larger digit exists and its last occurrence is to the right\n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    # Found the optimal swap: the leftmost digit that can be improved\n                    # with the largest possible digit from its right.\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    # After one swap, the number is maximized. Return immediately.\n                    return int(\"\".join(s))\n                    \n        # If the loop completes, the number is already in non-increasing order.\n        return num\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        # Pre-compute the last seen index of each digit.\n        # This helps in finding the rightmost occurrence for a swap.\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n        \n        # Iterate through the number from left to right.\n        for i in range(n):\n            current_digit = s[i]\n            \n            # Find the largest possible digit ('9' down to '0') to swap with.\n            for d_char in \"9876543210\":\n                # We only need to consider digits that are strictly greater\n                # than the current digit to make the number larger.\n                if d_char <= current_digit:\n                    break\n                \n                # Check if this larger digit exists in the number and its\n                # last occurrence is to the right of the current position.\n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    # We've found the optimal swap.\n                    # We are at the leftmost digit (s[i]) that can be improved.\n                    # We are swapping it with the largest possible digit (d_char)\n                    # that appears to its right. We use the rightmost\n                    # occurrence of d_char to maximize the resulting number.\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    # After one swap, the number is guaranteed to be maximized.\n                    # Convert the list of characters back to an integer and return.\n                    return int(\"\".join(s))\n                    \n        # If the loop completes without any swap, it means the digits are\n        # already in non-increasing order (e.g., 985, 332).\n        # In this case, the number is already the maximum possible.\n        return num\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n        \n        for i in range(n):\n            current_digit = s[i]\n            \n            # Iterate from '9' down to '0' to find the largest possible digit to swap\n            for d_char in \"9876543210\":\n                # We only need to consider digits larger than the current one\n                if d_char <= current_digit:\n                    break\n                \n                # Check if this larger digit exists and its last occurrence is to the right\n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    # Found the optimal swap: the leftmost digit that can be improved\n                    # with the largest possible digit from its right.\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    # After one swap, the number is maximized. Return immediately.\n                    return int(\"\".join(s))\n                    \n        # If the loop completes, the number is already in non-increasing order.\n        return num\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 229445538290,
+      "SolvedAt": "2025-11-21T13:25:16.40299+01:00",
+      "PromptTokens": 7101,
+      "OutputTokens": 26064
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "670",
+        "typed_code": "\nclass Solution:\n    def maximumSwap(self, num: int) -> int:\n        s = list(str(num))\n        n = len(s)\n        last_occurrence = {digit_char: i for i, digit_char in enumerate(s)}\n        \n        for i in range(n):\n            current_digit = s[i]\n            \n            # Iterate from '9' down to '0' to find the largest possible digit to swap\n            for d_char in \"9876543210\":\n                # We only need to consider digits larger than the current one\n                if d_char <= current_digit:\n                    break\n                \n                # Check if this larger digit exists and its last occurrence is to the right\n                if d_char in last_occurrence and last_occurrence[d_char] > i:\n                    # Found the optimal swap: the leftmost digit that can be improved\n                    # with the largest possible digit from its right.\n                    swap_idx = last_occurrence[d_char]\n                    s[i], s[swap_idx] = s[swap_idx], s[i]\n                    \n                    # After one swap, the number is maximized. Return immediately.\n                    return int(\"\".join(s))\n                    \n        # If the loop completes, the number is already in non-increasing order.\n        return num\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:30:52+01:00"
+    }
+  }
+}

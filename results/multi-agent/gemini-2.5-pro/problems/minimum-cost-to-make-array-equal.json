@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2448",
+        "questionId": "2538",
+        "Content": "<p>You are given two <strong>0-indexed</strong> arrays <code>nums</code> and <code>cost</code> consisting each of <code>n</code> <strong>positive</strong> integers.</p>\n\n<p>You can do the following operation <strong>any</strong> number of times:</p>\n\n<ul>\n\t<li>Increase or decrease <strong>any</strong> element of the array <code>nums</code> by <code>1</code>.</li>\n</ul>\n\n<p>The cost of doing one operation on the <code>i<sup>th</sup></code> element is <code>cost[i]</code>.</p>\n\n<p>Return <em>the <strong>minimum</strong> total cost such that all the elements of the array </em><code>nums</code><em> become <strong>equal</strong></em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,5,2], cost = [2,3,1,14]\n<strong>Output:</strong> 8\n<strong>Explanation:</strong> We can make all the elements equal to 2 in the following way:\n- Increase the 0<sup>th</sup> element one time. The cost is 2.\n- Decrease the 1<sup><span style=\"font-size: 10.8333px;\">st</span></sup> element one time. The cost is 3.\n- Decrease the 2<sup>nd</sup> element three times. The cost is 1 + 1 + 1 = 3.\nThe total cost is 2 + 3 + 3 = 8.\nIt can be shown that we cannot make the array equal with a smaller cost.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [2,2,2,2,2], cost = [4,2,8,1,3]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All the elements are already equal, so no operations are needed.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length == cost.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i], cost[i] &lt;= 10<sup>6</sup></code></li>\n\t<li>Test cases are generated in a way that the output doesn&#39;t exceed&nbsp;2<sup>53</sup>-1</li>\n</ul>\n",
+        "SampleTestCase": "[1,3,5,2]\n[2,3,1,14]",
+        "ExampleTestcases": "[1,3,5,2]\n[2,3,1,14]\n[2,2,2,2,2]\n[4,2,8,1,3]",
+        "Difficulty": "Hard",
+        "Title": "Minimum Cost to Make Array Equal",
+        "TitleSlug": "minimum-cost-to-make-array-equal",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"75.6K\", \"totalSubmission\": \"162.3K\", \"totalAcceptedRaw\": 75619, \"totalSubmissionRaw\": 162282, \"acRate\": \"46.6%\"}",
+        "Likes": 2503,
+        "Dislikes": 36,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDY4",
+            "Name": "Prefix Sum",
+            "Slug": "prefix-sum"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long minCost(vector<int>& nums, vector<int>& cost) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long minCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minCost(self, nums, cost):\n        \"\"\"\n        :type nums: List[int]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number[]} cost\n * @return {number}\n */\nvar minCost = function(nums, cost) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minCost(nums: number[], cost: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long MinCost(int[] nums, int[] cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long minCost(int* nums, int numsSize, int* cost, int costSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minCost(nums []int, cost []int) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minCost(nums: IntArray, cost: IntArray): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minCost(_ nums: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_cost(nums: Vec<i32>, cost: Vec<i32>) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer[]} cost\n# @return {Integer}\ndef min_cost(nums, cost)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $cost\n     * @return Integer\n     */\n    function minCost($nums, $cost) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minCost(List<int> nums, List<int> cost) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minCost(nums: Array[Int], cost: Array[Int]): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_cost(nums :: [integer], cost :: [integer]) :: integer\n  def min_cost(nums, cost) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_cost(Nums :: [integer()], Cost :: [integer()]) -> integer().\nmin_cost(Nums, Cost) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-cost nums cost)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:32:55.521499+01:00",
+    "AcRate": "46.6",
+    "TotalSubmissions": 162282,
+    "TotalAccepted": 75619,
+    "AcceptanceRate": 0.4659728127580385,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient approach to this problem is to recognize that the total cost function we want to minimize is a convex function. The function is `f(x) = sum(abs(nums[i] - x) * cost[i])`, which is a sum of weighted absolute value functions. The minimum of such a function is found at the **weighted median** of the `nums` array, where the weights are given by the `cost` array.\n\nThe algorithm is as follows:\n1.  Combine the `nums` and `cost` arrays into pairs `(num, cost)`.\n2.  Sort these pairs based on the `num` values.\n3.  Calculate the total weight, which is the sum of all costs.\n4.  Find the weighted median. This is the number in the sorted list where the cumulative sum of costs first meets or exceeds half of the total weight. This number will be our optimal target value to which all elements of `nums` should be converted.\n5.  Once the optimal target number is found, calculate the total cost by summing `abs(num - target) * cost` for each element.\n\nThis approach has a time complexity of O(n log n) dominated by the sorting step, and a space complexity of O(n) to store the pairs, which is well within the typical limits for the given constraints.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        # Create pairs of (number, cost) and sort them by number.\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        # Calculate the total weight (sum of all costs).\n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        # Find the weighted median element. This is the optimal target number.\n        # It's the number where the cumulative weight first passes half of the total weight.\n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        # Calculate the total cost to change all numbers to the target.\n        min_total_cost = 0\n        for num, c in num_cost_pairs:\n            min_total_cost += abs(num - target) * c\n            \n        return min_total_cost\n```\n\n=== DESIGN ===\nAn elegant and efficient approach to this problem is to recognize that the total cost function we want to minimize is a convex function. The function is `f(x) = sum(abs(nums[i] - x) * cost[i])`, which is a sum of weighted absolute value functions. The minimum of such a function is found at the **weighted median** of the `nums` array, where the weights are given by the `cost` array.\n\n1.  **Algorithm Choice**:\n    The chosen algorithm is based on finding the weighted median of the `nums` array. The cost function `f(x) = sum(|nums[i] - x| * cost[i])` is convex, and its minimum occurs at the weighted median. This avoids a brute-force search over all possible target values.\n\n2.  **Step-by-Step Approach**:\n    1.  Combine the `nums` and `cost` arrays into a list of `(number, cost)` pairs to maintain the association between each number and its modification cost.\n    2.  Sort these pairs in ascending order based on the `number` value.\n    3.  Calculate the total weight, which is the sum of all values in the `cost` array.\n    4.  Find the weighted median. This is done by iterating through the sorted pairs and accumulating their costs (weights). The `number` from the pair that causes the cumulative cost to meet or exceed half of the total weight is the weighted median. This number is the optimal target value to which all elements should be converted.\n    5.  Calculate the final minimum cost by summing the costs of converting each original number to the determined target value. The cost for each element `nums[i]` is `abs(nums[i] - target) * cost[i]`.\n    6.  Return the calculated total minimum cost.\n\n3.  **Data Structures**:\n    A list of tuples or pairs to store the `(num, cost)` combinations. This structure is necessary for sorting the numbers while keeping their associated costs.\n\n4.  **Time Complexity**:\n    The dominant operation is sorting the `n` pairs, which takes `O(n log n)` time. The subsequent steps\u2014calculating the total weight, finding the median, and calculating the final cost\u2014each take `O(n)` time. Therefore, the overall time complexity is `O(n log n)`.\n\n5.  **Space Complexity**:\n    Storing the `n` pairs of `(num, cost)` requires `O(n)` auxiliary space. Thus, the space complexity is `O(n)`.\n\n6.  **Pseudocode**:\n    ```pseudocode\n    FUNCTION minCost(nums, cost):\n      // Step 1: Create pairs\n      n = length of nums\n      pairs = new List of pairs\n      FOR i FROM 0 TO n-1:\n        add (nums[i], cost[i]) to pairs\n      \n      // Step 2: Sort pairs by number\n      sort pairs based on the number element in ascending order\n      \n      // Step 3: Calculate total weight\n      total_weight = 0\n      FOR each pair (num, c) in pairs:\n        total_weight = total_weight + c\n      \n      // Step 4: Find the weighted median target\n      median_threshold = (total_weight + 1) / 2\n      cumulative_weight = 0\n      target_num = 0\n      FOR each pair (num, c) in pairs:\n        cumulative_weight = cumulative_weight + c\n        IF cumulative_weight >= median_threshold:\n          target_num = num\n          BREAK\n      \n      // Step 5: Calculate the minimum cost\n      min_total_cost = 0\n      FOR each pair (num, c) in pairs:\n        min_total_cost = min_total_cost + absolute_value(num - target_num) * c\n        \n      // Step 6: Return result\n      RETURN min_total_cost\n    ```\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        min_total_cost = 0\n        for num, c in num_cost_pairs:\n            min_total_cost += abs(num - target) * c\n            \n        return min_total_cost\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        min_total_cost = 0\n        for num, c in num_cost_pairs:\n            min_total_cost += abs(num - target) * c\n            \n        return min_total_cost\n```\n\n=== VERIFICATION ===\nTo solve this problem, we need to find a target value `x` that minimizes the total cost function `f(x) = sum(abs(nums[i] - x) * cost[i])`. This function represents the sum of weighted absolute differences.\n\nThe key insight is that `f(x)` is a convex function. A sum of convex functions (`abs(num - x) * c` for `c > 0`) is also convex. The minimum value of this specific type of convex function is achieved when the target `x` is the **weighted median** of the `nums` array, with weights given by the `cost` array.\n\nThe algorithm to find this minimum cost is as follows:\n\n1.  **Data Preparation**: To work with the numbers and their associated costs together, we combine them into a list of `(number, cost)` pairs.\n2.  **Sorting**: The concept of a median requires the data to be ordered. We sort these pairs based on the `number` values in ascending order.\n3.  **Finding the Weighted Median**:\n    *   First, we calculate the total weight, which is the sum of all costs.\n    *   The weighted median is the number in our sorted list at which the cumulative sum of costs first reaches or exceeds half of the total weight. We can find this by iterating through the sorted pairs, accumulating the costs, and stopping once this threshold is met. The number from that pair is our optimal target value.\n4.  **Calculating the Minimum Cost**: Once the optimal target value is identified, the final step is to calculate the total cost to make every `nums[i]` equal to this target. This is done by summing up `abs(nums[i] - target) * cost[i]` for all elements.\n\nThis approach is efficient, with a time complexity of `O(n log n)` dominated by the sorting step and a space complexity of `O(n)` to store the pairs, which fits well within the given constraints.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        # Create pairs of (number, cost) and sort them by number.\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        # Calculate the total weight (sum of all costs).\n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        # Find the weighted median element. This is the optimal target number.\n        # It's the number where the cumulative weight first passes half of the total weight.\n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        # Calculate the total cost to change all numbers to the target.\n        min_total_cost = 0\n        # Iterate through the original numbers and costs to calculate the final cost.\n        # Note: Iterating through num_cost_pairs is equivalent and works fine.\n        for i in range(len(nums)):\n            min_total_cost += abs(nums[i] - target) * cost[i]\n            \n        return min_total_cost\n\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        min_total_cost = 0\n        for num, c in num_cost_pairs:\n            min_total_cost += abs(num - target) * c\n            \n        return min_total_cost\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 293868145875,
+      "SolvedAt": "2025-11-21T14:03:53.697609+01:00",
+      "PromptTokens": 7035,
+      "OutputTokens": 35022
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2538",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def minCost(self, nums: List[int], cost: List[int]) -> int:\n        num_cost_pairs = sorted(zip(nums, cost))\n        \n        total_weight = sum(c for _, c in num_cost_pairs)\n        \n        median_threshold = (total_weight + 1) // 2\n        cumulative_weight = 0\n        target = 0\n        for num, c in num_cost_pairs:\n            cumulative_weight += c\n            if cumulative_weight >= median_threshold:\n                target = num\n                break\n        \n        min_total_cost = 0\n        for num, c in num_cost_pairs:\n            min_total_cost += abs(num - target) * c\n            \n        return min_total_cost\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:05:34+01:00"
+    }
+  }
+}

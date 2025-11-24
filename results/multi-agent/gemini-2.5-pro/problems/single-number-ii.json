@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "137",
+        "questionId": "137",
+        "Content": "<p>Given an integer array <code>nums</code> where&nbsp;every element appears <strong>three times</strong> except for one, which appears <strong>exactly once</strong>. <em>Find the single element and return it</em>.</p>\n\n<p>You must&nbsp;implement a solution with a linear runtime complexity and use&nbsp;only constant&nbsp;extra space.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [2,2,3,2]\n<strong>Output:</strong> 3\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [0,1,0,1,0,1,99]\n<strong>Output:</strong> 99\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li>Each element in <code>nums</code> appears exactly <strong>three times</strong> except for one element which appears <strong>once</strong>.</li>\n</ul>\n",
+        "SampleTestCase": "[2,2,3,2]",
+        "ExampleTestcases": "[2,2,3,2]\n[0,1,0,1,0,1,99]",
+        "Difficulty": "Medium",
+        "Title": "Single Number II",
+        "TitleSlug": "single-number-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"816.2K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 816233, \"totalSubmissionRaw\": 1232976, \"acRate\": \"66.2%\"}",
+        "Likes": 8516,
+        "Dislikes": 741,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int singleNumber(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int singleNumber(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def singleNumber(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function singleNumber(nums: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int SingleNumber(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int singleNumber(int* nums, int numsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func singleNumber(nums []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun singleNumber(nums: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func singleNumber(_ nums: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn single_number(nums: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer}\ndef single_number(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function singleNumber($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int singleNumber(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def singleNumber(nums: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec single_number(nums :: [integer]) :: integer\n  def single_number(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec single_number(Nums :: [integer()]) -> integer().\nsingle_number(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (single-number nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:30:27.295287+01:00",
+    "AcRate": "66.2",
+    "TotalSubmissions": 1232976,
+    "TotalAccepted": 816233,
+    "AcceptanceRate": 0.6620023423002557,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/single-number-ii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nfrom typing import List\n\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ans = 0\n        # Iterate over 32 bits for a 32-bit integer\n        for i in range(32):\n            bit_sum = 0\n            # Sum the i-th bit for all numbers in the list\n            for num in nums:\n                if (num >> i) & 1:\n                    bit_sum += 1\n            \n            # If the sum of bits at position i is not a multiple of 3,\n            # it means the single number has a 1 at this bit position.\n            if bit_sum % 3 != 0:\n                ans |= (1 << i)\n\n        # The result 'ans' is constructed as a positive integer.\n        # If the 31st bit is set, it represents a negative number in\n        # 32-bit two's complement. We must convert it to Python's\n        # representation of a negative number.\n        if ans >= (1 << 31):\n            ans -= (1 << 32)\n            \n        return ans\n```\n\n=== DESIGN ===\nAn elegant and efficient approach for this problem is to use bit manipulation. The core idea is that for any number that appears three times, each of its bits (0 or 1) will also appear three times. By summing the bits at each position for all numbers in the array, we can deduce the bits of the single, unique number.\n\nIf we sum the `i`-th bit for all numbers, the total sum for that bit position modulo 3 will give us the `i`-th bit of the single number. This is because the contribution from the numbers appearing three times will result in a sum that is a multiple of 3, leaving only the bit from the unique number.\n\nWe can iterate through all 32 bit-positions of a 32-bit integer. For each position, we calculate the sum of bits from all numbers in the input array. If this sum modulo 3 is 1, it means the unique number has a 1 at this bit position. We then construct the final result by setting this bit.\n\nFinally, since the problem involves 32-bit signed integers, we must handle negative numbers. The algorithm naturally constructs the result as a 32-bit unsigned integer. If the 31st bit (the sign bit) is set, we must convert this two's complement representation to Python's standard signed integer format.\n\n```python\nfrom typing import List\n\nclass Solution:\n  def singleNumber(self, nums: List[int]) -> int:\n    \"\"\"\n    Finds the single element in an array where every other element appears three times.\n\n    This solution uses a bit manipulation approach. It iterates through each of the 32 bits\n    of an integer. For each bit position, it sums up the bits of all numbers in the array.\n    Since every number except one appears three times, the sum of bits at any position\n    will be a multiple of 3, plus the bit from the single number.\n    \n    By taking the sum modulo 3, we can determine the bit of the single number at that\n    position. These bits are then combined to reconstruct the single number.\n\n    The solution has linear time complexity O(32*N) -> O(N) and constant space complexity O(1).\n    \"\"\"\n    \n    ans = 0\n    # A 32-bit integer has bits from position 0 to 31.\n    for i in range(32):\n      bit_sum = 0\n      # Calculate the sum of the i-th bit for all numbers.\n      for num in nums:\n        # Isolate the i-th bit of the number and add it to the sum.\n        if (num >> i) & 1:\n          bit_sum += 1\n      \n      # If the sum of bits is not a multiple of 3, the single number\n      # must have a 1 at this bit position.\n      if bit_sum % 3 != 0:\n        # Set the i-th bit in the result.\n        ans |= (1 << i)\n        \n    # The result 'ans' is built as a positive 32-bit integer.\n    # If the 31st bit is set, it represents a negative number in two's complement.\n    # We must convert it to Python's native signed integer representation.\n    if ans >= (1 << 31):\n      ans -= (1 << 32)\n      \n    return ans\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ans = 0\n        for i in range(32):\n            bit_sum = 0\n            for num in nums:\n                if (num >> i) & 1:\n                    bit_sum += 1\n            \n            if bit_sum % 3 != 0:\n                ans |= (1 << i)\n        \n        if ans >= (1 << 31):\n            ans -= (1 << 32)\n            \n        return ans\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def singleNumber(self, nums: list[int]) -> int:\n        ans = 0\n        # Iterate through each of the 32 bits of a 32-bit integer.\n        for i in range(32):\n            bit_sum = 0\n            # Calculate the sum of the i-th bit for all numbers in the list.\n            for num in nums:\n                if (num >> i) & 1:\n                    bit_sum += 1\n            \n            # If the sum of the i-th bits is not a multiple of 3,\n            # it means the single number has a '1' at this bit position.\n            if bit_sum % 3 != 0:\n                # Set the i-th bit in the answer.\n                ans |= (1 << i)\n        \n        # The result 'ans' is constructed as a 32-bit unsigned integer.\n        # If the most significant bit (31st bit) is 1, it represents a negative\n        # number in two's complement form. We need to convert it to a\n        # standard Python signed integer.\n        if ans >= (1 << 31):\n            ans -= (1 << 32)\n            \n        return ans\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ans = 0\n        for i in range(32):\n            bit_sum = 0\n            for num in nums:\n                if (num >> i) & 1:\n                    bit_sum += 1\n            \n            if bit_sum % 3 != 0:\n                ans |= (1 << i)\n        \n        if ans >= (1 << 31):\n            ans -= (1 << 32)\n            \n        return ans\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 236304432334,
+      "SolvedAt": "2025-11-21T17:04:57.001158+01:00",
+      "PromptTokens": 4655,
+      "OutputTokens": 27776
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "137",
+        "typed_code": "\nclass Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        ans = 0\n        for i in range(32):\n            bit_sum = 0\n            for num in nums:\n                if (num >> i) & 1:\n                    bit_sum += 1\n            \n            if bit_sum % 3 != 0:\n                ans |= (1 << i)\n        \n        if ans >= (1 << 31):\n            ans -= (1 << 32)\n            \n        return ans\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:17:06+01:00"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1710",
+        "questionId": "1829",
+        "Content": "<p>You are assigned to put some amount of boxes onto <strong>one truck</strong>. You are given a 2D array <code>boxTypes</code>, where <code>boxTypes[i] = [numberOfBoxes<sub>i</sub>, numberOfUnitsPerBox<sub>i</sub>]</code>:</p>\n\n<ul>\n\t<li><code>numberOfBoxes<sub>i</sub></code> is the number of boxes of type <code>i</code>.</li>\n\t<li><code>numberOfUnitsPerBox<sub>i</sub></code><sub> </sub>is the number of units in each box of the type <code>i</code>.</li>\n</ul>\n\n<p>You are also given an integer <code>truckSize</code>, which is the <strong>maximum</strong> number of <strong>boxes</strong> that can be put on the truck. You can choose any boxes to put on the truck as long as the number&nbsp;of boxes does not exceed <code>truckSize</code>.</p>\n\n<p>Return <em>the <strong>maximum</strong> total number of <strong>units</strong> that can be put on the truck.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> boxTypes = [[1,3],[2,2],[3,1]], truckSize = 4\n<strong>Output:</strong> 8\n<strong>Explanation:</strong> There are:\n- 1 box of the first type that contains 3 units.\n- 2 boxes of the second type that contain 2 units each.\n- 3 boxes of the third type that contain 1 unit each.\nYou can take all the boxes of the first and second types, and one box of the third type.\nThe total number of units will be = (1 * 3) + (2 * 2) + (1 * 1) = 8.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> boxTypes = [[5,10],[2,5],[4,7],[3,9]], truckSize = 10\n<strong>Output:</strong> 91\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= boxTypes.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= numberOfBoxes<sub>i</sub>, numberOfUnitsPerBox<sub>i</sub> &lt;= 1000</code></li>\n\t<li><code>1 &lt;= truckSize &lt;= 10<sup>6</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[[1,3],[2,2],[3,1]]\n4",
+        "ExampleTestcases": "[[1,3],[2,2],[3,1]]\n4\n[[5,10],[2,5],[4,7],[3,9]]\n10",
+        "Difficulty": "Easy",
+        "Title": "Maximum Units on a Truck",
+        "TitleSlug": "maximum-units-on-a-truck",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"371.5K\", \"totalSubmission\": \"498.5K\", \"totalAcceptedRaw\": 371538, \"totalSubmissionRaw\": 498466, \"acRate\": \"74.5%\"}",
+        "Likes": 3995,
+        "Dislikes": 235,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maximumUnits(int[][] boxTypes, int truckSize) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maximumUnits(self, boxTypes, truckSize):\n        \"\"\"\n        :type boxTypes: List[List[int]]\n        :type truckSize: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[][]} boxTypes\n * @param {number} truckSize\n * @return {number}\n */\nvar maximumUnits = function(boxTypes, truckSize) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maximumUnits(boxTypes: number[][], truckSize: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaximumUnits(int[][] boxTypes, int truckSize) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maximumUnits(int** boxTypes, int boxTypesSize, int* boxTypesColSize, int truckSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maximumUnits(boxTypes [][]int, truckSize int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maximumUnits(boxTypes: Array<IntArray>, truckSize: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maximumUnits(_ boxTypes: [[Int]], _ truckSize: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn maximum_units(box_types: Vec<Vec<i32>>, truck_size: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[][]} box_types\n# @param {Integer} truck_size\n# @return {Integer}\ndef maximum_units(box_types, truck_size)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[][] $boxTypes\n     * @param Integer $truckSize\n     * @return Integer\n     */\n    function maximumUnits($boxTypes, $truckSize) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maximumUnits(List<List<int>> boxTypes, int truckSize) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maximumUnits(boxTypes: Array[Array[Int]], truckSize: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec maximum_units(box_types :: [[integer]], truck_size :: integer) :: integer\n  def maximum_units(box_types, truck_size) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec maximum_units(BoxTypes :: [[integer()]], TruckSize :: integer()) -> integer().\nmaximum_units(BoxTypes, TruckSize) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (maximum-units boxTypes truckSize)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:07:56.855706+01:00",
+    "AcRate": "74.5",
+    "TotalSubmissions": 498466,
+    "TotalAccepted": 371538,
+    "AcceptanceRate": 0.7453627729875257,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-units-on-a-truck/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Type Classification: Greedy, Sorting\n\nKey Patterns & Algorithms: \n- Since we want to maximize the total units, we should prioritize boxes with the highest units per box.\n- Sort the box types in descending order based on the number of units per box.\n- Then, greedily take as many boxes as possible from the highest unit type first until the truck is full.\n\nConstraints Analysis:\n- The number of box types (boxTypes.length) is at most 1000, so sorting is efficient (O(n log n) which is acceptable).\n- The truckSize can be up to 10^6, but we iterate through the sorted list and break early when the truck is full, so worst-case we iterate through all box types (1000 iterations).\n\nEdge Cases:\n- TruckSize is 0 (should return 0).\n- Total available boxes are less than truckSize (we take all boxes).\n- Multiple box types with the same units per box (sorting will handle them correctly).\n\nInput/Output Analysis:\n- Input: 2D list of integers (boxTypes) and an integer (truckSize).\n- Output: Integer (maximum total units).\n\nDifficulty Assessment: Easy to Medium. The problem requires recognizing the greedy approach and sorting appropriately.\n\nSolution Code:\n```python\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Greedy algorithm with sorting.\n\n**Step-by-Step Approach**:\n1. Sort the `boxTypes` in descending order based on the number of units per box (i.e., the second element in each pair).\n2. Initialize `total_units` to 0.\n3. Iterate through each box type in the sorted list:\n   - If `truckSize` becomes 0 or negative, break out of the loop.\n   - Determine the number of boxes to take: the minimum between the available boxes of that type and the remaining `truckSize`.\n   - Add the units from the taken boxes to `total_units`.\n   - Subtract the number of taken boxes from `truckSize`.\n4. Return `total_units`.\n\n**Data Structures**: A list (for storing and sorting the box types).\n\n**Time Complexity**: O(n log n) due to sorting, where n is the number of box types. The subsequent iteration is O(n).\n\n**Space Complexity**: O(1) additional space (excluding the input and the sorted list, which is required for the solution).\n\n**Pseudocode**:\n```\nSort boxTypes by unitsPerBox descending\ntotal_units = 0\nfor each boxType in sorted list:\n    if truckSize <= 0:\n        break\n    boxes_to_take = min(truckSize, numberOfBoxes)\n    total_units += boxes_to_take * unitsPerBox\n    truckSize -= boxes_to_take\nreturn total_units\n```\n\n```python\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 21090108749,
+      "SolvedAt": "2025-11-21T00:08:12.232069+01:00",
+      "PromptTokens": 4905,
+      "OutputTokens": 976
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1829",
+        "typed_code": "\nclass Solution:\n    def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:\n        boxTypes.sort(key=lambda x: -x[1])\n        total_units = 0\n        for boxes, units in boxTypes:\n            if truckSize <= 0:\n                break\n            take = min(truckSize, boxes)\n            total_units += take * units\n            truckSize -= take\n        return total_units\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:04:31+01:00"
+    }
+  }
+}

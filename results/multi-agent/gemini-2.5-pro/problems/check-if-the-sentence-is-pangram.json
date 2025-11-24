@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1832",
+        "questionId": "1960",
+        "Content": "<p>A <strong>pangram</strong> is a sentence where every letter of the English alphabet appears at least once.</p>\n\n<p>Given a string <code>sentence</code> containing only lowercase English letters, return<em> </em><code>true</code><em> if </em><code>sentence</code><em> is a <strong>pangram</strong>, or </em><code>false</code><em> otherwise.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> sentence = &quot;thequickbrownfoxjumpsoverthelazydog&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> sentence contains at least one of every letter of the English alphabet.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> sentence = &quot;leetcode&quot;\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= sentence.length &lt;= 1000</code></li>\n\t<li><code>sentence</code> consists of lowercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"thequickbrownfoxjumpsoverthelazydog\"",
+        "ExampleTestcases": "\"thequickbrownfoxjumpsoverthelazydog\"\n\"leetcode\"",
+        "Difficulty": "Easy",
+        "Title": "Check if the Sentence Is Pangram",
+        "TitleSlug": "check-if-the-sentence-is-pangram",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"498.6K\", \"totalSubmission\": \"593.2K\", \"totalAcceptedRaw\": 498584, \"totalSubmissionRaw\": 593216, \"acRate\": \"84.0%\"}",
+        "Likes": 2961,
+        "Dislikes": 64,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool checkIfPangram(string sentence) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean checkIfPangram(String sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def checkIfPangram(self, sentence):\n        \"\"\"\n        :type sentence: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} sentence\n * @return {boolean}\n */\nvar checkIfPangram = function(sentence) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function checkIfPangram(sentence: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool CheckIfPangram(string sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool checkIfPangram(char* sentence) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func checkIfPangram(sentence string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun checkIfPangram(sentence: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func checkIfPangram(_ sentence: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn check_if_pangram(sentence: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} sentence\n# @return {Boolean}\ndef check_if_pangram(sentence)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $sentence\n     * @return Boolean\n     */\n    function checkIfPangram($sentence) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool checkIfPangram(String sentence) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def checkIfPangram(sentence: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec check_if_pangram(sentence :: String.t) :: boolean\n  def check_if_pangram(sentence) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec check_if_pangram(Sentence :: unicode:unicode_binary()) -> boolean().\ncheck_if_pangram(Sentence) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (check-if-pangram sentence)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:02:37.233656+01:00",
+    "AcRate": "84.0",
+    "TotalSubmissions": 593216,
+    "TotalAccepted": 498584,
+    "AcceptanceRate": 0.8404763189125041,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        \"\"\"\n        Checks if a sentence is a pangram.\n\n        A pangram is a sentence where every letter of the English alphabet\n        appears at least once.\n\n        Args:\n            sentence: A string containing only lowercase English letters.\n\n        Returns:\n            True if the sentence is a pangram, False otherwise.\n        \"\"\"\n\n        # The English alphabet has 26 letters.\n        # A set is an unordered collection of unique elements.\n        # By converting the input `sentence` string to a set, we obtain\n        # all the unique characters present in the sentence.\n        \n        # The problem statement guarantees that the sentence consists only\n        # of lowercase English letters.\n        \n        # Therefore, if the number of unique characters in the sentence is 26,\n        # it means every letter of the alphabet is present at least once,\n        # making it a pangram.\n        \n        return len(set(sentence)) == 26\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        # 1. Algorithm Choice: Unique Character Counting using a Hash Set\n        # The approach is to count the number of unique lowercase English letters\n        # in the input string. If the count is 26, the string is a pangram.\n        # A hash set is an efficient data structure for this task as it\n        # automatically stores only unique elements.\n\n        # 2. Step-by-Step Approach:\n        #    a. Create a set of characters from the input `sentence`. This will\n        #       inherently filter out all duplicate letters.\n        #    b. Get the size (number of elements) of the resulting set.\n        #    c. Compare this size with 26 (the total number of letters in the\n        #       English alphabet).\n        #    d. If the size is equal to 26, it confirms that every letter of the\n        #       alphabet is present at least once. Return `True`.\n        #    e. Otherwise, at least one letter is missing. Return `False`.\n\n        # 3. Data Structures:\n        #    - Hash Set (Python's `set`): Used to store the unique characters\n        #      present in the sentence.\n\n        # 4. Time Complexity:\n        #    - O(N), where N is the length of the `sentence`. This is the time\n        #      required to iterate through the string and insert each character\n        #      into the hash set. Each insertion takes O(1) on average.\n\n        # 5. Space Complexity:\n        #    - O(1) or O(K), where K is the number of letters in the alphabet (26).\n        #      The space required for the hash set is constant because it can hold\n        #      at most 26 distinct characters, regardless of the input sentence's length.\n\n        # 6. Pseudocode:\n        #    FUNCTION checkIfPangram(sentence):\n        #      unique_chars = create_set_from(sentence)\n        #      RETURN size_of(unique_chars) == 26\n        #    ENDFUNCTION\n        \n        return len(set(sentence)) == 26\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        return len(set(sentence)) == 26\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        # A set is used to store the unique characters from the input string.\n        # The problem states the sentence consists only of lowercase English letters.\n        # The English alphabet has 26 letters.\n        # If the number of unique characters in the sentence is 26,\n        # it means every letter of the alphabet is present, making it a pangram.\n        # The time complexity is O(N) to build the set, where N is the length\n        # of the sentence. The space complexity is O(K) where K is the number\n        # of unique characters, which is at most 26 (a constant), so it's O(1).\n        return len(set(sentence)) == 26\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        return len(set(sentence)) == 26\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 101011417292,
+      "SolvedAt": "2025-11-21T09:20:59.287314+01:00",
+      "PromptTokens": 3814,
+      "OutputTokens": 11105
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1960",
+        "typed_code": "\nclass Solution:\n    def checkIfPangram(self, sentence: str) -> bool:\n        return len(set(sentence)) == 26\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:10:14+01:00"
+    }
+  }
+}

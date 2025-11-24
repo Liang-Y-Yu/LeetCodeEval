@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "392",
+        "questionId": "392",
+        "Content": "<p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>A <strong>subsequence</strong> of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., <code>&quot;ace&quot;</code> is a subsequence of <code>&quot;<u>a</u>b<u>c</u>d<u>e</u>&quot;</code> while <code>&quot;aec&quot;</code> is not).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"abc\", t = \"ahbgdc\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"axc\", t = \"ahbgdc\"\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>0 &lt;= t.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> and <code>t</code> consist only of lowercase English letters.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Suppose there are lots of incoming <code>s</code>, say <code>s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub></code> where <code>k &gt;= 10<sup>9</sup></code>, and you want to check one by one to see if <code>t</code> has its subsequence. In this scenario, how would you change your code?",
+        "SampleTestCase": "\"abc\"\n\"ahbgdc\"",
+        "ExampleTestcases": "\"abc\"\n\"ahbgdc\"\n\"axc\"\n\"ahbgdc\"",
+        "Difficulty": "Easy",
+        "Title": "Is Subsequence",
+        "TitleSlug": "is-subsequence",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"2.3M\", \"totalSubmission\": \"4.7M\", \"totalAcceptedRaw\": 2289330, \"totalSubmissionRaw\": 4703665, \"acRate\": \"48.7%\"}",
+        "Likes": 10590,
+        "Dislikes": 606,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isSubsequence(string s, string t) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isSubsequence(String s, String t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isSubsequence(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar isSubsequence = function(s, t) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isSubsequence(s: string, t: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsSubsequence(string s, string t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isSubsequence(char* s, char* t) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isSubsequence(s string, t string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isSubsequence(s: String, t: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isSubsequence(_ s: String, _ t: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_subsequence(s: String, t: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} t\n# @return {Boolean}\ndef is_subsequence(s, t)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @return Boolean\n     */\n    function isSubsequence($s, $t) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isSubsequence(String s, String t) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isSubsequence(s: String, t: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_subsequence(s :: String.t, t :: String.t) :: boolean\n  def is_subsequence(s, t) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_subsequence(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nis_subsequence(S, T) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-subsequence s t)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:19:37.221193+01:00",
+    "AcRate": "48.7",
+    "TotalSubmissions": 4703665,
+    "TotalAccepted": 2289330,
+    "AcceptanceRate": 0.48671195759051716,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/is-subsequence/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**:  \n   This is a **String** problem, specifically involving subsequence checking.\n\n2. **Key Patterns & Algorithms**:  \n   The most straightforward approach is the **Two Pointers** technique.  \n   - One pointer traverses `s`, the other traverses `t`.  \n   - If characters match, move both pointers; else, move only the `t` pointer.  \n   - If we finish `s`, it's a subsequence; if we finish `t` first, it's not.\n\n3. **Constraints Analysis**:  \n   - `s.length \u2264 100`, `t.length \u2264 10^4` \u2192 an **O(n + m)** solution is efficient.  \n   - For the follow-up with many `s`, preprocessing `t` (e.g., storing character positions for binary search) can optimize repeated checks.\n\n4. **Edge Cases**:  \n   - `s` is empty \u2192 always True.  \n   - `t` is empty but `s` is not \u2192 False.  \n   - `s` longer than `t` \u2192 False.  \n   - No matches at all \u2192 False.\n\n5. **Input/Output Analysis**:  \n   - Input: two strings `s` and `t`.  \n   - Output: boolean indicating if `s` is a subsequence of `t`.\n\n6. **Difficulty Assessment**:  \n   Easy \u2014 the two-pointer solution is intuitive. The follow-up is more challenging, requiring preprocessing for efficient repeated queries.\n\n---\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Two Pointers technique.\n\n**Step-by-Step Approach**:\n1. Initialize two pointers, `i` for `s` and `j` for `t`, both starting at 0.\n2. Traverse through `t` with pointer `j`.\n3. For each character in `t`, check if it matches the current character in `s` (at pointer `i`).\n4. If it matches, increment `i` to move to the next character in `s`.\n5. Always increment `j` to move through `t`.\n6. If `i` reaches the end of `s`, it means all characters in `s` were found in `t` in order, so return True.\n7. If `j` reaches the end of `t` and `i` hasn't reached the end of `s`, return False.\n\n**Data Structures**: None beyond the input strings and pointers.\n\n**Time Complexity**: O(n + m), where n is the length of `t` and m is the length of `s`. We traverse each string once.\n\n**Space Complexity**: O(1), only using a constant amount of extra space for pointers.\n\n**Pseudocode**:\n```\nfunction isSubsequence(s, t):\n    i = 0, j = 0\n    while i < len(s) and j < len(t):\n        if s[i] == t[j]:\n            i += 1\n        j += 1\n    return i == len(s)\n```\n\nFinal Code:\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n```\n\n=== VERIFICATION ===\n**Verification Report:**\n\nThe provided solution code is correct and meets all requirements. Below is the detailed verification:\n\n1. **Correctness**: The code correctly implements the two-pointer algorithm as designed. It efficiently checks if `s` is a subsequence of `t` by traversing both strings without any errors.\n\n2. **Edge Cases**:\n   - If `s` is empty (length 0), the while loop doesn't run and returns `True` (since `i==0` and `len(s)==0`).\n   - If `t` is empty and `s` is not, the while loop doesn't run (since `j==0` and `len(t)==0`), and returns `False` (because `i` would be 0 and `len(s)>0`).\n   - If `s` is longer than `t`, the loop exits when `j` reaches the end of `t`, and returns `False` (since `i` won't reach the end of `s`).\n   - If there are no matches, `i` never increments, so it returns `False`.\n\n3. **Complexity**: \n   - Time: O(n + m) where n = len(t) and m = len(s). This is optimal for a single query.\n   - Space: O(1), using only two pointers.\n\n4. **Code Quality**: The code is clean, readable, and follows Python best practices. It is concise without unnecessary operations.\n\n5. **Test Cases**:\n   - Example 1: s=\"abc\", t=\"ahbgdc\"\n        i=0 (s[0]='a'), j=0 (t[0]='a') -> match -> i=1, j=1.\n        i=1 (s[1]='b'), j=1 (t[1]='h') -> no match -> j=2.\n        j=2 (t[2]='b') -> match -> i=2, j=3.\n        i=2 (s[2]='c'), j=3 (t[3]='g') -> no match -> j=4.\n        j=4 (t[4]='d') -> no match -> j=5.\n        j=5 (t[5]='c') -> match -> i=3, j=6.\n        i==len(s) (3==3) -> returns True. Correct.\n   - Example 2: s=\"axc\", t=\"ahbgdc\"\n        Similarly, 'a' matches at j=0 -> i=1.\n        'x' never matches (t has no 'x') -> i never becomes 2.\n        After loop, i=1 != len(s)=3 -> returns False. Correct.\n\n6. **Potential Issues**: None found. The solution is efficient and correct for the constraints.\n\n**Final Code (unchanged, as it is correct):**\n```python\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 22217050376,
+      "SolvedAt": "2025-11-20T23:57:37.512169+01:00",
+      "PromptTokens": 4409,
+      "OutputTokens": 1561
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "392",
+        "typed_code": "\nclass Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        i, j = 0, 0\n        while i < len(s) and j < len(t):\n            if s[i] == t[j]:\n                i += 1\n            j += 1\n        return i == len(s)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:08:20+01:00"
+    }
+  }
+}

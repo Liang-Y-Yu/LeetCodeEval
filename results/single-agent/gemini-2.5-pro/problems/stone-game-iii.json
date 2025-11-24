@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1406",
+        "questionId": "1522",
+        "Content": "<p>Alice and Bob continue their games with piles of stones. There are several stones <strong>arranged in a row</strong>, and each stone has an associated value which is an integer given in the array <code>stoneValue</code>.</p>\n\n<p>Alice and Bob take turns, with Alice starting first. On each player&#39;s turn, that player can take <code>1</code>, <code>2</code>, or <code>3</code> stones from the <strong>first</strong> remaining stones in the row.</p>\n\n<p>The score of each player is the sum of the values of the stones taken. The score of each player is <code>0</code> initially.</p>\n\n<p>The objective of the game is to end with the highest score, and the winner is the player with the highest score and there could be a tie. The game continues until all the stones have been taken.</p>\n\n<p>Assume Alice and Bob <strong>play optimally</strong>.</p>\n\n<p>Return <code>&quot;Alice&quot;</code><em> if Alice will win, </em><code>&quot;Bob&quot;</code><em> if Bob will win, or </em><code>&quot;Tie&quot;</code><em> if they will end the game with the same score</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> stoneValue = [1,2,3,7]\n<strong>Output:</strong> &quot;Bob&quot;\n<strong>Explanation:</strong> Alice will always lose. Her best move will be to take three piles and the score become 6. Now the score of Bob is 7 and Bob wins.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> stoneValue = [1,2,3,-9]\n<strong>Output:</strong> &quot;Alice&quot;\n<strong>Explanation:</strong> Alice must choose all the three piles at the first move to win and leave Bob with negative score.\nIf Alice chooses one pile her score will be 1 and the next move Bob&#39;s score becomes 5. In the next move, Alice will take the pile with value = -9 and lose.\nIf Alice chooses two piles her score will be 3 and the next move Bob&#39;s score becomes 3. In the next move, Alice will take the pile with value = -9 and also lose.\nRemember that both play optimally so here Alice will choose the scenario that makes her win.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> stoneValue = [1,2,3,6]\n<strong>Output:</strong> &quot;Tie&quot;\n<strong>Explanation:</strong> Alice cannot win this game. She can end the game in a draw if she decided to choose all the first three piles, otherwise she will lose.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= stoneValue.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>-1000 &lt;= stoneValue[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,7]",
+        "ExampleTestcases": "[1,2,3,7]\n[1,2,3,-9]\n[1,2,3,6]",
+        "Difficulty": "Hard",
+        "Title": "Stone Game III",
+        "TitleSlug": "stone-game-iii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"106.9K\", \"totalSubmission\": \"169.1K\", \"totalAcceptedRaw\": 106879, \"totalSubmissionRaw\": 169066, \"acRate\": \"63.2%\"}",
+        "Likes": 2288,
+        "Dislikes": 79,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcz",
+            "Name": "Game Theory",
+            "Slug": "game-theory"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string stoneGameIII(vector<int>& stoneValue) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String stoneGameIII(int[] stoneValue) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def stoneGameIII(self, stoneValue: List[int]) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def stoneGameIII(self, stoneValue):\n        \"\"\"\n        :type stoneValue: List[int]\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} stoneValue\n * @return {string}\n */\nvar stoneGameIII = function(stoneValue) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function stoneGameIII(stoneValue: number[]): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string StoneGameIII(int[] stoneValue) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* stoneGameIII(int* stoneValue, int stoneValueSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func stoneGameIII(stoneValue []int) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun stoneGameIII(stoneValue: IntArray): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func stoneGameIII(_ stoneValue: [Int]) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn stone_game_iii(stone_value: Vec<i32>) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} stone_value\n# @return {String}\ndef stone_game_iii(stone_value)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $stoneValue\n     * @return String\n     */\n    function stoneGameIII($stoneValue) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String stoneGameIII(List<int> stoneValue) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def stoneGameIII(stoneValue: Array[Int]): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec stone_game_iii(stone_value :: [integer]) :: String.t\n  def stone_game_iii(stone_value) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec stone_game_iii(StoneValue :: [integer()]) -> unicode:unicode_binary().\nstone_game_iii(StoneValue) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (stone-game-iii stoneValue)\n  (-> (listof exact-integer?) string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:23:05.591598+01:00",
+    "AcRate": "63.2",
+    "TotalSubmissions": 169066,
+    "TotalAccepted": 106879,
+    "AcceptanceRate": 0.6321732341215857,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/stone-game-iii/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Alice and Bob continue their games with piles of stones. There are several stones arranged in a row, and each stone has an associated value which is an integer given in the array stoneValue.\nAlice and Bob take turns, with Alice starting first. On each player's turn, that player can take 1, 2, or 3 stones from the first remaining stones in the row.\nThe score of each player is the sum of the values of the stones taken. The score of each player is 0 initially.\nThe objective of the game is to end with the highest score, and the winner is the player with the highest score and there could be a tie. The game continues until all the stones have been taken.\nAssume Alice and Bob play optimally.\nReturn \"Alice\" if Alice will win, \"Bob\" if Bob will win, or \"Tie\" if they will end the game with the same score.\n\u00a0\nExample 1:\nInput: stoneValue = [1,2,3,7]\nOutput: \"Bob\"\nExplanation: Alice will always lose. Her best move will be to take three piles and the score become 6. Now the score of Bob is 7 and Bob wins.\nExample 2:\nInput: stoneValue = [1,2,3,-9]\nOutput: \"Alice\"\nExplanation: Alice must choose all the three piles at the first move to win and leave Bob with negative score.\nIf Alice chooses one pile her score will be 1 and the next move Bob's score becomes 5. In the next move, Alice will take the pile with value = -9 and lose.\nIf Alice chooses two piles her score will be 3 and the next move Bob's score becomes 3. In the next move, Alice will take the pile with value = -9 and also lose.\nRemember that both play optimally so here Alice will choose the scenario that makes her win.\nExample 3:\nInput: stoneValue = [1,2,3,6]\nOutput: \"Tie\"\nExplanation: Alice cannot win this game. She can end the game in a draw if she decided to choose all the first three piles, otherwise she will lose.\n\u00a0\nConstraints:\n\t1 <= stoneValue.length <= 5 * 10^4\n\t-1000 <= stoneValue[i] <= 1000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def stoneGameIII(self, stoneValue: List[int]) -> str:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and efficient solution can be achieved using dynamic programming. This is a classic minimax game problem, where both players play optimally to maximize their own score. Instead of tracking each player's absolute score, it's more convenient to track the maximum score difference the current player can achieve over their opponent.\n\nLet `dp[i]` be the maximum score difference the current player can obtain from the sub-array of stones starting at index `i`. A positive `dp[i]` means the current player will end up with more points than the opponent from this sub-array, while a negative value means they will have fewer.\n\nThe state of the game is defined by the starting index `i` of the remaining stones. We want to find `dp[0]`, which represents the score difference for Alice (the first player) for the entire game.\n\n**DP Recurrence Relation:**\n\nA player at index `i` has three choices:\n1.  **Take 1 stone:** The player's score increases by `stoneValue[i]`. The turn passes to the opponent, who will start at index `i+1`. The opponent will play optimally and achieve a score difference of `dp[i+1]` over the current player for the rest of the game. So, the current player's net score difference for this move is `stoneValue[i] - dp[i+1]`.\n2.  **Take 2 stones:** The player's score increases by `stoneValue[i] + stoneValue[i+1]`. The opponent starts at `i+2` and achieves a difference of `dp[i+2]`. The current player's net difference is `(stoneValue[i] + stoneValue[i+1]) - dp[i+2]`.\n3.  **Take 3 stones:** The player's score increases by `stoneValue[i] + ... + stoneValue[i+2]`. The opponent starts at `i+3` and gets a difference of `dp[i+3]`. The net difference is `(stoneValue[i] + ... + stoneValue[i+2]) - dp[i+3]`.\n\nSince the player plays optimally, they will choose the move that maximizes their score difference. Thus, the recurrence is:\n`dp[i] = max(take_1_diff, take_2_diff, take_3_diff)`\n\n**Base Case:**\nIf `i >= n` (where `n` is the number of stones), there are no stones left. The score difference is 0. So, `dp[n] = 0`, `dp[n+1] = 0`, etc.\n\n**Implementation:**\n\nWe can compute the `dp` values iteratively from `i = n-1` down to `0`. Notice that `dp[i]` only depends on `dp[i+1]`, `dp[i+2]`, and `dp[i+3]`. This means we don't need a full `O(n)` DP array; we can optimize the space to `O(1)` by only keeping track of the last three DP values.\n\nWe'll use a small array, say `dp_ rolling`, of size 3 to store the values for `dp[i+1]`, `dp[i+2]`, and `dp[i+3]` as we iterate `i` backwards.\n\n- The final result `dp[0]` will tell us Alice's overall score advantage.\n  - If `dp[0] > 0`, Alice wins.\n  - If `dp[0] < 0`, Bob wins.\n  - If `dp[0] == 0`, it's a Tie.\n\nThis approach has a time complexity of `O(n)` because we iterate through the `stoneValue` array once, and a space complexity of `O(1)` due to the constant-size DP array.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def stoneGameIII(self, stoneValue: List[int]) -> str:\n        n = len(stoneValue)\n        \n        # dp_rolling stores the max score difference for the states i+1, i+2, and i+3.\n        # Initialize to 0 for states beyond the last stone.\n        dp_rolling = [0, 0, 0]\n\n        for i in range(n - 1, -1, -1):\n            best_score_diff = float('-inf')\n            current_sum = 0\n            \n            # Iterate through the 3 possible moves (take 1, 2, or 3 stones).\n            for k in range(1, 4):\n                # Check if the move is valid (doesn't go past the end of the array).\n                if i + k > n:\n                    break\n                \n                current_sum += stoneValue[i + k - 1]\n                \n                # Opponent's max score difference from the next state (i+k).\n                # dp_rolling[k-1] corresponds to the dp value for state i+k.\n                opponent_diff = dp_rolling[k - 1]\n                \n                # The current player's score difference for this move.\n                best_score_diff = max(best_score_diff, current_sum - opponent_diff)\n            \n            # Update the rolling DP array for the next iteration (i-1).\n            dp_rolling = [best_score_diff, dp_rolling[0], dp_rolling[1]]\n\n        # dp_rolling[0] now holds the result for dp[0].\n        alice_diff = dp_rolling[0]\n        \n        if alice_diff > 0:\n            return \"Alice\"\n        elif alice_diff < 0:\n            return \"Bob\"\n        else:\n            return \"Tie\"\n\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameIII(self, stoneValue: List[int]) -> str:\n        n = len(stoneValue)\n        \n        # dp_rolling stores the max score difference for the states i+1, i+2, and i+3.\n        # Initialize to 0 for states beyond the last stone.\n        dp_rolling = [0, 0, 0]\n\n        for i in range(n - 1, -1, -1):\n            best_score_diff = float('-inf')\n            current_sum = 0\n            \n            # Iterate through the 3 possible moves (take 1, 2, or 3 stones).\n            for k in range(1, 4):\n                # Check if the move is valid (doesn't go past the end of the array).\n                if i + k > n:\n                    break\n                \n                current_sum += stoneValue[i + k - 1]\n                \n                # Opponent's max score difference from the next state (i+k).\n                # dp_rolling[k-1] corresponds to the dp value for state i+k.\n                opponent_diff = dp_rolling[k - 1]\n                \n                # The current player's score difference for this move.\n                best_score_diff = max(best_score_diff, current_sum - opponent_diff)\n            \n            # Update the rolling DP array for the next iteration (i-1).\n            dp_rolling = [best_score_diff, dp_rolling[0], dp_rolling[1]]\n\n        # dp_rolling[0] now holds the result for dp[0].\n        alice_diff = dp_rolling[0]\n        \n        if alice_diff > 0:\n            return \"Alice\"\n        elif alice_diff < 0:\n            return \"Bob\"\n        else:\n            return \"Tie\"\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 184237549500,
+      "SolvedAt": "2025-11-20T19:07:45.321127+01:00",
+      "PromptTokens": 726,
+      "OutputTokens": 26963
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1522",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def stoneGameIII(self, stoneValue: List[int]) -> str:\n        n = len(stoneValue)\n        \n        # dp_rolling stores the max score difference for the states i+1, i+2, and i+3.\n        # Initialize to 0 for states beyond the last stone.\n        dp_rolling = [0, 0, 0]\n\n        for i in range(n - 1, -1, -1):\n            best_score_diff = float('-inf')\n            current_sum = 0\n            \n            # Iterate through the 3 possible moves (take 1, 2, or 3 stones).\n            for k in range(1, 4):\n                # Check if the move is valid (doesn't go past the end of the array).\n                if i + k > n:\n                    break\n                \n                current_sum += stoneValue[i + k - 1]\n                \n                # Opponent's max score difference from the next state (i+k).\n                # dp_rolling[k-1] corresponds to the dp value for state i+k.\n                opponent_diff = dp_rolling[k - 1]\n                \n                # The current player's score difference for this move.\n                best_score_diff = max(best_score_diff, current_sum - opponent_diff)\n            \n            # Update the rolling DP array for the next iteration (i-1).\n            dp_rolling = [best_score_diff, dp_rolling[0], dp_rolling[1]]\n\n        # dp_rolling[0] now holds the result for dp[0].\n        alice_diff = dp_rolling[0]\n        \n        if alice_diff > 0:\n            return \"Alice\"\n        elif alice_diff < 0:\n            return \"Bob\"\n        else:\n            return \"Tie\"\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:43:09+01:00"
+    }
+  }
+}

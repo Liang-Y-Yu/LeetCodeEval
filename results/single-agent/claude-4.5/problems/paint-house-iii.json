@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1473",
+        "questionId": "1583",
+        "Content": "<p>There is a row of <code>m</code> houses in a small city, each house must be painted with one of the <code>n</code> colors (labeled from <code>1</code> to <code>n</code>), some houses that have been painted last summer should not be painted again.</p>\n\n<p>A neighborhood is a maximal group of continuous houses that are painted with the same color.</p>\n\n<ul>\n\t<li>For example: <code>houses = [1,2,2,3,3,2,1,1]</code> contains <code>5</code> neighborhoods <code>[{1}, {2,2}, {3,3}, {2}, {1,1}]</code>.</li>\n</ul>\n\n<p>Given an array <code>houses</code>, an <code>m x n</code> matrix <code>cost</code> and an integer <code>target</code> where:</p>\n\n<ul>\n\t<li><code>houses[i]</code>: is the color of the house <code>i</code>, and <code>0</code> if the house is not painted yet.</li>\n\t<li><code>cost[i][j]</code>: is the cost of paint the house <code>i</code> with the color <code>j + 1</code>.</li>\n</ul>\n\n<p>Return <em>the minimum cost of painting all the remaining houses in such a way that there are exactly</em> <code>target</code> <em>neighborhoods</em>. If it is not possible, return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> houses = [0,0,0,0,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3\n<strong>Output:</strong> 9\n<strong>Explanation:</strong> Paint houses of this way [1,2,2,1,1]\nThis array contains target = 3 neighborhoods, [{1}, {2,2}, {1,1}].\nCost of paint all houses (1 + 1 + 1 + 1 + 5) = 9.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> houses = [0,2,1,2,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3\n<strong>Output:</strong> 11\n<strong>Explanation:</strong> Some houses are already painted, Paint the houses of this way [2,2,1,2,2]\nThis array contains target = 3 neighborhoods, [{2,2}, {1}, {2,2}]. \nCost of paint the first and last house (10 + 1) = 11.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> houses = [3,1,2,3], cost = [[1,1,1],[1,1,1],[1,1,1],[1,1,1]], m = 4, n = 3, target = 3\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> Houses are already painted with a total of 4 neighborhoods [{3},{1},{2},{3}] different of target = 3.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == houses.length == cost.length</code></li>\n\t<li><code>n == cost[i].length</code></li>\n\t<li><code>1 &lt;= m &lt;= 100</code></li>\n\t<li><code>1 &lt;= n &lt;= 20</code></li>\n\t<li><code>1 &lt;= target &lt;= m</code></li>\n\t<li><code>0 &lt;= houses[i] &lt;= n</code></li>\n\t<li><code>1 &lt;= cost[i][j] &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "[0,0,0,0,0]\n[[1,10],[10,1],[10,1],[1,10],[5,1]]\n5\n2\n3",
+        "ExampleTestcases": "[0,0,0,0,0]\n[[1,10],[10,1],[10,1],[1,10],[5,1]]\n5\n2\n3\n[0,2,1,2,0]\n[[1,10],[10,1],[10,1],[1,10],[5,1]]\n5\n2\n3\n[3,1,2,3]\n[[1,1,1],[1,1,1],[1,1,1],[1,1,1]]\n4\n3\n3",
+        "Difficulty": "Hard",
+        "Title": "Paint House III",
+        "TitleSlug": "paint-house-iii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"70.4K\", \"totalSubmission\": \"115.1K\", \"totalAcceptedRaw\": 70375, \"totalSubmissionRaw\": 115134, \"acRate\": \"61.1%\"}",
+        "Likes": 2122,
+        "Dislikes": 154,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int minCost(int[] houses, int[][] cost, int m, int n, int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def minCost(self, houses, cost, m, n, target):\n        \"\"\"\n        :type houses: List[int]\n        :type cost: List[List[int]]\n        :type m: int\n        :type n: int\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} houses\n * @param {number[][]} cost\n * @param {number} m\n * @param {number} n\n * @param {number} target\n * @return {number}\n */\nvar minCost = function(houses, cost, m, n, target) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function minCost(houses: number[], cost: number[][], m: number, n: number, target: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MinCost(int[] houses, int[][] cost, int m, int n, int target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int minCost(int* houses, int housesSize, int** cost, int costSize, int* costColSize, int m, int n, int target) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func minCost(houses []int, cost [][]int, m int, n int, target int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun minCost(houses: IntArray, cost: Array<IntArray>, m: Int, n: Int, target: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func minCost(_ houses: [Int], _ cost: [[Int]], _ m: Int, _ n: Int, _ target: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn min_cost(houses: Vec<i32>, cost: Vec<Vec<i32>>, m: i32, n: i32, target: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} houses\n# @param {Integer[][]} cost\n# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} target\n# @return {Integer}\ndef min_cost(houses, cost, m, n, target)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $houses\n     * @param Integer[][] $cost\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer $target\n     * @return Integer\n     */\n    function minCost($houses, $cost, $m, $n, $target) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int minCost(List<int> houses, List<List<int>> cost, int m, int n, int target) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def minCost(houses: Array[Int], cost: Array[Array[Int]], m: Int, n: Int, target: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec min_cost(houses :: [integer], cost :: [[integer]], m :: integer, n :: integer, target :: integer) :: integer\n  def min_cost(houses, cost, m, n, target) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec min_cost(Houses :: [integer()], Cost :: [[integer()]], M :: integer(), N :: integer(), Target :: integer()) -> integer().\nmin_cost(Houses, Cost, M, N, Target) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (min-cost houses cost m n target)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:19:13.873746+01:00",
+    "AcRate": "61.1",
+    "TotalSubmissions": 115134,
+    "TotalAccepted": 70375,
+    "AcceptanceRate": 0.6112442892629458,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/paint-house-iii/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: There is a row of m houses in a small city, each house must be painted with one of the n colors (labeled from 1 to n), some houses that have been painted last summer should not be painted again.\nA neighborhood is a maximal group of continuous houses that are painted with the same color.\n\tFor example: houses = [1,2,2,3,3,2,1,1] contains 5 neighborhoods [{1}, {2,2}, {3,3}, {2}, {1,1}].\nGiven an array houses, an m x n matrix cost and an integer target where:\n\thouses[i]: is the color of the house i, and 0 if the house is not painted yet.\n\tcost[i][j]: is the cost of paint the house i with the color j + 1.\nReturn the minimum cost of painting all the remaining houses in such a way that there are exactly target neighborhoods. If it is not possible, return -1.\n\u00a0\nExample 1:\nInput: houses = [0,0,0,0,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3\nOutput: 9\nExplanation: Paint houses of this way [1,2,2,1,1]\nThis array contains target = 3 neighborhoods, [{1}, {2,2}, {1,1}].\nCost of paint all houses (1 + 1 + 1 + 1 + 5) = 9.\nExample 2:\nInput: houses = [0,2,1,2,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3\nOutput: 11\nExplanation: Some houses are already painted, Paint the houses of this way [2,2,1,2,2]\nThis array contains target = 3 neighborhoods, [{2,2}, {1}, {2,2}]. \nCost of paint the first and last house (10 + 1) = 11.\nExample 3:\nInput: houses = [3,1,2,3], cost = [[1,1,1],[1,1,1],[1,1,1],[1,1,1]], m = 4, n = 3, target = 3\nOutput: -1\nExplanation: Houses are already painted with a total of 4 neighborhoods [{3},{1},{2},{3}] different of target = 3.\n\u00a0\nConstraints:\n\tm == houses.length == cost.length\n\tn == cost[i].length\n\t1 <= m <= 100\n\t1 <= n <= 20\n\t1 <= target <= m\n\t0 <= houses[i] <= n\n\t1 <= cost[i][j] <= 10^4\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to:\n\n1. Paint unpainted houses (marked as 0) with colors 1 to n\n2. Ensure exactly `target` neighborhoods are formed\n3. Minimize the total cost\n\nThis is a dynamic programming problem where I need to track:\n- Current house index\n- Number of neighborhoods formed so far\n- Color of the previous house\n\nLet me define `dp[i][j][k]` = minimum cost to paint houses 0 to i-1 such that:\n- We have exactly j neighborhoods\n- The last house (house i-1) is painted with color k\n\n```python\nclass Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        INF = float('inf')\n        \n        # dp[i][j][k] = min cost to paint houses 0..i-1 with j neighborhoods, last house color k\n        # i: 0 to m, j: 0 to target, k: 1 to n\n        dp = [[[INF] * (n + 1) for _ in range(target + 1)] for _ in range(m + 1)]\n        \n        # Base case: no houses painted, 0 neighborhoods\n        for color in range(n + 1):\n            dp[0][0][color] = 0\n        \n        for i in range(1, m + 1):\n            house_idx = i - 1\n            \n            if houses[house_idx] != 0:\n                # House is already painted\n                color = houses[house_idx]\n                for j in range(1, min(i, target) + 1):\n                    # Same color as previous house - same neighborhood\n                    dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color])\n                    \n                    # Different color from previous house - new neighborhood\n                    for prev_color in range(1, n + 1):\n                        if prev_color != color:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color])\n            else:\n                # House needs to be painted\n                for color in range(1, n + 1):\n                    paint_cost = cost[house_idx][color - 1]\n                    \n                    for j in range(1, min(i, target) + 1):\n                        # Same color as previous house - same neighborhood\n                        if dp[i-1][j][color] != INF:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color] + paint_cost)\n                        \n                        # Different color from previous house - new neighborhood\n                        for prev_color in range(1, n + 1):\n                            if prev_color != color and dp[i-1][j-1][prev_color] != INF:\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color] + paint_cost)\n        \n        # Find minimum cost among all colors for exactly target neighborhoods\n        result = INF\n        for color in range(1, n + 1):\n            result = min(result, dp[m][target][color])\n        \n        return result if result != INF else -1\n```\n\nWait, I need to handle the base case better. When we start, we haven't painted any house yet, so there are 0 neighborhoods. Let me reconsider:\n\n```python\nclass Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        INF = float('inf')\n        \n        # dp[i][j][k] = min cost to paint houses 0..i-1 with j neighborhoods, last house color k (1-indexed)\n        dp = [[[INF] * (n + 1) for _ in range(target + 1)] for _ in range(m + 1)]\n        \n        # Base case: 0 houses, 0 neighborhoods, color 0 (no color)\n        dp[0][0][0] = 0\n        \n        for i in range(1, m + 1):\n            house_idx = i - 1\n            \n            if houses[house_idx] != 0:\n                # House is already painted\n                color = houses[house_idx]\n                for j in range(1, target + 1):\n                    # Same color as previous house - same neighborhood\n                    dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color])\n                    \n                    # Different color from previous house - new neighborhood\n                    for prev_color in range(0, n + 1):\n                        if prev_color != color:\n                            if j == 1 and prev_color == 0:\n                                # First neighborhood\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color])\n                            elif prev_color > 0:\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color])\n            else:\n                # House needs to be painted\n                for color in range(1, n + 1):\n                    paint_cost = cost[house_idx][color - 1]\n                    \n                    for j in range(1, target + 1):\n                        # Same color as previous house - same neighborhood\n                        if dp[i-1][j][color] != INF:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color] + paint_cost)\n                        \n                        # Different color from previous house - new neighborhood\n                        for prev_color in range(0, n + 1):\n                            if prev_color != color and dp[i-1][j-1][prev_color] != INF:\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color] + paint_cost)\n        \n        # Find minimum cost among all colors for exactly target neighborhoods\n        result = INF\n        for color in range(1, n + 1):\n            result = min(result, dp[m][target][color])\n        \n        return result if result != INF else -1\n```",
+      "TypedCode": "\nclass Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        INF = float('inf')\n        \n        # dp[i][j][k] = min cost to paint houses 0..i-1 with j neighborhoods, last house color k\n        # i: 0 to m, j: 0 to target, k: 1 to n\n        dp = [[[INF] * (n + 1) for _ in range(target + 1)] for _ in range(m + 1)]\n        \n        # Base case: no houses painted, 0 neighborhoods\n        for color in range(n + 1):\n            dp[0][0][color] = 0\n        \n        for i in range(1, m + 1):\n            house_idx = i - 1\n            \n            if houses[house_idx] != 0:\n                # House is already painted\n                color = houses[house_idx]\n                for j in range(1, min(i, target) + 1):\n                    # Same color as previous house - same neighborhood\n                    dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color])\n                    \n                    # Different color from previous house - new neighborhood\n                    for prev_color in range(1, n + 1):\n                        if prev_color != color:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color])\n            else:\n                # House needs to be painted\n                for color in range(1, n + 1):\n                    paint_cost = cost[house_idx][color - 1]\n                    \n                    for j in range(1, min(i, target) + 1):\n                        # Same color as previous house - same neighborhood\n                        if dp[i-1][j][color] != INF:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color] + paint_cost)\n                        \n                        # Different color from previous house - new neighborhood\n                        for prev_color in range(1, n + 1):\n                            if prev_color != color and dp[i-1][j-1][prev_color] != INF:\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color] + paint_cost)\n        \n        # Find minimum cost among all colors for exactly target neighborhoods\n        result = INF\n        for color in range(1, n + 1):\n            result = min(result, dp[m][target][color])\n        \n        return result if result != INF else -1\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 18426038708,
+      "SolvedAt": "2025-11-19T21:48:59.419623+01:00",
+      "PromptTokens": 918,
+      "OutputTokens": 1598
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1583",
+        "typed_code": "\nclass Solution:\n    def minCost(self, houses: List[int], cost: List[List[int]], m: int, n: int, target: int) -> int:\n        INF = float('inf')\n        \n        # dp[i][j][k] = min cost to paint houses 0..i-1 with j neighborhoods, last house color k\n        # i: 0 to m, j: 0 to target, k: 1 to n\n        dp = [[[INF] * (n + 1) for _ in range(target + 1)] for _ in range(m + 1)]\n        \n        # Base case: no houses painted, 0 neighborhoods\n        for color in range(n + 1):\n            dp[0][0][color] = 0\n        \n        for i in range(1, m + 1):\n            house_idx = i - 1\n            \n            if houses[house_idx] != 0:\n                # House is already painted\n                color = houses[house_idx]\n                for j in range(1, min(i, target) + 1):\n                    # Same color as previous house - same neighborhood\n                    dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color])\n                    \n                    # Different color from previous house - new neighborhood\n                    for prev_color in range(1, n + 1):\n                        if prev_color != color:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color])\n            else:\n                # House needs to be painted\n                for color in range(1, n + 1):\n                    paint_cost = cost[house_idx][color - 1]\n                    \n                    for j in range(1, min(i, target) + 1):\n                        # Same color as previous house - same neighborhood\n                        if dp[i-1][j][color] != INF:\n                            dp[i][j][color] = min(dp[i][j][color], dp[i-1][j][color] + paint_cost)\n                        \n                        # Different color from previous house - new neighborhood\n                        for prev_color in range(1, n + 1):\n                            if prev_color != color and dp[i-1][j-1][prev_color] != INF:\n                                dp[i][j][color] = min(dp[i][j][color], dp[i-1][j-1][prev_color] + paint_cost)\n        \n        # Find minimum cost among all colors for exactly target neighborhoods\n        result = INF\n        for color in range(1, n + 1):\n            result = min(result, dp[m][target][color])\n        \n        return result if result != INF else -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 11,
+        "status_msg": "Wrong Answer",
+        "Finished": true,
+        "State": "FAILED"
+      },
+      "SubmittedAt": "2025-11-19T23:09:17+01:00"
+    }
+  }
+}

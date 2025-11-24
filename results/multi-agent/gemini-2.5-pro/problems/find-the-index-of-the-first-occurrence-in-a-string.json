@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "28",
+        "questionId": "28",
+        "Content": "<p>Given two strings <code>needle</code> and <code>haystack</code>, return the index of the first occurrence of <code>needle</code> in <code>haystack</code>, or <code>-1</code> if <code>needle</code> is not part of <code>haystack</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> haystack = &quot;sadbutsad&quot;, needle = &quot;sad&quot;\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> &quot;sad&quot; occurs at index 0 and 6.\nThe first occurrence is at index 0, so we return 0.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> haystack = &quot;leetcode&quot;, needle = &quot;leeto&quot;\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> &quot;leeto&quot; did not occur in &quot;leetcode&quot;, so we return -1.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= haystack.length, needle.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>haystack</code> and <code>needle</code> consist of only lowercase English characters.</li>\n</ul>\n",
+        "SampleTestCase": "\"sadbutsad\"\n\"sad\"",
+        "ExampleTestcases": "\"sadbutsad\"\n\"sad\"\n\"leetcode\"\n\"leeto\"",
+        "Difficulty": "Easy",
+        "Title": "Find the Index of the First Occurrence in a String",
+        "TitleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"3.7M\", \"totalSubmission\": \"8.1M\", \"totalAcceptedRaw\": 3707237, \"totalSubmissionRaw\": 8093165, \"acRate\": \"45.8%\"}",
+        "Likes": 7242,
+        "Dislikes": 549,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUy",
+            "Name": "String Matching",
+            "Slug": "string-matching"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int strStr(string haystack, string needle) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int strStr(String haystack, String needle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def strStr(self, haystack, needle):\n        \"\"\"\n        :type haystack: str\n        :type needle: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} haystack\n * @param {string} needle\n * @return {number}\n */\nvar strStr = function(haystack, needle) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function strStr(haystack: string, needle: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int StrStr(string haystack, string needle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int strStr(char* haystack, char* needle) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func strStr(haystack string, needle string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun strStr(haystack: String, needle: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func strStr(_ haystack: String, _ needle: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn str_str(haystack: String, needle: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} haystack\n# @param {String} needle\n# @return {Integer}\ndef str_str(haystack, needle)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $haystack\n     * @param String $needle\n     * @return Integer\n     */\n    function strStr($haystack, $needle) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int strStr(String haystack, String needle) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def strStr(haystack: String, needle: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec str_str(haystack :: String.t, needle :: String.t) :: integer\n  def str_str(haystack, needle) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec str_str(Haystack :: unicode:unicode_binary(), Needle :: unicode:unicode_binary()) -> integer().\nstr_str(Haystack, Needle) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (str-str haystack needle)\n  (-> string? string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:38:12.319111+01:00",
+    "AcRate": "45.8",
+    "TotalSubmissions": 8093165,
+    "TotalAccepted": 3707237,
+    "AcceptanceRate": 0.45807011224903976,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective solution to this problem uses a sliding window approach. We can iterate through the `haystack` with a window whose size is equal to the length of the `needle`. For each position, we check if the substring in the window matches the `needle`.\n\nHere is a brief breakdown of the logic:\n\n1.  Let `n` be the length of `haystack` and `m` be the length of `needle`.\n2.  We iterate through all possible starting positions of `needle` in `haystack`. The possible start indices range from `0` to `n - m`. If `m > n`, this range is empty, correctly handling the case where the `needle` is longer than the `haystack`.\n3.  For each starting index `i`, we extract a substring of `haystack` of length `m` (i.e., `haystack[i : i+m]`).\n4.  We compare this substring with `needle`.\n5.  If they match, we have found the first occurrence, and we can immediately return the current index `i`.\n6.  If the loop finishes without finding any match, it means `needle` is not a substring of `haystack`, so we return `-1`.\n\nThis approach is straightforward to implement and has a time complexity of O((n-m) * m) and a space complexity of O(m) for the substring slicing. Given the problem constraints, this is efficient enough to pass.\n\n```python\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n\n        # The loop iterates through all possible starting positions for needle in haystack.\n        # The range is `n - m + 1` because the last possible starting position\n        # is at index `n - m`.\n        for i in range(n - m + 1):\n            # Check if the substring of haystack of length m, starting at i,\n            # is equal to the needle.\n            if haystack[i:i+m] == needle:\n                # If a match is found, return the starting index.\n                return i\n        \n        # If the loop completes without finding a match, needle is not in haystack.\n        return -1\n\n```\n\n=== DESIGN ===\nAn elegant and effective solution to this problem uses a sliding window approach. We can iterate through the `haystack` with a window whose size is equal to the length of the `needle`. For each position, we check if the substring in the window matches the `needle`.\nHere is a brief breakdown of the logic:\n1.  Let `n` be the length of `haystack` and `m` be the length of `needle`.\n2.  We iterate through all possible starting positions of `needle` in `haystack`. The possible start indices range from `0` to `n - m`. If `m > n`, this range is empty, correctly handling the case where the `needle` is longer than the `haystack`.\n3.  For each starting index `i`, we extract a substring of `haystack` of length `m` (i.e., `haystack[i : i+m]`).\n4.  We compare this substring with `needle`.\n5.  If they match, we have found the first occurrence, and we can immediately return the current index `i`.\n6.  If the loop finishes without finding any match, it means `needle` is not a substring of `haystack`, so we return `-1`.\nThis approach is straightforward to implement and has a time complexity of O((n-m) * m) and a space complexity of O(m) for the substring slicing. Given the problem constraints, this is efficient enough to pass.\n\n### 1. Algorithm Choice\nThe chosen algorithm is the **Sliding Window** (also known as the Naive/Brute-Force string search) approach. This method is intuitive and sufficient for the given constraints. It involves moving a window of the `needle`'s length across the `haystack` and checking for a match at each position.\n\n### 2. Step-by-Step Approach\n1.  Determine the lengths of the `haystack` and `needle` strings, storing them in variables `n` and `m`, respectively.\n2.  Iterate through the `haystack` using an index `i` that represents the starting position of the sliding window. The loop should run from `0` up to `n - m`, inclusive. This range covers all possible start positions for a match.\n3.  In each iteration, extract a substring from `haystack` that corresponds to the current window. This substring starts at index `i` and has length `m`.\n4.  Compare this extracted substring with the `needle`.\n5.  If the substring and `needle` are identical, it signifies the first occurrence has been found. Return the current index `i`.\n6.  If the loop completes without finding any match, it means the `needle` is not present in the `haystack`. In this case, return `-1`.\n\n### 3. Data Structures\n-   **Strings**: The primary data structures are the input strings, `haystack` and `needle`.\n-   **Temporary Substring**: A temporary string representing the \"window\" is created in each iteration for comparison. No other complex data structures are needed.\n\n### 4. Time Complexity\nThe time complexity is **O((n - m) * m)**, where `n` is the length of `haystack` and `m` is the length of `needle`.\n-   The outer loop runs `n - m + 1` times.\n-   Inside the loop, creating a substring of length `m` and comparing it to `needle` both take O(m) time.\n-   This results in a total time complexity of O((n - m + 1) * m), which is commonly simplified to O(n * m).\n\n### 5. Space Complexity\nThe space complexity is **O(m)**.\n-   This is the auxiliary space required to store the temporary substring (the \"window\") of length `m` that is extracted from `haystack` in each iteration for comparison.\n\n### 6. Pseudocode\n```pseudocode\nFUNCTION strStr(haystack, needle):\n    n = LENGTH(haystack)\n    m = LENGTH(needle)\n\n    // A needle of length 0 is found at index 0 by convention.\n    // The loop logic naturally handles this, but it's a key case.\n    // The loop also handles m > n, as the range will be empty.\n    \n    // Iterate from the first possible starting index to the last.\n    FOR i FROM 0 TO n - m:\n        // Define the window to check.\n        window = SUBSTRING(haystack, start_index=i, length=m)\n\n        // Check for a match.\n        IF window == needle:\n            // If matched, return the starting index of the first occurrence.\n            RETURN i\n\n    // If the loop finishes, no match was found.\n    RETURN -1\nEND FUNCTION\n```\n\n```python\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n\n        for i in range(n - m + 1):\n            if haystack[i:i+m] == needle:\n                return i\n        \n        return -1\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n        \n        if m == 0:\n            return 0\n        \n        if m > n:\n            return -1\n\n        for i in range(n - m + 1):\n            if haystack[i:i+m] == needle:\n                return i\n        \n        return -1\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n        \n        # This loop iterates through all possible start indices in the haystack.\n        # The range `n - m + 1` correctly handles all cases:\n        # 1. If needle is longer than haystack (m > n), the range is empty,\n        #    so the loop doesn't run and the function returns -1.\n        # 2. If needle is empty (m = 0), the loop starts at i=0. The condition\n        #    `haystack[0:0] == \"\"` is true, so it correctly returns 0.\n        for i in range(n - m + 1):\n            if haystack[i:i+m] == needle:\n                return i\n        \n        return -1\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n        \n        if m == 0:\n            return 0\n        \n        if m > n:\n            return -1\n\n        for i in range(n - m + 1):\n            if haystack[i:i+m] == needle:\n                return i\n        \n        return -1\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 213267780791,
+      "SolvedAt": "2025-11-21T11:22:47.723083+01:00",
+      "PromptTokens": 6126,
+      "OutputTokens": 24776
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "28",
+        "typed_code": "\nclass Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        n = len(haystack)\n        m = len(needle)\n        \n        if m == 0:\n            return 0\n        \n        if m > n:\n            return -1\n\n        for i in range(n - m + 1):\n            if haystack[i:i+m] == needle:\n                return i\n        \n        return -1\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:02:42+01:00"
+    }
+  }
+}

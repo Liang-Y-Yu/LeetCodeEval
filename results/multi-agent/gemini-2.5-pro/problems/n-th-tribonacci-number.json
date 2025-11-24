@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1137",
+        "questionId": "1236",
+        "Content": "<p>The Tribonacci sequence T<sub>n</sub> is defined as follows:&nbsp;</p>\n\n<p>T<sub>0</sub> = 0, T<sub>1</sub> = 1, T<sub>2</sub> = 1, and T<sub>n+3</sub> = T<sub>n</sub> + T<sub>n+1</sub> + T<sub>n+2</sub> for n &gt;= 0.</p>\n\n<p>Given <code>n</code>, return the value of T<sub>n</sub>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 4\n<strong>Output:</strong> 4\n<strong>Explanation:</strong>\nT_3 = 0 + 1 + 1 = 2\nT_4 = 1 + 1 + 2 = 4\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 25\n<strong>Output:</strong> 1389537\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 37</code></li>\n\t<li>The answer is guaranteed to fit within a 32-bit integer, ie. <code>answer &lt;= 2^31 - 1</code>.</li>\n</ul>\n",
+        "SampleTestCase": "4",
+        "ExampleTestcases": "4\n25",
+        "Difficulty": "Easy",
+        "Title": "N-th Tribonacci Number",
+        "TitleSlug": "n-th-tribonacci-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 1019531, \"totalSubmissionRaw\": 1607954, \"acRate\": \"63.4%\"}",
+        "Likes": 4738,
+        "Dislikes": 209,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int tribonacci(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int tribonacci(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def tribonacci(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def tribonacci(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar tribonacci = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function tribonacci(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Tribonacci(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int tribonacci(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func tribonacci(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun tribonacci(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func tribonacci(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn tribonacci(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef tribonacci(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function tribonacci($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int tribonacci(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def tribonacci(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec tribonacci(n :: integer) :: integer\n  def tribonacci(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec tribonacci(N :: integer()) -> integer().\ntribonacci(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (tribonacci n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:38:11.698303+01:00",
+    "AcRate": "63.4",
+    "TotalSubmissions": 1607954,
+    "TotalAccepted": 1019531,
+    "AcceptanceRate": 0.6340548299267268,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/n-th-tribonacci-number/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        # Base cases: T(0) = 0, T(1) = 1\n        if n < 2:\n            return n\n        \n        # Initialize the first three terms for the iterative process.\n        # At the start of the loop, these represent T(0), T(1), T(2).\n        t0, t1, t2 = 0, 1, 1\n        \n        # We have the values up to T(2). We need to compute n - 2 more terms\n        # to reach T(n). The loop runs n - 2 times.\n        # For n=2, range(0) is empty, loop is skipped, returns t2=1.\n        # For n=3, range(1) runs once, calculating T(3).\n        for _ in range(n - 2):\n            # Calculate the next term and shift the sequence one step forward.\n            # The new t0 is the old t1.\n            # The new t1 is the old t2.\n            # The new t2 is the sum of the old t0, t1, and t2.\n            t0, t1, t2 = t1, t2, t0 + t1 + t2\n            \n        # After the loop, t2 holds the value of T(n).\n        return t2\n\n```\n\n=== DESIGN ===\nAn elegant and efficient approach for this problem is using bottom-up dynamic programming with space optimization. The recursive nature of the Tribonacci sequence, `T(n) = T(n-1) + T(n-2) + T(n-3)`, suggests that each term depends only on the three preceding terms. This property allows us to avoid storing the entire sequence, leading to a constant space solution.\n\n### 1. Algorithm Choice\n**Bottom-up Dynamic Programming with Space Optimization.** This approach builds the solution iteratively from the base cases up to the desired `n`. Because a term only depends on the three previous terms, we can keep track of only the last three computed values, which optimizes space complexity to be constant.\n\n### 2. Step-by-Step Approach\n1.  **Handle Base Cases**: The problem defines `T(0)=0`, `T(1)=1`, and `T(2)=1`. These can be handled directly.\n    *   If `n` is 0, return 0.\n    *   If `n` is 1 or 2, return 1.\n    *   A compact way to handle the first two is: if `n < 2`, return `n`.\n\n2.  **Initialize Pointers**: For `n > 2`, initialize three variables, say `t0`, `t1`, and `t2`, to hold the first three values of the sequence: `t0 = 0`, `t1 = 1`, `t2 = 1`. These represent `T(k)`, `T(k+1)`, and `T(k+2)` at any point in the iteration.\n\n3.  **Iterate and Compute**: Loop from 3 up to `n`. In each iteration, calculate the next Tribonacci number by summing the three variables (`next_val = t0 + t1 + t2`).\n\n4.  **Update Pointers**: After calculating the next value, update the three variables to \"slide the window\" forward for the next iteration: `t0` becomes `t1`, `t1` becomes `t2`, and `t2` becomes the `next_val`.\n\n5.  **Return Result**: After the loop completes, the variable `t2` (which holds the latest computed term) will contain the value of `T(n)`. Return this value.\n\n### 3. Data Structures\nOnly a few integer variables are needed to store the three most recent terms of the sequence. No complex data structures like arrays or hashmaps are necessary.\n\n### 4. Time Complexity\n**O(n)**. The algorithm involves a single loop that runs approximately `n` times. Each step inside the loop consists of a constant number of arithmetic operations and assignments. Thus, the runtime grows linearly with the input `n`.\n\n### 5. Space Complexity\n**O(1)**. The algorithm uses a fixed amount of space (three integer variables) to store the state, regardless of the size of `n`. This is a significant optimization over a naive DP approach that would store all `n` Tribonacci numbers.\n\n### 6. Pseudocode\n\n```\nFUNCTION tribonacci(n):\n  // Handle the first two base cases T(0)=0 and T(1)=1\n  IF n < 2 THEN\n    RETURN n\n  END IF\n\n  // Initialize variables to the first three terms: T(0), T(1), T(2)\n  t0 = 0\n  t1 = 1\n  t2 = 1\n\n  // Loop n-2 times to compute from T(3) up to T(n)\n  FOR i FROM 3 TO n:\n    // Calculate the next term\n    next_term = t0 + t1 + t2\n    \n    // Shift the variables to prepare for the next iteration\n    t0 = t1\n    t1 = t2\n    t2 = next_term\n  END FOR\n\n  // t2 now holds the value of T(n)\n  RETURN t2\nEND FUNCTION\n```\n\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n < 2:\n            return n\n        \n        t0, t1, t2 = 0, 1, 1\n        \n        # We have values for T(0), T(1), T(2).\n        # We need to compute n-2 more terms to reach T(n).\n        # The loop runs n-2 times.\n        # For n=2, range(0) is empty, loop is skipped, returns t2=1. Correct.\n        # For n=3, range(1) runs once, calculating T(3). Correct.\n        for _ in range(n - 2):\n            # Calculate the next term and shift the variables\n            t0, t1, t2 = t1, t2, t0 + t1 + t2\n            \n        return t2\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n < 2:\n            return n\n        \n        t0, t1, t2 = 0, 1, 1\n        \n        for _ in range(n - 2):\n            t0, t1, t2 = t1, t2, t0 + t1 + t2\n            \n        return t2\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        \n        t0, t1, t2 = 0, 1, 1\n        \n        for _ in range(n - 2):\n            next_term = t0 + t1 + t2\n            t0 = t1\n            t1 = t2\n            t2 = next_term\n            \n        return t2\n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n < 2:\n            return n\n        \n        t0, t1, t2 = 0, 1, 1\n        \n        for _ in range(n - 2):\n            t0, t1, t2 = t1, t2, t0 + t1 + t2\n            \n        return t2\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 171202062209,
+      "SolvedAt": "2025-11-21T14:38:00.606668+01:00",
+      "PromptTokens": 5542,
+      "OutputTokens": 21258
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1236",
+        "typed_code": "\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n < 2:\n            return n\n        \n        t0, t1, t2 = 0, 1, 1\n        \n        for _ in range(n - 2):\n            t0, t1, t2 = t1, t2, t0 + t1 + t2\n            \n        return t2\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:07:41+01:00"
+    }
+  }
+}

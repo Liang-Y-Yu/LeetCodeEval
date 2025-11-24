@@ -1,0 +1,161 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1523",
+        "questionId": "1630",
+        "Content": "<p>Given two non-negative integers <code>low</code> and <code><font face=\"monospace\">high</font></code>. Return the <em>count of odd numbers between </em><code>low</code><em> and </em><code><font face=\"monospace\">high</font></code><em>&nbsp;(inclusive)</em>.</p>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong class=\"example\">Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> low = 3, high = 7\r\n<strong>Output:</strong> 3\r\n<b>Explanation: </b>The odd numbers between 3 and 7 are [3,5,7].</pre>\r\n\r\n<p><strong class=\"example\">Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> low = 8, high = 10\r\n<strong>Output:</strong> 1\r\n<b>Explanation: </b>The odd numbers between 8 and 10 are [9].</pre>\r\n\r\n<p>&nbsp;</p>\r\n<p><strong>Constraints:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>0 &lt;= low &lt;= high&nbsp;&lt;= 10^9</code></li>\r\n</ul>",
+        "SampleTestCase": "3\n7",
+        "ExampleTestcases": "3\n7\n8\n10",
+        "Difficulty": "Easy",
+        "Title": "Count Odd Numbers in an Interval Range",
+        "TitleSlug": "count-odd-numbers-in-an-interval-range",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"403.3K\", \"totalSubmission\": \"790.6K\", \"totalAcceptedRaw\": 403286, \"totalSubmissionRaw\": 790574, \"acRate\": \"51.0%\"}",
+        "Likes": 2828,
+        "Dislikes": 164,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countOdds(int low, int high) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countOdds(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countOdds(self, low, high):\n        \"\"\"\n        :type low: int\n        :type high: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} low\n * @param {number} high\n * @return {number}\n */\nvar countOdds = function(low, high) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countOdds(low: number, high: number): number {\n\n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountOdds(int low, int high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\nint countOdds(int low, int high){\n\n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countOdds(low int, high int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countOdds(low: Int, high: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countOdds(_ low: Int, _ high: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_odds(low: i32, high: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} low\n# @param {Integer} high\n# @return {Integer}\ndef count_odds(low, high)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $low\n     * @param Integer $high\n     * @return Integer\n     */\n    function countOdds($low, $high) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countOdds(low: Int, high: Int): Int = {\n        \n    }\n}"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:17:35.508699+01:00",
+    "AcRate": "51.0",
+    "TotalSubmissions": 790574,
+    "TotalAccepted": 403286,
+    "AcceptanceRate": 0.5101179649216898,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n```\n\n=== VERIFICATION ===\nLooking at this problem, I need to verify the solution and then provide a correct implementation.\n\nLet me trace through the logic:\n\n**Example 1: low = 3, high = 7**\n- count = (7 - 3) // 2 = 2\n- low % 2 == 1 (3 is odd) \u2192 count = 2 + 1 = 3 \u2713\n- Odd numbers: [3, 5, 7] - correct!\n\n**Example 2: low = 8, high = 10**\n- count = (10 - 8) // 2 = 1\n- low % 2 == 0 and high % 2 == 0 \u2192 count = 1\n- Odd numbers: [9] - correct!\n\nLet me check more edge cases:\n\n**Edge case: low = 3, high = 3**\n- count = (3 - 3) // 2 = 0\n- low % 2 == 1 \u2192 count = 0 + 1 = 1 \u2713\n- Odd numbers: [3] - correct!\n\n**Edge case: low = 4, high = 4**\n- count = (4 - 4) // 2 = 0\n- low % 2 == 0 and high % 2 == 0 \u2192 count = 0 \u2713\n- Odd numbers: [] - correct!\n\n**Edge case: low = 0, high = 0**\n- count = (0 - 0) // 2 = 0\n- low % 2 == 0 and high % 2 == 0 \u2192 count = 0 \u2713\n- Odd numbers: [] - correct!\n\n**Edge case: low = 1, high = 10**\n- count = (10 - 1) // 2 = 4\n- low % 2 == 1 \u2192 count = 4 + 1 = 5 \u2713\n- Odd numbers: [1, 3, 5, 7, 9] - correct!\n\nThe solution is **correct**. The algorithm works by:\n1. Computing base count of pairs in the range: (high - low) // 2\n2. Adding 1 if either endpoint is odd (meaning there's an extra odd number not paired)\n\n**Complexity**: O(1) time, O(1) space - optimal!\n\nThe implementation is clean, efficient, and handles all edge cases correctly.\n\n```python\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 15020725083,
+      "SolvedAt": "2025-11-19T23:26:52.887859+01:00",
+      "PromptTokens": 2597,
+      "OutputTokens": 891
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1630",
+        "typed_code": "\nclass Solution:\n    def countOdds(self, low: int, high: int) -> int:\n        count = (high - low) // 2\n        if low % 2 == 1 or high % 2 == 1:\n            count += 1\n        return count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:26:08+01:00"
+    }
+  }
+}

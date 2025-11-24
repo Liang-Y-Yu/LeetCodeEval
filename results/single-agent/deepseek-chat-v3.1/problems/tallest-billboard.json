@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "956",
+        "questionId": "993",
+        "Content": "<p>You are installing a billboard and want it to have the largest height. The billboard will have two steel supports, one on each side. Each steel support must be an equal height.</p>\n\n<p>You are given a collection of <code>rods</code> that can be welded together. For example, if you have rods of lengths <code>1</code>, <code>2</code>, and <code>3</code>, you can weld them together to make a support of length <code>6</code>.</p>\n\n<p>Return <em>the largest possible height of your billboard installation</em>. If you cannot support the billboard, return <code>0</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2,3,6]\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> We have two disjoint subsets {1,2,3} and {6}, which have the same sum = 6.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2,3,4,5,6]\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> We have two disjoint subsets {2,3,5} and {4,6}, which have the same sum = 10.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> rods = [1,2]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The billboard cannot be supported, so we return 0.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= rods.length &lt;= 20</code></li>\n\t<li><code>1 &lt;= rods[i] &lt;= 1000</code></li>\n\t<li><code>sum(rods[i]) &lt;= 5000</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,2,3,6]",
+        "ExampleTestcases": "[1,2,3,6]\n[1,2,3,4,5,6]\n[1,2]",
+        "Difficulty": "Hard",
+        "Title": "Tallest Billboard",
+        "TitleSlug": "tallest-billboard",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"67.7K\", \"totalSubmission\": \"130.5K\", \"totalAcceptedRaw\": 67665, \"totalSubmissionRaw\": 130526, \"acRate\": \"51.8%\"}",
+        "Likes": 2445,
+        "Dislikes": 61,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int tallestBillboard(vector<int>& rods) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int tallestBillboard(int[] rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def tallestBillboard(self, rods):\n        \"\"\"\n        :type rods: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} rods\n * @return {number}\n */\nvar tallestBillboard = function(rods) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function tallestBillboard(rods: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int TallestBillboard(int[] rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int tallestBillboard(int* rods, int rodsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func tallestBillboard(rods []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun tallestBillboard(rods: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func tallestBillboard(_ rods: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn tallest_billboard(rods: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} rods\n# @return {Integer}\ndef tallest_billboard(rods)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $rods\n     * @return Integer\n     */\n    function tallestBillboard($rods) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int tallestBillboard(List<int> rods) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def tallestBillboard(rods: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec tallest_billboard(rods :: [integer]) :: integer\n  def tallest_billboard(rods) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec tallest_billboard(Rods :: [integer()]) -> integer().\ntallest_billboard(Rods) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (tallest-billboard rods)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:47:00.582607+01:00",
+    "AcRate": "51.8",
+    "TotalSubmissions": 130526,
+    "TotalAccepted": 67665,
+    "AcceptanceRate": 0.5184024638769288,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/tallest-billboard/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are installing a billboard and want it to have the largest height. The billboard will have two steel supports, one on each side. Each steel support must be an equal height.\nYou are given a collection of rods that can be welded together. For example, if you have rods of lengths 1, 2, and 3, you can weld them together to make a support of length 6.\nReturn the largest possible height of your billboard installation. If you cannot support the billboard, return 0.\n\u00a0\nExample 1:\nInput: rods = [1,2,3,6]\nOutput: 6\nExplanation: We have two disjoint subsets {1,2,3} and {6}, which have the same sum = 6.\nExample 2:\nInput: rods = [1,2,3,4,5,6]\nOutput: 10\nExplanation: We have two disjoint subsets {2,3,5} and {4,6}, which have the same sum = 10.\nExample 3:\nInput: rods = [1,2]\nOutput: 0\nExplanation: The billboard cannot be supported, so we return 0.\n\u00a0\nConstraints:\n\t1 <= rods.length <= 20\n\t1 <= rods[i] <= 1000\n\tsum(rods[i]) <= 5000\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to find the largest possible height for a billboard supported by two steel supports of equal height. The supports are constructed by welding together rods from a given collection, and each rod can be used at most once. The goal is to partition the rods into two disjoint subsets such that the sum of the rods in each subset is equal, and we want the maximum possible sum.\n\n### Approach\n1. **Dynamic Programming (DP) Setup**: We use dynamic programming to keep track of possible differences between the two supports. Let `dp[d]` represent the maximum sum achieved for a difference `d` between the two supports. Initially, `dp[0]` is 0, and all other differences are set to negative infinity (or a very low number) to indicate they are not achievable.\n2. **Iterate Over Rods**: For each rod, update the DP state. For every current difference `d` in the DP dictionary, we can:\n   - Add the rod to the taller support: new difference = `d + rod`, and the sum of the taller support increases by `rod`.\n   - Add the rod to the shorter support: new difference = `|d - rod|`, and the sum of the shorter support becomes `max(sum1, sum2) + min(d, rod)`? Actually, we note that the total sum of both supports (the base) might change. Alternatively, we can define `dp[d]` as the maximum total base (sum of both supports) for a difference `d`. Actually, we want the same height for both, so the base for each support is the same. However, a common approach is to let `dp[d]` be the maximum total base (sum of the two supports) when the difference between the two is `d`. But wait, actually, if we have two supports with sums `a` and `b`, and without loss of generality let `a >= b`, then the difference is `d = a - b`, and the total base is `a + b`. However, the height of the billboard is `a` (which equals `b`), so the height is `(a + b) / 2`. But note: we are to return the largest height, which is `a` (or `b`). So if we have total base `s` and difference `d`, then `a = (s + d)/2` and `b = (s - d)/2`. So the height is `(s + d)/2`? But actually, we want `a = b = height`, so `d=0` and `s = 2 * height`. However, we are allowed to have non-zero differences during the process, but we are interested in `d=0` at the end.\n\n3. **Common Approach**: Actually, a standard solution for this problem uses a DP dictionary where the key is the difference between the two supports, and the value is the maximum sum of the shorter support (or the base) for that difference. Alternatively, we can define:\n   Let `dp[i][d]` be the maximum sum of the shorter support when processing the first `i` rods and having a difference `d` (where the taller support is `shorter + d`). Then we want `dp[n][0]`.\n\n   However, due to constraints (rods.length <= 20, sum <= 5000), we can use a dictionary-based DP.\n\n   Steps:\n   - Initialize `dp` as a dictionary: `dp = {0:0}` meaning with difference 0, the shorter support has sum 0.\n   - For each rod `r`:\n        new_dp = copy of dp\n        For each difference `d` in dp:\n            Let s = dp[d] (the shorter support sum)\n            Option 1: skip the rod.\n            Option 2: add to the taller support: new_difference = d + r, shorter support remains s. But the new shorter support is still s, and the taller becomes s + d + r? Actually, the difference becomes d + r, and the shorter is s.\n            Option 3: add to the shorter support:\n                If r <= d: then the new difference = d - r, and the shorter support becomes s + r.\n                If r > d: then the new difference = r - d, and the shorter support becomes s + d (which was the previous shorter) and now the new shorter is the previous taller? Actually, let's clarify:\n\n        Actually, if we have two supports: taller = a, shorter = b, so d = a - b.\n        Adding a rod `r` to the taller: new taller = a + r, new shorter = b, so new difference = (a+r) - b = d + r.\n        Adding to the shorter: new taller = a, new shorter = b + r. Then if b+r <= a, then new difference = a - (b+r) = d - r.\n        But if b+r > a, then the new taller becomes b+r, and the shorter becomes a, so new difference = (b+r) - a = r - d.\n\n        So to avoid confusion, we can define:\n            For each state (d, s) where d is the difference and s is the sum of the shorter support:\n                Option 1: skip rod -> state (d, s)\n                Option 2: add to taller -> state (d + r, s)\n                Option 3: add to shorter -> \n                    if r <= d: state (d - r, s + r)\n                    else: state (r - d, s + d)   [because the old shorter becomes the new taller? Actually, no: the old shorter was s, and we add r to it. If s+r <= (s+d) [the taller], then the new shorter is s+r and the taller is s+d, so difference = (s+d) - (s+r) = d - r.\n                    But if s+r > s+d, then the new taller is s+r, and the shorter is s+d, so difference = (s+r) - (s+d) = r - d, and the new shorter is s+d.\n\n        However, note that the value stored is the shorter support. So in state (d, s), the taller support is s+d.\n\n        So when adding to the shorter:\n            new_short = s + r   if s+r <= s+d (i.e., r<=d) -> then new_d = d - r.\n            else, new_short = s + d (because the previous taller becomes the new shorter) and new_d = r - d.\n\n        Therefore, we can write:\n            for d, s in dp.items():\n                # skip\n                new_dp[d] = max(new_dp.get(d, -10**9), s)\n                # add to taller\n                new_d = d + r\n                new_s = s\n                new_dp[new_d] = max(new_dp.get(new_d, -10**9), new_s)\n                # add to shorter\n                if r <= d:\n                    new_d = d - r\n                    new_s = s + r\n                else:\n                    new_d = r - d\n                    new_s = s + d   # because the old taller (s+d) becomes the new shorter\n                new_dp[new_d] = max(new_dp.get(new_d, -10**9), new_s)\n\n   - After processing all rods, return `dp[0]` (which is the shorter support sum) but note: the height of the billboard is actually the taller support which is `shorter + d`. For d=0, the height is `s` (which is the same for both). So for state (0, s), the height is s. So we return `dp[0]`.\n\n4. **Implementation**: We'll initialize `dp` as `{0:0}`. Then for each rod, we create a new dictionary `new_dp` and update it by considering all states in `dp` and the three options. Finally, we return `dp[0]`.\n\n### Solution Code\n```python\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for r in rods:\n            new_dp = dp.copy()\n            for d, s in dp.items():\n                # Option 1: skip the rod - already done by copying\n                \n                # Option 2: add to the taller support\n                new_d1 = d + r\n                new_s1 = s\n                if new_d1 in new_dp:\n                    if new_s1 > new_dp[new_d1]:\n                        new_dp[new_d1] = new_s1\n                else:\n                    new_dp[new_d1] = new_s1\n                \n                # Option 3: add to the shorter support\n                if r <= d:\n                    new_d2 = d - r\n                    new_s2 = s + r\n                else:\n                    new_d2 = r - d\n                    new_s2 = s + d\n                if new_d2 in new_dp:\n                    if new_s2 > new_dp[new_d2]:\n                        new_dp[new_d2] = new_s2\n                else:\n                    new_dp[new_d2] = new_s2\n            dp = new_dp\n        return dp.get(0, 0)\n```\n\n### Explanation\n1. **Initialization**: We start with a dictionary `dp` where the key `0` has value `0`, meaning with no rods processed, the difference is 0 and the shorter support sum is 0.\n2. **Processing Rods**: For each rod, we create a new dictionary `new_dp` initially copied from `dp`. For each state `(d, s)` in `dp`, we consider:\n   - **Skipping the rod**: Already handled by the copy.\n   - **Adding to the taller support**: The new difference becomes `d + r`, and the shorter support remains `s`.\n   - **Adding to the shorter support**: If the rod length `r` is less than or equal to the current difference `d`, the new difference is `d - r` and the shorter support increases by `r`. Otherwise, the new difference is `r - d` and the shorter support becomes `s + d` (the previous taller support).\n3. **Update State**: After processing all rods for the current state, update `dp` to `new_dp`.\n4. **Result**: After processing all rods, the value at key `0` in `dp` gives the sum of the shorter support (which is the height of the billboard) for a difference of 0. If no such state exists, return 0.\n\nThis approach efficiently explores all possible partitions of the rods into two subsets using dynamic programming with a dictionary to store states, ensuring optimal performance even for the given constraints.",
+      "TypedCode": "\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for r in rods:\n            new_dp = dp.copy()\n            for d, s in dp.items():\n                # Option 1: skip the rod - already done by copying\n                \n                # Option 2: add to the taller support\n                new_d1 = d + r\n                new_s1 = s\n                if new_d1 in new_dp:\n                    if new_s1 > new_dp[new_d1]:\n                        new_dp[new_d1] = new_s1\n                else:\n                    new_dp[new_d1] = new_s1\n                \n                # Option 3: add to the shorter support\n                if r <= d:\n                    new_d2 = d - r\n                    new_s2 = s + r\n                else:\n                    new_d2 = r - d\n                    new_s2 = s + d\n                if new_d2 in new_dp:\n                    if new_s2 > new_dp[new_d2]:\n                        new_dp[new_d2] = new_s2\n                else:\n                    new_dp[new_d2] = new_s2\n            dp = new_dp\n        return dp.get(0, 0)\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 12498691459,
+      "SolvedAt": "2025-11-20T21:28:52.96451+01:00",
+      "PromptTokens": 489,
+      "OutputTokens": 2326
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "993",
+        "typed_code": "\nclass Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        dp = {0: 0}\n        for r in rods:\n            new_dp = dp.copy()\n            for d, s in dp.items():\n                # Option 1: skip the rod - already done by copying\n                \n                # Option 2: add to the taller support\n                new_d1 = d + r\n                new_s1 = s\n                if new_d1 in new_dp:\n                    if new_s1 > new_dp[new_d1]:\n                        new_dp[new_d1] = new_s1\n                else:\n                    new_dp[new_d1] = new_s1\n                \n                # Option 3: add to the shorter support\n                if r <= d:\n                    new_d2 = d - r\n                    new_s2 = s + r\n                else:\n                    new_d2 = r - d\n                    new_s2 = s + d\n                if new_d2 in new_dp:\n                    if new_s2 > new_dp[new_d2]:\n                        new_dp[new_d2] = new_s2\n                else:\n                    new_dp[new_d2] = new_s2\n            dp = new_dp\n        return dp.get(0, 0)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:34:49+01:00"
+    }
+  }
+}

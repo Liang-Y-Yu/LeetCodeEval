@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Paint House III",
+    "problem_id": "1583",
+    "cyclomatic_complexity": 28,
+    "lines_of_code": 55,
+    "status": "Accepted"
+  },
+  {
+    "title": "Palindrome Pairs",
+    "problem_id": "336",
+    "cyclomatic_complexity": 16,
+    "lines_of_code": 45,
+    "status": "Accepted"
+  },
+  {
+    "title": "Word Ladder II",
+    "problem_id": "126",
+    "cyclomatic_complexity": 13,
+    "lines_of_code": 54,
+    "status": "Accepted"
+  },
+  {
+    "title": "Backspace String Compare",
+    "problem_id": "874",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 37,
+    "status": "Accepted"
+  },
+  {
+    "title": "Number of Atoms",
+    "problem_id": "726",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 44,
+    "status": "Accepted"
+  },
+  {
+    "title": "Parsing A Boolean Expression",
+    "problem_id": "1197",
+    "cyclomatic_complexity": 12,
+    "lines_of_code": 34,
+    "status": "Accepted"
+  },
+  {
+    "title": "Concatenated Words",
+    "problem_id": "472",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 33,
+    "status": "Accepted"
+  },
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "problem_id": "1381",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 47,
+    "status": "Accepted"
+  },
+  {
+    "title": "Sliding Window Median",
+    "problem_id": "480",
+    "cyclomatic_complexity": 11,
+    "lines_of_code": 76,
+    "status": "Accepted"
+  },
+  {
+    "title": "24 Game",
+    "problem_id": "679",
+    "cyclomatic_complexity": 10,
+    "lines_of_code": 37,
+    "status": "Accepted"
+  }
+]

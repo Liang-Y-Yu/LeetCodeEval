@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "458",
+        "questionId": "458",
+        "Content": "<p>There are <code>buckets</code> buckets of liquid, where <strong>exactly one</strong> of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have <code>minutesToTest</code> minutes to determine which bucket is poisonous.</p>\n\n<p>You can feed the pigs according to these steps:</p>\n\n<ol>\n\t<li>Choose some live pigs to feed.</li>\n\t<li>For each pig, choose which buckets to feed it. The pig will consume all the chosen buckets simultaneously and will take no time. Each pig can feed from any number of buckets, and each bucket can be fed from by any number of pigs.</li>\n\t<li>Wait for <code>minutesToDie</code> minutes. You may <strong>not</strong> feed any other pigs during this time.</li>\n\t<li>After <code>minutesToDie</code> minutes have passed, any pigs that have been fed the poisonous bucket will die, and all others will survive.</li>\n\t<li>Repeat this process until you run out of time.</li>\n</ol>\n\n<p>Given <code>buckets</code>, <code>minutesToDie</code>, and <code>minutesToTest</code>, return <em>the <strong>minimum</strong> number of pigs needed to figure out which bucket is poisonous within the allotted time</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> buckets = 4, minutesToDie = 15, minutesToTest = 15\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> We can determine the poisonous bucket as follows:\nAt time 0, feed the first pig buckets 1 and 2, and feed the second pig buckets 2 and 3.\nAt time 15, there are 4 possible outcomes:\n- If only the first pig dies, then bucket 1 must be poisonous.\n- If only the second pig dies, then bucket 3 must be poisonous.\n- If both pigs die, then bucket 2 must be poisonous.\n- If neither pig dies, then bucket 4 must be poisonous.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> buckets = 4, minutesToDie = 15, minutesToTest = 30\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> We can determine the poisonous bucket as follows:\nAt time 0, feed the first pig bucket 1, and feed the second pig bucket 2.\nAt time 15, there are 2 possible outcomes:\n- If either pig dies, then the poisonous bucket is the one it was fed.\n- If neither pig dies, then feed the first pig bucket 3, and feed the second pig bucket 4.\nAt time 30, one of the two pigs must die, and the poisonous bucket is the one it was fed.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= buckets &lt;= 1000</code></li>\n\t<li><code>1 &lt;=&nbsp;minutesToDie &lt;=&nbsp;minutesToTest &lt;= 100</code></li>\n</ul>\n",
+        "SampleTestCase": "4\n15\n15",
+        "ExampleTestcases": "4\n15\n15\n4\n15\n30",
+        "Difficulty": "Hard",
+        "Title": "Poor Pigs",
+        "TitleSlug": "poor-pigs",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"129.3K\", \"totalSubmission\": \"218.6K\", \"totalAcceptedRaw\": 129255, \"totalSubmissionRaw\": 218597, \"acRate\": \"59.1%\"}",
+        "Likes": 1853,
+        "Dislikes": 3366,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU2",
+            "Name": "Combinatorics",
+            "Slug": "combinatorics"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def poorPigs(self, buckets, minutesToDie, minutesToTest):\n        \"\"\"\n        :type buckets: int\n        :type minutesToDie: int\n        :type minutesToTest: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} buckets\n * @param {number} minutesToDie\n * @param {number} minutesToTest\n * @return {number}\n */\nvar poorPigs = function(buckets, minutesToDie, minutesToTest) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function poorPigs(buckets: number, minutesToDie: number, minutesToTest: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int PoorPigs(int buckets, int minutesToDie, int minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func poorPigs(buckets int, minutesToDie int, minutesToTest int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun poorPigs(buckets: Int, minutesToDie: Int, minutesToTest: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func poorPigs(_ buckets: Int, _ minutesToDie: Int, _ minutesToTest: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn poor_pigs(buckets: i32, minutes_to_die: i32, minutes_to_test: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} buckets\n# @param {Integer} minutes_to_die\n# @param {Integer} minutes_to_test\n# @return {Integer}\ndef poor_pigs(buckets, minutes_to_die, minutes_to_test)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $buckets\n     * @param Integer $minutesToDie\n     * @param Integer $minutesToTest\n     * @return Integer\n     */\n    function poorPigs($buckets, $minutesToDie, $minutesToTest) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int poorPigs(int buckets, int minutesToDie, int minutesToTest) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def poorPigs(buckets: Int, minutesToDie: Int, minutesToTest: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec poor_pigs(buckets :: integer, minutes_to_die :: integer, minutes_to_test :: integer) :: integer\n  def poor_pigs(buckets, minutes_to_die, minutes_to_test) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec poor_pigs(Buckets :: integer(), MinutesToDie :: integer(), MinutesToTest :: integer()) -> integer().\npoor_pigs(Buckets, MinutesToDie, MinutesToTest) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (poor-pigs buckets minutesToDie minutesToTest)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:16:08.197224+01:00",
+    "AcRate": "59.1",
+    "TotalSubmissions": 218597,
+    "TotalAccepted": 129255,
+    "AcceptanceRate": 0.5912935676152921,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/poor-pigs/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it step by step.\n\n## Problem Analysis\n\n**1. Problem Type Classification**: \n- Information Theory / Math / Combinatorics\n- This is fundamentally about encoding information and maximizing information gain from tests\n\n**2. Key Patterns & Algorithms**:\n- Each pig can be in multiple states based on when it dies (or doesn't die)\n- With `minutesToTest / minutesToDie` tests possible, each pig can distinguish between `(minutesToTest / minutesToDie) + 1` states\n- This is a base conversion problem: we need `pigs` such that `(tests + 1)^pigs >= buckets`\n\n**3. Constraints Analysis**:\n- Small input sizes (buckets \u2264 1000), so O(log n) solutions are fine\n- Need to find minimum number of pigs\n\n**4. Edge Cases**:\n- buckets = 1 (need 0 pigs)\n- Only 1 test possible (each pig has 2 states: dead or alive)\n- Multiple tests possible (each pig has more states based on timing)\n\n**5. Input/Output Analysis**:\n- Input: Three integers (buckets, minutesToDie, minutesToTest)\n- Output: Single integer (minimum number of pigs)\n\n**6. Difficulty Assessment**:\n- The challenge is recognizing this as an information theory problem\n- Understanding that each pig can represent multiple states (not just binary)\n- Each pig can die at different time intervals, creating `tests + 1` possible outcomes\n\n## Solution Approach\n\nThe key insight is that if we have `tests` rounds of testing:\n- Each pig can be in `tests + 1` states (dies after test 1, test 2, ..., test n, or survives)\n- With `p` pigs, we can distinguish between `(tests + 1)^p` different buckets\n- We need the minimum `p` where `(tests + 1)^p >= buckets`\n\nFor example:\n- If tests = 1 (like Example 1): each pig has 2 states, so with 2 pigs we can handle 2^2 = 4 buckets\n- If tests = 2 (like Example 2): each pig has 3 states, so with 2 pigs we can handle 3^2 = 9 buckets\n\nWait, let me reconsider Example 2:\n- minutesToTest = 30, minutesToDie = 15\n- Number of tests = 30/15 = 2\n- With 2 tests, each pig has 3 possible states: dies at time 15, dies at time 30, or survives\n- But the example shows a different strategy with only 2 states being used\n\nActually, looking more carefully at Example 2, they're using 2 rounds but each pig only has 2 effective states in their explanation. Let me recalculate:\n- tests = minutesToTest / minutesToDie = 30 / 15 = 2\n- But we can only perform tests at times 0, 15, and get results at 15, 30\n- So we have 2 testing opportunities, meaning tests = 2\n- Each pig has (tests + 1) = 3 states: dies after first test, dies after second test, never dies\n\nWith 2 pigs and 3 states each: 3^2 = 9 buckets possible, which is more than 4, so 2 pigs suffice.\n\nThe formula is: Find minimum `pigs` where `(tests + 1)^pigs >= buckets`\n\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n```\n\n=== DESIGN ===\nLooking at this problem, I need to recognize it as an information theory problem where each pig can represent multiple states based on when it dies.\n\n## Solution Design\n\n**1. Algorithm Choice**: \nMathematical approach using logarithms and base conversion. We need to find the minimum number of pigs where `(states)^pigs >= buckets`, where `states = (minutesToTest / minutesToDie) + 1`.\n\n**2. Step-by-Step Approach**:\n- Calculate the number of test rounds: `tests = minutesToTest // minutesToDie`\n- Each pig can be in `states = tests + 1` different states (dies after test 1, test 2, ..., test n, or never dies)\n- Find minimum `pigs` such that `states^pigs >= buckets`\n- This can be solved by incrementing pigs until the condition is met, or using logarithms\n\n**3. Data Structures**:\n- Only primitive integers needed for calculations\n\n**4. Time Complexity**: \nO(log(buckets)) - the number of pigs needed grows logarithmically with buckets\n\n**5. Space Complexity**: \nO(1) - only constant space for variables\n\n**6. Pseudocode**:\n```\nfunction poorPigs(buckets, minutesToDie, minutesToTest):\n    if buckets == 1:\n        return 0\n    \n    tests = minutesToTest // minutesToDie\n    states = tests + 1\n    \n    pigs = 0\n    while states^pigs < buckets:\n        pigs += 1\n    \n    return pigs\n```\n\nHere's the implementation:\n\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 32596170125,
+      "SolvedAt": "2025-11-19T23:53:07.250417+01:00",
+      "PromptTokens": 8096,
+      "OutputTokens": 1668
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "458",
+        "typed_code": "\nclass Solution:\n    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:\n        if buckets == 1:\n            return 0\n        \n        tests = minutesToTest // minutesToDie\n        states = tests + 1\n        \n        pigs = 0\n        while states ** pigs < buckets:\n            pigs += 1\n        \n        return pigs\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:07:21+01:00"
+    }
+  }
+}

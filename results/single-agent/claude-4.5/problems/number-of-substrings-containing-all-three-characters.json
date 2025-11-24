@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1358",
+        "questionId": "1460",
+        "Content": "<p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>Return the number of substrings containing <b>at least</b>&nbsp;one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabc&quot;\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>and<em> &quot;</em>abc<em>&quot; </em>(<strong>again</strong>)<em>. </em>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aaacb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>and<em> &quot;</em>acb<em>&quot;.</em><em> </em>\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abc&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= s.length &lt;= 5 x 10^4</code></li>\n\t<li><code>s</code>&nbsp;only consists of&nbsp;<em>a</em>, <em>b</em> or <em>c&nbsp;</em>characters.</li>\n</ul>\n",
+        "SampleTestCase": "\"abcabc\"",
+        "ExampleTestcases": "\"abcabc\"\n\"aaacb\"\n\"abc\"",
+        "Difficulty": "Medium",
+        "Title": "Number of Substrings Containing All Three Characters",
+        "TitleSlug": "number-of-substrings-containing-all-three-characters",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"398.7K\", \"totalSubmission\": \"543.6K\", \"totalAcceptedRaw\": 398744, \"totalSubmissionRaw\": 543555, \"acRate\": \"73.4%\"}",
+        "Likes": 4289,
+        "Dislikes": 80,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU1ODIx",
+            "Name": "Sliding Window",
+            "Slug": "sliding-window"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int numberOfSubstrings(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int numberOfSubstrings(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberOfSubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar numberOfSubstrings = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberOfSubstrings(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int NumberOfSubstrings(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int numberOfSubstrings(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberOfSubstrings(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberOfSubstrings(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberOfSubstrings(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_of_substrings(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef number_of_substrings(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function numberOfSubstrings($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int numberOfSubstrings(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberOfSubstrings(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_of_substrings(s :: String.t) :: integer\n  def number_of_substrings(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_of_substrings(S :: unicode:unicode_binary()) -> integer().\nnumber_of_substrings(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-of-substrings s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:26:55.23111+01:00",
+    "AcRate": "73.4",
+    "TotalSubmissions": 543555,
+    "TotalAccepted": 398744,
+    "AcceptanceRate": 0.7335853777446625,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given a string s\u00a0consisting only of characters a, b and c.\nReturn the number of substrings containing at least\u00a0one occurrence of all these characters a, b and c.\n\u00a0\nExample 1:\nInput: s = \"abcabc\"\nOutput: 10\nExplanation: The substrings containing\u00a0at least\u00a0one occurrence of the characters\u00a0a,\u00a0b\u00a0and\u00a0c are \"abc\", \"abca\", \"abcab\", \"abcabc\", \"bca\", \"bcab\", \"bcabc\", \"cab\", \"cabc\" and \"abc\" (again). \nExample 2:\nInput: s = \"aaacb\"\nOutput: 3\nExplanation: The substrings containing\u00a0at least\u00a0one occurrence of the characters\u00a0a,\u00a0b\u00a0and\u00a0c are \"aaacb\", \"aacb\" and \"acb\". \nExample 3:\nInput: s = \"abc\"\nOutput: 1\n\u00a0\nConstraints:\n\t3 <= s.length <= 5 x 10^4\n\ts\u00a0only consists of\u00a0a, b or c\u00a0characters.\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to count substrings that contain at least one occurrence of each character 'a', 'b', and 'c'.\n\nLet me think about the approach:\n1. For each possible ending position, I want to find the minimum starting position where the substring contains all three characters.\n2. If a substring starting at position i and ending at position j contains all three characters, then any substring starting at position 0 to i and ending at j will also contain all three characters.\n\nI'll use a sliding window approach:\n- Use a dictionary to track the count of each character in the current window\n- For each ending position, find the leftmost starting position where we have all three characters\n- Once we find such a position, all substrings starting from 0 to that position and ending at the current position are valid\n\nHere's my solution:\n\n```python\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(len(s)):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                count[s[left]] -= 1\n                left += 1\n            \n            result += left\n        \n        return result\n```\n\nLet me trace through Example 1: s = \"abcabc\"\n- right=0, s[0]='a': count={'a':1,'b':0,'c':0}, left=0, result=0\n- right=1, s[1]='b': count={'a':1,'b':1,'c':0}, left=0, result=0\n- right=2, s[2]='c': count={'a':1,'b':1,'c':1}, all present\n  - Remove s[0]='a': count={'a':0,'b':1,'c':1}, left=1, not all present\n  - result += 1 = 1\n- right=3, s[3]='a': count={'a':1,'b':1,'c':1}, all present\n  - Remove s[1]='b': count={'a':1,'b':0,'c':1}, left=2, not all present\n  - result += 2 = 3\n- right=4, s[4]='b': count={'a':1,'b':1,'c':1}, all present\n  - Remove s[2]='c': count={'a':1,'b':1,'c':0}, left=3, not all present\n  - result += 3 = 6\n- right=5, s[5]='c': count={'a':1,'b':1,'c':1}, all present\n  - Remove s[3]='a': count={'a':0,'b':1,'c':1}, left=4, not all present\n  - result += 4 = 10\n\nThis matches the expected output of 10!\n\nThe key insight is that when we're at position `right`, and `left` is the smallest index such that s[left:right+1] contains all three characters, then there are exactly `left` valid substrings ending at `right` (starting from indices 0, 1, ..., left-1).",
+      "TypedCode": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(len(s)):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                count[s[left]] -= 1\n                left += 1\n            \n            result += left\n        \n        return result\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 11670038500,
+      "SolvedAt": "2025-11-19T21:48:20.663037+01:00",
+      "PromptTokens": 471,
+      "OutputTokens": 790
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1460",
+        "typed_code": "\nclass Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        count = {'a': 0, 'b': 0, 'c': 0}\n        left = 0\n        result = 0\n        \n        for right in range(len(s)):\n            count[s[right]] += 1\n            \n            while count['a'] > 0 and count['b'] > 0 and count['c'] > 0:\n                count[s[left]] -= 1\n                left += 1\n            \n            result += left\n        \n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T22:43:40+01:00"
+    }
+  }
+}

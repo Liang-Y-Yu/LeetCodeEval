@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "126",
+        "questionId": "126",
+        "Content": "<p>A <strong>transformation sequence</strong> from word <code>beginWord</code> to word <code>endWord</code> using a dictionary <code>wordList</code> is a sequence of words <code>beginWord -&gt; s<sub>1</sub> -&gt; s<sub>2</sub> -&gt; ... -&gt; s<sub>k</sub></code> such that:</p>\n\n<ul>\n\t<li>Every adjacent pair of words differs by a single letter.</li>\n\t<li>Every <code>s<sub>i</sub></code> for <code>1 &lt;= i &lt;= k</code> is in <code>wordList</code>. Note that <code>beginWord</code> does not need to be in <code>wordList</code>.</li>\n\t<li><code>s<sub>k</sub> == endWord</code></li>\n</ul>\n\n<p>Given two words, <code>beginWord</code> and <code>endWord</code>, and a dictionary <code>wordList</code>, return <em>all the <strong>shortest transformation sequences</strong> from</em> <code>beginWord</code> <em>to</em> <code>endWord</code><em>, or an empty list if no such sequence exists. Each sequence should be returned as a list of the words </em><code>[beginWord, s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub>]</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]\n<strong>Output:</strong> [[&quot;hit&quot;,&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;cog&quot;],[&quot;hit&quot;,&quot;hot&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]]\n<strong>Explanation:</strong>&nbsp;There are 2 shortest transformation sequences:\n&quot;hit&quot; -&gt; &quot;hot&quot; -&gt; &quot;dot&quot; -&gt; &quot;dog&quot; -&gt; &quot;cog&quot;\n&quot;hit&quot; -&gt; &quot;hot&quot; -&gt; &quot;lot&quot; -&gt; &quot;log&quot; -&gt; &quot;cog&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> beginWord = &quot;hit&quot;, endWord = &quot;cog&quot;, wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;]\n<strong>Output:</strong> []\n<strong>Explanation:</strong> The endWord &quot;cog&quot; is not in wordList, therefore there is no valid transformation sequence.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= beginWord.length &lt;= 5</code></li>\n\t<li><code>endWord.length == beginWord.length</code></li>\n\t<li><code>1 &lt;= wordList.length &lt;= 500</code></li>\n\t<li><code>wordList[i].length == beginWord.length</code></li>\n\t<li><code>beginWord</code>, <code>endWord</code>, and <code>wordList[i]</code> consist of lowercase English letters.</li>\n\t<li><code>beginWord != endWord</code></li>\n\t<li>All the words in <code>wordList</code> are <strong>unique</strong>.</li>\n\t<li>The <strong>sum</strong> of all shortest transformation sequences does not exceed <code>10<sup>5</sup></code>.</li>\n</ul>\n",
+        "SampleTestCase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+        "ExampleTestcases": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\n\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+        "Difficulty": "Hard",
+        "Title": "Word Ladder II",
+        "TitleSlug": "word-ladder-ii",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"438.3K\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 438315, \"totalSubmissionRaw\": 1602775, \"acRate\": \"27.3%\"}",
+        "Likes": 6461,
+        "Dislikes": 823,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIy",
+            "Name": "Breadth-First Search",
+            "Slug": "breadth-first-search"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findLadders(self, beginWord, endWord, wordList):\n        \"\"\"\n        :type beginWord: str\n        :type endWord: str\n        :type wordList: List[str]\n        :rtype: List[List[str]]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} beginWord\n * @param {string} endWord\n * @param {string[]} wordList\n * @return {string[][]}\n */\nvar findLadders = function(beginWord, endWord, wordList) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findLadders(beginWord: string, endWord: string, wordList: string[]): string[][] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nchar*** findLadders(char* beginWord, char* endWord, char** wordList, int wordListSize, int* returnSize, int** returnColumnSizes) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findLadders(beginWord string, endWord string, wordList []string) [][]string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findLadders(beginWord: String, endWord: String, wordList: List<String>): List<List<String>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findLadders(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> [[String]] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_ladders(begin_word: String, end_word: String, word_list: Vec<String>) -> Vec<Vec<String>> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} begin_word\n# @param {String} end_word\n# @param {String[]} word_list\n# @return {String[][]}\ndef find_ladders(begin_word, end_word, word_list)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $beginWord\n     * @param String $endWord\n     * @param String[] $wordList\n     * @return String[][]\n     */\n    function findLadders($beginWord, $endWord, $wordList) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findLadders(beginWord: String, endWord: String, wordList: List[String]): List[List[String]] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_ladders(begin_word :: String.t, end_word :: String.t, word_list :: [String.t]) :: [[String.t]]\n  def find_ladders(begin_word, end_word, word_list) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_ladders(BeginWord :: unicode:unicode_binary(), EndWord :: unicode:unicode_binary(), WordList :: [unicode:unicode_binary()]) -> [[unicode:unicode_binary()]].\nfind_ladders(BeginWord, EndWord, WordList) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-ladders beginWord endWord wordList)\n  (-> string? string? (listof string?) (listof (listof string?)))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:31:20.506798+01:00",
+    "AcRate": "27.3",
+    "TotalSubmissions": 1602775,
+    "TotalAccepted": 438315,
+    "AcceptanceRate": 0.2734725710096551,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/word-ladder-ii/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nBased on the problem requirements, I'll now provide the solution code. The problem is to find all shortest transformation sequences from beginWord to endWord using a wordList, where adjacent words differ by exactly one letter.\n\n```python\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        # Build a graph where each word is connected to words that differ by one letter\n        graph = defaultdict(list)\n        wordSet.add(beginWord)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        # BFS to find the shortest path and record parent relationships\n        distance = {beginWord: 0}\n        parent = defaultdict(set)\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            level_size = len(queue)\n            for _ in range(level_size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                    continue\n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        # If we haven't visited this neighbor, or if we're at the same distance level\n                        if neighbor not in distance:\n                            distance[neighbor] = distance[current] + 1\n                            parent[neighbor].add(current)\n                            queue.append(neighbor)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parent[neighbor].add(current)\n        \n        # If endWord wasn't reached\n        if not found:\n            return []\n        \n        # DFS to reconstruct all shortest paths\n        result = []\n        def dfs(word, path):\n            if word == beginWord:\n                result.append(path[::-1])\n                return\n            for p in parent[word]:\n                dfs(p, path + [p])\n        \n        dfs(endWord, [endWord])\n        return result\n```\n\nHowever, I notice there's an optimization issue with the graph building approach above. Let me provide a more optimized solution that directly builds the graph without using wildcards, which can be more efficient for the constraints:\n\n```python\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        distance = {beginWord: 0}\n        parent = defaultdict(set)\n        \n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            level_size = len(queue)\n            for _ in range(level_size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                    continue\n                \n                current_list = list(current)\n                for i in range(len(current_list)):\n                    original_char = current_list[i]\n                    for c in 'abcdefghijklmnopqrstuvwxyz':\n                        if c == original_char:\n                            continue\n                        current_list[i] = c\n                        neighbor = ''.join(current_list)\n                        if neighbor in wordSet:\n                            if neighbor not in distance:\n                                distance[neighbor] = distance[current] + 1\n                                parent[neighbor].add(current)\n                                queue.append(neighbor)\n                            elif distance[neighbor] == distance[current] + 1:\n                                parent[neighbor].add(current)\n                    current_list[i] = original_char\n        \n        if not found:\n            return []\n        \n        result = []\n        def dfs(word, path):\n            if word == beginWord:\n                result.append(path[::-1])\n                return\n            for p in parent[word]:\n                dfs(p, path + [p])\n        \n        dfs(endWord, [endWord])\n        return result\n```\n\nThis solution uses BFS to find the shortest path distance and record parent relationships, then DFS to reconstruct all shortest paths. The time complexity is O(N * L * 26) where N is the number of words and L is the length of each word, which should be efficient enough for the given constraints.\n\n=== DESIGN ===\n**Algorithm Choice**: Bidirectional BFS with DFS for path reconstruction  \n**Step-by-Step Approach**:  \n1. Use bidirectional BFS to find the shortest path distance while tracking parent relationships  \n2. Build the graph by generating all possible one-letter transformations  \n3. Use BFS from both start and end simultaneously to reduce search space  \n4. Once paths meet, collect all valid shortest paths using DFS  \n\n**Data Structures**:  \n- Sets for word list and visited nodes  \n- Queues for BFS traversal  \n- Dictionaries for distance tracking and parent relationships  \n- Lists for storing results  \n\n**Time Complexity**: O(N * L * 26) where N is number of words, L is word length  \n**Space Complexity**: O(N * L) for storing the graph and paths  \n\n```python\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        graph = defaultdict(list)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        parents = defaultdict(set)\n        distance = {beginWord: 1}\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            size = len(queue)\n            local_visited = {}\n            for _ in range(size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                    \n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        if neighbor not in distance:\n                            if neighbor not in local_visited:\n                                local_visited[neighbor] = distance[current] + 1\n                                queue.append(neighbor)\n                            parents[neighbor].add(current)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parents[neighbor].add(current)\n            distance.update(local_visited)\n            \n        if not found:\n            return []\n            \n        result = []\n        def dfs(node, path):\n            if node == beginWord:\n                result.append(path[::-1])\n                return\n            for parent in parents[node]:\n                dfs(parent, path + [parent])\n                \n        dfs(endWord, [endWord])\n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        graph = defaultdict(list)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        parents = defaultdict(set)\n        distance = defaultdict(int)\n        distance[beginWord] = 1\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            size = len(queue)\n            local_visited = {}\n            for _ in range(size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                \n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        if neighbor not in distance:\n                            if neighbor not in local_visited:\n                                local_visited[neighbor] = distance[current] + 1\n                                queue.append(neighbor)\n                            parents[neighbor].add(current)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parents[neighbor].add(current)\n            distance.update(local_visited)\n            \n        if not found:\n            return []\n            \n        result = []\n        def dfs(node, path):\n            if node == beginWord:\n                result.append(path[::-1])\n                return\n            for parent_node in parents[node]:\n                dfs(parent_node, path + [parent_node])\n                \n        dfs(endWord, [endWord])\n        return result\n```\n\n=== VERIFICATION ===\n```python\nfrom collections import deque, defaultdict\nfrom typing import List\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        graph = defaultdict(list)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        parents = defaultdict(set)\n        distance = {beginWord: 1}\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            size = len(queue)\n            local_visited = {}\n            for _ in range(size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                \n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        if neighbor not in distance:\n                            if neighbor not in local_visited:\n                                local_visited[neighbor] = distance[current] + 1\n                                queue.append(neighbor)\n                            parents[neighbor].add(current)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parents[neighbor].add(current)\n            distance.update(local_visited)\n            \n        if not found:\n            return []\n            \n        result = []\n        def dfs(node, path):\n            if node == beginWord:\n                result.append(path[::-1])\n                return\n            for parent_node in parents[node]:\n                dfs(parent_node, path + [parent_node])\n                \n        dfs(endWord, [endWord])\n        return result\n```\n\n",
+      "TypedCode": "\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        graph = defaultdict(list)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        parents = defaultdict(set)\n        distance = defaultdict(int)\n        distance[beginWord] = 1\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            size = len(queue)\n            local_visited = {}\n            for _ in range(size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                \n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        if neighbor not in distance:\n                            if neighbor not in local_visited:\n                                local_visited[neighbor] = distance[current] + 1\n                                queue.append(neighbor)\n                            parents[neighbor].add(current)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parents[neighbor].add(current)\n            distance.update(local_visited)\n            \n        if not found:\n            return []\n            \n        result = []\n        def dfs(node, path):\n            if node == beginWord:\n                result.append(path[::-1])\n                return\n            for parent_node in parents[node]:\n                dfs(parent_node, path + [parent_node])\n                \n        dfs(endWord, [endWord])\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 62334116667,
+      "SolvedAt": "2025-11-21T00:50:52.048367+01:00",
+      "PromptTokens": 7472,
+      "OutputTokens": 2266
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "126",
+        "typed_code": "\nfrom collections import deque, defaultdict\n\nclass Solution:\n    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:\n        wordSet = set(wordList)\n        if endWord not in wordSet:\n            return []\n        \n        wordSet.add(beginWord)\n        graph = defaultdict(list)\n        for word in wordSet:\n            for i in range(len(word)):\n                pattern = word[:i] + '*' + word[i+1:]\n                graph[pattern].append(word)\n        \n        parents = defaultdict(set)\n        distance = defaultdict(int)\n        distance[beginWord] = 1\n        queue = deque([beginWord])\n        found = False\n        \n        while queue and not found:\n            size = len(queue)\n            local_visited = {}\n            for _ in range(size):\n                current = queue.popleft()\n                if current == endWord:\n                    found = True\n                \n                for i in range(len(current)):\n                    pattern = current[:i] + '*' + current[i+1:]\n                    for neighbor in graph[pattern]:\n                        if neighbor == current:\n                            continue\n                        if neighbor not in distance:\n                            if neighbor not in local_visited:\n                                local_visited[neighbor] = distance[current] + 1\n                                queue.append(neighbor)\n                            parents[neighbor].add(current)\n                        elif distance[neighbor] == distance[current] + 1:\n                            parents[neighbor].add(current)\n            distance.update(local_visited)\n            \n        if not found:\n            return []\n            \n        result = []\n        def dfs(node, path):\n            if node == beginWord:\n                result.append(path[::-1])\n                return\n            for parent_node in parents[node]:\n                dfs(parent_node, path + [parent_node])\n                \n        dfs(endWord, [endWord])\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:59:47+01:00"
+    }
+  }
+}

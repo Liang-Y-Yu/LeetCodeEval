@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "2542",
+        "questionId": "2636",
+        "Content": "<p>You are given two <strong>0-indexed</strong> integer arrays <code>nums1</code> and <code>nums2</code> of equal length <code>n</code> and a positive integer <code>k</code>. You must choose a <strong>subsequence</strong> of indices from <code>nums1</code> of length <code>k</code>.</p>\n\n<p>For chosen indices <code>i<sub>0</sub></code>, <code>i<sub>1</sub></code>, ..., <code>i<sub>k - 1</sub></code>, your <strong>score</strong> is defined as:</p>\n\n<ul>\n\t<li>The sum of the selected elements from <code>nums1</code> multiplied with the <strong>minimum</strong> of the selected elements from <code>nums2</code>.</li>\n\t<li>It can defined simply as: <code>(nums1[i<sub>0</sub>] + nums1[i<sub>1</sub>] +...+ nums1[i<sub>k - 1</sub>]) * min(nums2[i<sub>0</sub>] , nums2[i<sub>1</sub>], ... ,nums2[i<sub>k - 1</sub>])</code>.</li>\n</ul>\n\n<p>Return <em>the <strong>maximum</strong> possible score.</em></p>\n\n<p>A <strong>subsequence</strong> of indices of an array is a set that can be derived from the set <code>{0, 1, ..., n-1}</code> by deleting some or no elements.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [1,3,3,2], nums2 = [2,1,3,4], k = 3\n<strong>Output:</strong> 12\n<strong>Explanation:</strong> \nThe four possible subsequence scores are:\n- We choose the indices 0, 1, and 2 with score = (1+3+3) * min(2,1,3) = 7.\n- We choose the indices 0, 1, and 3 with score = (1+3+2) * min(2,1,4) = 6. \n- We choose the indices 0, 2, and 3 with score = (1+3+2) * min(2,3,4) = 12. \n- We choose the indices 1, 2, and 3 with score = (3+3+2) * min(1,3,4) = 8.\nTherefore, we return the max score, which is 12.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums1 = [4,2,3,1,1], nums2 = [7,5,10,9,6], k = 1\n<strong>Output:</strong> 30\n<strong>Explanation:</strong> \nChoosing index 2 is optimal: nums1[2] * nums2[2] = 3 * 10 = 30 is the maximum possible score.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums1.length == nums2.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= nums1[i], nums2[j] &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= n</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,3,2]\n[2,1,3,4]\n3",
+        "ExampleTestcases": "[1,3,3,2]\n[2,1,3,4]\n3\n[4,2,3,1,1]\n[7,5,10,9,6]\n1",
+        "Difficulty": "Medium",
+        "Title": "Maximum Subsequence Score",
+        "TitleSlug": "maximum-subsequence-score",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"142.4K\", \"totalSubmission\": \"261.8K\", \"totalAcceptedRaw\": 142427, \"totalSubmissionRaw\": 261751, \"acRate\": \"54.4%\"}",
+        "Likes": 3098,
+        "Dislikes": 208,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public long maxScore(int[] nums1, int[] nums2, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxScore(self, nums1, nums2, k):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} k\n * @return {number}\n */\nvar maxScore = function(nums1, nums2, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxScore(nums1: number[], nums2: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public long MaxScore(int[] nums1, int[] nums2, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "long long maxScore(int* nums1, int nums1Size, int* nums2, int nums2Size, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxScore(nums1 []int, nums2 []int, k int) int64 {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxScore(nums1: IntArray, nums2: IntArray, k: Int): Long {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxScore(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_score(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i64 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @param {Integer} k\n# @return {Integer}\ndef max_score(nums1, nums2, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxScore($nums1, $nums2, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxScore(List<int> nums1, List<int> nums2, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxScore(nums1: Array[Int], nums2: Array[Int], k: Int): Long = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_score(nums1 :: [integer], nums2 :: [integer], k :: integer) :: integer\n  def max_score(nums1, nums2, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_score(Nums1 :: [integer()], Nums2 :: [integer()], K :: integer()) -> integer().\nmax_score(Nums1, Nums2, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-score nums1 nums2 k)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:22:03.293358+01:00",
+    "AcRate": "54.4",
+    "TotalSubmissions": 261751,
+    "TotalAccepted": 142427,
+    "AcceptanceRate": 0.5441316365553522,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/maximum-subsequence-score/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and effective solution to this problem combines a greedy strategy with sorting and a priority queue (min-heap).\n\nThe core insight is to re-frame the problem. Instead of checking every possible subsequence, we can iterate through each potential value from `nums2` that could serve as the a `min` for a valid subsequence.\n\nTo make this efficient, we sort the paired `(nums1[i], nums2[i])` elements in descending order based on the `nums2` values. This way, as we iterate through the sorted pairs, the `nums2` value of the current pair is guaranteed to be the minimum among all pairs we have processed up to that point.\n\nAs we iterate, we need to maintain the sum of the `k` largest `nums1` values from the pool of candidates considered so far. A min-heap of size `k` is the perfect data structure for this. For each element `(n1, n2)` we process:\n\n1.  Add `n1` to a min-heap.\n2.  If the heap's size exceeds `k`, remove the smallest element (the heap's root). This ensures the heap always contains the `k` largest `nums1` values seen.\n3.  If the heap's size is exactly `k`, we can form a valid subsequence. We calculate a score using the sum of the elements in the heap (the top `k` `nums1` values) and the current `n2` (our guaranteed minimum).\n4.  We keep track of the maximum score found across all iterations.\n\nThis approach has a time complexity of O(N log N) dominated by the initial sort, and a space complexity of O(N) to store the pairs (or O(k) if we modify the input arrays, but creating new pairs is cleaner). This is efficient enough to pass within the given constraints.\n\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        top_k_heap = []\n        current_sum = 0\n        max_score = 0\n        \n        for n1, n2 in pairs:\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            if len(top_k_heap) > k:\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n```\n\n=== DESIGN ===\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        # Create pairs of (nums1_value, nums2_value) and sort them in\n        # descending order based on the nums2_value. This allows us to\n        # iterate through potential minimums (n2) from largest to smallest.\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        # A min-heap to maintain the k largest nums1 values seen so far.\n        top_k_heap = []\n        \n        # The sum of the elements currently in the min-heap.\n        current_sum = 0\n        \n        # The maximum score found.\n        max_score = 0\n        \n        # Iterate through the sorted pairs.\n        for n1, n2 in pairs:\n            # Add the current nums1 value to the heap and update the sum.\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            # If the heap size exceeds k, we must remove the smallest element\n            # to maintain the top k largest values.\n            if len(top_k_heap) > k:\n                # The root of the min-heap is the smallest element.\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            # When the heap reaches size k, we have a valid subsequence.\n            # a) The sum of the k largest nums1 values from the pairs considered\n            #    so far is `current_sum`.\n            # b) The minimum of the corresponding nums2 values is guaranteed\n            #    to be the current `n2` due to the initial sort order.\n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n```\n\n=== IMPLEMENTATION ===\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        top_k_heap = []\n        current_sum = 0\n        max_score = 0\n        \n        for n1, n2 in pairs:\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            if len(top_k_heap) > k:\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n```\n\n=== VERIFICATION ===\nAn agent's review of the provided solution is as follows:\n\n### Verification Report\n\n**1. Correctness**\n\nThe implemented solution correctly and effectively solves the problem. The algorithm's logic is sound:\n- It pairs `nums1` and `nums2` elements and sorts them in descending order based on `nums2` values. This is a critical insight, as it allows the iteration to fix the `min(nums2[...])` factor at each step, guaranteeing it's the current `n2`.\n- For each `(n1, n2)` pair, it maintains a min-heap of the top `k` `nums1` values seen so far among all pairs where the `nums2` value is greater than or equal to the current `n2`.\n- This ensures that for every potential minimum value from `nums2`, the algorithm finds the maximum possible sum from `nums1` to pair with it, thereby systematically checking all promising candidates for the maximum score.\n- The use of `current_sum` to track the sum of elements in the heap is an efficient optimization, avoiding a costly `sum()` operation inside the loop.\n\nThe code is a faithful and accurate implementation of this well-designed algorithm.\n\n**2. Edge Cases**\n\nThe solution correctly handles all relevant edge cases:\n- **`k = 1`**: The heap will hold the single largest `nums1` value considered so far. The score `n1 * n2` will be calculated for each pair, and the maximum will be found. This works correctly, as shown in the walkthrough for Example 2.\n- **`k = n`**: The heap will eventually contain all `n` values from `nums1`. The only score that can be calculated is when the loop reaches the final element, whose `n2` is the minimum of all `nums2` values. The sum will be the total of all `nums1` values. The score will be `sum(nums1) * min(nums2)`, which is the correct score for choosing all indices.\n- **`Large values`**: The score can reach up to `(10^5 * 10^5) * 10^5 = 10^15`. Python's arbitrary-precision integers handle this without overflow, which would be a concern in fixed-integer-size languages.\n\n**3. Complexity**\n\nThe complexity analysis provided is accurate:\n- **Time Complexity**: `O(n log n)`. The `sorted()` call on `n` pairs dominates the runtime. The loop runs `n` times, with each heap operation taking `O(log k)` time, leading to `O(n log k)`. Since `k <= n`, the total complexity is `O(n log n)`. This is efficient enough for `n = 10^5`.\n- **Space Complexity**: `O(n)`. The `pairs` list requires `O(n)` space to store the zipped and sorted elements. The heap requires `O(k)` space. The total is therefore dominated by the `pairs` list.\n\n**4. Code Quality**\n\nThe code is of high quality:\n- **Readability**: It is clean, well-structured, and easy to understand. Variable names (`top_k_heap`, `current_sum`, `max_score`) are descriptive.\n- **Best Practices**: It correctly uses Python's `heapq` module, `zip` function, and `lambda` for sorting. The logic is concise and leverages the language's strengths effectively.\n\n**5. Test Cases**\n\n- **Example 1: `nums1 = [1,3,3,2], nums2 = [2,1,3,4], k = 3` -> Output: 12**\n   1. Sorted pairs: `(2,4), (3,3), (1,2), (3,1)`\n   2. After processing `(2,4)` and `(3,3)`, the heap is `[2,3]` and sum is `5`.\n   3. Process `(1,2)`: Push `1`. Heap is `[1,2,3]`, sum is `6`. Size is `k=3`. Calculate score: `6 * 2 = 12`. `max_score` becomes `12`.\n   4. Process `(3,1)`: Push `3`. Heap is `[1,2,3,3]`, sum is `9`. Size is `> k`, so pop smallest (`1`). Heap is `[2,3,3]`, sum is `8`. Size is `k=3`. Calculate score: `8 * 1 = 8`. `max_score` remains `12`.\n   5. Final result: `12`. **Correct.**\n\n- **Example 2: `nums1 = [4,2,3,1,1], nums2 = [7,5,10,9,6], k = 1` -> Output: 30**\n   1. Sorted pairs: `(3,10), (1,9), (4,7), ...`\n   2. Process `(3,10)`: Push `3`. Heap is `[3]`, sum `3`. Size is `k=1`. Score `3 * 10 = 30`. `max_score` is `30`.\n   3. Process `(1,9)`: Push `1`. Heap `[1,3]`. Pop `1`. Heap `[3]`, sum `3`. Size `k=1`. Score `3 * 9 = 27`. `max_score` remains `30`.\n   4. The process continues, but `30` will remain the maximum. **Correct.**\n\n**6. Potential Issues**\nNo bugs, logical errors, or significant areas for improvement were identified. The solution is robust, efficient, and correctly implemented.\n\n**Conclusion:** The provided solution is excellent. It is correct, efficient, and well-written. It passes all verification checks.\n\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        # Create pairs of (nums1_value, nums2_value) and sort them in\n        # descending order based on the nums2_value. This allows us to\n        # iterate through potential minimums (n2) from largest to smallest.\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        # A min-heap to maintain the k largest nums1 values seen so far.\n        top_k_heap = []\n        \n        # The sum of the elements currently in the min-heap.\n        current_sum = 0\n        \n        # The maximum score found.\n        max_score = 0\n        \n        # Iterate through the sorted pairs.\n        for n1, n2 in pairs:\n            # Add the current nums1 value to the heap and update the sum.\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            # If the heap size exceeds k, we must remove the smallest element\n            # to maintain the top k largest values.\n            if len(top_k_heap) > k:\n                # The root of the min-heap is the smallest element.\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            # When the heap reaches size k, we have a valid subsequence.\n            # a) The sum of the k largest nums1 values from the pairs considered\n            #    so far is `current_sum`.\n            # b) The minimum of the corresponding nums2 values is guaranteed\n            #    to be the current `n2` due to the initial sort order.\n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n\n```\n\n",
+      "TypedCode": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        top_k_heap = []\n        current_sum = 0\n        max_score = 0\n        \n        for n1, n2 in pairs:\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            if len(top_k_heap) > k:\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 218941571708,
+      "SolvedAt": "2025-11-21T13:21:26.950327+01:00",
+      "PromptTokens": 6904,
+      "OutputTokens": 27722
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2636",
+        "typed_code": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:\n        pairs = sorted(zip(nums1, nums2), key=lambda p: p[1], reverse=True)\n        \n        top_k_heap = []\n        current_sum = 0\n        max_score = 0\n        \n        for n1, n2 in pairs:\n            heapq.heappush(top_k_heap, n1)\n            current_sum += n1\n            \n            if len(top_k_heap) > k:\n                smallest_n1 = heapq.heappop(top_k_heap)\n                current_sum -= smallest_n1\n            \n            if len(top_k_heap) == k:\n                score = current_sum * n2\n                max_score = max(max_score, score)\n                \n        return max_score\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:30:28+01:00"
+    }
+  }
+}

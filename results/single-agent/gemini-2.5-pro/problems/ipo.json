@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "502",
+        "questionId": "502",
+        "Content": "<p>Suppose LeetCode will start its <strong>IPO</strong> soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the <strong>IPO</strong>. Since it has limited resources, it can only finish at most <code>k</code> distinct projects before the <strong>IPO</strong>. Help LeetCode design the best way to maximize its total capital after finishing at most <code>k</code> distinct projects.</p>\n\n<p>You are given <code>n</code> projects where the <code>i<sup>th</sup></code> project has a pure profit <code>profits[i]</code> and a minimum capital of <code>capital[i]</code> is needed to start it.</p>\n\n<p>Initially, you have <code>w</code> capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.</p>\n\n<p>Pick a list of <strong>at most</strong> <code>k</code> distinct projects from given projects to <strong>maximize your final capital</strong>, and return <em>the final maximized capital</em>.</p>\n\n<p>The answer is guaranteed to fit in a 32-bit signed integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> Since your initial capital is 0, you can only start the project indexed 0.\nAfter finishing it you will obtain profit 1 and your capital becomes 1.\nWith capital 1, you can either start the project indexed 1 or the project indexed 2.\nSince you can choose at most 2 projects, you need to finish the project indexed 2 to get the maximum capital.\nTherefore, output the final maximized capital, which is 0 + 1 + 3 = 4.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 3, w = 0, profits = [1,2,3], capital = [0,1,2]\n<strong>Output:</strong> 6\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= w &lt;= 10<sup>9</sup></code></li>\n\t<li><code>n == profits.length</code></li>\n\t<li><code>n == capital.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= profits[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= capital[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+        "SampleTestCase": "2\n0\n[1,2,3]\n[0,1,1]",
+        "ExampleTestcases": "2\n0\n[1,2,3]\n[0,1,1]\n3\n0\n[1,2,3]\n[0,1,2]",
+        "Difficulty": "Hard",
+        "Title": "IPO",
+        "TitleSlug": "ipo",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"294.2K\", \"totalSubmission\": \"553.3K\", \"totalAcceptedRaw\": 294220, \"totalSubmissionRaw\": 553286, \"acRate\": \"53.2%\"}",
+        "Likes": 4106,
+        "Dislikes": 279,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def findMaximizedCapital(self, k, w, profits, capital):\n        \"\"\"\n        :type k: int\n        :type w: int\n        :type profits: List[int]\n        :type capital: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} k\n * @param {number} w\n * @param {number[]} profits\n * @param {number[]} capital\n * @return {number}\n */\nvar findMaximizedCapital = function(k, w, profits, capital) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function findMaximizedCapital(k: number, w: number, profits: number[], capital: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int FindMaximizedCapital(int k, int w, int[] profits, int[] capital) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int findMaximizedCapital(int k, int w, int* profits, int profitsSize, int* capital, int capitalSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func findMaximizedCapital(k int, w int, profits []int, capital []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun findMaximizedCapital(k: Int, w: Int, profits: IntArray, capital: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func findMaximizedCapital(_ k: Int, _ w: Int, _ profits: [Int], _ capital: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn find_maximized_capital(k: i32, w: i32, profits: Vec<i32>, capital: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} k\n# @param {Integer} w\n# @param {Integer[]} profits\n# @param {Integer[]} capital\n# @return {Integer}\ndef find_maximized_capital(k, w, profits, capital)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $k\n     * @param Integer $w\n     * @param Integer[] $profits\n     * @param Integer[] $capital\n     * @return Integer\n     */\n    function findMaximizedCapital($k, $w, $profits, $capital) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int findMaximizedCapital(int k, int w, List<int> profits, List<int> capital) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def findMaximizedCapital(k: Int, w: Int, profits: Array[Int], capital: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec find_maximized_capital(k :: integer, w :: integer, profits :: [integer], capital :: [integer]) :: integer\n  def find_maximized_capital(k, w, profits, capital) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec find_maximized_capital(K :: integer(), W :: integer(), Profits :: [integer()], Capital :: [integer()]) -> integer().\nfind_maximized_capital(K, W, Profits, Capital) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (find-maximized-capital k w profits capital)\n  (-> exact-integer? exact-integer? (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:14:00.079234+01:00",
+    "AcRate": "53.2",
+    "TotalSubmissions": 553286,
+    "TotalAccepted": 294220,
+    "AcceptanceRate": 0.5317683801867389,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/ipo/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most k distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most k distinct projects.\nYou are given n projects where the i^th project has a pure profit profits[i] and a minimum capital of capital[i] is needed to start it.\nInitially, you have w capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.\nPick a list of at most k distinct projects from given projects to maximize your final capital, and return the final maximized capital.\nThe answer is guaranteed to fit in a 32-bit signed integer.\n\u00a0\nExample 1:\nInput: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]\nOutput: 4\nExplanation: Since your initial capital is 0, you can only start the project indexed 0.\nAfter finishing it you will obtain profit 1 and your capital becomes 1.\nWith capital 1, you can either start the project indexed 1 or the project indexed 2.\nSince you can choose at most 2 projects, you need to finish the project indexed 2 to get the maximum capital.\nTherefore, output the final maximized capital, which is 0 + 1 + 3 = 4.\nExample 2:\nInput: k = 3, w = 0, profits = [1,2,3], capital = [0,1,2]\nOutput: 6\n\u00a0\nConstraints:\n\t1 <= k <= 10^5\n\t0 <= w <= 10^9\n\tn == profits.length\n\tn == capital.length\n\t1 <= n <= 10^5\n\t0 <= profits[i] <= 10^4\n\t0 <= capital[i] <= 10^9\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and effective way to solve this problem is by using a greedy approach combined with a max-heap. At each step, we want to choose the most profitable project we can currently afford. This greedy choice is optimal because having more capital at any stage can only increase our options for future projects, never decrease them.\n\nHere's the step-by-step algorithm:\n\n1.  **Combine and Sort:** The projects that become available to us depend on our current capital. To efficiently find these, we first pair up each project's `capital` requirement with its `profit` and sort these pairs based on the capital required in ascending order. This allows us to iterate through projects as our capital grows.\n\n2.  **Iterate and Select:** We can perform at most `k` projects. So, we loop up to `k` times. In each iteration:\n    a.  **Find Affordable Projects:** We identify all projects whose capital requirement is less than or equal to our current capital `w`. Since the projects are sorted by capital, we can do this by iterating through our sorted list from where we last left off.\n    b.  **Store for Selection:** All the newly affordable projects are candidates for our next choice. To facilitate picking the one with the highest profit, we add their profits to a max-heap. We use a min-heap with negated profits to simulate a max-heap in Python.\n    c.  **Make the Greedy Choice:** If the max-heap is not empty (meaning there are affordable projects), we pop the top element. This represents the highest profit we can get in the current step. We add this profit to our capital `w`.\n    d.  **Check for an Early Stop:** If the max-heap is empty, it means we cannot afford any more projects with our current capital. We can't proceed, so we break the loop.\n\n3.  **Return Final Capital:** After completing up to `k` projects (or running out of affordable options), the final value of `w` is the maximized capital.\n\nThis approach is efficient. Sorting takes O(N log N) time. The main loop runs up to `k` times. Each of the `N` projects is pushed onto the heap once (O(log N)) and at most `k` projects are popped from the heap (O(log N)). This leads to a total time complexity of O(N log N + k log N), which is well within the limits for the given constraints. The space complexity is O(N) to store the projects and the heap.\n\n```python\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:\n        n = len(profits)\n        # Create a list of projects as (capital, profit) tuples.\n        projects = sorted(zip(capital, profits))\n        \n        # A max-heap to store the profits of all currently affordable projects.\n        # Python's heapq is a min-heap, so we store negative profits.\n        max_profit_heap = []\n        project_idx = 0\n\n        # We can select at most k projects.\n        for _ in range(k):\n            # Add all projects that we can afford with the current capital w\n            # to the max-heap.\n            while project_idx < n and projects[project_idx][0] <= w:\n                heapq.heappush(max_profit_heap, -projects[project_idx][1])\n                project_idx += 1\n            \n            # If there are no affordable projects, we can't do any more work.\n            if not max_profit_heap:\n                break\n            \n            # Greedily pick the project with the maximum profit.\n            # Pop from the max-heap and add the profit to our capital.\n            w += -heapq.heappop(max_profit_heap)\n            \n        return w\n\n```",
+      "TypedCode": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:\n        n = len(profits)\n        # Create a list of projects as (capital, profit) tuples.\n        projects = sorted(zip(capital, profits))\n        \n        # A max-heap to store the profits of all currently affordable projects.\n        # Python's heapq is a min-heap, so we store negative profits.\n        max_profit_heap = []\n        project_idx = 0\n\n        # We can select at most k projects.\n        for _ in range(k):\n            # Add all projects that we can afford with the current capital w\n            # to the max-heap.\n            while project_idx < n and projects[project_idx][0] <= w:\n                heapq.heappush(max_profit_heap, -projects[project_idx][1])\n                project_idx += 1\n            \n            # If there are no affordable projects, we can't do any more work.\n            if not max_profit_heap:\n                break\n            \n            # Greedily pick the project with the maximum profit.\n            # Pop from the max-heap and add the profit to our capital.\n            w += -heapq.heappop(max_profit_heap)\n            \n        return w\n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 126249362334,
+      "SolvedAt": "2025-11-20T13:57:55.366707+01:00",
+      "PromptTokens": 695,
+      "OutputTokens": 12911
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "502",
+        "typed_code": "\nimport heapq\nfrom typing import List\n\nclass Solution:\n    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:\n        n = len(profits)\n        # Create a list of projects as (capital, profit) tuples.\n        projects = sorted(zip(capital, profits))\n        \n        # A max-heap to store the profits of all currently affordable projects.\n        # Python's heapq is a min-heap, so we store negative profits.\n        max_profit_heap = []\n        project_idx = 0\n\n        # We can select at most k projects.\n        for _ in range(k):\n            # Add all projects that we can afford with the current capital w\n            # to the max-heap.\n            while project_idx < n and projects[project_idx][0] <= w:\n                heapq.heappush(max_profit_heap, -projects[project_idx][1])\n                project_idx += 1\n            \n            # If there are no affordable projects, we can't do any more work.\n            if not max_profit_heap:\n                break\n            \n            # Greedily pick the project with the maximum profit.\n            # Pop from the max-heap and add the profit to our capital.\n            w += -heapq.heappop(max_profit_heap)\n            \n        return w\n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T19:46:23+01:00"
+    }
+  }
+}

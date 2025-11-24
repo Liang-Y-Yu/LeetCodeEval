@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "273",
+        "questionId": "273",
+        "Content": "<p>Convert a non-negative integer <code>num</code> to its English words representation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 123\n<strong>Output:</strong> &quot;One Hundred Twenty Three&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 12345\n<strong>Output:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 1234567\n<strong>Output:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n",
+        "SampleTestCase": "123",
+        "ExampleTestcases": "123\n12345\n1234567",
+        "Difficulty": "Hard",
+        "Title": "Integer to English Words",
+        "TitleSlug": "integer-to-english-words",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"565.3K\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 565337, \"totalSubmissionRaw\": 1629894, \"acRate\": \"34.7%\"}",
+        "Likes": 3800,
+        "Dislikes": 6823,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    string numberToWords(int num) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public String numberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def numberToWords(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: str\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} num\n * @return {string}\n */\nvar numberToWords = function(num) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function numberToWords(num: number): string {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public string NumberToWords(int num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "char* numberToWords(int num) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func numberToWords(num int) string {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun numberToWords(num: Int): String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func numberToWords(_ num: Int) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn number_to_words(num: i32) -> String {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} num\n# @return {String}\ndef number_to_words(num)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $num\n     * @return String\n     */\n    function numberToWords($num) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  String numberToWords(int num) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def numberToWords(num: Int): String = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec number_to_words(num :: integer) :: String.t\n  def number_to_words(num) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec number_to_words(Num :: integer()) -> unicode:unicode_binary().\nnumber_to_words(Num) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (number-to-words num)\n  (-> exact-integer? string?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:25:00.534343+01:00",
+    "AcRate": "34.7",
+    "TotalSubmissions": 1629894,
+    "TotalAccepted": 565337,
+    "AcceptanceRate": 0.3468550715568006,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-to-english-words/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        parts = []\n\n        parts.append(\"1. Problem Type Classification:\")\n        parts.append(\"- Category: String, Math (number formatting), Simulation.\")\n        parts.append(\"- Commonly tagged as: String Manipulation + Recursion/Decomposition.\\n\")\n\n        parts.append(\"2. Key Patterns & Algorithms:\")\n        parts.append(\"- Decomposition into chunks of 3 digits (thousands groups):\")\n        parts.append(\"  - Process the number in groups: [Billions] [Millions] [Thousands] [Ones].\")\n        parts.append(\"  - For each non-zero group, convert that 3-digit number to words, then append its scale (\\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\").\")\n        parts.append(\"- 3-digit to words helper pattern:\")\n        parts.append(\"  - For a number from 0 to 999:\")\n        parts.append(\"    - If >= 100: handle hundreds place (X -> \\\"One\\\"..\\\"Nine\\\" + \\\"Hundred\\\"), then recurse/continue with remainder < 100.\")\n        parts.append(\"    - For remainder < 20: use a direct mapping (because of unique words like Eleven, Twelve, etc.).\")\n        parts.append(\"    - For remainder >= 20: handle tens (Twenty, Thirty, etc.) using mapping, then optionally ones (One..Nine).\")\n        parts.append(\"- Recursion or iterative breakdown:\")\n        parts.append(\"  - Many clean solutions use a small recursive helper to handle the 3-digit logic.\")\n        parts.append(\"  - Alternatively, a purely iterative helper function is also fine.\")\n        parts.append(\"- Lookup tables / dictionaries:\")\n        parts.append(\"  - Predefine arrays/maps for:\")\n        parts.append(\"    - Below 20: [\\\"\\\", \\\"One\\\", \\\"Two\\\", ..., \\\"Nineteen\\\"].\")\n        parts.append(\"    - Tens: [\\\"\\\", \\\"Ten\\\", \\\"Twenty\\\", ..., \\\"Ninety\\\"].\")\n        parts.append(\"    - Scales: [\\\"\\\", \\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\"].\\n\")\n\n        parts.append(\"3. Constraints Analysis (Time/Space Complexity):\")\n        parts.append(\"- Constraints: 0 <= num <= 2^31 - 1 (i.e., up to 2,147,483,647).\")\n        parts.append(\"- The maximum length in digits is 10 (for a 32-bit signed integer upper bound).\")\n        parts.append(\"- Time Complexity:\")\n        parts.append(\"  - Conversion work is proportional to the number of digits (constant bounded by 10).\")\n        parts.append(\"  - So time complexity is effectively O(1) with a very small constant.\")\n        parts.append(\"- Space Complexity:\")\n        parts.append(\"  - Uses a few fixed-size lookup tables and a small recursion depth (at most 4 groups: billions, millions, thousands, ones).\")\n        parts.append(\"  - Output string length is also bounded by a small constant (fixed max for 10-digit numbers).\")\n        parts.append(\"  - So space complexity is also O(1).\\n\")\n\n        parts.append(\"4. Edge Cases:\")\n        parts.append(\"- Zero:\")\n        parts.append(\"  - num == 0 must return exactly \\\"Zero\\\" (special case; no scales or other logic).\")\n        parts.append(\"- Exact boundaries of the mappings:\")\n        parts.append(\"  - Numbers from 1 to 19: ensure direct mapping (no tens-plus-ones decomposition).\")\n        parts.append(\"  - Multiples of 10 in [20, 90]: e.g., 20 -> \\\"Twenty\\\" (no trailing space, no extra word).\")\n        parts.append(\"- Numbers where some 3-digit groups are zero:\")\n        parts.append(\"  - Example: 1,000,010 -> \\\"One Million Ten\\\" (skip the empty \\\"Thousand\\\" group).\")\n        parts.append(\"  - Example: 1,000,000 -> \\\"One Million\\\" (no trailing or leading spaces, no extra words).\")\n        parts.append(\"- Numbers with internal zeros inside 3-digit groups:\")\n        parts.append(\"  - Example: 105 -> \\\"One Hundred Five\\\" (no \\\"Zero\\\").\")\n        parts.append(\"  - Example: 100 -> \\\"One Hundred\\\" (no extra word).\")\n        parts.append(\"- Upper boundary:\")\n        parts.append(\"  - 2,147,483,647 -> must correctly form: \\\"Two Billion One Hundred Forty Seven Million Four Hundred Eighty Three Thousand Six Hundred Forty Seven\\\".\")\n        parts.append(\"- Spacing and formatting:\")\n        parts.append(\"  - Single space between words.\")\n        parts.append(\"  - No leading or trailing spaces.\")\n        parts.append(\"  - No repeated spaces between tokens.\")\n        parts.append(\"  - Capitalization: Each word starts with uppercase (as in examples).\")\n        parts.append(\"- No \\\"and\\\":\")\n        parts.append(\"  - U.S.-style English without \\\"and\\\" (e.g., \\\"One Hundred Twenty Three\\\", not \\\"One Hundred and Twenty Three\\\").\\n\")\n\n        parts.append(\"5. Input/Output Analysis:\")\n        parts.append(\"- Input:\")\n        parts.append(\"  - A single non-negative integer num provided as a function argument.\")\n        parts.append(\"  - Range: 0 <= num <= 2^31 - 1.\")\n        parts.append(\"- Output:\")\n        parts.append(\"  - A string representing the English words of the given integer.\")\n        parts.append(\"  - Example formats:\")\n        parts.append(\"    - 123 -> \\\"One Hundred Twenty Three\\\"\")\n        parts.append(\"    - 12345 -> \\\"Twelve Thousand Three Hundred Forty Five\\\"\")\n        parts.append(\"    - 1234567 -> \\\"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\\\"\")\n        parts.append(\"- There is no additional punctuation (no commas) in the output, only spaces.\\n\")\n\n        parts.append(\"6. Difficulty Assessment (What Makes This Problem Challenging):\")\n        parts.append(\"- Many special cases and small rules:\")\n        parts.append(\"  - Correctly handling 0, teens, tens, hundreds, and different scales (Thousand, Million, Billion).\")\n        parts.append(\"  - Avoiding extra spaces and handling groups that are zero.\")\n        parts.append(\"- Implementation detail and correctness heavy:\")\n        parts.append(\"  - The logic itself is not algorithmically complex, but it is easy to introduce small bugs (missing spaces, incorrect word ordering, off-by-one in mappings, forgetting special cases).\")\n        parts.append(\"- Clean design requirement:\")\n        parts.append(\"  - Without a clear helper function for 3-digit processing and good lookup tables, the solution can become messy and error-prone.\")\n        parts.append(\"  - Good decomposition (e.g., a helper for 0\u2013999 and looping over thousand-groups) greatly simplifies and clarifies the code.\")\n        parts.append(\"- Overall difficulty:\")\n        parts.append(\"  - More of a careful string construction and edge-case handling problem than a complex algorithmic challenge.\")\n        parts.append(\"  - Often considered Medium/Hard mainly due to implementation detail, not due to time/space complexity concerns.\")\n\n        return \"\\n\".join(parts)\n\n=== DESIGN ===\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        parts = []\n        parts.append(\"1. Algorithm Choice:\")\n        parts.append(\"- Decompose the number into groups of three digits (thousands groups) and convert each group using a helper that handles numbers from 0 to 999.\")\n        parts.append(\"- Use lookup tables for numbers < 20, tens (20\u201390), and scale words (Thousand, Million, Billion).\")\n        parts.append(\"- Combine the converted 3-digit groups with their corresponding scale words, skipping any zero groups.\")\n        parts.append(\"\")\n        parts.append(\"2. Step-by-Step Approach:\")\n        parts.append(\"Step 1: Handle the special case 0.\")\n        parts.append(\"- If num == 0, return \\\"Zero\\\" immediately.\")\n        parts.append(\"\")\n        parts.append(\"Step 2: Prepare lookup tables.\")\n        parts.append(\"- below_20: array of words for 0\u201319 (index i -> word for i).\")\n        parts.append(\"- tens: array of words for multiples of 10 from 0\u201390 (index i -> word for 10*i).\")\n        parts.append(\"- scales: array for scale words: [\\\"\\\", \\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\"].\")\n        parts.append(\"\")\n        parts.append(\"Step 3: Define a helper function to convert 0\u2013999 to words.\")\n        parts.append(\"- Input: integer x where 0 <= x <= 999.\")\n        parts.append(\"- If x == 0: return empty string (since zero inside a group is skipped).\")\n        parts.append(\"- If x >= 100:\")\n        parts.append(\"  - hundreds = x // 100.\")\n        parts.append(\"  - remainder = x % 100.\")\n        parts.append(\"  - result starts with: below_20[hundreds] + \\\" Hundred\\\".\")\n        parts.append(\"  - If remainder > 0, append a space and recursively process remainder (< 100).\")\n        parts.append(\"- Else (x < 100):\")\n        parts.append(\"  - If x < 20: return below_20[x].\")\n        parts.append(\"  - Else:\")\n        parts.append(\"    - tens_part = x // 10.\")\n        parts.append(\"    - ones_part = x % 10.\")\n        parts.append(\"    - Start with tens[tens_part].\")\n        parts.append(\"    - If ones_part > 0, append space + below_20[ones_part].\")\n        parts.append(\"\")\n        parts.append(\"Step 4: Decompose the main number into 3-digit groups.\")\n        parts.append(\"- Initialize an empty list words to accumulate the result pieces.\")\n        parts.append(\"- Initialize scale_index = 0 (0 -> \\\"\\\", 1 -> \\\"Thousand\\\", etc.).\")\n        parts.append(\"- While num > 0:\")\n        parts.append(\"  - group = num % 1000 (current 3-digit chunk).\")\n        parts.append(\"  - If group != 0:\")\n        parts.append(\"    - group_words = helper(group).\")\n        parts.append(\"    - If scales[scale_index] is not empty, append scale word after group_words.\")\n        parts.append(\"    - Prepend this full group phrase to words (or append to a list and reverse at the end).\")\n        parts.append(\"  - num //= 1000.\")\n        parts.append(\"  - scale_index += 1.\")\n        parts.append(\"\")\n        parts.append(\"Step 5: Combine all words into final string.\")\n        parts.append(\"- Join all non-empty word segments in words with a single space between them.\")\n        parts.append(\"- Ensure there are no leading/trailing spaces and no extra spaces (handled naturally by join).\")\n        parts.append(\"\")\n        parts.append(\"3. Data Structures:\")\n        parts.append(\"- Arrays (lists) for constant-time lookups:\")\n        parts.append(\"  - below_20: list of 20 strings.\")\n        parts.append(\"  - tens: list of 10 strings.\")\n        parts.append(\"  - scales: list of up to 4 strings (\\\"\\\", \\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\").\")\n        parts.append(\"- A list of strings to accumulate result segments for each non-zero 3-digit group.\")\n        parts.append(\"\")\n        parts.append(\"4. Time Complexity:\")\n        parts.append(\"- The maximum input is 2,147,483,647 (10 digits).\")\n        parts.append(\"- The algorithm processes at most 4 groups of 3 digits and each group up to 3 digits internally.\")\n        parts.append(\"- All operations are constant-bounded; therefore, time complexity is O(1) with a small constant factor.\")\n        parts.append(\"\")\n        parts.append(\"5. Space Complexity:\")\n        parts.append(\"- Lookup tables (below_20, tens, scales) are of fixed, small size.\")\n        parts.append(\"- Recursion depth is bounded by the number of digits in a group (<= 3), and number of groups (<= 4).\")\n        parts.append(\"- Output string length is also bounded by a small constant for the maximum 32-bit integer.\")\n        parts.append(\"- Therefore, auxiliary space complexity is O(1).\")\n        parts.append(\"\")\n        parts.append(\"6. Pseudocode:\")\n        parts.append(\"function numberToWords(num):\")\n        parts.append(\"    if num == 0:\")\n        parts.append(\"        return \\\"Zero\\\"\")\n        parts.append(\"\")\n        parts.append(\"    below_20 = [\\\"\\\", \\\"One\\\", \\\"Two\\\", ..., \\\"Nineteen\\\"]\")\n        parts.append(\"    tens = [\\\"\\\", \\\"Ten\\\", \\\"Twenty\\\", \\\"Thirty\\\", \\\"Forty\\\", \\\"Fifty\\\", \\\"Sixty\\\", \\\"Seventy\\\", \\\"Eighty\\\", \\\"Ninety\\\"]\")\n        parts.append(\"    scales = [\\\"\\\", \\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\"]\")\n        parts.append(\"\")\n        parts.append(\"    function helper(x):  # 0 <= x <= 999\")\n        parts.append(\"        if x == 0:\")\n        parts.append(\"            return \\\"\\\"\")\n        parts.append(\"        if x < 20:\")\n        parts.append(\"            return below_20[x]\")\n        parts.append(\"        if x < 100:\")\n        parts.append(\"            tens_part = x // 10\")\n        parts.append(\"            ones_part = x % 10\")\n        parts.append(\"            if ones_part == 0:\")\n        parts.append(\"                return tens[tens_part]\")\n        parts.append(\"            else:\")\n        parts.append(\"                return tens[tens_part] + \\\" \\\" + below_20[ones_part]\")\n        parts.append(\"        # x >= 100\")\n        parts.append(\"        hundreds_part = x // 100\")\n        parts.append(\"        remainder = x % 100\")\n        parts.append(\"        res = below_20[hundreds_part] + \\\" Hundred\\\"\")\n        parts.append(\"        if remainder != 0:\")\n        parts.append(\"            res = res + \\\" \\\" + helper(remainder)\")\n        parts.append(\"        return res\")\n        parts.append(\"\")\n        parts.append(\"    words = []\")\n        parts.append(\"    scale_index = 0\")\n        parts.append(\"    while num > 0:\")\n        parts.append(\"        group = num % 1000\")\n        parts.append(\"        if group != 0:\")\n        parts.append(\"            group_words = helper(group)\")\n        parts.append(\"            if scales[scale_index] != \\\"\\\":\")\n        parts.append(\"                group_words = group_words + \\\" \\\" + scales[scale_index]\")\n        parts.append(\"            words.insert(0, group_words)\")\n        parts.append(\"        num = num // 1000\")\n        parts.append(\"        scale_index += 1\")\n        parts.append(\"\")\n        parts.append(\"    return join(words with single spaces)\")\n        return \"\\n\".join(parts)\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        below_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\",\n            \"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\",\n            \"Seventeen\", \"Eighteen\", \"Nineteen\"\n        ]\n        \n        tens = [\n            \"\", \"Ten\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"\n        ]\n        \n        scales = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n        \n        def helper(x: int) -> str:\n            if x == 0:\n                return \"\"\n            if x < 20:\n                return below_20[x]\n            if x < 100:\n                tens_part = x // 10\n                ones_part = x % 10\n                if ones_part == 0:\n                    return tens[tens_part]\n                else:\n                    return tens[tens_part] + \" \" + below_20[ones_part]\n            hundreds_part = x // 100\n            remainder = x % 100\n            res = below_20[hundreds_part] + \" Hundred\"\n            if remainder != 0:\n                res = res + \" \" + helper(remainder)\n            return res\n        \n        words = []\n        scale_index = 0\n        while num > 0:\n            group = num % 1000\n            if group != 0:\n                group_words = helper(group)\n                if scales[scale_index] != \"\":\n                    group_words = group_words + \" \" + scales[scale_index]\n                words.insert(0, group_words)\n            num //= 1000\n            scale_index += 1\n        \n        return \" \".join(words)\n\n=== VERIFICATION ===\nclass Solution:\n    def numberToWords(self, num: int) -> str:\n        report = []\n        report.append(\"1. Correctness:\")\n        report.append(\"- The reviewed implementation correctly follows the designed algorithm of decomposing the number into 3-digit groups and converting each chunk with a helper function.\")\n        report.append(\"- The helper(x) correctly handles:\")\n        report.append(\"  - 0 by returning an empty string (appropriate for internal group usage).\")\n        report.append(\"  - 1\u201319 via direct lookup in below_20.\")\n        report.append(\"  - 20\u201399 by combining tens[tens_part] and below_20[ones_part].\")\n        report.append(\"  - 100\u2013999 by handling the hundreds part and recursively converting the remainder.\")\n        report.append(\"- The main loop splits num into groups of 3 digits and attaches appropriate scales: \\\"\\\", \\\"Thousand\\\", \\\"Million\\\", \\\"Billion\\\".\")\n        report.append(\"- Groups are inserted at the front of the words list, ensuring correct most-significant-to-least-significant order.\")\n        report.append(\"- Final output is built with \\\" \\\".join(words), guaranteeing single spaces between tokens and no leading/trailing spaces.\")\n        report.append(\"- Overall, the logic is sound and matches the problem requirements for English representation of non-negative integers up to 2^31 - 1.\")\n        report.append(\"\")\n        report.append(\"2. Edge Cases:\")\n        report.append(\"- num == 0: Immediately returns \\\"Zero\\\" as required.\")\n        report.append(\"- Values < 20: Fully covered via below_20 array and the x < 20 branch in helper.\")\n        report.append(\"- Tens that are exact multiples of 10 (20, 30, ..., 90):\")\n        report.append(\"  - For x in [20, 99] and ones_part == 0, helper returns just tens[tens_part] (e.g., 20 -> \\\"Twenty\\\").\")\n        report.append(\"- Internal zeros in 3-digit groups:\")\n        report.append(\"  - Example: 105 -> \\\"One Hundred Five\\\" (remainder 5 processed via helper).\")\n        report.append(\"  - Example: 100 -> \\\"One Hundred\\\" (remainder 0, no extra words appended).\")\n        report.append(\"- Zero 3-digit groups in larger numbers:\")\n        report.append(\"  - Groups with value 0 are skipped entirely (if group != 0), so no empty scales are emitted.\")\n        report.append(\"  - Example patterns (by logic):\")\n        report.append(\"    - 1,000,000 -> \\\"One Million\\\" (thousand and ones groups are skipped).\")\n        report.append(\"    - 1,000,010 -> \\\"One Million Ten\\\" (zero thousand group skipped).\")\n        report.append(\"- Upper bound 2,147,483,647:\")\n        report.append(\"  - Decomposed into 2 (Billion), 147 (Million), 483 (Thousand), 647 (ones).\")\n        report.append(\"  - Produces: \\\"Two Billion One Hundred Forty Seven Million Four Hundred Eighty Three Thousand Six Hundred Forty Seven\\\".\")\n        report.append(\"- No use of \\\"and\\\": The implementation correctly omits \\\"and\\\", matching the problem\u2019s U.S.-style examples.\")\n        report.append(\"\")\n        report.append(\"3. Complexity:\")\n        report.append(\"- Time Complexity:\")\n        report.append(\"  - The algorithm processes at most 4 groups (billions, millions, thousands, ones), each up to 3 digits.\")\n        report.append(\"  - All helper operations are constant-time bounded by this small size.\")\n        report.append(\"  - Effective time complexity is O(1) for the problem\u2019s input bounds.\")\n        report.append(\"- Space Complexity:\")\n        report.append(\"  - Uses fixed-size lookup tables (below_20, tens, scales).\")\n        report.append(\"  - Recursion depth in helper is bounded by the number of digits in a 3-digit group.\")\n        report.append(\"  - The words list and final string are bounded by the representation of the largest allowed integer.\")\n        report.append(\"  - Overall auxiliary space is O(1).\")\n        report.append(\"\")\n        report.append(\"4. Code Quality:\")\n        report.append(\"- The code is clear and readable, with descriptive variable names (below_20, tens, scales, helper, group, scale_index).\")\n        report.append(\"- The use of a nested helper(x) cleanly encapsulates the 0\u2013999 conversion logic.\")\n        report.append(\"- Control flow (if/elif chain in helper and while loop in main) is straightforward and easy to follow.\")\n        report.append(\"- Use of \\\" \\\".join(words) is appropriate for managing spaces cleanly.\")\n        report.append(\"- Minor observation: tens[1] = \\\"Ten\\\" is never actually used, since x < 20 is handled by below_20; this does not affect correctness but is a small redundancy.\")\n        report.append(\"- Using words.insert(0, ...) is slightly less efficient than appending and reversing, but with at most 4 groups this has no practical impact and remains clean.\")\n        report.append(\"\")\n        report.append(\"5. Sample Test Cases Walkthrough:\")\n        report.append(\"- Example 1: num = 123\")\n        report.append(\"  - Single group 123 -> helper(123) -> \\\"One Hundred Twenty Three\\\".\")\n        report.append(\"  - No scale word added (scale_index 0 -> \\\"\\\").\")\n        report.append(\"  - Output: \\\"One Hundred Twenty Three\\\" (matches expected).\")\n        report.append(\"- Example 2: num = 12345\")\n        report.append(\"  - Groups: 345 (ones), 12 (thousands).\")\n        report.append(\"  - helper(345) -> \\\"Three Hundred Forty Five\\\".\")\n        report.append(\"  - helper(12) + \\\" Thousand\\\" -> \\\"Twelve Thousand\\\".\")\n        report.append(\"  - Combined: \\\"Twelve Thousand Three Hundred Forty Five\\\" (matches expected).\")\n        report.append(\"- Example 3: num = 1234567\")\n        report.append(\"  - Groups: 567 (ones), 234 (thousands), 1 (millions).\")\n        report.append(\"  - helper(567) -> \\\"Five Hundred Sixty Seven\\\".\")\n        report.append(\"  - helper(234) + \\\" Thousand\\\" -> \\\"Two Hundred Thirty Four Thousand\\\".\")\n        report.append(\"  - helper(1) + \\\" Million\\\" -> \\\"One Million\\\".\")\n        report.append(\"  - Combined: \\\"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\\\" (matches expected).\")\n        report.append(\"\")\n        report.append(\"6. Potential Issues and Improvements:\")\n        report.append(\"- No functional bugs or logical errors were identified; the implementation is correct for all specified inputs.\")\n        report.append(\"- Possible minor improvements (non-essential):\")\n        report.append(\"  - Set tens[1] to \\\"\\\" to reflect that it is unused, or adjust the table for clarity; this is stylistic only.\")\n        report.append(\"  - Optionally define helper as a separate method if reuse or testing in isolation is desired, though the nested definition is perfectly acceptable here.\")\n        report.append(\"\")\n        report.append(\"Conclusion:\")\n        report.append(\"- The provided implementation is correct, handles all relevant edge cases, meets the expected time and space complexity, and is of good code quality.\")\n        report.append(\"- No changes are required for correctness; the solution is valid as-is.\")\n        return \"\\n\".join(report)\n\n",
+      "TypedCode": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        below_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\",\n            \"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\",\n            \"Seventeen\", \"Eighteen\", \"Nineteen\"\n        ]\n        \n        tens = [\n            \"\", \"Ten\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"\n        ]\n        \n        scales = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n        \n        def helper(x: int) -> str:\n            if x == 0:\n                return \"\"\n            if x < 20:\n                return below_20[x]\n            if x < 100:\n                tens_part = x // 10\n                ones_part = x % 10\n                if ones_part == 0:\n                    return tens[tens_part]\n                else:\n                    return tens[tens_part] + \" \" + below_20[ones_part]\n            hundreds_part = x // 100\n            remainder = x % 100\n            res = below_20[hundreds_part] + \" Hundred\"\n            if remainder != 0:\n                res = res + \" \" + helper(remainder)\n            return res\n        \n        words = []\n        scale_index = 0\n        while num > 0:\n            group = num % 1000\n            if group != 0:\n                group_words = helper(group)\n                if scales[scale_index] != \"\":\n                    group_words = group_words + \" \" + scales[scale_index]\n                words.insert(0, group_words)\n            num //= 1000\n            scale_index += 1\n        \n        return \" \".join(words)",
+      "Model": "openai/gpt-5.1",
+      "Latency": 174300891584,
+      "SolvedAt": "2025-11-19T15:38:59.61213+01:00",
+      "PromptTokens": 10014,
+      "OutputTokens": 8287
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "273",
+        "typed_code": "class Solution:\n    def numberToWords(self, num: int) -> str:\n        if num == 0:\n            return \"Zero\"\n        \n        below_20 = [\n            \"\", \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\",\n            \"Ten\", \"Eleven\", \"Twelve\", \"Thirteen\", \"Fourteen\", \"Fifteen\", \"Sixteen\",\n            \"Seventeen\", \"Eighteen\", \"Nineteen\"\n        ]\n        \n        tens = [\n            \"\", \"Ten\", \"Twenty\", \"Thirty\", \"Forty\", \"Fifty\", \"Sixty\", \"Seventy\", \"Eighty\", \"Ninety\"\n        ]\n        \n        scales = [\"\", \"Thousand\", \"Million\", \"Billion\"]\n        \n        def helper(x: int) -> str:\n            if x == 0:\n                return \"\"\n            if x < 20:\n                return below_20[x]\n            if x < 100:\n                tens_part = x // 10\n                ones_part = x % 10\n                if ones_part == 0:\n                    return tens[tens_part]\n                else:\n                    return tens[tens_part] + \" \" + below_20[ones_part]\n            hundreds_part = x // 100\n            remainder = x % 100\n            res = below_20[hundreds_part] + \" Hundred\"\n            if remainder != 0:\n                res = res + \" \" + helper(remainder)\n            return res\n        \n        words = []\n        scale_index = 0\n        while num > 0:\n            group = num % 1000\n            if group != 0:\n                group_words = helper(group)\n                if scales[scale_index] != \"\":\n                    group_words = group_words + \" \" + scales[scale_index]\n                words.insert(0, group_words)\n            num //= 1000\n            scale_index += 1\n        \n        return \" \".join(words)"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:39:55+01:00"
+    }
+  }
+}

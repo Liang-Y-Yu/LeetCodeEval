@@ -1,0 +1,210 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "703",
+        "questionId": "789",
+        "Content": "<p>You are part of a university admissions office and need to keep track of the <code>kth</code> highest test score from applicants in real-time. This helps to determine cut-off marks for interviews and admissions dynamically as new applicants submit their scores.</p>\n\n<p>You are tasked to implement a class which, for a given integer&nbsp;<code>k</code>, maintains a stream of test scores and continuously returns the&nbsp;<code>k</code>th highest test score&nbsp;<strong>after</strong>&nbsp;a new score has been submitted. More specifically, we are looking for the <code>k</code>th highest score in the sorted list of all scores.</p>\n\n<p>Implement the&nbsp;<code>KthLargest</code> class:</p>\n\n<ul>\n\t<li><code>KthLargest(int k, int[] nums)</code> Initializes the object with the integer <code>k</code> and the stream of test scores&nbsp;<code>nums</code>.</li>\n\t<li><code>int add(int val)</code> Adds a new test score&nbsp;<code>val</code> to the stream and returns the element representing the <code>k<sup>th</sup></code> largest element in the pool of test scores so far.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong><br />\n<span class=\"example-io\">[&quot;KthLargest&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;]<br />\n[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[null, 4, 5, 5, 8, 8]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);<br />\nkthLargest.add(3); // return 4<br />\nkthLargest.add(5); // return 5<br />\nkthLargest.add(10); // return 5<br />\nkthLargest.add(9); // return 8<br />\nkthLargest.add(4); // return 8</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong><br />\n<span class=\"example-io\">[&quot;KthLargest&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;]<br />\n[[4, [7, 7, 7, 7, 8, 3]], [2], [10], [9], [9]]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[null, 7, 7, 7, 8]</span></p>\n\n<p><strong>Explanation:</strong></p>\nKthLargest kthLargest = new KthLargest(4, [7, 7, 7, 7, 8, 3]);<br />\nkthLargest.add(2); // return 7<br />\nkthLargest.add(10); // return 7<br />\nkthLargest.add(9); // return 7<br />\nkthLargest.add(9); // return 8</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= nums.length + 1</code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= val &lt;= 10<sup>4</sup></code></li>\n\t<li>At most <code>10<sup>4</sup></code> calls will be made to <code>add</code>.</li>\n</ul>\n",
+        "SampleTestCase": "[\"KthLargest\",\"add\",\"add\",\"add\",\"add\",\"add\"]\n[[3,[4,5,8,2]],[3],[5],[10],[9],[4]]",
+        "ExampleTestcases": "[\"KthLargest\",\"add\",\"add\",\"add\",\"add\",\"add\"]\n[[3,[4,5,8,2]],[3],[5],[10],[9],[4]]\n[\"KthLargest\",\"add\",\"add\",\"add\",\"add\"]\n[[4,[7,7,7,7,8,3]],[2],[10],[9],[9]]",
+        "Difficulty": "Easy",
+        "Title": "Kth Largest Element in a Stream",
+        "TitleSlug": "kth-largest-element-in-a-stream",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"905.9K\", \"totalSubmission\": \"1.5M\", \"totalAcceptedRaw\": 905876, \"totalSubmissionRaw\": 1499706, \"acRate\": \"60.4%\"}",
+        "Likes": 6295,
+        "Dislikes": 4016,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjIw",
+            "Name": "Tree",
+            "Slug": "tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI1",
+            "Name": "Design",
+            "Slug": "design"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMw",
+            "Name": "Binary Search Tree",
+            "Slug": "binary-search-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUw",
+            "Name": "Heap (Priority Queue)",
+            "Slug": "heap-priority-queue"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU3",
+            "Name": "Binary Tree",
+            "Slug": "binary-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDYz",
+            "Name": "Data Stream",
+            "Slug": "data-stream"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class KthLargest {\npublic:\n    KthLargest(int k, vector<int>& nums) {\n        \n    }\n    \n    int add(int val) {\n        \n    }\n};\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * KthLargest* obj = new KthLargest(k, nums);\n * int param_1 = obj->add(val);\n */"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class KthLargest {\n\n    public KthLargest(int k, int[] nums) {\n        \n    }\n    \n    public int add(int val) {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * KthLargest obj = new KthLargest(k, nums);\n * int param_1 = obj.add(val);\n */"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        \n\n    def add(self, val: int) -> int:\n        \n\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest(k, nums)\n# param_1 = obj.add(val)"
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class KthLargest(object):\n\n    def __init__(self, k, nums):\n        \"\"\"\n        :type k: int\n        :type nums: List[int]\n        \"\"\"\n        \n\n    def add(self, val):\n        \"\"\"\n        :type val: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest(k, nums)\n# param_1 = obj.add(val)"
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} k\n * @param {number[]} nums\n */\nvar KthLargest = function(k, nums) {\n    \n};\n\n/** \n * @param {number} val\n * @return {number}\n */\nKthLargest.prototype.add = function(val) {\n    \n};\n\n/** \n * Your KthLargest object will be instantiated and called as such:\n * var obj = new KthLargest(k, nums)\n * var param_1 = obj.add(val)\n */"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "class KthLargest {\n    constructor(k: number, nums: number[]) {\n        \n    }\n\n    add(val: number): number {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * var obj = new KthLargest(k, nums)\n * var param_1 = obj.add(val)\n */"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class KthLargest {\n\n    public KthLargest(int k, int[] nums) {\n        \n    }\n    \n    public int Add(int val) {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * KthLargest obj = new KthLargest(k, nums);\n * int param_1 = obj.Add(val);\n */"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "\n\n\ntypedef struct {\n    \n} KthLargest;\n\n\nKthLargest* kthLargestCreate(int k, int* nums, int numsSize) {\n    \n}\n\nint kthLargestAdd(KthLargest* obj, int val) {\n    \n}\n\nvoid kthLargestFree(KthLargest* obj) {\n    \n}\n\n/**\n * Your KthLargest struct will be instantiated and called as such:\n * KthLargest* obj = kthLargestCreate(k, nums, numsSize);\n * int param_1 = kthLargestAdd(obj, val);\n \n * kthLargestFree(obj);\n*/"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "type KthLargest struct {\n    \n}\n\n\nfunc Constructor(k int, nums []int) KthLargest {\n    \n}\n\n\nfunc (this *KthLargest) Add(val int) int {\n    \n}\n\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * obj := Constructor(k, nums);\n * param_1 := obj.Add(val);\n */"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class KthLargest(k: Int, nums: IntArray) {\n\n    fun add(`val`: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * var obj = KthLargest(k, nums)\n * var param_1 = obj.add(`val`)\n */"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "\nclass KthLargest {\n\n    init(_ k: Int, _ nums: [Int]) {\n        \n    }\n    \n    func add(_ val: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * let obj = KthLargest(k, nums)\n * let ret_1: Int = obj.add(val)\n */"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "struct KthLargest {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl KthLargest {\n\n    fn new(k: i32, nums: Vec<i32>) -> Self {\n        \n    }\n    \n    fn add(&self, val: i32) -> i32 {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * let obj = KthLargest::new(k, nums);\n * let ret_1: i32 = obj.add(val);\n */"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "class KthLargest\n\n=begin\n    :type k: Integer\n    :type nums: Integer[]\n=end\n    def initialize(k, nums)\n        \n    end\n\n\n=begin\n    :type val: Integer\n    :rtype: Integer\n=end\n    def add(val)\n        \n    end\n\n\nend\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest.new(k, nums)\n# param_1 = obj.add(val)"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class KthLargest {\n    /**\n     * @param Integer $k\n     * @param Integer[] $nums\n     */\n    function __construct($k, $nums) {\n        \n    }\n  \n    /**\n     * @param Integer $val\n     * @return Integer\n     */\n    function add($val) {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * $obj = KthLargest($k, $nums);\n * $ret_1 = $obj->add($val);\n */"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class KthLargest {\n\n  KthLargest(int k, List<int> nums) {\n    \n  }\n  \n  int add(int val) {\n    \n  }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * KthLargest obj = KthLargest(k, nums);\n * int param1 = obj.add(val);\n */"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "class KthLargest(_k: Int, _nums: Array[Int]) {\n\n    def add(`val`: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * val obj = new KthLargest(k, nums)\n * val param_1 = obj.add(`val`)\n */"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule KthLargest do\n  @spec init_(k :: integer, nums :: [integer]) :: any\n  def init_(k, nums) do\n    \n  end\n\n  @spec add(val :: integer) :: integer\n  def add(val) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# KthLargest.init_(k, nums)\n# param_1 = KthLargest.add(val)\n\n# KthLargest.init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec kth_largest_init_(K :: integer(), Nums :: [integer()]) -> any().\nkth_largest_init_(K, Nums) ->\n  .\n\n-spec kth_largest_add(Val :: integer()) -> integer().\nkth_largest_add(Val) ->\n  .\n\n\n%% Your functions will be called as such:\n%% kth_largest_init_(K, Nums),\n%% Param_1 = kth_largest_add(Val),\n\n%% kth_largest_init_ will be called before every test case, in which you can do some necessary initializations."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define kth-largest%\n  (class object%\n    (super-new)\n    \n    ; k : exact-integer?\n    ; nums : (listof exact-integer?)\n    (init-field\n      k\n      nums)\n    \n    ; add : exact-integer? -> exact-integer?\n    (define/public (add val)\n      )))\n\n;; Your kth-largest% object will be instantiated and called as such:\n;; (define obj (new kth-largest% [k k] [nums nums]))\n;; (define param_1 (send obj add val))"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:01:17.393801+01:00",
+    "AcRate": "60.4",
+    "TotalSubmissions": 1499706,
+    "TotalAccepted": 905876,
+    "AcceptanceRate": 0.6040357243353031,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "multi",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "multi",
+      "racket": "",
+      "ruby": "multi",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are part of a university admissions office and need to keep track of the kth highest test score from applicants in real-time. This helps to determine cut-off marks for interviews and admissions dynamically as new applicants submit their scores.\nYou are tasked to implement a class which, for a given integer\u00a0k, maintains a stream of test scores and continuously returns the\u00a0kth highest test score\u00a0after\u00a0a new score has been submitted. More specifically, we are looking for the kth highest score in the sorted list of all scores.\nImplement the\u00a0KthLargest class:\n\tKthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of test scores\u00a0nums.\n\tint add(int val) Adds a new test score\u00a0val to the stream and returns the element representing the k^th largest element in the pool of test scores so far.\n\u00a0\nExample 1:\nInput:\n[\"KthLargest\", \"add\", \"add\", \"add\", \"add\", \"add\"]\n[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]\nOutput: [null, 4, 5, 5, 8, 8]\nExplanation:\nKthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);\nkthLargest.add(3); // return 4\nkthLargest.add(5); // return 5\nkthLargest.add(10); // return 5\nkthLargest.add(9); // return 8\nkthLargest.add(4); // return 8\nExample 2:\nInput:\n[\"KthLargest\", \"add\", \"add\", \"add\", \"add\"]\n[[4, [7, 7, 7, 7, 8, 3]], [2], [10], [9], [9]]\nOutput: [null, 7, 7, 7, 8]\nExplanation:\nKthLargest kthLargest = new KthLargest(4, [7, 7, 7, 7, 8, 3]);\nkthLargest.add(2); // return 7\nkthLargest.add(10); // return 7\nkthLargest.add(9); // return 7\nkthLargest.add(9); // return 8\n\u00a0\nConstraints:\n\t0 <= nums.length <= 10^4\n\t1 <= k <= nums.length + 1\n\t-10^4 <= nums[i] <= 10^4\n\t-10^4 <= val <= 10^4\n\tAt most 10^4 calls will be made to add.\n\nHere is the code snippet, which you should expand with your solution: class KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        \n\n    def add(self, val: int) -> int:\n        \n\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest(k, nums)\n# param_1 = obj.add(val)\n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "To solve this problem, we need to design a class that efficiently maintains a stream of test scores and returns the kth highest score after each new score is added. The challenge is to handle large inputs and frequent add operations efficiently.\n\n### Approach\n1. **Problem Analysis**: The problem requires maintaining a dynamic list of scores and quickly returning the kth largest element after each insertion. A naive approach would be to store all scores and sort them each time an element is added, which would be inefficient for large inputs (O(n log n) per add operation).\n\n2. **Intuition**: We can use a min-heap (priority queue) to keep track of the k largest elements. The min-heap will store the k largest elements, with the smallest of these k at the root. This allows us to access the kth largest element in constant time (it is the root of the min-heap). When we add a new value, we compare it with the root of the heap. If the new value is larger, we replace the root with the new value and heapify to maintain the heap property. Otherwise, the root remains unchanged.\n\n3. **Data Structure Selection**: A min-heap is suitable because:\n   - It efficiently maintains the smallest element at the top.\n   - Insertion and extraction operations are O(log k), which is efficient since k is fixed.\n\n4. **Implementation Details**:\n   - **Initialization**: Initialize the min-heap with the initial list of numbers. However, we only need to keep the k largest numbers. So, we first create a heap from the initial list. If the initial list has more than k elements, we remove the smallest ones until we have exactly k elements. The root of this heap is the kth largest.\n   - **Add Operation**: When adding a new value:\n        - If the heap has fewer than k elements, we add the value and adjust the heap.\n        - Otherwise, if the new value is larger than the root, we replace the root with the new value and heapify.\n        - The root of the heap after each operation is the kth largest element.\n\n5. **Complexity Analysis**:\n   - Initialization: O(n log k) for building the heap from n initial elements.\n   - Add Operation: O(log k) for each insertion, which is efficient for up to 10^4 calls.\n\n### Solution Code\n```python\nimport heapq\nfrom typing import List\n\nclass KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        self.k = k\n        self.heap = []\n        for num in nums:\n            if len(self.heap) < k:\n                heapq.heappush(self.heap, num)\n            else:\n                if num > self.heap[0]:\n                    heapq.heapreplace(self.heap, num)\n\n    def add(self, val: int) -> int:\n        if len(self.heap) < self.k:\n            heapq.heappush(self.heap, val)\n        else:\n            if val > self.heap[0]:\n                heapq.heapreplace(self.heap, val)\n        return self.heap[0]\n```\n\n### Explanation\n1. **Initialization**:\n   - We initialize the min-heap with the given `nums` list. We only keep the largest `k` elements by pushing elements until we have `k` elements. For subsequent elements, if they are larger than the smallest element in the heap (root), we replace the root with the new element.\n\n2. **Add Operation**:\n   - When adding a new value `val`, if the heap has fewer than `k` elements, we simply push `val` into the heap.\n   - If the heap already has `k` elements, we compare `val` with the root. If `val` is larger, we replace the root with `val` and adjust the heap to maintain the min-heap property.\n   - The root of the heap (the smallest element in the heap of the k largest elements) is the kth largest element in the entire list, which we return after each add operation.\n\nThis approach efficiently maintains the kth largest element with logarithmic time complexity for each insertion, making it suitable for large inputs and frequent add operations.",
+      "TypedCode": "\nimport heapq\nfrom typing import List\n\nclass KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        self.k = k\n        self.heap = []\n        for num in nums:\n            if len(self.heap) < k:\n                heapq.heappush(self.heap, num)\n            else:\n                if num > self.heap[0]:\n                    heapq.heapreplace(self.heap, num)\n\n    def add(self, val: int) -> int:\n        if len(self.heap) < self.k:\n            heapq.heappush(self.heap, val)\n        else:\n            if val > self.heap[0]:\n                heapq.heapreplace(self.heap, val)\n        return self.heap[0]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 16153002084,
+      "SolvedAt": "2025-11-20T21:18:59.171787+01:00",
+      "PromptTokens": 846,
+      "OutputTokens": 883
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "789",
+        "typed_code": "\nimport heapq\nfrom typing import List\n\nclass KthLargest:\n\n    def __init__(self, k: int, nums: List[int]):\n        self.k = k\n        self.heap = []\n        for num in nums:\n            if len(self.heap) < k:\n                heapq.heappush(self.heap, num)\n            else:\n                if num > self.heap[0]:\n                    heapq.heapreplace(self.heap, num)\n\n    def add(self, val: int) -> int:\n        if len(self.heap) < self.k:\n            heapq.heappush(self.heap, val)\n        else:\n            if val > self.heap[0]:\n                heapq.heapreplace(self.heap, val)\n        return self.heap[0]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T22:49:28+01:00"
+    }
+  }
+}

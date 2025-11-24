@@ -1,0 +1,185 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "520",
+        "questionId": "520",
+        "Content": "<p>We define the usage of capitals in a word to be right when one of the following cases holds:</p>\n\n<ul>\n\t<li>All letters in this word are capitals, like <code>&quot;USA&quot;</code>.</li>\n\t<li>All letters in this word are not capitals, like <code>&quot;leetcode&quot;</code>.</li>\n\t<li>Only the first letter in this word is capital, like <code>&quot;Google&quot;</code>.</li>\n</ul>\n\n<p>Given a string <code>word</code>, return <code>true</code> if the usage of capitals in it is right.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> word = \"USA\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> word = \"FlaG\"\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= word.length &lt;= 100</code></li>\n\t<li><code>word</code> consists of lowercase and uppercase English letters.</li>\n</ul>\n",
+        "SampleTestCase": "\"USA\"",
+        "ExampleTestcases": "\"USA\"\n\"FlaG\"",
+        "Difficulty": "Easy",
+        "Title": "Detect Capital",
+        "TitleSlug": "detect-capital",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"516.2K\", \"totalSubmission\": \"918K\", \"totalAcceptedRaw\": 516187, \"totalSubmissionRaw\": 918006, \"acRate\": \"56.2%\"}",
+        "Likes": 3546,
+        "Dislikes": 469,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool detectCapitalUse(string word) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean detectCapitalUse(String word) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def detectCapitalUse(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} word\n * @return {boolean}\n */\nvar detectCapitalUse = function(word) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function detectCapitalUse(word: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool DetectCapitalUse(string word) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool detectCapitalUse(char* word) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func detectCapitalUse(word string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun detectCapitalUse(word: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func detectCapitalUse(_ word: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn detect_capital_use(word: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} word\n# @return {Boolean}\ndef detect_capital_use(word)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $word\n     * @return Boolean\n     */\n    function detectCapitalUse($word) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool detectCapitalUse(String word) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def detectCapitalUse(word: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec detect_capital_use(word :: String.t) :: boolean\n  def detect_capital_use(word) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec detect_capital_use(Word :: unicode:unicode_binary()) -> boolean().\ndetect_capital_use(Word) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (detect-capital-use word)\n  (-> string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:13:03.661366+01:00",
+    "AcRate": "56.2",
+    "TotalSubmissions": 918006,
+    "TotalAccepted": 516187,
+    "AcceptanceRate": 0.5622915318636261,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/detect-capital/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nLooking at this problem, I need to analyze it first and then provide a solution.\n\n## Analysis\n\n1. **Problem Type Classification**: String manipulation and validation\n\n2. **Key Patterns & Algorithms**: \n   - String traversal and character case checking\n   - Pattern matching (checking if string follows one of three valid patterns)\n\n3. **Constraints Analysis**: \n   - With word length up to 100, O(n) time and O(1) space is more than sufficient\n   - Simple linear scan will work well\n\n4. **Edge Cases**:\n   - Single character word (both uppercase and lowercase)\n   - All uppercase letters\n   - All lowercase letters\n   - Only first letter uppercase\n   - Mixed case patterns that are invalid\n\n5. **Input/Output Analysis**:\n   - Input: A string containing only English letters\n   - Output: Boolean indicating if capitalization usage is correct\n\n6. **Difficulty Assessment**: \n   - This is a straightforward problem requiring pattern matching\n   - The challenge is correctly identifying and implementing all three valid cases\n   - Need to handle the logic clearly to avoid missing edge cases\n\n## Solution Approach\n\nThe three valid patterns are:\n1. All capitals: \"USA\"\n2. All lowercase: \"leetcode\"\n3. Only first capital: \"Google\"\n\nI can check these conditions:\n- If all characters are uppercase \u2192 valid\n- If all characters are lowercase \u2192 valid\n- If first character is uppercase and rest are lowercase \u2192 valid\n- All other cases \u2192 invalid\n\n```python\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 15238988833,
+      "SolvedAt": "2025-11-19T23:30:20.829087+01:00",
+      "PromptTokens": 3694,
+      "OutputTokens": 660
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "520",
+        "typed_code": "\nclass Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        if word.isupper():\n            return True\n        if word.islower():\n            return True\n        if word[0].isupper() and word[1:].islower():\n            return True\n        return False\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T08:17:48+01:00"
+    }
+  }
+}

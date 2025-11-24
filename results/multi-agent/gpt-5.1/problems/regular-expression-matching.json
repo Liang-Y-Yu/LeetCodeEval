@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "10",
+        "questionId": "10",
+        "Content": "<p>Given an input string <code>s</code>&nbsp;and a pattern <code>p</code>, implement regular expression matching with support for <code>&#39;.&#39;</code> and <code>&#39;*&#39;</code> where:</p>\n\n<ul>\n\t<li><code>&#39;.&#39;</code> Matches any single character.\u200b\u200b\u200b\u200b</li>\n\t<li><code>&#39;*&#39;</code> Matches zero or more of the preceding element.</li>\n</ul>\n\n<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a&quot;\n<strong>Output:</strong> false\n<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a*&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> &#39;*&#39; means zero or more of the preceding element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes &quot;aa&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ab&quot;, p = &quot;.*&quot;\n<strong>Output:</strong> true\n<strong>Explanation:</strong> &quot;.*&quot; means &quot;zero or more (*) of any character (.)&quot;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length&nbsp;&lt;= 20</code></li>\n\t<li><code>1 &lt;= p.length&nbsp;&lt;= 20</code></li>\n\t<li><code>s</code> contains only lowercase English letters.</li>\n\t<li><code>p</code> contains only lowercase English letters, <code>&#39;.&#39;</code>, and&nbsp;<code>&#39;*&#39;</code>.</li>\n\t<li>It is guaranteed for each appearance of the character <code>&#39;*&#39;</code>, there will be a previous valid character to match.</li>\n</ul>\n",
+        "SampleTestCase": "\"aa\"\n\"a\"",
+        "ExampleTestcases": "\"aa\"\n\"a\"\n\"aa\"\n\"a*\"\n\"ab\"\n\".*\"",
+        "Difficulty": "Hard",
+        "Title": "Regular Expression Matching",
+        "TitleSlug": "regular-expression-matching",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.3M\", \"totalSubmission\": \"4.3M\", \"totalAcceptedRaw\": 1274000, \"totalSubmissionRaw\": 4252064, \"acRate\": \"30.0%\"}",
+        "Likes": 13059,
+        "Dislikes": 2355,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMx",
+            "Name": "Recursion",
+            "Slug": "recursion"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool isMatch(string s, string p) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean isMatch(String s, String p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def isMatch(self, s, p):\n        \"\"\"\n        :type s: str\n        :type p: str\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @param {string} p\n * @return {boolean}\n */\nvar isMatch = function(s, p) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function isMatch(s: string, p: string): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool IsMatch(string s, string p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool isMatch(char* s, char* p) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func isMatch(s string, p string) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun isMatch(s: String, p: String): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func isMatch(_ s: String, _ p: String) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn is_match(s: String, p: String) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @param {String} p\n# @return {Boolean}\ndef is_match(s, p)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $p\n     * @return Boolean\n     */\n    function isMatch($s, $p) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool isMatch(String s, String p) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def isMatch(s: String, p: String): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec is_match(s :: String.t, p :: String.t) :: boolean\n  def is_match(s, p) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec is_match(S :: unicode:unicode_binary(), P :: unicode:unicode_binary()) -> boolean().\nis_match(S, P) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (is-match s p)\n  (-> string? string? boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:39:18.525605+01:00",
+    "AcRate": "30.0",
+    "TotalSubmissions": 4252064,
+    "TotalAccepted": 1274000,
+    "AcceptanceRate": 0.2996191967007082,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/regular-expression-matching/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        dp[i][j] = dp[i][j] or dp[i - 1][j]\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        dp[i][j] = dp[i - 1][j - 1]\n\n        return dp[m][n]\n\n=== DESIGN ===\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        if dp[i - 1][j]:\n                            dp[i][j] = True\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        if dp[i - 1][j - 1]:\n                            dp[i][j] = True\n\n        return dp[m][n]\n\n=== IMPLEMENTATION ===\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        if dp[i - 1][j]:\n                            dp[i][j] = True\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        if dp[i - 1][j - 1]:\n                            dp[i][j] = True\n        return dp[m][n]\n\n=== VERIFICATION ===\nclass Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        if dp[i - 1][j]:\n                            dp[i][j] = True\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        if dp[i - 1][j - 1]:\n                            dp[i][j] = True\n        return dp[m][n]\n\n",
+      "TypedCode": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        if dp[i - 1][j]:\n                            dp[i][j] = True\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        if dp[i - 1][j - 1]:\n                            dp[i][j] = True\n        return dp[m][n]",
+      "Model": "openai/gpt-5.1",
+      "Latency": 28074272584,
+      "SolvedAt": "2025-11-19T16:20:17.511751+01:00",
+      "PromptTokens": 4002,
+      "OutputTokens": 2085
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "10",
+        "typed_code": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        m, n = len(s), len(p)\n        dp = [[False] * (n + 1) for _ in range(m + 1)]\n        dp[0][0] = True\n        for j in range(2, n + 1):\n            if p[j - 1] == '*' and dp[0][j - 2]:\n                dp[0][j] = True\n        for i in range(1, m + 1):\n            for j in range(1, n + 1):\n                if p[j - 1] == '*':\n                    dp[i][j] = dp[i][j - 2]\n                    if p[j - 2] == '.' or p[j - 2] == s[i - 1]:\n                        if dp[i - 1][j]:\n                            dp[i][j] = True\n                else:\n                    if p[j - 1] == '.' or p[j - 1] == s[i - 1]:\n                        if dp[i - 1][j - 1]:\n                            dp[i][j] = True\n        return dp[m][n]"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:27:23+01:00"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "190",
+        "questionId": "190",
+        "Content": "<p>Reverse bits of a given 32 bits signed integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 43261596</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">964176192</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Integer</th>\n\t\t\t<th>Binary</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>43261596</td>\n\t\t\t<td>00000010100101000001111010011100</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>964176192</td>\n\t\t\t<td>00111001011110000010100101000000</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 2147483644</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1073741822</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Integer</th>\n\t\t\t<th>Binary</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2147483644</td>\n\t\t\t<td>01111111111111111111111111111100</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1073741822</td>\n\t\t\t<td>00111111111111111111111111111110</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 2<sup>31</sup> - 2</code></li>\n\t<li><code>n</code> is even.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong> If this function is called many times, how would you optimize it?</p>\n",
+        "SampleTestCase": "43261596",
+        "ExampleTestcases": "43261596\n2147483644",
+        "Difficulty": "Easy",
+        "Title": "Reverse Bits",
+        "TitleSlug": "reverse-bits",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1.1M\", \"totalSubmission\": \"1.7M\", \"totalAcceptedRaw\": 1115375, \"totalSubmissionRaw\": 1717468, \"acRate\": \"64.9%\"}",
+        "Likes": 5533,
+        "Dislikes": 1636,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEy",
+            "Name": "Divide and Conquer",
+            "Slug": "divide-and-conquer"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int reverseBits(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int reverseBits(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def reverseBits(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def reverseBits(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar reverseBits = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function reverseBits(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int ReverseBits(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int reverseBits(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func reverseBits(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun reverseBits(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func reverseBits(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn reverse_bits(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef reverse_bits(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function reverseBits($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int reverseBits(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def reverseBits(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec reverse_bits(n :: integer) :: integer\n  def reverse_bits(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec reverse_bits(N :: integer()) -> integer().\nreverse_bits(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (reverse-bits n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:28:16.086362+01:00",
+    "AcRate": "64.9",
+    "TotalSubmissions": 1717468,
+    "TotalAccepted": 1115375,
+    "AcceptanceRate": 0.6494298583729071,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/reverse-bits/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            # Left shift the result to make space for the next bit.\n            reversed_n <<= 1\n            # Get the least significant bit (LSB) of n.\n            lsb = n & 1\n            # Add the LSB of n to the result.\n            reversed_n |= lsb\n            # Right shift n to process the next bit in its sequence.\n            n >>= 1\n        return reversed_n\n\n```\n\n=== DESIGN ===\nAn elegant and effective solution can be designed using bit-by-bit manipulation. This approach iterates through the bits of the integer one by one, from the least significant to the most significant, and constructs the reversed integer by placing each extracted bit into the appropriate position in a result variable.\n\n### 1. Algorithm Choice\nThe chosen approach is a **bit-by-bit manipulation** technique. We will iterate through the 32 bits of the input integer, extracting one bit at a time from the least significant end and constructing the reversed integer by adding these bits to the most significant end of a result variable. This method is direct, efficient for a single execution, and doesn't rely on any external libraries or complex data structures, making it a fundamental and robust choice.\n\n### 2. Step-by-Step Approach\n1. Initialize an integer variable, `reversed_n`, to 0. This variable will accumulate the bits of the reversed integer.\n2. Start a loop that iterates 32 times, corresponding to the 32 bits of the integer.\n3. In each iteration:\n   a. Perform a left bit shift on `reversed_n` (`reversed_n <<= 1`). This shifts all its current bits one position to the left, opening up the least significant bit (LSB) position for the next bit from the input `n`.\n   b. Extract the LSB of the input integer `n` using the bitwise AND operator with 1 (`n & 1`).\n   c. Incorporate this extracted bit into `reversed_n` using the bitwise OR operator (`reversed_n |= (n & 1)`). The bit is placed into the LSB position that was just cleared.\n   d. Perform a right bit shift on `n` (`n >>= 1`). This discards the LSB that has just been processed and moves the next bit into the LSB position for the subsequent iteration.\n4. After 32 iterations, `reversed_n` will hold the complete 32-bit reversed value.\n5. Return `reversed_n` as the final result.\n\n### 3. Data Structures\nThe solution only requires basic integer variables (`n` for input, `reversed_n` for the result, and a loop counter). No complex data structures like arrays or hashmaps are necessary.\n\n### 4. Time Complexity\nThe algorithm consists of a loop that runs a fixed 32 times. Inside the loop, a constant number of simple bitwise operations are performed. Therefore, the time complexity is constant, **O(1)**. More precisely, it's O(W) where W is the bit-width of the integer (W=32), which is constant.\n\n### 5. Space Complexity\nThe algorithm uses a fixed number of variables to store the state (input number, result, loop index). The memory usage does not scale with the magnitude of the input integer. Thus, the space complexity is constant, **O(1)**.\n\n### 6. Pseudocode\n```\nFUNCTION reverseBits(n):\n  // Initialize the result to 0\n  SET reversed_n = 0\n\n  // Iterate 32 times for a 32-bit integer\n  FOR i from 1 to 32:\n    // 1. Shift result to the left to make space\n    reversed_n = reversed_n << 1\n\n    // 2. Get the last bit of n\n    last_bit = n & 1\n\n    // 3. Add the last bit to the result\n    reversed_n = reversed_n | last_bit\n\n    // 4. Discard the last bit of n\n    n = n >> 1\n    \n  // Return the final reversed integer\n  RETURN reversed_n\n```\n\n```python\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            reversed_n <<= 1\n            lsb = n & 1\n            reversed_n |= lsb\n            n >>= 1\n        return reversed_n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            # Left shift the result to make space for the next bit.\n            reversed_n <<= 1\n            # Get the least significant bit (LSB) of n.\n            lsb = n & 1\n            # Add the LSB of n to the result.\n            reversed_n |= lsb\n            # Right shift n to process the next bit in its sequence.\n            n >>= 1\n        return reversed_n\n```\n\n=== VERIFICATION ===\nAn elegant and effective solution can be designed using bit-by-bit manipulation. This approach iterates through the bits of the integer one by one, from the least significant to the most significant, and constructs the reversed integer by placing each extracted bit into the appropriate position in a result variable.\n\nThe provided `Analysis` and `Design` sections accurately describe a correct and efficient algorithm for this problem. The `Implemented Code` is a faithful implementation of that design.\n\n### Verification Report\n\n1.  **Correctness**: The code correctly implements the bit-by-bit reversal algorithm. It iterates 32 times, once for each bit. In each step, it isolates the least significant bit (LSB) of the input `n` (`n & 1`) and appends it to the result `reversed_n`. It does this by first shifting `reversed_n` to the left (`<<= 1`) to make space, and then using a bitwise OR (`|=`) to set the new LSB. Finally, it shifts `n` to the right (`>>= 1`) to process the next bit. This logic is sound and correctly reverses the 32 bits of the input integer.\n\n2.  **Edge Cases**: The constraints are `0 <= n <= 2^31 - 2` and `n` is even.\n    *   If `n = 0`, the loop will execute 32 times. In each iteration, `n & 1` is 0, so `reversed_n` remains 0. The function correctly returns 0.\n    *   The largest value in the range is handled correctly by the bitwise operations.\n    *   The `n is even` constraint means the LSB of `n` is 0, so the most significant bit of the result will be 0. This is consistent with a positive 32-bit integer result. The algorithm works for odd numbers as well, so this constraint does not affect its correctness.\n    *   The problem mentions \"signed integer\", but the constraints limit `n` to non-negative values, so the sign bit is always 0. The code correctly handles this space of 32-bit non-negative integers.\n\n3.  **Complexity**:\n    *   **Time Complexity**: The `for` loop runs a fixed 32 times, and the operations inside are all constant time. Thus, the time complexity is **O(1)**.\n    *   **Space Complexity**: The solution uses a few variables to store the result and intermediate values. The memory usage is constant regardless of the input size. Thus, the space complexity is **O(1)**.\n    The implementation meets the expected complexity.\n\n4.  **Code Quality**: The code is clean, readable, and well-structured. Variable names like `reversed_n` and `lsb` are descriptive. The use of bitwise operators is efficient and appropriate for this problem. The comments clearly explain the logic of each step.\n\n5.  **Test Cases**:\n    *   **Input: `n = 43261596`** (`00000010100101000001111010011100`)\n        The code will reverse the bits to get `00111001011110000010100101000000`, which is a decimal value of **`964176192`**. The output is correct.\n    *   **Input: `n = 2147483644`** (`01111111111111111111111111111100`)\n        The code will reverse the bits to get `00111111111111111111111111111110`, which is a decimal value of **`1073741822`**. The output is correct.\n\n6.  **Potential Issues**: There are no bugs or logical errors in the provided solution. It is a correct and robust implementation for the problem as defined. The follow-up question about optimizing for multiple calls could be addressed with a caching/memoization strategy (e.g., pre-calculating reversals of all possible bytes), but this is an optimization and not a flaw in the current single-call implementation.\n\n**Conclusion**: The provided solution is fully correct, efficient, and well-written. It passes all checks.\n\n```python\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            reversed_n <<= 1\n            lsb = n & 1\n            reversed_n |= lsb\n            n >>= 1\n        return reversed_n\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            # Left shift the result to make space for the next bit.\n            reversed_n <<= 1\n            # Get the least significant bit (LSB) of n.\n            lsb = n & 1\n            # Add the LSB of n to the result.\n            reversed_n |= lsb\n            # Right shift n to process the next bit in its sequence.\n            n >>= 1\n        return reversed_n\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 261674734499,
+      "SolvedAt": "2025-11-21T16:32:57.499323+01:00",
+      "PromptTokens": 5250,
+      "OutputTokens": 29282
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "190",
+        "typed_code": "\nclass Solution:\n    def reverseBits(self, n: int) -> int:\n        reversed_n = 0\n        for _ in range(32):\n            # Left shift the result to make space for the next bit.\n            reversed_n <<= 1\n            # Get the least significant bit (LSB) of n.\n            lsb = n & 1\n            # Add the LSB of n to the result.\n            reversed_n |= lsb\n            # Right shift n to process the next bit in its sequence.\n            n >>= 1\n        return reversed_n\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:36:36+01:00"
+    }
+  }
+}

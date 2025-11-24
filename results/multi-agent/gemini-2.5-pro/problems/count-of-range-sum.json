@@ -1,0 +1,215 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "327",
+        "questionId": "327",
+        "Content": "<p>Given an integer array <code>nums</code> and two integers <code>lower</code> and <code>upper</code>, return <em>the number of range sums that lie in</em> <code>[lower, upper]</code> <em>inclusive</em>.</p>\n\n<p>Range sum <code>S(i, j)</code> is defined as the sum of the elements in <code>nums</code> between indices <code>i</code> and <code>j</code> inclusive, where <code>i &lt;= j</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-2,5,-1], lower = -2, upper = 2\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The three ranges are: [0,0], [2,2], and [0,2] and their respective sums are: -2, -1, 2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0], lower = 0, upper = 0\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>-10<sup>5</sup> &lt;= lower &lt;= upper &lt;= 10<sup>5</sup></code></li>\n\t<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</li>\n</ul>\n",
+        "SampleTestCase": "[-2,5,-1]\n-2\n2",
+        "ExampleTestcases": "[-2,5,-1]\n-2\n2\n[0]\n0\n0",
+        "Difficulty": "Hard",
+        "Title": "Count of Range Sum",
+        "TitleSlug": "count-of-range-sum",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"97.3K\", \"totalSubmission\": \"257.3K\", \"totalAcceptedRaw\": 97340, \"totalSubmissionRaw\": 257272, \"acRate\": \"37.8%\"}",
+        "Likes": 2469,
+        "Dislikes": 261,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEy",
+            "Name": "Divide and Conquer",
+            "Slug": "divide-and-conquer"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI4",
+            "Name": "Binary Indexed Tree",
+            "Slug": "binary-indexed-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjI5",
+            "Name": "Segment Tree",
+            "Slug": "segment-tree"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDUx",
+            "Name": "Merge Sort",
+            "Slug": "merge-sort"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDcw",
+            "Name": "Ordered Set",
+            "Slug": "ordered-set"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countRangeSum(vector<int>& nums, int lower, int upper) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countRangeSum(self, nums, lower, upper):\n        \"\"\"\n        :type nums: List[int]\n        :type lower: int\n        :type upper: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar countRangeSum = function(nums, lower, upper) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countRangeSum(nums: number[], lower: number, upper: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountRangeSum(int[] nums, int lower, int upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countRangeSum(int* nums, int numsSize, int lower, int upper) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countRangeSum(nums []int, lower int, upper int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countRangeSum(nums: IntArray, lower: Int, upper: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countRangeSum(_ nums: [Int], _ lower: Int, _ upper: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_range_sum(nums: Vec<i32>, lower: i32, upper: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} lower\n# @param {Integer} upper\n# @return {Integer}\ndef count_range_sum(nums, lower, upper)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $lower\n     * @param Integer $upper\n     * @return Integer\n     */\n    function countRangeSum($nums, $lower, $upper) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countRangeSum(List<int> nums, int lower, int upper) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countRangeSum(nums: Array[Int], lower: Int, upper: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_range_sum(nums :: [integer], lower :: integer, upper :: integer) :: integer\n  def count_range_sum(nums, lower, upper) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_range_sum(Nums :: [integer()], Lower :: integer(), Upper :: integer()) -> integer().\ncount_range_sum(Nums, Lower, Upper) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-range-sum nums lower upper)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:22:40.06433+01:00",
+    "AcRate": "37.8",
+    "TotalSubmissions": 257272,
+    "TotalAccepted": 97340,
+    "AcceptanceRate": 0.37835442644360834,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-of-range-sum/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient solution to this problem can be achieved using a divide and conquer approach, specifically by augmenting the merge sort algorithm. The core idea is to transform the problem of counting range sums into counting pairs of prefix sums that satisfy a certain condition.\n\nFirst, we compute the prefix sum array, let's call it `prefix_sums`. `prefix_sums[k]` will store the sum of the first `k` elements of the input array `nums`. We initialize `prefix_sums[0] = 0`. With this, the sum of any range `S(i, j)` (from index `i` to `j` in `nums`) can be calculated in O(1) time as `prefix_sums[j+1] - prefix_sums[i]`.\n\nThe problem is to find the number of pairs `(i, j)` with `i <= j` such that `lower <= S(i, j) <= upper`.\nSubstituting `S(i, j)`, we get: `lower <= prefix_sums[j+1] - prefix_sums[i] <= upper`.\n\nLet's re-index for simplicity: we need to find pairs of indices `(p, q)` in the `prefix_sums` array where `p < q`, such that `lower <= prefix_sums[q] - prefix_sums[p] <= upper`. Rearranging this inequality gives us:\n`prefix_sums[q] - upper <= prefix_sums[p] <= prefix_sums[q] - lower`.\n\nThis new problem can be solved with a modified merge sort on the `prefix_sums` array. The algorithm works as follows:\n1.  Recursively sort and count range sums in the left and right halves of the `prefix_sums` array.\n2.  During the \"merge\" step, count the pairs `(p, q)` where `prefix_sums[p]` is in the sorted left half and `prefix_sums[q]` is in the sorted right half, satisfying the condition.\n3.  Finally, merge the two sorted halves to maintain the sorted property for higher levels of recursion.\n\nFor the counting step in the merge phase, we can iterate through each element `prefix_sums[q]` in the right half. For each `prefix_sums[q]`, we need to count how many elements `prefix_sums[p]` in the left half fall within the range `[prefix_sums[q] - upper, prefix_sums[q] - lower]`. Since the left half is already sorted, this count can be found efficiently using two pointers, leading to a linear time `O(N)` complexity for the combined counting and merging step, where `N` is the size of the subarray.\n\nThe overall time complexity of this approach is `O(N log N)` due to the merge sort structure, and the space complexity is `O(N)` for the prefix sum array and the temporary array used in the merge step. This is efficient enough to pass within the given constraints.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n\n            mid = low + (high - low) // 2\n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n            \n            # Count pairs (i, j) where i is in the left half, j in the right.\n            # We want: lower <= prefix_sums[j] - prefix_sums[i] <= upper\n            # which is: prefix_sums[j] - upper <= prefix_sums[i] <= prefix_sums[j] - lower\n            # After recursive calls, prefix_sums[low...mid] and prefix_sums[mid+1...high] are sorted.\n\n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                # Find first index k in left half s.t. prefix_sums[k] >= prefix_sums[j] - upper\n                while k <= mid and prefix_sums[k] < prefix_sums[j] - upper:\n                    k += 1\n                # Find first index l in left half s.t. prefix_sums[l] > prefix_sums[j] - lower\n                while l <= mid and prefix_sums[l] <= prefix_sums[j] - lower:\n                    l += 1\n                count += l - k\n            \n            # Merge the two sorted halves\n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            for i in range(len(temp)):\n                prefix_sums[low + i] = temp[i]\n\n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n```\n\n=== DESIGN ===\nAn elegant and efficient solution can be achieved using a divide and conquer approach, specifically by augmenting the merge sort algorithm. This approach works by transforming the problem from counting range sums `S(i, j)` to counting pairs of prefix sums that satisfy a certain condition.\n\n1.  **Algorithm Choice**: A divide and conquer algorithm using a modified **Merge Sort** is an optimal choice. It breaks down the problem recursively and solves it in the \"conquer\" (merge) phase, achieving an `O(N log N)` time complexity.\n\n2.  **Step-by-Step Approach**:\n    1.  **Prefix Sum Calculation**: First, create a `prefix_sums` array of size `N+1` (where N is `nums.length`). Initialize `prefix_sums[0] = 0`, and for `k > 0`, `prefix_sums[k]` will be the cumulative sum of `nums` up to index `k-1`. This allows any range sum `S(i, j)` to be found in `O(1)` as `prefix_sums[j+1] - prefix_sums[i]`.\n    2.  **Problem Transformation**: The original problem `lower <= S(i, j) <= upper` is rewritten in terms of prefix sums. For a pair of indices `p < q` in the `prefix_sums` array, we need to count pairs where `lower <= prefix_sums[q] - prefix_sums[p] <= upper`. This inequality can be rearranged to `prefix_sums[q] - upper <= prefix_sums[p] <= prefix_sums[q] - lower`.\n    3.  **Recursive Sorting and Counting**: A recursive helper function, which forms the core of the merge sort, is used. This function will:\n        a.  Take a subarray of `prefix_sums` (defined by `low` and `high` indices).\n        b.  If the subarray has one or zero elements, return 0 as no pairs can be formed.\n        c.  Recursively call itself on the left and right halves of the subarray. The counts from these calls are summed up.\n    4.  **Cross-Half Counting**: This is the \"conquer\" step. After the recursive calls, the left half (`low` to `mid`) and right half (`mid+1` to `high`) are sorted. We iterate through each element `prefix_sums[q]` in the right half. For each `prefix_sums[q]`, we count how many elements `prefix_sums[p]` in the sorted left half satisfy the transformed condition from step 2.\n    5.  **Efficient Counting with Two Pointers**: Since the left half is sorted, we can find the number of valid `prefix_sums[p]` for all `q`'s in linear time. We use two pointers on the left half to find the start and end of the valid range of `p`'s. As we iterate through `q`'s in the sorted right half, these pointers only move forward, ensuring `O(N)` performance for this step.\n    6.  **Merge**: Finally, the two sorted halves are merged into a single sorted array. This is the standard merge step, which is crucial for the correctness of the parent recursive calls.\n\n3.  **Data Structures**:\n    *   `prefix_sums: List[int]`: An array of size `N+1` to store the prefix sums. This data structure is central to the algorithm.\n    *   `temp: List[int]`: A temporary list used during the merge step to store the sorted subarray before copying it back.\n\n4.  **Time Complexity**:\n    The algorithm has the same recurrence relation as Merge Sort: `T(N) = 2T(N/2) + O(N)`. The `O(N)` term arises from the linear-time counting and merging steps. This results in an overall time complexity of **O(N log N)**.\n\n5.  **Space Complexity**:\n    The `prefix_sums` array and the temporary array for merging each require `O(N)` space. The recursion depth adds `O(log N)` space to the call stack. Thus, the total space complexity is **O(N)**.\n\n6.  **Pseudocode**:\n```pseudocode\nfunction countRangeSum(nums, lower, upper):\n    n = length of nums\n    prefix_sums = array of size n + 1, with prefix_sums[0] = 0\n    // Fill prefix_sums array\n    for i from 0 to n-1:\n        prefix_sums[i+1] = prefix_sums[i] + nums[i]\n    \n    // Start recursive sort and count\n    return merge_sort_and_count(prefix_sums, 0, n, lower, upper)\n\nfunction merge_sort_and_count(arr, low, high, lower, upper):\n    // Base case: subarray of size 0 or 1\n    if high <= low:\n        return 0\n    \n    mid = low + (high - low) / 2\n    \n    // Count pairs in left and right halves recursively\n    count = merge_sort_and_count(arr, low, mid, lower, upper) + \\\n            merge_sort_and_count(arr, mid + 1, high, lower, upper)\n    \n    // Count pairs with one element in left and one in right\n    // For each arr[j] in right half, find count of arr[i] in left half such that:\n    // arr[j] - upper <= arr[i] <= arr[j] - lower\n    k = low\n    l = low\n    for j from mid + 1 to high:\n        while k <= mid and arr[k] < arr[j] - upper:\n            k++\n        while l <= mid and arr[l] <= arr[j] - lower:\n            l++\n        count += (l - k)\n        \n    // Merge the two sorted halves [low..mid] and [mid+1..high]\n    merge(arr, low, mid, high)\n    \n    return count\n```\n```python\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n\n            mid = low + (high - low) // 2\n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n\n            # Count pairs (i, j) where i is in the left half, j in the right.\n            # We want: lower <= prefix_sums[j] - prefix_sums[i] <= upper\n            # which is: prefix_sums[j] - upper <= prefix_sums[i] <= prefix_sums[j] - lower\n            # After recursive calls, prefix_sums[low...mid] and prefix_sums[mid+1...high] are sorted.\n            \n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                target_lower = prefix_sums[j] - upper\n                target_upper = prefix_sums[j] - lower\n                \n                # Find first index k in left half s.t. prefix_sums[k] >= target_lower\n                while k <= mid and prefix_sums[k] < target_lower:\n                    k += 1\n                \n                # Find first index l in left half s.t. prefix_sums[l] > target_upper\n                while l <= mid and prefix_sums[l] <= target_upper:\n                    l += 1\n                \n                count += l - k\n            \n            # Merge the two sorted halves\n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            prefix_sums[low:high + 1] = temp\n            \n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n            \n            mid = low + (high - low) // 2\n            \n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n            \n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                target_lower = prefix_sums[j] - upper\n                target_upper = prefix_sums[j] - lower\n                \n                while k <= mid and prefix_sums[k] < target_lower:\n                    k += 1\n                \n                while l <= mid and prefix_sums[l] <= target_upper:\n                    l += 1\n                \n                count += l - k\n            \n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            prefix_sums[low:high + 1] = temp\n            \n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n```\n\n=== VERIFICATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n            \n            mid = low + (high - low) // 2\n            \n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n            \n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                target_lower = prefix_sums[j] - upper\n                target_upper = prefix_sums[j] - lower\n                \n                while k <= mid and prefix_sums[k] < target_lower:\n                    k += 1\n                \n                while l <= mid and prefix_sums[l] <= target_upper:\n                    l += 1\n                \n                count += l - k\n            \n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            prefix_sums[low:high + 1] = temp\n            \n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n            \n            mid = low + (high - low) // 2\n            \n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n            \n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                target_lower = prefix_sums[j] - upper\n                target_upper = prefix_sums[j] - lower\n                \n                while k <= mid and prefix_sums[k] < target_lower:\n                    k += 1\n                \n                while l <= mid and prefix_sums[l] <= target_upper:\n                    l += 1\n                \n                count += l - k\n            \n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            prefix_sums[low:high + 1] = temp\n            \n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 417330069958,
+      "SolvedAt": "2025-11-21T10:11:18.38883+01:00",
+      "PromptTokens": 10808,
+      "OutputTokens": 52966
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "327",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:\n        prefix_sums = [0]\n        current_sum = 0\n        for num in nums:\n            current_sum += num\n            prefix_sums.append(current_sum)\n\n        def merge_sort_and_count(low, high):\n            if low >= high:\n                return 0\n            \n            mid = low + (high - low) // 2\n            \n            count = merge_sort_and_count(low, mid) + merge_sort_and_count(mid + 1, high)\n            \n            k = low\n            l = low\n            for j in range(mid + 1, high + 1):\n                target_lower = prefix_sums[j] - upper\n                target_upper = prefix_sums[j] - lower\n                \n                while k <= mid and prefix_sums[k] < target_lower:\n                    k += 1\n                \n                while l <= mid and prefix_sums[l] <= target_upper:\n                    l += 1\n                \n                count += l - k\n            \n            temp = []\n            p1, p2 = low, mid + 1\n            while p1 <= mid and p2 <= high:\n                if prefix_sums[p1] <= prefix_sums[p2]:\n                    temp.append(prefix_sums[p1])\n                    p1 += 1\n                else:\n                    temp.append(prefix_sums[p2])\n                    p2 += 1\n            \n            while p1 <= mid:\n                temp.append(prefix_sums[p1])\n                p1 += 1\n            \n            while p2 <= high:\n                temp.append(prefix_sums[p2])\n                p2 += 1\n            \n            prefix_sums[low:high + 1] = temp\n            \n            return count\n\n        return merge_sort_and_count(0, len(prefix_sums) - 1)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T21:32:56+01:00"
+    }
+  }
+}

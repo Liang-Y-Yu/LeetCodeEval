@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "735",
+        "questionId": "735",
+        "Content": "<p>We are given an array <code>asteroids</code> of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.</p>\n\n<p>For each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed.</p>\n\n<p>Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [5,10,-5]\n<strong>Output:</strong> [5,10]\n<strong>Explanation:</strong> The 10 and -5 collide resulting in 10. The 5 and 10 never collide.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [8,-8]\n<strong>Output:</strong> []\n<strong>Explanation:</strong> The 8 and -8 collide exploding each other.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [10,2,-5]\n<strong>Output:</strong> [10]\n<strong>Explanation:</strong> The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.\n</pre>\n\n<p><strong class=\"example\">Example 4:</strong></p>\n\n<pre>\n<strong>Input:</strong> asteroids = [3,5,-6,2,-1,4]\u200b\u200b\u200b\u200b\u200b\u200b\u200b\n<strong>Output:</strong> [-6,2,4]\n<strong>Explanation:</strong> The asteroid -6 makes the asteroid 3 and 5 explode, and then continues going left. On the other side, the asteroid 2 makes the asteroid -1 explode and then continues going right, without reaching asteroid 4.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= asteroids.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>-1000 &lt;= asteroids[i] &lt;= 1000</code></li>\n\t<li><code>asteroids[i] != 0</code></li>\n</ul>\n",
+        "SampleTestCase": "[5,10,-5]",
+        "ExampleTestcases": "[5,10,-5]\n[8,-8]\n[10,2,-5]\n[3,5,-6,2,-1,4]",
+        "Difficulty": "Medium",
+        "Title": "Asteroid Collision",
+        "TitleSlug": "asteroid-collision",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"911.5K\", \"totalSubmission\": \"2M\", \"totalAcceptedRaw\": 911454, \"totalSubmissionRaw\": 1966607, \"acRate\": \"46.3%\"}",
+        "Likes": 9056,
+        "Dislikes": 1285,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> asteroidCollision(vector<int>& asteroids) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] asteroidCollision(int[] asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def asteroidCollision(self, asteroids):\n        \"\"\"\n        :type asteroids: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} asteroids\n * @return {number[]}\n */\nvar asteroidCollision = function(asteroids) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function asteroidCollision(asteroids: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] AsteroidCollision(int[] asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* asteroidCollision(int* asteroids, int asteroidsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func asteroidCollision(asteroids []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun asteroidCollision(asteroids: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func asteroidCollision(_ asteroids: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn asteroid_collision(asteroids: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} asteroids\n# @return {Integer[]}\ndef asteroid_collision(asteroids)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $asteroids\n     * @return Integer[]\n     */\n    function asteroidCollision($asteroids) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> asteroidCollision(List<int> asteroids) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def asteroidCollision(asteroids: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec asteroid_collision(asteroids :: [integer]) :: [integer]\n  def asteroid_collision(asteroids) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec asteroid_collision(Asteroids :: [integer()]) -> [integer()].\nasteroid_collision(Asteroids) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (asteroid-collision asteroids)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:04:02.281155+01:00",
+    "AcRate": "46.3",
+    "TotalSubmissions": 1966607,
+    "TotalAccepted": 911454,
+    "AcceptanceRate": 0.46346524750496665,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/asteroid-collision/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn agent's analysis of the problem is as follows:\n\n**1. Problem Type Classification**\nThis problem falls under the **Array / Stack** category. The core logic involves processing elements sequentially and resolving interactions with the most recently added \"active\" element, which is a classic use case for a stack data structure.\n\n**2. Key Patterns & Algorithms**\nThe key pattern is using a **Stack** to simulate the asteroid collisions. The stack will hold the asteroids that have survived so far. The algorithm proceeds as follows:\n*   Iterate through the `asteroids` array one by one.\n*   For each new asteroid, check if it will collide with the asteroid at the top of the stack. A collision only occurs if the stack is not empty, the top asteroid is moving right (positive), and the new asteroid is moving left (negative).\n*   If a collision is possible, enter a loop to resolve it:\n    *   Compare the sizes of the colliding asteroids (`abs(stack.top())` vs. `abs(new_asteroid)`).\n    *   If the new asteroid is larger, the one on the stack is destroyed. Pop it and continue the loop to check for more collisions.\n    *   If the asteroid on the stack is larger, the new asteroid is destroyed. End the collision loop for this new asteroid.\n    *   If they are the same size, both are destroyed. Pop the stack and end the collision loop.\n*   If the new asteroid survives all collisions (or if no collision was possible), push it onto the stack.\n*   The final stack contents represent the state of asteroids after all collisions.\n\n**3. Constraints Analysis**\n*   `asteroids.length <= 10^4`: The input size suggests that an O(N^2) solution might be too slow. The stack-based approach is O(N) because each asteroid is pushed onto the stack at most once and popped at most once.\n*   `-1000 <= asteroids[i] <= 1000`: The asteroid sizes are small and fit within standard integer types.\n*   `asteroids[i] != 0`: This simplifies logic, as we only need to handle positive (right) and negative (left) directions.\n*   **Time Complexity**: O(N) is required and achievable.\n*   **Space Complexity**: In the worst-case scenario (no collisions), the stack will hold all N asteroids, leading to O(N) space complexity.\n\n**4. Edge Cases**\n*   All asteroids moving in the same direction (e.g., `[1, 2, 3]` or `[-1, -2, -3]`).\n*   Asteroids moving away from each other (e.g., `[-5, 10]`).\n*   A large asteroid causing a chain reaction of explosions (e.g., `[5, 10, -20]`).\n*   Collisions resulting in mutual destruction (e.g., `[8, -8]`).\n*   The input array containing a mix of positive and negative numbers that test all collision outcomes.\n\n**5. Input/Output Analysis**\n*   **Input**: `asteroids: List[int]`. A list of non-zero integers.\n*   **Output**: `List[int]`. The final state of the asteroids, maintaining their original relative order.\n\n**6. Difficulty Assessment**\nThe problem is of **Medium** difficulty. The primary challenges are:\n*   Identifying the stack pattern: Realizing that collisions only happen with the \"last\" surviving right-moving asteroid is the key insight.\n*   Handling chain reactions: A single incoming asteroid can destroy multiple asteroids on the stack, requiring careful loop management.\n*   Implementing the logic correctly: Ensuring all three collision outcomes (stack top wins, new asteroid wins, both explode) are handled and that the loop terminates or continues correctly is crucial.\n\n```python\nclass Solution:\n    def asteroidCollision(self, asteroids: list[int]) -> list[int]:\n        survivors = []\n        for asteroid in asteroids:\n            while survivors and survivors[-1] > 0 and asteroid < 0:\n                if survivors[-1] < -asteroid:\n                    survivors.pop()\n                    continue\n                elif survivors[-1] == -asteroid:\n                    survivors.pop()\n                    break\n                else:\n                    break\n            else:\n                survivors.append(asteroid)\n        return survivors\n```\n\n=== DESIGN ===\n**1. Algorithm Choice**\nThe problem can be solved efficiently using a **Stack-based simulation**. A stack is the ideal data structure because collisions only occur between an incoming asteroid and the last surviving asteroid moving in the opposite direction. This \"last in, first out\" behavior is perfectly modeled by a stack.\n\n**2. Step-by-Step Approach**\n1.  Initialize an empty list, which will function as a stack to store the surviving asteroids. Let's call it `survivors_stack`.\n2.  Iterate through each `asteroid` in the input `asteroids` array from left to right.\n3.  For each `asteroid`, check for a potential collision. A collision can only happen if the `survivors_stack` is not empty, the top of the stack is an asteroid moving right (positive value), and the current `asteroid` is moving left (negative value).\n4.  If a collision is possible, enter a loop to resolve it:\n    a.  Compare the size of the incoming `asteroid` (`abs(asteroid)`) with the size of the asteroid at the top of the stack (`abs(stack.top())`).\n    b.  **If the incoming asteroid is larger**: The asteroid on the stack explodes. Pop the top element from `survivors_stack`. The incoming asteroid continues its journey, so we repeat the collision check with the new stack top.\n    c.  **If both are the same size**: Both asteroids explode. Pop the top element from `survivors_stack`. The incoming asteroid is also destroyed, so we break the collision-checking loop and move to the next asteroid in the input array.\n    d.  **If the asteroid on the stack is larger**: The incoming asteroid explodes. The stack remains unchanged. We break the collision-checking loop and move to the next asteroid in the input array.\n5.  If the collision-checking loop finishes without the incoming asteroid being destroyed (i.e., the loop condition becomes false because the stack is empty or the new stack top is moving left), it means the asteroid survived. In this case, push the current `asteroid` onto the `survivors_stack`.\n6.  After iterating through all the asteroids, the `survivors_stack` will contain the final arrangement of asteroids. Return this stack.\n\n**3. Data Structures**\n*   **Stack**: A stack is the core data structure used to keep track of the asteroids that have survived collisions so far. A Python `list` can be used as a stack, with `append()` for push and `pop()` for pop operations.\n\n**4. Time Complexity**\n*   **O(N)**, where N is the number of asteroids. Each asteroid is pushed onto the stack at most once. While the inner `while` loop may seem to suggest a higher complexity, each asteroid can be popped from the stack at most once. Therefore, every asteroid is involved in a constant number of operations (one push and at most one pop) over the entire algorithm, leading to a linear time complexity.\n\n**5. Space Complexity**\n*   **O(N)**, where N is the number of asteroids. In the worst-case scenario, if no collisions occur (e.g., all asteroids are moving in the same direction or away from each other), the stack will grow to store all N asteroids.\n\n**6. Pseudocode**\n```pseudocode\nFUNCTION asteroidCollision(asteroids):\n  SET stack = new empty Stack\n\n  FOR EACH asteroid IN asteroids:\n    // This loop handles collisions. It continues as long as a collision is possible.\n    WHILE stack is not empty AND stack.peek() > 0 AND asteroid < 0:\n\n      IF abs(asteroid) > stack.peek():\n        stack.pop()\n        // Incoming asteroid survives and continues, so restart the WHILE loop.\n        CONTINUE WHILE\n      ELSE IF abs(asteroid) == stack.peek():\n        stack.pop()\n        // Both explode. Mark incoming asteroid as destroyed and exit WHILE loop.\n        DESTROY asteroid\n        BREAK WHILE\n      ELSE: // abs(asteroid) < stack.peek()\n        // Incoming asteroid is destroyed. Exit WHILE loop.\n        DESTROY asteroid\n        BREAK WHILE\n    \n    // If the asteroid was not destroyed in the loop, add it to the stack.\n    IF asteroid was not destroyed:\n      stack.push(asteroid)\n\n  RETURN stack as a List\nEND FUNCTION\n```\n(Note: The \"DESTROY asteroid\" and \"IF asteroid was not destroyed\" logic is elegantly handled in Python using a `while-else` construct, where the `else` block executes only if the loop was not terminated by a `break` statement.)\n\n```python\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for ast in asteroids:\n            # This loop continues as long as a collision is happening.\n            # A collision happens if the stack has a right-moving asteroid\n            # and the current asteroid is left-moving.\n            while stack and ast < 0 and stack[-1] > 0:\n                # The right-moving asteroid on the stack is smaller. It explodes.\n                # The incoming left-moving asteroid continues its path.\n                if -ast > stack[-1]:\n                    stack.pop()\n                    continue\n                # Both asteroids are the same size. Both explode.\n                # The stack top is popped, and we break, so the incoming\n                # asteroid is also effectively destroyed.\n                elif -ast == stack[-1]:\n                    stack.pop()\n                    break\n                # The right-moving asteroid on the stack is larger.\n                # The incoming left-moving asteroid explodes.\n                # We break, and the incoming asteroid is not added to the stack.\n                else:\n                    break\n            else:\n                # This 'else' clause belongs to the 'while' loop.\n                # It executes only if the loop terminates naturally (not via 'break').\n                # This means no collision occurred, or the incoming asteroid\n                # survived all its collisions. So, we add it to the stack.\n                stack.append(ast)\n        return stack\n\n```\n\n=== IMPLEMENTATION ===\n```python\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for ast in asteroids:\n            # This loop continues as long as a collision is happening.\n            # A collision happens if the stack has a right-moving asteroid\n            # and the current asteroid is left-moving.\n            while stack and ast < 0 and stack[-1] > 0:\n                # The right-moving asteroid on the stack is smaller. It explodes.\n                # The incoming left-moving asteroid continues its path.\n                if -ast > stack[-1]:\n                    stack.pop()\n                    continue\n                # Both asteroids are the same size. Both explode.\n                # The stack top is popped, and we break, so the incoming\n                # asteroid is also effectively destroyed.\n                elif -ast == stack[-1]:\n                    stack.pop()\n                    break\n                # The right-moving asteroid on the stack is larger.\n                # The incoming left-moving asteroid explodes.\n                # We break, and the incoming asteroid is not added to the stack.\n                else:\n                    break\n            else:\n                # This 'else' clause belongs to the 'while' loop.\n                # It executes only if the loop terminates naturally (not via 'break').\n                # This means no collision occurred, or the incoming asteroid\n                # survived all its collisions. So, we add it to the stack.\n                stack.append(ast)\n        return stack\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def asteroidCollision(self, asteroids: list[int]) -> list[int]:\n        stack = []\n        for ast in asteroids:\n            # This loop continues as long as a collision is happening.\n            # A collision happens if the stack has a right-moving asteroid\n            # and the current asteroid is left-moving.\n            while stack and ast < 0 and stack[-1] > 0:\n                # The incoming left-moving asteroid is larger.\n                # The right-moving asteroid on the stack explodes.\n                # The incoming asteroid continues its path, so we re-check with the new stack top.\n                if -ast > stack[-1]:\n                    stack.pop()\n                    continue\n                # Both asteroids are the same size. Both explode.\n                # The stack top is popped, and we break the loop. The incoming\n                # asteroid is effectively destroyed as it's not added to the stack.\n                elif -ast == stack[-1]:\n                    stack.pop()\n                    break\n                # The right-moving asteroid on the stack is larger.\n                # The incoming left-moving asteroid explodes.\n                # We break the loop, and the incoming asteroid is not added.\n                else:  # -ast < stack[-1]\n                    break\n            else:\n                # This 'else' clause belongs to the 'while' loop.\n                # It executes only if the loop terminates naturally (i.e., not via 'break').\n                # This happens if:\n                # 1. No collision was possible (e.g., stack empty, stack top moving left, or incoming is moving right).\n                # 2. The incoming asteroid survived all its collisions.\n                # In either case, the surviving asteroid is added to the stack.\n                stack.append(ast)\n        return stack\n\n```\n\n",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for ast in asteroids:\n            # This loop continues as long as a collision is happening.\n            # A collision happens if the stack has a right-moving asteroid\n            # and the current asteroid is left-moving.\n            while stack and ast < 0 and stack[-1] > 0:\n                # The right-moving asteroid on the stack is smaller. It explodes.\n                # The incoming left-moving asteroid continues its path.\n                if -ast > stack[-1]:\n                    stack.pop()\n                    continue\n                # Both asteroids are the same size. Both explode.\n                # The stack top is popped, and we break, so the incoming\n                # asteroid is also effectively destroyed.\n                elif -ast == stack[-1]:\n                    stack.pop()\n                    break\n                # The right-moving asteroid on the stack is larger.\n                # The incoming left-moving asteroid explodes.\n                # We break, and the incoming asteroid is not added to the stack.\n                else:\n                    break\n            else:\n                # This 'else' clause belongs to the 'while' loop.\n                # It executes only if the loop terminates naturally (not via 'break').\n                # This means no collision occurred, or the incoming asteroid\n                # survived all its collisions. So, we add it to the stack.\n                stack.append(ast)\n        return stack\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 305692919584,
+      "SolvedAt": "2025-11-21T08:20:48.659591+01:00",
+      "PromptTokens": 8979,
+      "OutputTokens": 35935
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "735",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for ast in asteroids:\n            # This loop continues as long as a collision is happening.\n            # A collision happens if the stack has a right-moving asteroid\n            # and the current asteroid is left-moving.\n            while stack and ast < 0 and stack[-1] > 0:\n                # The right-moving asteroid on the stack is smaller. It explodes.\n                # The incoming left-moving asteroid continues its path.\n                if -ast > stack[-1]:\n                    stack.pop()\n                    continue\n                # Both asteroids are the same size. Both explode.\n                # The stack top is popped, and we break, so the incoming\n                # asteroid is also effectively destroyed.\n                elif -ast == stack[-1]:\n                    stack.pop()\n                    break\n                # The right-moving asteroid on the stack is larger.\n                # The incoming left-moving asteroid explodes.\n                # We break, and the incoming asteroid is not added to the stack.\n                else:\n                    break\n            else:\n                # This 'else' clause belongs to the 'while' loop.\n                # It executes only if the loop terminates naturally (not via 'break').\n                # This means no collision occurred, or the incoming asteroid\n                # survived all its collisions. So, we add it to the stack.\n                stack.append(ast)\n        return stack\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:43:34+01:00"
+    }
+  }
+}

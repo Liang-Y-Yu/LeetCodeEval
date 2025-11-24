@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "343",
+        "questionId": "343",
+        "Content": "<p>Given an integer <code>n</code>, break it into the sum of <code>k</code> <strong>positive integers</strong>, where <code>k &gt;= 2</code>, and maximize the product of those integers.</p>\n\n<p>Return <em>the maximum product you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> 2 = 1 + 1, 1 &times; 1 = 1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 36\n<strong>Explanation:</strong> 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= n &lt;= 58</code></li>\n</ul>\n",
+        "SampleTestCase": "2",
+        "ExampleTestcases": "2\n10",
+        "Difficulty": "Medium",
+        "Title": "Integer Break",
+        "TitleSlug": "integer-break",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"417.5K\", \"totalSubmission\": \"678.4K\", \"totalAcceptedRaw\": 417526, \"totalSubmissionRaw\": 678389, \"acRate\": \"61.5%\"}",
+        "Likes": 5312,
+        "Dislikes": 463,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int integerBreak(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int integerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def integerBreak(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def integerBreak(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerBreak = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function integerBreak(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int IntegerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int integerBreak(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func integerBreak(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun integerBreak(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func integerBreak(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn integer_break(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef integer_break(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function integerBreak($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int integerBreak(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def integerBreak(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec integer_break(n :: integer) :: integer\n  def integer_break(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec integer_break(N :: integer()) -> integer().\ninteger_break(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (integer-break n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:21:59.969283+01:00",
+    "AcRate": "61.5",
+    "TotalSubmissions": 678389,
+    "TotalAccepted": 417526,
+    "AcceptanceRate": 0.6154669371113034,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-break/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        dp = [0] * (n + 1)\n        dp[1] = 1\n        dp[2] = 2\n        dp[3] = 3\n        \n        for i in range(4, n + 1):\n            max_prod = 0\n            for j in range(1, i):\n                max_prod = max(max_prod, dp[j] * dp[i - j])\n            dp[i] = max_prod\n        \n        return dp[n]\n```\n\n=== DESIGN ===\n**Algorithm Choice:** Dynamic Programming (DP) with optimization for integer break problem.\n\n**Step-by-Step Approach:**\n1. Handle base cases: n=2 returns 1, n=3 returns 2.\n2. Initialize a DP array where dp[i] represents the maximum product achievable for integer i.\n3. For n>=4, set dp[1]=1, dp[2]=2, dp[3]=3 (these are base cases for smaller splits).\n4. For each integer i from 4 to n:\n   - For each possible split j from 1 to i-1:\n        candidate = dp[j] * dp[i-j]\n   - Take the maximum candidate value and assign to dp[i].\n5. Return dp[n].\n\n**Data Structures:** Array (list) for DP storage.\n\n**Time Complexity:** O(n\u00b2) due to nested loops.\n**Space Complexity:** O(n) for the DP array.\n\n**Pseudocode:**\n```\nfunction integerBreak(n):\n    if n == 2: return 1\n    if n == 3: return 2\n    dp = array of size (n+1) initialized to 0\n    dp[1] = 1\n    dp[2] = 2\n    dp[3] = 3\n    for i from 4 to n:\n        max_prod = 0\n        for j from 1 to i//2:  (optimization: only need to go up to i//2)\n            candidate = dp[j] * dp[i-j]\n            max_prod = max(max_prod, candidate)\n        dp[i] = max_prod\n    return dp[n]\n```\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        dp = [0] * (n + 1)\n        dp[1] = 1\n        dp[2] = 2\n        dp[3] = 3\n        \n        for i in range(4, n + 1):\n            max_prod = 0\n            for j in range(1, i // 2 + 1):\n                candidate = dp[j] * dp[i - j]\n                if candidate > max_prod:\n                    max_prod = candidate\n            dp[i] = max_prod\n        \n        return dp[n]\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        dp = [0] * (n + 1)\n        dp[1] = 1\n        dp[2] = 2\n        dp[3] = 3\n        \n        for i in range(4, n + 1):\n            max_prod = 0\n            for j in range(1, i // 2 + 1):\n                candidate = dp[j] * dp[i - j]\n                if candidate > max_prod:\n                    max_prod = candidate\n            dp[i] = max_prod\n        \n        return dp[n]\n```\n\n=== VERIFICATION ===\n\nAfter reviewing the provided solution, I have identified several issues:\n\n1. **Incorrect Base Cases Handling**: The code sets `dp[2]=2` and `dp[3]=3`, but these values are actually the numbers themselves without breaking. However, the problem requires breaking into at least two parts (k>=2). For n=2, breaking gives 1*1=1 (not 2), and for n=3, breaking gives 2*1=2 (not 3). This leads to incorrect calculations for larger numbers.\n\n2. **Inefficient Loop Range**: The inner loop goes from 1 to i//2+1, which is correct for optimization, but the base issue makes this ineffective.\n\n3. **Incorrect DP Definition**: The DP array should store the maximum product achievable for each integer when broken into at least two parts, but the current implementation stores the maximum product including the number itself (not broken).\n\nLet's fix these issues:\n\n1. The base cases should be handled properly: for n=2 and n=3, we return 1 and 2 respectively.\n2. For the DP array, we should define `dp[i]` as the maximum product achievable for integer i when broken into at least two parts.\n3. For i>=4, we can break it into j and i-j. The maximum product would be the maximum of:\n   - j * (i-j)  [breaking into two parts]\n   - j * dp[i-j] [breaking i-j further]\n   Similarly, we can also consider dp[j] * (i-j) and dp[j] * dp[i-j], but note that for j, we might not need to break it if j is small. However, the problem requires at least two parts, so for the entire number i, we must break it at least once.\n\nActually, the standard solution uses:\n   dp[i] = max(j * (i-j), j * dp[i-j]) for j in range(1, i)\nBut we can optimize by iterating j only up to i//2.\n\nRevised approach:\n- dp[0] = 0, dp[1] = 1 (but not used for n>=2)\n- For i from 2 to n:\n   dp[i] = max( max(j * (i-j), j * dp[i-j]) for j in range(1, i) )\nBut we can also note that for j, we don't need to break j because if we break j, it is already considered in dp[j], but when we use j * dp[i-j], we are effectively breaking i-j further. Similarly, we could break both, but that is equivalent to j * dp[i-j] which already considers the best break for i-j.\n\nHowever, the common solution is:\n   dp[i] = max( j * (i-j), j * dp[i-j] ) for j in range(1, i)\nBut we can limit j to i//2.\n\nLet's implement correctly:\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        dp = [0] * (n + 1)\n        dp[1] = 1\n        for i in range(2, n + 1):\n            for j in range(1, i // 2 + 1):\n                candidate = max(j * (i - j), j * dp[i - j])\n                if candidate > dp[i]:\n                    dp[i] = candidate\n        return dp[n]\n```\n\nThis solution correctly handles:\n- n=2: \n   j=1: candidate = max(1*1, 1*dp[1]=1) = 1 -> dp[2]=1\n- n=3:\n   j=1: candidate = max(1*2, 1*dp[2]=1) = 2\n   j=1 only (since i//2=1) -> dp[3]=2\n- n=4:\n   j=1: candidate = max(1*3, 1*dp[3]=2) = 3\n   j=2: candidate = max(2*2, 2*dp[2]=2) = 4\n   so dp[4]=4\n- n=10: should be 36.\n\nThis matches the examples and constraints.\n\nTherefore, the corrected code is:\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        dp = [0] * (n + 1)\n        dp[1] = 1\n        for i in range(2, n + 1):\n            for j in range(1, i // 2 + 1):\n                candidate = max(j * (i - j), j * dp[i - j])\n                if candidate > dp[i]:\n                    dp[i] = candidate\n        return dp[n]\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        dp = [0] * (n + 1)\n        dp[1] = 1\n        dp[2] = 2\n        dp[3] = 3\n        \n        for i in range(4, n + 1):\n            max_prod = 0\n            for j in range(1, i // 2 + 1):\n                candidate = dp[j] * dp[i - j]\n                if candidate > max_prod:\n                    max_prod = candidate\n            dp[i] = max_prod\n        \n        return dp[n]\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 26870255000,
+      "SolvedAt": "2025-11-20T23:55:23.511289+01:00",
+      "PromptTokens": 3581,
+      "OutputTokens": 1850
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "343",
+        "typed_code": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        dp = [0] * (n + 1)\n        dp[1] = 1\n        dp[2] = 2\n        dp[3] = 3\n        \n        for i in range(4, n + 1):\n            max_prod = 0\n            for j in range(1, i // 2 + 1):\n                candidate = dp[j] * dp[i - j]\n                if candidate > max_prod:\n                    max_prod = candidate\n            dp[i] = max_prod\n        \n        return dp[n]\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T03:50:29+01:00"
+    }
+  }
+}

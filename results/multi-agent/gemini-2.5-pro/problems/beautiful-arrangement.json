@@ -1,0 +1,205 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "526",
+        "questionId": "526",
+        "Content": "<p>Suppose you have <code>n</code> integers labeled <code>1</code> through <code>n</code>. A permutation of those <code>n</code> integers <code>perm</code> (<strong>1-indexed</strong>) is considered a <strong>beautiful arrangement</strong> if for every <code>i</code> (<code>1 &lt;= i &lt;= n</code>), <strong>either</strong> of the following is true:</p>\n\n<ul>\n\t<li><code>perm[i]</code> is divisible by <code>i</code>.</li>\n\t<li><code>i</code> is divisible by <code>perm[i]</code>.</li>\n</ul>\n\n<p>Given an integer <code>n</code>, return <em>the <strong>number</strong> of the <strong>beautiful arrangements</strong> that you can construct</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 2\n<b>Explanation:</b> \nThe first beautiful arrangement is [1,2]:\n    - perm[1] = 1 is divisible by i = 1\n    - perm[2] = 2 is divisible by i = 2\nThe second beautiful arrangement is [2,1]:\n    - perm[1] = 2 is divisible by i = 1\n    - i = 2 is divisible by perm[2] = 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 1\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 15</code></li>\n</ul>\n",
+        "SampleTestCase": "2",
+        "ExampleTestcases": "2\n1",
+        "Difficulty": "Medium",
+        "Title": "Beautiful Arrangement",
+        "TitleSlug": "beautiful-arrangement",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"208.1K\", \"totalSubmission\": \"321.8K\", \"totalAcceptedRaw\": 208060, \"totalSubmissionRaw\": 321792, \"acRate\": \"64.7%\"}",
+        "Likes": 3378,
+        "Dislikes": 389,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE5",
+            "Name": "Bit Manipulation",
+            "Slug": "bit-manipulation"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDc4",
+            "Name": "Bitmask",
+            "Slug": "bitmask"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int countArrangement(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int countArrangement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def countArrangement(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def countArrangement(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar countArrangement = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function countArrangement(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int CountArrangement(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int countArrangement(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func countArrangement(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun countArrangement(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func countArrangement(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn count_arrangement(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef count_arrangement(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function countArrangement($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int countArrangement(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def countArrangement(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec count_arrangement(n :: integer) :: integer\n  def count_arrangement(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec count_arrangement(N :: integer()) -> integer().\ncount_arrangement(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (count-arrangement n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:12:39.465818+01:00",
+    "AcRate": "64.7",
+    "TotalSubmissions": 321792,
+    "TotalAccepted": 208060,
+    "AcceptanceRate": 0.6465667263325378,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/beautiful-arrangement/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn analysis of the problem:\n1.  **Problem Type Classification**: This is a combinatorial problem that asks for the number of valid permutations under specific constraints. It falls into the category of **Backtracking** or **Search** problems. Given the small constraint on `n`, it can also be solved using **Dynamic Programming with Bitmasking**.\n\n2.  **Key Patterns & Algorithms**:\n    *   **Backtracking (DFS)**: This is the most natural approach. We can build a permutation position by position, from `1` to `n`. At each position `i`, we try to place an available number `j` (from `1` to `n`). We only proceed with the recursion if `j` is \"beautiful\" with `i` (i.e., `j % i == 0` or `i % j == 0`). If a number is chosen, we mark it as used and recurse for the next position. After the recursive call returns, we \"un-choose\" the number (backtrack) to explore other possibilities.\n    *   **State Management**: During the backtrack, we need to keep track of which numbers have already been placed in the permutation. A boolean array or a bitmask is suitable for this.\n\n3.  **Constraints Analysis**:\n    *   `1 <= n <= 15`: This is the most critical constraint. A naive approach of generating all `n!` permutations and checking each one is infeasible (`15! \u2248 1.3 * 10^12`).\n    *   The small value of `n` strongly suggests an algorithm with exponential time complexity relative to `n`, such as backtracking or DP with bitmasking. A well-pruned backtracking search will be efficient enough to pass within typical time limits. The complexity will be much less than `O(n!)` because the \"beautiful\" condition significantly prunes the search tree. A DP with bitmasking solution would have a complexity of roughly `O(n * 2^n)`, which is also well within limits for `n=15`.\n\n4.  **Edge Cases**:\n    *   `n = 1`: The only permutation is `[1]`. For `i=1`, `perm[1]=1`, and `1 % 1 == 0`. The count is 1. The solution should handle this correctly.\n    *   **Indexing**: The problem uses 1-based indexing for positions (`i`) and numbers (`perm[i]`). Care must be taken to handle this correctly, especially in languages like Python that use 0-based indexing for arrays.\n\n5.  **Input/Output Analysis**:\n    *   **Input**: A single integer `n`.\n    *   **Output**: A single integer representing the total count of beautiful arrangements. The count will fit within a standard 32-bit integer for `n <= 15`.\n\n6.  **Difficulty Assessment**:\n    *   This problem is of **Medium** difficulty. The primary challenge lies in recognizing that simple permutation generation is too slow and that a more optimized search technique like backtracking is required.\n    *   Implementing the backtracking logic correctly, including managing the state of used numbers and handling the 1-based indexing, are key points of implementation difficulty.\n\nThis analysis leads to a backtracking solution as a solid and standard approach for this problem.\n\n```python\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n\n        def backtrack(pos):\n            if pos > n:\n                self.count += 1\n                return\n\n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n```\n\n=== DESIGN ===\nAn elegant and effective way to solve this problem is by using a recursive backtracking algorithm. The core idea is to build the permutation one position at a time, from `pos = 1` to `pos = n`. At each position, we explore all valid numbers that can be placed there according to the \"beautiful arrangement\" rules, while ensuring we do not reuse any numbers.\n\nHere is the breakdown of the designed solution:\n\n1.  **Algorithm Choice**\n    A **Depth-First Search (DFS) / Backtracking** algorithm is the chosen approach. This is well-suited for permutation and combination problems with relatively small constraints (`n <= 15`), as it systematically explores the solution space while pruning branches that violate the problem's conditions.\n\n2.  **Step-by-Step Approach**\n    1.  Initialize a counter to zero, which will store the final number of beautiful arrangements.\n    2.  Create a boolean array, `visited`, of size `n+1` to keep track of the numbers that have already been placed in the current permutation. `visited[i] = true` will mean the number `i` is used.\n    3.  Define a recursive helper function, `backtrack(pos)`, where `pos` represents the current 1-indexed position in the permutation we are trying to fill.\n    4.  **Base Case**: Inside `backtrack(pos)`, if `pos` becomes greater than `n`, it means we have successfully constructed a full, valid permutation. Increment the counter and return.\n    5.  **Recursive Step**: Iterate through all numbers from `num = 1` to `n`. For each `num`, check if it's a valid candidate for the current position `pos`:\n        *   The number `num` must not have been `visited`.\n        *   The pair (`num`, `pos`) must satisfy the beautiful condition: `(num % pos == 0 or pos % num == 0)`.\n    6.  If `num` is a valid candidate:\n        *   Mark it as placed: `visited[num] = true`.\n        *   Recursively call `backtrack(pos + 1)` to fill the next position.\n        *   After the recursive call returns, **backtrack** by un-marking the number: `visited[num] = false`. This allows the number `num` to be used in other possible arrangements.\n    7.  The initial call to start the process is `backtrack(1)`.\n    8.  Once the initial call completes, the counter will hold the total count. Return this value.\n\n3.  **Data Structures**\n    *   **Integer Counter**: A class member variable (`self.count`) or a nonlocal variable to accumulate the total count of valid arrangements across recursive calls.\n    *   **Boolean Array**: `visited = [False] * (n + 1)` to keep track of used numbers. The size `n+1` simplifies 1-based indexing.\n\n4.  **Time Complexity**\n    The time complexity is difficult to express with a simple polynomial or logarithmic function. It is bounded by `O(n!)` in the worst case (the number of permutations). However, the \"beautiful\" condition significantly prunes the search tree, making the actual runtime much faster and well within limits for `n <= 15`. The complexity is proportional to the number of nodes in the pruned search tree.\n\n5.  **Space Complexity**\n    The space complexity is `O(n)`. This is determined by the maximum depth of the recursion stack, which is `n`, and the `visited` array, which also takes `O(n)` space.\n\n6.  **Pseudocode**\n    ```pseudocode\n    class Solution:\n        function countArrangement(n):\n            // Use a class member to store the total count\n            self.count = 0 \n            // `visited` array for numbers 1 to n\n            visited = new boolean[n + 1]\n\n            // Start the backtracking from the first position\n            backtrack(1, n, visited)\n            return self.count\n\n        function backtrack(pos, n, visited):\n            // Base case: a full beautiful arrangement is found\n            if pos > n:\n                self.count = self.count + 1\n                return\n\n            // Iterate through numbers 1 to n to place at `pos`\n            for num from 1 to n:\n                // Check if number is not used and satisfies the condition\n                if not visited[num] and (num % pos == 0 or pos % num == 0):\n                    // Choose\n                    visited[num] = true\n                    \n                    // Explore\n                    backtrack(pos + 1, n, visited)\n                    \n                    // Un-choose (backtrack)\n                    visited[num] = false\n    ```\n\n```python\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n\n        def backtrack(pos: int):\n            if pos > n:\n                self.count += 1\n                return\n\n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n\n        def backtrack(pos: int):\n            if pos > n:\n                self.count += 1\n                return\n            \n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n        \n        def backtrack(pos: int):\n            if pos > n:\n                self.count += 1\n                return\n            \n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n\n        def backtrack(pos: int):\n            if pos > n:\n                self.count += 1\n                return\n            \n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 244422359460,
+      "SolvedAt": "2025-11-21T08:41:57.191915+01:00",
+      "PromptTokens": 7615,
+      "OutputTokens": 28122
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "526",
+        "typed_code": "\nclass Solution:\n    def countArrangement(self, n: int) -> int:\n        self.count = 0\n        visited = [False] * (n + 1)\n\n        def backtrack(pos: int):\n            if pos > n:\n                self.count += 1\n                return\n            \n            for i in range(1, n + 1):\n                if not visited[i] and (i % pos == 0 or pos % i == 0):\n                    visited[i] = True\n                    backtrack(pos + 1)\n                    visited[i] = False\n        \n        backtrack(1)\n        return self.count\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:55:29+01:00"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "719",
+        "questionId": "719",
+        "Content": "<p>The <strong>distance of a pair</strong> of integers <code>a</code> and <code>b</code> is defined as the absolute difference between <code>a</code> and <code>b</code>.</p>\n\n<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>smallest <strong>distance among all the pairs</strong></em> <code>nums[i]</code> <em>and</em> <code>nums[j]</code> <em>where</em> <code>0 &lt;= i &lt; j &lt; nums.length</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,3,1], k = 1\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> Here are all the pairs:\n(1,3) -&gt; 2\n(1,1) -&gt; 0\n(3,1) -&gt; 2\nThen the 1<sup>st</sup> smallest distance pair is (1,1), and its distance is 0.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,1,1], k = 2\n<strong>Output:</strong> 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,6,1], k = 3\n<strong>Output:</strong> 5\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= n * (n - 1) / 2</code></li>\n</ul>\n",
+        "SampleTestCase": "[1,3,1]\n1",
+        "ExampleTestcases": "[1,3,1]\n1\n[1,1,1]\n2\n[1,6,1]\n3",
+        "Difficulty": "Hard",
+        "Title": "Find K-th Smallest Pair Distance",
+        "TitleSlug": "find-k-th-smallest-pair-distance",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"205.4K\", \"totalSubmission\": \"445.4K\", \"totalAcceptedRaw\": 205366, \"totalSubmissionRaw\": 445354, \"acRate\": \"46.1%\"}",
+        "Likes": 3883,
+        "Dislikes": 124,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjk=",
+            "Name": "Two Pointers",
+            "Slug": "two-pointers"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEx",
+            "Name": "Binary Search",
+            "Slug": "binary-search"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int smallestDistancePair(vector<int>& nums, int k) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int smallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def smallestDistancePair(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar smallestDistancePair = function(nums, k) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function smallestDistancePair(nums: number[], k: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int SmallestDistancePair(int[] nums, int k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int smallestDistancePair(int* nums, int numsSize, int k) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func smallestDistancePair(nums []int, k int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun smallestDistancePair(nums: IntArray, k: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func smallestDistancePair(_ nums: [Int], _ k: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn smallest_distance_pair(nums: Vec<i32>, k: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef smallest_distance_pair(nums, k)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Integer\n     */\n    function smallestDistancePair($nums, $k) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int smallestDistancePair(List<int> nums, int k) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def smallestDistancePair(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec smallest_distance_pair(nums :: [integer], k :: integer) :: integer\n  def smallest_distance_pair(nums, k) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec smallest_distance_pair(Nums :: [integer()], K :: integer()) -> integer().\nsmallest_distance_pair(Nums, K) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (smallest-distance-pair nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:05:03.033477+01:00",
+    "AcRate": "46.1",
+    "TotalSubmissions": 445354,
+    "TotalAccepted": 205366,
+    "AcceptanceRate": 0.46112979786866176,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\n1. **Problem Type Classification**: This problem belongs to the \"Array\" and \"Binary Search\" categories, with elements of \"Two Pointers\" for efficient counting.\n\n2. **Key Patterns & Algorithms**:\n   - **Binary Search on Answer**: Since we are looking for the k-th smallest distance, and the distances can be sorted, we can use binary search over the possible distance values (from 0 to max distance) to find the k-th smallest.\n   - **Sliding Window/Two Pointers for Counting**: For a given candidate distance `mid`, we need to count the number of pairs with distance <= `mid`. This can be efficiently done by sorting the array and using a two-pointer technique (or a sliding window) to count pairs without having to check every pair explicitly.\n\n3. **Constraints Analysis**:\n   - The array length `n` can be up to 10,000. The direct approach of generating all pairs (O(n^2)) is not feasible (would be 100 million operations).\n   - The values can be as large as 10^6, but the number of distinct distances is manageable.\n   - The solution should be efficient, ideally O(n log n) for sorting and O(n log(max_distance)) for the binary search and counting.\n\n4. **Edge Cases**:\n   - All elements are the same (e.g., [1,1,1] with k=2) should return 0.\n   - k=1 (smallest distance) and k = n*(n-1)/2 (largest distance).\n   - Array with two elements.\n\n5. **Input/Output Analysis**:\n   - Input: An integer array `nums` and an integer `k`.\n   - Output: The k-th smallest distance among all pairs.\n\n6. **Difficulty Assessment**: The challenge lies in efficiently finding the k-th smallest distance without generating all pairs. The binary search on the answer combined with the two-pointer counting technique is non-trivial but optimal.\n\n**Solution Approach**:\n1. Sort the array.\n2. Define the range for binary search: low = 0, high = max(nums) - min(nums).\n3. For each candidate distance `mid` in the binary search, count the number of pairs with distance <= `mid`.\n   - Use two pointers: for each index `i`, find the largest `j` such that nums[j] - nums[i] <= mid. The number of pairs for `i` is (j - i).\n4. If the count is >= k, then the k-th smallest distance is <= `mid`, so set high = mid.\n   Else, set low = mid + 1.\n5. Eventually, low will be the k-th smallest distance.\n\nThis approach runs in O(n log n + n log(max_distance)), which is efficient for the constraints.\n\nNow, the code implementation:\n```python\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n```\n\n=== DESIGN ===\n**Algorithm Choice:**\nBinary Search on Answer combined with a Two Pointer technique for counting pairs.\n\n**Step-by-Step Approach:**\n1. Sort the array to easily calculate distances between pairs.\n2. Define the search space for binary search: low = 0, high = maximum distance (difference between last and first element in sorted array).\n3. For each candidate distance `mid` during binary search:\n   - Count the number of pairs with distance <= `mid` using two pointers (sliding window).\n   - For each right pointer, move the left pointer until the window [left, right] satisfies nums[right] - nums[left] <= mid.\n   - The number of pairs ending at right is (right - left).\n4. If the count is >= k, then the k-th smallest distance is <= `mid`, so set high = mid.\n5. Otherwise, set low = mid + 1.\n6. When the loop ends, low is the k-th smallest distance.\n\n**Data Structures:**\n- Sorted list (using built-in sort).\n\n**Time Complexity:**\n- O(n log n) for sorting the array.\n- O(n log(max_distance)) for the binary search and counting pairs.\n- Overall: O(n log n + n log(max_distance)).\n\n**Space Complexity:**\n- O(1) additional space (excluding the sorted array, which is done in-place but may use O(n) space for the sort).\n\n**Pseudocode:**\n```\nSort(nums)\nlow = 0\nhigh = nums[-1] - nums[0]\nwhile low < high:\n    mid = (low + high) // 2\n    count = 0\n    left = 0\n    for right from 0 to n-1:\n        while nums[right] - nums[left] > mid:\n            left += 1\n        count += (right - left)\n    if count >= k:\n        high = mid\n    else:\n        low = mid + 1\nreturn low\n```\n\n```python\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n```\n\n=== VERIFICATION ===\n```python\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 28515751125,
+      "SolvedAt": "2025-11-20T23:51:17.765067+01:00",
+      "PromptTokens": 5899,
+      "OutputTokens": 1582
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "719",
+        "typed_code": "\nclass Solution:\n    def smallestDistancePair(self, nums: List[int], k: int) -> int:\n        nums.sort()\n        n = len(nums)\n        low, high = 0, nums[-1] - nums[0]\n        \n        while low < high:\n            mid = (low + high) // 2\n            count = 0\n            left = 0\n            for right in range(n):\n                while nums[right] - nums[left] > mid:\n                    left += 1\n                count += (right - left)\n            if count >= k:\n                high = mid\n            else:\n                low = mid + 1\n        return low\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:56:37+01:00"
+    }
+  }
+}

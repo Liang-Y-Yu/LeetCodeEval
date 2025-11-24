@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1137",
+        "questionId": "1236",
+        "Content": "<p>The Tribonacci sequence T<sub>n</sub> is defined as follows:&nbsp;</p>\n\n<p>T<sub>0</sub> = 0, T<sub>1</sub> = 1, T<sub>2</sub> = 1, and T<sub>n+3</sub> = T<sub>n</sub> + T<sub>n+1</sub> + T<sub>n+2</sub> for n &gt;= 0.</p>\n\n<p>Given <code>n</code>, return the value of T<sub>n</sub>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 4\n<strong>Output:</strong> 4\n<strong>Explanation:</strong>\nT_3 = 0 + 1 + 1 = 2\nT_4 = 1 + 1 + 2 = 4\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 25\n<strong>Output:</strong> 1389537\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 37</code></li>\n\t<li>The answer is guaranteed to fit within a 32-bit integer, ie. <code>answer &lt;= 2^31 - 1</code>.</li>\n</ul>\n",
+        "SampleTestCase": "4",
+        "ExampleTestcases": "4\n25",
+        "Difficulty": "Easy",
+        "Title": "N-th Tribonacci Number",
+        "TitleSlug": "n-th-tribonacci-number",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.6M\", \"totalAcceptedRaw\": 1019531, \"totalSubmissionRaw\": 1607954, \"acRate\": \"63.4%\"}",
+        "Likes": 4738,
+        "Dislikes": 209,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjMz",
+            "Name": "Memoization",
+            "Slug": "memoization"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int tribonacci(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int tribonacci(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def tribonacci(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def tribonacci(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar tribonacci = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function tribonacci(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int Tribonacci(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int tribonacci(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func tribonacci(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun tribonacci(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func tribonacci(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn tribonacci(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef tribonacci(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function tribonacci($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int tribonacci(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def tribonacci(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec tribonacci(n :: integer) :: integer\n  def tribonacci(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec tribonacci(N :: integer()) -> integer().\ntribonacci(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (tribonacci n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:38:11.698303+01:00",
+    "AcRate": "63.4",
+    "TotalSubmissions": 1607954,
+    "TotalAccepted": 1019531,
+    "AcceptanceRate": 0.6340548299267268,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/n-th-tribonacci-number/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Type Classification**: \nDynamic Programming (specifically, a linear recurrence relation similar to Fibonacci but with three terms).\n\n**Key Patterns & Algorithms**:\n- The problem defines a recurrence relation: T(n) = T(n-1) + T(n-2) + T(n-3) for n>=3.\n- This is a classic example where dynamic programming (with memoization or iterative bottom-up) is efficient.\n- Alternatively, we can use recursion with memoization, but iterative DP is more space-efficient and avoids recursion stack overhead.\n\n**Constraints Analysis**:\n- n is at most 37, which is very small.\n- Even a naive recursive solution (without memoization) would be exponential (O(3^n)) and might time out for n=37? Actually, 37 is small enough that even exponential might work? But worst-case 3^37 is huge (about 1e17), so we must use DP.\n- With iterative DP, we can compute in O(n) time and O(1) space (using only three variables to store the last three values).\n\n**Edge Cases**:\n- n=0: should return 0.\n- n=1: should return 1.\n- n=2: should return 1.\n- n=3: should return 2.\n\n**Input/Output Analysis**:\n- Input: an integer n (0 <= n <= 37).\n- Output: an integer value T_n.\n\n**Difficulty Assessment**:\n- Easy: The problem is straightforward and directly defines the recurrence. The constraints are small, so even a simple iterative solution is efficient.\n\n**Solution Code**:\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n+1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n```\n\n=== DESIGN ===\n**Algorithm Choice**: Iterative Dynamic Programming with constant space.\n\n**Step-by-Step Approach**:\n1. Handle base cases where n is 0, 1, or 2 directly.\n2. For n >= 3, initialize three variables to represent T(n-3), T(n-2), and T(n-1) starting with T0, T1, T2.\n3. Iterate from 3 to n, updating the variables to compute the next Tribonacci number by summing the three previous values.\n4. After each iteration, shift the variables to prepare for the next computation.\n5. After the loop, the last variable holds the value for T(n).\n\n**Data Structures**: No additional data structures are needed; only three integer variables are used to store the last three values.\n\n**Time Complexity**: O(n) since we iterate from 3 to n.\n\n**Space Complexity**: O(1) as we use only a constant amount of extra space.\n\n**Pseudocode**:\n```\nif n == 0:\n    return 0\nif n == 1 or n == 2:\n    return 1\na = 0, b = 1, c = 1\nfor i from 3 to n:\n    d = a + b + c\n    a = b\n    b = c\n    c = d\nreturn c\n```\n\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n+1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n + 1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n```\n\n=== VERIFICATION ===\nThe solution provided is correct and efficient. It handles all base cases and uses an iterative dynamic programming approach with constant space. The code is clean and follows best practices.\n\nVerification:\n1. **Correctness**: The code correctly implements the Tribonacci recurrence relation by iterating from 3 to n and updating the last three values.\n2. **Edge Cases**: It correctly returns 0 for n=0, 1 for n=1 and n=2, and 2 for n=3 (as verified by the example).\n3. **Complexity**: The time complexity is O(n) and space complexity is O(1), which is optimal.\n4. **Code Quality**: The code is concise, readable, and uses meaningful variable names.\n5. **Test Cases**: \n   - For n=4: \n        a=0, b=1, c=1 (initial)\n        i=3: d=0+1+1=2 -> a=1, b=1, c=2\n        i=4: d=1+1+2=4 -> a=1, b=2, c=4 -> returns 4 (correct).\n   - For n=25: The output is 1389537 (correct).\n6. **Potential Issues**: None found.\n\nFinal code:\n```python\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n + 1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n + 1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 22315444916,
+      "SolvedAt": "2025-11-21T00:17:10.97146+01:00",
+      "PromptTokens": 4316,
+      "OutputTokens": 1303
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1236",
+        "typed_code": "\nclass Solution:\n    def tribonacci(self, n: int) -> int:\n        if n == 0:\n            return 0\n        if n == 1 or n == 2:\n            return 1\n        a, b, c = 0, 1, 1\n        for i in range(3, n + 1):\n            d = a + b + c\n            a, b, c = b, c, d\n        return c\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:01:08+01:00"
+    }
+  }
+}

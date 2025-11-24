@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1920",
+        "questionId": "2048",
+        "Content": "<p>Given a <strong>zero-based permutation</strong> <code>nums</code> (<strong>0-indexed</strong>), build an array <code>ans</code> of the <strong>same length</strong> where <code>ans[i] = nums[nums[i]]</code> for each <code>0 &lt;= i &lt; nums.length</code> and return it.</p>\n\n<p>A <strong>zero-based permutation</strong> <code>nums</code> is an array of <strong>distinct</strong> integers from <code>0</code> to <code>nums.length - 1</code> (<strong>inclusive</strong>).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0,2,1,5,3,4]\n<strong>Output:</strong> [0,1,2,4,5,3]<strong>\nExplanation:</strong> The array ans is built as follows: \nans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]\n    = [nums[0], nums[2], nums[1], nums[5], nums[3], nums[4]]\n    = [0,1,2,4,5,3]</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [5,0,1,2,3,4]\n<strong>Output:</strong> [4,5,0,1,2,3]\n<strong>Explanation:</strong> The array ans is built as follows:\nans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]\n    = [nums[5], nums[0], nums[1], nums[2], nums[3], nums[4]]\n    = [4,5,0,1,2,3]</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>0 &lt;= nums[i] &lt; nums.length</code></li>\n\t<li>The elements in <code>nums</code> are <strong>distinct</strong>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow-up:</strong> Can you solve it without using an extra space (i.e., <code>O(1)</code> memory)?</p>\n",
+        "SampleTestCase": "[0,2,1,5,3,4]",
+        "ExampleTestcases": "[0,2,1,5,3,4]\n[5,0,1,2,3,4]",
+        "Difficulty": "Easy",
+        "Title": "Build Array from Permutation",
+        "TitleSlug": "build-array-from-permutation",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"811.7K\", \"totalSubmission\": \"891.5K\", \"totalAcceptedRaw\": 811735, \"totalSubmissionRaw\": 891512, \"acRate\": \"91.1%\"}",
+        "Likes": 3952,
+        "Dislikes": 479,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU1",
+            "Name": "Simulation",
+            "Slug": "simulation"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> buildArray(vector<int>& nums) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] buildArray(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def buildArray(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar buildArray = function(nums) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function buildArray(nums: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] BuildArray(int[] nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* buildArray(int* nums, int numsSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func buildArray(nums []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun buildArray(nums: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func buildArray(_ nums: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn build_array(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef build_array(nums)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function buildArray($nums) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> buildArray(List<int> nums) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def buildArray(nums: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec build_array(nums :: [integer]) :: [integer]\n  def build_array(nums) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec build_array(Nums :: [integer()]) -> [integer()].\nbuild_array(Nums) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (build-array nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T13:58:27.222852+01:00",
+    "AcRate": "91.1",
+    "TotalSubmissions": 891512,
+    "TotalAccepted": 811735,
+    "AcceptanceRate": 0.910514945396136,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/build-array-from-permutation/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nProblem Analysis:\n1. **Problem Type Classification**: Array Transformation.\n2. **Key Patterns & Algorithms**: In-place modification (for follow-up), simple array indexing.\n3. **Constraints Analysis**: The array length is up to 1000, so even an O(n) space solution is acceptable. The follow-up requires O(1) space.\n4. **Edge Cases**: Single element array, already permuted arrays (like identity permutation).\n5. **Input/Output Analysis**: Input is a list of distinct integers forming a permutation. Output is a list of same length.\n6. **Difficulty Assessment**: Straightforward without follow-up; tricky with O(1) space due to need to encode two numbers in one position.\n\nSolution Approach:\nFor O(1) space: Use the fact that numbers are non-negative and less than n. Encode both original and new value in each element by storing as original + (new * n). Then retrieve new values by integer division by n.\n\n```python\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n```\n\n=== DESIGN ===\n```python\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n```\n\n=== IMPLEMENTATION ===\n\n```python\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n```\n\n=== VERIFICATION ===\n**Verification Report**\n\nThe provided solution for the problem \"Build Array from Permutation\" is correct, efficient, and meets all requirements. Below is the detailed verification:\n\n1. **Correctness**: The solution correctly implements the designed algorithm. It uses in-place modification to encode both the original value and the new value (nums[nums[i]]) in each element. The modulo operation (`nums[nums[i]] % n`) retrieves the original value (since the encoded value might be modified in previous steps), and then the integer division (`// n`) extracts the new value. This ensures that the transformation `ans[i] = nums[nums[i]]` is achieved without extra space.\n\n2. **Edge Cases**: The solution handles all edge cases:\n   - Single element array: e.g., `nums = [0]` \u2192 output `[0]`.\n   - Identity permutation: e.g., `nums = [0,1,2,3,4]` \u2192 output `[0,1,2,3,4]`.\n   - Other permutations as given in examples.\n\n3. **Complexity**: \n   - Time Complexity: O(n), as it iterates through the array twice.\n   - Space Complexity: O(1) (excluding the input/output list), as it uses constant extra space.\n\n4. **Code Quality**: The code is clean, readable, and follows best practices. It is concise and uses meaningful variable names. The logic is clear and efficient.\n\n5. **Test Cases**:\n   - Example 1: `nums = [0,2,1,5,3,4]`\n        First loop: \n          i=0: nums[0] = 0 + 6 * (nums[0] % 6) = 0 + 6*0 = 0\n          i=1: nums[1] = 2 + 6 * (nums[2] % 6) = 2 + 6*1 = 8\n          i=2: nums[2] = 1 + 6 * (nums[1] % 6) = 1 + 6*2 = 13\n          i=3: nums[3] = 5 + 6 * (nums[5] % 6) = 5 + 6*4 = 29\n          i=4: nums[4] = 3 + 6 * (nums[3] % 6) = 3 + 6*5 = 33\n          i=5: nums[5] = 4 + 6 * (nums[4] % 6) = 4 + 6*3 = 22\n        After first loop: nums = [0,8,13,29,33,22]\n        Second loop:\n          i=0: 0//6 = 0\n          i=1: 8//6 = 1\n          i=2: 13//6 = 2\n          i=3: 29//6 = 4\n          i=4: 33//6 = 5\n          i=5: 22//6 = 3\n        Output: [0,1,2,4,5,3] (correct).\n   - Example 2: `nums = [5,0,1,2,3,4]`\n        Similarly, the output is [4,5,0,1,2,3] (correct).\n\n6. **Potential Issues**: None. The solution is optimal and correct.\n\n**Final Code:**\n```python\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 16205804458,
+      "SolvedAt": "2025-11-20T23:35:30.867213+01:00",
+      "PromptTokens": 3991,
+      "OutputTokens": 1231
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "2048",
+        "typed_code": "\nclass Solution:\n    def buildArray(self, nums: List[int]) -> List[int]:\n        n = len(nums)\n        for i in range(n):\n            nums[i] += n * (nums[nums[i]] % n)\n        for i in range(n):\n            nums[i] //= n\n        return nums\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T01:10:49+01:00"
+    }
+  }
+}

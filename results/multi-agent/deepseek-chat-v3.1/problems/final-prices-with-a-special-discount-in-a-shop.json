@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1475",
+        "questionId": "1570",
+        "Content": "<p>You are given an integer array <code>prices</code> where <code>prices[i]</code> is the price of the <code>i<sup>th</sup></code> item in a shop.</p>\n\n<p>There is a special discount for items in the shop. If you buy the <code>i<sup>th</sup></code> item, then you will receive a discount equivalent to <code>prices[j]</code> where <code>j</code> is the minimum index such that <code>j &gt; i</code> and <code>prices[j] &lt;= prices[i]</code>. Otherwise, you will not receive any discount at all.</p>\n\n<p>Return an integer array <code>answer</code> where <code>answer[i]</code> is the final price you will pay for the <code>i<sup>th</sup></code> item of the shop, considering the special discount.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [8,4,6,2,3]\n<strong>Output:</strong> [4,2,4,2,3]\n<strong>Explanation:</strong> \nFor item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4, therefore, the final price you will pay is 8 - 4 = 4.\nFor item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2.\nFor item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4.\nFor items 3 and 4 you will not receive any discount at all.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [1,2,3,4,5]\n<strong>Output:</strong> [1,2,3,4,5]\n<strong>Explanation:</strong> In this case, for all items, you will not receive any discount at all.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> prices = [10,1,1,6]\n<strong>Output:</strong> [9,0,1,6]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= prices.length &lt;= 500</code></li>\n\t<li><code>1 &lt;= prices[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[8,4,6,2,3]",
+        "ExampleTestcases": "[8,4,6,2,3]\n[1,2,3,4,5]\n[10,1,1,6]",
+        "Difficulty": "Easy",
+        "Title": "Final Prices With a Special Discount in a Shop",
+        "TitleSlug": "final-prices-with-a-special-discount-in-a-shop",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"346.1K\", \"totalSubmission\": \"413.8K\", \"totalAcceptedRaw\": 346123, \"totalSubmissionRaw\": 413821, \"acRate\": \"83.6%\"}",
+        "Likes": 2809,
+        "Dislikes": 144,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE1",
+            "Name": "Stack",
+            "Slug": "stack"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDU0",
+            "Name": "Monotonic Stack",
+            "Slug": "monotonic-stack"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    vector<int> finalPrices(vector<int>& prices) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int[] finalPrices(int[] prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def finalPrices(self, prices):\n        \"\"\"\n        :type prices: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} prices\n * @return {number[]}\n */\nvar finalPrices = function(prices) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function finalPrices(prices: number[]): number[] {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int[] FinalPrices(int[] prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* finalPrices(int* prices, int pricesSize, int* returnSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func finalPrices(prices []int) []int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun finalPrices(prices: IntArray): IntArray {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func finalPrices(_ prices: [Int]) -> [Int] {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn final_prices(prices: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} prices\n# @return {Integer[]}\ndef final_prices(prices)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $prices\n     * @return Integer[]\n     */\n    function finalPrices($prices) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  List<int> finalPrices(List<int> prices) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def finalPrices(prices: Array[Int]): Array[Int] = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec final_prices(prices :: [integer]) :: [integer]\n  def final_prices(prices) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec final_prices(Prices :: [integer()]) -> [integer()].\nfinal_prices(Prices) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (final-prices prices)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:20:14.390484+01:00",
+    "AcRate": "83.6",
+    "TotalSubmissions": 413821,
+    "TotalAccepted": 346123,
+    "AcceptanceRate": 0.8364075288590961,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/"
+  },
+  "Solutions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\n**Problem Analysis:**\n\nThe problem requires determining the discounted price for each item in a list. The discount for an item at index `i` is the first subsequent price `prices[j]` (with `j > i`) that is less than or equal to `prices[i]`. If no such discount exists, the discount is zero. The solution must compute the final price for each item as `prices[i] - discount`.\n\n1. **Problem Type Classification**: This is an array processing problem that involves finding the next smaller or equal element to the right. It relates to monotonic stack patterns.\n\n2. **Key Patterns & Algorithms**: The problem is efficiently solved using a **monotonic stack** (specifically, a decreasing stack). We traverse from right to left, maintaining a stack that holds potential discount candidates. For each element, we pop the stack until we find an element that is less than or equal to the current price, which becomes the discount. Then we push the current element onto the stack.\n\n3. **Constraints Analysis**: The constraints (length up to 500) allow an O(n^2) solution, but an O(n) solution using a stack is optimal and straightforward.\n\n4. **Edge Cases**:\n   - No discount available for any item (e.g., strictly increasing prices).\n   - All prices are the same.\n   - The discount is the immediate next element.\n   - The discount is far to the right.\n   - Single element array.\n\n5. **Input/Output Analysis**: The input is a list of integers. The output is a list of integers of the same length, where each element is the discounted price.\n\n6. **Difficulty Assessment**: The problem is easy if one knows the monotonic stack technique. Without it, a naive O(n^2) approach might be used, which is acceptable given the constraints but less efficient.\n\n**Solution Code:**\n\n```python\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            else:\n                result[i] = prices[i]\n            stack.append(prices[i])\n        return result\n```\n\n**Explanation:**\nThe solution processes the array from right to left. The stack maintains a decreasing sequence of prices. For each price, we pop all elements from the stack that are greater than the current price. The top of the stack (if it exists) is the discount for the current item. The current price is then pushed onto the stack. This ensures that for each element, we quickly find the next smaller or equal value to the right. The result is computed by subtracting the discount from the original price. This approach runs in O(n) time and space.\n\n=== DESIGN ===\n**Algorithm Choice:**  \nWe will use a monotonic stack approach to efficiently find the next smaller or equal element to the right for each item. This allows us to compute the discount in linear time.\n\n**Step-by-Step Approach:**  \n1. Initialize an array `result` to store the final prices, initially copying the original `prices`.\n2. Create an empty stack to maintain a decreasing sequence of prices.\n3. Traverse the array from right to left.\n   - While the stack is not empty and the top element is greater than the current price, pop from the stack. This removes elements that cannot be discounts for any leftward items.\n   - If the stack is not empty after popping, the top element is the discount for the current item. Subtract it from the current price to get the final price.\n   - If the stack is empty, there is no discount, so the final price remains the same.\n   - Push the current price onto the stack.\n4. Return the `result` array.\n\n**Data Structures:**  \n- A list (stack) to maintain the decreasing sequence of prices.\n\n**Time Complexity:**  \nO(n) - Each element is pushed and popped at most once.\n\n**Space Complexity:**  \nO(n) - The stack can grow up to the size of the input.\n\n**Pseudocode:**  \n```\nfunction finalPrices(prices):\n    n = length(prices)\n    result = copy of prices\n    stack = empty list\n    for i from n-1 down to 0:\n        while stack is not empty and stack.top > prices[i]:\n            stack.pop()\n        if stack is not empty:\n            result[i] -= stack.top\n        push prices[i] to stack\n    return result\n```\n\n**Solution Code:**\n```python\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            stack.append(prices[i])\n        return result\n```\n\n=== IMPLEMENTATION ===\n```python\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            stack.append(prices[i])\n        return result\n```\n\n=== VERIFICATION ===\nI have reviewed the provided solution code. Here is my verification report:\n\n**Correctness:**\nThe code correctly implements the monotonic stack algorithm. It processes the array from right to left, maintaining a stack that holds potential discount candidates. For each element, it pops values greater than the current price to find the next smaller or equal value to the right. The discount is applied correctly by subtracting the stack top (if exists) from the current price.\n\n**Edge Cases:**\n- *No discount (strictly increasing):* For `[1,2,3,4,5]`, the stack will always be non-empty when processing from right, but the top will be greater than the current price (so it gets popped). Then the stack becomes empty? Actually, when processing from right:\n  i=4: stack=[5]\n  i=3: current=4, pop until stack top <=4? But 5>4 -> pop -> stack empty -> no discount -> push 4\n  i=2: current=3, stack=[4] -> 4>3 -> pop -> empty -> no discount -> push 3\n  Similarly for others. So output is [1,2,3,4,5] as expected.\n- *All same prices:* For `[5,5,5,5]`, the stack top is always equal to current. So discount is applied: \n  i=3: stack=[] -> push 5\n  i=2: stack=[5] -> 5<=5 -> discount=5 -> result[2]=0 -> push 5\n  i=1: stack=[5,5] -> top=5<=5 -> discount=5 -> result[1]=0 -> push 5\n  i=0: stack=[5,5,5] -> top=5<=5 -> discount=5 -> result[0]=0\n  So output [0,0,0,5]? But expected: each item gets discount from next same? Actually, the problem says \"minimum index j>i and prices[j]<=prices[i]\". So for i=0, j=1 (5<=5) -> discount=5 -> price=0.\n  Similarly for i=1, j=2 -> discount=5 -> price=0.\n  For i=2, j=3 -> discount=5 -> price=0.\n  For i=3, no discount -> price=5.\n  So output [0,0,0,5] is correct.\n- *Immediate discount:* For `[10,1]`, \n  i=1: stack=[] -> push 1\n  i=0: current=10, stack=[1] -> 1<=10 -> discount=1 -> result[0]=9 -> push 10\n  Output [9,1] as expected.\n- *Single element:* [5] -> no discount -> output [5].\n\n**Complexity:**\nThe time complexity is O(n) because each element is pushed and popped at most once. The space complexity is O(n) for the stack.\n\n**Code Quality:**\nThe code is clean and readable. It uses appropriate variable names and follows Python conventions. The logic is straightforward.\n\n**Test Cases:**\n- Example 1: `[8,4,6,2,3]`\n  i=4: stack=[] -> push 3\n  i=3: current=2, stack=[3] -> 3>2 -> pop -> stack empty -> no discount -> push 2\n  i=2: current=6, stack=[2] -> 2<=6 -> discount=2 -> result[2]=4 -> push 6\n  i=1: current=4, stack=[6,2] -> top=6>4 -> pop -> top=2<=4 -> discount=2 -> result[1]=2 -> push 4\n  i=0: current=8, stack=[4,2] -> top=4<=8 -> discount=4 -> result[0]=4 -> push 8\n  Output [4,2,4,2,3] matches.\n\n- Example 2: `[1,2,3,4,5]` as above, output [1,2,3,4,5].\n- Example 3: `[10,1,1,6]`\n  i=3: stack=[] -> push 6\n  i=2: current=1, stack=[6] -> 6>1 -> pop -> empty -> no discount -> push 1\n  i=1: current=1, stack=[1] -> 1<=1 -> discount=1 -> result[1]=0 -> push 1\n  i=0: current=10, stack=[1,1] -> top=1<=10 -> discount=1 -> result[0]=9 -> push 10\n  Output [9,0,1,6] matches.\n\n**Potential Issues:**\nNone. The code is correct and efficient.\n\n**Final Code:**\n```python\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            stack.append(prices[i])\n        return result\n```\n\n",
+      "TypedCode": "\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            stack.append(prices[i])\n        return result\n",
+      "Model": "deepseek/deepseek-chat-v3.1",
+      "Latency": 34917509208,
+      "SolvedAt": "2025-11-20T23:50:49.243605+01:00",
+      "PromptTokens": 5850,
+      "OutputTokens": 2314
+    }
+  },
+  "Submissions": {
+    "deepseek/deepseek-chat-v3.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1570",
+        "typed_code": "\nclass Solution:\n    def finalPrices(self, prices: List[int]) -> List[int]:\n        n = len(prices)\n        result = prices[:]\n        stack = []\n        for i in range(n-1, -1, -1):\n            while stack and stack[-1] > prices[i]:\n                stack.pop()\n            if stack:\n                result[i] -= stack[-1]\n            stack.append(prices[i])\n        return result\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T02:21:42+01:00"
+    }
+  }
+}

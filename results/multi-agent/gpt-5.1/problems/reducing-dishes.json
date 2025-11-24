@@ -1,0 +1,200 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "1402",
+        "questionId": "1503",
+        "Content": "<p>A chef has collected data on the <code>satisfaction</code> level of his <code>n</code> dishes. Chef can cook any dish in 1 unit of time.</p>\n\n<p><strong>Like-time coefficient</strong> of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level i.e. <code>time[i] * satisfaction[i]</code>.</p>\n\n<p>Return the maximum sum of <strong>like-time coefficient </strong>that the chef can obtain after preparing some amount of dishes.</p>\n\n<p>Dishes can be prepared in <strong>any </strong>order and the chef can discard some dishes to get this maximum value.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [-1,-8,0,5,-9]\n<strong>Output:</strong> 14\n<strong>Explanation:</strong> After Removing the second and last dish, the maximum total <strong>like-time coefficient</strong> will be equal to (-1*1 + 0*2 + 5*3 = 14).\nEach dish is prepared in one unit of time.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [4,3,2]\n<strong>Output:</strong> 20\n<strong>Explanation:</strong> Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> satisfaction = [-1,-4,-5]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> People do not like the dishes. No dish is prepared.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == satisfaction.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 500</code></li>\n\t<li><code>-1000 &lt;= satisfaction[i] &lt;= 1000</code></li>\n</ul>\n",
+        "SampleTestCase": "[-1,-8,0,5,-7]",
+        "ExampleTestcases": "[-1,-8,0,5,-7]\n[4,3,2]\n[-1,-4,-5]",
+        "Difficulty": "Hard",
+        "Title": "Reducing Dishes",
+        "TitleSlug": "reducing-dishes",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"178.1K\", \"totalSubmission\": \"232.8K\", \"totalAcceptedRaw\": 178117, \"totalSubmissionRaw\": 232798, \"acRate\": \"76.5%\"}",
+        "Likes": 3482,
+        "Dislikes": 317,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE3",
+            "Name": "Greedy",
+            "Slug": "greedy"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+            "Name": "Sorting",
+            "Slug": "sorting"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int maxSatisfaction(vector<int>& satisfaction) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int maxSatisfaction(int[] satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def maxSatisfaction(self, satisfaction):\n        \"\"\"\n        :type satisfaction: List[int]\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} satisfaction\n * @return {number}\n */\nvar maxSatisfaction = function(satisfaction) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function maxSatisfaction(satisfaction: number[]): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int MaxSatisfaction(int[] satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int maxSatisfaction(int* satisfaction, int satisfactionSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func maxSatisfaction(satisfaction []int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun maxSatisfaction(satisfaction: IntArray): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func maxSatisfaction(_ satisfaction: [Int]) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn max_satisfaction(satisfaction: Vec<i32>) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} satisfaction\n# @return {Integer}\ndef max_satisfaction(satisfaction)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $satisfaction\n     * @return Integer\n     */\n    function maxSatisfaction($satisfaction) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int maxSatisfaction(List<int> satisfaction) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def maxSatisfaction(satisfaction: Array[Int]): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec max_satisfaction(satisfaction :: [integer]) :: integer\n  def max_satisfaction(satisfaction) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec max_satisfaction(Satisfaction :: [integer()]) -> integer().\nmax_satisfaction(Satisfaction) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (max-satisfaction satisfaction)\n  (-> (listof exact-integer?) exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:24:06.693594+01:00",
+    "AcRate": "76.5",
+    "TotalSubmissions": 232798,
+    "TotalAccepted": 178117,
+    "AcceptanceRate": 0.76511396146015,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/reducing-dishes/"
+  },
+  "Solutions": {
+    "openai/gpt-5.1": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total\n\n=== DESIGN ===\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total\n\n=== IMPLEMENTATION ===\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total\n\n=== VERIFICATION ===\nfrom typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total\n\n",
+      "TypedCode": "from typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total",
+      "Model": "openai/gpt-5.1",
+      "Latency": 21225162042,
+      "SolvedAt": "2025-11-19T16:19:49.429916+01:00",
+      "PromptTokens": 3112,
+      "OutputTokens": 1061
+    }
+  },
+  "Submissions": {
+    "openai/gpt-5.1": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "1503",
+        "typed_code": "from typing import List\n\nclass Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        satisfaction.sort(reverse=True)\n        prefix_sum = 0\n        total = 0\n        for val in satisfaction:\n            if prefix_sum + val > 0:\n                prefix_sum += val\n                total += prefix_sum\n            else:\n                break\n        return total"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T17:26:03+01:00"
+    }
+  }
+}

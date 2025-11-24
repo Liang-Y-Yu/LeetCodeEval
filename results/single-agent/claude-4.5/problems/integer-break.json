@@ -1,0 +1,190 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "343",
+        "questionId": "343",
+        "Content": "<p>Given an integer <code>n</code>, break it into the sum of <code>k</code> <strong>positive integers</strong>, where <code>k &gt;= 2</code>, and maximize the product of those integers.</p>\n\n<p>Return <em>the maximum product you can get</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> 2 = 1 + 1, 1 &times; 1 = 1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 10\n<strong>Output:</strong> 36\n<strong>Explanation:</strong> 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= n &lt;= 58</code></li>\n</ul>\n",
+        "SampleTestCase": "2",
+        "ExampleTestcases": "2\n10",
+        "Difficulty": "Medium",
+        "Title": "Integer Break",
+        "TitleSlug": "integer-break",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"417.5K\", \"totalSubmission\": \"678.4K\", \"totalAcceptedRaw\": 417526, \"totalSubmissionRaw\": 678389, \"acRate\": \"61.5%\"}",
+        "Likes": 5312,
+        "Dislikes": 463,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int integerBreak(int n) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int integerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def integerBreak(self, n: int) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def integerBreak(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number} n\n * @return {number}\n */\nvar integerBreak = function(n) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function integerBreak(n: number): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int IntegerBreak(int n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int integerBreak(int n) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func integerBreak(n int) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun integerBreak(n: Int): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func integerBreak(_ n: Int) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn integer_break(n: i32) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer} n\n# @return {Integer}\ndef integer_break(n)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function integerBreak($n) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int integerBreak(int n) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def integerBreak(n: Int): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec integer_break(n :: integer) :: integer\n  def integer_break(n) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec integer_break(N :: integer()) -> integer().\ninteger_break(N) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (integer-break n)\n  (-> exact-integer? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:21:59.969283+01:00",
+    "AcRate": "61.5",
+    "TotalSubmissions": 678389,
+    "TotalAccepted": 417526,
+    "AcceptanceRate": 0.6154669371113034,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/integer-break/"
+  },
+  "Solutions": {
+    "anthropic/claude-sonnet-4.5": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: Given an integer n, break it into the sum of k positive integers, where k >= 2, and maximize the product of those integers.\nReturn the maximum product you can get.\n\u00a0\nExample 1:\nInput: n = 2\nOutput: 1\nExplanation: 2 = 1 + 1, 1 \u00d7 1 = 1.\nExample 2:\nInput: n = 10\nOutput: 36\nExplanation: 10 = 3 + 3 + 4, 3 \u00d7 3 \u00d7 4 = 36.\n\u00a0\nConstraints:\n\t2 <= n <= 58\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def integerBreak(self, n: int) -> int:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "Looking at this problem, I need to find the optimal way to break an integer `n` into `k` positive integers (where k >= 2) to maximize their product.\n\nLet me think about the mathematical approach:\n\n1. For a fixed sum, to maximize the product, the numbers should be as equal as possible\n2. We want to avoid using 1s (since they don't contribute to the product)\n3. We should prefer smaller numbers over larger ones (breaking 6 into 3+3 gives 9, which is better than 6 itself)\n\nKey insight: The optimal strategy is to break n into as many 3s as possible, with some exceptions:\n- If remainder is 1 when dividing by 3, we should use one less 3 and make two 2s (since 3+3+1 \u2192 3\u00d73\u00d71=9, but 3+2+2 \u2192 3\u00d72\u00d72=12)\n- If remainder is 2, we just add one 2\n- Special cases for small n (2, 3)\n\nMathematical reasoning:\n- 2\u00d72 = 4 > 1\u00d73 = 3 (so two 2s is better than one 3)\n- 3\u00d73 = 9 > 2\u00d72\u00d72 = 8 (so two 3s is better than three 2s)\n- This means 3 is generally the best base, except when we'd have a remainder of 1\n\nLet me verify with examples:\n- n=2: Can't use any 3s, must be 1+1 = 1\n- n=10: 10 = 3+3+4 (or 3+3+2+2), 3\u00d73\u00d74=36 or 3\u00d73\u00d72\u00d72=36\n\nActually, let me reconsider: when we have remainder 1, we get n = 3q + 1 = 3(q-1) + 4 = 3(q-1) + 2 + 2, so we use (q-1) 3s and two 2s.\n\nHere's my solution:\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        product = 1\n        \n        while n > 4:\n            product *= 3\n            n -= 3\n        \n        product *= n\n        \n        return product\n```\n\nWait, let me trace through this:\n- n=2: returns 1 \u2713\n- n=10: n>4, product=3, n=7; n>4, product=9, n=4; n=4, product=36 \u2713\n- n=4: product=1, n=4, product=4 (4=2+2, 2\u00d72=4) \u2713\n- n=5: product=3, n=2, product=6 (5=3+2, 3\u00d72=6) \u2713\n- n=6: product=3, n=3, product=9 (6=3+3, 3\u00d73=9) \u2713\n\nThis approach works because:\n- For n=2,3, we need special handling since we must split them\n- For n>=4, we keep extracting 3s until n<=4, then multiply by the remainder\n- When n=4, we get 2+2 (product 4)\n- When n=3, we get just 3 (product 3) \n- When n=2, we get just 2 (product 2)\n\nThis greedy approach maximizes the use of 3s while handling edge cases correctly.\n\n```python\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        product = 1\n        \n        while n > 4:\n            product *= 3\n            n -= 3\n        \n        product *= n\n        \n        return product\n```",
+      "TypedCode": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        product = 1\n        \n        while n > 4:\n            product *= 3\n            n -= 3\n        \n        product *= n\n        \n        return product\n",
+      "Model": "anthropic/claude-sonnet-4.5",
+      "Latency": 17462217291,
+      "SolvedAt": "2025-11-19T21:41:06.884223+01:00",
+      "PromptTokens": 378,
+      "OutputTokens": 979
+    }
+  },
+  "Submissions": {
+    "anthropic/claude-sonnet-4.5": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "343",
+        "typed_code": "\nclass Solution:\n    def integerBreak(self, n: int) -> int:\n        if n == 2:\n            return 1\n        if n == 3:\n            return 2\n        \n        product = 1\n        \n        while n > 4:\n            product *= 3\n            n -= 3\n        \n        product *= n\n        \n        return product\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-19T23:01:22+01:00"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "828",
+        "questionId": "855",
+        "Content": "<p>Let&#39;s define a function <code>countUniqueChars(s)</code> that returns the number of unique characters in&nbsp;<code>s</code>.</p>\n\n<ul>\n\t<li>For example, calling <code>countUniqueChars(s)</code> if <code>s = &quot;LEETCODE&quot;</code> then <code>&quot;L&quot;</code>, <code>&quot;T&quot;</code>, <code>&quot;C&quot;</code>, <code>&quot;O&quot;</code>, <code>&quot;D&quot;</code> are the unique characters since they appear only once in <code>s</code>, therefore <code>countUniqueChars(s) = 5</code>.</li>\n</ul>\n\n<p>Given a string <code>s</code>, return the sum of <code>countUniqueChars(t)</code> where <code>t</code> is a substring of <code>s</code>. The test cases are generated such that the answer fits in a 32-bit integer.</p>\n\n<p>Notice that some substrings can be repeated so in this case you have to count the repeated ones too.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ABC&quot;\n<strong>Output:</strong> 10\n<strong>Explanation: </strong>All possible substrings are: &quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;AB&quot;,&quot;BC&quot; and &quot;ABC&quot;.\nEvery substring is composed with only unique letters.\nSum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ABA&quot;\n<strong>Output:</strong> 8\n<strong>Explanation: </strong>The same as example 1, except <code>countUniqueChars</code>(&quot;ABA&quot;) = 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;LEETCODE&quot;\n<strong>Output:</strong> 92\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of uppercase English letters only.</li>\n</ul>\n",
+        "SampleTestCase": "\"ABC\"",
+        "ExampleTestcases": "\"ABC\"\n\"ABA\"\n\"LEETCODE\"",
+        "Difficulty": "Hard",
+        "Title": "Count Unique Characters of All Substrings of a Given String",
+        "TitleSlug": "count-unique-characters-of-all-substrings-of-a-given-string",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"81.7K\", \"totalSubmission\": \"153.4K\", \"totalAcceptedRaw\": 81688, \"totalSubmissionRaw\": 153356, \"acRate\": \"53.3%\"}",
+        "Likes": 2235,
+        "Dislikes": 254,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjY=",
+            "Name": "Hash Table",
+            "Slug": "hash-table"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEw",
+            "Name": "String",
+            "Slug": "string"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjEz",
+            "Name": "Dynamic Programming",
+            "Slug": "dynamic-programming"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    int uniqueLetterString(string s) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public int uniqueLetterString(String s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def uniqueLetterString(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {string} s\n * @return {number}\n */\nvar uniqueLetterString = function(s) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function uniqueLetterString(s: string): number {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public int UniqueLetterString(string s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "int uniqueLetterString(char* s) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func uniqueLetterString(s string) int {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun uniqueLetterString(s: String): Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func uniqueLetterString(_ s: String) -> Int {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn unique_letter_string(s: String) -> i32 {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {String} s\n# @return {Integer}\ndef unique_letter_string(s)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function uniqueLetterString($s) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  int uniqueLetterString(String s) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def uniqueLetterString(s: String): Int = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec unique_letter_string(s :: String.t) :: integer\n  def unique_letter_string(s) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec unique_letter_string(S :: unicode:unicode_binary()) -> integer().\nunique_letter_string(S) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (unique-letter-string s)\n  (-> string? exact-integer?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T14:57:19.668358+01:00",
+    "AcRate": "53.3",
+    "TotalSubmissions": 153356,
+    "TotalAccepted": 81688,
+    "AcceptanceRate": 0.5326690837006703,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Multi-agent approach:\n1. Analysis\n2. Design\n3. Implementation\n4. Verification",
+      "Answer": "=== ANALYSIS ===\nAn elegant and efficient way to solve this problem is to change the perspective. Instead of iterating through all substrings and counting unique characters, we can iterate through each character in the string `s` and calculate its total contribution to the final sum.\n\nA character `s[i]` contributes to `countUniqueChars(t)` for a substring `t` if and only if `s[i]` appears exactly once in `t`.\n\nLet's fix a character `s[i]`. We need to count how many substrings `t` contain this specific `s[i]` as a unique character. A substring `t` is defined by its start and end indices, say `j` and `k`, where `s[j...k] = t`. For `s[i]` to be part of `t`, we must have `j <= i <= k`.\n\nFor `s[i]` to be unique within `s[j...k]`, there should be no other occurrence of the character `s[i]` in that substring. This means the start index `j` must be greater than the index of the previous occurrence of `s[i]`, and the end index `k` must be less than the index of the next occurrence of `s[i]`.\n\nLet's denote `prev_i` as the index of the previous occurrence of the character `s[i]` (or -1 if none exists) and `next_i` as the index of the next occurrence (or `len(s)` if none exists).\n\n- The start index `j` can range from `prev_i + 1` to `i`. This gives `i - (prev_i + 1) + 1 = i - prev_i` choices for `j`.\n- The end index `k` can range from `i` to `next_i - 1`. This gives `(next_i - 1) - i + 1 = next_i - i` choices for `k`.\n\nThe total number of substrings where `s[i]` is unique is the product of the number of choices for `j` and `k`, which is `(i - prev_i) * (next_i - i)`. This is the contribution of the character `s[i]` to the total sum.\n\nThe overall algorithm is:\n1. For each character in the alphabet ('A' through 'Z'), find all indices where it appears in the string `s`. A hash map is a good way to store this: `char -> [index1, index2, ...]`.\n2. Iterate through the occurrences of each character. For each occurrence at `current_idx`, find its `prev_idx` and `next_idx` from the list of indices. To handle boundaries gracefully, we can imagine virtual occurrences at indices -1 and `len(s)`.\n3. Calculate the contribution `(current_idx - prev_idx) * (next_idx - current_idx)` and add it to a running total.\n4. The final sum is the answer.\n\nThis approach has a time complexity of O(N), where N is the length of the string, because we iterate through the string once to build the index map and then iterate through each character's occurrences once. The space complexity is also O(N) to store the index map. This is efficient enough to pass the given constraints.\n\n```python\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n        \n        n = len(s)\n        total_sum = 0\n        \n        for indices in index_map.values():\n            # To handle boundary conditions for the first and last occurrences\n            # of a character, we add virtual indices -1 and n.\n            aug_indices = [-1] + indices + [n]\n            \n            # For each actual occurrence, calculate its contribution.\n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i-1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i+1]\n                \n                # Number of possible start positions for substrings\n                # where s[current_idx] is the first occurrence of its kind.\n                left_options = current_idx - prev_idx\n                \n                # Number of possible end positions for substrings\n                # where s[current_idx] is the last occurrence of its kind.\n                right_options = next_idx - current_idx\n                \n                # The product gives the total number of substrings where\n                # s[current_idx] is the unique occurrence of that character.\n                total_sum += left_options * right_options\n\n        return total_sum\n```\n\n=== DESIGN ===\n```python\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n        \n        n = len(s)\n        total_sum = 0\n        \n        for indices in index_map.values():\n            # Augment indices with -1 and n to handle boundary conditions\n            # for the first and last occurrences of a character gracefully.\n            aug_indices = [-1] + indices + [n]\n            \n            # For each actual occurrence of a character, calculate its contribution.\n            # The loop iterates from the first to the last of the original indices.\n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i-1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i+1]\n                \n                # The number of ways to choose a starting point for a substring\n                # such that s[current_idx] is the first occurrence of its character.\n                # The start can be any index from prev_idx + 1 to current_idx.\n                left_options = current_idx - prev_idx\n                \n                # The number of ways to choose an ending point for a substring\n                # such that s[current_idx] is the last occurrence of its character.\n                # The end can be any index from current_idx to next_idx - 1.\n                right_options = next_idx - current_idx\n                \n                # The total number of substrings where this s[current_idx] is unique\n                # is the product of the left and right options. Each such substring\n                # adds 1 to the total sum, contributed by s[current_idx].\n                total_sum += left_options * right_options\n                \n        return total_sum\n```\n\n=== IMPLEMENTATION ===\n```python\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n        \n        n = len(s)\n        total_sum = 0\n        \n        for indices in index_map.values():\n            aug_indices = [-1] + indices + [n]\n            \n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i-1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i+1]\n                \n                left_options = current_idx - prev_idx\n                \n                right_options = next_idx - current_idx\n                \n                total_sum += left_options * right_options\n                \n        return total_sum\n```\n\n=== VERIFICATION ===\nAn elegant and efficient way to solve this problem is to change the perspective. Instead of iterating through all substrings and counting unique characters, we can iterate through each character in the string `s` and calculate its total contribution to the final sum.\nA character `s[i]` contributes to `countUniqueChars(t)` for a substring `t` if and only if `s[i]` appears exactly once in `t`.\nLet's fix a character `s[i]`. We need to count how many substrings `t` contain this specific `s[i]` as a unique character. A substring `t` is defined by its start and end indices, say `j` and `k`, where `s[j...k] = t`. For `s[i]` to be part of `t`, we must have `j <= i <= k`.\nFor `s[i]` to be unique within `s[j...k]`, there should be no other occurrence of the character `s[i]` in that substring. This means the start index `j` must be greater than the index of the previous occurrence of `s[i]`, and the end index `k` must be less than the index of the next occurrence of `s[i]`.\nLet's denote `prev_i` as the index of the previous occurrence of the character `s[i]` (or -1 if none exists) and `next_i` as the index of the next occurrence (or `len(s)` if none exists).\n- The start index `j` can range from `prev_i + 1` to `i`. This gives `i - (prev_i + 1) + 1 = i - prev_i` choices for `j`.\n- The end index `k` can range from `i` to `next_i - 1`. This gives `(next_i - 1) - i + 1 = next_i - i` choices for `k`.\nThe total number of substrings where `s[i]` is unique is the product of the number of choices for `j` and `k`, which is `(i - prev_i) * (next_i - i)`. This is the contribution of the character `s[i]` to the total sum.\nThe overall algorithm is:\n1. For each character in the alphabet ('A' through 'Z'), find all indices where it appears in the string `s`. A hash map is a good way to store this: `char -> [index1, index2, ...]`.\n2. Iterate through the occurrences of each character. For each occurrence at `current_idx`, find its `prev_idx` and `next_idx` from the list of indices. To handle boundaries gracefully, we can imagine virtual occurrences at indices -1 and `len(s)`.\n3. Calculate the contribution `(current_idx - prev_idx) * (next_idx - current_idx)` and add it to a running total.\n4. The final sum is the answer.\nThis approach has a time complexity of O(N), where N is the length of the string, because we iterate through the string once to build the index map and then iterate through each character's occurrences once. The space complexity is also O(N) to store the index map. This is efficient enough to pass the given constraints.\n```python\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n\n        n = len(s)\n        total_sum = 0\n\n        for char in index_map:\n            indices = index_map[char]\n            # To handle boundary conditions for the first and last occurrences\n            # of a character, we add virtual indices -1 and n.\n            aug_indices = [-1] + indices + [n]\n\n            # For each actual occurrence, calculate its contribution.\n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i - 1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i + 1]\n\n                # Number of possible start positions for substrings\n                # where s[current_idx] is the first occurrence of its kind.\n                left_options = current_idx - prev_idx\n\n                # Number of possible end positions for substrings\n                # where s[current_idx] is the last occurrence of its kind.\n                right_options = next_idx - current_idx\n\n                # The product gives the total number of substrings where\n                # s[current_idx] is the unique occurrence of that character.\n                total_sum += left_options * right_options\n\n        return total_sum\n```\n\n",
+      "TypedCode": "\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n        \n        n = len(s)\n        total_sum = 0\n        \n        for indices in index_map.values():\n            aug_indices = [-1] + indices + [n]\n            \n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i-1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i+1]\n                \n                left_options = current_idx - prev_idx\n                \n                right_options = next_idx - current_idx\n                \n                total_sum += left_options * right_options\n                \n        return total_sum\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 426291969126,
+      "SolvedAt": "2025-11-21T10:26:25.098893+01:00",
+      "PromptTokens": 7157,
+      "OutputTokens": 51806
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "855",
+        "typed_code": "\nimport collections\n\nclass Solution:\n    def uniqueLetterString(self, s: str) -> int:\n        index_map = collections.defaultdict(list)\n        for i, char in enumerate(s):\n            index_map[char].append(i)\n        \n        n = len(s)\n        total_sum = 0\n        \n        for indices in index_map.values():\n            aug_indices = [-1] + indices + [n]\n            \n            for i in range(1, len(aug_indices) - 1):\n                prev_idx = aug_indices[i-1]\n                current_idx = aug_indices[i]\n                next_idx = aug_indices[i+1]\n                \n                left_options = current_idx - prev_idx\n                \n                right_options = next_idx - current_idx\n                \n                total_sum += left_options * right_options\n                \n        return total_sum\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-21T20:39:25+01:00"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "longest-duplicate-substring.json",
+    "model": "anthropic/claude-sonnet-4.5",
+    "language": "python3",
+    "lines_of_code": 46,
+    "cyclomatic_complexity": 7,
+    "duplication_score": 0,
+    "problem_id": "1122",
+    "title": "Longest Duplicate Substring",
+    "status": "Wrong Answer",
+    "accepted": false,
+    "runtime_percentile": 0,
+    "memory_percentile": 0
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "Question": {
+    "Data": {
+      "Question": {
+        "questionFrontendId": "679",
+        "questionId": "679",
+        "Content": "<p>You are given an integer array <code>cards</code> of length <code>4</code>. You have four cards, each containing a number in the range <code>[1, 9]</code>. You should arrange the numbers on these cards in a mathematical expression using the operators <code>[&#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;]</code> and the parentheses <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> to get the value 24.</p>\n\n<p>You are restricted with the following rules:</p>\n\n<ul>\n\t<li>The division operator <code>&#39;/&#39;</code> represents real division, not integer division.\n\n\t<ul>\n\t\t<li>For example, <code>4 / (1 - 2 / 3) = 4 / (1 / 3) = 12</code>.</li>\n\t</ul>\n\t</li>\n\t<li>Every operation done is between two numbers. In particular, we cannot use <code>&#39;-&#39;</code> as a unary operator.\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 1, 1, 1]</code>, the expression <code>&quot;-1 - 1 - 1 - 1&quot;</code> is <strong>not allowed</strong>.</li>\n\t</ul>\n\t</li>\n\t<li>You cannot concatenate numbers together\n\t<ul>\n\t\t<li>For example, if <code>cards = [1, 2, 1, 2]</code>, the expression <code>&quot;12 + 12&quot;</code> is not valid.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return <code>true</code> if you can get such expression that evaluates to <code>24</code>, and <code>false</code> otherwise.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [4,1,8,7]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> (8-4) * (7-1) = 24\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> cards = [1,2,1,2]\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>cards.length == 4</code></li>\n\t<li><code>1 &lt;= cards[i] &lt;= 9</code></li>\n</ul>\n",
+        "SampleTestCase": "[4,1,8,7]",
+        "ExampleTestcases": "[4,1,8,7]\n[1,2,1,2]",
+        "Difficulty": "Hard",
+        "Title": "24 Game",
+        "TitleSlug": "24-game",
+        "IsPaidOnly": false,
+        "Stats": "{\"totalAccepted\": \"164.2K\", \"totalSubmission\": \"277.3K\", \"totalAcceptedRaw\": 164151, \"totalSubmissionRaw\": 277296, \"acRate\": \"59.2%\"}",
+        "Likes": 1872,
+        "Dislikes": 288,
+        "FreqBar": 0,
+        "CategoryTitle": "Algorithms",
+        "TopicTags": [
+          {
+            "Id": "VG9waWNUYWdOb2RlOjU=",
+            "Name": "Array",
+            "Slug": "array"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjg=",
+            "Name": "Math",
+            "Slug": "math"
+          },
+          {
+            "Id": "VG9waWNUYWdOb2RlOjE0",
+            "Name": "Backtracking",
+            "Slug": "backtracking"
+          }
+        ],
+        "CodeSnippets": [
+          {
+            "Lang": "C++",
+            "LangSlug": "cpp",
+            "Code": "class Solution {\npublic:\n    bool judgePoint24(vector<int>& cards) {\n        \n    }\n};"
+          },
+          {
+            "Lang": "Java",
+            "LangSlug": "java",
+            "Code": "class Solution {\n    public boolean judgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Python3",
+            "LangSlug": "python3",
+            "Code": "class Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        "
+          },
+          {
+            "Lang": "Python",
+            "LangSlug": "python",
+            "Code": "class Solution(object):\n    def judgePoint24(self, cards):\n        \"\"\"\n        :type cards: List[int]\n        :rtype: bool\n        \"\"\"\n        "
+          },
+          {
+            "Lang": "JavaScript",
+            "LangSlug": "javascript",
+            "Code": "/**\n * @param {number[]} cards\n * @return {boolean}\n */\nvar judgePoint24 = function(cards) {\n    \n};"
+          },
+          {
+            "Lang": "TypeScript",
+            "LangSlug": "typescript",
+            "Code": "function judgePoint24(cards: number[]): boolean {\n    \n};"
+          },
+          {
+            "Lang": "C#",
+            "LangSlug": "csharp",
+            "Code": "public class Solution {\n    public bool JudgePoint24(int[] cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "C",
+            "LangSlug": "c",
+            "Code": "bool judgePoint24(int* cards, int cardsSize) {\n    \n}"
+          },
+          {
+            "Lang": "Go",
+            "LangSlug": "golang",
+            "Code": "func judgePoint24(cards []int) bool {\n    \n}"
+          },
+          {
+            "Lang": "Kotlin",
+            "LangSlug": "kotlin",
+            "Code": "class Solution {\n    fun judgePoint24(cards: IntArray): Boolean {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Swift",
+            "LangSlug": "swift",
+            "Code": "class Solution {\n    func judgePoint24(_ cards: [Int]) -> Bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Rust",
+            "LangSlug": "rust",
+            "Code": "impl Solution {\n    pub fn judge_point24(cards: Vec<i32>) -> bool {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Ruby",
+            "LangSlug": "ruby",
+            "Code": "# @param {Integer[]} cards\n# @return {Boolean}\ndef judge_point24(cards)\n    \nend"
+          },
+          {
+            "Lang": "PHP",
+            "LangSlug": "php",
+            "Code": "class Solution {\n\n    /**\n     * @param Integer[] $cards\n     * @return Boolean\n     */\n    function judgePoint24($cards) {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Dart",
+            "LangSlug": "dart",
+            "Code": "class Solution {\n  bool judgePoint24(List<int> cards) {\n    \n  }\n}"
+          },
+          {
+            "Lang": "Scala",
+            "LangSlug": "scala",
+            "Code": "object Solution {\n    def judgePoint24(cards: Array[Int]): Boolean = {\n        \n    }\n}"
+          },
+          {
+            "Lang": "Elixir",
+            "LangSlug": "elixir",
+            "Code": "defmodule Solution do\n  @spec judge_point24(cards :: [integer]) :: boolean\n  def judge_point24(cards) do\n    \n  end\nend"
+          },
+          {
+            "Lang": "Erlang",
+            "LangSlug": "erlang",
+            "Code": "-spec judge_point24(Cards :: [integer()]) -> boolean().\njudge_point24(Cards) ->\n  ."
+          },
+          {
+            "Lang": "Racket",
+            "LangSlug": "racket",
+            "Code": "(define/contract (judge-point24 cards)\n  (-> (listof exact-integer?) boolean?)\n  )"
+          }
+        ],
+        "CompanyTagStats": ""
+      }
+    },
+    "DownloadedAt": "2025-11-17T15:06:56.163065+01:00",
+    "AcRate": "59.2",
+    "TotalSubmissions": 277296,
+    "TotalAccepted": 164151,
+    "AcceptanceRate": 0.5919703133114073,
+    "ContentFeatures": "",
+    "CodeSnippetFeatures": {
+      "c": "",
+      "cpp": "",
+      "csharp": "",
+      "dart": "",
+      "elixir": "",
+      "erlang": "",
+      "golang": "",
+      "java": "",
+      "javascript": "",
+      "kotlin": "",
+      "php": "",
+      "python": "",
+      "python3": "",
+      "racket": "",
+      "ruby": "",
+      "rust": "",
+      "scala": "",
+      "swift": "",
+      "typescript": ""
+    },
+    "Url": "https://leetcode.com/problems/24-game/"
+  },
+  "Solutions": {
+    "google/gemini-2.5-pro": {
+      "Lang": "python3",
+      "Prompt": "Hi, this is a coding interview. You will be given:\n* A problem statement (with sample test cases if available).\n* A starter code snippet (with fixed function signatures).\n\nPlease write your solution in the python3 programming language. Your code must:\n* Solve the problem fully and correctly.\n* Pass all provided sample test cases.\n* Run within acceptable time and memory limits (assume large inputs if none are specified).\n* Follow good coding practices (clear logic, readable structure, appropriate use of language features).\n\nHere is the problem statement: You are given an integer array cards of length 4. You have four cards, each containing a number in the range [1, 9]. You should arrange the numbers on these cards in a mathematical expression using the operators ['+', '-', '*', '/'] and the parentheses '(' and ')' to get the value 24.\nYou are restricted with the following rules:\n\tThe division operator '/' represents real division, not integer division.\n\t\n\t\tFor example, 4 / (1 - 2 / 3) = 4 / (1 / 3) = 12.\n\t\n\t\n\tEvery operation done is between two numbers. In particular, we cannot use '-' as a unary operator.\n\t\n\t\tFor example, if cards = [1, 1, 1, 1], the expression \"-1 - 1 - 1 - 1\" is not allowed.\n\t\n\t\n\tYou cannot concatenate numbers together\n\t\n\t\tFor example, if cards = [1, 2, 1, 2], the expression \"12 + 12\" is not valid.\n\t\n\t\nReturn true if you can get such expression that evaluates to 24, and false otherwise.\n\u00a0\nExample 1:\nInput: cards = [4,1,8,7]\nOutput: true\nExplanation: (8-4) * (7-1) = 24\nExample 2:\nInput: cards = [1,2,1,2]\nOutput: false\n\u00a0\nConstraints:\n\tcards.length == 4\n\t1 <= cards[i] <= 9\n\nHere is the code snippet, which you should expand with your solution: class Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        \n\nImportant Requirements:\n* Do not change any provided function signatures, class names, or method names.\n* Output only valid source code that can be executed as-is, without any further improvements or bugfixes.\n* Do not include docstrings, markdown, or commentary in your final code.\n\nGood luck!\n",
+      "Answer": "An elegant and effective way to solve this problem is through a recursive backtracking approach. The core idea is to simulate the process of building a mathematical expression. At each step, we have a list of numbers. We pick any two numbers from this list, perform one of the four possible operations (+, -, \\*, /) on them, and then recursively call our function with a new list of numbers, which includes the result of the operation and the remaining numbers.\n\nThe recursion continues until we are left with only one number. If this final number is 24 (or very close to it, to account for floating-point inaccuracies), we have found a valid expression, and we can return `true`. If we exhaust all possible combinations of numbers and operations at every step without reaching 24, then no solution exists, and we return `false`.\n\nHere's a breakdown of the recursive function `solve(nums)`:\n\n1.  **Base Case:** If the input list `nums` contains only one number, we check if it's equal to 24 (using a small epsilon for safe floating-point comparison). If it is, we've found a solution.\n\n2.  **Recursive Step:** If `nums` has more than one number:\n    a. We iterate through all unique pairs of numbers, let's call them `a` and `b`, from the list.\n    b. For each pair, we calculate the results of all possible binary operations:\n        - `a + b`\n        - `a * b`\n        - `a - b` and `b - a` (since subtraction is not commutative)\n        - `a / b` and `b / a` (division is also not commutative, and we must check for division by zero).\n    c. For each result, we form a new list containing this result along with the numbers from the original list that were not part of the pair `(a, b)`.\n    d. We make a recursive call to `solve` with this new, smaller list.\n    e. If any of these recursive calls return `true`, it means a solution was found down that path, so we can immediately propagate `true` up the call stack and terminate the search.\n\n3.  If the loops complete without any recursive call returning `true`, it means no combination of operations for the current set of numbers can lead to 24, so we return `false`.\n\nThis method implicitly covers all possible orderings of numbers (permutations) and all valid parenthesizations without needing to enumerate them explicitly, making for a concise and comprehensive solution.\n\n```python\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        nums = [float(c) for c in cards]\n\n        def solve(current_nums: List[float]) -> bool:\n            n = len(current_nums)\n            if n == 1:\n                return abs(current_nums[0] - 24) < EPS\n\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a = current_nums[i]\n                    b = current_nums[j]\n\n                    remaining = [current_nums[k] for k in range(n) if k != i and k != j]\n\n                    # Commutative operations: a+b, a*b\n                    if solve(remaining + [a + b]): return True\n                    if solve(remaining + [a * b]): return True\n                    \n                    # Non-commutative operations: a-b, b-a, a/b, b/a\n                    if solve(remaining + [a - b]): return True\n                    if solve(remaining + [b - a]): return True\n                    \n                    if b != 0 and solve(remaining + [a / b]): return True\n                    if a != 0 and solve(remaining + [b / a]): return True\n            \n            return False\n\n        return solve(nums)\n```",
+      "TypedCode": "\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        nums = [float(c) for c in cards]\n\n        def solve(current_nums: List[float]) -> bool:\n            n = len(current_nums)\n            if n == 1:\n                return abs(current_nums[0] - 24) < EPS\n\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a = current_nums[i]\n                    b = current_nums[j]\n\n                    remaining = [current_nums[k] for k in range(n) if k != i and k != j]\n\n                    # Commutative operations: a+b, a*b\n                    if solve(remaining + [a + b]): return True\n                    if solve(remaining + [a * b]): return True\n                    \n                    # Non-commutative operations: a-b, b-a, a/b, b/a\n                    if solve(remaining + [a - b]): return True\n                    if solve(remaining + [b - a]): return True\n                    \n                    if b != 0 and solve(remaining + [a / b]): return True\n                    if a != 0 and solve(remaining + [b / a]): return True\n            \n            return False\n\n        return solve(nums)\n",
+      "Model": "google/gemini-2.5-pro",
+      "Latency": 113119829083,
+      "SolvedAt": "2025-11-20T11:53:05.848562+01:00",
+      "PromptTokens": 569,
+      "OutputTokens": 12991
+    }
+  },
+  "Submissions": {
+    "google/gemini-2.5-pro": {
+      "SubmitRequest": {
+        "lang": "python3",
+        "question_id": "679",
+        "typed_code": "\nfrom typing import List\n\nclass Solution:\n    def judgePoint24(self, cards: List[int]) -> bool:\n        EPS = 1e-6\n        nums = [float(c) for c in cards]\n\n        def solve(current_nums: List[float]) -> bool:\n            n = len(current_nums)\n            if n == 1:\n                return abs(current_nums[0] - 24) < EPS\n\n            for i in range(n):\n                for j in range(i + 1, n):\n                    a = current_nums[i]\n                    b = current_nums[j]\n\n                    remaining = [current_nums[k] for k in range(n) if k != i and k != j]\n\n                    # Commutative operations: a+b, a*b\n                    if solve(remaining + [a + b]): return True\n                    if solve(remaining + [a * b]): return True\n                    \n                    # Non-commutative operations: a-b, b-a, a/b, b/a\n                    if solve(remaining + [a - b]): return True\n                    if solve(remaining + [b - a]): return True\n                    \n                    if b != 0 and solve(remaining + [a / b]): return True\n                    if a != 0 and solve(remaining + [b / a]): return True\n            \n            return False\n\n        return solve(nums)\n"
+      },
+      "SubmissionId": 0,
+      "CheckResponse": {
+        "status_code": 10,
+        "status_msg": "Accepted",
+        "Finished": true,
+        "State": "SUCCESS"
+      },
+      "SubmittedAt": "2025-11-20T20:23:27+01:00"
+    }
+  }
+}
